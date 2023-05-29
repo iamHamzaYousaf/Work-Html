@@ -23,7 +23,6 @@
 }
 
 
-
 /*** FONTS *****/
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
@@ -506,18 +505,29 @@ img.vector {
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 20px;
 }
 
 .job-title {
     display: flex;
     align-items: center;
     gap: 20px;
+    max-width: 60%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.job-title .job-services {
+    display: none;
 }
 
 .job-seclude {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+    max-width: 37%;
+    width: 100%;
 }
 
 .job-title button {
@@ -544,15 +554,18 @@ img.vector {
 .job-services {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
-.job-info p {
+.job-services p {
     color: var(--text-color);
     font-family: var(--museo-sans);
     font-size: var(--body-text);
     font-weight: 400;
-    padding: 10px 0px 20px 0px;
+}
+
+p.job-discription {
+    padding: 20px 0px;
 }
 
 .job-skill-location {
@@ -566,6 +579,9 @@ img.vector {
     display: flex;
     gap: 5px;
     align-items: center;
+    flex-wrap: wrap;
+    max-width: 37%;
+    width: 100%;
 }
 
 .job-location img {
@@ -584,6 +600,9 @@ img.vector {
 .job-skills {
     display: flex;
     gap: 10px;
+    align-items: center;
+    max-width: 60%;
+    width: 100%;
 }
 
 .job-skills button {
@@ -878,6 +897,30 @@ ul.site-list {
 
 /*************responsivness start here ***********/
 
+@media only screen and (max-width:1360px) {
+    .job-title {
+        max-width: 56%;
+    }
+    .job-skills {
+        max-width: 56%;
+    }
+    .job-seclude {
+        max-width: 40%;
+    }
+    .job-location {
+        max-width: 40%;
+    }
+}
+
+@media only screen and (max-width:1160px) {
+    .job-title {
+        max-width: 70%;
+    }
+    .job-seclude {
+        max-width: 100%;
+    }
+}
+
 @media only screen and (max-width:1149px) {
     .button-stack button {
         width: 70%;
@@ -937,6 +980,12 @@ ul.site-list {
     }
     h4.contect-readt-start {
         font-size: 36px;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .job-skills {
+        max-width: 80%;
     }
 }
 
@@ -1129,11 +1178,17 @@ ul.site-list {
     .new-job {
         padding: 0px 0px 50px;
     }
+    .job-skills {
+        max-width: 100%;
+    }
     .job-title {
-        display: block;
+        max-width: 100%;
+    }
+    .job-location {
+        max-width: 44%;
     }
     .job-title h3 {
-        padding-bottom: 20px;
+        padding-bottom: 0px;
     }
     .job-title h3,
     .job-title a {
