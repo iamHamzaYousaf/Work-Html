@@ -895,6 +895,67 @@ ul.site-list {
 }
 
 
+/***********cookies scetion start here **********/
+
+.cookies-sec {
+    padding: 20px;
+    background: var(--color-white);
+    border: 1px solid #BDBDBD;
+    box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+}
+
+.cookies-heading {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cookies-heading p {
+    color: var(--text-color);
+    font-size: var(--main-heading);
+    font-family: var(--museo-sans);
+    font-weight: 600;
+}
+
+p.cookies-paragrapgh {
+    color: var(--text-color);
+    font-size: var(--text-size);
+    font-family: var(--museo-sans);
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.cookies-btns {
+    gap: 20px;
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+}
+
+button.decline-btn {
+    padding: 10px 40px;
+    background: transparent;
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+    font-family: var(--museo-sans);
+    font-size: var(--body-text);
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+button.allow-btn {
+    padding: 10px 40px;
+    background: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    color: var(--color-white);
+    font-family: var(--museo-sans);
+    font-size: var(--body-text);
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+
 /*************responsivness start here ***********/
 
 @media only screen and (max-width:1360px) {
@@ -1286,5 +1347,16 @@ ul.site-list {
     .footer-site-development {
         text-align: center;
         padding-bottom: 15px;
+    }
+    /**********cookies section css **********/
+    .cookies-heading p {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    p.cookies-paragrapgh {
+        font-size: 18px;
+    }
+    .cookies-btns {
+        justify-content: center;
     }
 }
