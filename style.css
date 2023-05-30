@@ -8,6 +8,7 @@
     --btn-color: #E2EDFF;
     --boder-color: #BDBDBD;
     --form-text-account: #64A7B6;
+    --bg-color-sec: #FCFCFC;
     /*** FONT SIZES ***/
     --main-heading: 45px;
     --contact-heading: 55px;
@@ -519,27 +520,33 @@ img.vector {
     gap: 20px;
     flex-wrap: wrap;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .job-title {
     display: flex;
     align-items: center;
-    gap: 20px;
-    max-width: 60%;
+    gap: 25px;
+    max-width: 68%;
     width: 100%;
     flex-wrap: wrap;
 }
 
-.job-title .job-services {
-    display: none;
+.job-title h3 {
+    font-weight: 600;
+    margin-bottom: 0px;
 }
+
+
+/* .job-title .job-services {
+    display: none;
+} */
 
 .job-seclude {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
-    max-width: 37%;
+    max-width: 30%;
     width: 100%;
 }
 
@@ -578,7 +585,11 @@ img.vector {
 }
 
 p.job-discription {
-    padding: 20px 0px;
+    padding: 15px 0px;
+    color: var(--text-color);
+    font-size: var(--body-text);
+    font-weight: 400;
+    font-family: var(--museo-sans);
 }
 
 .job-skill-location {
@@ -593,7 +604,7 @@ p.job-discription {
     gap: 5px;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 37%;
+    max-width: 30%;
     width: 100%;
 }
 
@@ -614,7 +625,7 @@ p.job-discription {
     display: flex;
     gap: 10px;
     align-items: center;
-    max-width: 60%;
+    max-width: 68%;
     width: 100%;
 }
 
@@ -659,7 +670,7 @@ p.job-discription {
     border: 1px solid var(--primary-color);
     border-radius: 6px;
     color: var(--primary-color);
-    padding: 12px 20px;
+    padding: 8px 20px;
     font-size: var(--body-text);
     font-weight: 400;
 }
@@ -1096,6 +1107,61 @@ p.forget-password {
     border-top: 2px solid rgba(0, 0, 0, 0.2);
 }
 
+.candidate-login-google {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    padding: 15px 0;
+    margin-top: 10px;
+}
+
+.candidate-login-google a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.candidate-login-google img {
+    max-width: 100%;
+    height: 25px;
+    width: 25px;
+}
+
+.candidate-login-google a p {
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+
+/************** world conect section **********/
+
+.world-conect-sec {
+    background: var(--bg-color-sec);
+    padding: 80px;
+}
+
+.world-conect-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.world-conect-row img {
+    max-width: 100%;
+}
+
+.world-conect-row p {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: var(--main-heading);
+    font-family: var(--museo-sans);
+}
+
 
 /*************responsivness start here ***********/
 
@@ -1208,6 +1274,21 @@ p.forget-password {
     .col-two-button .find-job-btn {
         margin-right: 70px;
     }
+    /************* login form *********/
+    .candidate-login-row {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .candidate-profile {
+        max-width: 100%;
+        width: 100%;
+    }
+    .candiate-login-form {
+        max-width: 100%;
+        width: 100%;
+    }
 }
 
 
@@ -1245,6 +1326,9 @@ p.forget-password {
     .job-announcements {
         width: 100%;
         margin-top: 30px;
+    }
+    .world-conect-row p {
+        font-size: 30px;
     }
 }
 
@@ -1513,5 +1597,26 @@ p.forget-password {
     }
     .cookies-btns {
         justify-content: center;
+    }
+    /******** candidiatelogin page **********/
+    .world-conect-sec {
+        padding: 20px;
+    }
+    .world-conect-row p {
+        font-size: 20px;
+    }
+    .candidate-signin {
+        max-width: 100%;
+        width: 100%;
+    }
+    .candidate-login-row {
+        margin-top: 40px;
+    }
+    .candidate-signin h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .candidate-from-submit input[type="submit"] {
+        font-size: 18px;
     }
 }
