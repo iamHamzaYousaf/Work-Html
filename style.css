@@ -7,6 +7,7 @@
     --color-white: #fff;
     --btn-color: #E2EDFF;
     --boder-color: #BDBDBD;
+    --form-text-account: #64A7B6;
     /*** FONT SIZES ***/
     --main-heading: 45px;
     --contact-heading: 55px;
@@ -106,9 +107,21 @@ html {
     padding: 15px 0;
 }
 
+.row-login-candidate {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
 .col-two-button {
     display: inline-flex;
     align-items: center;
+}
+
+.row-login-candidate .col-two-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: end;
 }
 
 .col-two-button .find-job-btn {
@@ -903,6 +916,11 @@ ul.site-list {
     border: 1px solid #BDBDBD;
     box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.16);
     border-radius: 4px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1001;
+    animation: fadeInUp 1s linear;
 }
 
 .cookies-heading {
@@ -953,6 +971,129 @@ button.allow-btn {
     font-size: var(--body-text);
     font-weight: 600;
     border-radius: 4px;
+}
+
+
+/***************** candidate login page start here   ***************/
+
+.candidate-profile img {
+    max-width: 100%;
+    height: auto;
+}
+
+.candidate-login-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.candidate-profile {
+    max-width: 50%;
+    width: 100%;
+}
+
+.candiate-login-form {
+    max-width: 50%;
+    width: 100%;
+}
+
+.candidate-signin {
+    background: var(--color-white);
+    box-shadow: 0px 1px 4px 3px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(13px);
+    border-radius: 8px;
+    max-width: 70%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 45px 30px 30px;
+}
+
+.candidate-signin h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.candidate-username input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+.candidate-username {
+    margin-bottom: 15px;
+}
+
+input#rememberme {
+    margin-top: 10px;
+}
+
+.candidate-password input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+p.forget-password {
+    float: right;
+    clear: both;
+    margin-top: 6px;
+    color: var(--accent-color);
+    font-family: var(--museo-sans);
+    font-weight: 400;
+    font-size: var(--button-text);
+}
+
+.candidate-from-submit input[type="submit"] {
+    width: 100%;
+    background: var(--accent-color);
+    border: 0;
+    border-radius: 6px;
+    padding: 6px 0;
+    color: var(--color-white);
+    font-family: var(--museo-sans);
+    font-size: var(--text-size);
+    margin-top: 15px;
+}
+
+.signup-here {
+    padding: 20px 0px;
+}
+
+.signup-here p {
+    text-align: center;
+    color: var(--form-text-account);
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    font-weight: 400;
+}
+
+.signup-here p span {
+    color: var(--accent-color);
+}
+
+.or-divider {
+    display: flex;
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-or {
+    text-align: center;
+    color: var(--form-text-account);
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    font-weight: 400;
+}
+
+.divider-one {
+    max-width: 40%;
+    width: 100%;
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
 }
 
 
@@ -1127,6 +1268,11 @@ button.allow-btn {
     .row-log {
         gap: 25px;
         align-items: center;
+    }
+    .row-login-candidate {
+        gap: 25px;
+        align-items: center;
+        justify-content: space-between;
     }
     .logo-col img {
         max-width: 100%;
