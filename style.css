@@ -1496,11 +1496,20 @@ p.forget-password {
     }
     /**********cookies section css **********/
     .cookies-heading p {
-        font-size: 30px;
+        font-size: 20px;
         line-height: 30px;
     }
-    p.cookies-paragrapgh {
+    button.decline-btn {
+        padding: 8px 15px;
         font-size: 18px;
+    }
+    button.allow-btn {
+        padding: 8px 15px;
+        font-size: 18px;
+    }
+    p.cookies-paragrapgh {
+        font-size: 16px;
+        line-height: 1.5em;
     }
     .cookies-btns {
         justify-content: center;
