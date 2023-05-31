@@ -9,6 +9,7 @@
     --boder-color: #BDBDBD;
     --form-text-account: #64A7B6;
     --bg-color-sec: #FCFCFC;
+    --error-msg-color: #F32131;
     /*** FONT SIZES ***/
     --main-heading: 45px;
     --contact-heading: 55px;
@@ -227,6 +228,7 @@ html {
     font-size: 25px;
     font-weight: 600;
     padding: 20px 0px;
+    opacity: 0.4;
 }
 
 .button-stack button {
@@ -580,7 +582,7 @@ img.vector {
 .job-services p {
     color: var(--text-color);
     font-family: var(--museo-sans);
-    font-size: var(--body-text);
+    font-size: var(--promoted-btn);
     font-weight: 400;
 }
 
@@ -953,6 +955,7 @@ p.cookies-paragrapgh {
     font-family: var(--museo-sans);
     font-weight: 400;
     line-height: 30px;
+    opacity: 0.8;
 }
 
 .cookies-btns {
@@ -1068,6 +1071,28 @@ p.forget-password {
     margin-top: 15px;
 }
 
+p.erroe-msg {
+    text-align: end;
+    color: var(--error-msg-color);
+    font-size: var(--button-text);
+    font-weight: 400;
+    font-family: var(--museo-sans);
+}
+
+.error>input {
+    border: 1px solid var(--error-msg-color) !important;
+}
+
+.error>input {
+    background: url('./image/warning.png');
+    background-repeat: no-repeat;
+    display: block;
+    display: block;
+    background-position: 98% center;
+    background-size: 20px;
+    padding-right: 40px !important;
+}
+
 .signup-here {
     padding: 20px 0px;
 }
@@ -1082,6 +1107,10 @@ p.forget-password {
 
 .signup-here p span {
     color: var(--accent-color);
+}
+
+.signup-here a {
+    text-decoration: none;
 }
 
 .or-divider {
@@ -1163,7 +1192,32 @@ p.forget-password {
 }
 
 
+/************** forget password ****************/
+
+.candidate-email input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+
 /*************responsivness start here ***********/
+
+@media only screen and (max-width:1420px) and (min-width:1361px) {
+    .job-title {
+        max-width: 60%;
+    }
+    .job-skills {
+        max-width: 60%;
+    }
+    .job-seclude {
+        max-width: 36%;
+    }
+    .job-location {
+        max-width: 36%;
+    }
+}
 
 @media only screen and (max-width:1360px) {
     .job-title {
