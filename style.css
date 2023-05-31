@@ -11,8 +11,9 @@
     --bg-color-sec: #FCFCFC;
     --error-msg-color: #F32131;
     /*** FONT SIZES ***/
-    --main-heading: 45px;
     --contact-heading: 55px;
+    --main-heading: 45px;
+    --cookies-heding: 40px;
     --sub-heading: 32px;
     --fig-caption: 30px;
     --text-size: 24px;
@@ -944,17 +945,17 @@ ul.site-list {
 
 .cookies-heading p {
     color: var(--text-color);
-    font-size: var(--main-heading);
+    font-size: var(--cookies-heding);
     font-family: var(--museo-sans);
     font-weight: 600;
 }
 
 p.cookies-paragrapgh {
     color: var(--text-color);
-    font-size: var(--text-size);
+    font-size: var(--body-text);
     font-family: var(--museo-sans);
     font-weight: 400;
-    line-height: 30px;
+    line-height: 36px;
     opacity: 0.8;
 }
 
@@ -966,23 +967,25 @@ p.cookies-paragrapgh {
 }
 
 button.decline-btn {
-    padding: 10px 40px;
+    padding: 14px 48px;
     background: transparent;
     border: 1px solid var(--accent-color);
     color: var(--accent-color);
     font-family: var(--museo-sans);
-    font-size: var(--body-text);
+    font-size: var(--button-text);
+    line-height: 20px;
     font-weight: 600;
     border-radius: 4px;
 }
 
 button.allow-btn {
-    padding: 10px 40px;
+    padding: 14px 48px;
     background: var(--accent-color);
     border: 1px solid var(--accent-color);
     color: var(--color-white);
     font-family: var(--museo-sans);
-    font-size: var(--body-text);
+    font-size: var(--button-text);
+    line-height: 20px;
     font-weight: 600;
     border-radius: 4px;
 }
@@ -1080,11 +1083,16 @@ p.erroe-msg {
     font-family: var(--museo-sans);
 }
 
-.error>input {
+.error-input>input {
     border: 1px solid var(--error-msg-color) !important;
 }
 
-.error>input {
+.error-input>input:focus-visible {
+    border: 1px solid var(--error-msg-color) !important;
+    outline: 0;
+}
+
+.error-input>input {
     background: url('./image/warning.png');
     background-repeat: no-repeat;
     display: block;
@@ -1292,15 +1300,120 @@ button.employer-btn:hover {
     color: var(--form-text-account);
 }
 
+.candidate-signup-form {
+    margin-top: 40px;
+}
+
+.candidate-username-signup-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.first-name {
+    max-width: 48%;
+    width: 100%;
+}
+
+.last-name {
+    max-width: 48%;
+    width: 100%;
+}
+
+.candidate-username-signup-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 0.5px solid var(--boder-color);
+    border-radius: 6px;
+}
+
+.f-feild {
+    margin-bottom: 20px;
+}
+
+.signup-email input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 0.5px solid var(--boder-color);
+    border-radius: 6px;
+}
+
+.signup-passowrd input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 0.5px solid var(--boder-color);
+    border-radius: 6px;
+}
+
+.signup-country select#country {
+    width: 100%;
+    padding: 8px;
+    border: 0.5px solid var(--boder-color);
+    border-radius: 6px;
+}
+
+.signup-phone select#countryCode {
+    width: 10%;
+    padding: 8px;
+    border: 0.5px solid var(--boder-color);
+    border-radius: 6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    appearance: none;
+}
+
+.signup-phone input[type="tel"] {
+    width: 89%;
+    padding: 8px;
+    border: 0.5px solid var(--boder-color);
+    border-radius: 6px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -5px;
+}
+
+.signup-job-titles input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 0.5px solid var(--boder-color);
+    border-radius: 6px;
+}
+
+.signup-skill-tags input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 0.5px solid var(--boder-color);
+    border-radius: 6px;
+}
+
+.signup-resume input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border: 0.5px solid var(--boder-color);
+    border-radius: 6px;
+}
+
+.signup-linkedIn-link input[type="url"] {
+    width: 100%;
+    padding: 8px;
+    border: 0.5px solid var(--boder-color);
+    border-radius: 6px;
+}
+
+.signup-check.f-feild {
+    width: 60%;
+    margin: 0 auto;
+}
+
 
 /*************responsivness start here ***********/
 
 @media only screen and (max-width:1420px) and (min-width:1361px) {
     .job-title {
-        max-width: 60%;
+        max-width: 62%;
     }
     .job-skills {
-        max-width: 60%;
+        max-width: 62%;
     }
     .job-seclude {
         max-width: 36%;
@@ -1310,18 +1423,24 @@ button.employer-btn:hover {
     }
 }
 
-@media only screen and (max-width:1360px) {
+@media only screen and (max-width:1360px) and (min-width:1301px) {
     .job-title {
-        max-width: 56%;
+        max-width: 65%;
+    }
+    .job-title {
+        gap: 15px;
     }
     .job-skills {
-        max-width: 56%;
+        max-width: 65%;
     }
     .job-seclude {
-        max-width: 40%;
+        max-width: 32%;
+    }
+    .job-seclude {
+        gap: 10px;
     }
     .job-location {
-        max-width: 40%;
+        max-width: 32%;
     }
 }
 

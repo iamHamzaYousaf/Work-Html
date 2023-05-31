@@ -13,7 +13,7 @@
 <body>
     <header>
         <div class="container-site">
-            <div class="row-login-candidate">
+            <div class="row-log">
                 <div class="logo-col">
                     <a href="#"><img src="../image/WORKBRIDGE.png" alt="logo"></a>
                 </div>
@@ -56,31 +56,89 @@
                             <div class="text-or">Or</div>
                             <div class="divider-one"></div>
                         </div>
-                        <form action="">
-                            <div class="candidate-username">
-                                <input type="text" placeholder="Username">
-                            </div>
-                            <div class="candidate-password error">
-                                <input type="password" placeholder="Password">
-                                <p class="erroe-msg">Incorrect Password</p>
-                                <div class="remember-forget-password">
-                                    <input id="rememberme" name="rememberme" value="remember" type="checkbox" /> &nbsp;Remember me
-                                    <p class="forget-password">Forgot password?</p>
+                        <div class="candidate-signup-form">
+                            <form action="">
+                                <div class="candidate-username-signup-form f-feild">
+                                    <div class="first-name">
+                                        <label for="fname">First Name</label><br>
+                                        <input type="text" placeholder="First Name">
+                                    </div>
+                                    <div class="last-name">
+                                        <label for="lname">Last Name</label><br>
+                                        <input type="text" placeholder="Last Name">
+                                    </div>
                                 </div>
-                                <div class="candidate-from-submit">
-                                    <input type="submit" value="Submit">
+                                <div class="signup-email f-feild">
+                                    <label for="femail">E-Mail</label><br>
+                                    <input type="email" name="" id="" placeholder="Enter valid email">
                                 </div>
-                            </div>
-                            <div class="signup-here">
-                                <p>Don’t have an account? <a href="#"><span>Sign up</span></a></p>
-                            </div>
-                        </form>
+                                <div class="signup-passowrd f-feild">
+                                    <label for="fpassword">Password</label><br>
+                                    <input type="password" name="" id="" placeholder="Enter valid password">
+                                </div>
+                                <div class="signup-country f-feild">
+                                    <label for="fcountry">Country</label><br>
+                                    <select id="country" name="country" class="form-control">
+                                        <option value="Afghanistan">Afghanistan</option>
+                                        <option value="Åland Islands">Åland Islands</option>
+                                        <option value="Albania">Albania</option>
+                                        <option value="Algeria">Algeria</option>
+                                        <option value="American Samoa">American Samoa</option>
+                                    </select>
+                                </div>
+                                <div class="signup-phone f-feild">
+                                    <label for="fphone">Phone</label><br>
+                                    <select name="countryCode" id="countryCode">
+                                        <option data-countryCode="BB" value="1246">(+1246)</option>
+                                        <option data-countryCode="BY" value="375"> (+375)</option>
+                                        <option data-countryCode="BE" value="32">(+32)</option>
+                                        <option data-countryCode="BZ" value="501">(+501)</option>
+                                        <option data-countryCode="BJ" value="229">(+229)</option>
+                                        <option data-countryCode="BM" value="1441">(+1441)</option>
+                                        <option data-countryCode="BT" value="975">+975)</option>
+                                    </select>
+                                    <input type="tel" name="" id="" placeholder="Enter number here">
+                                </div>
+                                <div class="signup-job-titles f-feild">
+                                    <label for="fjobtitles">Job Titles I’m interested in</label>
+                                    <input type="text" name="" id="" placeholder="Job Titles I’m interested in">
+                                </div>
+                                <div class="signup-skill-tags f-feild">
+                                    <label for="fjobtitles">My Top Tech Skill Tags</label>
+                                    <input type="text" name="" id="" placeholder="My Top Tech Skill Tagsn">
+                                </div>
+                                <div class="signup-resume f-feild">
+                                    <label for="fresume">Upload Resume</label>
+                                    <input type="file" name="" id="" placeholder="Choose file">
+                                </div>
+                                <div class="signup-linkedIn-link f-feild">
+                                    <label for="flink">LinkedIn Link</label>
+                                    <input type="url" name="" id="" placeholder="Enter link here">
+                                </div>
+                                <div class="signup-check f-feild">
+                                    <input type="checkbox" name="" id=""> &nbsp;Yes, I understand and Agree to the Terms of Service
+                                </div>
+                                <div class="candidate-password error-input">
+                                    <input type="password" placeholder="Password">
+                                    <p class="erroe-msg">Incorrect Password</p>
+                                    <div class="remember-forget-password">
+                                        <input id="rememberme" name="rememberme" value="remember" type="checkbox" /> &nbsp;Remember me
+                                        <p class="forget-password">Forgot password?</p>
+                                    </div>
+                                    <div class="candidate-from-submit">
+                                        <input type="submit" value="Submit">
+                                    </div>
+                                </div>
+                                <div class="signup-here">
+                                    <p>Don’t have an account? <a href="#"><span>Sign up</span></a></p>
+                                </div>
+                            </form>
+                        </div>
 
                     </div>
 
                 </div>
             </div>
-        </div>
         </div>
     </section>
     <!--------world conect-->
