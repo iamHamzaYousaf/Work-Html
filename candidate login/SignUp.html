@@ -35,7 +35,7 @@
     <section class="candiate-signup">
         <div class="container-site">
             <div class="candiate-signup-row">
-                <div class="candiate-signup-form">
+                <div class="candidate-signup-form">
                     <div class="candidate-signup">
                         <h2>Create Account</h2>
                         <div class="signup-here">
@@ -51,32 +51,43 @@
                                 <p>Continue with Google</p>
                             </a>
                         </div>
-                        <div class="or-divider">
+                        <div class="or-divider ">
                             <div class="divider-one"></div>
                             <div class="text-or">Or</div>
                             <div class="divider-one"></div>
                         </div>
-                        <div class="candidate-signup-form">
+                        <p class="erroe-msg error-email">Email verification Message has been sent to your email address, Please verify your account.</p>
+                        <div class="candidate-signup-form-feild ">
                             <form action="">
-                                <div class="candidate-username-signup-form f-feild">
-                                    <div class="first-name">
+                                <div class="candidate-username-signup-form f-feild ">
+                                    <div class="first-name error-input">
                                         <label for="fname">First Name</label><br>
                                         <input type="text" placeholder="First Name">
+                                        <p class="erroe-msg ">Please enter first name</p>
                                     </div>
                                     <div class="last-name">
                                         <label for="lname">Last Name</label><br>
                                         <input type="text" placeholder="Last Name">
+                                        <p class="erroe-msg hide-error">Please enter last name</p>
                                     </div>
                                 </div>
-                                <div class="signup-email f-feild">
+                                <div class="signup-email f-feild error-input">
                                     <label for="femail">E-Mail</label><br>
                                     <input type="email" name="" id="" placeholder="Enter valid email">
+                                    <p class="erroe-msg">Please enter valid email address</p>
                                 </div>
-                                <div class="signup-passowrd f-feild">
+                                <div class="signup-passowrd f-feild error-input">
                                     <label for="fpassword">Password</label><br>
                                     <input type="password" name="" id="" placeholder="Enter valid password">
+                                    <ul class="erroe-msg">
+                                        <li>Password must be at least 8 characters in length</li>
+                                        <li>Use a minimum of 1 numeric value,</li>
+                                        <li>Use at least 1 Upper Case Letter (ABCD)</li>
+                                        <li> at least 1 Lower Case Letter (abcd)</li>
+                                        <li>User at least one special character ( !# % $ * )</li>
+                                    </ul>
                                 </div>
-                                <div class="signup-country f-feild">
+                                <div class="signup-country f-feild error-input">
                                     <label for="fcountry">Country</label><br>
                                     <select id="country" name="country" class="form-control">
                                         <option value="Afghanistan">Afghanistan</option>
@@ -85,52 +96,65 @@
                                         <option value="Algeria">Algeria</option>
                                         <option value="American Samoa">American Samoa</option>
                                     </select>
+                                    <p class="erroe-msg">Please select country</p>
                                 </div>
-                                <div class="signup-phone f-feild">
+                                <div class="signup-phone f-feild error-input">
                                     <label for="fphone">Phone</label><br>
-                                    <select name="countryCode" id="countryCode">
-                                        <option data-countryCode="BB" value="1246">(+1246)</option>
-                                        <option data-countryCode="BY" value="375"> (+375)</option>
-                                        <option data-countryCode="BE" value="32">(+32)</option>
-                                        <option data-countryCode="BZ" value="501">(+501)</option>
-                                        <option data-countryCode="BJ" value="229">(+229)</option>
-                                        <option data-countryCode="BM" value="1441">(+1441)</option>
-                                        <option data-countryCode="BT" value="975">+975)</option>
-                                    </select>
-                                    <input type="tel" name="" id="" placeholder="Enter number here">
+                                    <div class="merge-feild error-input">
+                                        <select name="countryCode" id="countryCode">
+                                            <option data-countryCode="BB" value="1246">(+1246)</option>
+                                            <option data-countryCode="BY" value="375"> (+375)</option>
+                                            <option data-countryCode="BE" value="32">(+32)</option>
+                                            <option data-countryCode="BZ" value="501">(+501)</option>
+                                            <option data-countryCode="BJ" value="229">(+229)</option>
+                                            <option data-countryCode="BM" value="1441">(+1441)</option>
+                                            <option data-countryCode="BT" value="975">+975)</option>
+                                        </select>
+                                        <input type="tel" name="" id="" placeholder="Enter number here">
+                                    </div>
+                                    <p class="erroe-msg">Enter phone number</p>
                                 </div>
-                                <div class="signup-job-titles f-feild">
+                                <div class="signup-job-titles f-feild tags-tittles">
                                     <label for="fjobtitles">Job Titles I’m interested in</label>
                                     <input type="text" name="" id="" placeholder="Job Titles I’m interested in">
+                                    <ul>
+                                        <li>Technical Support Analyst<button><img src="../image/cross.png" alt=""></button></li>
+                                        <li>Application Administrator<button><img src="../image/cross.png" alt=""></button></li>
+                                        <li>System Administrator<button><img src="../image/cross.png" alt=""></button></li>
+                                        <li>Technical Support Engineer<button><img src="../image/cross.png" alt=""></button></li>
+                                        <li>Technical Support Analyst<button><img src="../image/cross.png" alt=""></button></li>
+                                    </ul>
+                                    <p class="erroe-msg hide-error">Enter job titles </p>
                                 </div>
-                                <div class="signup-skill-tags f-feild">
+                                <div class="signup-skill-tags f-feild tags-tittles">
                                     <label for="fjobtitles">My Top Tech Skill Tags</label>
                                     <input type="text" name="" id="" placeholder="My Top Tech Skill Tagsn">
+                                    <ul>
+                                        <li>Active Directory<button><img src="../image/cross.png" alt=""></button></li>
+                                        <li>SQL Server<button><img src="../image/cross.png" alt=""></button></li>
+                                        <li>Windows Server<button><img src="../image/cross.png" alt=""></button></li>
+                                        <li>SQL Server<button><img src="../image/cross.png" alt=""></button></li>
+                                        <li>Windows Server<button><img src="../image/cross.png" alt=""></button></li>
+                                    </ul>
+                                    <p class="erroe-msg hide-error">Enter skill tags</p>
                                 </div>
-                                <div class="signup-resume f-feild">
+                                <div class="signup-resume f-feild upload-icon">
                                     <label for="fresume">Upload Resume</label>
                                     <input type="file" name="" id="" placeholder="Choose file">
+                                    <p class="erroe-msg hide-error">Upload resume </p>
                                 </div>
                                 <div class="signup-linkedIn-link f-feild">
                                     <label for="flink">LinkedIn Link</label>
                                     <input type="url" name="" id="" placeholder="Enter link here">
+                                    <p class="erroe-msg hide-error">Enter Linkedin URL</p>
                                 </div>
                                 <div class="signup-check f-feild">
                                     <input type="checkbox" name="" id=""> &nbsp;Yes, I understand and Agree to the Terms of Service
                                 </div>
-                                <div class="candidate-password error-input">
-                                    <input type="password" placeholder="Password">
-                                    <p class="erroe-msg">Incorrect Password</p>
-                                    <div class="remember-forget-password">
-                                        <input id="rememberme" name="rememberme" value="remember" type="checkbox" /> &nbsp;Remember me
-                                        <p class="forget-password">Forgot password?</p>
+                                <div class="candidate-password ">
+                                    <div class="candidate-from-signup">
+                                        <input type="submit" value="Create">
                                     </div>
-                                    <div class="candidate-from-submit">
-                                        <input type="submit" value="Submit">
-                                    </div>
-                                </div>
-                                <div class="signup-here">
-                                    <p>Don’t have an account? <a href="#"><span>Sign up</span></a></p>
                                 </div>
                             </form>
                         </div>
