@@ -11,6 +11,7 @@
     --bg-color-sec: #FCFCFC;
     --error-msg-color: #F32131;
     --login-text: #54A8C4;
+    --or-text-color: #4F4F4F;
     /*** FONT SIZES ***/
     --contact-heading: 55px;
     --main-heading: 45px;
@@ -1090,43 +1091,6 @@ p.forget-password {
     margin-top: 15px;
 }
 
-p.error-msg {
-    text-align: end;
-    color: var(--error-msg-color);
-    font-size: var(--button-text);
-    font-weight: 400;
-    font-family: var(--museo-sans);
-}
-
-.error-input>input {
-    border: 1px solid var(--error-msg-color) !important;
-}
-
-.error-input>input:focus-visible {
-    border: 1px solid var(--error-msg-color) !important;
-    outline: 0;
-}
-
-.error-input>input {
-    background: url('./image/warning.png');
-    background-repeat: no-repeat;
-    display: block;
-    display: block;
-    background-position: 98% center;
-    background-size: 20px;
-    padding-right: 40px !important;
-}
-
-.error-input>select {
-    border: 1px solid var(--error-msg-color) !important;
-    outline: 0;
-}
-
-.error-input>select :focus-visible {
-    border: 1px solid var(--error-msg-color) !important;
-    outline: 0 !important;
-}
-
 
 /**** css for form option fields *****/
 
@@ -1308,6 +1272,14 @@ button.employee-btn {
     padding: 15px 0;
 }
 
+.or-text-clr .text-or {
+    text-align: center;
+    color: var(--or-text-color);
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    font-weight: 400;
+}
+
 .candidate-signup-google a {
     display: flex;
     align-items: center;
@@ -1360,10 +1332,6 @@ button.employee-btn {
     margin-bottom: 40px;
 }
 
-.error-input>label {
-    color: var(--error-msg-color) !important;
-}
-
 .f-feild label {
     margin-bottom: 8px;
     color: var(--text-color);
@@ -1394,7 +1362,7 @@ button.employee-btn {
     border-radius: 6px;
 }
 
-.merge-feild.error-input {
+.merge-feild {
     display: flex;
     gap: 0;
 }
@@ -1466,7 +1434,7 @@ button.employee-btn {
     margin: 0 auto;
 }
 
-.candidate-from-signup-create input[type="submit"] {
+button.form-submit {
     width: 100%;
     background: var(--accent-color);
     border: 0;
@@ -1516,6 +1484,9 @@ button.employee-btn {
     justify-content: space-between;
 }
 
+
+/************** coomeon error validation from csss *****************/
+
 p.error-msg {
     text-align: end;
     color: var(--error-msg-color);
@@ -1539,6 +1510,10 @@ p.hide-error {
 p.error-email {
     text-align: center !important;
     margin-top: 30px;
+}
+
+.error-input>label {
+    color: var(--error-msg-color) !important;
 }
 
 .error-input>input {
@@ -1593,6 +1568,10 @@ p.error-email {
     outline: 0;
 }
 
+.error-input>div#countryCode>p {
+    color: var(--error-msg-color);
+}
+
 .error-input>div#countryCode :focus-visible {
     border: 1px solid var(--error-msg-color) !important;
     outline: 0 !important;
@@ -1607,6 +1586,10 @@ section.model-popup {
     width: 100vw;
     background: rgb(0 0 0 / 80%);
     top: 0%;
+}
+
+.hide-model-popup {
+    display: none;
 }
 
 .popup-content {
@@ -2161,23 +2144,19 @@ p.popup-text {
         max-width: 100%;
         width: 100%;
         margin: 0 auto;
-        /* padding: 50px 0px; */
     }
     .candidate-signup-google {
         max-width: 100%;
         width: 100%;
     }
-    button.employer-btn,
-    button.candidate-btn {
-        padding: 10px 40px;
-    }
     .candidate-employe-btn {
         gap: 10px;
     }
-    button.employer-btn {
+    button.employee-btn {
         border: 1px solid rgba(0, 0, 0, 0.2);
         border-top-left-radius: 6px;
         border-bottom-left-radius: 6px;
+        padding: 10px 40px;
     }
     .signup-phone select#countryCode {
         width: 20%;
@@ -2196,7 +2175,7 @@ p.popup-text {
         font-size: 30px;
         line-height: 36px;
     }
-    .candidate-from-signup-create input[type="submit"] {
+    button.form-submit {
         font-size: 18px;
     }
     .signup-email input[type="email"],
