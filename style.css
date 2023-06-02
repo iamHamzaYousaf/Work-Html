@@ -10,6 +10,7 @@
     --form-text-account: #64A7B6;
     --bg-color-sec: #FCFCFC;
     --error-msg-color: #F32131;
+    --login-text: #54A8C4;
     /*** FONT SIZES ***/
     --contact-heading: 55px;
     --main-heading: 45px;
@@ -1089,30 +1090,12 @@ p.forget-password {
     margin-top: 15px;
 }
 
-p.erroe-msg {
+p.error-msg {
     text-align: end;
     color: var(--error-msg-color);
     font-size: var(--button-text);
     font-weight: 400;
     font-family: var(--museo-sans);
-}
-
-ul.erroe-msg li {
-    /* text-align: end; */
-    color: var(--error-msg-color);
-    font-size: var(--button-text);
-    font-weight: 400;
-    font-family: var(--museo-sans);
-}
-
-p.hide-error {
-    display: none !important;
-}
-
-p.error-email {
-    text-align: center !important;
-    margin-top: 30px;
-    ;
 }
 
 .error-input>input {
@@ -1144,26 +1127,8 @@ p.error-email {
     outline: 0 !important;
 }
 
-.error-input>select {
-    background: url('./image/warning.png');
-    background-repeat: no-repeat;
-    display: block;
-    display: block;
-    background-position: 98% center;
-    background-size: 20px;
-    padding-right: 40px !important;
-}
 
-.error-input>select#countryCode {
-    display: block;
-    background-position: 98% center;
-    background-size: 20px;
-    padding-right: 0px !important;
-    background-color: transparent !important;
-}
-
-
-/**** css for form optiom feilld *****/
+/**** css for form option fields *****/
 
 .signup-here {
     padding: 20px 0px;
@@ -1276,19 +1241,28 @@ p.error-email {
 
 /*********** candidate SignUp page satrt here ***************/
 
-
-/* .candiate-signup-form {
-    max-width: 50%;
-    width: 100%;
-    margin: 0 auto;
-    padding-top: 50px;
-} */
-
 .candidate-signup-form {
     max-width: 50%;
     width: 100%;
     margin: 0 auto;
     padding: 50px 0px;
+}
+
+.login-here {
+    padding: 20px 0px;
+}
+
+.login-here p {
+    text-align: center;
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    font-weight: 400;
+}
+
+.login-here a {
+    text-decoration: none;
+    color: var(--login-text);
 }
 
 .candidate-signup h2 {
@@ -1303,7 +1277,7 @@ p.error-email {
     justify-content: center;
 }
 
-button.candidate-btn {
+button.toggle-btn-active {
     background: var(--primary-color);
     padding: 15px 125px;
     border: 1px solid var(--primary-color);
@@ -1314,13 +1288,7 @@ button.candidate-btn {
     font-weight: 400;
 }
 
-button.candidate-btn:hover {
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    background: var(--color-white);
-    color: var(--primary-color);
-}
-
-button.employer-btn {
+button.employee-btn {
     background: var(--color-white);
     padding: 15px 125px;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -1329,16 +1297,6 @@ button.employer-btn {
     font-size: var(--body-text);
     font-family: var(--museo-sans);
     font-weight: 400;
-    border-left: 0px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-}
-
-button.employer-btn:hover {
-    background: var(--primary-color);
-    border: 1px solid var(--primary-color);
-    border-radius: 6px;
-    color: var(--color-white);
 }
 
 .candidate-signup-google {
@@ -1441,7 +1399,19 @@ button.employer-btn:hover {
     gap: 0;
 }
 
-.signup-phone select#countryCode {
+
+/* .signup-phone select#countryCode {
+    width: 14%;
+    padding: 18px 8px;
+    border: 0.5px solid var(--boder-color);
+    border-radius: 6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    appearance: none;
+    background: var(--boder-color);
+} */
+
+.signup-phone div#countryCode {
     width: 14%;
     padding: 18px 8px;
     border: 0.5px solid var(--boder-color);
@@ -1496,6 +1466,18 @@ button.employer-btn:hover {
     margin: 0 auto;
 }
 
+.candidate-from-signup-create input[type="submit"] {
+    width: 100%;
+    background: var(--accent-color);
+    border: 0;
+    border-radius: 6px;
+    padding: 6px 0;
+    color: var(--color-white);
+    font-family: var(--museo-sans);
+    font-size: var(--text-size);
+    margin-top: 15px;
+}
+
 .upload-icon>input {
     background: url('./image/upload.png');
     background-repeat: no-repeat;
@@ -1532,6 +1514,136 @@ button.employer-btn:hover {
 .tags-tittles ul li {
     display: inline-flex;
     justify-content: space-between;
+}
+
+p.error-msg {
+    text-align: end;
+    color: var(--error-msg-color);
+    font-size: var(--button-text);
+    font-weight: 400;
+    font-family: var(--museo-sans);
+}
+
+ul.error-msg li {
+    /* text-align: end; */
+    color: var(--error-msg-color);
+    font-size: var(--button-text);
+    font-weight: 400;
+    font-family: var(--museo-sans);
+}
+
+p.hide-error {
+    display: none !important;
+}
+
+p.error-email {
+    text-align: center !important;
+    margin-top: 30px;
+}
+
+.error-input>input {
+    border: 1px solid var(--error-msg-color) !important;
+}
+
+.error-input>input:focus-visible {
+    border: 1px solid var(--error-msg-color) !important;
+    outline: 0;
+}
+
+.error-input>input {
+    background: url('./image/warning.png');
+    background-repeat: no-repeat;
+    display: block;
+    display: block;
+    background-position: 98% center;
+    background-size: 20px;
+    padding-right: 40px !important;
+}
+
+.error-input>select {
+    border: 1px solid var(--error-msg-color) !important;
+    outline: 0;
+}
+
+.error-input>select :focus-visible {
+    border: 1px solid var(--error-msg-color) !important;
+    outline: 0 !important;
+}
+
+.error-input>select {
+    background: url('./image/warning.png');
+    background-repeat: no-repeat;
+    display: block;
+    display: block;
+    background-position: 98% center;
+    background-size: 20px;
+    padding-right: 40px !important;
+}
+
+.error-input>div#countryCode {
+    display: block;
+    background-position: 98% center;
+    background-size: 20px;
+    padding-right: 0px !important;
+    background-color: transparent !important;
+}
+
+.error-input>div#countryCode {
+    border: 1px solid var(--error-msg-color) !important;
+    outline: 0;
+}
+
+.error-input>div#countryCode :focus-visible {
+    border: 1px solid var(--error-msg-color) !important;
+    outline: 0 !important;
+}
+
+
+/************* model popup start here **************/
+
+section.model-popup {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(0 0 0 / 80%);
+    top: 0%;
+}
+
+.popup-content {
+    width: 50%;
+    height: 50%;
+    margin: 50px auto 0;
+    background: #fff;
+    padding: 100px;
+    position: relative;
+}
+
+.close-img {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+p.popup-text {
+    text-align: center;
+    font-size: var(--sub-heading);
+    color: var(--primary-color);
+    font-family: var(--museo-sans);
+    font-weight: 600;
+}
+
+.send-correct {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.send-correct img {
+    max-width: 100%;
+    height: auto;
+    width: 20%;
 }
 
 
@@ -2084,6 +2196,9 @@ button.employer-btn:hover {
         font-size: 30px;
         line-height: 36px;
     }
+    .candidate-from-signup-create input[type="submit"] {
+        font-size: 18px;
+    }
     .signup-email input[type="email"],
     .signup-passowrd input[type="password"],
     .signup-country select#country,
@@ -2095,5 +2210,24 @@ button.employer-btn:hover {
     .signup-linkedIn-link input[type="url"],
     .candidate-username-signup-form input[type="text"] {
         padding: 12px 8px;
+    }
+    /************* popup model *************/
+    .popup-content {
+        width: 90%;
+        padding: 50px 15px 20px;
+    }
+    .close-img {
+        position: absolute;
+        right: 10px;
+        top: 15px;
+    }
+    p.popup-text {
+        font-size: 20px;
+    }
+    .send-correct {
+        padding-top: 20px;
+    }
+    .send-correct img {
+        width: 25%;
     }
 }
