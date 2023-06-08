@@ -2423,6 +2423,9 @@ ul.job-details-list li {
     .job-location p {
         font-size: 16px;
     }
+    .filter-serach-btn {
+        max-width: 80%;
+    }
 }
 
 @media only screen and (max-width:1360px) and (min-width:1301px) {
@@ -2446,6 +2449,9 @@ ul.job-details-list li {
     }
     .job-time p {
         font-size: 15px;
+    }
+    .filter-serach-btn {
+        max-width: 80%;
     }
 }
 
