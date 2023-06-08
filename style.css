@@ -1455,8 +1455,12 @@ button.employee-btn {
 }
 
 .signup-check.f-feild {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    font-weight: 400;
+    color: var(--text-color);
 }
 
 button.form-submit {
@@ -1464,7 +1468,7 @@ button.form-submit {
     background: var(--accent-color);
     border: 0;
     border-radius: 6px;
-    padding: 6px 0;
+    padding: 18px 0;
     color: var(--color-white);
     font-family: var(--museo-sans);
     font-size: var(--body-text);
@@ -2022,7 +2026,7 @@ section.f-dream.job {
 }
 
 .filter-serach-btn {
-    max-width: 85%;
+    max-width: 75%;
     width: 100%;
     margin: 50px auto;
     display: flex;
@@ -2049,20 +2053,17 @@ section.f-dream.job {
 .three-filter-inline {
     display: flex;
     justify-content: space-between;
-    max-width: 85%;
+    max-width: 80%;
     width: 100%;
     align-items: center;
+    border: 0.5px solid var(--boder-color);
+    border-radius: 6px;
+    padding: 8px;
 }
 
 .job-post-date {
-    max-width: 15%;
+    max-width: 20%;
     width: 100%;
-}
-
-.three-filter-inline {
-    border: 0.5px solid var(--boder-color);
-    border-radius: 6px;
-    padding: 10px;
 }
 
 #job-search-field,
@@ -2087,7 +2088,7 @@ section.f-dream.job {
 }
 
 .job-type-f {
-    padding-right: 120px;
+    padding: 0 110px 0 10px;
     border-right: 1px solid var(--boder-color);
 }
 
