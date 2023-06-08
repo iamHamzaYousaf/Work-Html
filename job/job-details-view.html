@@ -558,4 +558,139 @@
             </div>
         </div>
     </section>
+
+    <section class="f-dream job">
+        <div class="container-site">
+            <div class="f-job-heaading">
+                <h2>Find your dream job</h2>
+            </div>
+            <div class="filter-serach-btn">
+                <div class="job-fillter-f">
+                    <div class="three-filter-inline">
+                        <div class="job-keywords">
+                            <img src="../image/job-search.png" alt="">
+                            <input type="text" name="" id="job-search-field" placeholder="Key words, company, skills...">
+                        </div>
+                        <div class="job-type-f">
+                            <div id="dropdown-boxId1" class="company-form-dropdownBox" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Job Type</div>
+                            <div id="company-dropList1" class="dropdown-menu company-drop-list">
+                                <ul>
+                                    <li>Mobile App </li>
+                                    <li>Website Developer</li>
+                                    <li>Social Media</li>
+                                    <li>Mobile App Developer</li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="job-location-f">
+                            <img src="../image/job-location.png" alt="">
+                            <input type="tel" name="" id="job-location-field" placeholder="Job Location">
+                        </div>
+                    </div>
+                    <div class="job-post-date">
+                        <div id="dropdown-boxId2" class="company-form-dropdownBox" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Date Posted</div>
+                        <div id="company-dropList2" class="dropdown-menu company-drop-list">
+                            <ul>
+                                <li>Today</li>
+                                <li>Last 7 Days</li>
+                                <li>Last 14 Days</li>
+                                <li>This Month</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="find-job-btn job-filter-btn">
+                    <a href="#"><button>Find a Job</button></a>
+                    <p class="clear-filter">Clear All Filters</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        // When the user clicks, open the popup
+        function popupFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+
+        }
+        // When the user clicks, open trade mennu
+        function tradeFunction() {
+            var trade = document.getElementById("trademenu-drpdown");
+            trade.classList.toggle("show");
+        }
+    </script>
+    <script>
+        /*for toggle sub menu*/
+        function subtogglediv(id, icon) {
+            var id = document.getElementById(id);
+            id.classList.toggle('submenu-active');
+            var cross = document.getElementById(icon);
+            cross.classList.toggle('fa-times');
+            cross.classList.toggle('fa-bars');
+        }
+    </script>
+    <script>
+        var industryVal = document.getElementById("company-dropList1").querySelectorAll(".company-drop-list ul li");
+        industryVal.forEach(function(item) {
+            item.onclick = function(e) {
+                document.getElementById('dropdown-boxId1').innerHTML = this.innerHTML;
+            }
+
+        });
+        var companysizeVal = document.getElementById("company-dropList2").querySelectorAll(".company-drop-list ul li");
+
+        companysizeVal.forEach(function(item) {
+            item.onclick = function(e) {
+                document.getElementById('dropdown-boxId2').innerHTML = this.innerHTML;
+            }
+
+        });
+        var companytypeVal = document.getElementById("company-dropList3").querySelectorAll(".company-drop-list ul li");
+
+        companytypeVal.forEach(function(item) {
+            item.onclick = function(e) {
+                document.getElementById('dropdown-boxId3').innerHTML = this.innerHTML;
+            }
+
+        });
+    </script>
+    <script type="text/javascript">
+        //For modal
+        document.addEventListener('click', function(e) {
+            e = e || window.event;
+            var target = e.target || e.srcElement;
+
+            if (target.hasAttribute('data-toggle') && target.getAttribute('data-toggle') == 'modal') {
+                if (target.hasAttribute('data-target')) {
+                    var m_ID = target.getAttribute('data-target');
+                    document.getElementById(m_ID).classList.add('open');
+                }
+            }
+
+            // Close modal window with 'data-dismiss' attribute or when the backdrop is clicked
+            if ((target.hasAttribute('data-dismiss') && target.getAttribute('data-dismiss') == 'modal') || target.classList.contains('modal')) {
+                var modal = document.querySelector('.modal.open');
+                modal.classList.remove('open');
+            }
+        }, false);
+    </script>
+    <script>
+        $(function() {
+            $('.menu-mid-sect ul li.submenubar-item a').click(function() {
+                $('.menu-mid-sect ul li.submenubar-item a').each(function(a) {
+                    $(this).removeClass('selectedclass')
+                });
+                $(this).addClass('selectedclass');
+            });
+
+        });
+    </script>
 </body>
