@@ -2022,7 +2022,7 @@ section.f-dream.job {
 }
 
 .filter-serach-btn {
-    max-width: 80%;
+    max-width: 85%;
     width: 100%;
     margin: 50px auto;
     display: flex;
@@ -2038,12 +2038,25 @@ section.f-dream.job {
     width: 100%;
 }
 
+.job-fillter-company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    width: 100%;
+}
+
 .three-filter-inline {
     display: flex;
     justify-content: space-between;
-    max-width: 86%;
+    max-width: 85%;
     width: 100%;
     align-items: center;
+}
+
+.job-post-date {
+    max-width: 15%;
+    width: 100%;
 }
 
 .three-filter-inline {
@@ -2061,12 +2074,20 @@ section.f-dream.job {
 }
 
 .job-location-f img {
-    padding-right: 20px;
+    padding-right: 15px;
 }
 
-.job-keywords,
-.job-type-f {
+.job-keywords img {
+    padding-right: 15px;
+}
+
+.job-keywords {
     padding-right: 50px;
+    border-right: 1px solid var(--boder-color);
+}
+
+.job-type-f {
+    padding-right: 120px;
     border-right: 1px solid var(--boder-color);
 }
 
@@ -2365,7 +2386,9 @@ ul.job-details-list li {
     position: relative;
 }
 
-.j-company-fillter {
+.j-company-fillter,
+.job-type-f,
+.job-post-date {
     position: relative;
 }
 
@@ -2374,7 +2397,7 @@ ul.job-details-list li {
     position: absolute;
     right: 10px;
     font-size: 15px;
-    top: 8px;
+    margin-bottom: 5px;
 }
 
 
@@ -2527,9 +2550,13 @@ ul.job-details-list li {
         max-width: 100%;
         width: 100%;
     }
-    .job-fillter-f {
+    .job-fillter-company {
         max-width: 18%;
         width: 100%;
+    }
+    .job-type-f,
+    .job-keywords {
+        padding-right: 30px;
     }
 }
 
@@ -2543,7 +2570,7 @@ ul.job-details-list li {
         width: 100%;
         display: block;
     }
-    .job-fillter-f {
+    .job-fillter-company {
         max-width: 18%;
         width: 100%;
     }
@@ -2694,6 +2721,26 @@ ul.job-details-list li {
         max-width: 50%;
         width: 100%;
         margin: 0 auto;
+    }
+    /**********filler feild job detail page *************/
+    .job-keywords img {
+        width: 34px;
+        max-width: 100%;
+        height: auto;
+    }
+    .job-location-f img {
+        max-width: 100%;
+        height: auto;
+        width: 34px;
+    }
+    .job-fillter-f {
+        display: block;
+        max-width: 85%;
+        width: 100%;
+    }
+    .job-post-date {
+        max-width: 100%;
+        width: 100%;
     }
 }
 
@@ -3130,6 +3177,11 @@ ul.job-details-list li {
         max-width: 100%;
         width: 100%;
     }
+    .job-fillter-company {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+    }
     .three-filter-inline {
         border: 0px solid var(--boder-color);
         border-radius: 0px;
@@ -3179,6 +3231,7 @@ ul.job-details-list li {
     .company-detail-heading h2 {
         font-size: 30px;
     }
+    /******************/
     p.clear-filter {
         right: 0px;
         bottom: -34px;
@@ -3234,6 +3287,21 @@ ul.job-details-list li {
     .company-content-right {
         max-width: 100%;
         width: 100%;
+    }
+    /**************** job detal page filer***********/
+    .job-post-date {
+        max-width: 100%;
+        width: 100%;
+    }
+    .job-keywords img {
+        width: 34px;
+        max-width: 100%;
+        height: auto;
+    }
+    .job-location-f img {
+        max-width: 100%;
+        height: auto;
+        width: 34px;
     }
 }
 
