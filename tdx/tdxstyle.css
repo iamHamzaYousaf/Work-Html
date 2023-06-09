@@ -156,7 +156,7 @@ p.banner-featured-content {
 .featured-text button {
     text-align: end;
     display: block;
-    margin: 15px 0 0 auto;
+    margin: 15px 0 0;
     padding: 15px 24px;
     border: 1px solid var(--secondary-color-tdx);
     border-radius: 8px;
@@ -437,6 +437,10 @@ ul.footer-service-list {
     font-weight: var(--font-weight-medium);
     line-height: 31px;
     text-decoration: underline;
+}
+
+.footer-block-three h6 {
+    padding-bottom: 20px;
 }
 
 .footer-block-one a {
