@@ -2083,13 +2083,16 @@ section.f-dream.job {
 }
 
 .job-keywords {
-    padding-right: 50px;
+    padding-right: 20px;
     border-right: 1px solid var(--boder-color);
+    max-width: 40%;
 }
 
 .job-type-f {
-    padding: 0 110px 0 10px;
+    padding: 0 20px 0 10px;
     border-right: 1px solid var(--boder-color);
+    max-width: 30%;
+    width: 100%;
 }
 
 .job-post-date {
@@ -2248,6 +2251,10 @@ ul.job-details-list li {
 
 /*********company detail page start here ************/
 
+.open-postion {
+    padding-top: 100px;
+}
+
 .company-detail-sec {
     padding: 50px 0px;
 }
@@ -2295,7 +2302,7 @@ ul.job-details-list li {
 }
 
 .j-fillter-only {
-    margin: 50px auto 0 0;
+    margin: 30px auto 30px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -2393,12 +2400,25 @@ ul.job-details-list li {
     position: relative;
 }
 
-.company-form-dropdownBox:after {
+
+/* .company-form-dropdownBox:after {
     content: "⌄";
     position: absolute;
     right: 10px;
     font-size: 15px;
     margin-bottom: 5px;
+} */
+
+.company-form-dropdownBox:after {
+    content: " ";
+    background-image: url(./image/dropdown-arrow.png);
+    width: 38px;
+    height: 10px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    position: absolute;
+    background-size: contain;
+    right: 0;
 }
 
 
@@ -2563,7 +2583,11 @@ ul.job-details-list li {
     }
     .job-type-f,
     .job-keywords {
-        padding-right: 30px;
+        padding-right: 15px;
+    }
+    .job-location-f img {
+        padding-right: 8px;
+        padding-left: 7px;
     }
 }
 
@@ -2748,6 +2772,14 @@ ul.job-details-list li {
     .job-post-date {
         max-width: 100%;
         width: 100%;
+    }
+    .job-keywords,
+    .job-type-f {
+        max-width: 100%;
+    }
+    /*********company details ************/
+    .open-postion {
+        padding-top: 50px;
     }
 }
 
@@ -3206,6 +3238,10 @@ ul.job-details-list li {
         border-radius: 6px;
         margin-bottom: 15px;
     }
+    .job-keywords,
+    .job-type-f {
+        max-width: 100%;
+    }
     .job-post-date {
         padding: 12px;
         margin-left: 0px;
@@ -3310,7 +3346,15 @@ ul.job-details-list li {
         height: auto;
         width: 34px;
     }
+    /*********company details ************/
+    .open-postion {
+        padding-top: 50px;
+    }
 }
 
 
 /*********test**********/
+
+.left-right-content {
+    display: flex;
+}
