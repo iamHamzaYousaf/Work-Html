@@ -119,6 +119,13 @@ html {
     margin: 0 auto;
 }
 
+.container-site-job-match {
+    max-width: 1920px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 .container-medium {
     max-width: 1440px;
     width: 100%;
@@ -530,10 +537,8 @@ img.vector {
 }
 
 .job-heading h2 {
+    text-align: center;
     font-weight: var(--font-weight-bold);
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
 }
 
 .divider {
@@ -2248,6 +2253,13 @@ ul.job-details-list li {
     padding-bottom: 0;
 }
 
+.smilar-job-heading h2 {
+    font-weight: var(--font-weight-bold);
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
 
 /*********company detail page start here ************/
 
@@ -3357,4 +3369,81 @@ ul.job-details-list li {
 
 .left-right-content {
     display: flex;
+}
+
+.job-col-left {
+    max-width: 25%;
+    width: 100%;
+}
+
+.job-col-right {
+    max-width: 75%;
+    width: 100%;
+}
+
+.job-col-left {
+    max-width: 25%;
+    width: 100%;
+    padding: 20px 60px 20px 15px;
+}
+
+.job-col-right {
+    max-width: 75%;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.job-title-left {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    max-width: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.job-title-left a button {
+    padding: 10px 12px;
+    border: 0;
+    background: rgba(255, 160, 51, 0.15);
+    border-radius: 4px;
+    color: var(--accent-color);
+    font-family: var(--museo-sans);
+    font-size: var(--promoted-btn);
+    font-weight: var(--font-weight-bold);
+}
+
+.job-col-left h3 {
+    font-size: var(--promoted-btn);
+    color: var(--text-color);
+}
+
+.job-discription-left {
+    padding: 15px 0px;
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+}
+
+.job-col-left button {
+    background: var(--color-white);
+    border: 1px solid var(--primary-color);
+    border-radius: 6px;
+    color: var(--primary-color);
+    padding: 8px 20px;
+    font-size: var(--promoted-btn);
+    font-weight: var(--font-weight-medium);
+    display: block;
+    margin: 0 0 0 auto;
+}
+
+.job-title-left a,
+.job-col-left a {
+    text-decoration: none;
+}
+
+.divider-left {
+    border-right: 1px solid var(--text-color);
 }
