@@ -183,9 +183,18 @@
                 <div class="form-col">
                     <div class="bussniess-form">
                         <form action="">
-                            <input type="text" name="" id="name-f" placeholder="Name"><br>
-                            <input type="email" name="" id="email-f" placeholder="Email"><br>
-                            <textarea name="" id="textarea-f" cols="30" rows="15" placeholder="Type here......."></textarea><br>
+                            <div class="f-feild error-input">
+                                <input type="text" name="" id="name-f" placeholder="Name">
+                                <p class="error-msg">Name Requried</p>
+                            </div>
+                            <div class="f-feild error-input">
+                                <input type="email" name="" id="email-f" placeholder="Email">
+                                <p class="error-msg">Email Requried</p>
+                            </div>
+                            <div class="f-feild error-input">
+                                <textarea name="" id="textarea-f" cols="30" rows="15" placeholder="Type here......."></textarea>
+                                <p class="error-msg">Reuried Massage</p>
+                            </div>
                             <button type="submit" id="btn-sumbit">Send Massage</button>
                         </form>
                     </div>

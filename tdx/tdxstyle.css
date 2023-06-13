@@ -14,6 +14,7 @@
     --text-color-dtx: #000000;
     --color-white-tdx: #fff;
     --boder-color: #CCCCCC;
+    --error-msg-color: #F32131;
     /*** FONT SIZES ***/
     --banner-heading-first: 60px;
     --banner-heading-sec: 48px;
@@ -356,7 +357,6 @@ section.form-sec {
 #textarea-f {
     width: 100%;
     padding: 18px 8px;
-    margin-bottom: 20px;
     background: var(--accent-color-dtx);
     border: 1px solid #B1B1B1;
     border-radius: 8px;
@@ -404,6 +404,52 @@ section.form-sec {
 #btn-sumbit:focus-visible {
     border: 0;
     outline: 0;
+}
+
+
+/***************form validation css *****************/
+
+.f-feild {
+    margin-bottom: 40px;
+}
+
+p.error-msg {
+    text-align: end;
+    color: var(--error-msg-color);
+    font-size: var(--promoted-btn);
+    font-weight: var(--font-weight-medium);
+    font-family: var(--inter);
+}
+
+.error-input>input {
+    border: 1px solid var(--error-msg-color) !important;
+}
+
+.error-input>input:focus-visible {
+    border: 1px solid var(--error-msg-color) !important;
+    outline: 0;
+}
+
+.error-input>textarea {
+    border: 1px solid var(--error-msg-color) !important;
+}
+
+.error-input>input {
+    background: url('./image/warning.png') !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    background-position: 98% center !important;
+    background-size: 20px !important;
+    padding-right: 40px !important;
+}
+
+.error-input>textarea {
+    background: url('./image/warning.png') !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    background-position: right 10px bottom 20px !important;
+    background-size: 20px !important;
+    padding-right: 40px !important;
 }
 
 
