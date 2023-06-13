@@ -2534,6 +2534,25 @@ margin-bottom: 5px;
     border-right: 1px solid var(--text-color);
 }
 
+.job-services-right-col {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.job-services-right-col p {
+    color: var(--text-color);
+    font-family: var(--museo-sans);
+    font-size: var(--body-text);
+    font-weight: var(--font-weight-medium);
+}
+
+.job-services-right-col img {
+    height: 35px;
+    width: 35px;
+    object-fit: contain;
+}
+
 
 /************************/
 
@@ -2544,6 +2563,10 @@ margin-bottom: 5px;
     max-width: 54%;
     width: 100%;
     flex-wrap: wrap;
+}
+
+.job-title-right-col h3 {
+    font-weight: var(--font-weight-bold);
 }
 
 .job-skills-right-col {
@@ -2603,8 +2626,10 @@ margin-bottom: 5px;
 
 .job-services-col-left {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 10px;
+    max-width: 70%;
+    width: 100%;
 }
 
 .job-location-right-col p {
@@ -2617,6 +2642,8 @@ margin-bottom: 5px;
     height: 35px;
     width: 35px;
     object-fit: contain;
+    position: relative;
+    top: -5px;
 }
 
 .job-location-right-col img {
@@ -2754,6 +2781,83 @@ section.profile-edit {
     top: 50%;
     margin: 0;
     font-weight: var(--font-weight-bold);
+}
+
+.my-profile-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.candidtae-profile-image {
+    max-width: 15%;
+    width: 100%;
+}
+
+.candidate-information {
+    max-width: 70%;
+    width: 100%;
+}
+
+.candidate-profile-btn {
+    max-width: 15%;
+    width: 100%;
+}
+
+.candiate-info-heading a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+}
+
+p.candidate-info-text {
+    color: var(--text-color);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    font-size: var(--body-text);
+    line-height: 24px;
+}
+
+.candidtae-profile-image {
+    max-width: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #C4C4C4;
+    padding: 15px 0;
+}
+
+input#file-input-upload {
+    display: none;
+}
+
+label#candidate-img {
+    text-align: center;
+}
+
+p.candidate-logo-file {
+    color: var(--text-color);
+    font-size: var(--button-text);
+    font-weight: var(--font-weight-bold);
+    opacity: 0.5;
+    font-family: var(--museo-sans);
+    line-height: 19px;
+}
+
+p.file-size-candidate {
+    color: var(--text-color);
+    font-size: var(--skill-text-size);
+    font-weight: var(--font-weight-medium);
+    opacity: 0.5;
+    font-family: var(--museo-sans);
+    line-height: 17px;
+}
+
+.candiate-info-heading {
+    padding: 15px 0 0;
 }
 
 
