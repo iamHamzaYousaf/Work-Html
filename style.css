@@ -573,8 +573,16 @@ img.vector {
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     padding-bottom: 15px;
+}
+
+.top-text-btn-align {
+    align-items: flex-start;
+}
+
+.top-text-btn-align h3 {
+    max-width: 60%;
 }
 
 .job-title {
@@ -2575,6 +2583,10 @@ margin-bottom: 5px;
     max-width: 60%;
 }
 
+.job-match-pro-btn h3 {
+    max-width: 100%;
+}
+
 .job-skills-right-col {
     display: flex;
     align-items: center;
@@ -2806,6 +2818,10 @@ section.profile-edit {
     width: 100%;
 }
 
+.candidate-information h5 {
+    font-weight: var(--font-weight-bold);
+}
+
 .candidate-profile-btn {
     max-width: 15%;
     width: 100%;
@@ -2837,12 +2853,16 @@ p.candidate-info-text {
     padding: 15px 0;
 }
 
-input#file-input-upload {
+.candidtae-profile-image input {
     display: none;
 }
 
 label#candidate-img {
     text-align: center;
+}
+
+label#candidate-img img {
+    cursor: pointer;
 }
 
 p.candidate-logo-file {
@@ -2890,6 +2910,10 @@ section.candidate-profile-tabs {
 .accordion-button::after {
     background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
     transform: scale(1) !important;
+    border: 1px solid var(--primary-color);
+    padding: 12px;
+    background-position: center;
+    border-radius: 8px;
 }
 
 .accordion-button:not(.collapsed)::after {
@@ -2944,8 +2968,22 @@ button.accordion-button.collapsed {
 
 textarea#candidate-profile-tabs {
     width: 100%;
-    opacity: 0.3;
-    border: 0.5px solid var(--text-color);
+    border: 0.5px solid rgb(0 0 0 / 30%);
+    border-radius: 6px;
+}
+
+.upload-intro-vedio input {
+    display: none;
+}
+
+.upload-intro-vedio {
+    height: 212px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 0.5px solid rgb(0 0 0 / 30%);
     border-radius: 6px;
 }
 
@@ -3055,7 +3093,46 @@ input#preferences-prfile {
 }
 
 .card-body {
-    padding: 0;
+    padding: 0 10px;
+}
+
+.accordion-item {
+    padding-bottom: 20px;
+}
+
+
+/****************profile detail fill******/
+
+.intro-profile-vedio-chek {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upload-candidate-intro-vedio {
+    max-width: 50%;
+    width: 100%;
+}
+
+.check-box-vedio {
+    max-width: 50%;
+    width: 100%;
+}
+
+p.candidate-profile-data {
+    color: var(--text-color);
+    opacity: 0.8;
+    font-family: var(--museo-sans);
+    font-size: var(--body-text);
+    line-height: 42px;
+}
+
+ul.candidate-profile-data-list {
+    color: var(--text-color);
+    opacity: 0.8;
+    font-family: var(--museo-sans);
+    font-size: var(--body-text);
+    line-height: 42px;
 }
 
 
@@ -3191,9 +3268,31 @@ input#preferences-prfile {
     }
 }
 
+@media only screen and (max-width:1250px) {
+    /******cnadidaate profile***/
+    .candidtae-profile-image {
+        max-width: 18%;
+    }
+    .candidate-information {
+        max-width: 64%;
+    }
+    .candidate-profile-btn {
+        max-width: 18%;
+    }
+    div#myAccordionCandidateCandidate {
+        max-width: 62%;
+    }
+    .logo-col-profile-candidate {
+        max-width: 65%;
+    }
+    .profile-right-col {
+        max-width: 35%;
+    }
+}
+
 @media only screen and (max-width:1160px) {
     .job-title {
-        max-width: 70%;
+        max-width: 100%;
     }
     .job-seclude {
         max-width: 100%;
@@ -3258,7 +3357,7 @@ input#preferences-prfile {
         width: 80%;
     }
     .job-title h3 {
-        max-width: 50%;
+        max-width: 100%;
         width: 100%;
     }
     .job-title a {
@@ -3362,6 +3461,28 @@ input#preferences-prfile {
     .job-announcements-right-col {
         width: 100%;
         margin-top: 20px;
+    }
+    /******cnadidaate profile 1000***/
+    .candidtae-profile-image {
+        max-width: 23%;
+    }
+    .candidate-information {
+        max-width: 54%;
+    }
+    .candidate-profile-btn {
+        max-width: 23%;
+    }
+    div#myAccordionCandidateCandidate {
+        max-width: 52%;
+    }
+    .logo-col-profile-candidate {
+        max-width: 60%;
+    }
+    .profile-right-col {
+        max-width: 40%;
+    }
+    button.accordion-button.collapsed {
+        font-size: 28px;
     }
 }
 
@@ -3503,6 +3624,45 @@ input#preferences-prfile {
     /*********company details ************/
     .open-postion {
         padding-top: 50px;
+    }
+    /******cnadidaate profile tablet***/
+    section.profile-edit {
+        padding: 75px 0px 50px 0px;
+    }
+    .logo-col-profile-candidate {
+        max-width: 50%;
+    }
+    .profile-right-col {
+        max-width: 50%;
+    }
+    .my-profile-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .candidtae-profile-image {
+        max-width: 80%;
+        height: 300px;
+    }
+    .candidate-information {
+        max-width: 80%;
+    }
+    .candidate-profile-btn {
+        max-width: 80%;
+    }
+    div#myAccordionCandidateCandidate {
+        max-width: 80%;
+    }
+    button.accordion-button.collapsed {
+        font-size: 28px;
+    }
+    input#preferences-prfile {
+        width: 100%;
+    }
+    .tags-candidate-profile ul {
+        max-width: 100%;
+        width: 100%;
     }
 }
 
@@ -4165,5 +4325,23 @@ input#preferences-prfile {
         grid-template-columns: repeat(2, 1fr);
         max-width: 100%;
         width: 100%;
+    }
+    /****************profile detail fill bobile******/
+    .intro-profile-vedio-chek {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .upload-candidate-intro-vedio {
+        max-width: 100%;
+    }
+    .check-box-vedio {
+        max-width: 100%;
+    }
+    p.candidate-profile-data {
+        font-size: var(--font-weight-medium);
+        line-height: 33px;
     }
 }
