@@ -66,6 +66,7 @@
 h1 {
     font-size: var(--main-heading);
     font-family: var(--fira-sans);
+    color: var(--primary-color);
 }
 
 h2 {
@@ -149,6 +150,10 @@ html {
     padding: 50px 0 0 0;
 }
 
+.candidate-profile-header {
+    position: relative;
+}
+
 .row-login-candidate {
     display: flex;
     justify-content: space-between;
@@ -215,6 +220,19 @@ html {
     background: var(--accent-color);
     color: var(--color-white);
     padding: 6px 15px;
+    text-align: center;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: var(--museo-sans);
+    font-size: var(--body-text);
+    font-weight: 500;
+}
+
+.find-job-btn button {
+    background: var(--accent-color);
+    color: var(--color-white);
+    padding: 10px 50px;
     text-align: center;
     border: 0;
     border-radius: 6px;
@@ -488,6 +506,7 @@ img.vector {
     font-weight: 300;
     line-height: 48px;
     padding: 20px 0px;
+    opacity: 0.8;
 }
 
 .sucess-featured-sec .sucess-featured-info {
@@ -2906,10 +2925,17 @@ p.file-size-candidate {
     background: transparent;
     margin-bottom: 25px;
     border: 1px solid var(--primary-color);
+    color: var(--primary-color);
     border-radius: 6px;
     font-size: var(--promoted-btn);
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
+    outline: 0;
+}
+
+.edit-profile-icon,
+.tab-content-hide {
+    display: none
 }
 
 
@@ -3145,6 +3171,13 @@ input#preferences-prfile {
     max-width: 25%;
     width: 100%;
     margin: 0 0 0 auto;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+.hide-show-click {
+    display: none;
 }
 
 .dropdown-dashbord ul {
@@ -3154,6 +3187,7 @@ input#preferences-prfile {
     border-radius: 12px;
     list-style: none;
     padding: 24px;
+    z-index: 1;
 }
 
 .dropdown-dashbord ul a {
@@ -3199,6 +3233,244 @@ ul.candidate-profile-data-list {
     font-family: var(--museo-sans);
     font-size: var(--body-text);
     line-height: 42px;
+}
+
+
+/****************candidate profile model ****************/
+
+.model-candidate-resume {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(0 0 0 / 55%);
+    top: 0%;
+    overflow-y: auto;
+}
+
+.hide-model-popup {
+    display: none;
+}
+
+.popup-candidate-resume {
+    width: 90%;
+    height: 50%;
+    margin: 100px auto 0;
+    padding: 40px 0px;
+    position: relative;
+}
+
+.close-img-resume {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.popup-candidate-resume {
+    background: #FFFFFF;
+    border: 2px solid #BDBDBD;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+}
+
+.model-logo {
+    text-align: center;
+    position: relative;
+    top: -12px;
+}
+
+.candidate-name-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 30px 0;
+    border-bottom: 1px solid var(--boder-color);
+}
+
+.resume-data-profile {
+    overflow-y: scroll;
+    padding: 0 40px;
+}
+
+
+/* width */
+
+.resume-data-profile::-webkit-scrollbar {
+    width: 20px;
+}
+
+
+/* Track */
+
+.resume-data-profile::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+.resume-data-profile::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #D62929;
+}
+
+.resume-heading {
+    max-width: 75%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.resume-heading h1 {
+    font-weight: var(--font-weight-bold);
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-family: var(--museo-sans);
+}
+
+.download-print-btn {
+    max-width: 25%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+
+.download-print-btn button {
+    background: transparent;
+    border: 0;
+    color: var(--primary-color);
+    font-size: var(--body-text);
+    line-height: 22px;
+    font-weight: var(--font-weight-medium);
+}
+
+.resume-candidate-info {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.resume-candidate-info img {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+
+.resume-candidate-info h5 {
+    text-align: center;
+    font-weight: var(--font-weight-bold);
+    padding-top: 40px;
+}
+
+ul.candidate-social-list li {
+    margin: 0px 30px;
+}
+
+ul.candidate-social-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+ul.candidate-social-list li {
+    margin: 0 17px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: var(--text-color);
+    opacity: 0.8;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    font-size: var(--promoted-btn);
+}
+
+ul.candidate-social-list p {
+    font-size: var(--text-color);
+    opacity: 0.8;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    font-size: var(--promoted-btn);
+}
+
+ul.candidate-social-list li:before {
+    content: "";
+    position: absolute;
+    transform: translateY(0%);
+    top: 50%;
+    border-radius: 50%;
+    left: 0;
+    margin-top: -4px;
+    width: 7px;
+    margin-left: -20px;
+    height: 7px;
+    background: #666666;
+}
+
+ul.candidate-social-list li img {
+    padding-right: 15px;
+}
+
+.resume-profile-accadmic {
+    padding: 50px 0;
+}
+
+p.candiadte-resume-heading {
+    color: var(--primary-color);
+    font-size: var(--form-heading);
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+    line-height: 43px;
+    padding-bottom: 15px;
+}
+
+.resume-content-candidate,
+.resume-education-candidate {
+    padding-bottom: 20px;
+}
+
+p.resum-content {
+    color: var(--or-text-color);
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    line-height: 28px;
+}
+
+.university-year {
+    display: flex;
+    gap: 30px;
+    color: var(--primary-color);
+    font-size: var(--text-size);
+    font-weight: var(--font-weight-medium);
+}
+
+p.resume-degree {
+    color: var(--or-text-color);
+    font-size: var(--text-size);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    line-height: 28px;
+    padding-top: 10px;
+}
+
+.resume-skills-candidate ul {
+    padding-left: 15px;
+}
+
+.resume-skills-candidate ul li {
+    color: var(--or-text-color);
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    line-height: 28px;
 }
 
 
@@ -3563,6 +3835,10 @@ ul.candidate-profile-data-list {
     button.accordion-button.collapsed {
         font-size: 28px;
     }
+    /**candidate model ******/
+    .resume-heading h1 {
+        font-size: 36px;
+    }
 }
 
 @media only screen and (max-width:860px) {
@@ -3754,6 +4030,13 @@ ul.candidate-profile-data-list {
     .space-col-center {
         max-width: 80%;
         width: 100%;
+    }
+    /************candidate-model css *********/
+    p.candiadte-resume-heading {
+        font-size: 30px;
+    }
+    .resume-heading h1 {
+        left: 35%;
     }
 }
 
@@ -4121,6 +4404,11 @@ ul.candidate-profile-data-list {
         right: 10px;
         top: 15px;
     }
+    .close-img-resume {
+        position: absolute;
+        right: 10px;
+        top: 15px;
+    }
     p.popup-text {
         font-size: 20px;
     }
@@ -4357,7 +4645,8 @@ ul.candidate-profile-data-list {
     .logo-col-profile-candidate img {
         width: 160px;
     }
-    .profile-right-col {
+    .profile-right-col,
+    .dropdown-dashbord {
         max-width: 50%;
         width: 100%;
     }
@@ -4442,5 +4731,49 @@ ul.candidate-profile-data-list {
     p.candidate-profile-data {
         font-size: var(--font-weight-medium);
         line-height: 33px;
+    }
+    /***************candidate model css mobile *******/
+    .candidate-name-btn {
+        display: block;
+    }
+    .model-logo {
+        text-align: center;
+        position: relative;
+        top: 6px;
+    }
+    .resume-data-profile {
+        overflow-y: scroll;
+        padding: 0 20px;
+    }
+    .resume-heading {
+        max-width: 100%;
+    }
+    .resume-heading h1 {
+        font-size: 30px;
+        position: relative;
+        text-align: center;
+        transform: translate(-48%, 0%);
+    }
+    .download-print-btn {
+        max-width: 60%;
+    }
+    ul.candidate-social-list {
+        justify-content: flex-start;
+        padding-left: 0px;
+    }
+    ul.candidate-social-list li {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    p.candiadte-resume-heading {
+        font-size: 30px;
+    }
+    .resume-profile-accadmic {
+        padding: 30px 0;
+    }
+    .university-year {
+        gap: 10px;
+        font-size: 18px;
     }
 }
