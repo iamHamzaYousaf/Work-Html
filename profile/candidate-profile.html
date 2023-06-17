@@ -33,6 +33,22 @@
                     </div>
                 </div>
             </div>
+            <div class="dropdown-dashbord">
+                <ul>
+                    <a href="#">
+                        <li>Dashboard</li>
+                    </a>
+                    <a href="#">
+                        <li>My Profile</li>
+                    </a>
+                    <a href="#">
+                        <li>Wishlist</li>
+                    </a>
+                    <a href="#">
+                        <li>Logout</li>
+                    </a>
+                </ul>
+            </div>
 
         </div>
     </header>
@@ -55,7 +71,7 @@
             <div class="my-profile-row">
                 <div class="candidtae-profile-image">
                     <label for="file-input" id="candidate-img"><img src="../image/upload-1.png" alt="pic"><input
-                            id="file-input-upload" value="Upload here" type="file" />
+                            id="file-input" value="Upload here" type="file" />
                         <p class="candidate-logo-file">Upload here</p>
                         <p class="file-size-candidate">Max: 10MB</p>
                     </label>
@@ -103,63 +119,69 @@
     <!------------job profile tabs-->
     <section class="candidate-profile-tabs">
         <div class="container-site">
-            <div class="accordion-candidate-prfile" id="myAccordionCandidateCandidate">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">Tell us about yourself</button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#myAccordionCandidate">
-                        <div class="card-body">
-                            <textarea name="" id="candidate-profile-tabs" cols="30" rows="10"></textarea>
-                            <p class="candidate-profile-tabs-msg">100 words limit</p>
-                            <div class="save-cancel-btn">
-                                <button class="cancel-btn-profile">Cancel</button>
-                                <button class="save-btn-profile">Save</button>
+            <div class="tabs-candidate-col-space">
+                <div class="space-col-left"></div>
+                <div class="space-col-center">
+                    <div class="accordion-candidate-prfile" id="myAccordionCandidateCandidate">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">Tell us about yourself</button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#myAccordionCandidate">
+                                <div class="card-body">
+                                    <textarea name="" id="candidate-profile-tabs" cols="30" rows="10"></textarea>
+                                    <p class="candidate-profile-tabs-msg">100 words limit</p>
+                                    <div class="save-cancel-btn">
+                                        <button class="cancel-btn-profile">Cancel</button>
+                                        <button class="save-btn-profile">Save</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo">Things I like to do.</button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#myAccordionCandidate">
-                        <div class="card-body">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo">Things I like to do.</button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#myAccordionCandidate">
+                                <div class="card-body">
 
-                            <textarea name="" id="candidate-profile-tabs" cols="30" rows="10"></textarea>
-                            <p class="candidate-profile-tabs-msg">100 words limit</p>
-                            <div class="save-cancel-btn">
-                                <button class="cancel-btn-profile">Cancel</button>
-                                <button class="save-btn-profile">Save</button>
+                                    <textarea name="" id="candidate-profile-tabs" cols="30" rows="10"></textarea>
+                                    <p class="candidate-profile-tabs-msg">100 words limit</p>
+                                    <div class="save-cancel-btn">
+                                        <button class="cancel-btn-profile">Cancel</button>
+                                        <button class="save-btn-profile">Save</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">Short Intro video</button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordionCandidate">
-                        <div class="card-body">
-                            <div class="upload-intro-vedio">
-                                <label for="file-input" id="candidate-img"><img src="../image/upload-1.png"
-                                        alt="pic"><input id="file-input-upload" value="Upload here" type="file" />
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">Short Intro video</button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordionCandidate">
+                                <div class="card-body">
+                                    <div class="upload-intro-vedio">
+                                        <label for="file-input" id="candidate-img"><img src="../image/upload-1.png"
+                                        alt="pic"><input id="file-input" value="Upload here" type="file" />
                                     <p class="candidate-logo-file">Upload here</p>
                                     <p class="file-size-candidate">Max: 25MB</p>
                                     <p class="file-size-candidate">Format: .mp4, .webm, .mkv, .3gp  </p>
                                 </label>
-                            </div>
-                            <div class="save-cancel-btn">
-                                <button class="cancel-btn-profile">Cancel</button>
-                                <button class="save-btn-profile">Save</button>
+                                    </div>
+                                    <div class="save-cancel-btn">
+                                        <button class="cancel-btn-profile">Cancel</button>
+                                        <button class="save-btn-profile">Save</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="back-save-btns">
+                        <button class="profile-end-btn">Back</button>
+                        <button class="profile-end-btn">Save</button>
+                    </div>
                 </div>
-            </div>
-            <div class="back-save-btns">
-                <button class="profile-end-btn">Back</button>
-                <button class="profile-end-btn">Save</button>
+                <div class="space-col-right"></div>
             </div>
         </div>
     </section>
