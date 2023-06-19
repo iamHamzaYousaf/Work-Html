@@ -457,7 +457,7 @@ img.vector {
 /********* images text start here******/
 
 .sucess-featured-sec {
-    background: linear-gradient(90deg, #f2f7ff4d 60%, #FFFFFF 40%);
+    background: linear-gradient(90deg, #f2f7ff99 60%, #FFFFFF 40%);
     margin-top: 30px;
     padding: 50px 0px;
 }
@@ -525,7 +525,7 @@ img.vector {
 /****** seond col****/
 
 .sucess-featured-sec-alt {
-    background: linear-gradient(90deg, #FFFFFF 20%, #f2f7ff4d 80%);
+    background: linear-gradient(90deg, #FFFFFF 20%, #f2f7ff99 80%);
     margin: 100px 0px;
     padding: 50px 0px;
 }
@@ -625,6 +625,7 @@ img.vector {
 .job-title h3 {
     font-weight: var(--font-weight-bold);
     margin-bottom: 0px;
+    max-width: 45%;
 }
 
 .job-seclude {
@@ -657,17 +658,17 @@ img.vector {
     width: 275px;
 }
 
-.long-text-job-company {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    max-width: 60%;
-}
-
 .job-services {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.long-text-job-company {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    max-width: 57%;
 }
 
 .job-services p {
@@ -1287,11 +1288,26 @@ p.forget-password {
 
 /*********** candidate SignUp page satrt here ***************/
 
+.candiate-signup-row {
+    padding: 50px 0;
+}
+
 .candidate-signup-form {
     max-width: 50%;
     width: 100%;
     margin: 0 auto;
-    padding: 50px 0px;
+}
+
+.employe-final-job-post {
+    max-width: 50%;
+    width: 100%;
+    margin: 0 30px 0 0;
+}
+
+.candidate-from-signup-create-final-job {
+    max-width: 50%;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .login-here {
@@ -1384,7 +1400,9 @@ button.employee-btn {
 }
 
 .candidate-signup-form-feild {
-    margin-top: 50px;
+    max-width: 50%;
+    width: 100%;
+    margin: 50px auto;
 }
 
 .candidate-username-signup-form {
@@ -1889,11 +1907,6 @@ img.password-icon-togle {
     border-color: var(--accent-color);
 }
 
-
-/* .progressbar-steps li.active-circle+li:after {
-background-color: rgb(0 0 0 / 20%);
-} */
-
 .signup-website-url input[type="url"] {
     width: 100%;
     padding: 18px 8px;
@@ -2018,6 +2031,19 @@ button.btn-next-previous {
     border-radius: 6px;
 }
 
+.job-postion-form {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+label.job-postion-btn {
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    color: #666666;
+}
+
 .signup-salary #salary {
     width: 8%;
     padding: 18px 8px;
@@ -2067,6 +2093,56 @@ p.cities-job-heading {
 .city-radio-btn {
     max-width: 25%;
     width: 100%;
+}
+
+
+/**************post the final job ************/
+
+.job-content-show-right {
+    display: flex;
+}
+
+.job-content-after-click {
+    background: var(--color-white);
+    border: 0.5px solid var(--boder-color);
+    box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    max-width: 50%;
+    width: 100%;
+    padding: 24px;
+    margin-left: 30px;
+}
+
+.final-post-employe {
+    margin: 0px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.final-sub-heading {
+    padding-bottom: 40px;
+}
+
+.post-job-title-employe h5 {
+    font-weight: var(--font-weight-bold);
+    padding-bottom: 15px;
+}
+
+.final-sub-heading h3 {
+    font-weight: var(--font-weight-bold);
+    line-height: 28px;
+}
+
+p.job-description-final-post,
+ul.responsibilities-final-list,
+ul.skills-final-list,
+ul.benrfits-final-list,
+ul.working-time-final-list {
+    color: var(--text-color);
+    opacity: 0.8;
+    font-size: var(--promoted-btn);
+    font-weight: 300;
+    line-height: 33px;
 }
 
 
@@ -2640,6 +2716,17 @@ margin-bottom: 5px;
 .job-title-right-col h3 {
     font-weight: var(--font-weight-bold);
     max-width: 60%;
+}
+
+.job-title-right-col a.titke-job-link {
+    text-decoration: none;
+    max-width: 60%;
+}
+
+.job-title-right-col a h3 {
+    font-weight: var(--font-weight-bold);
+    max-width: 100%;
+    text-decoration: none;
 }
 
 .job-match-pro-btn h3 {
@@ -3302,7 +3389,7 @@ ul.candidate-profile-data-list {
 
 .popup-candidate-resume {
     width: 90%;
-    height: 50%;
+    height: 85vh;
     margin: 100px auto 0;
     padding: 40px 0px;
     position: relative;
@@ -3332,18 +3419,20 @@ ul.candidate-profile-data-list {
     align-items: center;
     padding: 40px 0 30px 0;
     border-bottom: 1px solid var(--boder-color);
+    position: relative;
 }
 
 .resume-data-profile {
-    overflow-y: scroll;
+    overflow: auto;
     padding: 0 40px;
+    height: 100%;
 }
 
 
 /* width */
 
 .resume-data-profile::-webkit-scrollbar {
-    width: 20px;
+    width: 15px;
 }
 
 
@@ -3360,20 +3449,19 @@ ul.candidate-profile-data-list {
 .resume-data-profile::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-    background-color: #D62929;
+    background-color: var(--primary-color);
 }
 
 .resume-heading {
-    max-width: 75%;
+    max-width: 100%;
     width: 100%;
     margin: 0 auto;
+    padding: 0 150px;
+    text-align: center;
 }
 
 .resume-heading h1 {
     font-weight: var(--font-weight-bold);
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
     font-family: var(--museo-sans);
 }
 
@@ -3384,6 +3472,10 @@ ul.candidate-profile-data-list {
     display: flex;
     gap: 20px;
     justify-content: end;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .download-print-btn button {
@@ -3536,6 +3628,11 @@ p.resume-degree {
         width: 100%;
         font-size: 20px;
     }
+    .job-title-right-col a.titke-job-link {
+        max-width: 66%;
+        width: 100%;
+        font-size: 20px;
+    }
     .job-title-right-col a button {
         padding: 9px 8px;
     }
@@ -3647,6 +3744,9 @@ p.resume-degree {
     .job-title-right-col h3 {
         max-width: 100%;
     }
+    .job-title-right-col a.titke-job-link {
+        max-width: 100%;
+    }
 }
 
 @media only screen and (max-width:1299px) {
@@ -3657,6 +3757,16 @@ p.resume-degree {
     .filter-serach-btn {
         max-width: 90%;
         width: 100%;
+    }
+    .job-title {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    /**************** job title h3 *************/
+    .job-title h3 {
+        max-width: 70%;
     }
 }
 
@@ -3979,7 +4089,9 @@ p.resume-degree {
     .signup-phone input[type="tel"] {
         width: 82%;
     }
-    .candidate-signup-form {
+    .candidate-signup-form,
+    .candidate-signup-form-feild,
+    .candidate-from-signup-create-final-job {
         max-width: 90%;
     }
     .signup-salary #salary {
@@ -4391,10 +4503,15 @@ p.resume-degree {
         font-size: 18px;
     }
     /************candidate signup form mobile************/
-    .candidate-signup-form {
+    .candidate-signup-form,
+    .candidate-signup-form-feild,
+    .candidate-from-signup-create-final-job {
         max-width: 100%;
         width: 100%;
         margin: 0 auto;
+    }
+    .candiate-signup-row {
+        padding: 30px 0;
     }
     .candidate-signup-google {
         max-width: 100%;
@@ -4793,11 +4910,13 @@ p.resume-degree {
     /***************candidate model css mobile *******/
     .candidate-name-btn {
         display: block;
+        padding: 30px 0px;
     }
     .model-logo {
         text-align: center;
         position: relative;
-        top: 6px;
+        top: 2px;
+        padding-bottom: 10px;
     }
     .resume-data-profile {
         overflow-y: scroll;
@@ -4805,15 +4924,19 @@ p.resume-degree {
     }
     .resume-heading {
         max-width: 100%;
+        padding: 10px 0px;
     }
     .resume-heading h1 {
         font-size: 30px;
         position: relative;
         text-align: center;
-        transform: translate(-48%, 0%);
+        justify-content: center;
     }
     .download-print-btn {
-        max-width: 60%;
+        max-width: 100%;
+        position: relative;
+        text-align: center;
+        justify-content: center;
     }
     ul.candidate-social-list {
         justify-content: flex-start;
