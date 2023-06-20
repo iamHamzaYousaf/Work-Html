@@ -76,52 +76,64 @@
                         <p class="file-size-candidate">Max: 10MB</p>
                     </label>
                 </div>
-
+                <div class="divider-left-profile"> </div>
                 <div class="candidate-information">
-                    <h5>John Smith</h5>
-                    <div class="candiate-info-heading">
-                        <a href="#">
-                            <img src="../image/candidate-location.png" alt="">
-                            <p class="candidate-info-text">Location</p>
-                        </a>
+                    <div class="candidate-about-me about-me-form">
+                        <h5>About Me</h5>
+                        <div class="candidate-profile-form">
+                            <form action="">
+                                <div class="candidate-name-field-profile profile-field-f">
+                                    <input type="text" name="" id="candidate-name-field" placeholder="First Name">
+                                    <input type="text" name="" id="candidate-name-field" placeholder="Last Name">
+                                </div>
+                                <select name="" id="candidate-location-feild" class="profile-field-f form-control">
+                                    <option value="">Location</option>
+                                    <option value="">Location</option>
+                                    <option value="">Location</option>
+                                    <option value="">Location</option>
+                                </select>
+                                <div class="email-candidate-profile-f profile-field-f">
+                                    <input type="email" name="" id="profile-email-candidate" placeholder="E-Mail">
+                                </div>
+                                <div class="country-code-profile profile-field-f">
+                                    <div class="candidate-call">
+                                        <p class="candidate-phone-profile">+995</p>
+                                    </div>
+                                    <input type="tel" name="" id="profile-call" placeholder="Mobile">
+                                </div>
+                                <div class="candidate-link-profile profile-field-f">
+                                    <input type="url" name="" id="social-link" placeholder="LinkedIn Link">
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                    <div class="candiate-info-heading">
-                        <a href="mailto:teklavasadze@gmail.com">
-                            <img src="../image/mail-can.png" alt="">
-                            <p class="candidate-info-text">teklavasadze@gmail.com</p>
-                        </a>
+                    <div class="candidate-profile-date-after">
+                        <h5>John Smith</h5>
+                        <div class="candiate-info-heading">
+                            <a href="#">
+                                <img src="../image/candidate-location.png" alt="">
+                                <p class="candidate-info-text">Location</p>
+                            </a>
+                        </div>
+                        <div class="candiate-info-heading">
+                            <a href="mailto:teklavasadze@gmail.com">
+                                <img src="../image/mail-can.png" alt="">
+                                <p class="candidate-info-text">teklavasadze@gmail.com</p>
+                            </a>
+                        </div>
+                        <div class="candiate-info-heading">
+                            <a href="tel:+995599132862">
+                                <img src="../image/call-can.png" alt="">
+                                <p class="candidate-info-text">+995 599132862</p>
+                            </a>
+                        </div>
+                        <div class="candiate-info-heading">
+                            <a href="#">
+                                <img src="../image/linkdin.png" alt="">
+                                <p class="candidate-info-text">LinkedIn Link</p>
+                            </a>
+                        </div>
                     </div>
-                    <div class="candiate-info-heading">
-                        <a href="tel:+995599132862">
-                            <img src="../image/call-can.png" alt="">
-                            <p class="candidate-info-text">+995 599132862</p>
-                        </a>
-                    </div>
-                    <div class="candiate-info-heading">
-                        <a href="#">
-                            <img src="../image/linkdin.png" alt="">
-                            <p class="candidate-info-text">LinkedIn Link</p>
-                        </a>
-                    </div>
-
-                </div>
-                <div class="candidate-profile-btn">
-                    <div class="three-stack-btn">
-                        <button>View your Resume</button>
-                        <button>Upload new Resume</button>
-                        <button>Change Password</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <!------------job profile tabs-->
-    <section class="candidate-profile-tabs">
-        <div class="container-site">
-            <div class="tabs-candidate-col-space">
-                <div class="space-col-left"></div>
-                <div class="space-col-center">
                     <div class="accordion-candidate-prfile" id="myAccordionCandidateCandidate">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
@@ -162,11 +174,11 @@
                                 <div class="card-body">
                                     <div class="upload-intro-vedio">
                                         <label for="file-input" id="candidate-img"><img src="../image/upload-1.png"
-                                        alt="pic"><input id="file-input" value="Upload here" type="file" />
-                                    <p class="candidate-logo-file">Upload here</p>
-                                    <p class="file-size-candidate">Max: 25MB</p>
-                                    <p class="file-size-candidate">Format: .mp4, .webm, .mkv, .3gp  </p>
-                                </label>
+                                            alt="pic"><input id="file-input" value="Upload here" type="file" />
+                                        <p class="candidate-logo-file">Upload here</p>
+                                        <p class="file-size-candidate">Max: 25MB</p>
+                                        <p class="file-size-candidate">Format: .mp4, .webm, .mkv, .3gp  </p>
+                                    </label>
                                     </div>
                                     <div class="save-cancel-btn">
                                         <button class="cancel-btn-profile">Cancel</button>
@@ -176,46 +188,47 @@
                             </div>
                         </div>
                     </div>
+                    <div class="preferences-row">
+                        <h2>Preferences</h2>
+                    </div>
+                    <div class="preferences-fields-profile">
+                        <div class="signup-job-titles f-feild tags-candidate-profile">
+                            <label for="fjobtitles">Job Titles I’m interested in</label><br>
+                            <input type="text" name="" id="preferences-prfile" placeholder="Job Titles I’m interested in">
+                            <ul>
+                                <li>Technical Support Analyst<button><img src="../image/cross.png" alt=""></button></li>
+                                <li>Application Administrator<button><img src="../image/cross.png" alt=""></button></li>
+                                <li>System Administrator<button><img src="../image/cross.png" alt=""></button>
+                                </li>
+                                <li>Technical Support Engineer<button><img src="../image/cross.png" alt=""></button></li>
+                                <li>Technical Support Analyst<button><img src="../image/cross.png" alt=""></button></li>
+                            </ul>
+                            <p class="error-msg hide-error">Enter job titles </p>
+                        </div>
+                        <div class="signup-skill-tags f-feild tags-candidate-profile">
+                            <label for="fjobtitles">My Top Tech Skill Tags</label><br>
+                            <input type="text" name="" id="preferences-prfile" placeholder="My Top Tech Skill Tagsn">
+                            <ul>
+                                <li>Active Directory<button><img src="../image/cross.png" alt=""></button></li>
+                                <li>SQL Server<button><img src="../image/cross.png" alt=""></button></li>
+                                <li>Windows Server<button><img src="../image/cross.png" alt=""></button></li>
+                                <li>SQL Server<button><img src="../image/cross.png" alt=""></button></li>
+                                <li>Windows Server<button><img src="../image/cross.png" alt=""></button></li>
+                            </ul>
+                            <p class="error-msg hide-error">Enter skill tags</p>
+                        </div>
+                    </div>
                     <div class="back-save-btns">
                         <button class="profile-end-btn">Back</button>
                         <button class="profile-end-btn">Save</button>
                     </div>
                 </div>
-                <div class="space-col-right"></div>
-            </div>
-        </div>
-    </section>
-    <section class="preferences-sec">
-        <div class="container-site">
-            <div class="divider"> </div>
-            <div class="preferences-row">
-                <h2>Preferences</h2>
-            </div>
-            <div class="preferences-fields-profile">
-                <div class="signup-job-titles f-feild tags-candidate-profile">
-                    <label for="fjobtitles">Job Titles I’m interested in</label><br>
-                    <input type="text" name="" id="preferences-prfile" placeholder="Job Titles I’m interested in">
-                    <ul>
-                        <li>Technical Support Analyst<button><img src="../image/cross.png" alt=""></button></li>
-                        <li>Application Administrator<button><img src="../image/cross.png" alt=""></button></li>
-                        <li>System Administrator<button><img src="../image/cross.png" alt=""></button>
-                        </li>
-                        <li>Technical Support Engineer<button><img src="../image/cross.png" alt=""></button></li>
-                        <li>Technical Support Analyst<button><img src="../image/cross.png" alt=""></button></li>
-                    </ul>
-                    <p class="error-msg hide-error">Enter job titles </p>
-                </div>
-                <div class="signup-skill-tags f-feild tags-candidate-profile">
-                    <label for="fjobtitles">My Top Tech Skill Tags</label><br>
-                    <input type="text" name="" id="preferences-prfile" placeholder="My Top Tech Skill Tagsn">
-                    <ul>
-                        <li>Active Directory<button><img src="../image/cross.png" alt=""></button></li>
-                        <li>SQL Server<button><img src="../image/cross.png" alt=""></button></li>
-                        <li>Windows Server<button><img src="../image/cross.png" alt=""></button></li>
-                        <li>SQL Server<button><img src="../image/cross.png" alt=""></button></li>
-                        <li>Windows Server<button><img src="../image/cross.png" alt=""></button></li>
-                    </ul>
-                    <p class="error-msg hide-error">Enter skill tags</p>
+                <div class="candidate-profile-btn">
+                    <div class="three-stack-btn">
+                        <button>View your Resume</button>
+                        <button>Upload new Resume</button>
+                        <button>Change Password</button>
+                    </div>
                 </div>
             </div>
         </div>
