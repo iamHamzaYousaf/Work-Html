@@ -250,6 +250,19 @@ html {
     font-weight: 500;
 }
 
+.find-job-btn-candidate-dashbord button {
+    background: var(--accent-color);
+    color: var(--color-white);
+    padding: 10px 50px;
+    text-align: center;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: var(--museo-sans);
+    font-size: var(--body-text);
+    font-weight: 500;
+}
+
 .job-filter-btn button {
     background: var(--accent-color);
     color: var(--color-white);
@@ -668,7 +681,7 @@ img.vector {
     display: flex;
     align-items: flex-start;
     gap: 10px;
-    max-width: 57%;
+    max-width: 55%;
 }
 
 .job-services p {
@@ -738,12 +751,21 @@ p.job-discription {
     padding: 15px 0px;
     font-size: var(--promoted-btn);
     color: var(--text-color);
+    font-weight: var(--font-weight-medium);
 }
 
 .job-announcements-status p {
     padding: 15px 0px 0px;
     font-size: var(--promoted-btn);
     color: var(--text-color);
+    font-weight: var(--font-weight-medium);
+}
+
+.job-application-status p {
+    padding: 15px 0px 0px;
+    font-size: var(--promoted-btn);
+    color: var(--text-color);
+    font-weight: var(--font-weight-medium);
 }
 
 .job-favorite {
@@ -751,6 +773,7 @@ p.job-discription {
     gap: 10px;
     font-size: var(--promoted-btn);
     color: var(--text-color);
+    font-weight: var(--font-weight-medium);
 }
 
 .job-favorite img {
@@ -1451,6 +1474,15 @@ button.employee-btn {
     font-weight: var(--font-weight-medium);
 }
 
+.f-feild-stl label {
+    margin-bottom: 8px;
+    color: var(--text-color);
+    opacity: 0.8;
+    font-family: var(--museo-sans);
+    font-size: var(--promoted-btn);
+    font-weight: var(--font-weight-medium);
+}
+
 .signup-email input[type="email"] {
     width: 100%;
     padding: 18px 8px;
@@ -2018,6 +2050,19 @@ button.btn-next-previous {
     border-radius: 6px;
     padding: 6px 0;
     color: var(--accent-color);
+    font-family: var(--museo-sans);
+    font-size: var(--text-size);
+    margin-top: 15px;
+    border: 1px solid var(--accent-color);
+}
+
+button.btn-job-post {
+    width: 100%;
+    background: var(--accent-color);
+    border: 0;
+    border-radius: 6px;
+    padding: 6px 0;
+    color: var(--color-white);
     font-family: var(--museo-sans);
     font-size: var(--text-size);
     margin-top: 15px;
@@ -2922,6 +2967,12 @@ section.pageniation-sec {
 .logo-col-profile-candidate {
     max-width: 75%;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-job-btn-candidate-dashbord {
+    margin-right: 30px;
 }
 
 .profile-right-col {
@@ -3266,7 +3317,7 @@ button.profile-end-btn:hover {
 }
 
 .preferences-row {
-    padding: 50px 0px;
+    padding: 0px 0px 50px 0px;
 }
 
 .preferences-row h2 {
@@ -3794,20 +3845,133 @@ p.resume-degree {
 }
 
 
-/**************candidate-dashbord header *************/
+/**************candidate-dashbord header as profile header*************/
 
-.logo-col-candidate-dashbord {
-    max-width: 58%;
-    width: 100%;
+.job-recommend-applied {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 100px 0;
 }
 
-.candidate-dashbord-right-col {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 42%;
+.job-applied-col.job-candidate-cards {
+    background: #FFFFFF;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 0 120px 15px;
+}
+
+p.job-title-candidate-dashboard {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 22px;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+}
+
+.job-applied-col.job-candidate-cards img {
+    text-align: center;
+    display: block;
+    margin: -20px auto 0;
+    padding-bottom: 20px;
+}
+
+p.job-applied-candidate-dashboard {
+    color: var(--accent-color);
+    font-size: 80px;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    text-align: center;
+}
+
+.job-announcements-col-candidate button {
+    background: var(--color-white);
+    border: 1px solid var(--primary-color);
+    border-radius: 6px;
+    color: var(--primary-color);
+    padding: 8px 20px;
+    font-size: var(--promoted-btn);
+    font-weight: var(--font-weight-medium);
     width: 100%;
-    flex-wrap: wrap;
+    display: block;
+}
+
+.job-announcements-col-candidate a {
+    text-decoration: none;
+}
+
+section.wishlist-btn-sec {
+    padding: 50px 0;
+}
+
+.whishlist-three-btn-stack {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.whishlist-btn button {
+    max-width: 100%;
+    width: 270px;
+    margin-bottom: 15px;
+}
+
+.wishlist-apply-btn button {
+    padding: 10px 0;
+    color: var(--accent-color);
+    background-color: transparent;
+    border: 1px solid var(--accent-color);
+    font-size: var(--body-text);
+    font-weight: var(--font-weight-medium);
+    border-radius: 6px;
+    text-align: center;
+}
+
+.wishlist-clear-btn button {
+    padding: 10px 0;
+    color: var(--error-msg-color);
+    background-color: transparent;
+    border: 1px solid var(--error-msg-color);
+    font-size: var(--body-text);
+    font-weight: var(--font-weight-medium);
+    border-radius: 6px;
+    text-align: center;
+}
+
+.wishlist-findjob-btn button {
+    padding: 10px 0;
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    font-size: var(--body-text);
+    font-weight: var(--font-weight-medium);
+    border-radius: 6px;
+    text-align: center;
+}
+
+
+/***************wishlist page start here ******/
+
+section.job-applied {
+    padding-top: 50px;
+}
+
+.job-wishlist-btn button {
+    background: var(--color-white);
+    border: 1px solid var(--error-msg-color);
+    border-radius: 6px;
+    color: var(--error-msg-color);
+    padding: 8px 20px;
+    font-size: var(--promoted-btn);
+    font-weight: var(--font-weight-medium);
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+}
+
+.job-wishlist-btn a {
+    text-decoration: none;
 }
 
 
@@ -4403,6 +4567,18 @@ p.resume-degree {
     .preferences-row {
         padding: 0px 0px 50px 0;
     }
+    /*******candidate job dashboard ***/
+    .job-announcements-col-candidate button,
+    .job-wishlist-btn button {
+        width: 35%;
+        display: block;
+    }
+    .find-job-btn-candidate-dashbord {
+        display: none;
+    }
+    .job-recommend-applied {
+        flex-direction: column;
+    }
 }
 
 
@@ -4451,6 +4627,10 @@ p.resume-degree {
         width: 100%;
     }
     .find-job-btn button {
+        padding: 6px 12px;
+        font-size: 16px;
+    }
+    .find-job-btn-candidate-dashbord button {
         padding: 6px 12px;
         font-size: 16px;
     }
@@ -5192,5 +5372,24 @@ p.resume-degree {
     .candidate-call,
     input#social-link {
         background-position: left 10px bottom 15px;
+    }
+    /*******candidate job dashboard ***/
+    .job-announcements-col-candidate button,
+    .job-wishlist-btn button {
+        width: 75%;
+        display: block;
+        margin: 10px auto;
+    }
+    .find-job-btn-candidate-dashbord {
+        display: none;
+    }
+    .job-recommend-applied {
+        flex-direction: column;
+    }
+    .job-applied-col.job-candidate-cards {
+        padding: 0 1px 15px;
+    }
+    p.job-applied-candidate-dashboard {
+        font-size: 60px;
     }
 }
