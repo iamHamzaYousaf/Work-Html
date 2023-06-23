@@ -306,7 +306,7 @@ html {
 .col-2-banner p.banner-text {
     color: var(--text-color);
     font-size: 25px;
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-medium);
     padding: 20px 0px;
     opacity: 0.4;
 }
@@ -410,7 +410,7 @@ img.vector {
 
 .featured-col a>button:after {
     content: " ";
-    background-image: url(./image/Arrow-1.png);
+    background-image: url(./image/copmany-detail.svg);
     width: 35px;
     height: 10px;
     display: inline-block;
@@ -471,7 +471,7 @@ img.vector {
 
 .sucess-featured-sec {
     background: linear-gradient(90deg, #f2f7ff99 60%, #FFFFFF 40%);
-    margin-top: 30px;
+    margin-top: 60px;
     padding: 50px 0px;
 }
 
@@ -539,7 +539,7 @@ img.vector {
 
 .sucess-featured-sec-alt {
     background: linear-gradient(90deg, #FFFFFF 20%, #f2f7ff99 80%);
-    margin: 100px 0px;
+    margin: 150px 0px;
     padding: 50px 0px;
 }
 
@@ -580,7 +580,7 @@ img.vector {
 .job-heading h2 {
     text-align: center;
     font-weight: var(--font-weight-bold);
-    padding-bottom: 20px;
+    padding-bottom: 35px;
 }
 
 .divider {
@@ -594,6 +594,12 @@ img.vector {
 }
 
 .job-services img {
+    height: 35px;
+    width: 35px;
+    object-fit: contain;
+}
+
+.job-services-anchor img {
     height: 35px;
     width: 35px;
     object-fit: contain;
@@ -641,6 +647,16 @@ img.vector {
     max-width: 45%;
 }
 
+.job-title a.title-job-link {
+    text-decoration: none;
+    max-width: 60%;
+}
+
+.job-title a.title-job-link h3 {
+    text-decoration: none;
+    max-width: 100%;
+}
+
 .job-seclude {
     display: flex;
     gap: 22px;
@@ -653,7 +669,7 @@ img.vector {
     padding: 10px 12px;
     border: 0;
     background: rgba(255, 160, 51, 0.15);
-    border-radius: 4px;
+    border-radius: 6px;
     color: var(--accent-color);
     font-family: var(--museo-sans);
     font-size: var(--promoted-btn);
@@ -663,7 +679,7 @@ img.vector {
 .job-time p {
     font-size: var(--promoted-btn);
     color: var(--text-color);
-    font-weight: var(--font-weight-medium);
+    font-weight: 300;
     opacity: 0.8;
 }
 
@@ -675,6 +691,13 @@ img.vector {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.job-services-anchor a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
 }
 
 .long-text-job-company {
@@ -691,11 +714,18 @@ img.vector {
     font-weight: var(--font-weight-medium);
 }
 
+.job-services-anchor p {
+    color: var(--text-color);
+    font-family: var(--museo-sans);
+    font-size: var(--promoted-btn);
+    font-weight: var(--font-weight-medium);
+}
+
 p.job-discription {
     padding: 15px 0px;
     color: var(--text-color);
     font-size: var(--body-text);
-    font-weight: var(--font-weight-medium);
+    font-weight: 300;
     font-family: var(--museo-sans);
 }
 
@@ -725,7 +755,7 @@ p.job-discription {
 .job-location p {
     font-size: var(--promoted-btn);
     color: var(--text-color);
-    font-weight: var(--font-weight-medium);
+    font-weight: 300;
 }
 
 .job-skills {
@@ -742,7 +772,8 @@ p.job-discription {
     padding: 5px;
     color: var(--primary-color);
     font-size: var(--button-text);
-    border-radius: 4px;
+    border-radius: 6px;
+    border: 0.5px solid #E2EDFF;
 }
 
 .job-apply {
@@ -801,7 +832,7 @@ p.job-discription {
 }
 
 .see-more-job {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .see-more-job button {
@@ -851,7 +882,7 @@ p.job-discription {
 
 .countries-work-location figcaption {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
     color: var(--primary-color);
     font-size: var(--fig-caption);
     font-weight: var(--font-weight-bold);
@@ -1060,20 +1091,23 @@ ul.site-list {
 
 .cookies-heading p {
     color: var(--text-color);
-    font-size: var(--cookies-heding);
+    font-size: var(--sub-heading);
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
+}
+
+.cookies-text-btn {
+    width: 93%;
+    margin: 0 auto;
 }
 
 p.cookies-paragrapgh {
     color: var(--text-color);
     font-size: var(--body-text);
     font-family: var(--museo-sans);
-    font-weight: var(--font-weight-medium);
+    font-weight: 300;
     line-height: 36px;
     opacity: 0.8;
-    width: 93%;
-    margin: 0 auto;
 }
 
 .cookies-btns {
@@ -1096,7 +1130,7 @@ button.decline-btn {
 }
 
 button.allow-btn {
-    padding: 14px 48px;
+    padding: 14px 53px;
     background: var(--accent-color);
     border: 1px solid var(--accent-color);
     color: var(--color-white);
@@ -1471,7 +1505,7 @@ button.employee-btn {
     opacity: 0.8;
     font-family: var(--museo-sans);
     font-size: var(--promoted-btn);
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-bold);
 }
 
 .f-feild-stl label {
@@ -1516,9 +1550,13 @@ button.employee-btn {
     gap: 0;
 }
 
+#countryCode p {
+    text-align: center;
+}
+
 .signup-phone #countryCode {
     width: 10%;
-    padding: 18px 8px;
+    padding: 18px 0px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
     border-top-right-radius: 0;
@@ -1926,6 +1964,10 @@ img.password-icon-togle {
     background-color: var(--accent-color);
 }
 
+ul.progressbar-steps li {
+    color: rgb(0 0 0 / 20%);
+}
+
 .progressbar-steps li:after {
     content: "";
     position: absolute;
@@ -2228,7 +2270,7 @@ ul.working-time-final-list {
 /****************** job details page css start here **********/
 
 section.f-dream.job {
-    margin-top: 50px;
+    margin-top: 85px;
 }
 
 .f-job-heaading h2 {
@@ -2355,6 +2397,8 @@ ul.find-job-tag li {
     font-size: var(--body-text);
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
+    border-radius: 6px;
+    border: 1px solid #F2F7FF;
 }
 
 .job-title-sec {
@@ -2430,6 +2474,7 @@ ul.job-details-list li {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 30px;
+    position: relative;
 }
 
 .search-box {
@@ -2441,18 +2486,25 @@ ul.job-details-list li {
 
 #jon-search-box {
     border: 0;
+    width: 85%;
+    margin-left: 5px;
 }
 
 .smilar-job-heading {
-    max-width: 75%;
+    max-width: 100%;
     width: 100%;
     margin: 0 auto;
+    padding: 0 30px;
 }
 
 .search-box {
     max-width: 25%;
     width: 100%;
     margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-75%);
 }
 
 .smilar-job-heading h2 {
@@ -2461,20 +2513,18 @@ ul.job-details-list li {
 
 .smilar-job-heading h2 {
     font-weight: var(--font-weight-bold);
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 
 /*********company detail page start here ************/
 
 .open-postion {
-    padding-top: 100px;
+    padding-top: 0px;
 }
 
 .company-detail-sec {
-    padding: 50px 0px;
+    padding: 100px 0px 150px;
 }
 
 .company-detail-heading h2 {
@@ -2487,6 +2537,7 @@ ul.job-details-list li {
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
+    gap: 20px;
 }
 
 .company-logo-left img {
@@ -2494,12 +2545,12 @@ ul.job-details-list li {
 }
 
 .company-logo-left {
-    max-width: 20%;
+    max-width: 15%;
     width: 100%;
 }
 
 .company-content-right {
-    max-width: 80%;
+    max-width: 85%;
     width: 100%;
 }
 
@@ -2546,6 +2597,19 @@ ul.job-details-list li {
     display: flex;
     align-items: center;
     cursor: pointer;
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+.company-form-dropdownBox1 {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 484px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: var(--text-color);
+    font-weight: var(--font-weight-medium);
 }
 
 .company-drop-list {
@@ -2555,7 +2619,7 @@ ul.job-details-list li {
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.16);
     box-sizing: border-box;
     border-radius: 5px;
-    padding: 10px 14px;
+    padding: 0px;
 }
 
 .company-drop-list ul li:last-of-type {
@@ -2572,10 +2636,22 @@ ul.job-details-list li {
     margin-top: 5px !important;
 }
 
+.dropdown-menu ul {
+    margin-bottom: 0;
+}
+
+.dropdown-menu ul li {
+    padding: 4px 14px;
+}
+
+.dropdown-menu ul li:hover {
+    background: #E2EDFF;
+}
+
 .company-drop-list ul li {
     font-size: var(--promoted-btn);
-    font-weight: var(--font-weight-medium);
-    color: var(--text-color);
+    font-weight: 300;
+    color: rgb(0 0 0 / 80%);
     line-height: 38px;
     cursor: pointer;
     list-style: none;
@@ -2618,18 +2694,21 @@ ul.job-details-list li {
     position: relative;
 }
 
-
-/* .company-form-dropdownBox:after {
-content: "⌄";
-position: absolute;
-right: 10px;
-font-size: 15px;
-margin-bottom: 5px;
-} */
-
 .company-form-dropdownBox:after {
     content: " ";
     background-image: url(./image/dropdown-arrow.png);
+    width: 38px;
+    height: 10px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    position: absolute;
+    background-size: contain;
+    right: 0;
+}
+
+.company-form-dropdownBox1:after {
+    content: " ";
+    background-image: url(./image/company--detail-filter.png);
     width: 38px;
     height: 10px;
     background-repeat: no-repeat;
@@ -2643,7 +2722,7 @@ margin-bottom: 5px;
 /****************top match page scss start here***********/
 
 .job-posstion-job-content {
-    padding: 100px 0px 50px 0px;
+    padding: 150px 0px 50px 0px;
 }
 
 .left-right-content {
@@ -2797,7 +2876,7 @@ margin-bottom: 5px;
     max-width: 60%;
 }
 
-.job-title-right-col a.titke-job-link {
+.job-title-right-col a.title-job-link {
     text-decoration: none;
     max-width: 60%;
 }
@@ -3983,7 +4062,12 @@ section.job-applied {
         width: 100%;
         font-size: 20px;
     }
-    .job-title-right-col a.titke-job-link {
+    .job-title-right-col a.title-job-link {
+        max-width: 66%;
+        width: 100%;
+        font-size: 20px;
+    }
+    .job-title a.title-job-link {
         max-width: 66%;
         width: 100%;
         font-size: 20px;
@@ -3995,7 +4079,7 @@ section.job-applied {
 
 @media only screen and (max-width: 1420px) and (min-width: 1361px) {
     .job-title {
-        max-width: 70%;
+        max-width: 45%;
     }
     .job-skills {
         max-width: 70%;
@@ -4099,7 +4183,7 @@ section.job-applied {
     .job-title-right-col h3 {
         max-width: 100%;
     }
-    .job-title-right-col a.titke-job-link {
+    .job-title-right-col a.title-job-link {
         max-width: 100%;
     }
 }
@@ -4219,6 +4303,10 @@ section.job-applied {
         max-width: 100%;
         width: 100%;
     }
+    .job-title a.title-job-link {
+        text-decoration: none;
+        max-width: 100%;
+    }
     .job-title a {
         max-width: 50%;
         width: 100%;
@@ -4267,6 +4355,10 @@ section.job-applied {
     }
     .three-stack-btn button {
         padding: 10px 0;
+    }
+    /************company page *********/
+    .search-box {
+        display: none;
     }
 }
 
@@ -4318,6 +4410,18 @@ section.job-applied {
     }
     .job-filter-btn button {
         padding: 12px 50px;
+    }
+    /***************job search ******/
+    .job-fillter-f {
+        flex-direction: column;
+    }
+    .job-keywords,
+    .job-type-f {
+        max-width: 100%;
+    }
+    .job-post-date {
+        max-width: 100%;
+        width: 100%;
     }
     /**************job search match page *************/
     .job-col-right {
@@ -4466,7 +4570,7 @@ section.job-applied {
     .job-search-box-row {
         display: block;
     }
-    .job-heading h2 {
+    .smilar-job-heading h2 {
         position: relative;
         text-align: center;
     }
@@ -4501,7 +4605,7 @@ section.job-applied {
     }
     /*********company details ************/
     .open-postion {
-        padding-top: 50px;
+        padding-top: 0px;
     }
     /******cnadidaate profile tablet***/
     section.profile-edit {
@@ -4683,7 +4787,7 @@ section.job-applied {
         padding: 50px 0px;
     }
     .ensure-heading {
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
     }
     .ensure-heading h2 {
@@ -4838,11 +4942,11 @@ section.job-applied {
         line-height: 30px;
     }
     button.decline-btn {
-        padding: 8px 15px;
+        padding: 8px 25px;
         font-size: 18px;
     }
     button.allow-btn {
-        padding: 8px 15px;
+        padding: 8px 31px;
         font-size: 18px;
     }
     p.cookies-paragrapgh {
@@ -4994,7 +5098,7 @@ section.job-applied {
     .progressbar-steps li:after {
         top: 18px;
     }
-    /*************create compant profile mobile***********/
+    /*************create company profile mobile***********/
     .signup-file-company-logo label {
         flex-wrap: wrap;
     }
@@ -5102,7 +5206,14 @@ section.job-applied {
         bottom: -34px;
         left: 0;
     }
+    .job-heading {
+        padding-top: 20px !important;
+        border-top: 1px solid rgb(0 0 0 / 25%);
+    }
     .job-heading h2 {
+        padding-bottom: 20px;
+    }
+    .smilar-job-heading h2 {
         position: relative;
         text-align: center;
     }
@@ -5115,6 +5226,12 @@ section.job-applied {
     .job-search-box-row {
         display: block;
     }
+    .job-search-box-row {
+        padding-bottom: 0;
+    }
+    .smilar-job-heading {
+        padding: 0;
+    }
     .search-box {
         max-width: 80%;
         width: 100%;
@@ -5124,6 +5241,9 @@ section.job-applied {
         padding: 4px;
     }
     /*************company detailspage css start here **********/
+    .company-detail-sec {
+        padding: 50px 0px;
+    }
     .j-fillter-only {
         display: block;
         margin: 50px auto;
@@ -5144,7 +5264,7 @@ section.job-applied {
         display: block;
     }
     .company-logo-left {
-        max-width: 40%;
+        max-width: 100%;
         width: 100%;
         display: flex;
         align-items: center;
@@ -5153,7 +5273,16 @@ section.job-applied {
         max-width: 100%;
         width: 100%;
     }
+    .search-box {
+        display: none;
+    }
     /**************** job detal page filer***********/
+    section.f-dream.job {
+        margin-top: 60px;
+    }
+    .job-posstion-job-content {
+        padding: 50px 0px 50px 0px;
+    }
     .job-post-date {
         max-width: 100%;
         width: 100%;
@@ -5170,7 +5299,7 @@ section.job-applied {
     }
     /*********company details ************/
     .open-postion {
-        padding-top: 50px;
+        padding-top: 00px;
     }
     /***************to match job page css for moobile**********/
     .left-right-content {
