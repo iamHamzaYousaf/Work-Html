@@ -696,11 +696,14 @@ img.vector {
 }
 
 .long-text-job-company a {
+    text-decoration: none;
     display: flex;
     align-items: flex-start;
     gap: 10px;
+}
+
+.long-text-job-company {
     max-width: 55%;
-    text-decoration: none;
 }
 
 .job-services p {
@@ -722,6 +725,7 @@ p.job-discription {
     color: var(--text-color);
     font-size: var(--body-text);
     font-weight: 300;
+    opacity: 0.8;
     font-family: var(--museo-sans);
 }
 
@@ -777,19 +781,40 @@ p.job-discription {
     padding: 15px 0px;
     font-size: var(--promoted-btn);
     color: var(--text-color);
+    opacity: 0.8;
 }
+
+
+/*****************candidate dashbor right column***********/
+
+.job-opstion-status {
+    display: flex;
+    gap: 15px;
+    padding: 15px 0px;
+    font-size: var(--promoted-btn);
+    color: var(--text-color);
+}
+
+.job-date-candidate p {
+    padding: 15px 0px 0px;
+    font-size: var(--promoted-btn);
+    color: var(--text-color);
+}
+
+
+/*****************************/
 
 .job-announcements-status p {
     padding: 15px 0px 0px;
     font-size: var(--promoted-btn);
     color: var(--text-color);
+    opacity: 0.8;
 }
 
 .job-application-status p {
     padding: 15px 0px 0px;
     font-size: var(--promoted-btn);
     color: var(--text-color);
-    font-weight: var(--font-weight-medium);
 }
 
 .job-favorite {
@@ -2994,6 +3019,7 @@ p.job-discription-right {
     font-size: var(--body-text);
     font-weight: 300;
     font-family: var(--museo-sans);
+    opacity: 0.8;
 }
 
 
@@ -4314,7 +4340,7 @@ section.job-applied {
         max-width: 100%;
         width: 100%;
     }
-    .long-text-job-company a {
+    .long-text-job-company {
         max-width: 100%;
         width: 100%;
     }
@@ -4867,7 +4893,8 @@ section.job-applied {
         text-align: center;
     }
     .job-apply,
-    .job-favorite {
+    .job-favorite,
+    .job-opstion-status {
         justify-content: center;
     }
     .see-more-job button {
