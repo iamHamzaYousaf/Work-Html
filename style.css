@@ -279,10 +279,6 @@ html {
 
 /*****banner start******/
 
-.banner-top {
-    padding: 50px 0px;
-}
-
 .banner-row {
     display: flex;
     justify-content: space-between;
@@ -679,7 +675,6 @@ img.vector {
 .job-time p {
     font-size: var(--promoted-btn);
     color: var(--text-color);
-    font-weight: 300;
     opacity: 0.8;
 }
 
@@ -700,11 +695,12 @@ img.vector {
     text-decoration: none;
 }
 
-.long-text-job-company {
+.long-text-job-company a {
     display: flex;
     align-items: flex-start;
     gap: 10px;
     max-width: 55%;
+    text-decoration: none;
 }
 
 .job-services p {
@@ -755,7 +751,6 @@ p.job-discription {
 .job-location p {
     font-size: var(--promoted-btn);
     color: var(--text-color);
-    font-weight: 300;
 }
 
 .job-skills {
@@ -782,14 +777,12 @@ p.job-discription {
     padding: 15px 0px;
     font-size: var(--promoted-btn);
     color: var(--text-color);
-    font-weight: var(--font-weight-medium);
 }
 
 .job-announcements-status p {
     padding: 15px 0px 0px;
     font-size: var(--promoted-btn);
     color: var(--text-color);
-    font-weight: var(--font-weight-medium);
 }
 
 .job-application-status p {
@@ -804,7 +797,6 @@ p.job-discription {
     gap: 10px;
     font-size: var(--promoted-btn);
     color: var(--text-color);
-    font-weight: var(--font-weight-medium);
 }
 
 .job-favorite img {
@@ -2429,6 +2421,7 @@ ul.job-details-list li {
     font-family: var(--museo-sans);
     font-size: var(--body-text);
     padding-bottom: 5px;
+    font-weight: 300;
 }
 
 .job-heading-detail-sec {
@@ -2520,7 +2513,7 @@ ul.job-details-list li {
 /*********company detail page start here ************/
 
 .open-postion {
-    padding-top: 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 .company-detail-sec {
@@ -2585,6 +2578,10 @@ ul.job-details-list li {
     border-radius: 6px;
     width: 200px;
     background: var(--secondary-color);
+}
+
+section.company-job-sec {
+    padding-bottom: 80px;
 }
 
 
@@ -2910,7 +2907,7 @@ ul.job-details-list li {
 
 .job-location-right-col {
     display: flex;
-    gap: 22px;
+    gap: 8px;
     flex-wrap: wrap;
     max-width: 40%;
     width: 100%;
@@ -2946,22 +2943,21 @@ ul.job-details-list li {
     font-weight: var(--font-weight-medium);
 }
 
-.job-services-col-left {
+.job-services-col-left a {
     display: flex;
     align-items: flex-start;
     gap: 10px;
-    max-width: 65%;
+    max-width: 100%;
     width: 100%;
 }
 
 .job-location-right-col p {
     font-size: var(--promoted-btn);
     color: var(--text-color);
-    font-weight: var(--font-weight-medium);
     opacity: 0.8;
 }
 
-.job-services-col-left img {
+.job-services-col-left a img {
     height: 35px;
     width: 35px;
     object-fit: contain;
@@ -2985,7 +2981,7 @@ ul.job-details-list li {
     border-radius: 4px;
 }
 
-.job-services-col-left p {
+.job-services-col-left a p {
     color: var(--text-color);
     font-family: var(--museo-sans);
     font-size: var(--promoted-btn);
@@ -3368,6 +3364,16 @@ button.save-btn-profile {
     font-family: var(--museo-sans);
 }
 
+button.save-btn-profilefill {
+    font-size: var(--promoted-btn);
+    padding: 12px 57px;
+    background: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    color: var(--color-white);
+    border-radius: 6px;
+    font-family: var(--museo-sans);
+}
+
 button.save-btn-profile:hover {
     background: var(--accent-color);
     color: var(--color-white);
@@ -3377,6 +3383,9 @@ button.save-btn-profile:hover {
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-direction: column;
+    max-width: 40%;
+    margin: 0 auto;
 }
 
 button.profile-end-btn {
@@ -3396,7 +3405,7 @@ button.profile-end-btn:hover {
 }
 
 .preferences-row {
-    padding: 0px 0px 50px 0px;
+    padding: 40px 0px;
 }
 
 .preferences-row h2 {
@@ -3673,6 +3682,10 @@ ul.candidate-profile-data-list {
 
 .accordion-candidate-prfile {
     padding: 20px 0px;
+}
+
+.divider-bottom-tabdata {
+    border-bottom: 0.5px solid var(--boder-color);
 }
 
 
@@ -4103,7 +4116,7 @@ section.job-applied {
     .job-title-right-col {
         max-width: 58%;
     }
-    .job-services-col-left p {
+    .job-services-col-left a p {
         color: var(--text-color);
         font-family: var(--museo-sans);
         font-size: 16px;
@@ -4114,7 +4127,7 @@ section.job-applied {
         max-width: 39%;
     }
     .job-location-right-col {
-        gap: 15px;
+        gap: 5px;
         max-width: 39%;
     }
     .job-skills-right-col {
@@ -4174,7 +4187,7 @@ section.job-applied {
     .job-location-right-col {
         max-width: 100%;
     }
-    .job-services-col-left p {
+    .job-services-col-left a p {
         font-size: 16px;
     }
     .job-services-col-left {
@@ -4189,7 +4202,8 @@ section.job-applied {
 }
 
 @media only screen and (max-width:1299px) {
-    .job-seclude {
+    .job-seclude,
+    .job-location {
         max-width: 50%;
         width: 100%;
     }
@@ -4233,7 +4247,8 @@ section.job-applied {
     .job-title {
         max-width: 100%;
     }
-    .job-seclude {
+    .job-seclude,
+    .job-location {
         max-width: 100%;
     }
     .filter-serach-btn {
@@ -4299,7 +4314,7 @@ section.job-applied {
         max-width: 100%;
         width: 100%;
     }
-    .long-text-job-company {
+    .long-text-job-company a {
         max-width: 100%;
         width: 100%;
     }
@@ -4669,7 +4684,7 @@ section.job-applied {
     }
     /*********profile candidate *********/
     .preferences-row {
-        padding: 0px 0px 50px 0;
+        padding: 40px 0;
     }
     /*******candidate job dashboard ***/
     .job-announcements-col-candidate button,
@@ -5299,7 +5314,10 @@ section.job-applied {
     }
     /*********company details ************/
     .open-postion {
-        padding-top: 00px;
+        padding-top: 0px;
+    }
+    section.company-job-sec {
+        padding-bottom: 50px;
     }
     /***************to match job page css for moobile**********/
     .left-right-content {
@@ -5394,8 +5412,9 @@ section.job-applied {
         font-size: 24px;
     }
     .back-save-btns {
-        justify-content: center;
         gap: 15px;
+        max-width: 90%;
+        margin: 0 auto;
     }
     input#preferences-prfile {
         width: 100%;
@@ -5413,7 +5432,7 @@ section.job-applied {
         padding: 9px 45px;
     }
     .preferences-row {
-        padding: 0px 0px 30px;
+        padding: 30px 0;
     }
     /****************profile detail fill bobile******/
     .intro-profile-vedio-chek {
