@@ -60,18 +60,19 @@
                             <form action="">
                                 <div class="signup-jobs-option f-feild error-input">
                                     <label for="fjobtitles">Choose a Job Title</label><br>
-                                    <select id="choose-jobs" name="country" class="form-control">
-                              <option value="">web Development</option>
-                              <option value="">web Development</option>
-                              <option value="">web Development</option>
-                              <option value="">web Development</option>
-                                </select>
+                                    <select id="choose-jobs" name="country">
+                                        <option value="">web Development</option>
+                                        <option value="">web Development</option>
+                                        <option value="">web Development</option>
+                                        <option value="">web Development</option>
+                                    </select>
                                     <p class="error-msg">Please select Job Title</p>
                                 </div>
                                 <div class="job-postion-form f-feild">
                                     <div class="job-postion-select-btn">
                                         <input type="radio" name="" id="job-postion" value="Junior">
-                                        <label for="job-postion" class="job-postion-btn">Junior</label><br></div>
+                                        <label for="job-postion" class="job-postion-btn">Junior</label><br>
+                                    </div>
                                     <div class="job-postion-select-btn">
                                         <input type="radio" name="" id="job-postion" value="Junior">
                                         <label for="job-postion" class="job-postion-btn">Mid - Level</label><br>
@@ -81,24 +82,46 @@
                                         <label for="job-postion" class="job-postion-btn">Senior</label><br>
                                     </div>
                                 </div>
-                                <div class="signup-salary f-feild error-input">
-                                    <label for="fsalary">salary</label><br>
-                                    <div class="merge-feild error-input">
-                                        <div id="salary">
-                                            <p>us $</p>
+                                <div class="signup-salary f-feild">
+                                    <label for="fsalary">Salary Range</label><br>
+                                    <div class="salary-range-start-end">
+                                        <div class="merge-feild-1">
+                                            <div id="salary-start">
+                                                <select name="salry-range" id="fsalary-country">
+                                                    <option value="">us $</option>
+                                                    <option value="">PKR</option>
+                                                    <option value="">Ral</option>
+                                                </select>
+                                            </div>
+                                            <input type="text" name="" id="salary-start-range">
                                         </div>
-                                        <input type="text" name="" id="">
+                                        <div class="merge-feild-2">
+                                            <p class="salryto">To</p>
+                                        </div>
+                                        <div class="merge-feild-3">
+                                            <input type="text" name="" id="salary-end">
+                                        </div>
+                                        <div class="merge-feild-4">
+                                            <div id="Year">
+                                                <select name="salry-range" id="fsalary-year">
+                                                    <option data-countryCode="BB" value="1246">Year</option>
+                                                    <option data-countryCode="BY" value="375">2016</option>
+                                                    <option data-countryCode="BE" value="32">2010</option>
+                                                    <!-- <p>(+375)</p> -->
+                                                </select>
+                                            </div>
+                                        </div>
                                     </div>
                                     <p class="error-msg">Enter Correct Salary</p>
                                 </div>
                                 <div class="signup-jobs-option f-feild error-input">
                                     <label for="fjobtypes">Job Type</label><br>
                                     <select id="choose-jobs-type" class="form-control">
-                              <option value="">web Development</option>
-                              <option value="">web Development</option>
-                              <option value="">web Development</option>
-                              <option value="">web Development</option>
-                                </select>
+                                        <option value="">web Development</option>
+                                        <option value="">web Development</option>
+                                        <option value="">web Development</option>
+                                        <option value="">web Development</option>
+                                    </select>
                                     <p class="error-msg">Please select Job Type</p>
                                 </div>
                                 <div class="signup-skill-tags f-feild tags-tittles">
@@ -130,10 +153,67 @@
                                     <p class="msg-show-blowe-textarea">Max Limit (100) words</p>
                                     <p class="error-msg hide-error">Enter Detailed Job Description</p>
                                 </div>
-                                <div class="signup-company-information f-feild-stl">
+                                <div class="signup-company-information f-feild">
                                     <label for="flink">Benefits</label><br>
                                     <textarea rows="10" cols="100"> </textarea>
-                                    <p class="error-msg hide-error">Enter Detailed Job Description</p>
+                                    <p class="error-msg hide-error">Enter Benefits you want</p>
+                                </div>
+                                <div class="signup-company-information f-feild">
+                                    <label for="flink">Working Hours</label><br>
+                                    <textarea rows="10" cols="100"> </textarea>
+                                    <p class="error-msg hide-error">Enter Working Hours</p>
+                                </div>
+                                <div class="signup-company-information f-feild">
+                                    <label for="flink">Interview Process</label><br>
+                                    <textarea rows="10" cols="100"> </textarea>
+                                    <p class="error-msg hide-error">Enter Interview Process</p>
+                                </div>
+                                <div class="signup-company-information f-feild">
+                                    <label for="flink">Recruiter Notes</label><br>
+                                    <textarea rows="10" cols="100"> </textarea>
+                                    <p class="error-msg hide-error">Enter Recruiter Notes</p>
+                                </div>
+                                <div class="last-four-feild-post-job select-postion-hide-feils">
+                                    <div class="signup-jobs-option f-feild">
+                                        <label for="fjobtitles">Industry</label><br>
+                                        <select id="choose-jobs" name="country">
+                                        <option value="">web Development</option>
+                                        <option value="">web Development</option>
+                                        <option value="">web Development</option>
+                                        <option value="">web Development</option>
+                                    </select>
+                                        <p class="error-msg hide-error">Please select Job Title</p>
+                                    </div>
+                                    <div class="signup-jobs-option f-feild">
+                                        <label for="fjobtitles">Reporting To</label><br>
+                                        <select id="choose-jobs" name="country">
+                                        <option value="">web Development</option>
+                                        <option value="">web Development</option>
+                                        <option value="">web Development</option>
+                                        <option value="">web Development</option>
+                                    </select>
+                                        <p class="error-msg hide-error">Please select Job Title</p>
+                                    </div>
+                                    <div class="signup-jobs-option f-feild">
+                                        <label for="fjobtitles">Company Size</label><br>
+                                        <select id="choose-jobs" name="country">
+                                        <option value="">web Development</option>
+                                        <option value="">web Development</option>
+                                        <option value="">web Development</option>
+                                        <option value="">web Development</option>
+                                    </select>
+                                        <p class="error-msg hide-error">Please select Job Title</p>
+                                    </div>
+                                    <div class="signup-jobs-option f-feild">
+                                        <label for="fjobtitles">Work Methodology</label><br>
+                                        <select id="choose-jobs" name="country">
+                                        <option value="">web Development</option>
+                                        <option value="">web Development</option>
+                                        <option value="">web Development</option>
+                                        <option value="">web Development</option>
+                                    </select>
+                                        <p class="error-msg hide-error">Please select Job Title</p>
+                                    </div>
                                 </div>
                             </form>
                         </div>
@@ -174,9 +254,27 @@
                                 <li>Optimizing components for maximum performance across a vast array of web-capable devices and browsers.</li>
                             </ul>
                         </div>
-                        <div class="benrfits-final-post final-sub-heading">
+                        <div class="skills-musthave-post final-sub-heading">
+                            <h3>Must Have Skills</h3>
+                            <ul class="skills-musthave-list">
+                                <li>Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model</li>
+                                <li>Thorough understanding of React.js and its core principles</li>
+                                <li>Translating designs and wireframes into high quality code</li>
+                                <li>Translating designs and wireframes into high quality code</li>
+                            </ul>
+                        </div>
+                        <div class="nicetohave-post final-sub-heading">
+                            <h3>Nice To Have</h3>
+                            <ul class="nicetohave-list">
+                                <li>Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model</li>
+                                <li>Thorough understanding of React.js and its core principles</li>
+                                <li>Translating designs and wireframes into high quality code</li>
+                                <li>Translating designs and wireframes into high quality code</li>
+                            </ul>
+                        </div>
+                        <div class="benefits-final-post final-sub-heading">
                             <h3>Benefits</h3>
-                            <ul class="benrfits-final-list">
+                            <ul class="benefits-final-list">
                                 <li>Thorough understanding of React.js and its core principles</li>
                                 <li>Translating designs and wireframes into high quality code</li>
                                 <li>Translating designs and wireframes into high quality code</li>
@@ -193,6 +291,52 @@
                                 <li>Mon - Friday 9 AM - 7 PM EST</li>
                                 <li>Should be flexible to work on Saturday twice a month.</li>
                             </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="feild-form-four show-feild-after-jobpostion-select">
+                    <div class="two-feils-left">
+                        <div class="signup-jobs-option f-feild error-input">
+                            <label for="fjobtitles">Choose a Job Title</label><br>
+                            <select id="choose-jobs" name="country">
+                                <option value="">web Development</option>
+                                <option value="">web Development</option>
+                                <option value="">web Development</option>
+                                <option value="">web Development</option>
+                            </select>
+                            <p class="error-msg hide-error">Please select Job Title</p>
+                        </div>
+                        <div class="signup-jobs-option f-feild error-input">
+                            <label for="fjobtitles">Choose a Job Title</label><br>
+                            <select id="choose-jobs" name="country">
+                                <option value="">web Development</option>
+                                <option value="">web Development</option>
+                                <option value="">web Development</option>
+                                <option value="">web Development</option>
+                            </select>
+                            <p class="error-msg hide-error">Please select Job Title</p>
+                        </div>
+                    </div>
+                    <div class="two-feils-right">
+                        <div class="signup-jobs-option f-feild error-input">
+                            <label for="fjobtitles">Choose a Job Title</label><br>
+                            <select id="choose-jobs" name="country">
+                                <option value="">web Development</option>
+                                <option value="">web Development</option>
+                                <option value="">web Development</option>
+                                <option value="">web Development</option>
+                            </select>
+                            <p class="error-msg hide-error">Please select Job Title</p>
+                        </div>
+                        <div class="signup-jobs-option f-feild error-input">
+                            <label for="fjobtitles">Choose a Job Title</label><br>
+                            <select id="choose-jobs" name="country">
+                                <option value="">web Development</option>
+                                <option value="">web Development</option>
+                                <option value="">web Development</option>
+                                <option value="">web Development</option>
+                            </select>
+                            <p class="error-msg hide-error">Please select Job Title</p>
                         </div>
                     </div>
                 </div>

@@ -675,7 +675,9 @@ img.vector {
 .job-time p {
     font-size: var(--promoted-btn);
     color: var(--text-color);
+    font-weight: 300;
     opacity: 0.8;
+    font-family: var(--museo-sans);
 }
 
 .job-announcements {
@@ -721,12 +723,12 @@ img.vector {
 }
 
 p.job-discription {
-    padding: 15px 0px;
     color: var(--text-color);
     font-size: var(--body-text);
     font-weight: 300;
     opacity: 0.8;
     font-family: var(--museo-sans);
+    padding: 15px 0px 36px 0px;
 }
 
 .job-skill-location {
@@ -755,6 +757,9 @@ p.job-discription {
 .job-location p {
     font-size: var(--promoted-btn);
     color: var(--text-color);
+    font-weight: 300;
+    opacity: 0.8;
+    font-family: var(--museo-sans);
 }
 
 .job-skills {
@@ -772,7 +777,7 @@ p.job-discription {
     color: var(--primary-color);
     font-size: var(--button-text);
     border-radius: 6px;
-    border: 0.5px solid #E2EDFF;
+    border: 1px solid #E2EDFF;
 }
 
 .job-apply {
@@ -1135,7 +1140,7 @@ p.cookies-paragrapgh {
 }
 
 button.decline-btn {
-    padding: 14px 48px;
+    padding: 14px 46px;
     background: transparent;
     border: 1px solid var(--accent-color);
     color: var(--accent-color);
@@ -1523,15 +1528,6 @@ button.employee-btn {
     font-family: var(--museo-sans);
     font-size: var(--promoted-btn);
     font-weight: var(--font-weight-bold);
-}
-
-.f-feild-stl label {
-    margin-bottom: 8px;
-    color: var(--text-color);
-    opacity: 0.8;
-    font-family: var(--museo-sans);
-    font-size: var(--promoted-btn);
-    font-weight: var(--font-weight-medium);
 }
 
 .signup-email input[type="email"] {
@@ -2244,7 +2240,7 @@ p.cities-job-heading {
 }
 
 .final-sub-heading {
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 .post-job-title-employe h5 {
@@ -2255,13 +2251,16 @@ p.cities-job-heading {
 .final-sub-heading h3 {
     font-weight: var(--font-weight-bold);
     line-height: 28px;
+    padding-bottom: 24px;
 }
 
 p.job-description-final-post,
 ul.responsibilities-final-list,
 ul.skills-final-list,
-ul.benrfits-final-list,
-ul.working-time-final-list {
+ul.benefits-final-list,
+ul.working-time-final-list,
+ul.skills-musthave-list,
+ul.nicetohave-list {
     color: var(--text-color);
     opacity: 0.8;
     font-size: var(--promoted-btn);
@@ -2415,7 +2414,7 @@ ul.find-job-tag li {
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
     border-radius: 6px;
-    border: 1px solid #F2F7FF;
+    border: 1px solid #E2EDFF;
 }
 
 .job-title-sec {
@@ -2435,6 +2434,8 @@ section.job-description-sec {
 
 .job-heading-detail-sec h5 {
     font-weight: var(--font-weight-bold);
+    margin-bottom: 0px;
+    padding-bottom: 30px;
 }
 
 .job-details-first-title h5 {
@@ -2582,10 +2583,12 @@ ul.job-details-list li {
 
 .company-content-right p {
     font-family: var(--museo-sans);
-    font-weight: var(--font-weight-medium);
+    font-weight: 300;
     font-size: var(--body-text);
     color: var(--text-color);
     line-height: 45px;
+    opacity: 0.8;
+    text-align: justify;
 }
 
 .j-fillter-only {
@@ -2980,6 +2983,8 @@ section.company-job-sec {
     font-size: var(--promoted-btn);
     color: var(--text-color);
     opacity: 0.8;
+    font-weight: 300;
+    font-family: var(--main-heading);
 }
 
 .job-services-col-left a img {
@@ -3003,7 +3008,8 @@ section.company-job-sec {
     padding: 5px;
     color: var(--primary-color);
     font-size: var(--button-text);
-    border-radius: 4px;
+    border-radius: 6px;
+    border: 1px solid #E2EDFF;
 }
 
 .job-services-col-left a p {
@@ -3014,7 +3020,7 @@ section.company-job-sec {
 }
 
 p.job-discription-right {
-    padding: 15px 0px;
+    padding: 15px 0px 36px 0px;
     color: var(--text-color);
     font-size: var(--body-text);
     font-weight: 300;
@@ -3514,7 +3520,10 @@ select#candidate-location-feild {
 
 input#candidate-name-field:focus-visible,
 select#candidate-location-feild:focus-visible,
-input#profile-email-candidate:focus-visible {
+input#profile-email-candidate:focus-visible,
+select#candidate-location-feild:focus,
+input#Company-name-employe-profile,
+input#profile-url-employee {
     outline: 0;
 }
 
@@ -3547,6 +3556,67 @@ input#profile-email-candidate {
     padding-left: 40px !important;
     background-position: left 10px bottom 20px;
 }
+
+
+/*****************employeee profile ***************/
+
+input#Company-name-employe-profile {
+    max-width: 100%;
+    width: 100%;
+    padding: 18px 10px;
+    border: 0.5px solid #BDBDBD;
+    border-radius: 6px;
+}
+
+input#Company-name-employe-profile {
+    background: url(./image/lock-profile-employye.png);
+    background-repeat: no-repeat;
+    display: block;
+    background-size: 20px;
+    padding-left: 15px !important;
+    background-position: right 10px bottom 20px;
+}
+
+input#profile-url-employee {
+    max-width: 100%;
+    width: 100%;
+    padding: 18px 10px;
+    border: 0.5px solid #BDBDBD;
+    border-radius: 6px;
+}
+
+input#profile-url-employee {
+    background: url(./image/website-profile-link.png);
+    background-repeat: no-repeat;
+    display: block;
+    background-size: 20px;
+    padding-left: 40px !important;
+    background-position: left 10px bottom 20px;
+}
+
+.employee-profile-compnay {
+    margin-bottom: 40px;
+}
+
+p.company-name-profile {
+    color: var(--text-color);
+    font-size: var(--fig-caption);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+}
+
+p.employee-profile-company-content {
+    padding: 15px 40px 30px 15px;
+    border-radius: 6px;
+    border: 0.5px solid var(--gray-4, #BDBDBD);
+    color: var(--text-color);
+    font-size: var(--body-text);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+}
+
+
+/******************************/
 
 .country-code-profile {
     display: flex;
@@ -3581,6 +3651,7 @@ input#profile-call {
     background-size: 20px;
     padding-left: 35px !important;
     background-position: left 10px bottom 20px;
+    background-color: #FAFAFA;
 }
 
 input#social-link {
@@ -3604,7 +3675,10 @@ input#candidate-name-field::-webkit-input-placeholder,
 input#social-link::-webkit-input-placeholder,
 input#profile-email-candidate::-webkit-input-placeholder,
 input#profile-call::-webkit-input-placeholder,
-input#social-link::-webkit-input-placeholder {
+input#social-link::-webkit-input-placeholder,
+select#candidate-location-feild,
+input#Company-name-employe-profile::-webkit-input-placeholder,
+input#profile-url-employee::-webkit-input-placeholder {
     color: var(--text-color);
     font-size: var(--promoted-btn);
     font-family: var(--museo-sans);
@@ -3970,6 +4044,9 @@ p.resume-degree {
     justify-content: center;
     gap: 80px;
     padding: 100px 0;
+    max-width: 70%;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .job-applied-col.job-candidate-cards {
@@ -3977,7 +4054,9 @@ p.resume-degree {
     border: 0.5px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
-    padding: 0 120px 15px;
+    padding: 0 20px 15px;
+    max-width: 50%;
+    width: 100%;
 }
 
 p.job-title-candidate-dashboard {
@@ -4724,6 +4803,11 @@ section.job-applied {
     .job-recommend-applied {
         flex-direction: column;
     }
+    .job-applied-col.job-candidate-cards {
+        max-width: 75%;
+        width: 100%;
+        margin: 0 auto;
+    }
 }
 
 
@@ -5095,7 +5179,8 @@ section.job-applied {
     input#profile-email-candidate,
     input#profile-call,
     input#social-link,
-    .candidate-call {
+    .candidate-call,
+    input#Company-name-employe-profile {
         padding: 12px 8px;
     }
     /************* popup model mobile*************/
@@ -5560,11 +5645,130 @@ section.job-applied {
     }
     .job-recommend-applied {
         flex-direction: column;
+        max-width: 100%;
+        width: 100%;
     }
     .job-applied-col.job-candidate-cards {
         padding: 0 1px 15px;
+        max-width: 100%;
+        width: 100%;
     }
     p.job-applied-candidate-dashboard {
         font-size: 60px;
     }
+}
+
+
+/*****************form test ***************/
+
+.salary-range-start-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.merge-feild-1 {
+    display: flex;
+    max-width: 45%;
+    width: 100%;
+}
+
+.merge-feild-2 {
+    max-width: 5%;
+    width: 100%;
+}
+
+.merge-feild-3 {
+    display: flex;
+    max-width: 35%;
+    width: 100%;
+}
+
+p.salryto {
+    text-align: center;
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-color);
+}
+
+.merge-feild-4 {
+    max-width: 15%;
+    width: 100%;
+}
+
+input#salary-end {
+    padding: 18px 8px;
+    border: 0.5px solid var(--boder-color);
+    border-radius: 6px;
+    width: 100%;
+}
+
+select#fsalary-country {
+    padding: 18px 8px;
+    border: 0.5px solid var(--boder-color);
+    border-radius: 6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background: var(--fomr-telcode-bg);
+    -webkit-appearance: none;
+    background-image: url(./image/salary-year.png);
+    background-repeat: no-repeat;
+    background-position: right 2px bottom 21px;
+    background-size: 20px;
+    width: 100%;
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+div#salary-start {
+    max-width: 25% !important;
+    width: 100%;
+}
+
+input#salary-start-range {
+    width: 75%;
+}
+
+select#fsalary-year {
+    padding: 15px 8px;
+    border: 0.5px solid var(--boder-color);
+    border-radius: 6px;
+    background: var(--fomr-telcode-bg);
+    width: 100%;
+    text-align: center;
+    -webkit-appearance: none;
+    background-image: url(./image/salary-year.png);
+    background-repeat: no-repeat;
+    background-position: right 8px bottom 22px;
+    background-size: 20px;
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+.feild-form-four {
+    display: flex;
+}
+
+.two-feils-left {
+    max-width: 50%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.two-feils-right {
+    max-width: 50%;
+    width: 100%;
+    margin-left: 30px;
+}
+
+.show-feild-after-jobpostion-select {
+    display: none;
 }
