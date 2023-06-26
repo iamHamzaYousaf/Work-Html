@@ -3101,10 +3101,11 @@ section.pageniation-sec {
     max-width: 100%;
 }
 
-.candidate-wishlist-block {
+.candidate-wishlist-block a {
     display: flex;
     align-items: center;
     gap: 15px;
+    text-decoration: none;
 }
 
 .candidate-wishlist-block img {
