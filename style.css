@@ -2164,6 +2164,11 @@ button.btn-job-post {
     padding: 18px 8px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    font-weight: 300;
+    color: var(--text-color);
+    opacity: 0.8;
 }
 
 .signup-jobs-option #choose-jobs-type {
@@ -2171,6 +2176,11 @@ button.btn-job-post {
     padding: 18px 8px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    font-weight: 300;
+    color: var(--text-color);
+    opacity: 0.8;
 }
 
 .job-postion-form {
@@ -2834,6 +2844,10 @@ section.company-job-sec {
     width: 100%;
 }
 
+.job-services-col-left-w {
+    max-width: 100%;
+}
+
 .job-services-col-left p {
     max-width: 75%;
     width: 100%;
@@ -2946,6 +2960,11 @@ section.company-job-sec {
 .job-title-right-col a.title-job-link {
     text-decoration: none;
     max-width: 60%;
+}
+
+.job-title-right-col a.title-job-link-w {
+    text-decoration: none;
+    max-width: 100%;
 }
 
 .job-title-right-col a h3 {
@@ -5814,4 +5833,17 @@ select#fsalary-year {
 
 .show-feild-after-jobpostion-select {
     display: none;
+}
+
+.dropdown-icon-postjob {
+    -webkit-appearance: none;
+    background-image: url(./image/post-form-dropdown.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: right 8px bottom 22px !important;
+    background-size: 20px !important;
+    /* font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    font-weight: 300;
+    color: var(--text-color);
+    opacity: 0.8; */
 }
