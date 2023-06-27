@@ -616,7 +616,7 @@ img.vector {
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     padding-bottom: 15px;
 }
 
@@ -673,9 +673,9 @@ img.vector {
 }
 
 .job-time p {
-    font-size: var(--promoted-btn);
     color: var(--text-color);
-    font-weight: 300;
+    font-size: var(--promoted-btn);
+    font-weight: var(--font-weight-medium);
     opacity: 0.8;
     font-family: var(--museo-sans);
 }
@@ -755,9 +755,9 @@ p.job-discription {
 }
 
 .job-location p {
-    font-size: var(--promoted-btn);
     color: var(--text-color);
-    font-weight: 300;
+    font-size: var(--promoted-btn);
+    font-weight: var(--font-weight-medium);
     opacity: 0.8;
     font-family: var(--museo-sans);
 }
@@ -771,8 +771,7 @@ p.job-discription {
 }
 
 .job-skills button {
-    background: var(--btn-color);
-    border: 0;
+    background: #F2F7FF;
     padding: 5px;
     color: var(--primary-color);
     font-size: var(--button-text);
@@ -784,9 +783,9 @@ p.job-discription {
     display: flex;
     gap: 15px;
     padding: 15px 0px;
+    color: var(--accent-color);
     font-size: var(--promoted-btn);
-    color: var(--text-color);
-    opacity: 0.8;
+    font-weight: var(--font-weight-medium);
 }
 
 
@@ -798,12 +797,16 @@ p.job-discription {
     padding: 15px 0px;
     font-size: var(--promoted-btn);
     color: var(--text-color);
+    font-weight: var(--font-weight-medium);
+    opacity: 0.8;
 }
 
 .job-date-candidate p {
     padding: 15px 0px 0px;
     font-size: var(--promoted-btn);
     color: var(--text-color);
+    font-weight: var(--font-weight-medium);
+    opacity: 0.8;
 }
 
 
@@ -813,23 +816,42 @@ p.job-discription {
     padding: 15px 0px 0px;
     font-size: var(--promoted-btn);
     color: var(--text-color);
-    opacity: 0.8;
+    font-weight: var(--font-weight-medium);
+    opacity: 0.5;
 }
 
 .job-application-status p {
     padding: 15px 0px 0px;
     font-size: var(--promoted-btn);
     color: var(--text-color);
+    font-weight: var(--font-weight-medium);
+    opacity: 0.8;
 }
 
 .job-favorite {
     display: flex;
     gap: 10px;
     font-size: var(--promoted-btn);
-    color: var(--text-color);
+    color: #64a7b6;
+    font-weight: var(--font-weight-medium);
 }
 
 .job-favorite img {
+    height: 25px;
+    width: 25px;
+    object-fit: contain;
+}
+
+.job-applied-text {
+    display: flex;
+    gap: 10px;
+    font-size: var(--promoted-btn);
+    color: var(--text-color);
+    font-weight: var(--font-weight-medium);
+    opacity: 0.8;
+}
+
+.job-applied-text img {
     height: 25px;
     width: 25px;
     object-fit: contain;
@@ -1064,6 +1086,11 @@ li.Countries-heading {
     padding-bottom: 7px;
 }
 
+.footer-list ul li a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
 .footer-divider {
     padding: 15px;
     border-top: 1px solid var(--boder-color)
@@ -1087,6 +1114,11 @@ ul.site-list {
     color: var(--color-white);
     font-weight: var(--font-weight-medium);
     font-size: var(--button-text);
+}
+
+ul.site-list a {
+    text-decoration: none;
+    color: var(--color-white);
 }
 
 
@@ -2414,7 +2446,7 @@ ul.find-job-tag li {
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
     border-radius: 6px;
-    border: 1px solid #E2EDFF;
+    border: 1px solid #e2edff;
 }
 
 .job-title-sec {
@@ -2586,9 +2618,10 @@ ul.job-details-list li {
     font-weight: 300;
     font-size: var(--body-text);
     color: var(--text-color);
-    line-height: 45px;
+    line-height: 38px;
     opacity: 0.8;
     text-align: justify;
+    margin-top: 24px;
 }
 
 .j-fillter-only {
@@ -2634,7 +2667,6 @@ section.company-job-sec {
     align-items: center;
     cursor: pointer;
     color: var(--text-color);
-    font-weight: var(--font-weight-medium);
 }
 
 .company-drop-list {
@@ -2770,7 +2802,7 @@ section.company-job-sec {
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     padding-bottom: 15px;
 }
 
@@ -2797,6 +2829,16 @@ section.company-job-sec {
     justify-content: space-between;
 }
 
+.job-services-col-left {
+    max-width: 60%;
+    width: 100%;
+}
+
+.job-services-col-left p {
+    max-width: 75%;
+    width: 100%;
+}
+
 .job-title-left a button {
     padding: 8px 10px;
     border: 0;
@@ -2816,7 +2858,7 @@ section.company-job-sec {
 }
 
 .job-discription-left {
-    padding: 15px 0px;
+    padding: 15px 0px 36px 0px;
     color: var(--text-color);
     font-size: var(--promoted-btn);
     font-weight: 300;
@@ -2889,7 +2931,7 @@ section.company-job-sec {
 
 .job-title-right-col {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 15px;
     max-width: 57%;
     width: 100%;
@@ -2910,6 +2952,7 @@ section.company-job-sec {
     font-weight: var(--font-weight-bold);
     max-width: 100%;
     text-decoration: none;
+    margin-bottom: 0;
 }
 
 .job-match-pro-btn h3 {
@@ -2983,8 +3026,8 @@ section.company-job-sec {
     font-size: var(--promoted-btn);
     color: var(--text-color);
     opacity: 0.8;
-    font-weight: 300;
-    font-family: var(--main-heading);
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
 }
 
 .job-services-col-left a img {
@@ -3003,13 +3046,12 @@ section.company-job-sec {
 }
 
 .job-skills-right-col button {
-    background: var(--btn-color);
-    border: 0;
+    background: #f2f7ff;
     padding: 5px;
     color: var(--primary-color);
     font-size: var(--button-text);
     border-radius: 6px;
-    border: 1px solid #E2EDFF;
+    border: 1px solid #e2edff;
 }
 
 .job-services-col-left a p {
@@ -3061,7 +3103,7 @@ section.pageniation-sec {
 
 .pagination-job a.active {
     background-color: #fff;
-    color: #000;
+    color: var(--accent-color);
     border: 2px solid var(--accent-color);
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-bold);
