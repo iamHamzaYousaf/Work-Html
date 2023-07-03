@@ -2171,6 +2171,14 @@ button.btn-job-post {
     opacity: 0.8;
 }
 
+.two-feils-left .feild-size-l {
+    width: 100% !important;
+}
+
+.two-feils-right .feild-size-r {
+    width: 75% !important;
+}
+
 .signup-jobs-option #choose-jobs-type {
     width: 100%;
     padding: 18px 8px;
@@ -2312,6 +2320,39 @@ ul.nicetohave-list {
 
 .hide-job-description {
     display: none;
+    margin-bottom: 40px;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    border: 0.5px solid #BDBDBD;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.04);
+    overflow: auto;
+    width: 100%;
+    height: 3388px;
+}
+
+
+/* width */
+
+.hide-job-description::-webkit-scrollbar {
+    width: 15px;
+}
+
+
+/* Track */
+
+.hide-job-description::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+.hide-job-description::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: var(--primary-color);
 }
 
 .cities-form-feild {
@@ -5820,15 +5861,15 @@ select#fsalary-year {
 }
 
 .two-feils-left {
-    max-width: 50%;
+    max-width: 48%;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 0 0;
 }
 
 .two-feils-right {
-    max-width: 50%;
+    max-width: 48%;
     width: 100%;
-    margin-left: 30px;
+    margin: 0 auto 0 0;
 }
 
 .show-feild-after-jobpostion-select {
