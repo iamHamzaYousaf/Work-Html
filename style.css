@@ -2324,7 +2324,7 @@ ul.nicetohave-list {
 }
 
 .hide-job-description {
-    display: none;
+    /* display: none; */
     margin-bottom: 40px;
     border-radius: 12px;
     border: 0.5px solid #BDBDBD;
@@ -3184,6 +3184,13 @@ section.pageniation-sec {
     justify-content: space-between;
 }
 
+.logo-col-profile-left {
+    max-width: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .find-job-btn-candidate-dashbord {
     margin-right: 30px;
 }
@@ -3201,7 +3208,7 @@ section.pageniation-sec {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    max-width: 25%;
+    max-width: 15%;
     width: 100%;
     flex-wrap: wrap;
     gap: 15px;
@@ -4311,6 +4318,111 @@ section.job-applied {
 }
 
 
+/*****************employee dasbord ***********/
+
+.employee-job-dasboard {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px 0;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.job-employee-cards {
+    background: #FFFFFF;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 0 20px 15px;
+    max-width: 30%;
+    width: 100%;
+}
+
+.job-employee-cards img {
+    text-align: center;
+    display: block;
+    margin: -20px auto 0;
+    padding-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+}
+
+table tr {
+    border-bottom: 1px solid rgb(0 0 0 / 20%);
+    padding: .35em;
+}
+
+table th {
+    padding: 30px 10px;
+    text-align: center;
+}
+
+table td {
+    padding: 20px 10px;
+    text-align: center;
+    color: var(--text-color);
+    opacity: 0.8;
+    font-size: var(--promoted-btn);
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+}
+
+table th {
+    color: var(--text-color);
+    opacity: 0.8;
+    font-size: var(--promoted-btn);
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+}
+
+th.technical-tags-row {
+    width: 300px;
+}
+
+.job-table-employee {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.job-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7px;
+}
+
+.job-table-employee button {
+    background: #F2F7FF;
+    padding: 5px;
+    color: var(--primary-color);
+    font-size: var(--button-text);
+    border-radius: 6px;
+    border: 1px solid #E2EDFF;
+}
+
+.cv-cions {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+
 /*************responsivness start here ***********/
 
 @media only screen and (max-width: 1480px)and (min-width: 1360px) {
@@ -4481,9 +4593,15 @@ section.job-applied {
     .logo-col-profile-candidate {
         max-width: 65%;
     }
+    .logo-col-profile-left {
+        max-width: 80%;
+    }
     .profile-right-col,
     .dropdown-dashbord {
         max-width: 35%;
+    }
+    .hide-wishlist-style {
+        max-width: 20%;
     }
 }
 
@@ -4710,9 +4828,15 @@ section.job-applied {
     .logo-col-profile-candidate {
         max-width: 60%;
     }
+    .logo-col-profile-left {
+        max-width: 65%;
+    }
     .profile-right-col,
     .dropdown-dashbord {
         max-width: 40%;
+    }
+    .hide-wishlist-style {
+        max-width: 35%;
     }
     button.accordion-button.collapsed {
         font-size: 28px;
@@ -4939,7 +5063,8 @@ section.job-applied {
     .find-job-btn-candidate-dashbord {
         display: none;
     }
-    .job-recommend-applied {
+    .job-recommend-applied,
+    .employee-job-dasboard {
         flex-direction: column;
     }
     .job-applied-col.job-candidate-cards {
@@ -5782,7 +5907,8 @@ section.job-applied {
     .find-job-btn-candidate-dashbord {
         display: none;
     }
-    .job-recommend-applied {
+    .job-recommend-applied,
+    .employee-job-dasboard {
         flex-direction: column;
         max-width: 100%;
         width: 100%;
@@ -5794,6 +5920,42 @@ section.job-applied {
     }
     p.job-applied-candidate-dashboard {
         font-size: 60px;
+    }
+    /*****************employee dashbord job table **************/
+    table {
+        border: 0;
+    }
+    table caption {
+        font-size: 1.3em;
+    }
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+    table tr {
+        border-bottom: 0.5px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+    }
+    table td {
+        border-bottom: 0.5px solid #ddd;
+        display: block;
+        text-align: right;
+    }
+    table td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    table td:last-child {
+        border-bottom: 0;
     }
 }
 
