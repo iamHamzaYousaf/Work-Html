@@ -754,7 +754,22 @@ p.job-discription {
     max-width: 100%;
 }
 
+.location-job-table img {
+    height: 18px;
+    width: 18px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
 .job-location p {
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    font-weight: var(--font-weight-medium);
+    opacity: 0.8;
+    font-family: var(--museo-sans);
+}
+
+.location-job-table p {
     color: var(--text-color);
     font-size: var(--promoted-btn);
     font-weight: var(--font-weight-medium);
@@ -4400,13 +4415,6 @@ th.technical-tags-row {
     gap: 10px;
 }
 
-.job-skills {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 7px;
-}
-
 .job-table-employee button {
     background: #F2F7FF;
     padding: 5px;
@@ -4420,6 +4428,160 @@ th.technical-tags-row {
     display: flex;
     justify-content: space-evenly;
     gap: 10px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    /* Set background to transparent */
+    -webkit-transition: .4s;
+    transition: .4s;
+    border: 2px solid black;
+    /* Set border color to black */
+    border-radius: 34px;
+    /* Add border-radius for rounded shape */
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    top: 50%;
+    /* Vertically center the circle */
+    transform: translateY(-50%);
+    /* Vertically center the circle */
+    background-color: red;
+    /* Set default circle color to red */
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+    /* Add border-radius for rounded shape */
+}
+
+input:checked+.slider {
+    border-color: black;
+    /* Change border color to black when checked */
+}
+
+input:checked+.slider:before {
+    background-color: green;
+    /* Change circle color to green when checked */
+    -webkit-transform: translateX(20px) translateY(-50%);
+    /* Move circle to the right and keep it vertically centered */
+    -ms-transform: translateX(20px) translateY(-50%);
+    transform: translateX(20px) translateY(-50%);
+}
+
+.job-eployee-table-col p {
+    padding: 15px 0px 0px;
+    font-size: var(--promoted-btn);
+    color: var(--text-color);
+    font-weight: var(--font-weight-medium);
+    opacity: 0.8;
+    padding-bottom: 5px;
+}
+
+.job-location-switch {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 30%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.location-job-table {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.job-candidate-list-icon {
+    display: flex;
+    gap: 15px;
+    padding: 15px 0px;
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    font-weight: var(--font-weight-medium);
+    opacity: 0.8;
+}
+
+.switch-red {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+}
+
+.switch-red input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider-red {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    /* Set background to transparent */
+    -webkit-transition: .4s;
+    transition: .4s;
+    border: 2px solid black;
+    /* Set border color to black */
+    border-radius: 34px;
+    /* Add border-radius for rounded shape */
+}
+
+.slider-red:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    top: 50%;
+    /* Vertically center the circle */
+    transform: translateY(-50%);
+    /* Vertically center the circle */
+    background-color: red;
+    /* Set default circle color to red */
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+    /* Add border-radius for rounded shape */
+}
+
+input:checked+.slider-red:before {
+    background-color: green;
+    /* Change circle color to green when checked */
+    -webkit-transform: translateX(20px) translateY(-50%);
+    /* Move circle to the right and keep it vertically centered */
+    -ms-transform: translateX(20px) translateY(-50%);
+    transform: translateX(20px) translateY(-50%);
 }
 
 
@@ -4456,13 +4618,15 @@ th.technical-tags-row {
     .job-seclude {
         max-width: 27%;
     }
-    .job-location {
+    .job-location,
+    .job-location-switch {
         max-width: 27%;
     }
     .job-time p {
         font-size: 16px;
     }
-    .job-location p {
+    .job-location p,
+    .location-job-table p {
         font-size: 16px;
     }
     .filter-serach-btn {
@@ -4510,7 +4674,8 @@ th.technical-tags-row {
     .job-seclude {
         gap: 10px;
     }
-    .job-location {
+    .job-location,
+    .job-location-switch {
         max-width: 25%;
     }
     .job-time p {
@@ -4559,7 +4724,8 @@ th.technical-tags-row {
 
 @media only screen and (max-width:1299px) {
     .job-seclude,
-    .job-location {
+    .job-location,
+    .job-location-switch {
         max-width: 50%;
         width: 100%;
     }
@@ -4610,7 +4776,8 @@ th.technical-tags-row {
         max-width: 100%;
     }
     .job-seclude,
-    .job-location {
+    .job-location,
+    .job-location-switch {
         max-width: 100%;
     }
     .filter-serach-btn {
@@ -5225,6 +5392,9 @@ th.technical-tags-row {
     .job-location {
         max-width: 44%;
     }
+    .job-location-switch {
+        max-width: 70%;
+    }
     .job-title h3 {
         padding-bottom: 0px;
     }
@@ -5242,7 +5412,8 @@ th.technical-tags-row {
     }
     .job-apply,
     .job-favorite,
-    .job-opstion-status {
+    .job-opstion-status,
+    .job-candidate-list-icon {
         justify-content: center;
     }
     .see-more-job button {
