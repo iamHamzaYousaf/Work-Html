@@ -104,46 +104,18 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td data-label="full name">
+                        <td data-label="full name" class="name-box-hvr">
                             jhon
-                        </td>
-                        <td data-label="Location">Canada</td>
-                        <td data-label="Date Applied">31/07/2022</td>
-                        <td data-label="CV Review">
-                            <div class="cv-cions">
-                                <img src="../image/bad-cv-icon.png" alt="">
-                                <img src="../image/normal.cv.png" alt="">
-                                <img src="../image/good-cv.png" alt="">
-                                <img src="../image/cv-favt.png" alt="">
-                            </div>
-                        </td>
-                        <td data-label="Technical Tags:">
-                            <div class="job-table-employee">
-                                <button>C++</button>
-                                <button>C Sharp</button>
-                                <button>React Js</button>
-                                <button>C++</button>
-                                <button>React Js</button>
-                                <button>Java Developer</button>
-                                <button>My SQL</button>
-                                <button>My SQL</button>
-                                <button>JSON</button>
-                                <button>Angular</button>
-                            </div>
-                        </td>
-                        <td data-label="Candidate Status">
-                            New Applicant
-                        </td>
-                        <td data-label="Action">
-                            <div class="cv-cions">
-                                <img src="../image/cv-comment.png" alt="">
-                                <img src="../image/cv-not.png" alt="">
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td data-label="full name">
-                            jhon
+                            <div class="name-comment-box">
+                                <div class="name-add-box">
+                                    <div class="comment-owner-info">
+                                        <img src="../image/comment-owner.png" alt="">
+                                        <p class="name-comment-owner">James Michael</p>
+                                    </div>
+                                    <div class="comment-info-box">
+                                        <p>This candidate has a very strong background and a strong 5 years of experience I recommend him for the next round of interview. </p>
+                                    </div>
+                                </div>
                         </td>
                         <td data-label="Location">Canada</td>
                         <td data-label="Date Applied">31/07/2022</td>
@@ -295,16 +267,90 @@
                                 <div class="cv-comment">
                                     <img src="../image/cv-comment.png" alt="">
                                     <span class="tooltiptext">Comment</span>
+                                    <div class="text-comment-box">
+                                        <p class="comment-heading-text">Comment:</p>
+                                        <textarea name="" id="comment-area-job" cols="30" rows="3" placeholder="Type here..."></textarea><br>
+                                        <button type="submit" class="comment-submit">save</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-label="full name">
+                            jhon
+                        </td>
+                        <td data-label="Location">Canada</td>
+                        <td data-label="Date Applied">31/07/2022</td>
+                        <td data-label="CV Review">
+                            <div class="cv-cions">
+                                <img src="../image/bad-cv-icon.png" alt="">
+                                <img src="../image/normal.cv.png" alt="">
+                                <img src="../image/good-cv.png" alt="">
+                                <img src="../image/cv-favt.png" alt="">
+                            </div>
+                        </td>
+                        <td data-label="Technical Tags:">
+                            <div class="job-table-employee">
+                                <button>C++</button>
+                                <button>C Sharp</button>
+                                <button>React Js</button>
+                                <button>C++</button>
+                                <button>React Js</button>
+                                <button>Java Developer</button>
+                                <button>My SQL</button>
+                                <button>My SQL</button>
+                                <button>JSON</button>
+                                <button>Angular</button>
+                            </div>
+                        </td>
+                        <td data-label="Candidate Status">
+                            New Applicant
+                        </td>
+                        <td data-label="Action">
+                            <div class="cv-cions">
+                                <div class="cv-resume">
+                                    <img src="../image/cv-not.png" alt="">
+                                    <span class="tooltiptext">Resume</span>
+                                </div>
+                                <div class="cv-comment">
+                                    <img src="../image/cv-comment.png" alt="">
+                                    <span class="tooltiptext">Comment</span>
+                                    <div class="text-comment-box">
+                                        <div class="comment-add-box">
+                                            <div class="comment-owner-info">
+                                                <img src="../image/comment-owner.png" alt="">
+                                                <p class="name-comment-owner">James Michael</p>
+                                                <p class="comment-add-date">1 day ago</p>
+                                                <p class="comment-remove">Remove</p>
+                                            </div>
+                                            <div class="comment-adit-icon">
+                                                <a href="#"><img src="../image/comment-edit.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="comment-info-box">
+                                            <p>This candidate has a very strong background and a strong 5 years of experience I recommend him for the next round of interview. </p>
+                                        </div>
+                                        <div class="comment-reply">
+                                            <p>Reply</p>
+                                            <img src="../image/comment-reply.png" alt="">
+                                        </div>
+                                        <div class="more-comment">
+                                            <a href="#">
+                                                <p>5 more commensts</p>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </td>
                     </tr>
                 </tbody>
             </table>
-        </div>
-        <div class="see-more-job">
-            <a href="#"><button>See more</button></a>
-        </div>
+            </div>
+            <div class="see-more-job">
+                <a href="#"><button>See more</button></a>
+            </div>
         </div>
     </section>
     <!---------job table listing--------->
@@ -450,8 +496,8 @@
                         <a href="#"><button>View detailed Job Position</button></a>
                         <div class="job-time-wishlist">
                             <div class="job-eployee-table-col">
-                                <p>7 Days ago</p>
-                                <p>Job will disappear in 12 Days</p>
+                                <p class="day">7 Days ago</p>
+                                <p class="job">Job will disappear in 12 Days</p>
                             </div>
                             <div class="job-candidate-list-icon">
                                 <img src="../image/candidate-job-list.png" alt="apply">
@@ -514,8 +560,8 @@
                         <a href="#"><button>View detailed Job Position</button></a>
                         <div class="job-time-wishlist">
                             <div class="job-eployee-table-col">
-                                <p>7 Days ago</p>
-                                <p>Job will disappear in 12 Days</p>
+                                <p class="day">7 Days ago</p>
+                                <p class="job">Job will disappear in 12 Days</p>
                             </div>
                             <div class="job-candidate-list-icon">
                                 <img src="../image/candidate-job-list.png" alt="apply">
@@ -578,8 +624,8 @@
                         <a href="#"><button>View detailed Job Position</button></a>
                         <div class="job-time-wishlist">
                             <div class="job-eployee-table-col">
-                                <p>7 Days ago</p>
-                                <p>Job will disappear in 12 Days</p>
+                                <p class="day">7 Days ago</p>
+                                <p class="job">Job will disappear in 12 Days</p>
                             </div>
                             <div class="job-candidate-list-icon">
                                 <img src="../image/candidate-job-list.png" alt="apply">
@@ -668,7 +714,7 @@
                         </div>
                         <div class="job-time-wishlist">
                             <div class="job-eployee-table-col">
-                                <p>7 Days ago</p>
+                                <p class="day">7 Days ago</p>
                             </div>
                         </div>
                     </div>
@@ -732,7 +778,7 @@
                         </div>
                         <div class="job-time-wishlist">
                             <div class="job-eployee-table-col">
-                                <p>7 Days ago</p>
+                                <p class="day">7 Days ago</p>
                             </div>
                         </div>
                     </div>
@@ -796,7 +842,7 @@
                         </div>
                         <div class="job-time-wishlist">
                             <div class="job-eployee-table-col">
-                                <p>7 Days ago</p>
+                                <p class="day">7 Days ago</p>
                             </div>
                         </div>
                     </div>

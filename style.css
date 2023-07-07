@@ -3226,7 +3226,7 @@ section.pageniation-sec {
     max-width: 15%;
     width: 100%;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 15%;
 }
 
 .candidate-name-img {
@@ -3319,6 +3319,7 @@ p.employee-profile-company-content-date {
     color: var(--text-color);
     line-height: 42px;
     opacity: 0.8;
+    text-align: justify;
 }
 
 .about-me-form {
@@ -4549,8 +4550,15 @@ input:checked+.slider:before {
     font-size: var(--promoted-btn);
     color: var(--text-color);
     font-weight: var(--font-weight-medium);
-    opacity: 0.8;
     padding-bottom: 5px;
+}
+
+.job-eployee-table-col p.day {
+    opacity: 0.5;
+}
+
+.job-eployee-table-col p.job {
+    opacity: 0.8;
 }
 
 .job-location-switch {
@@ -4560,13 +4568,18 @@ input:checked+.slider:before {
     flex-wrap: wrap;
     max-width: 30%;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .location-job-table {
     display: flex;
     align-items: center;
     gap: 5px;
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    font-weight: var(--font-weight-medium);
+    opacity: 0.8;
+    font-family: var(--museo-sans);
 }
 
 .job-candidate-list-icon {
@@ -4657,6 +4670,181 @@ input:checked+.slider-red:before {
     font-weight: var(--font-weight-medium);
     width: 100%;
     margin-top: 15px;
+}
+
+.text-comment-box::after {
+    background: #fff;
+    content: '';
+    display: block;
+    width: 20px;
+    HEIGHT: 20px;
+    position: absolute;
+    top: -10px;
+    right: 50px;
+    border: 1px solid rgba(201, 201, 201, 0.50);
+    transform: rotate(45deg);
+    border-color: rgba(201, 201, 201, 0.50) transparent transparent rgba(201, 201, 201, 0.50);
+}
+
+.text-comment-box {
+    height: auto;
+    width: 570px;
+    position: absolute;
+    right: 0px;
+    border-radius: 12px;
+    border: 1px solid rgba(201, 201, 201, 0.50);
+    background: #FFF;
+    box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.07);
+    top: 50px;
+    padding: 20px 15px;
+}
+
+p.comment-heading-text {
+    font-size: var(--button-text);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--gray-2, #4F4F4F);
+    text-align: left;
+}
+
+textarea#comment-area-job {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(0 0 0 / 10%);
+    background: #FFF;
+}
+
+textarea#comment-area-job::-webkit-input-placeholder {
+    color: #BDBDBD;
+    font-size: var(--button-text);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+}
+
+button.comment-submit {
+    text-align: end;
+    display: block;
+    margin: 0 0 0 auto;
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: 1px solid var(--accent-color);
+    background: #FFF;
+    color: var(--accent-color);
+    font-size: var(--button-text);
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+}
+
+
+/***********commment dat einfo *******/
+
+.comment-add-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-owner-info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+p.name-comment-owner {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-color);
+    font-size: var(--promoted-btn);
+}
+
+p.comment-add-date {
+    font-size: var(--skill-text-size);
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+    color: #ADADAD;
+    padding-right: 15px;
+    border-right: 1px solid rgb(79 79 79 / 30%);
+}
+
+p.comment-remove {
+    color: #F32131;
+    font-size: var(--skill-text-size);
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+}
+
+.comment-info-box p {
+    color: #4F4F4F;
+    font-family: var(--museo-sans);
+    font-size: var(--skill-text-size);
+    font-weight: var(--font-weight-medium);
+    line-height: 24px;
+    text-align: left;
+    padding: 15px 55px;
+}
+
+.comment-reply {
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+    gap: 10px;
+}
+
+.comment-reply p {
+    color: #4F4F4F;
+    font-family: var(--museo-sans);
+    font-size: var(--skill-text-size);
+    font-weight: var(--font-weight-medium);
+    line-height: 24px;
+}
+
+.more-comment p {
+    color: #989898;
+    font-family: var(--museo-sans);
+    font-size: var(--skill-text-size);
+    font-weight: var(--font-weight-medium);
+    text-align: right;
+    padding-top: 10px;
+}
+
+.more-comment a {
+    text-decoration: underline;
+    color: #989898;
+}
+
+
+/**************name hover comment **************/
+
+.name-comment-box::after {
+    background: #fff;
+    content: '';
+    display: block;
+    width: 20px;
+    HEIGHT: 20px;
+    position: absolute;
+    top: -10px;
+    left: 65px;
+    border: 1px solid rgba(201, 201, 201, 0.50);
+    transform: rotate(43deg);
+    border-color: rgba(201, 201, 201, 0.50) transparent transparent rgba(201, 201, 201, 0.50);
+}
+
+.name-comment-box {
+    height: auto;
+    width: 570px;
+    position: absolute;
+    left: 0px;
+    border-radius: 12px;
+    border: 1px solid rgba(201, 201, 201, 0.50);
+    background: #FFF;
+    box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.07);
+    padding: 20px 15px;
+    top: 135px;
+}
+
+td.name-box-hvr {
+    position: relative;
 }
 
 
@@ -6328,8 +6516,8 @@ select#fsalary-year {
     background-position: right 8px bottom 22px !important;
     background-size: 20px !important;
     /* font-size: var(--promoted-btn);
-    font-family: var(--museo-sans);
-    font-weight: 300;
-    color: var(--text-color);
-    opacity: 0.8; */
+font-family: var(--museo-sans);
+font-weight: 300;
+color: var(--text-color);
+opacity: 0.8; */
 }
