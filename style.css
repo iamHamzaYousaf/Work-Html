@@ -4390,8 +4390,7 @@ table th {
 table td {
     padding: 20px 10px;
     text-align: center;
-    color: var(--text-color);
-    opacity: 0.8;
+    color: rgb(0 0 0 / 80%);
     font-size: var(--promoted-btn);
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
@@ -4430,6 +4429,10 @@ th.technical-tags-row {
     justify-content: space-evenly;
     gap: 10px;
     position: relative;
+}
+
+img.notfill-heart {
+    display: none;
 }
 
 .cv-resume .tooltiptext {
@@ -4697,6 +4700,7 @@ input:checked+.slider-red:before {
     box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.07);
     top: 50px;
     padding: 20px 15px;
+    z-index: 1;
 }
 
 p.comment-heading-text {
@@ -4813,8 +4817,30 @@ p.comment-remove {
     color: #989898;
 }
 
+.name-info-box p {
+    color: #4F4F4F;
+    font-family: var(--museo-sans);
+    font-size: var(--skill-text-size);
+    font-weight: var(--font-weight-medium);
+    line-height: 24px;
+    text-align: left;
+    padding: 0px 50px;
+}
+
 
 /**************name hover comment **************/
+
+td.name-box-hvr {
+    cursor: pointer;
+}
+
+.name-comment-box {
+    display: none;
+}
+
+td.name-box-hvr:hover .name-comment-box {
+    display: block !important;
+}
 
 .name-comment-box::after {
     background: #fff;
@@ -4845,6 +4871,299 @@ p.comment-remove {
 
 td.name-box-hvr {
     position: relative;
+}
+
+
+/*************favourites job page ***********/
+
+.employee-list-btn button {
+    background: var(--accent-color);
+    color: var(--color-white);
+    padding: 10px 50px;
+    text-align: center;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: var(--museo-sans);
+    font-size: var(--body-text);
+    font-weight: 500;
+}
+
+.employee-list-btn {
+    margin-right: 40px;
+}
+
+.filter-search-box {
+    padding: 8px;
+    opacity: 0.3;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.filter-search-box img {
+    max-width: 100%;
+}
+
+.employee-searchbox-btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 70px 0 40px 0;
+}
+
+#candidate-list-search {
+    border: 0;
+    margin-left: 5px;
+    width: 75%;
+}
+
+.search-list-box {
+    position: relative;
+}
+
+.data-not-found {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px 0;
+}
+
+.data-not-found p {
+    color: var(--error-msg-color);
+    font-family: var(--museo-sans);
+    font-size: var(--skill-text-size);
+    font-weight: var(--font-weight-medium);
+}
+
+.hide-notfound {
+    display: none;
+}
+
+.list-search-dropdown {
+    position: absolute;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
+    width: 85%;
+    overflow: auto;
+    z-index: 1;
+    margin: 0 0 0 auto;
+    right: 15px;
+    top: 100%;
+    height: 150px;
+}
+
+ul.list-job-title {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+ul.list-job-title li {
+    border-radius: 4px 4px 0px 0px;
+    background: rgb(103 170 185 / 7%);
+    padding: 12px 17px;
+    border-bottom: 0.5px solid rgb(0 0 0 / 20%);
+}
+
+
+/* width */
+
+.list-search-dropdown::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+/* Track */
+
+.list-search-dropdown::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+.list-search-dropdown::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: var(--primary-color);
+}
+
+.hide-model-comment {
+    display: none;
+}
+
+.model-comment-popup {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(0 0 0 / 55%);
+    top: 0%;
+    overflow-y: auto;
+    z-index: 2;
+}
+
+.comment-model-title {
+    padding: 40px 0 30px 0;
+}
+
+.border-text fieldset {
+    border-top: 1px solid var(--boder-color);
+}
+
+.border-text fieldset legend {
+    text-align: center;
+    float: none;
+    width: auto;
+    padding: 0 20px;
+    color: #666;
+    font-family: var(--museo-sans);
+    font-size: var(--body-text);
+    font-weight: var(--font-weight-bold);
+}
+
+.comment-chat-model {
+    position: relative;
+    padding: 0 30px;
+    height: 220px;
+    margin-bottom: 30px;
+}
+
+.comment-chat-model-right {
+    position: relative;
+    padding: 0 30px;
+    height: 220px;
+    margin-bottom: 30px;
+    text-align: end;
+}
+
+.chat-comment-box {
+    height: auto;
+    width: 570px;
+    position: absolute;
+    left: 75px;
+    border-radius: 4px;
+    border: 0.5px solid #BDBDBD;
+    background: #FDFDFD;
+    top: 47px;
+    padding: 20px 15px;
+    z-index: 1;
+}
+
+.chat-comment-box-right {
+    height: auto;
+    width: 570px;
+    position: absolute;
+    right: 75px;
+    border-radius: 4px;
+    border: 0.5px solid #BDBDBD;
+    background: #FDFDFD;
+    top: 47px;
+    padding: 20px 15px;
+    z-index: 1;
+}
+
+.chat-info-box p {
+    color: #4F4F4F;
+    font-family: var(--museo-sans);
+    font-size: var(--skill-text-size);
+    font-weight: var(--font-weight-medium);
+    line-height: 24px;
+    text-align: left;
+    padding: 15px 0px;
+}
+
+.chat-reply {
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+    gap: 10px;
+}
+
+.chat-reply p {
+    color: #4F4F4F;
+    font-family: var(--museo-sans);
+    font-size: var(--skill-text-size);
+    font-weight: var(--font-weight-medium);
+    line-height: 24px;
+}
+
+.chat-model-comment-box {
+    overflow: auto;
+    padding: 0 100px;
+    height: 100%;
+}
+
+
+/* width */
+
+.chat-model-comment-box::-webkit-scrollbar {
+    width: 15px;
+}
+
+
+/* Track */
+
+.chat-model-comment-box::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+.chat-model-comment-box::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: var(--primary-color);
+}
+
+.chat-comment-f {
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-evenly;
+}
+
+.chat-form {
+    border-radius: 4px;
+    border: 0.5px solid var(--boder-color);
+    background: #FDFDFD;
+    padding: 7px 16px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+input#comment-f {
+    width: 100%;
+    border: 0;
+    outline: 0;
+}
+
+input#comment-f:focus-visible {
+    outline: 0;
+}
+
+input#comment-f:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.send-comment button {
+    border-radius: 4px;
+    border: 0.5px solid #BDBDBD;
+    background: #FDFDFD;
+    padding: 10px 15px;
+}
+
+input#comment-f::-webkit-input-placeholder {
+    color: var(--boder-color);
+    font-size: var(--button-text);
+    font-family: var(--museo-sans);
+    line-height: 24px;
 }
 
 
@@ -5502,6 +5821,10 @@ td.name-box-hvr {
         width: 100%;
         margin: 0 auto;
     }
+    /************comment moedel *******/
+    .chat-model-comment-box {
+        padding: 0px;
+    }
 }
 
 
@@ -5553,7 +5876,8 @@ td.name-box-hvr {
         padding: 6px 12px;
         font-size: 16px;
     }
-    .find-job-btn-candidate-dashbord button {
+    .find-job-btn-candidate-dashbord button,
+    .employee-list-btn button {
         padding: 6px 12px;
         font-size: 16px;
     }
@@ -6273,7 +6597,8 @@ td.name-box-hvr {
         top: 2px;
         padding-bottom: 10px;
     }
-    .resume-data-profile {
+    .resume-data-profile,
+    .chat-model-comment-box {
         overflow-y: scroll;
         padding: 0 20px;
     }
