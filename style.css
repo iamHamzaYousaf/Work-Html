@@ -402,6 +402,7 @@ img.vector {
     line-height: 38px;
     padding: 20px 0px;
     opacity: 0.8;
+    text-align: justify;
 }
 
 .featured-col a>button:after {
@@ -584,6 +585,13 @@ img.vector {
     opacity: 0.2;
 }
 
+.divider-two {
+    border-top: 1px solid var(--text-color);
+    opacity: 0.2;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
 .divider-opcity {
     border-top: 1px solid var(--text-color);
     opacity: 0.2;
@@ -609,6 +617,7 @@ img.vector {
 
 .job-requriments {
     width: calc(100% - 325px);
+    position: relative;
 }
 
 .job-details {
@@ -616,7 +625,7 @@ img.vector {
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     padding-bottom: 15px;
 }
 
@@ -630,7 +639,7 @@ img.vector {
 
 .job-title {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 25px;
     max-width: 68%;
     width: 100%;
@@ -2656,7 +2665,7 @@ section.job-description-sec {
 .job-heading-detail-sec h5 {
     font-weight: var(--font-weight-bold);
     margin-bottom: 0px;
-    padding: 15px 20px;
+    padding: 13px 20px;
     background: rgb(242 247 255 / 50%);
 }
 
@@ -2691,7 +2700,7 @@ ul.job-details-list li {
 }
 
 .job-location-title {
-    padding: 25px 0 40px 0;
+    padding: 0 0 40px 0;
 }
 
 .job-location-title p {
@@ -2751,7 +2760,6 @@ ul.skill-list-j {
     gap: 10px;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 20px;
     padding: 40px 0;
 }
 
@@ -3030,10 +3038,16 @@ section.company-job-sec {
     display: flex;
 }
 
-.job-col-left {
+.col-left-j-space {
     max-width: 27%;
     width: 100%;
-    padding: 30px 20px 30px 0px;
+    padding: 30px 20px 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.short-content-left.job-col-left {
+    margin-bottom: 20px;
 }
 
 .job-col-right {
@@ -3098,7 +3112,7 @@ section.company-job-sec {
     font-weight: var(--font-weight-bold);
 }
 
-.job-col-left h3 {
+.col-left-j-space h3 {
     font-size: var(--promoted-btn);
     color: var(--text-color);
     margin-bottom: 0;
@@ -3113,7 +3127,7 @@ section.company-job-sec {
     font-family: var(--museo-sans);
 }
 
-.job-col-left button {
+.col-left-j-space button {
     background: var(--color-white);
     border: 1px solid var(--primary-color);
     border-radius: 6px;
@@ -3126,7 +3140,7 @@ section.company-job-sec {
 }
 
 .job-title-left a,
-.job-col-left a {
+.col-left-j-space a {
     text-decoration: none;
 }
 
@@ -4757,7 +4771,12 @@ input:checked+.slider:before {
     flex-wrap: wrap;
     max-width: 30%;
     width: 100%;
-    justify-content: space-around;
+    position: relative;
+}
+
+.loction-switch-col {
+    position: absolute;
+    right: 20px;
 }
 
 .location-job-table {
@@ -5168,7 +5187,7 @@ td.name-box-hvr {
 .data-not-found {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
     padding: 10px 0 0 0;
     position: absolute;
     right: 0;
@@ -5616,7 +5635,7 @@ input#comment-f::-webkit-input-placeholder {
         max-width: 95%;
         width: 100%;
     }
-    .job-col-left button {
+    .col-left-j-space button {
         padding: 8px 10px !important;
     }
 }
@@ -5800,7 +5819,7 @@ input#comment-f::-webkit-input-placeholder {
         max-width: 65%;
         flex-direction: column;
     }
-    .job-col-left {
+    .col-left-j-space {
         max-width: 35%;
     }
     .job-requriments-right-col {
@@ -6705,14 +6724,14 @@ input#comment-f::-webkit-input-placeholder {
         display: flex;
         flex-direction: column;
     }
-    .job-col-left {
+    .col-left-j-space {
         max-width: 100%;
     }
     .job-col-right {
         max-width: 100%;
         margin: 0;
     }
-    .job-col-left button {
+    .col-left-j-space button {
         margin: 0 auto;
     }
     /************pagenation on job page match****/
