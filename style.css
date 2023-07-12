@@ -589,7 +589,6 @@ img.vector {
     border-top: 1px solid var(--text-color);
     opacity: 0.2;
     width: 100%;
-    padding-bottom: 15px;
 }
 
 .divider-opcity {
@@ -611,7 +610,7 @@ img.vector {
 
 .Job-Opportunities-row {
     display: flex;
-    padding: 30px 0px;
+    padding: 30px 0px 30px 20px;
     justify-content: space-between;
 }
 
@@ -3039,20 +3038,14 @@ section.company-job-sec {
 }
 
 .col-left-j-space {
-    max-width: 27%;
+    max-width: 25%;
     width: 100%;
-    padding: 30px 20px 10px 0px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .short-content-left.job-col-left {
-    margin-bottom: 20px;
-}
-
-.job-col-right {
-    max-width: 73%;
-    width: 100%;
+    padding: 30px 20px 28px 0px;
 }
 
 .job-details-right-col {
@@ -3071,10 +3064,11 @@ section.company-job-sec {
     gap: 20px;
 }
 
-.job-col-right {
+.col-right-j-space {
     max-width: 75%;
     width: 100%;
-    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .job-title-left {
@@ -4154,8 +4148,13 @@ ul.candidate-profile-data-list {
     display: none;
 }
 
-.popup-candidate-resume {
+.popup-bg {
     width: 90%;
+    margin: 0 auto;
+}
+
+.popup-candidate-resume {
+    width: 100%;
     height: 85vh;
     margin: 100px auto 0;
     padding: 40px 0px;
@@ -4399,7 +4398,18 @@ p.resume-degree {
     margin: 0 auto;
 }
 
-.job-applied-col.job-candidate-cards {
+
+/* .job-applied-col.job-candidate-cards {
+    background: #FFFFFF;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 0 20px 15px;
+    max-width: 100%;
+    width: 100%;
+} */
+
+a.card-link-box {
     background: #FFFFFF;
     border: 0.5px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
@@ -4407,6 +4417,7 @@ p.resume-degree {
     padding: 0 20px 15px;
     max-width: 50%;
     width: 100%;
+    text-decoration: none;
 }
 
 p.job-title-candidate-dashboard {
@@ -5815,7 +5826,7 @@ input#comment-f::-webkit-input-placeholder {
         width: 100%;
     }
     /**************job search match page *************/
-    .job-col-right {
+    .col-right-j-space {
         max-width: 65%;
         flex-direction: column;
     }
@@ -6081,7 +6092,7 @@ input#comment-f::-webkit-input-placeholder {
     .employee-job-dasboard {
         flex-direction: column;
     }
-    .job-applied-col.job-candidate-cards {
+    a.card-link-box {
         max-width: 75%;
         width: 100%;
         margin: 0 auto;
@@ -6727,7 +6738,7 @@ input#comment-f::-webkit-input-placeholder {
     .col-left-j-space {
         max-width: 100%;
     }
-    .job-col-right {
+    .col-right-j-space {
         max-width: 100%;
         margin: 0;
     }
@@ -6938,7 +6949,7 @@ input#comment-f::-webkit-input-placeholder {
         max-width: 100%;
         width: 100%;
     }
-    .job-applied-col.job-candidate-cards {
+    a.card-link-box {
         padding: 0 1px 15px;
         max-width: 100%;
         width: 100%;
