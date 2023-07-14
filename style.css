@@ -639,8 +639,8 @@ img.vector {
 .job-title {
     display: flex;
     align-items: flex-start;
-    gap: 25px;
-    max-width: 68%;
+    gap: 10px;
+    max-width: 60%;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -651,9 +651,14 @@ img.vector {
     max-width: 45%;
 }
 
+.job-title a.promoted-btn-not {
+    text-decoration: none;
+    max-width: 100%;
+}
+
 .job-title a.title-job-link {
     text-decoration: none;
-    max-width: 60%;
+    max-width: 78%;
 }
 
 .job-title a.title-job-link h3 {
@@ -663,14 +668,14 @@ img.vector {
 
 .job-seclude {
     display: flex;
-    gap: 22px;
     flex-wrap: wrap;
-    max-width: 30%;
+    max-width: 38%;
     width: 100%;
+    justify-content: space-between;
 }
 
 .job-title button {
-    padding: 10px 12px;
+    padding: 5px 12px;
     border: 0;
     background: rgba(255, 160, 51, 0.15);
     border-radius: 6px;
@@ -690,6 +695,7 @@ img.vector {
 
 .job-announcements {
     width: 275px;
+    position: relative;
 }
 
 .job-services {
@@ -708,12 +714,12 @@ img.vector {
 .long-text-job-company a {
     text-decoration: none;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
 }
 
 .long-text-job-company {
-    max-width: 55%;
+    max-width: 100%;
 }
 
 .job-services p {
@@ -751,8 +757,9 @@ p.job-discription {
     gap: 5px;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 30%;
+    max-width: 38%;
     width: 100%;
+    justify-content: end;
 }
 
 .job-location img {
@@ -789,7 +796,7 @@ p.job-discription {
     display: flex;
     gap: 10px;
     align-items: center;
-    max-width: 68%;
+    max-width: 60%;
     width: 100%;
 }
 
@@ -3081,13 +3088,13 @@ section.company-job-sec {
     justify-content: space-between;
 }
 
+.job-services-col-left-w {
+    max-width: 100%;
+}
+
 .job-services-col-left {
     max-width: 60%;
     width: 100%;
-}
-
-.job-services-col-left-w {
-    max-width: 100%;
 }
 
 .job-services-col-left p {
@@ -4810,6 +4817,7 @@ input:checked+.slider:before {
 .loction-switch-col {
     position: absolute;
     right: 20px;
+    bottom: 0;
 }
 
 .location-job-table {
@@ -5027,6 +5035,18 @@ button.comment-submit {
     align-items: center;
 }
 
+.name-owner-info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.comment-owner-details {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
 p.name-comment-owner {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
@@ -5138,7 +5158,20 @@ td.name-box-hvr:hover .name-comment-box {
     transform: rotate(54deg);
 }
 
-.comment-owner-info::after {
+
+/* .comment-owner-info::after {
+    content: '';
+    display: block;
+    width: 23px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    top: -1px;
+    left: 92px;
+    z-index: 99;
+} */
+
+.name-owner-info::after {
     content: '';
     display: block;
     width: 23px;
@@ -5350,6 +5383,30 @@ ul.list-job-title li {
     z-index: 1;
 }
 
+.chat-comment-box::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 1px;
+    position: absolute;
+    top: -9px;
+    background: #bdbdbd;
+    transform: rotate(-54deg);
+    right: 42px;
+}
+
+.chat-comment-box::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 1px;
+    position: absolute;
+    top: -9px;
+    right: 30px;
+    background: #bdbdbd;
+    transform: rotate(54deg);
+}
+
 .chat-comment-box-right {
     height: auto;
     width: 570px;
@@ -5361,6 +5418,30 @@ ul.list-job-title li {
     top: 47px;
     padding: 20px 15px;
     z-index: 1;
+}
+
+.chat-comment-box-right::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 1px;
+    position: absolute;
+    top: -9px;
+    background: #bdbdbd;
+    transform: rotate(-54deg);
+    right: 42px;
+}
+
+.chat-comment-box-right::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 1px;
+    position: absolute;
+    top: -9px;
+    right: 30px;
+    background: #bdbdbd;
+    transform: rotate(54deg);
 }
 
 .chat-info-box p {
@@ -5479,8 +5560,8 @@ input#comment-f::-webkit-input-placeholder {
         font-size: 20px;
     }
     .job-title a.title-job-link {
-        max-width: 66%;
-        width: 100%;
+        /* max-width: 66%;
+        width: 100%; */
         font-size: 20px;
     }
     .job-title-right-col a button {
@@ -5489,19 +5570,19 @@ input#comment-f::-webkit-input-placeholder {
 }
 
 @media only screen and (max-width: 1420px) and (min-width: 1361px) {
-    .job-title {
+    /* .job-title {
         max-width: 45%;
-    }
-    .job-skills {
+    } */
+    /* .job-skills {
         max-width: 70%;
-    }
-    .job-seclude {
+    } */
+    /* .job-seclude {
         max-width: 27%;
-    }
-    .job-location,
+    } */
+    /* .job-location,
     .job-location-switch {
         max-width: 27%;
-    }
+    } */
     .job-time p {
         font-size: 16px;
     }
@@ -5539,25 +5620,25 @@ input#comment-f::-webkit-input-placeholder {
 }
 
 @media only screen and (max-width:1360px) and (min-width:1301px) {
-    .job-title {
+    /* .job-title {
         max-width: 72%;
-    }
+    } */
     .job-title {
-        gap: 15px;
+        gap: 10px;
     }
-    .job-skills {
+    /* .job-skills {
         max-width: 72%;
-    }
+    } */
     .job-seclude {
-        max-width: 25%;
+        max-width: 37%;
     }
     .job-seclude {
         gap: 10px;
     }
-    .job-location,
+    /* .job-location,
     .job-location-switch {
         max-width: 25%;
-    }
+    } */
     .job-time p {
         font-size: 15px;
     }
@@ -5659,6 +5740,8 @@ input#comment-f::-webkit-input-placeholder {
     .job-location,
     .job-location-switch {
         max-width: 100%;
+        justify-content: flex-start;
+        gap: 10px;
     }
     .filter-serach-btn {
         max-width: 100%;
