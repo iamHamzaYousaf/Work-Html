@@ -612,6 +612,7 @@ img.vector {
     display: flex;
     padding: 30px 0px 30px 20px;
     justify-content: space-between;
+    width: 100%;
 }
 
 .job-requriments {
@@ -5836,40 +5837,43 @@ button.form-submit-job-model {
 
 @media only screen and (max-width: 1835px) and (min-width: 1360px) {
     /***********home page job col*****/
-    .job-title {
+    .job-col-right .job-title {
         max-width: 53%;
     }
-    .top-text-btn-align h3 {
+    .job-col-right .top-text-btn-align h3 {
         max-width: 65%;
         font-size: 20px;
     }
-    .job-details {
+    .job-col-right .job-details {
         gap: 10px;
     }
-    .job-requriments {
+    .job-col-right .job-requriments {
         width: calc(100% - 280px);
     }
-    .job-announcements {
+    .job-col-right .job-announcements {
         width: 258px;
         position: relative;
     }
-    .job-seclude {
+    .job-col-right .job-seclude {
         max-width: 45%;
     }
-    .job-skill-location {
+    .job-col-right .job-skill-location {
         gap: 10px;
     }
-    .job-skills {
+    .job-col-right .job-skills {
         max-width: 53%;
     }
-    .job-location {
+    .job-col-right .job-location {
         max-width: 45%;
     }
-    p.job-discription {
+    .job-col-right p.job-discription {
         font-size: 18px;
         line-height: 30px;
     }
     .job-services-col-left a p {
+        font-size: 16px;
+    }
+    .job-discription-left {
         font-size: 16px;
     }
 }
