@@ -1425,9 +1425,9 @@ p.forget-password {
 
 /************** forget password ****************/
 
-.candidate-email input[type="email"] {
+input#forgotpassowrd-mail {
     width: 100%;
-    padding: 8px;
+    padding: 18px 8px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 6px;
 }
