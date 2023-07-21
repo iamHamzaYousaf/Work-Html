@@ -4553,13 +4553,13 @@ p.resume-degree {
 
 
 /* .job-applied-col.job-candidate-cards {
-    background: #FFFFFF;
-    border: 0.5px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
-    padding: 0 20px 15px;
-    max-width: 100%;
-    width: 100%;
+background: #FFFFFF;
+border: 0.5px solid rgba(0, 0, 0, 0.1);
+box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+border-radius: 6px;
+padding: 0 20px 15px;
+max-width: 100%;
+width: 100%;
 } */
 
 a.card-link-box {
@@ -4701,13 +4701,13 @@ section.job-applied {
 
 
 /* .job-employee-cards {
-    background: #FFFFFF;
-    border: 0.5px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
-    padding: 0 20px 15px;
-    max-width: 30%;
-    width: 100%;
+background: #FFFFFF;
+border: 0.5px solid rgba(0, 0, 0, 0.1);
+box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+border-radius: 6px;
+padding: 0 20px 15px;
+max-width: 30%;
+width: 100%;
 } */
 
 a.anchor-cards-job {
@@ -5289,15 +5289,15 @@ td.name-box-hvr:hover .name-comment-box {
 
 
 /* .comment-owner-info::after {
-    content: '';
-    display: block;
-    width: 23px;
-    height: 2px;
-    background: #fff;
-    position: absolute;
-    top: -1px;
-    left: 92px;
-    z-index: 99;
+content: '';
+display: block;
+width: 23px;
+height: 2px;
+background: #fff;
+position: absolute;
+top: -1px;
+left: 92px;
+z-index: 99;
 } */
 
 .name-owner-info::after {
@@ -5660,7 +5660,7 @@ input#comment-f::-webkit-input-placeholder {
 }
 
 .col-left-model {
-    max-width: 30%;
+    max-width: 35%;
     width: 100%;
     /* background: linear-gradient(136deg, #143975 0%, rgba(20, 57, 117, 0.00) 100%); */
     border-radius: 23px;
@@ -5670,7 +5670,7 @@ input#comment-f::-webkit-input-placeholder {
 }
 
 .col-right-model {
-    max-width: 70%;
+    max-width: 65%;
     width: 100%;
     padding: 56px 0px;
 }
@@ -5707,6 +5707,40 @@ p.login-f-model {
 }
 
 input#email-j-model {
+    max-width: 90%;
+    width: 100%;
+    display: block;
+    padding: 0 10px 0 10px !important;
+    border: 0;
+}
+
+input#password-field-job {
+    max-width: 90%;
+    width: 100%;
+    display: block;
+    padding: 0 10px 0 10px !important;
+    border: 0;
+}
+
+.error-input>.mail-log-waring-icon {
+    background: url(./image/warning.png);
+    background-repeat: no-repeat;
+    background-position: 98% center;
+    background-size: 20px;
+    padding-right: 40px !important;
+}
+
+.error-input>.mail-log-waring-icon {
+    border: 1px solid var(--error-msg-color) !important;
+}
+
+.error-input>.password-icon-job {
+    border: 1px solid var(--error-msg-color) !important;
+}
+
+.password-icon-job {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     padding: 14px 8px;
     border-radius: 12px;
@@ -5714,28 +5748,7 @@ input#email-j-model {
     background: #FFF;
 }
 
-input#email-j-model {
-    background: url(./image/j-m-User.svg);
-    background-repeat: no-repeat;
-    display: block;
-    background-size: 20px;
-    padding-left: 40px !important;
-    background-position: left 10px bottom 13px;
-}
-
-input#password-field-job {
-    max-width: 90%;
-    width: 100%;
-    background: url(./image/j-m-User.svg);
-    background-repeat: no-repeat;
-    display: block;
-    background-size: 18px;
-    padding: 0 10px 0 40px !important;
-    background-position: left 10px bottom -1px;
-    border: 0;
-}
-
-.password-icon-job {
+.mail-log-waring-icon {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -5870,11 +5883,21 @@ button.form-submit-job-model {
         font-size: 18px;
         line-height: 30px;
     }
-    .job-services-col-left a p {
+    .job-col-right .job-services-col-left a p {
         font-size: 16px;
     }
     .job-discription-left {
         font-size: 16px;
+    }
+    .job-col-right .job-time p {
+        font-size: 16px;
+    }
+    .job-col-right .job-location p {
+        font-size: 16px;
+    }
+    /*top match css start here **/
+    ul.find-job-tag li {
+        font-size: 18px;
     }
 }
 
@@ -5891,7 +5914,7 @@ button.form-submit-job-model {
     }
     .job-title a.title-job-link {
         /* max-width: 66%;
-        width: 100%; */
+    width: 100%; */
         font-size: 20px;
     }
     .job-title-right-col a button {
@@ -5901,18 +5924,18 @@ button.form-submit-job-model {
 
 @media only screen and (max-width: 1420px) and (min-width: 1361px) {
     /* .job-title {
-        max-width: 45%;
-    } */
+    max-width: 45%;
+} */
     /* .job-skills {
-        max-width: 70%;
-    } */
+    max-width: 70%;
+} */
     /* .job-seclude {
-        max-width: 27%;
-    } */
+    max-width: 27%;
+} */
     /* .job-location,
-    .job-location-switch {
-        max-width: 27%;
-    } */
+.job-location-switch {
+    max-width: 27%;
+} */
     .job-time p {
         font-size: 16px;
     }
@@ -5951,14 +5974,14 @@ button.form-submit-job-model {
 
 @media only screen and (max-width:1360px) and (min-width:1301px) {
     /* .job-title {
-        max-width: 72%;
-    } */
+    max-width: 72%;
+} */
     .job-title {
         gap: 10px;
     }
     /* .job-skills {
-        max-width: 72%;
-    } */
+    max-width: 72%;
+} */
     .job-seclude {
         max-width: 37%;
     }
@@ -5966,9 +5989,9 @@ button.form-submit-job-model {
         gap: 10px;
     }
     /* .job-location,
-    .job-location-switch {
-        max-width: 25%;
-    } */
+.job-location-switch {
+    max-width: 25%;
+} */
     .job-time p {
         font-size: 15px;
     }
