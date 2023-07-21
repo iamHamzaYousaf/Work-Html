@@ -5851,7 +5851,7 @@ button.form-submit-job-model {
 @media only screen and (max-width: 1835px) and (min-width: 1360px) {
     /***********home page job col*****/
     .job-col-right .job-title {
-        max-width: 53%;
+        max-width: 48%;
     }
     .job-col-right .top-text-btn-align h3 {
         max-width: 65%;
@@ -5868,7 +5868,7 @@ button.form-submit-job-model {
         position: relative;
     }
     .job-col-right .job-seclude {
-        max-width: 45%;
+        max-width: 50%;
     }
     .job-col-right .job-skill-location {
         gap: 10px;
@@ -5898,6 +5898,9 @@ button.form-submit-job-model {
     /*top match css start here **/
     ul.find-job-tag li {
         font-size: 18px;
+    }
+    .job-col-right .job-title a.title-job-link {
+        max-width: 62%;
     }
 }
 
