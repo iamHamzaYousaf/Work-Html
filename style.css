@@ -1432,6 +1432,30 @@ input#forgotpassowrd-mail {
     border-radius: 6px;
 }
 
+.progress-bar-password {
+    width: 300px;
+    height: 6px;
+    border: 0px solid #ccc;
+    margin: 10px 0;
+    position: relative;
+}
+
+.progress-password {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.progress-part-password {
+    flex-grow: 1;
+    background-color: #ccc;
+    margin-right: 5px;
+}
+
+.prograssbar-active {
+    background-color: #07944F;
+}
+
 
 /*********** candidate SignUp page satrt here ***************/
 
@@ -1716,7 +1740,22 @@ button.form-submit {
     padding-right: 40px !important;
 }
 
-.tags-tittles ul {
+.tags-tittles {
+    position: relative;
+}
+
+
+/********* list for tag in signup form********/
+
+.job-tags-titles-dropdown {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
+    z-index: 1;
+    padding-bottom: 10px;
+}
+
+.tags-tittles ul.tags-titles-list {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1725,13 +1764,13 @@ button.form-submit {
     padding: 0;
 }
 
-.tags-tittles ul li button {
+.tags-tittles ul.tags-titles-list li button {
     border: 0;
     background: transparent;
     font-size: 15px;
 }
 
-.tags-tittles ul li {
+.tags-tittles ul.tags-titles-list li {
     background: var(--secondary-color);
     padding: 5px 10px;
     color: var(--primary-color);
@@ -1740,7 +1779,7 @@ button.form-submit {
     font-family: var(--museo-sans);
 }
 
-.tags-tittles ul li {
+.tags-tittles ul.tags-titles-list li {
     display: inline-flex;
     justify-content: space-between;
 }
@@ -1910,6 +1949,13 @@ textarea:focus-visible {
 .error-input>.password-icon {
     border: 1px solid var(--error-msg-color) !important;
     outline: 0;
+}
+
+
+/*******filterdropdown hide ***********/
+
+.job-dropdown-hide {
+    display: none;
 }
 
 
@@ -2817,8 +2863,16 @@ ul.job-details-list li {
     padding: 0 0 40px 0;
 }
 
-.job-location-title>div {
-    padding: 15px 0 0 0;
+ul.job-location-list {
+    padding: 10px 0 0 30px;
+}
+
+ul.job-location-list li {
+    padding: 10px 0 0 0;
+    color: var(--text-color);
+    font-family: var(--museo-sans);
+    font-size: var(--body-text);
+    font-weight: 300;
 }
 
 .job-location-title p {
@@ -2859,15 +2913,6 @@ ul.skill-list-j {
     margin-bottom: 0;
     line-height: 34px;
     padding-top: 15px;
-}
-
-#job-location-check {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 5px;
-    border-radius: 4px;
-    border: 1px solid #143975;
-    background: #F8FBFF;
 }
 
 .qr-code-img {
@@ -6902,7 +6947,7 @@ button.form-submit-job-model {
     .signup-phone input[type="tel"] {
         width: 80%;
     }
-    .tags-tittles ul {
+    .tags-tittles ul.tags-titles-list {
         grid-template-columns: repeat(2, 1fr);
     }
     .signup-check.f-feild {
