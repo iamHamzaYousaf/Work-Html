@@ -1268,8 +1268,17 @@ button.allow-btn {
 
 .candidate-signin h2 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     font-weight: var(--font-weight-bold);
+}
+
+p.heading-below-text {
+    color: var(--error-msg-color);
+    font-size: var(--body-text);
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+    text-align: center;
+    margin-bottom: 15px !important;
 }
 
 .candidate-username input[type="text"] {
@@ -1876,6 +1885,16 @@ textarea:focus-visible {
     padding-right: 40px !important;
 }
 
+.error-input .industry-feild-frm {
+    border: 1px solid var(--error-msg-color) !important;
+    outline: 0;
+}
+
+.error-input .industry-feild-frm :focus-visible {
+    border: 1px solid var(--error-msg-color) !important;
+    outline: 0 !important;
+}
+
 .error-input>textarea {
     background: url('./image/warning.png');
     background-repeat: no-repeat;
@@ -2265,7 +2284,7 @@ button.btn-job-post {
 
 .icon-cursor-f img {
     position: relative;
-    top: -6px;
+    top: -3px;
     padding-right: 10px;
 }
 
@@ -2280,6 +2299,29 @@ button.btn-job-post {
     color: var(--text-color);
     position: relative;
     z-index: 1;
+}
+
+.company-form-dropdownBox-f {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(0 0 0 / 80%);
+    gap: 5px;
+}
+
+.company-form-dropdownBox-f:after {
+    content: " ";
+    background-image: url(./image/dropdown-arrow.png);
+    width: 19px;
+    height: 20px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    position: absolute;
+    background-size: 100%;
+    right: 12px;
+    bottom: 15px;
 }
 
 .dropdown-form-f {
@@ -2311,7 +2353,7 @@ button.btn-job-post {
 }
 
 .company-drop-list-t ul li {
-    font-size: var(--promoted-btn);
+    font-size: var(--skill-text-size);
     font-weight: var(--font-weight-medium);
     color: rgb(0 0 0 / 80%);
     line-height: 38px;
@@ -7714,9 +7756,4 @@ select#fsalary-year {
     background-repeat: no-repeat !important;
     background-position: right 8px bottom 22px !important;
     background-size: 20px !important;
-    /* font-size: var(--promoted-btn);
-font-family: var(--museo-sans);
-font-weight: 300;
-color: var(--text-color);
-opacity: 0.8; */
 }
