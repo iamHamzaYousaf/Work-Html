@@ -127,7 +127,7 @@
                                 <div class="signup-skill-tags f-feild tags-tittles">
                                     <label for="fjobtitles">Key Job Skills</label>
                                     <input type="text" name="" id="" placeholder="My Top Tech Skill Tagsn">
-                                    <ul>
+                                    <ul class="tags-titles-list">
                                         <li>Active Directory<button><img src="../image/cross.png" alt=""></button></li>
                                         <li>SQL Server<button><img src="../image/cross.png" alt=""></button></li>
                                         <li>Windows Server<button><img src="../image/cross.png" alt=""></button></li>
@@ -347,7 +347,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="feild-form-four show-feild-after-jobpostion-select">
+                <!-------------------show-feild-after-jobpostion-select---->
+                <div class="feild-form-four ">
                     <div class="two-feils-left">
                         <div class="signup-jobs-option f-feild error-input">
                             <label for="fjobtitles">Choose a Job Title</label><br>
@@ -357,6 +358,20 @@
                                 <option value="">web Development</option>
                                 <option value="">web Development</option>
                             </select>
+                            <div class="industry-feild-frm">
+                                <div id="dropdown-boxId-2" class="company-form-dropdownBox" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Date Posted</div>
+                                <div id="company-dropList-t" class="dropdown-form-f company-drop-list-t">
+                                    <ul>
+                                        <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Team Lead</li>
+                                        <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Team Lead</li>
+                                        <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Team Lead</li>
+                                        <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Team Lead</li>
+                                        <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Team Lead</li>
+                                        <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Team Lead</li>
+
+                                    </ul>
+                                </div>
+                            </div>
                             <p class="error-msg hide-error">Please select Job Title</p>
                         </div>
                         <div class="signup-jobs-option f-feild error-input">
@@ -529,4 +544,32 @@
         </div>
     </section>
 
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+        // var industryVal = document.getElementById("company-dropList1").querySelectorAll(".company-drop-list ul li");
+        // industryVal.forEach(function(item) {
+        //     item.onclick = function(e) {
+        //         document.getElementById('dropdown-boxId1').innerHTML = this.innerHTML;
+        //     }
+
+        // });
+        var companysizeVal1 = document.getElementById("company-dropList-t").querySelectorAll(".company-drop-list-t ul li");
+
+        companysizeVal1.forEach(function(item) {
+            item.onclick = function(e) {
+                document.getElementById('dropdown-boxId-2').innerHTML = this.innerHTML;
+            }
+
+        });
+        // var companytypeVal = document.getElementById("company-dropList3").querySelectorAll(".company-drop-list ul li");
+
+        // companytypeVal.forEach(function(item) {
+        //     item.onclick = function(e) {
+        //         document.getElementById('dropdown-boxId3').innerHTML = this.innerHTML;
+        //     }
+
+        // });
+    </script>
 </body>
