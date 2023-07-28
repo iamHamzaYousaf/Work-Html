@@ -2299,19 +2299,20 @@ button.btn-job-post {
     color: var(--text-color);
     position: relative;
     z-index: 1;
+    display: flex;
 }
 
 .company-form-dropdownBox-f {
-    box-sizing: border-box;
     width: 100%;
-    display: flex;
-    align-items: center;
     cursor: pointer;
     color: rgb(0 0 0 / 80%);
+    display: flex;
+    align-items: center;
     gap: 5px;
 }
 
-.company-form-dropdownBox-f:after {
+
+/* .company-form-dropdownBox-f:after {
     content: " ";
     background-image: url(./image/dropdown-arrow.png);
     width: 19px;
@@ -2322,7 +2323,7 @@ button.btn-job-post {
     background-size: 100%;
     right: 12px;
     bottom: 15px;
-}
+} */
 
 .dropdown-form-f {
     position: absolute;
@@ -4358,6 +4359,20 @@ input#profile-url-employee::-webkit-input-placeholder {
     font-family: var(--museo-sans);
     opacity: 0.8;
 }
+
+
+/* .candidate-username-signup-form input[type="text"]::-webkit-input-placeholder,
+.signup-email input[type="email"]::-webkit-input-placeholder,
+input#password-field::-webkit-input-placeholder,
+.signup-phone input[type="tel"]::-webkit-input-placeholder,
+.signup-job-titles input[type="text"]::-webkit-input-placeholder,
+.signup-skill-tags input[type="text"]::-webkit-input-placeholder,
+.signup-linkedIn-link input[type="url"]::-webkit-input-placeholder {
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    opacity: 0.3;
+} */
 
 select#candidate-location-feild option {
     color: var(--text-color);
