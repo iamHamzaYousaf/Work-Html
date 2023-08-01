@@ -1268,7 +1268,7 @@ button.allow-btn {
 
 .candidate-signin h2 {
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 45px;
     font-weight: var(--font-weight-bold);
 }
 
@@ -1757,8 +1757,10 @@ button.form-submit {
 /********* list for tag in signup form********/
 
 .job-tags-titles-dropdown {
+    position: absolute;
+    width: 100%;
     border-radius: 8px;
-    background: #FFF;
+    background: #fff;
     box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
     z-index: 1;
     padding-bottom: 10px;
@@ -1805,11 +1807,14 @@ p.error-msg {
 }
 
 ul.error-msg li {
-    /* text-align: end; */
     color: var(--error-msg-color);
     font-size: var(--button-text);
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
+}
+
+li.colr-green {
+    color: #07944F !important;
 }
 
 p.hide-error {
@@ -1988,16 +1993,20 @@ section.model-popup {
     top: 0%;
 }
 
+section.model-popup-2 {
+    z-index: 2;
+}
+
 .hide-model-popup {
     display: none;
 }
 
 .popup-content {
-    width: 50%;
+    width: 60%;
     height: 50%;
     margin: 50px auto 0;
     background: #fff;
-    padding: 100px;
+    padding: 20px 100px 100px 100px;
     position: relative;
 }
 
@@ -2013,6 +2022,14 @@ p.popup-text {
     font-size: var(--sub-heading);
     color: var(--primary-color);
     font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+}
+
+p.popup-text span {
+    text-align: center;
+    font-size: var(--sub-heading);
+    color: var(--accent-color);
+    font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
 }
 
@@ -2021,7 +2038,7 @@ p.popup-text {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 30px;
+    padding: 50px 0 30px 0;
 }
 
 .send-correct img {
@@ -2276,6 +2293,7 @@ button.btn-job-post {
     display: flex;
     align-items: center;
     position: relative;
+    z-index: 2;
 }
 
 .icon-cursor-f {
@@ -2293,7 +2311,7 @@ button.btn-job-post {
     padding: 18px 10px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
-    font-size: var(--promoted-btn);
+    font-size: 14px;
     font-family: var(--museo-sans);
     font-weight: 300;
     color: var(--text-color);
@@ -2396,7 +2414,7 @@ button.btn-job-post {
 }
 
 p.error-msg-place {
-    position: absolute;
+    position: absolute !important;
 }
 
 .signup-jobs-option #choose-jobs-type {
@@ -7137,7 +7155,7 @@ button.form-submit-job-model {
     /************* popup model mobile*************/
     .popup-content {
         width: 90%;
-        padding: 50px 15px 20px;
+        padding: 20px 15px 20px;
     }
     .close-img {
         position: absolute;
@@ -7157,7 +7175,10 @@ button.form-submit-job-model {
         padding-top: 20px;
     }
     .send-correct img {
-        width: 25%;
+        width: 60%;
+    }
+    .send-correct {
+        padding: 15px 0;
     }
     /****************progress bar css  for mobile*************/
     ul.progressbar-steps {
