@@ -1976,6 +1976,44 @@ textarea:focus-visible {
 }
 
 
+/******* employe form profile****/
+
+.error-input>.location-f-icon {
+    border: 1px solid var(--error-msg-color) !important;
+}
+
+.location-f-icon {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 18px 8px;
+    border-radius: 6px;
+    border: 0.5px solid rgba(0, 0, 0, 0.20);
+    background: #FFF;
+}
+
+input#location-f-profile {
+    max-width: 90%;
+    width: 100%;
+    display: block;
+    padding: 0 10px 0 10px !important;
+    border: 0;
+}
+
+.location-profile-list {
+    position: relative;
+}
+
+.error-input>.candidate-call {
+    border: 1px solid var(--error-msg-color) !important;
+    outline: 0;
+}
+
+.error-input>.candidate-call>p {
+    color: var(--error-msg-color);
+}
+
+
 /*******filterdropdown hide ***********/
 
 .job-dropdown-hide {
@@ -4194,7 +4232,7 @@ input#preferences-prfile {
 }
 
 input#candidate-name-field {
-    max-width: 50%;
+    /* max-width: 50%; */
     width: 100%;
     padding: 18px 10px;
     border: 0.5px solid #BDBDBD;
@@ -4223,11 +4261,11 @@ input#profile-url-employee {
 }
 
 input#profile-email-candidate {
-    max-width: 100%;
+    max-width: 90%;
     width: 100%;
-    padding: 18px 10px;
-    border: 0.5px solid #BDBDBD;
-    border-radius: 6px;
+    display: block;
+    padding: 0 10px 0 10px !important;
+    border: 0;
 }
 
 select#candidate-location-feild {
@@ -4239,51 +4277,55 @@ select#candidate-location-feild {
     background-position: left 10px bottom 20px;
 }
 
-input#profile-email-candidate {
+
+/* input#profile-email-candidate {
     background: url(./image/resume-mail.png);
     background-repeat: no-repeat;
     display: block;
     background-size: 20px;
     padding-left: 40px !important;
     background-position: left 10px bottom 20px;
-}
+} */
 
 
 /*****************employeee profile ***************/
 
 input#Company-name-employe-profile {
-    max-width: 100%;
-    width: 100%;
-    padding: 18px 10px;
     border: 0.5px solid #BDBDBD;
-    border-radius: 6px;
+    max-width: 95%;
+    width: 100%;
+    padding: 0 15px 0 0;
+    border: 0;
+    border-radius: 0;
 }
 
-input#Company-name-employe-profile {
+
+/* input#Company-name-employe-profile {
     background: url(./image/lock-profile-employye.png);
     background-repeat: no-repeat;
     display: block;
     background-size: 20px;
     padding-left: 15px !important;
     background-position: right 10px bottom 20px;
-}
+} */
 
 input#profile-url-employee {
-    max-width: 100%;
+    max-width: 90%;
     width: 100%;
-    padding: 18px 10px;
-    border: 0.5px solid #BDBDBD;
-    border-radius: 6px;
+    display: block;
+    padding: 0 10px 0 10px !important;
+    border: 0;
 }
 
-input#profile-url-employee {
+
+/* input#profile-url-employee {
     background: url(./image/website-profile-link.png);
     background-repeat: no-repeat;
     display: block;
     background-size: 20px;
     padding-left: 40px !important;
     background-position: left 10px bottom 20px;
-}
+} */
 
 .employee-profile-compnay {
     margin-bottom: 40px;
@@ -4348,21 +4390,22 @@ input#profile-call {
 }
 
 input#social-link {
-    max-width: 100%;
+    max-width: 90%;
     width: 100%;
-    padding: 18px 10px;
-    border: 0.5px solid #BDBDBD;
-    border-radius: 6px;
+    display: block;
+    padding: 0 10px 0 10px !important;
+    border: 0;
 }
 
-input#social-link {
+
+/* input#social-link {
     background: url(./image/linkdin.png);
     background-repeat: no-repeat;
     display: block;
     background-size: 20px;
     padding-left: 40px !important;
     background-position: left 10px bottom 20px;
-}
+} */
 
 input#candidate-name-field::-webkit-input-placeholder,
 input#social-link::-webkit-input-placeholder,
@@ -4371,7 +4414,15 @@ input#profile-call::-webkit-input-placeholder,
 input#social-link::-webkit-input-placeholder,
 select#candidate-location-feild,
 input#Company-name-employe-profile::-webkit-input-placeholder,
-input#profile-url-employee::-webkit-input-placeholder {
+input#profile-url-employee::-webkit-input-placeholder,
+input#location-f-profile::-webkit-input-placeholder {
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    opacity: 0.8;
+}
+
+p.candidate-phone-profile {
     color: var(--text-color);
     font-size: var(--promoted-btn);
     font-family: var(--museo-sans);
@@ -7149,7 +7200,7 @@ button.form-submit-job-model {
     input#profile-call,
     input#social-link,
     .candidate-call,
-    input#Company-name-employe-profile {
+    .location-f-icon {
         padding: 12px 8px;
     }
     /************* popup model mobile*************/
