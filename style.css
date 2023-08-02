@@ -1998,6 +1998,10 @@ input#location-f-profile {
     display: block;
     padding: 0 10px 0 10px !important;
     border: 0;
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    opacity: 0.8;
 }
 
 .location-profile-list {
@@ -2011,6 +2015,10 @@ input#location-f-profile {
 
 .error-input>.candidate-call>p {
     color: var(--error-msg-color);
+}
+
+.error-input>p.company-name-profile {
+    color: var(--error-msg-color) !important;
 }
 
 
@@ -3927,6 +3935,10 @@ p.candidate-info-text {
     height: 250px;
 }
 
+.profile-img-c {
+    display: none;
+}
+
 .candidtae-profile-image input {
     display: none;
 }
@@ -4231,12 +4243,21 @@ input#preferences-prfile {
     gap: 20px;
 }
 
+.first-name-profile {
+    max-width: 50%;
+    width: 100%;
+}
+
 input#candidate-name-field {
     /* max-width: 50%; */
     width: 100%;
     padding: 18px 10px;
     border: 0.5px solid #BDBDBD;
     border-radius: 6px;
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    opacity: 0.8;
 }
 
 select#candidate-location-feild {
@@ -4266,6 +4287,10 @@ input#profile-email-candidate {
     display: block;
     padding: 0 10px 0 10px !important;
     border: 0;
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    opacity: 0.8;
 }
 
 select#candidate-location-feild {
@@ -4278,17 +4303,36 @@ select#candidate-location-feild {
 }
 
 
-/* input#profile-email-candidate {
-    background: url(./image/resume-mail.png);
-    background-repeat: no-repeat;
-    display: block;
-    background-size: 20px;
-    padding-left: 40px !important;
-    background-position: left 10px bottom 20px;
-} */
-
-
 /*****************employeee profile ***************/
+
+.employr-f-profile {
+    position: relative;
+}
+
+.icon-hide .tooltiptext-profile {
+    visibility: hidden;
+    width: auto;
+    border-radius: 4px;
+    border: 0.5px solid var(--error-msg-color);
+    background: #FFF;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.14);
+    color: var(--error-msg-color);
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    font-size: var(--skill-text-size);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    top: -22px;
+    right: 14px;
+    padding: 10px 10px;
+    margin: -10px;
+}
+
+.icon-hide:hover .tooltiptext-profile {
+    visibility: visible;
+}
 
 input#Company-name-employe-profile {
     border: 0.5px solid #BDBDBD;
@@ -4297,38 +4341,32 @@ input#Company-name-employe-profile {
     padding: 0 15px 0 0;
     border: 0;
     border-radius: 0;
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    opacity: 0.8;
 }
 
-
-/* input#Company-name-employe-profile {
-    background: url(./image/lock-profile-employye.png);
-    background-repeat: no-repeat;
-    display: block;
-    background-size: 20px;
-    padding-left: 15px !important;
-    background-position: right 10px bottom 20px;
-} */
-
 input#profile-url-employee {
-    max-width: 90%;
+    max-width: 100%;
     width: 100%;
     display: block;
     padding: 0 10px 0 10px !important;
     border: 0;
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    opacity: 0.8;
 }
-
-
-/* input#profile-url-employee {
-    background: url(./image/website-profile-link.png);
-    background-repeat: no-repeat;
-    display: block;
-    background-size: 20px;
-    padding-left: 40px !important;
-    background-position: left 10px bottom 20px;
-} */
 
 .employee-profile-compnay {
     margin-bottom: 40px;
+}
+
+.employee-profile-compnay textarea {
+    width: 100%;
+    border: 0.5px solid var(--gray-4, #BDBDBD);
+    border-radius: 4px;
 }
 
 p.company-name-profile {
@@ -4365,6 +4403,10 @@ input#profile-call {
     border-radius: 6px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    opacity: 0.8;
 }
 
 .candidate-call {
@@ -4390,22 +4432,20 @@ input#profile-call {
 }
 
 input#social-link {
-    max-width: 90%;
+    max-width: 100%;
     width: 100%;
     display: block;
     padding: 0 10px 0 10px !important;
     border: 0;
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    opacity: 0.8;
 }
 
-
-/* input#social-link {
-    background: url(./image/linkdin.png);
-    background-repeat: no-repeat;
-    display: block;
-    background-size: 20px;
-    padding-left: 40px !important;
-    background-position: left 10px bottom 20px;
-} */
+.icon-hide img {
+    cursor: pointer;
+}
 
 input#candidate-name-field::-webkit-input-placeholder,
 input#social-link::-webkit-input-placeholder,
@@ -6823,6 +6863,10 @@ button.form-submit-job-model {
     .chat-model-comment-box {
         padding: 0px;
     }
+    /*************profile canddate ********/
+    .candidate-call {
+        max-width: 15%;
+    }
 }
 
 
@@ -7657,6 +7701,10 @@ button.form-submit-job-model {
     .candidate-call,
     input#social-link {
         background-position: left 10px bottom 15px;
+    }
+    .first-name-profile {
+        max-width: 100%;
+        width: 100%;
     }
     /*******candidate job dashboard ***/
     .job-announcements-col-candidate button,
