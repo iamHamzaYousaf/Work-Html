@@ -4202,7 +4202,8 @@ button.profile-end-btn:hover {
     font-weight: var(--font-weight-bold);
 }
 
-.tags-candidate-profile ul {
+
+/* .tags-candidate-profile ul {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -4231,6 +4232,25 @@ button.profile-end-btn:hover {
 .tags-candidate-profile ul li {
     display: inline-flex;
     justify-content: space-between;
+} */
+
+ul.dorpdown-list-location {
+    list-style: none;
+    margin: 0;
+    list-style: none;
+    padding: 0 15px;
+}
+
+ul.dorpdown-list-location li {
+    color: rgba(0, 0, 0, 0.80);
+    font-size: var(--skill-text-size);
+    font-family: var(--museo-sans);
+    font-weight: 300;
+    line-height: 40px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 12px;
+    word-break: break-word !important;
 }
 
 input#preferences-prfile {
@@ -4327,6 +4347,10 @@ select#candidate-location-feild {
 /*****************employeee profile ***************/
 
 .employr-f-profile {
+    position: relative;
+}
+
+.email-candidate-profile-f {
     position: relative;
 }
 
@@ -6516,6 +6540,9 @@ button.form-submit-job-model {
         max-width: 100%;
         width: 100%;
     }
+    .candidate-signup-form-feild {
+        max-width: 80%;
+    }
     /*********** filters company details *********/
     .j-fillter-only {
         max-width: 100%;
@@ -6842,10 +6869,10 @@ button.form-submit-job-model {
     input#preferences-prfile {
         width: 100%;
     }
-    .tags-candidate-profile ul {
+    /* .tags-candidate-profile ul {
         max-width: 100%;
         width: 100%;
-    }
+    } */
     .tabs-candidate-col-space {
         display: flex;
         flex-direction: column;
@@ -7625,11 +7652,11 @@ button.form-submit-job-model {
     input#preferences-prfile {
         width: 100%;
     }
-    .tags-candidate-profile ul {
+    /* .tags-candidate-profile ul {
         grid-template-columns: repeat(2, 1fr);
         max-width: 100%;
         width: 100%;
-    }
+    } */
     .save-cancel-btn {
         justify-content: space-around;
     }
