@@ -1602,12 +1602,12 @@ button.employee-btn {
 }
 
 .first-name {
-    max-width: 48%;
+    max-width: 48.5%;
     width: 100%;
 }
 
 .last-name {
-    max-width: 48%;
+    max-width: 48.5%;
     width: 100%;
 }
 
@@ -4079,6 +4079,10 @@ textarea#candidate-profile-tabs {
     width: 100%;
     border: 0.5px solid rgb(0 0 0 / 30%);
     border-radius: 6px;
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    opacity: 0.8;
 }
 
 .upload-intro-vedio input {
@@ -4221,6 +4225,10 @@ input#preferences-prfile {
     padding: 18px 8px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    opacity: 0.8;
 }
 
 .card-body {
@@ -4367,6 +4375,10 @@ input#profile-url-employee {
     width: 100%;
     border: 0.5px solid var(--gray-4, #BDBDBD);
     border-radius: 4px;
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    opacity: 0.8;
 }
 
 p.company-name-profile {
