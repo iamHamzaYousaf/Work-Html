@@ -2369,10 +2369,23 @@ button.btn-job-post {
 .company-form-dropdownBox-f {
     width: 100%;
     cursor: pointer;
+    color: rgb(0 0 0 / 60%);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.company-form-dropdownBox-profile {
+    width: 100%;
+    cursor: pointer;
     color: rgb(0 0 0 / 80%);
     display: flex;
     align-items: center;
     gap: 5px;
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    padding-left: 10px;
 }
 
 
@@ -4398,6 +4411,7 @@ p.employee-profile-company-content {
     font-weight: 300;
     opacity: 0.8;
     line-height: 42px;
+    text-align: justify;
 }
 
 
