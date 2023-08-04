@@ -3769,15 +3769,17 @@ section.pageniation-sec {
 }
 
 .logo-col-profile-left {
-    max-width: 85%;
-    width: 100%;
+    flex-basis: 85%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-right: 7%;
 }
 
-.find-job-btn-candidate-dashbord {
+
+/* .find-job-btn-candidate-dashbord {
     margin-right: 30px;
-}
+} */
 
 .profile-right-col {
     display: flex;
@@ -3789,13 +3791,11 @@ section.pageniation-sec {
 }
 
 .hide-wishlist-style {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    max-width: 15%;
-    width: 100%;
-    flex-wrap: wrap;
     gap: 15%;
+    flex-basis: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .candidate-name-img {
@@ -3838,6 +3838,14 @@ p.conter-text-wiishlist {
 
 .candidate-wishlist-block img {
     max-width: 100%;
+}
+
+p.candidate-name {
+    white-space: nowrap;
+}
+
+.toggle-icon-profile.icon-cursor {
+    margin-left: 15px;
 }
 
 p.candidate-name,
