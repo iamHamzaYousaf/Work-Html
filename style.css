@@ -814,7 +814,7 @@ p.job-discription {
 .job-apply {
     display: flex;
     gap: 15px;
-    padding: 15px 0px;
+    padding: 20px 0px;
     color: var(--accent-color);
     font-size: var(--promoted-btn);
     font-weight: var(--font-weight-medium);
@@ -1632,8 +1632,15 @@ button.employee-btn {
     color: var(--text-color);
     opacity: 0.8;
     font-family: var(--museo-sans);
-    font-size: var(--promoted-btn);
+    font-size: var(--body-text);
     font-weight: var(--font-weight-bold);
+}
+
+.form-font-f {
+    color: rgb(0 0 0 / 80%);
+    font-family: var(--museo-sans);
+    font-size: var(--promoted-btn);
+    font-weight: var(--font-weight-medium);
 }
 
 label.l-f-img {
@@ -2119,9 +2126,9 @@ input#password-field {
     padding: 0 15px 0 0;
     border: 0;
     border-radius: 0;
-    color: var(--text-color);
+    /* color: var(--text-color);
     font-size: var(--promoted-btn);
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-medium); */
 }
 
 .icon-hide {
@@ -2959,6 +2966,7 @@ p.j-sub-title {
 
 .icon-text-job-requre img {
     max-width: 100%;
+    height: fit-content;
 }
 
 p.j-c-salary {
@@ -3771,19 +3779,23 @@ section.pageniation-sec {
 /**************candidate profile header *************/
 
 .logo-col-profile-candidate {
-    flex-basis: 75%;
+    margin-right: 3%;
+    flex: 1 1 75%;
+    min-width: 0;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-right: 7%;
+    gap: 15px;
+    justify-content: space-between;
 }
 
 .logo-col-profile-left {
-    flex-basis: 85%;
+    margin-right: 3%;
+    flex: 1 1 85%;
+    min-width: 0;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-right: 7%;
+    gap: 15px;
+    justify-content: space-between;
 }
 
 .candidate-wishlist-block {
@@ -3792,18 +3804,19 @@ section.pageniation-sec {
 
 .profile-right-col {
     gap: 10%;
-    flex-basis: 25%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
     margin-left: 10px;
+    flex: 0 1 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hide-wishlist-style {
     gap: 15%;
-    flex-basis: 15%;
+    margin-left: 10px;
+    flex: 0 1 15%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -3815,6 +3828,8 @@ section.pageniation-sec {
 
 .candidate-name-img img {
     max-width: 100%;
+    width: 45px;
+    height: 45px;
 }
 
 .candidate-wishlist-block a {
@@ -3949,7 +3964,7 @@ p.candidate-info-text {
     color: var(--text-color);
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
-    font-size: var(--body-text);
+    font-size: var(--promoted-btn);
     line-height: 24px;
 }
 
@@ -4312,10 +4327,6 @@ input#candidate-name-field {
     padding: 18px 10px;
     border: 0.5px solid #BDBDBD;
     border-radius: 6px;
-    color: rgb(0 0 0 / 80%);
-    font-size: var(--body-text);
-    font-family: var(--museo-sans);
-    font-weight: var(--font-weight-medium);
 }
 
 select#candidate-location-feild {
@@ -4345,10 +4356,6 @@ input#profile-email-candidate {
     display: block;
     padding: 0 10px 0 10px !important;
     border: 0;
-    color: rgb(0 0 0 / 80%);
-    font-size: var(--body-text);
-    font-family: var(--museo-sans);
-    font-weight: var(--font-weight-medium);
 }
 
 select#candidate-location-feild {
@@ -4403,10 +4410,6 @@ input#Company-name-employe-profile {
     padding: 0 15px 0 0;
     border: 0;
     border-radius: 0;
-    color: rgb(0 0 0 / 80%);
-    font-size: var(--body-text);
-    font-family: var(--museo-sans);
-    font-weight: var(--font-weight-medium);
 }
 
 input#profile-url-employee {
@@ -4415,10 +4418,6 @@ input#profile-url-employee {
     display: block;
     padding: 0 10px 0 10px !important;
     border: 0;
-    color: rgb(0 0 0 / 80%);
-    font-size: var(--body-text);
-    font-family: var(--museo-sans);
-    font-weight: var(--font-weight-medium);
 }
 
 .employee-profile-compnay {
@@ -4469,10 +4468,6 @@ input#profile-call {
     border-radius: 6px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    color: rgb(0 0 0 / 80%);
-    font-size: var(--body-text);
-    font-family: var(--museo-sans);
-    font-weight: var(--font-weight-medium);
 }
 
 .candidate-call {
@@ -4503,10 +4498,6 @@ input#social-link {
     display: block;
     padding: 0 10px 0 10px !important;
     border: 0;
-    color: rgb(0 0 0 / 80%);
-    font-size: var(--body-text);
-    font-family: var(--museo-sans);
-    font-weight: var(--font-weight-medium);
 }
 
 .icon-hide img {
@@ -4954,7 +4945,7 @@ p.job-title-candidate-dashboard {
 .job-applied-col.job-candidate-cards img {
     text-align: center;
     display: block;
-    margin: -20px auto 0;
+    margin: -40px auto 0;
     padding-bottom: 20px;
 }
 
@@ -5094,7 +5085,7 @@ a.anchor-cards-job {
 .job-employee-cards img {
     text-align: center;
     display: block;
-    margin: -20px auto 0;
+    margin: -40px auto 0;
     padding-bottom: 20px;
 }
 
