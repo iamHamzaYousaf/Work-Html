@@ -290,6 +290,7 @@ html {
 }
 
 .col-2-banner h1 {
+    font-size: 40px;
     text-transform: uppercase;
     color: var(--text-color);
     font-weight: 700;
@@ -300,11 +301,10 @@ html {
 }
 
 .col-2-banner p.banner-text {
-    color: var(--text-color);
+    color: #BDBDBD;
     font-size: 25px;
     font-weight: var(--font-weight-medium);
     padding: 20px 0px;
-    opacity: 0.4;
 }
 
 .button-stack button {
@@ -379,8 +379,9 @@ img.vector {
     background: linear-gradient(180deg, #FFFFFF -23.4%, #FFFFFF 50.93%);
     border: 0.5px solid rgba(0, 0, 0, 0.3);
     border-radius: 8px;
-    padding: 40px 20px;
+    padding: 20px 20px;
     margin-bottom: 25px;
+    height: 300px;
 }
 
 .image-heading {
@@ -497,7 +498,7 @@ img.vector {
 
 .sucess-featured-info a>button:after {
     content: " ";
-    background-image: url(./image/Arrow-1.png);
+    background-image: url(/public/image/copmany-detail.svg);
     width: 35px;
     height: 10px;
     display: inline-block;
@@ -690,7 +691,6 @@ img.vector {
     color: var(--text-color);
     font-size: var(--promoted-btn);
     font-weight: var(--font-weight-medium);
-    opacity: 0.8;
     font-family: var(--museo-sans);
 }
 
@@ -739,7 +739,7 @@ img.vector {
 
 p.job-discription {
     color: var(--text-color);
-    font-size: var(--body-text);
+    font-size: var(--promoted-btn);
     font-weight: 300;
     opacity: 0.8;
     font-family: var(--museo-sans);
@@ -761,7 +761,7 @@ p.job-discription {
     flex-wrap: wrap;
     max-width: 38%;
     width: 100%;
-    justify-content: start;
+    justify-content: end;
 }
 
 .job-location img {
@@ -782,7 +782,6 @@ p.job-discription {
     color: var(--text-color);
     font-size: var(--promoted-btn);
     font-weight: var(--font-weight-medium);
-    opacity: 0.8;
     font-family: var(--museo-sans);
 }
 
@@ -804,11 +803,12 @@ p.job-discription {
 
 .job-skills button {
     background: #F2F7FF;
-    padding: 5px;
     color: var(--primary-color);
-    font-size: var(--button-text);
-    border-radius: 6px;
+    font-size: var(--skill-text-size);
+    border-radius: 4px;
     border: 1px solid #E2EDFF;
+    font-weight: var(--font-weight-medium);
+    padding: 5px 10px;
 }
 
 .job-apply {
@@ -964,7 +964,7 @@ p.job-discription {
     text-align: center;
     padding-top: 20px;
     color: var(--primary-color);
-    font-size: var(--fig-caption);
+    font-size: 24px;
     font-weight: var(--font-weight-bold);
     line-height: 36px;
 }
@@ -1727,7 +1727,7 @@ label.l-f-img {
     outline: none;
 }
 
-.signup-linkedIn-link input[type="url"] {
+.signup-linkedIn-link input[type="text"] {
     width: 100%;
     padding: 18px 8px;
     border: 0.5px solid var(--boder-color);
@@ -2373,7 +2373,7 @@ button.btn-job-post {
     padding: 18px 10px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
-    font-size: 14px;
+    font-size: 18px;
     font-family: var(--museo-sans);
     font-weight: 300;
     color: var(--text-color);
@@ -2905,10 +2905,10 @@ ul.find-job-tag li {
     background: var(--secondary-color);
     padding: 5px 10px;
     color: var(--primary-color);
-    font-size: var(--body-text);
+    font-size: 14px;
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
-    border-radius: 6px;
+    border-radius: 4px;
     border: 1px solid #e2edff;
 }
 
@@ -3728,7 +3728,7 @@ section.company-job-sec {
 p.job-discription-right {
     padding: 15px 0px 36px 0px;
     color: var(--text-color);
-    font-size: var(--body-text);
+    font-size: var(--promoted-btn);
     font-weight: 300;
     font-family: var(--museo-sans);
     opacity: 0.8;
@@ -3803,24 +3803,20 @@ section.pageniation-sec {
 }
 
 .profile-right-col {
-    gap: 10%;
-    margin-left: 10px;
-    flex: 0 1 25%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+    gap: 15px;
 }
 
 .hide-wishlist-style {
-    gap: 15%;
-    margin-left: 10px;
-    flex: 0 1 15%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 
 .candidate-name-img {
+    flex-grow: 1;
     display: flex;
     align-items: center;
     gap: 15px;
@@ -3835,7 +3831,7 @@ section.pageniation-sec {
 .candidate-wishlist-block a {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 25px;
     text-decoration: none;
     position: relative;
 }
@@ -3878,6 +3874,7 @@ p.candidate-wishlist {
     font-size: var(--body-text);
     font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
+    margin-right: 20px;
 }
 
 section.profile-edit {
@@ -3935,7 +3932,7 @@ p.company-name-profile-date {
 }
 
 p.employee-profile-company-content-date {
-    font-size: var(--promoted-btn);
+    font-size: var(--body-text);
     font-weight: 300;
     font-family: var(--museo-sans);
     color: var(--text-color);
@@ -4533,7 +4530,7 @@ input#password-field::-webkit-input-placeholder,
 .signup-phone input[type="tel"]::-webkit-input-placeholder,
 .signup-job-titles input[type="text"]::-webkit-input-placeholder,
 .signup-skill-tags input[type="text"]::-webkit-input-placeholder,
-.signup-linkedIn-link input[type="url"]::-webkit-input-placeholder,
+.signup-linkedIn-link input[type="text"]::-webkit-input-placeholder,
 .candidate-username input[type="text"]::-webkit-input-placeholder,
 input#forgotpassowrd-mail::-webkit-input-placeholder {
     color: var(--text-color);
@@ -7293,7 +7290,7 @@ button.form-submit-job-model {
     .signup-job-titles input[type="text"],
     .signup-skill-tags input[type="text"],
     .signup-resume input[type="file"],
-    .signup-linkedIn-link input[type="url"],
+    .signup-linkedIn-link input[type="text"],
     .candidate-username-signup-form input[type="text"],
     .signup-salary #salary,
     .signup-salary input[type="text"],
