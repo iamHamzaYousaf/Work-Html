@@ -240,7 +240,7 @@ html {
 .find-job-btn button {
     background: var(--accent-color);
     color: var(--color-white);
-    padding: 10px 50px;
+    padding: 8px 75px;
     text-align: center;
     border: 0;
     border-radius: 6px;
@@ -266,7 +266,7 @@ html {
 .job-filter-btn button {
     background: var(--accent-color);
     color: var(--color-white);
-    padding: 10px 50px;
+    padding: 10px 78px;
     text-align: center;
     border: 0;
     border-radius: 6px;
@@ -2702,7 +2702,7 @@ section.f-dream.job {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 80%;
+    max-width: 78%;
     width: 100%;
 }
 
@@ -2726,6 +2726,14 @@ section.f-dream.job {
     position: relative;
 }
 
+.three-filter-inline:focus {
+    outline: none;
+}
+
+.three-filter-inline:focus-within {
+    border: 1px solid var(--primary-color);
+}
+
 
 /****************dropdown css *************/
 
@@ -2736,6 +2744,18 @@ section.f-dream.job {
     background: #FFF;
     box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
     width: 280px;
+    z-index: 1;
+    padding-bottom: 10px;
+    left: 0;
+}
+
+.job-search-dropdown-job-type {
+    position: absolute;
+    top: 40px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
+    width: 200px;
     z-index: 1;
     padding-bottom: 10px;
     left: 0;
@@ -2837,7 +2857,8 @@ ul.dorpdown-list-location li:hover {
     padding: 0 12px;
 }
 
-.job-keywords img {
+.job-keywords img,
+.job-type-f img {
     padding: 0px 10px;
 }
 
@@ -3400,7 +3421,7 @@ section.company-job-sec {
 
 .company-form-dropdownBox:after {
     content: " ";
-    background-image: url(./image/dropdown-arrow.png);
+    background-image: url(./image/DropDown.png);
     width: 38px;
     height: 10px;
     background-repeat: no-repeat;

@@ -39,7 +39,7 @@
             </div>
             <div class="filter-serach-btn">
                 <div class="job-fillter-f">
-                    <div class="three-filter-inline">
+                    <div class="three-filter-inline" tabindex="0">
                         <div class="job-keywords">
                             <img src="../image/job-search.png" alt="">
                             <input type="text" name="" id="job-search-field" placeholder="Key words, company, skills...">
@@ -72,7 +72,7 @@
                         </div>
                         <div class="job-type-f">
                             <div id="dropdown-boxId1" class="company-form-dropdownBox" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Job Type</div>
-                            <div id="company-dropList1" class="dropdown-menu company-drop-list">
+                            <!-- <div id="company-dropList1" class="dropdown-menu company-drop-list">
                                 <ul>
                                     <li>Mobile App </li>
                                     <li>Website Developer</li>
@@ -80,12 +80,21 @@
                                     <li>Mobile App Developer</li>
 
                                 </ul>
+                            </div> -->
+                            <div class="job-search-dropdown-job-type job-dropdown-hide">
+                                <h3 class="job-suggestion">Suggested Job Titles</h3>
+                                <ul class="dorpdown-list-search">
+                                    <li class="icon-cursor"><img src="../image/job-search.png" alt=""><span>Hr</span> Manager</li>
+                                    <li class="icon-cursor"><img src="../image/job-search.png" alt="">Product Manager</li>
+                                    <li class="icon-cursor"><img src="../image/job-search.png" alt="">HR Manager</li>
+                                    <li class="icon-cursor"><img src="../image/job-search.png" alt="">Product Manager</li>
+                                    <li class="icon-cursor"><img src="../image/job-search.png" alt="">Product Owner</li>
+                                </ul>
                             </div>
                         </div>
-
                         <div class="job-location-f">
-                            <img src="../image/job-location.png" alt="">
-                            <input type="tel" name="" id="job-location-field" placeholder="Job Location">
+                            <img src="../image/job-location.png" alt="" class="hide-img-j">
+                            <input type="text" name="" id="job-location-field" placeholder="Job Location">
                         </div>
                         <div class="job-location-dropdown job-dropdown-hide">
                             <h3 class="job-suggestion">City</h3>
