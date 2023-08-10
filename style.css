@@ -1173,7 +1173,7 @@ ul.site-list a {
 /***********cookies scetion start here **********/
 
 .cookies-sec {
-    padding: 20px;
+    padding: 40px;
     background: var(--color-white);
     border: 1px solid #BDBDBD;
     box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.16);
@@ -1204,23 +1204,22 @@ ul.site-list a {
 }
 
 p.cookies-paragrapgh {
-    color: var(--text-color);
+    color: rgba(0, 0, 0, 0.80);
     font-size: var(--body-text);
     font-family: var(--museo-sans);
     font-weight: 300;
     line-height: 36px;
-    opacity: 0.8;
 }
 
 .cookies-btns {
     gap: 20px;
     display: flex;
     justify-content: end;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 button.decline-btn {
-    padding: 14px 46px;
+    padding: 14px 48px;
     background: transparent;
     border: 1px solid var(--accent-color);
     color: var(--accent-color);
@@ -1232,7 +1231,7 @@ button.decline-btn {
 }
 
 button.allow-btn {
-    padding: 14px 53px;
+    padding: 14px 58px;
     background: var(--accent-color);
     border: 1px solid var(--accent-color);
     color: var(--color-white);
@@ -1637,6 +1636,10 @@ button.employee-btn {
 
 .f-feild {
     margin-bottom: 40px;
+}
+
+.f-feild-forgot {
+    margin-bottom: 25px;
 }
 
 .f-feild label {
@@ -5367,15 +5370,15 @@ input:checked+.slider:before {
     gap: 5px;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 30%;
+    max-width: 38%;
     width: 100%;
     position: relative;
+    justify-content: space-between;
 }
 
 .loction-switch-col {
-    position: absolute;
-    right: 0px;
-    bottom: 0;
+    text-align: end;
+    padding-right: 10px;
 }
 
 .location-job-table {
@@ -7263,6 +7266,9 @@ button.form-submit-job-model {
         padding-bottom: 15px;
     }
     /**********cookies section css mobile**********/
+    .cookies-sec {
+        padding: 20px;
+    }
     .cookies-heading p {
         font-size: 20px;
         line-height: 30px;
