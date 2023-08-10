@@ -801,7 +801,6 @@ p.job-discription {
     color: var(--text-color);
     font-size: var(--promoted-btn);
     font-weight: var(--font-weight-medium);
-    opacity: 0.8;
     font-family: var(--museo-sans);
 }
 
@@ -1173,7 +1172,7 @@ ul.site-list a {
 /***********cookies scetion start here **********/
 
 .cookies-sec {
-    padding: 40px;
+    padding: 20px;
     background: var(--color-white);
     border: 1px solid #BDBDBD;
     box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.16);
@@ -1215,7 +1214,7 @@ p.cookies-paragrapgh {
     gap: 20px;
     display: flex;
     justify-content: end;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 button.decline-btn {
@@ -4056,6 +4055,11 @@ p.candidate-info-text {
     height: 250px;
 }
 
+.candidtae-profile-image-avatar img {
+    width: 250px;
+    height: 250px;
+}
+
 .profile-img-c {
     display: none;
 }
@@ -4782,6 +4786,47 @@ ul.candidate-profile-data-list {
     overflow: auto;
     padding: 0 40px;
     height: 100%;
+}
+
+
+/***********model with iframe**********/
+
+.model-candidate-resume-iframe {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(0 0 0 / 55%);
+    top: 0%;
+    overflow-y: auto;
+}
+
+.popup-candidate-resume-iframe {
+    width: 100%;
+    height: 85vh;
+    margin: 75px auto 75px;
+    padding: 0px 0px;
+    position: relative;
+    /* background: #FFFFFF; */
+    /* border: 2px solid #BDBDBD; */
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+}
+
+.resume-data-profile-iframe {
+    /* overflow: auto;
+    padding: 0 40px; */
+    height: 100%;
+}
+
+.popup-bg-iframe {
+    width: 66%;
+    margin: 0 auto;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
 
@@ -6663,6 +6708,11 @@ button.form-submit-job-model {
     .search-box {
         display: none;
     }
+    /******iframe model css ********/
+    .popup-bg-iframe {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 
 @media only screen and (max-width:1000px) {
@@ -7467,7 +7517,7 @@ button.form-submit-job-model {
         max-width: 30%;
         width: 100%;
     }
-    /*********** job detal asge css start here mobile**********/
+    /*********** job details page css start here mobile**********/
     .filter-serach-btn {
         max-width: 100%;
         width: 100%;
@@ -7577,7 +7627,7 @@ button.form-submit-job-model {
     .search-box {
         padding: 4px;
     }
-    /*************company detailspage css start here **********/
+    /*************company details page css start here **********/
     .company-detail-sec {
         padding: 50px 0px;
     }
@@ -7613,7 +7663,7 @@ button.form-submit-job-model {
     .search-box {
         display: none;
     }
-    /**************** job detal page filer***********/
+    /**************** job details page filer***********/
     section.f-dream.job {
         margin-top: 60px;
     }
@@ -7641,7 +7691,7 @@ button.form-submit-job-model {
     section.company-job-sec {
         padding-bottom: 50px;
     }
-    /***************to match job page css for moobile**********/
+    /***************top match job page css for moobile**********/
     .left-right-content {
         display: flex;
         flex-direction: column;
@@ -7830,6 +7880,11 @@ button.form-submit-job-model {
     }
     input#candidate-name-field {
         max-width: 100%;
+    }
+    /*********** iframe model mobile ******/
+    .popup-bg-iframe {
+        width: 90%;
+        margin: 0 auto;
     }
     /**********profile form for mobile ******/
     .candidate-call {
