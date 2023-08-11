@@ -2790,6 +2790,55 @@ section.f-dream.job {
     right: 0;
 }
 
+
+/************date drop down *******/
+
+.job-date-dropdown {
+    position: absolute;
+    top: 50px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
+    width: 185px;
+    z-index: 1;
+    padding-bottom: 10px;
+    right: 0;
+}
+
+ul.dorpdown-list-date li {
+    color: rgba(0, 0, 0, 0.80);
+    font-size: var(--skill-text-size);
+    font-family: var(--museo-sans);
+    font-weight: 300;
+    line-height: 40px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 12px;
+    word-break: break-word !important;
+}
+
+ul.dorpdown-list-date li:hover {
+    border-radius: 6px;
+    background: #F2F7FF;
+}
+
+ul.dorpdown-list-date {
+    list-style: none;
+    margin: 0;
+    list-style: none;
+    padding: 0 15px;
+}
+
+ul.dorpdown-list-date li img {
+    padding-right: 10px;
+    height: 14px;
+    position: relative;
+    top: 11px;
+}
+
+
+/******************/
+
 h3.job-suggestion {
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-bold);
@@ -3866,31 +3915,30 @@ section.pageniation-sec {
 }
 
 .candidate-wishlist-block {
-    margin-left: 25px;
+    /* margin-left: 25px; */
 }
 
 .profile-right-col {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 15px;
+    /* gap: 15px; */
 }
 
 .hide-wishlist-style {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 0px;
 }
 
 .candidate-name-img {
     flex-grow: 1;
     display: flex;
     align-items: center;
-    gap: 15px;
 }
 
 .candidate-name-img img {
-    max-width: 100%;
+    /* max-width: 100%; */
     width: 45px;
     height: 45px;
 }
@@ -3898,7 +3946,6 @@ section.pageniation-sec {
 .candidate-wishlist-block a {
     display: flex;
     align-items: center;
-    gap: 25px;
     text-decoration: none;
     position: relative;
 }
@@ -3924,7 +3971,7 @@ p.conter-text-wiishlist {
 }
 
 .candidate-wishlist-block img {
-    max-width: 100%;
+    /* max-width: 100%; */
 }
 
 p.candidate-name {
@@ -3932,16 +3979,23 @@ p.candidate-name {
 }
 
 .toggle-icon-profile.icon-cursor {
-    margin-left: 15px;
+    margin-left: 0px;
 }
 
-p.candidate-name,
+p.candidate-name {
+    color: var(--accent-color);
+    font-size: var(--body-text);
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+    padding: 0 20px;
+}
+
 p.candidate-wishlist {
     color: var(--accent-color);
     font-size: var(--body-text);
     font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
-    margin-right: 20px;
+    margin: 0 20px;
 }
 
 section.profile-edit {
@@ -5027,7 +5081,7 @@ p.resume-degree {
     display: flex;
     justify-content: center;
     gap: 80px;
-    padding: 100px 0;
+    padding: 125px 0 100px 0;
     max-width: 70%;
     width: 100%;
     margin: 0 auto;
@@ -5066,7 +5120,7 @@ p.job-title-candidate-dashboard {
 .job-applied-col.job-candidate-cards img {
     text-align: center;
     display: block;
-    margin: -40px auto 0;
+    margin: -50px auto 0;
     padding-bottom: 20px;
 }
 
@@ -5095,7 +5149,7 @@ p.job-applied-candidate-dashboard {
 }
 
 section.wishlist-btn-sec {
-    padding: 50px 0;
+    padding: 40px 0 80px 0;
 }
 
 .whishlist-three-btn-stack {
@@ -5146,8 +5200,14 @@ section.wishlist-btn-sec {
 
 /***************wishlist page start here ******/
 
-section.job-applied {
-    padding-top: 50px;
+section.wishlist-sec {
+    padding-top: 90px;
+}
+
+.job-heading-wishlist h2 {
+    text-align: center;
+    font-weight: var(--font-weight-bold);
+    padding-bottom: 80px;
 }
 
 .job-wishlist-btn button {
@@ -5173,24 +5233,13 @@ section.job-applied {
 .employee-job-dasboard {
     display: flex;
     justify-content: center;
-    gap: 50px;
-    padding: 100px 0;
+    gap: 80px 50px;
+    padding: 125px 0 100px 0;
     max-width: 100%;
     width: 100%;
     margin: 0 auto;
     flex-wrap: wrap;
 }
-
-
-/* .job-employee-cards {
-background: #FFFFFF;
-border: 0.5px solid rgba(0, 0, 0, 0.1);
-box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
-border-radius: 6px;
-padding: 0 20px 15px;
-max-width: 30%;
-width: 100%;
-} */
 
 a.anchor-cards-job {
     background: #FFFFFF;
@@ -5206,7 +5255,7 @@ a.anchor-cards-job {
 .job-employee-cards img {
     text-align: center;
     display: block;
-    margin: -40px auto 0;
+    margin: -50px auto 0;
     padding-bottom: 20px;
 }
 
@@ -5257,7 +5306,7 @@ th.technical-tags-row {
 .job-table-employee {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 10px;
 }
 
