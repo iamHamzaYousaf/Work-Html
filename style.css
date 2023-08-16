@@ -981,7 +981,7 @@ p.job-discription {
 }
 
 
-/**********last sec get readt contact****/
+/**********last sec get ready contact****/
 
 .contact-sec {
     padding: 50px 0px 0px 0px;
@@ -2999,6 +2999,9 @@ ul.find-job-tag li {
     border: 1px solid #e2edff;
 }
 
+
+/************ job company veiw page ***********/
+
 section.job-search-sec {
     padding: 100px 0 70px 0;
 }
@@ -3151,8 +3154,18 @@ button.fav-j-btn {
     padding: 50px 30px;
 }
 
+
+/*************job detail of company show *********/
+
 section.job-description-sec {
     padding: 50px 0px 0px 0;
+}
+
+.Job-Opportunities-row-company {
+    display: flex;
+    padding: 30px 0px 30px 0px;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .job-heading-detail-sec h5 {
@@ -3160,6 +3173,37 @@ section.job-description-sec {
     margin-bottom: 0px;
     padding: 13px 20px;
     background: rgb(242 247 255 / 50%);
+}
+
+.recruite-note-box h5 {
+    font-weight: var(--font-weight-bold);
+    text-align: center;
+    font-size: 30px;
+    color: var(--text-color);
+}
+
+.recruite-note-box {
+    margin-bottom: 0px;
+    padding: 13px 20px;
+    /* background: rgb(242 247 255 / 50%); */
+    border-radius: 12px;
+    background-image: url('./image/rec-bg.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(20, 57, 117, 0.20);
+}
+
+p.job-discription-com-j-recruite {
+    color: var(--text-color);
+    font-size: var(--body-text);
+    font-weight: 300;
+    font-family: var(--museo-sans);
+    padding: 32px 0 20px 0px;
+    line-height: 38px;
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .job-details-first-title h5 {
@@ -3348,6 +3392,9 @@ ul.skill-list-j {
 
 .company-logo-left img {
     max-width: 100%;
+    width: 320px;
+    height: 160px;
+    object-fit: cover;
 }
 
 .company-logo-left {
@@ -3398,6 +3445,142 @@ ul.skill-list-j {
 
 section.company-job-sec {
     padding-bottom: 80px;
+}
+
+
+/*******filter drop diown *********/
+
+.list-search-dropdown-company {
+    position: absolute;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
+    width: 100%;
+    overflow: auto;
+    z-index: 1;
+    margin: 5px 0 0 auto;
+    right: 0;
+    top: 100%;
+    height: 185px;
+}
+
+
+/* width */
+
+.list-search-dropdown-company::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+/* Track */
+
+.list-search-dropdown-company::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+.list-search-dropdown-company::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: var(--primary-color);
+}
+
+ul.list-job-title-company {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0 15px;
+}
+
+ul.list-job-title-company li {
+    border-radius: 8px;
+    background: #ffffff;
+    padding: 0px 10px;
+    cursor: pointer;
+    color: rgb(0 0 0 / 50%);
+    font-size: var(--skill-text-size);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    line-height: 40px;
+}
+
+ul.list-job-title-company li:hover {
+    border-radius: 6px;
+    background: #F2F7FF;
+    color: var(--text-color);
+    font-weight: var(--font-weight-medium);
+}
+
+.list-search-dropdown-status {
+    position: absolute;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
+    width: 100%;
+    overflow: auto;
+    z-index: 1;
+    margin: 5px 0 0 auto;
+    right: 0;
+    top: 100%;
+    padding-bottom: 15px;
+}
+
+ul.dorpdown-list-date-company li {
+    border-radius: 8px;
+    background: #ffffff;
+    padding: 0px 10px;
+    cursor: pointer;
+    color: rgb(0 0 0 / 50%);
+    font-size: var(--skill-text-size);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    line-height: 40px;
+    display: flex;
+    align-items: flex-start;
+    word-break: break-word !important;
+}
+
+ul.dorpdown-list-date-company {
+    margin: 0;
+    list-style: none;
+    padding: 0 15px;
+}
+
+ul.dorpdown-list-date-company li:hover {
+    border-radius: 6px;
+    background: #F2F7FF;
+    color: var(--text-color);
+    font-weight: var(--font-weight-medium);
+}
+
+ul.dorpdown-list-date-company li img {
+    padding-right: 10px;
+    height: 14px;
+    position: relative;
+    top: 11px;
+}
+
+.search-box-location {
+    display: flex;
+    border-radius: 4px;
+    background: #F9F9F9;
+    padding: 8px;
+    margin: 0 15px;
+}
+
+#jon-search-box-location {
+    border: 0;
+    width: 85%;
+    margin-left: 5px;
+    border-radius: 4px;
+    background: #F9F9F9;
+    color: #000;
+    font-family: var(--museo-sans);
+    font-size: 13px;
+    font-weight: 300;
 }
 
 
@@ -5087,16 +5270,9 @@ p.resume-degree {
     margin: 0 auto;
 }
 
-
-/* .job-applied-col.job-candidate-cards {
-background: #FFFFFF;
-border: 0.5px solid rgba(0, 0, 0, 0.1);
-box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
-border-radius: 6px;
-padding: 0 20px 15px;
-max-width: 100%;
-width: 100%;
-} */
+.recommende-new-job {
+    padding: 150px 0 100px 0;
+}
 
 a.card-link-box {
     background: #FFFFFF;
@@ -5120,7 +5296,7 @@ p.job-title-candidate-dashboard {
 .job-applied-col.job-candidate-cards img {
     text-align: center;
     display: block;
-    margin: -50px auto 0;
+    margin: -45px auto 0;
     padding-bottom: 20px;
 }
 
@@ -5255,7 +5431,7 @@ a.anchor-cards-job {
 .job-employee-cards img {
     text-align: center;
     display: block;
-    margin: -50px auto 0;
+    margin: -45px auto 0;
     padding-bottom: 20px;
 }
 
@@ -5674,6 +5850,25 @@ button.comment-submit {
     font-size: var(--button-text);
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
+}
+
+
+/*******Employer View Job Details page css start here *******/
+
+.job-details-sec-employee {
+    padding: 60px 0px;
+    background: var(--secondary-color);
+    margin-top: 100px;
+}
+
+.job-description-sec-employe {
+    padding: 50px 0px 100px 0;
+}
+
+.job-title-employee-witch {
+    display: flex;
+    align-items: center;
+    gap: 25px;
 }
 
 
@@ -6478,7 +6673,7 @@ button.form-submit-job-model {
         font-size: 16px;
     }
     .filter-serach-btn {
-        max-width: 80%;
+        max-width: 87%;
     }
     /*************top match css start here ***********/
     .job-title-right-col {
@@ -6530,7 +6725,7 @@ button.form-submit-job-model {
         font-size: 15px;
     }
     .filter-serach-btn {
-        max-width: 80%;
+        max-width: 90%;
     }
 }
 
@@ -6936,7 +7131,8 @@ button.form-submit-job-model {
     .sucess-featured {
         display: block;
     }
-    .Job-Opportunities-row {
+    .Job-Opportunities-row,
+    .Job-Opportunities-row-company {
         display: block;
     }
     .job-requriments {
@@ -7190,7 +7386,8 @@ button.form-submit-job-model {
     .sucess-featured {
         display: block;
     }
-    .Job-Opportunities-row {
+    .Job-Opportunities-row,
+    .Job-Opportunities-row-company {
         display: block;
     }
     .job-requriments {

@@ -33,88 +33,23 @@
 
         </div>
     </header>
-    <!---------- find a job section start here-->
-    <section class="f-dream job">
-        <div class="container-site">
-            <div class="f-job-heaading">
-                <h2>Find your dream job</h2>
-            </div>
-            <div class="filter-serach-btn">
-                <div class="job-fillter-f">
-                    <div class="three-filter-inline">
-                        <div class="job-keywords">
-                            <img src="../image/job-search.png" alt="">
-                            <input type="text" name="" id="job-search-field" placeholder="Key words, company, skills...">
-                        </div>
-                        <div class="job-type-f">
-                            <div id="dropdown-boxId1" class="company-form-dropdownBox" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Job Type</div>
-                            <div id="company-dropList1" class="dropdown-menu company-drop-list">
-                                <ul>
-                                    <li>Mobile App </li>
-                                    <li>Website Developer</li>
-                                    <li>Social Media</li>
-                                    <li>Mobile App Developer</li>
-
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="job-location-f">
-                            <img src="../image/job-location.png" alt="">
-                            <input type="tel" name="" id="job-location-field" placeholder="Job Location">
-                        </div>
-                    </div>
-                    <div class="job-post-date">
-                        <div id="dropdown-boxId2" class="company-form-dropdownBox" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Date Posted</div>
-                        <div id="company-dropList2" class="dropdown-menu company-drop-list">
-                            <ul>
-                                <li>Today</li>
-                                <li>Last 7 Days</li>
-                                <li>Last 14 Days</li>
-                                <li>This Month</li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="job-filter-btn">
-                    <a href="#"><button>Find a Job</button></a>
-                    <p class="clear-filter">Clear All Filters</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-------------most job serch-->
-    <section class="job-search-sec">
-        <div class="container-site">
-            <div class="job-search-tag-heading">
-                <h2>Most Search Jobs</h2>
-            </div>
-            <div class="most-job-search-tag">
-                <ul class="find-job-tag">
-                    <li>Software engineer</li>
-                    <li>Work From Home</li>
-                    <li>Artificial Intelligence</li>
-                    <li>Hybrid</li>
-                    <li>Mobile App Developer</li>
-                    <li>UI/UX Designer</li>
-                    <li>Manager Jobs</li>
-                    <li>Health jobs</li>
-                    <li>Freshers</li>
-                    <li>Data Entry</li>
-                </ul>
-            </div>
-        </div>
-    </section>
     <!--------- job title show-->
-    <section class="job-details-sec">
+    <section class="job-details-sec-employee">
         <div class="container-site">
             <div class="j-compny-btn">
                 <div class="j-company-logo">
                     <img src="../image/amazaon.png" alt="">
                 </div>
                 <div class="j-company-dev">
-                    <p class="company-job-title">Senior Full Stack Developer(Java & Angular)</p>
+                    <div class="job-title-employee-witch">
+                        <p class="company-job-title">Senior Full Stack Developer(Java & Angular)</p>
+                        <div class="loction-switch-col-employee">
+                            <label class="switch">
+                            <input type="checkbox" checked>
+                            <span class="slider"></span>
+                        </label>
+                        </div>
+                    </div>
                     <p class="j-sub-title">Amazon Web Service</p>
                     <div class="icon-text-job-requre">
                         <img src="../image/j-salary.png" alt="">
@@ -148,7 +83,7 @@
         </div>
     </section>
     <!-------------joib result-->
-    <section class="job-description-sec">
+    <section class="job-description-sec-employe">
         <div class="container-site">
             <div class="Job-Opportunities-row-company">
                 <div class="job-company-details">
@@ -292,25 +227,107 @@
             </div>
         </div>
     </section>
-    <!-----------job section-->
-    <section class="new-job">
+    <!---------job table listing--------->
+    <section class="open-postion">
         <div class="container-site">
             <div class="job-search-box-row">
                 <div class="job-heading smilar-job-heading">
-                    <h2>Similar Jobs</h2>
+                    <h2>Active Jobs</h2>
                 </div>
                 <div class="search-box">
                     <img src="../image/job-search.png" alt="">
                     <input type="search" name="" id="jon-search-box" placeholder="Search Jobs">
                 </div>
             </div>
+            <div class="divider-opcity "></div>
+            <div class="j-fillter-only">
+                <div class="job-fillter-company">
+                    <div class="j-company-fillter">
+                        <div id="dropdown-boxId2" class="company-form-dropdownBox1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Job Title</div>
+                        <div id="company-dropList2" class="dropdown-menu company-drop-list">
+                            <ul>
+                                <li>Today</li>
+                                <li>Last 7 Days</li>
+                                <li>Last 14 Days</li>
+                                <li>This Month</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-fillter-company">
+                    <div class="j-company-fillter">
+                        <div id="dropdown-boxId2" class="company-form-dropdownBox1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Date Posted</div>
+                        <div id="company-dropList2" class="dropdown-menu company-drop-list">
+                            <ul>
+                                <li>Today</li>
+                                <li>Last 7 Days</li>
+                                <li>Last 14 Days</li>
+                                <li>This Month</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-fillter-company">
+                    <div class="j-company-fillter">
+                        <div id="dropdown-boxId2" class="company-form-dropdownBox1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Expiry Date</div>
+                        <div id="company-dropList2" class="dropdown-menu company-drop-list">
+                            <ul>
+                                <li>Today</li>
+                                <li>Last 7 Days</li>
+                                <li>Last 14 Days</li>
+                                <li>This Month</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-fillter-company">
+                    <div class="j-company-fillter">
+                        <div id="dropdown-boxId2" class="company-form-dropdownBox1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Location</div>
+                        <div id="company-dropList2" class="dropdown-menu company-drop-list">
+                            <ul>
+                                <li>Today</li>
+                                <li>Last 7 Days</li>
+                                <li>Last 14 Days</li>
+                                <li>This Month</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-fillter-company">
+                    <div class="j-company-fillter">
+                        <div id="dropdown-boxId2" class="company-form-dropdownBox1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Active</div>
+                        <div id="company-dropList2" class="dropdown-menu company-drop-list">
+                            <ul>
+                                <li>Today</li>
+                                <li>Last 7 Days</li>
+                                <li>Last 14 Days</li>
+                                <li>This Month</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----------job section-->
+    <section class="company-job-sec">
+        <div class="container-site">
             <div class="divider"></div>
             <div class="Job-Opportunities-row">
                 <div class="job-requriments">
                     <div class="job-details">
                         <div class="job-title">
                             <h3>React Java Developer</h3>
-                            <a href="#"><button>Promoted *</button></a>
+                            <!-- <a href="#"><button>Promoted *</button></a> -->
+                            <div class="job-services">
+                                <img src="../image/fitness.png" alt="fitenss">
+                                <p>International Consolidated Airlines Group SA</p>
+                            </div>
                         </div>
                         <div class="job-seclude">
                             <div class="job-time">
@@ -322,10 +339,6 @@
                         </div>
                     </div>
                     <div class="job-info">
-                        <div class="job-services">
-                            <img src="../image/fitness.png" alt="fitenss">
-                            <p>Amazon Web Service</p>
-                        </div>
                         <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem Ipsum
                             is simply dummy text of the printing and typesetting industry. </p>
                     </div>
@@ -337,156 +350,35 @@
                             <button>Micro Services</button>
                             <button>Angular</button>
                         </div>
-                        <div class="job-location">
-                            <p>Location</p>
-                            <img src="../image/Location.png" alt="Location">
-                            <p class="job-city">Cities</p>
+                        <div class="job-location-switch">
+                            <div class="location-job-table">
+                                <p>Location</p>
+                                <img src="../image/Location.png" alt="Location">
+                                <p class="job-city">Cities</p>
+                            </div>
+                            <div class="loction-switch-col">
+                                <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="job-announcements">
-                    <div class="job-announcements-col">
+                    <div class="job-announcements-col btn-size">
                         <a href="#"><button>View detailed Job Position</button></a>
                         <div class="job-time-wishlist">
-                            <div class="job-announcements-status">
-                                <p>21 Days ago</p>
+                            <div class="job-eployee-table-col">
+                                <p class="day">7 Days ago</p>
+                                <p class="job">Job will disappear in 12 Days</p>
                             </div>
-                            <div class="job-apply">
-                                <img src="../image/apply.png" alt="apply">
-                                <p>Apply now</p>
-                            </div>
-                            <div class="job-favorite">
-                                <img src="../image/favorite.png" alt="favorite">
-                                <p>Add Job to Wishlist</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-            <div class="divider"></div>
-            <div class="Job-Opportunities-row">
-                <div class="job-requriments">
-                    <div class="job-details">
-                        <div class="job-title">
-                            <h3>React Java Developer</h3>
-                            <a href="#"><button>Promoted *</button></a>
-                        </div>
-                        <div class="job-seclude">
-                            <div class="job-time">
-                                <p>Salary $500.00</p>
-                            </div>
-                            <div class="job-time">
-                                <p>Full Time - remote</p>
+                            <div class="job-candidate-list-icon">
+                                <img src="../image/candidate-job-list.png" alt="apply">
+                                <p>Candidates List</p>
                             </div>
                         </div>
                     </div>
-                    <div class="job-info">
-                        <div class="job-services">
-                            <img src="../image/fitness.png" alt="fitenss">
-                            <p>Amazon Web Service</p>
-                        </div>
-                        <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem Ipsum
-                            is simply dummy text of the printing and typesetting industry. </p>
-                    </div>
-                    <div class="job-skill-location">
-                        <div class="job-skills">
-                            <button>C++</button>
-                            <button>Java</button>
-                            <button>Python</button>
-                            <button>Micro Services</button>
-                            <button>Angular</button>
-                        </div>
-                        <div class="job-location">
-                            <p>Location</p>
-                            <img src="../image/Location.png" alt="Location">
-                            <p class="job-city">Cities</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="job-announcements">
-                    <div class="job-announcements-col">
-                        <a href="#"><button>View detailed Job Position</button></a>
-                        <div class="job-time-wishlist">
-                            <div class="job-announcements-status">
-                                <p>21 Days ago</p>
-                            </div>
-                            <div class="job-apply">
-                                <img src="../image/apply.png" alt="apply">
-                                <p>Apply now</p>
-                            </div>
-                            <div class="job-favorite">
-                                <img src="../image/favorite.png" alt="favorite">
-                                <p>Add Job to Wishlist</p>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                </div>
-            </div>
-            <div class="divider"></div>
-            <div class="Job-Opportunities-row">
-                <div class="job-requriments">
-                    <div class="job-details">
-                        <div class="job-title">
-                            <h3>React Java Developer</h3>
-                            <a href="#"><button>Promoted *</button></a>
-                        </div>
-                        <div class="job-seclude">
-                            <div class="job-time">
-                                <p>Salary $500.00</p>
-                            </div>
-                            <div class="job-time">
-                                <p>Full Time - remote</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="job-info">
-                        <div class="job-services">
-                            <img src="../image/fitness.png" alt="fitenss">
-                            <p>Amazon Web Service</p>
-                        </div>
-                        <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem Ipsum
-                            is simply dummy text of the printing and typesetting industry. </p>
-                    </div>
-                    <div class="job-skill-location">
-                        <div class="job-skills">
-                            <button>C++</button>
-                            <button>Java</button>
-                            <button>Python</button>
-                            <button>Micro Services</button>
-                            <button>Angular</button>
-                        </div>
-                        <div class="job-location">
-                            <p>Location</p>
-                            <img src="../image/Location.png" alt="Location">
-                            <p class="job-city">Cities</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="job-announcements">
-                    <div class="job-announcements-col">
-                        <a href="#"><button>View detailed Job Position</button></a>
-                        <div class="job-time-wishlist">
-                            <div class="job-announcements-status">
-                                <p>21 Days ago</p>
-                            </div>
-                            <div class="job-apply">
-                                <img src="../image/apply.png" alt="apply">
-                                <p>Apply now</p>
-                            </div>
-                            <div class="job-favorite">
-                                <img src="../image/favorite.png" alt="favorite">
-                                <p>Add Job to Wishlist</p>
-                            </div>
-                        </div>
-
-
-                    </div>
-
                 </div>
             </div>
             <div class="divider"></div>
@@ -511,10 +403,6 @@
                         </div>
                     </div>
                     <div class="job-info">
-                        <!-- <div class="job-services">
-                                <img src="./image/fitness.png" alt="fitenss">
-                                <p>Amazon Web Service</p>
-                            </div> -->
                         <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem Ipsum
                             is simply dummy text of the printing and typesetting industry. </p>
                     </div>
@@ -526,36 +414,293 @@
                             <button>Micro Services</button>
                             <button>Angular</button>
                         </div>
-                        <div class="job-location">
-                            <p>Location</p>
-                            <img src="../image/Location.png" alt="Location">
-                            <p class="job-city">Cities</p>
+                        <div class="job-location-switch">
+                            <div class="location-job-table">
+                                <p>Location</p>
+                                <img src="../image/Location.png" alt="Location">
+                                <p class="job-city">Cities</p>
+                            </div>
+                            <div class="loction-switch-col">
+                                <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="job-announcements">
-                    <div class="job-announcements-col">
+                    <div class="job-announcements-col btn-size">
                         <a href="#"><button>View detailed Job Position</button></a>
                         <div class="job-time-wishlist">
-                            <div class="job-announcements-status">
-                                <p>21 Days ago</p>
+                            <div class="job-eployee-table-col">
+                                <p class="day">7 Days ago</p>
+                                <p class="job">Job will disappear in 12 Days</p>
                             </div>
-                            <div class="job-apply">
-                                <img src="../image/apply.png" alt="apply">
-                                <p>Apply now</p>
-                            </div>
-                            <div class="job-favorite">
-                                <img src="../image/favorite.png" alt="favorite">
-                                <p>Add Job to Wishlist</p>
+                            <div class="job-candidate-list-icon">
+                                <img src="../image/candidate-job-list.png" alt="apply">
+                                <p>Candidates List</p>
                             </div>
                         </div>
-
-
                     </div>
-
                 </div>
             </div>
             <div class="divider"></div>
+            <div class="Job-Opportunities-row">
+                <div class="job-requriments">
+                    <div class="job-details">
+                        <div class="job-title">
+                            <h3>React Java Developer</h3>
+                            <!-- <a href="#"><button>Promoted *</button></a> -->
+                            <div class="job-services">
+                                <img src="../image/fitness.png" alt="fitenss">
+                                <p>International Consolidated Airlines Group SA</p>
+                            </div>
+                        </div>
+                        <div class="job-seclude">
+                            <div class="job-time">
+                                <p>Salary $500.00</p>
+                            </div>
+                            <div class="job-time">
+                                <p>Full Time - remote</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job-info">
+                        <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem Ipsum
+                            is simply dummy text of the printing and typesetting industry. </p>
+                    </div>
+                    <div class="job-skill-location">
+                        <div class="job-skills">
+                            <button>C++</button>
+                            <button>Java</button>
+                            <button>Python</button>
+                            <button>Micro Services</button>
+                            <button>Angular</button>
+                        </div>
+                        <div class="job-location-switch">
+                            <div class="location-job-table">
+                                <p>Location</p>
+                                <img src="../image/Location.png" alt="Location">
+                                <p class="job-city">Cities</p>
+                            </div>
+                            <div class="loction-switch-col">
+                                <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-announcements">
+                    <div class="job-announcements-col btn-size">
+                        <a href="#"><button>View detailed Job Position</button></a>
+                        <div class="job-time-wishlist">
+                            <div class="job-eployee-table-col">
+                                <p class="day">7 Days ago</p>
+                                <p class="job">Job will disappear in 12 Days</p>
+                            </div>
+                            <div class="job-candidate-list-icon">
+                                <img src="../image/candidate-job-list.png" alt="apply">
+                                <p>Candidates List</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="Job-Opportunities-row">
+                <div class="job-requriments">
+                    <div class="job-details">
+                        <div class="job-title">
+                            <h3>React Java Developer</h3>
+                            <!-- <a href="#"><button>Promoted *</button></a> -->
+                            <div class="job-services">
+                                <img src="../image/fitness.png" alt="fitenss">
+                                <p>International Consolidated Airlines Group SA</p>
+                            </div>
+                        </div>
+                        <div class="job-seclude">
+                            <div class="job-time">
+                                <p>Salary $500.00</p>
+                            </div>
+                            <div class="job-time">
+                                <p>Full Time - remote</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job-info">
+                        <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem Ipsum
+                            is simply dummy text of the printing and typesetting industry. </p>
+                    </div>
+                    <div class="job-skill-location">
+                        <div class="job-skills">
+                            <button>C++</button>
+                            <button>Java</button>
+                            <button>Python</button>
+                            <button>Micro Services</button>
+                            <button>Angular</button>
+                        </div>
+                        <div class="job-location-switch">
+                            <div class="location-job-table">
+                                <p>Location</p>
+                                <img src="../image/Location.png" alt="Location">
+                                <p class="job-city">Cities</p>
+                            </div>
+                            <div class="loction-switch-col">
+                                <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-announcements">
+                    <div class="job-announcements-col btn-size">
+                        <a href="#"><button>View detailed Job Position</button></a>
+                        <div class="job-time-wishlist">
+                            <div class="job-eployee-table-col">
+                                <p class="day">7 Days ago</p>
+                                <p class="job">Job will disappear in 12 Days</p>
+                            </div>
+                            <div class="job-candidate-list-icon">
+                                <img src="../image/candidate-job-list.png" alt="apply">
+                                <p>Candidates List</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="Job-Opportunities-row">
+                <div class="job-requriments">
+                    <div class="job-details">
+                        <div class="job-title">
+                            <h3>React Java Developer</h3>
+                            <!-- <a href="#"><button>Promoted *</button></a> -->
+                            <div class="job-services">
+                                <img src="../image/fitness.png" alt="fitenss">
+                                <p>International Consolidated Airlines Group SA</p>
+                            </div>
+                        </div>
+                        <div class="job-seclude">
+                            <div class="job-time">
+                                <p>Salary $500.00</p>
+                            </div>
+                            <div class="job-time">
+                                <p>Full Time - remote</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job-info">
+                        <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem Ipsum
+                            is simply dummy text of the printing and typesetting industry. </p>
+                    </div>
+                    <div class="job-skill-location">
+                        <div class="job-skills">
+                            <button>C++</button>
+                            <button>Java</button>
+                            <button>Python</button>
+                            <button>Micro Services</button>
+                            <button>Angular</button>
+                        </div>
+                        <div class="job-location-switch">
+                            <div class="location-job-table">
+                                <p>Location</p>
+                                <img src="../image/Location.png" alt="Location">
+                                <p class="job-city">Cities</p>
+                            </div>
+                            <div class="loction-switch-col">
+                                <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-announcements">
+                    <div class="job-announcements-col btn-size">
+                        <a href="#"><button>View detailed Job Position</button></a>
+                        <div class="job-time-wishlist">
+                            <div class="job-eployee-table-col">
+                                <p class="day">7 Days ago</p>
+                                <p class="job">Job will disappear in 12 Days</p>
+                            </div>
+                            <div class="job-candidate-list-icon">
+                                <img src="../image/candidate-job-list.png" alt="apply">
+                                <p>Candidates List</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="Job-Opportunities-row">
+                <div class="job-requriments">
+                    <div class="job-details">
+                        <div class="job-title">
+                            <h3>React Java Developer</h3>
+                            <!-- <a href="#"><button>Promoted *</button></a> -->
+                            <div class="job-services">
+                                <img src="../image/fitness.png" alt="fitenss">
+                                <p>International Consolidated Airlines Group SA</p>
+                            </div>
+                        </div>
+                        <div class="job-seclude">
+                            <div class="job-time">
+                                <p>Salary $500.00</p>
+                            </div>
+                            <div class="job-time">
+                                <p>Full Time - remote</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job-info">
+                        <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem Ipsum
+                            is simply dummy text of the printing and typesetting industry. </p>
+                    </div>
+                    <div class="job-skill-location">
+                        <div class="job-skills">
+                            <button>C++</button>
+                            <button>Java</button>
+                            <button>Python</button>
+                            <button>Micro Services</button>
+                            <button>Angular</button>
+                        </div>
+                        <div class="job-location-switch">
+                            <div class="location-job-table">
+                                <p>Location</p>
+                                <img src="../image/Location.png" alt="Location">
+                                <p class="job-city">Cities</p>
+                            </div>
+                            <div class="loction-switch-col">
+                                <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-announcements">
+                    <div class="job-announcements-col btn-size">
+                        <a href="#"><button>View detailed Job Position</button></a>
+                        <div class="job-time-wishlist">
+                            <div class="job-eployee-table-col">
+                                <p class="day">7 Days ago</p>
+                                <p class="job">Job will disappear in 12 Days</p>
+                            </div>
+                            <div class="job-candidate-list-icon">
+                                <img src="../image/candidate-job-list.png" alt="apply">
+                                <p>Candidates List</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="see-more-job">
             <a href="#"><button>See more</button></a>
