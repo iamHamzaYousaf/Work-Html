@@ -1732,6 +1732,21 @@ label.l-f-img {
     border-radius: 6px;
 }
 
+.signup-resume {
+    position: relative;
+}
+
+.resume-choose-label {
+    position: absolute;
+    bottom: 22px;
+    left: 15px;
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    opacity: 0.3;
+}
+
 .signup-resume input[type="file"] {
     width: 100%;
     padding: 18px 8px;
@@ -8268,7 +8283,7 @@ select#fsalary-country {
     -webkit-appearance: none;
     background-image: url(./image/salary-year.png);
     background-repeat: no-repeat;
-    background-position: right 2px bottom 21px;
+    background-position: right -2px bottom 20px;
     background-size: 20px;
     width: 100%;
     font-size: var(--promoted-btn);
@@ -8297,7 +8312,7 @@ select#fsalary-year {
     -webkit-appearance: none;
     background-image: url(./image/salary-year.png);
     background-repeat: no-repeat;
-    background-position: right 8px bottom 22px;
+    background-position: right 1px bottom 18px;
     background-size: 20px;
     font-size: var(--promoted-btn);
     font-family: var(--museo-sans);
