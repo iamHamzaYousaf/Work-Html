@@ -72,7 +72,7 @@
                                     <label for="fjobtitles">Choose a Job Title</label><br>
                                     <div class="industry-feild-frm">
                                         <!-- <div id="dropdown-boxId-2" class="company-form-dropdownBox-f" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Choose a Job Title</div> -->
-                                        <input type="text" name="" id="job-search-field" placeholder="Choose a Job Title">
+                                        <input type="text" name="" id="job-post-field" placeholder="Choose a Job Title">
                                         <div class="icon-hide">
                                             <img src="../image/form-d-f.png" alt="" class="password-icon-togle">
                                             <img src="../image/warning.png" alt="">
@@ -109,30 +109,34 @@
                                 <div class="signup-salary f-feild">
                                     <label for="fsalary">Salary Range</label><br>
                                     <div class="salary-range-start-end">
-                                        <div class="merge-feild-1">
-                                            <div id="salary-start">
-                                                <select name="salry-range" id="fsalary-country">
+                                        <div class="merge-feild-1 error-input">
+                                            <div class=" salary-f-job error-input">
+                                                <div id="salary-start">
+                                                    <select name="salry-range" id="fsalary-country">
                                                     <option value="">us $</option>
                                                     <option value="">PKR</option>
                                                     <option value="">Ral</option>
                                                 </select>
+                                                </div>
                                             </div>
                                             <input type="text" name="" id="salary-start-range" class="form-font-f">
                                         </div>
                                         <div class="merge-feild-2">
                                             <p class="salryto">To</p>
                                         </div>
-                                        <div class="merge-feild-3">
+                                        <div class="merge-feild-3 error-input">
                                             <input type="text" name="" id="salary-end" class="form-font-f">
                                         </div>
                                         <div class="merge-feild-4">
-                                            <div id="Year">
-                                                <select name="salry-range" id="fsalary-year">
+                                            <div class="error-input">
+                                                <div id="Year">
+                                                    <select name="salry-range" id="fsalary-year">
                                                     <option data-countryCode="BB" value="1246">Year</option>
                                                     <option data-countryCode="BY" value="375">2016</option>
                                                     <option data-countryCode="BE" value="32">2010</option>
                                                     <!-- <p>(+375)</p> -->
                                                 </select>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -550,6 +554,7 @@
                                 </div>
                             </div>
                         </div>
+                        <p class="error-msg">Enter Correct Salary</p>
                     </div>
                 </div>
                 <div class="candidate-from-signup-create-final-job btn-next-pre">
