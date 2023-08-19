@@ -1719,6 +1719,12 @@ input#code-tel-post {
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     opacity: 0.8;
+    background: transparent !important;
+}
+
+input#code-tel-post :focus-visible {
+    border: 0 !important;
+    outline: 0 !important;
 }
 
 .signup-phone input[type="tel"] {
@@ -1984,7 +1990,7 @@ textarea:focus-visible {
 }
 
 .error-input>#countryCode :focus-visible {
-    border: 1px solid var(--error-msg-color) !important;
+    border: 0px solid var(--error-msg-color) !important;
     outline: 0 !important;
 }
 
@@ -5537,7 +5543,7 @@ table td {
     text-align: center;
     color: rgb(0 0 0 / 80%);
     font-size: var(--promoted-btn);
-    font-weight: var(--font-weight-medium);
+    font-weight: 300;
     font-family: var(--museo-sans);
 }
 
@@ -8327,8 +8333,9 @@ p.salryto {
 
 input#job-post-field {
     width: 100%;
-    border: 0;
+    border: 0 !important;
     outline: 0;
+    background: none !important;
 }
 
 input#salary-end {
