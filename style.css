@@ -1319,12 +1319,13 @@ p.forget-password {
     font-size: var(--button-text);
 }
 
-.candidate-from-submit input[type="submit"] {
+.candidate-from-submit input[type="submit"],
+button.password-btn {
     width: 100%;
     background: var(--accent-color);
     border: 0;
     border-radius: 6px;
-    padding: 6px 0;
+    padding: 12px 0;
     color: var(--color-white);
     font-family: var(--museo-sans);
     font-size: var(--text-size);
@@ -1728,12 +1729,12 @@ input#code-tel-post :focus-visible {
 }
 
 .signup-phone input[type="tel"] {
-    width: 88%;
+    width: 100%;
     padding: 18px 8px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+    /* border-top-left-radius: 0;
+    border-bottom-left-radius: 0; */
 }
 
 .signup-job-titles input[type="text"] {
@@ -3511,7 +3512,7 @@ ul.skill-list-j {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 90%;
+    max-width: 85%;
     width: 100%;
 }
 
@@ -3542,6 +3543,7 @@ section.company-job-sec {
     right: 0;
     top: 100%;
     height: 185px;
+    display: none;
 }
 
 
@@ -3606,6 +3608,7 @@ ul.list-job-title-company li:hover {
     right: 0;
     top: 100%;
     padding-bottom: 15px;
+    display: none;
 }
 
 ul.dorpdown-list-date-company li {
@@ -3621,6 +3624,14 @@ ul.dorpdown-list-date-company li {
     display: flex;
     align-items: flex-start;
     word-break: break-word !important;
+}
+
+.j-company-fillter.open .list-search-dropdown-company {
+    display: block;
+}
+
+.j-company-fillter.open .list-search-dropdown-status {
+    display: block;
 }
 
 ul.dorpdown-list-date-company {
@@ -4858,13 +4869,11 @@ p.employee-profile-company-content {
 }
 
 input#profile-call {
-    max-width: 88%;
+    max-width: 100%;
     width: 100%;
     padding: 18px 10px;
     border: 0.5px solid #BDBDBD;
     border-radius: 6px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
 }
 
 .candidate-call {
@@ -7229,9 +7238,9 @@ button.form-submit-job-model {
     .signup-phone #countryCode {
         width: 18%;
     }
-    .signup-phone input[type="tel"] {
+    /* .signup-phone input[type="tel"] {
         width: 82%;
-    }
+    } */
     .candidate-signup-form,
     .candidate-signup-form-feild,
     .candidate-from-signup-create-final-job,
@@ -7687,7 +7696,8 @@ button.form-submit-job-model {
         font-size: 30px;
         line-height: 36px;
     }
-    .candidate-from-submit input[type="submit"] {
+    .candidate-from-submit input[type="submit"],
+    button.password-btn {
         font-size: 18px;
     }
     .candidate-from-signup input[type="submit"] {
@@ -7722,9 +7732,9 @@ button.form-submit-job-model {
     .signup-phone #countryCode {
         width: 20%;
     }
-    .signup-phone input[type="tel"] {
+    /* .signup-phone input[type="tel"] {
         width: 80%;
-    }
+    } */
     .tags-tittles ul.tags-titles-list {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -8216,9 +8226,9 @@ button.form-submit-job-model {
     .candidate-call {
         max-width: 24%;
     }
-    input#profile-call {
+    /* input#profile-call {
         max-width: 78%;
-    }
+    } */
     select#candidate-location-feild,
     input#profile-email-candidate,
     .candidate-call,
