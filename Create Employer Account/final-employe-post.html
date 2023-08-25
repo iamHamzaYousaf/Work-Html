@@ -77,8 +77,7 @@
                                             <img src="../image/form-d-f.png" alt="" class="password-icon-togle">
                                             <img src="../image/warning.png" alt="">
                                         </div>
-                                        <div class="list-search-dropdown-company">
-                                            <h3 class="job-suggestion">Job Title</h3>
+                                        <div class="list-search-dropdown-company job-dropdown-hide">
                                             <ul class="list-job-title-company">
                                                 <li>React Developer</li>
                                                 <li>React Developer</li>
@@ -112,14 +111,28 @@
                                         <div class="merge-feild-1 error-input">
                                             <div class=" salary-f-job error-input">
                                                 <div id="salary-start">
-                                                    <select name="salry-range" id="fsalary-country">
+                                                    <div id="fsalary-country" class="company-form-dropdownBox-f" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD $</div>
+
+                                                    <!-- <select name="salry-range" id="fsalary-country">
                                                     <option value="">us $</option>
                                                     <option value="">PKR</option>
-                                                    <option value="">Ral</option>
-                                                </select>
+                                                    <option value="">Ral</option id="dropdown-boxId-2">
+                                                </select> -->
                                                 </div>
                                             </div>
                                             <input type="text" name="" id="salary-start-range" class="form-font-f">
+                                        </div>
+                                        <div class="list-search-dropdown-country-job">
+                                            <ul class="list-job-title-country">
+                                                <li><img src="../image/CA.png" alt="">CAD - Canadian Dollar</li>
+                                                <li><img src="../image/GB.png" alt="">GBP - British Pound</li>
+                                                <li><img src="../image/US.png" alt="">USD - US Dollar</li>
+                                                <li><img src="../image/US.png" alt="">USD - US Dollar</li>
+                                                <li><img src="../image/CA.png" alt="">CAD - Canadian Dollar</li>
+                                                <li><img src="../image/GB.png" alt="">GBP - British Pound</li>
+                                                <li><img src="../image/US.png" alt="">USD - US Dollar</li>
+                                                <li><img src="../image/US.png" alt="">USD - US Dollar</li>
+                                            </ul>
                                         </div>
                                         <div class="merge-feild-2">
                                             <p class="salryto">To</p>
@@ -138,6 +151,13 @@
                                                 </select>
                                                 </div>
                                             </div>
+                                        </div>
+                                        <div class="list-search-dropdown-year-job">
+                                            <ul class="list-job-title-year-job">
+                                                <li>Hourly</li>
+                                                <li>Monthly</li>
+                                                <li>Yearly</li>
+                                            </ul>
                                         </div>
                                     </div>
                                     <p class="error-msg">Enter Correct Salary</p>

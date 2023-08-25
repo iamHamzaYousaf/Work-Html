@@ -107,13 +107,32 @@
                         </div>
                         <div class="signup-country f-feild error-input">
                             <label for="fcountry">Country</label><br>
-                            <select id="country" name="country">
+                            <!-- <select id="country" name="country">
                                 <option value="Afghanistan">Afghanistan</option>
                                 <option value="Åland Islands">Åland Islands</option>
                                 <option value="Albania">Albania</option>
                                 <option value="Algeria">Algeria</option>
                                 <option value="American Samoa">American Samoa</option>
-                            </select>
+                            </select> -->
+                            <div class="industry-feild-frm error-input">
+                                <div id="dropdown-boxId-2" class="company-form-dropdownBox-f" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Choose Country</div>
+                                <div class="icon-hide">
+                                    <img src="../image/form-d-f.png" alt="" class="password-icon-togle">
+                                    <img src="../image/warning.png" alt="">
+                                </div>
+                                <div class="list-search-dropdown-company">
+                                    <ul class="list-job-title-country">
+                                        <li><img src="../image/CA.png" alt="">Canada</li>
+                                        <li><img src="../image/GB.png" alt="">United Kingdom ( UK )</li>
+                                        <li><img src="../image/US.png" alt="">United States of America ( USA )</li>
+                                        <li><img src="../image/US.png" alt="">United States of America ( USA )</li>
+                                        <li><img src="../image/CA.png" alt="">Canada</li>
+                                        <li><img src="../image/GB.png" alt="">United Kingdom ( UK )</li>
+                                        <li><img src="../image/US.png" alt="">United States of America ( USA )</li>
+                                        <li><img src="../image/US.png" alt="">United States of America ( USA )</li>
+                                    </ul>
+                                </div>
+                            </div>
                             <p class="error-msg">Please select country</p>
                         </div>
                         <div class="signup-phone f-feild error-input">
@@ -223,4 +242,34 @@
             </div>
         </div>
     </section>
+
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+        // var industryVal = document.getElementById("company-dropList1").querySelectorAll(".company-drop-list ul li");
+        // industryVal.forEach(function(item) {
+        //     item.onclick = function(e) {
+        //         document.getElementById('dropdown-boxId1').innerHTML = this.innerHTML;
+        //     }
+
+        // });
+        var companysizeVal1 = document.getElementById("company-dropList-t").querySelectorAll(".company-drop-list-t ul li");
+
+        companysizeVal1.forEach(function(item) {
+            item.onclick = function(e) {
+                document.getElementById('dropdown-boxId-2').innerHTML = this.innerHTML;
+            }
+
+        });
+        // var companytypeVal = document.getElementById("company-dropList3").querySelectorAll(".company-drop-list ul li");
+
+        // companytypeVal.forEach(function(item) {
+        //     item.onclick = function(e) {
+        //         document.getElementById('dropdown-boxId3').innerHTML = this.innerHTML;
+        //     }
+
+        // });
+    </script>
 </body>
