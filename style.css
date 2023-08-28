@@ -1651,13 +1651,6 @@ button.employee-btn {
     font-weight: var(--font-weight-bold);
 }
 
-.form-font-f {
-    color: rgb(0 0 0 / 80%);
-    font-family: var(--museo-sans);
-    font-size: var(--promoted-btn);
-    font-weight: var(--font-weight-medium);
-}
-
 label.l-f-img {
     opacity: 1;
 }
@@ -3447,8 +3440,7 @@ ul.skill-list-j {
 
 .search-box {
     padding: 8px;
-    opacity: 0.3;
-    border: 1px solid #000000;
+    border: 1px solid rgb(0 0 0 / 30%);
     border-radius: 25px;
 }
 
@@ -5079,7 +5071,8 @@ input#social-link::-webkit-input-placeholder,
 select#candidate-location-feild,
 input#Company-name-employe-profile::-webkit-input-placeholder,
 input#profile-url-employee::-webkit-input-placeholder,
-input#location-f-profile::-webkit-input-placeholder {
+input#location-f-profile::-webkit-input-placeholder,
+input#jon-search-box::-webkit-input-placeholder {
     color: rgb(0 0 0 / 80%);
     font-size: var(--body-text);
     font-family: var(--museo-sans);
@@ -5102,7 +5095,9 @@ input#password-field::-webkit-input-placeholder,
 .signup-skill-tags input[type="text"]::-webkit-input-placeholder,
 .signup-linkedIn-link input[type="text"]::-webkit-input-placeholder,
 .candidate-username input[type="text"]::-webkit-input-placeholder,
-input#forgotpassowrd-mail::-webkit-input-placeholder {
+input#forgotpassowrd-mail::-webkit-input-placeholder,
+input#jon-search-box::-webkit-input-placeholder,
+input#candidate-list-search::-webkit-input-placeholder {
     color: var(--text-color);
     font-size: var(--promoted-btn);
     font-family: var(--museo-sans);
@@ -5115,6 +5110,13 @@ select#candidate-location-feild option {
     font-size: var(--promoted-btn);
     font-family: var(--museo-sans);
     opacity: 0.8;
+}
+
+.form-font-f {
+    color: rgb(0 0 0 / 80%);
+    font-family: var(--museo-sans);
+    font-size: var(--promoted-btn);
+    font-weight: var(--font-weight-medium);
 }
 
 
@@ -5683,6 +5685,15 @@ a.anchor-cards-job {
     display: block;
     margin: -45px auto 0;
     padding-bottom: 20px;
+}
+
+.j-fillter-only-table {
+    margin: 30px auto 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 42%;
+    width: 100%;
 }
 
 table {
@@ -6327,8 +6338,7 @@ td.name-box-hvr {
 
 .filter-search-box {
     padding: 8px;
-    opacity: 0.3;
-    border: 1px solid #000000;
+    border: 1px solid rgb(0 0 0 / 30%);
     border-radius: 25px;
     width: 350px;
     display: flex;
