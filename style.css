@@ -3113,7 +3113,6 @@ ul.dorpdown-list-location li:hover {
     border-right: 1px solid var(--boder-color);
     max-width: 38%;
     width: 100%;
-    display: flex;
 }
 
 input#job-search-field {
