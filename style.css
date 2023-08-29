@@ -1850,7 +1850,6 @@ button.form-submit {
     background: #fff;
     box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
     z-index: 1;
-    padding-bottom: 10px;
 }
 
 .tags-tittles ul.tags-titles-list {
@@ -1987,6 +1986,16 @@ textarea:focus-visible {
     outline: 0 !important;
 }
 
+.error-input .industry-feild-frm-country {
+    border: 1px solid var(--error-msg-color) !important;
+    outline: 0;
+}
+
+.error-input .industry-feild-frm-country :focus-visible {
+    border: 1px solid var(--error-msg-color) !important;
+    outline: 0 !important;
+}
+
 .error-input>textarea {
     background: url('./image/warning.png');
     background-repeat: no-repeat;
@@ -2111,7 +2120,7 @@ input#location-f-profile {
 
 /*************post a job error feild**********/
 
-.error-input>#salary-start {
+.error-input>.salary-start {
     border: 1px solid var(--error-msg-color) !important;
     outline: 0;
     border-radius: 6px;
@@ -2119,17 +2128,17 @@ input#location-f-profile {
     border-bottom-right-radius: 0;
 }
 
-#salary-start :focus-visible {
+.salary-start :focus-visible {
     border: 1px solid var(--error-msg-color) !important;
     outline: 0 !important;
 }
 
-.error-input>#salary-start :focus-visible {
+.error-input>.salary-start :focus-visible {
     border: 0px solid var(--error-msg-color) !important;
     outline: 0 !important;
 }
 
-.error-input>#Year {
+.error-input>.Year {
     border: 1px solid var(--error-msg-color) !important;
     outline: 0;
     border-radius: 6px;
@@ -2140,7 +2149,7 @@ input#location-f-profile {
     outline: 0 !important;
 }
 
-select#fsalary-year :focus-visible {
+#fsalary-year :focus-visible {
     border: 0px solid var(--error-msg-color) !important;
     outline: 0 !important;
 }
@@ -2156,7 +2165,7 @@ select#fsalary-year :focus-visible {
     outline: 0 !important;
 } */
 
-select#fsalary-year:focus-visible {
+#fsalary-year:focus-visible {
     border: 0px solid var(--error-msg-color) !important;
     outline: 0 !important;
 }
@@ -2482,6 +2491,13 @@ button.btn-job-post {
     z-index: 2;
 }
 
+.industry-feild-frm-country.open {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
 .icon-cursor-f {
     cursor: pointer;
 }
@@ -2493,6 +2509,20 @@ button.btn-job-post {
 }
 
 .industry-feild-frm {
+    width: 100%;
+    padding: 18px 10px;
+    border: 0.5px solid var(--boder-color);
+    border-radius: 6px;
+    font-size: 18px;
+    font-family: var(--museo-sans);
+    font-weight: 300;
+    color: var(--text-color);
+    position: relative;
+    z-index: 1;
+    display: flex;
+}
+
+.industry-feild-frm-country {
     width: 100%;
     padding: 18px 10px;
     border: 0.5px solid var(--boder-color);
@@ -2884,7 +2914,6 @@ section.f-dream.job {
     box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
     width: 230px;
     z-index: 1;
-    padding-bottom: 10px;
     left: 0;
 }
 
@@ -2896,7 +2925,6 @@ section.f-dream.job {
     box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
     width: 230px;
     z-index: 1;
-    padding-bottom: 10px;
     right: 0;
 }
 
@@ -2911,7 +2939,6 @@ section.f-dream.job {
     box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
     width: 185px;
     z-index: 1;
-    padding-bottom: 10px;
     right: 0;
 }
 
@@ -2936,7 +2963,7 @@ ul.dorpdown-list-date {
     list-style: none;
     margin: 0;
     list-style: none;
-    padding: 0 15px;
+    padding: 15px 10px;
 }
 
 ul.dorpdown-list-date li img {
@@ -2984,6 +3011,40 @@ ul.dorpdown-list-search li:hover {
     border-radius: 6px;
     background: #F2F7FF;
 }
+
+
+/************** job type****/
+
+ul.dorpdown-list-search-j-type {
+    margin: 0;
+    list-style: none;
+    padding: 15px 10px;
+}
+
+ul.dorpdown-list-search-j-type li img {
+    height: 18px;
+    position: relative;
+    top: 10px;
+}
+
+ul.dorpdown-list-search-j-type li {
+    color: rgba(0, 0, 0, 0.80);
+    font-size: var(--skill-text-size);
+    font-family: var(--museo-sans);
+    font-weight: 300;
+    line-height: 40px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 0px;
+}
+
+ul.dorpdown-list-search-j-type li:hover {
+    border-radius: 6px;
+    background: #F2F7FF;
+}
+
+
+/*************/
 
 ul.dorpdown-list-location {
     list-style: none;
@@ -3044,6 +3105,7 @@ ul.dorpdown-list-location li:hover {
     border-right: 1px solid var(--boder-color);
     max-width: 38%;
     width: 100%;
+    display: flex;
 }
 
 input#job-search-field {
@@ -3571,7 +3633,9 @@ section.company-job-sec {
     margin: 5px 0 0 auto;
     right: 0;
     top: 100%;
-    height: 185px;
+    max-height: 185px;
+    height: auto;
+    display: none;
 }
 
 
@@ -3711,7 +3775,7 @@ ul.dorpdown-list-date-company li img {
 ul.list-job-title-country {
     list-style: none;
     margin-bottom: 0;
-    padding: 0 15px;
+    padding: 15px 10px;
 }
 
 ul.list-job-title-country li {
@@ -3763,8 +3827,14 @@ ul.list-job-title-country li img {
     z-index: 1;
     margin: 5px 0 0 auto;
     left: 0;
-    top: 100%;
-    height: 185px;
+    top: 93%;
+    max-height: 185px;
+    height: auto;
+    display: none;
+}
+
+.salary-start.open .list-search-dropdown-country-job {
+    display: block;
 }
 
 
@@ -3801,7 +3871,12 @@ ul.list-job-title-country li img {
     z-index: 1;
     margin: 5px 0 0 auto;
     right: 0;
-    top: 100%;
+    top: 90%;
+    display: none;
+}
+
+.Year.open .list-search-dropdown-year-job {
+    display: block;
 }
 
 ul.list-job-title-year-job {
@@ -5690,10 +5765,40 @@ a.anchor-cards-job {
 .j-fillter-only-table {
     margin: 30px auto 30px 0;
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    gap: 0 60px;
+}
+
+.job-fillter-company-table {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 42%;
-    width: 100%;
+    width: auto;
+}
+
+.j-company-fillter-table {
+    padding: 12px;
+    border: 0.5px solid var(--boder-color);
+    border-radius: 6px;
+    width: 200px;
+    background: var(--secondary-color);
+}
+
+.j-company-fillter-table.open {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.j-company-fillter-table {
+    position: relative;
+}
+
+.j-company-fillter-table.open .list-search-dropdown-company {
+    display: block;
 }
 
 table {
@@ -5762,6 +5867,138 @@ th.technical-tags-row {
     gap: 10px;
     position: relative;
 }
+
+.cv-cions-review img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.cv-cions-review {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+}
+
+
+/**************review cv box tootip *************/
+
+.good-cv-box {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #0AB84D;
+    background: #FFF;
+    box-shadow: 0px 4px 16px 0px rgba(16, 11, 39, 0.08);
+    padding: 8px 12px;
+    width: 150px;
+    justify-content: space-between;
+    top: -60px;
+    left: 100px;
+}
+
+.good-cv-box p {
+    color: #0AB84D;
+    font-family: var(--museo-sans);
+    font-size: 12px;
+    font-weight: var(--font-weight-medium);
+}
+
+.good-cv-box img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+
+/**************need think box  tootltip***********/
+
+.thinkneed-cv-box {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid var(--accent-color);
+    background: #FFF;
+    box-shadow: 0px 4px 16px 0px rgba(16, 11, 39, 0.08);
+    padding: 8px 12px;
+    width: 150px;
+    justify-content: space-between;
+    top: -60px;
+    left: 45px;
+}
+
+.thinkneed-cv-box p {
+    color: var(--accent-color);
+    font-family: var(--museo-sans);
+    font-size: 12px;
+    font-weight: var(--font-weight-medium);
+}
+
+.thinkneed-cv-box img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+
+/**************bad cv tootltip***********/
+
+.badreview-cv-box {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid var(--error-msg-color);
+    background: #FFF;
+    box-shadow: 0px 4px 16px 0px rgba(16, 11, 39, 0.08);
+    padding: 8px 12px;
+    width: 150px;
+    justify-content: space-between;
+    top: -60px;
+    left: 8px;
+}
+
+.badreview-cv-box p {
+    color: var(--error-msg-color);
+    font-family: var(--museo-sans);
+    font-size: 12px;
+    font-weight: var(--font-weight-medium);
+}
+
+.badreview-cv-box img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.attention-box-table {
+    border-radius: 12px;
+    border: 1px solid var(--accent-color);
+    background: var(--color-white);
+    box-shadow: 0px 4px 16px 0px rgba(16, 11, 39, 0.08);
+    padding: 8px 15px;
+    position: absolute;
+    bottom: 45px;
+    left: -12px;
+    width: 225px;
+}
+
+.attention-text-table {
+    text-align: left;
+}
+
+p.text-atten-box-table {
+    color: var(--primary-color);
+    font-size: 12px;
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+}
+
+
+/*****************/
 
 img.notfill-heart {
     display: none;
@@ -8715,7 +8952,7 @@ input#salary-end {
     width: 100%;
 }
 
-div#salary-start {
+.salary-start {
     max-width: 100% !important;
     width: 100%;
     border: 0.5px solid var(--boder-color);
@@ -8728,7 +8965,7 @@ input#salary-start-range {
     width: 75%;
 }
 
-select#fsalary-year {
+div#fsalary-year {
     padding: 15px 8px;
     border: 0px solid var(--boder-color);
     border-radius: 6px;
@@ -8738,7 +8975,7 @@ select#fsalary-year {
     -webkit-appearance: none;
     background-image: url(./image/salary-year.png);
     background-repeat: no-repeat;
-    background-position: right 1px bottom 18px;
+    background-position: right 15px bottom 18px;
     background-size: 20px;
     font-size: var(--promoted-btn);
     font-family: var(--museo-sans);
@@ -8747,7 +8984,7 @@ select#fsalary-year {
     opacity: 0.8;
 }
 
-div#Year {
+.Year {
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
 }
