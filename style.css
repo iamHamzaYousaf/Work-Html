@@ -1727,7 +1727,7 @@ input#code-tel-post :focus-visible {
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
     /* border-top-left-radius: 0;
-    border-bottom-left-radius: 0; */
+border-bottom-left-radius: 0; */
 }
 
 .signup-job-titles input[type="text"] {
@@ -2161,8 +2161,8 @@ input#location-f-profile {
 
 
 /* .error-input :focus-visible {
-    border: 1px solid var(--error-msg-color) !important;
-    outline: 0 !important;
+border: 1px solid var(--error-msg-color) !important;
+outline: 0 !important;
 } */
 
 #fsalary-year:focus-visible {
@@ -2260,8 +2260,8 @@ input#password-field {
     border: 0;
     border-radius: 0;
     /* color: var(--text-color);
-    font-size: var(--promoted-btn);
-    font-weight: var(--font-weight-medium); */
+font-size: var(--promoted-btn);
+font-weight: var(--font-weight-medium); */
 }
 
 .icon-hide {
@@ -2536,6 +2536,14 @@ button.btn-job-post {
     display: flex;
 }
 
+.industry-feild-frm-country .list-search-dropdown-company {
+    display: none;
+}
+
+.industry-feild-frm-country.open .list-search-dropdown-company {
+    display: block;
+}
+
 .company-form-dropdownBox-f {
     width: 100%;
     cursor: pointer;
@@ -2560,16 +2568,16 @@ button.btn-job-post {
 
 
 /* .company-form-dropdownBox-f:after {
-    content: " ";
-    background-image: url(./image/dropdown-arrow.png);
-    width: 19px;
-    height: 20px;
-    background-repeat: no-repeat;
-    margin-left: 10px;
-    position: absolute;
-    background-size: 100%;
-    right: 12px;
-    bottom: 15px;
+content: " ";
+background-image: url(./image/dropdown-arrow.png);
+width: 19px;
+height: 20px;
+background-repeat: no-repeat;
+margin-left: 10px;
+position: absolute;
+background-size: 100%;
+right: 12px;
+bottom: 15px;
 } */
 
 .dropdown-form-f {
@@ -3635,7 +3643,6 @@ section.company-job-sec {
     top: 100%;
     max-height: 185px;
     height: auto;
-    display: none;
 }
 
 
@@ -4874,42 +4881,42 @@ button.profile-end-btn:hover {
 
 
 /* .tags-candidate-profile ul {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    margin: 15px 0 30px 0;
-    padding: 0;
-    max-width: 100%;
-    width: 100%;
+list-style: none;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+margin: 15px 0 30px 0;
+padding: 0;
+max-width: 100%;
+width: 100%;
 }
 
 .tags-candidate-profile ul li button {
-    border: 0;
-    background: transparent;
-    font-size: 15px;
+border: 0;
+background: transparent;
+font-size: 15px;
 }
 
 .tags-candidate-profile ul li {
-    background: var(--secondary-color);
-    padding: 5px 10px;
-    color: var(--primary-color);
-    font-size: var(--skill-text-size);
-    font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+background: var(--secondary-color);
+padding: 5px 10px;
+color: var(--primary-color);
+font-size: var(--skill-text-size);
+font-weight: var(--font-weight-medium);
+font-family: var(--museo-sans);
 }
 
 .tags-candidate-profile ul li {
-    display: inline-flex;
-    justify-content: space-between;
+display: inline-flex;
+justify-content: space-between;
 } */
 
 
 /* ul.dorpdown-list-location {
-    list-style: none;
-    margin: 0;
-    list-style: none;
-    padding: 0 15px;
+list-style: none;
+margin: 0;
+list-style: none;
+padding: 0 15px;
 } */
 
 ul.dorpdown-list-location li {
@@ -5378,7 +5385,7 @@ ul.candidate-profile-data-list {
 
 .resume-data-profile-iframe {
     /* overflow: auto;
-    padding: 0 40px; */
+padding: 0 40px; */
     height: 100%;
 }
 
@@ -5779,9 +5786,33 @@ a.anchor-cards-job {
     width: auto;
 }
 
+.company-form-dropdownBox1-table {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 484px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    font-weight: var(--font-weight-medium);
+}
+
+.company-form-dropdownBox1-table:after {
+    content: " ";
+    background-image: url(./image/company--detail-filter.png);
+    width: 38px;
+    height: 10px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    position: absolute;
+    background-size: contain;
+    right: 0;
+}
+
 .j-company-fillter-table {
     padding: 12px;
-    border: 0.5px solid var(--boder-color);
+    border: 0.5px solid rgba(0, 0, 0, 0.20);
     border-radius: 6px;
     width: 200px;
     background: var(--secondary-color);
@@ -5797,9 +5828,75 @@ a.anchor-cards-job {
     position: relative;
 }
 
+.j-company-fillter-table .list-search-dropdown-company {
+    display: none;
+}
+
 .j-company-fillter-table.open .list-search-dropdown-company {
     display: block;
 }
+
+.company-form-dropdownBox1-tabeldate {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 484px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: var(--primary-color);
+    font-size: 13px;
+    font-weight: var(--font-weight-medium);
+}
+
+.company-form-dropdownBox1-tabeldate:after {
+    content: " ";
+    background-image: url(./image/company--detail-filter.png);
+    width: 38px;
+    height: 10px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    position: absolute;
+    background-size: contain;
+    right: 0;
+    background-position: right 10px bottom 0px;
+}
+
+ul.list-table-title-cand {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0;
+    padding: 15px 10px;
+}
+
+ul.list-table-title-cand li {
+    border-radius: 8px;
+    background: #ffffff;
+    cursor: pointer;
+    color: rgb(0 0 0 / 50%);
+    font-size: 12px;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    line-height: 33px;
+    text-align: left;
+    padding-left: 8px;
+}
+
+ul.list-table-title-cand li:hover {
+    border-radius: 6px;
+    background: #F2F7FF;
+    color: var(--text-color);
+    font-weight: var(--font-weight-medium);
+}
+
+.job-fillter-table-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 175px;
+}
+
+
+/*********************/
 
 table {
     border-collapse: collapse;
@@ -5867,6 +5964,9 @@ th.technical-tags-row {
     gap: 10px;
     position: relative;
 }
+
+
+/***********tabek tool tiop***********/
 
 .cv-cions-review img {
     width: 35px;
@@ -7304,7 +7404,7 @@ button.form-submit-job-model {
     }
     .job-title a.title-job-link {
         /* max-width: 66%;
-    width: 100%; */
+width: 100%; */
         font-size: 20px;
     }
     .job-title-right-col a button {
@@ -7314,17 +7414,17 @@ button.form-submit-job-model {
 
 @media only screen and (max-width: 1420px) and (min-width: 1361px) {
     /* .job-title {
-    max-width: 45%;
+max-width: 45%;
 } */
     /* .job-skills {
-    max-width: 70%;
+max-width: 70%;
 } */
     /* .job-seclude {
-    max-width: 27%;
+max-width: 27%;
 } */
     /* .job-location,
 .job-location-switch {
-    max-width: 27%;
+max-width: 27%;
 } */
     .job-time p {
         font-size: 16px;
@@ -7364,13 +7464,13 @@ button.form-submit-job-model {
 
 @media only screen and (max-width:1360px) and (min-width:1301px) {
     /* .job-title {
-    max-width: 72%;
+max-width: 72%;
 } */
     .job-title {
         gap: 10px;
     }
     /* .job-skills {
-    max-width: 72%;
+max-width: 72%;
 } */
     .job-seclude {
         max-width: 37%;
@@ -7380,7 +7480,7 @@ button.form-submit-job-model {
     }
     /* .job-location,
 .job-location-switch {
-    max-width: 25%;
+max-width: 25%;
 } */
     .job-time p {
         font-size: 15px;
@@ -7811,8 +7911,8 @@ button.form-submit-job-model {
         width: 18%;
     }
     /* .signup-phone input[type="tel"] {
-        width: 82%;
-    } */
+width: 82%;
+} */
     .candidate-signup-form,
     .candidate-signup-form-feild,
     .candidate-from-signup-create-final-job,
@@ -7912,9 +8012,9 @@ button.form-submit-job-model {
         width: 100%;
     }
     /* .tags-candidate-profile ul {
-        max-width: 100%;
-        width: 100%;
-    } */
+max-width: 100%;
+width: 100%;
+} */
     .tabs-candidate-col-space {
         display: flex;
         flex-direction: column;
@@ -8305,8 +8405,8 @@ button.form-submit-job-model {
         width: 20%;
     }
     /* .signup-phone input[type="tel"] {
-        width: 80%;
-    } */
+width: 80%;
+} */
     .tags-tittles ul.tags-titles-list {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -8700,10 +8800,10 @@ button.form-submit-job-model {
         width: 100%;
     }
     /* .tags-candidate-profile ul {
-        grid-template-columns: repeat(2, 1fr);
-        max-width: 100%;
-        width: 100%;
-    } */
+grid-template-columns: repeat(2, 1fr);
+max-width: 100%;
+width: 100%;
+} */
     .save-cancel-btn {
         justify-content: space-around;
     }
@@ -8799,8 +8899,8 @@ button.form-submit-job-model {
         max-width: 24%;
     }
     /* input#profile-call {
-        max-width: 78%;
-    } */
+max-width: 78%;
+} */
     select#candidate-location-feild,
     input#profile-email-candidate,
     .candidate-call,
