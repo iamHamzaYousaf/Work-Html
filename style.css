@@ -2878,13 +2878,13 @@ section.f-dream.job {
     width: 100%;
 }
 
-.job-fillter-company {
+
+/* .job-fillter-company {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    max-width: 80%;
+    max-width: 100%;
     width: 100%;
-}
+} */
 
 .three-filter-inline {
     display: flex;
@@ -3615,17 +3615,19 @@ ul.skill-list-j {
 .j-fillter-only {
     margin: 30px auto 30px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    max-width: 85%;
+    max-width: 100%;
     width: 100%;
+    gap: 20px 40px;
+    flex-wrap: wrap;
 }
 
 .j-company-fillter {
     padding: 12px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
-    width: 200px;
+    width: 240px;
     background: var(--secondary-color);
 }
 
@@ -5744,6 +5746,26 @@ section.wishlist-sec {
 }
 
 
+/**********error page ***********/
+
+.job-heading-wishlist-error {
+    padding: 0px 0 80px 0;
+}
+
+.job-heading-wishlist-error h2 {
+    text-align: center;
+    font-weight: var(--font-weight-bold);
+}
+
+p.error-wishlist {
+    text-align: center;
+    color: #FF6C6C;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+    font-size: var(--form-heading);
+}
+
+
 /*****************employee dasbord ***********/
 
 .employee-job-dasboard {
@@ -5782,7 +5804,8 @@ a.anchor-cards-job {
     align-items: center;
     max-width: 100%;
     width: 100%;
-    gap: 0 60px;
+    gap: 20px 40px;
+    flex-wrap: wrap;
 }
 
 .job-fillter-company-table {
@@ -7690,10 +7713,10 @@ max-width: 25%;
         max-width: 100%;
         width: 100%;
     }
-    .job-fillter-company {
+    /* .job-fillter-company {
         max-width: 18%;
         width: 100%;
-    }
+    } */
     .job-type-f,
     .job-keywords {
         padding-right: 15px;
@@ -7736,10 +7759,10 @@ max-width: 25%;
         width: 100%;
         display: block;
     }
-    .job-fillter-company {
+    /* .job-fillter-company {
         max-width: 18%;
         width: 100%;
-    }
+    } */
     .three-filter-inline {
         border: 0px solid var(--boder-color);
         border-radius: 0px;
@@ -8545,6 +8568,10 @@ width: 80%;
     .job-fillter-company {
         display: block;
         max-width: 100%;
+        width: 100%;
+    }
+    .j-company-fillter-table,
+    .job-fillter-company-table {
         width: 100%;
     }
     .three-filter-inline {
