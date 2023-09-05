@@ -6048,6 +6048,14 @@ th.technical-tags-row {
     object-fit: contain;
 }
 
+.hide-box {
+    opacity: 0;
+}
+
+img.tooltip-show:hover~.hide-box {
+    opacity: 1;
+}
+
 
 /**************need think box  tootltip***********/
 
@@ -7296,6 +7304,13 @@ button.form-submit-job-model {
     margin: 0 80px;
 }
 
+.Job-Opportunities-row {
+    display: flex;
+    padding: 30px 0px 30px 0px;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .job-title {
     display: flex;
     align-items: flex-start;
@@ -7336,6 +7351,11 @@ button.form-submit-job-model {
     justify-content: end;
 }
 
+.job-title a.title-job-link {
+    text-decoration: none;
+    max-width: 65%;
+}
+
 .countries-work {
     padding: 0px 0px 100px;
 }
@@ -7369,55 +7389,138 @@ button.form-submit-job-model {
 }
 
 
+/****************1440px company details page css ************/
+
+.space-inner-row {
+    padding: 0 20px;
+}
+
+
+/****************1440px job details page css ************/
+
+.icon-text-job-requre {
+    display: flex;
+    gap: 15px;
+    padding: 33px 0 0 0;
+}
+
+.space-inner-row {
+    padding: 0 20px;
+}
+
+
+/****************1440px job search page css ************/
+
+.Job-Opportunities-row-j-search {
+    display: flex;
+    padding: 30px 0px 30px 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.job-col-right .top-text-btn-align h3 {
+    font-size: 18px;
+    max-width: 60%;
+}
+
+.top-text-btn-align button {
+    padding: 6px 10px;
+    border-radius: 4px;
+    color: var(--accent-color);
+    font-family: var(--museo-sans);
+    font-size: var(--skill-text-size);
+    font-weight: var(--font-weight-bold);
+}
+
+.job-col-right .job-details {
+    gap: 10px;
+}
+
+.job-col-right .job-requriments {
+    width: calc(100% - 280px);
+}
+
+.job-col-right .job-announcements {
+    width: 258px;
+    position: relative;
+}
+
+.job-col-right .job-seclude {
+    max-width: 50%;
+}
+
+.job-col-right .job-skill-location {
+    gap: 10px;
+}
+
+.job-col-right .job-skills {
+    max-width: 60%;
+}
+
+.job-col-right .job-location {
+    max-width: 38%;
+}
+
+.job-col-right p.job-discription {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.job-col-right .job-services-col-left a p {
+    font-size: 16px;
+}
+
+.job-discription-left {
+    font-size: 16px;
+}
+
+.job-col-right .job-time p {
+    font-size: 16px;
+}
+
+.job-col-right .job-location p {
+    font-size: 16px;
+}
+
+.job-col-right .job-title {
+    max-width: 48%;
+}
+
+
+/*****left column iojn job search page ******/
+
+.job-services-col-left a p {
+    color: var(--text-color);
+    font-family: var(--museo-sans);
+    font-size: 16px;
+    font-weight: var(--font-weight-bold);
+}
+
+.job-title-left a button {
+    padding: 5px 10px;
+    border: 0;
+    background: rgba(255, 160, 51, 0.15);
+    border-radius: 4px;
+    color: var(--accent-color);
+    font-family: var(--museo-sans);
+    font-size: var(--skill-text-size);
+    font-weight: var(--font-weight-bold);
+}
+
+.job-services-col-left-w-2 {
+    max-width: 66%;
+    width: 100%;
+}
+
+
 /*************responsivness start here ***********/
 
 @media only screen and (max-width: 1835px) and (min-width: 1360px) {
     /***********home page job col*****/
-    .job-col-right .job-title {
-        max-width: 48%;
-    }
-    .job-col-right .top-text-btn-align h3 {
+    /* .job-col-right .top-text-btn-align h3 {
         max-width: 65%;
         font-size: 20px;
-    }
-    .job-col-right .job-details {
-        gap: 10px;
-    }
-    .job-col-right .job-requriments {
-        width: calc(100% - 280px);
-    }
-    .job-col-right .job-announcements {
-        width: 258px;
-        position: relative;
-    }
-    .job-col-right .job-seclude {
-        max-width: 50%;
-    }
-    .job-col-right .job-skill-location {
-        gap: 10px;
-    }
-    .job-col-right .job-skills {
-        max-width: 53%;
-    }
-    .job-col-right .job-location {
-        max-width: 45%;
-    }
-    .job-col-right p.job-discription {
-        font-size: 18px;
-        line-height: 30px;
-    }
-    .job-col-right .job-services-col-left a p {
-        font-size: 16px;
-    }
-    .job-discription-left {
-        font-size: 16px;
-    }
-    .job-col-right .job-time p {
-        font-size: 16px;
-    }
-    .job-col-right .job-location p {
-        font-size: 16px;
-    }
+    } */
     /*top match css start here **/
     ul.find-job-tag li {
         font-size: 18px;
@@ -7475,12 +7578,6 @@ max-width: 27%;
     /*************top match css start here ***********/
     .job-title-right-col {
         max-width: 58%;
-    }
-    .job-services-col-left a p {
-        color: var(--text-color);
-        font-family: var(--museo-sans);
-        font-size: 16px;
-        font-weight: var(--font-weight-bold);
     }
     .job-seclude-right-col {
         gap: 15px;
