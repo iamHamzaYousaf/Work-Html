@@ -4693,6 +4693,14 @@ p.file-size-candidate {
     outline: 0;
 }
 
+.three-stack-btn button input {
+    display: none;
+}
+
+p.file-btn {
+    cursor: pointer;
+}
+
 .edit-profile-icon,
 .tab-content-hide {
     display: none
@@ -7513,6 +7521,15 @@ button.form-submit-job-model {
 }
 
 
+/****************1440px login form page page css ************/
+
+.candidate-signin h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: var(--font-weight-bold);
+}
+
+
 /*************responsivness start here ***********/
 
 @media only screen and (max-width: 1835px) and (min-width: 1360px) {
@@ -8371,7 +8388,8 @@ width: 100%;
     .job-apply,
     .job-favorite,
     .job-opstion-status,
-    .job-candidate-list-icon {
+    .job-candidate-list-icon,
+    .job-applied-text {
         justify-content: center;
     }
     .see-more-job button {
