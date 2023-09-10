@@ -7481,7 +7481,7 @@ button.form-submit-job-model {
 
 .job-title a.title-job-link {
     text-decoration: none;
-    max-width: 65%;
+    max-width: 100%;
 }
 
 .countries-work {
@@ -7614,6 +7614,11 @@ button.form-submit-job-model {
     max-width: 48%;
 }
 
+.job-col-right .top-text-btn-align h3 {
+    font-size: 18px;
+    max-width: 100%;
+}
+
 
 /*****left column iojn job search page ******/
 
@@ -7683,6 +7688,9 @@ button.form-submit-job-model {
         width: 30%;
     }
     .ready-start-row {
+        margin: 0 15px;
+    }
+    .country-flages-img {
         margin: 0 15px;
     }
 }
@@ -7867,6 +7875,13 @@ button.form-submit-job-model {
     }
     .col-left-j-space button {
         padding: 8px 10px !important;
+        font-size: 16px;
+    }
+    .job-col-right .job-title {
+        max-width: 100%;
+    }
+    .job-col-right .job-seclude {
+        max-width: 100%;
     }
 }
 
@@ -8002,10 +8017,6 @@ button.form-submit-job-model {
         width: 100%;
         display: block;
     }
-    /* .job-fillter-company {
-        max-width: 18%;
-        width: 100%;
-    } */
     .three-filter-inline {
         border: 0px solid var(--boder-color);
         border-radius: 0px;
@@ -8028,6 +8039,11 @@ button.form-submit-job-model {
         margin-left: 0px;
         border: 0.5px solid var(--boder-color);
         border-radius: 6px;
+    }
+    p.clear-filter {
+        right: 0;
+        bottom: -34px;
+        left: 0;
     }
     #job-select-field,
     #job-post-date-feild {
@@ -8057,6 +8073,22 @@ button.form-submit-job-model {
     .col-right-j-space {
         max-width: 65%;
         flex-direction: column;
+    }
+    .Job-Opportunities-row-j-search {
+        flex-wrap: wrap;
+    }
+    .job-col-right .job-requriments {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .job-col-right {
+        height: auto;
+    }
+    .job-col-right .job-skills {
+        max-width: 100%;
+    }
+    .job-col-right .job-location {
+        max-width: 100%;
     }
     .col-left-j-space {
         max-width: 35%;
@@ -8211,9 +8243,6 @@ button.form-submit-job-model {
     .signup-phone #countryCode {
         width: 18%;
     }
-    /* .signup-phone input[type="tel"] {
-width: 82%;
-} */
     .candidate-signup-form,
     .candidate-signup-form-feild,
     .candidate-from-signup-create-final-job,
@@ -8312,10 +8341,6 @@ width: 82%;
     input#preferences-prfile {
         width: 100%;
     }
-    /* .tags-candidate-profile ul {
-max-width: 100%;
-width: 100%;
-} */
     .tabs-candidate-col-space {
         display: flex;
         flex-direction: column;
@@ -8452,6 +8477,14 @@ width: 100%;
     .sucess-featured {
         display: block;
     }
+    /***** home page feature sec 1440********/
+    .sucess-featured.alt {
+        background: transparent;
+    }
+    .sucess-featured {
+        background: transparent;
+    }
+    /*******/
     .Job-Opportunities-row,
     .Job-Opportunities-row-company {
         display: block;
@@ -8518,7 +8551,8 @@ width: 100%;
         max-width: 100%;
     }
     .job-location {
-        max-width: 44%;
+        max-width: 100%;
+        justify-content: center;
     }
     .job-location-switch {
         max-width: 70%;
@@ -8712,9 +8746,6 @@ width: 100%;
     .signup-phone #countryCode {
         width: 20%;
     }
-    /* .signup-phone input[type="tel"] {
-width: 80%;
-} */
     .tags-tittles ul.tags-titles-list {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -9044,6 +9075,11 @@ width: 80%;
     .company-job-announcements {
         max-width: 100%;
         margin-top: 50px;
+    }
+    .company-form-dropdownBox1,
+    .company-form-dropdownBox1-table,
+    .company-form-dropdownBox1-tabeldate {
+        max-width: 100%;
     }
     /***************top match job page css for moobile**********/
     .left-right-content {
