@@ -810,6 +810,7 @@ p.job-discription {
     align-items: center;
     max-width: 60%;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .job-skills button {
@@ -4106,7 +4107,8 @@ ul.list-job-title-year-job li:hover {
     right: 0;
 }
 
-.company-form-dropdownBox1:after {
+
+/* .company-form-dropdownBox1:after {
     content: " ";
     background-image: url(./image/company--detail-filter.png);
     width: 38px;
@@ -4116,6 +4118,24 @@ ul.list-job-title-year-job li:hover {
     position: absolute;
     background-size: contain;
     right: 0;
+} */
+
+.text-filter-icon {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.text-filter-icon img {
+    width: 18px;
+    height: 14px;
+}
+
+.text-filter-icon p {
+    color: var(--text-color);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
 }
 
 p.file-error-msg {
@@ -5905,7 +5925,8 @@ a.anchor-cards-job {
     font-weight: var(--font-weight-medium);
 }
 
-.company-form-dropdownBox1-table:after {
+
+/* .company-form-dropdownBox1-table:after {
     content: " ";
     background-image: url(./image/company--detail-filter.png);
     width: 38px;
@@ -5915,6 +5936,24 @@ a.anchor-cards-job {
     position: absolute;
     background-size: contain;
     right: 0;
+} */
+
+.text-filter-icon-table {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.text-filter-icon-table img {
+    width: 18px;
+    height: 14px;
+}
+
+.text-filter-icon-table p {
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    font-weight: var(--font-weight-medium);
 }
 
 .j-company-fillter-table {
