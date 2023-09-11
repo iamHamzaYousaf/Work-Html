@@ -225,7 +225,7 @@ html {
 }
 
 .col-two-button button {
-    background: var(--accent-color);
+    background: var(--primary-color);
     color: var(--color-white);
     padding: 12px 21px;
     text-align: center;
@@ -240,9 +240,9 @@ html {
 button.login-header {
     background: transparent;
     padding: 12px 32px;
-    color: var(--accent-color);
+    color: var(--primary-color);
     border-radius: 4px;
-    border: 1px solid var(--accent-color);
+    border: 1px solid var(--primary-color);
     cursor: pointer;
     font-family: var(--museo-sans);
     font-size: 22px;
@@ -250,7 +250,7 @@ button.login-header {
 }
 
 .find-job-btn button {
-    background: var(--accent-color);
+    background: var(--primary-color);
     color: var(--color-white);
     padding: 8px 75px;
     text-align: center;
@@ -263,7 +263,7 @@ button.login-header {
 }
 
 .find-job-btn-candidate-dashbord button {
-    background: var(--accent-color);
+    background: var(--primary-color);
     color: var(--color-white);
     padding: 10px 50px;
     text-align: center;
@@ -276,7 +276,7 @@ button.login-header {
 }
 
 .job-filter-btn button {
-    background: var(--accent-color);
+    background: var(--primary-color);
     color: var(--color-white);
     padding: 10px 78px;
     text-align: center;
@@ -931,7 +931,7 @@ p.job-discription {
     display: block;
     text-align: center;
     margin: 0 auto;
-    background: var(--accent-color);
+    background: var(--primary-color);
     padding: 8px 30px;
     width: 14%;
     margin-top: 0;
@@ -1314,7 +1314,7 @@ p.forget-password {
     float: right;
     clear: both;
     margin-top: 6px;
-    color: var(--accent-color);
+    color: var(--primary-color);
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
     font-size: var(--button-text);
@@ -1323,7 +1323,7 @@ p.forget-password {
 .candidate-from-submit input[type="submit"],
 button.password-btn {
     width: 100%;
-    background: var(--accent-color);
+    background: var(--primary-color);
     border: 0;
     border-radius: 6px;
     padding: 12px 0;
@@ -1817,7 +1817,7 @@ p.atten-main-heading {
 
 button.form-submit {
     width: 100%;
-    background: var(--accent-color);
+    background: var(--primary-color);
     border: 0;
     border-radius: 6px;
     padding: 18px 0;
@@ -2502,14 +2502,14 @@ p.file-size {
 
 button.btn-next-pre-toggle:hover {
     width: 100%;
-    background: var(--accent-color);
+    background: var(--primary-color);
     border-radius: 6px;
     padding: 6px 0;
     color: var(--color-white);
     font-family: var(--museo-sans);
     font-size: var(--text-size);
     margin-top: 15px;
-    border: 1px solid var(--accent-color);
+    border: 1px solid var(--primary-color);
 }
 
 button.btn-next-previous {
@@ -2518,16 +2518,16 @@ button.btn-next-previous {
     border: 0;
     border-radius: 6px;
     padding: 6px 0;
-    color: var(--accent-color);
+    color: var(--primary-color);
     font-family: var(--museo-sans);
     font-size: var(--text-size);
     margin-top: 15px;
-    border: 1px solid var(--accent-color);
+    border: 1px solid var(--primary-color);
 }
 
 button.btn-job-post {
     width: 100%;
-    background: var(--accent-color);
+    background: var(--primary-color);
     border: 0;
     border-radius: 6px;
     padding: 6px 0;
@@ -2535,7 +2535,7 @@ button.btn-job-post {
     font-family: var(--museo-sans);
     font-size: var(--text-size);
     margin-top: 15px;
-    border: 1px solid var(--accent-color);
+    border: 1px solid var(--primary-color);
 }
 
 
@@ -2931,7 +2931,7 @@ section.f-dream.job {
 }
 
 .filter-serach-btn {
-    max-width: 85%;
+    max-width: 90%;
     width: 100%;
     margin: 50px auto;
     display: flex;
@@ -3361,9 +3361,9 @@ button.apply-j-btn {
     max-width: 100%;
     width: 100%;
     padding: 15px 0;
-    background: var(--accent-color);
+    background: var(--primary-color);
     margin-bottom: 25px;
-    border: 1px solid var(--accent-color);
+    border: 1px solid var(--primary-color);
     color: var(--color-white);
     border-radius: 4px;
     font-size: var(--body-text);
@@ -4127,10 +4127,11 @@ ul.list-job-title-year-job li:hover {
     align-items: center;
 }
 
-.text-filter-icon img {
+
+/* .text-filter-icon img {
     width: 18px;
     height: 14px;
-}
+} */
 
 .text-filter-icon p {
     color: var(--text-color);
@@ -4591,7 +4592,7 @@ p.candidate-name {
 }
 
 p.candidate-name {
-    color: var(--accent-color);
+    color: var(--primary-color);
     font-size: var(--body-text);
     font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
@@ -4599,7 +4600,7 @@ p.candidate-name {
 }
 
 p.candidate-wishlist {
-    color: var(--accent-color);
+    color: var(--primary-color);
     font-size: var(--body-text);
     font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
@@ -5945,10 +5946,11 @@ a.anchor-cards-job {
     align-items: center;
 }
 
-.text-filter-icon-table img {
+
+/* .text-filter-icon-table img {
     width: 18px;
     height: 14px;
-}
+} */
 
 .text-filter-icon-table p {
     color: var(--text-color);
@@ -6829,7 +6831,7 @@ td.name-box-hvr {
 /*************favourites job page ***********/
 
 .employee-list-btn button {
-    background: var(--accent-color);
+    background: var(--primary-color);
     color: var(--color-white);
     padding: 10px 50px;
     text-align: center;
@@ -7662,6 +7664,15 @@ button.form-submit-job-model {
 }
 
 
+/****************1440px whislist page css ************/
+
+.job-title h3 {
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 0px;
+    max-width: 100%;
+}
+
+
 /*************responsivness start here ***********/
 
 @media only screen and (max-width: 1200px) {
@@ -7971,10 +7982,6 @@ button.form-submit-job-model {
         width: 100%;
         padding-right: 0;
     }
-    /* .job-fillter-company {
-        max-width: 18%;
-        width: 100%;
-    } */
     .job-type-f,
     .job-keywords {
         padding-right: 15px;
@@ -8004,6 +8011,10 @@ button.form-submit-job-model {
     .popup-bg-iframe {
         width: 90%;
         margin: 0 auto;
+    }
+    a.anchor-cards-job {
+        max-width: 46%;
+        width: 100%;
     }
 }
 
@@ -8371,12 +8382,14 @@ button.form-submit-job-model {
     .find-job-btn-candidate-dashbord {
         display: none;
     }
-    .job-recommend-applied,
-    .employee-job-dasboard {
+    .job-recommend-applied {
         flex-direction: column;
     }
+    .employee-job-dasboard {
+        flex-direction: inherit;
+    }
     a.card-link-box {
-        max-width: 75%;
+        max-width: 100%;
         width: 100%;
         margin: 0 auto;
     }
@@ -9303,9 +9316,17 @@ max-width: 78%;
     .find-job-btn-candidate-dashbord {
         display: none;
     }
-    .job-recommend-applied,
-    .employee-job-dasboard {
+    .job-recommend-applied {
         flex-direction: column;
+        max-width: 100%;
+        width: 100%;
+    }
+    .employee-job-dasboard {
+        flex-direction: inherit;
+        max-width: 100%;
+        width: 100%;
+    }
+    a.anchor-cards-job {
         max-width: 100%;
         width: 100%;
     }
