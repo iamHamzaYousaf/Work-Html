@@ -2331,7 +2331,7 @@ button.yes-btn {
 p.popup-text-model-img {
     text-align: center;
     font-size: 28px;
-    color: var(--primary-color);
+    color: var(--text-color);
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
 }
@@ -2346,6 +2346,10 @@ p.img-info-model {
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
     text-align: center;
+}
+
+.user-input-file {
+    padding-top: 15px;
 }
 
 .user-input-file input {
@@ -2364,6 +2368,7 @@ p.img-info-model {
     gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 15px;
 }
 
 .upload-img-btn {
@@ -8494,6 +8499,10 @@ button.form-submit-job-model {
     .candidate-call {
         max-width: 15%;
     }
+    /******* image model css****/
+    p.popup-text-model-img {
+        font-size: 18px;
+    }
 }
 
 
@@ -8893,7 +8902,8 @@ button.form-submit-job-model {
         padding: 12px 8px;
     }
     /************* popup model mobile*************/
-    .popup-content {
+    .popup-content,
+    .popup-content-modelimage {
         width: 90%;
         padding: 20px 15px 20px;
     }
@@ -8919,6 +8929,9 @@ button.form-submit-job-model {
     }
     .send-correct {
         padding: 15px 0;
+    }
+    p.popup-text-model-img {
+        font-size: 18px;
     }
     /****************progress bar css  for mobile*************/
     ul.progressbar-steps {
