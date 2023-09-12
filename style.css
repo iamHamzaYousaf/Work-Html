@@ -2311,8 +2311,13 @@ button.yes-btn {
     max-width: 100%;
 }
 
-.popup-content-modelimage {
+.upload-image-model-popup-bg {
     width: 60%;
+    margin: 0 auto;
+}
+
+.popup-content-modelimage {
+    width: 100%;
     height: 50%;
     margin: 50px auto 0;
     background: #fff;
@@ -2376,6 +2381,18 @@ p.img-info-model {
     justify-content: center;
     gap: 20px;
     padding-top: 20px;
+}
+
+p.error-msg-model {
+    color: var(--error-msg-color);
+    font-size: var(--button-text);
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+    text-align: center;
+}
+
+.upload-image-model-form {
+    padding-top: 50px;
 }
 
 button.logo-upload-btn {
@@ -7450,6 +7467,61 @@ button.form-submit-job-model {
     padding: 0 60px;
 }
 
+.col-2-banner {
+    padding: 0px 20px 0 20px;
+}
+
+.col-2-banner p.banner-text {
+    color: #BDBDBD;
+    font-size: var(--body-text);
+    font-weight: var(--font-weight-medium);
+    padding: 20px 0px;
+}
+
+.card-text {
+    font-size: var(--promoted-btn);
+    color: var(--text-color);
+    font-weight: 300;
+    line-height: 27px;
+    padding: 20px 0px;
+    opacity: 0.8;
+}
+
+.button-stack button {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background: var(--accent-color);
+    padding: 12px 30px;
+    width: 60%;
+    margin-top: 10px;
+    border: 0px;
+    border-radius: 6px;
+    color: var(--color-white);
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+    font-size: 22px;
+}
+
+.col-2-banner h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+.ensure-heading {
+    width: 34%;
+    margin: 0 auto;
+}
+
+.ensure-heading h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+
 .featured-sec {
     padding: 100px 0px 75px 0;
 }
@@ -7477,15 +7549,6 @@ button.form-submit-job-model {
     height: 300px;
 }
 
-.card-text {
-    font-size: var(--body-text);
-    color: var(--text-color);
-    font-weight: 300;
-    line-height: 27px;
-    padding: 20px 0px;
-    opacity: 0.8;
-}
-
 .sucess-featured-sec {
     background: none;
     margin-top: 100px;
@@ -7501,6 +7564,20 @@ button.form-submit-job-model {
 .sucess-featured-img {
     width: 100%;
     max-width: 40%;
+}
+
+.sucess-featured-info h3 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.first-col-content p {
+    font-size: var(--body-text);
+    color: var(--text-color);
+    font-weight: 300;
+    line-height: 36px;
+    padding: 20px 0px;
+    opacity: 0.8;
 }
 
 .sucess-featured-info {
@@ -7530,6 +7607,13 @@ button.form-submit-job-model {
 
 .job-sec-wrape {
     margin: 0 80px;
+}
+
+.job-heading h2 {
+    text-align: center;
+    font-weight: var(--font-weight-bold);
+    padding-bottom: 35px;
+    font-size: 36px;
 }
 
 .Job-Opportunities-row {
@@ -7584,6 +7668,12 @@ button.form-submit-job-model {
     max-width: 100%;
 }
 
+.countries-work-heading h2 {
+    text-align: center;
+    font-weight: var(--font-weight-bold);
+    font-size: 36px;
+}
+
 .countries-work {
     padding: 0px 0px 100px;
 }
@@ -7616,15 +7706,109 @@ button.form-submit-job-model {
     margin: 0 80px;
 }
 
+.world-conect-row p {
+    font-size: 36px;
+}
+
+h4.team-remote,
+h4.contect-readt-start {
+    font-size: 45px;
+}
+
 
 /****************1440px company details page css ************/
+
+.company-detail-heading h2 {
+    font-size: 36px;
+}
 
 .space-inner-row {
     padding: 0 20px;
 }
 
+.company-content-right p {
+    font-size: var(--promoted-btn);
+}
+
 
 /****************1440px job details page css ************/
+
+.f-job-heaading h2 {
+    text-align: center;
+    font-weight: var(--font-weight-bold);
+    font-size: 36px;
+    text-transform: capitalize;
+}
+
+.job-search-tag-heading h2 {
+    text-align: center;
+    font-weight: var(--font-weight-bold);
+    font-size: 36px;
+    text-transform: capitalize;
+}
+
+p.company-job-title {
+    font-size: var(--text-size);
+    color: var(--primary-color);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+}
+
+p.j-sub-title {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    font-size: var(--body-text);
+    color: var(--text-color);
+    opacity: 0.8;
+    padding-top: 24px;
+}
+
+p.j-c-salary {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    font-size: var(--body-text);
+    color: rgb(0 0 0 / 80%);
+    opacity: 1;
+}
+
+button.fav-j-btn,
+button.apply-j-btn {
+    font-size: var(--promoted-btn);
+}
+
+.job-heading-detail-sec h5 {
+    font-size: var(--text-size);
+}
+
+p.job-discription-com-j {
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    line-height: 30px;
+}
+
+ul.job-details-list li {
+    color: rgb(0 0 0 / 80%);
+    font-size: var(--promoted-btn);
+    line-height: 38px;
+}
+
+ul.job-location-list li,
+p.j-l-text {
+    font-size: var(--promoted-btn);
+}
+
+.recruite-note-box h5 {
+    font-size: var(--text-size);
+}
+
+p.job-discription-com-j-recruite {
+    font-size: var(--promoted-btn);
+}
+
+.job-location-title p,
+p.company-j-info-l {
+    font-size: 22px;
+}
 
 .icon-text-job-requre {
     display: flex;
@@ -7634,6 +7818,10 @@ button.form-submit-job-model {
 
 .space-inner-row {
     padding: 0 20px;
+}
+
+.smilar-job-heading h2 {
+    padding-bottom: 0;
 }
 
 
@@ -7764,10 +7952,22 @@ button.form-submit-job-model {
 
 /****************1440px whislist page css ************/
 
+.job-heading-wishlist h2 {
+    font-size: 36px;
+}
+
 .job-title h3 {
     font-weight: var(--font-weight-bold);
     margin-bottom: 0px;
     max-width: 100%;
+}
+
+.job-wishlist-btn button {
+    margin-top: 24px;
+}
+
+.whishlist-btn button {
+    margin-bottom: 24px;
 }
 
 
@@ -8653,6 +8853,10 @@ button.form-submit-job-model {
         margin: 0 0 0 auto;
         display: block;
     }
+    .image-heading h3,
+    .sucess-featured-info h3 {
+        font-size: 20px;
+    }
     .sucess-featured-info a {
         text-decoration: none;
     }
@@ -8717,7 +8921,7 @@ button.form-submit-job-model {
         justify-content: center;
     }
     .countries-work-location figure {
-        max-width: 47%;
+        max-width: 44%;
         width: 100%;
     }
     .countries-work-location figcaption {
@@ -8731,11 +8935,9 @@ button.form-submit-job-model {
         max-width: 100%;
         width: 100%;
     }
-    h4.team-remote {
-        font-size: 30px;
-        text-align: center;
-    }
+    h4.team-remote,
     h4.contect-readt-start {
+        font-size: 30px;
         text-align: center;
     }
     .contact-sec {
