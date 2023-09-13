@@ -38,7 +38,7 @@
 
 @font-face {
     font-family: 'Fira Sans';
-    src: url('FiraSans-Bold.woff2') format('woff2'), url('FiraSans-Bold.woff') format('woff'), url('FiraSans-Bold.ttf') format('truetype');
+    src: url('fonts/FiraSans-Bold.woff2') format('woff2'), url('fonts/FiraSans-Bold.woff') format('woff');
     font-weight: bold;
 }
 
@@ -911,9 +911,10 @@ p.job-discription {
     font-weight: var(--font-weight-medium);
 }
 
-.btn-size button {
+
+/* .btn-size button {
     width: 100%;
-}
+} */
 
 .job-announcements-col a {
     text-decoration: none;
@@ -7460,6 +7461,9 @@ button.form-submit-job-model {
 
 /****************1440px home page css ************/
 
+
+/*****banner start******/
+
 .banner-row {
     display: flex;
     justify-content: space-between;
@@ -7477,6 +7481,9 @@ button.form-submit-job-model {
     font-weight: var(--font-weight-medium);
     padding: 20px 0px;
 }
+
+
+/**** company card*****/
 
 .card-text {
     font-size: var(--promoted-btn);
@@ -7508,10 +7515,14 @@ button.form-submit-job-model {
     text-transform: uppercase;
     color: var(--text-color);
     font-weight: 700;
+    font-family: var(fi);
 }
 
+
+/********* juast one heading*****/
+
 .ensure-heading {
-    width: 34%;
+    width: 40%;
     margin: 0 auto;
 }
 
@@ -7521,6 +7532,9 @@ button.form-submit-job-model {
     font-size: 36px;
     text-transform: capitalize;
 }
+
+
+/********* images text start here******/
 
 .featured-sec {
     padding: 100px 0px 75px 0;
@@ -7605,6 +7619,9 @@ button.form-submit-job-model {
     padding: 0 80px;
 }
 
+
+/******New Job Opportunities*******/
+
 .job-sec-wrape {
     margin: 0 80px;
 }
@@ -7668,6 +7685,9 @@ button.form-submit-job-model {
     max-width: 100%;
 }
 
+
+/**** countries with we work*******/
+
 .countries-work-heading h2 {
     text-align: center;
     font-weight: var(--font-weight-bold);
@@ -7699,6 +7719,9 @@ button.form-submit-job-model {
 .contact-sec {
     padding: 0px;
 }
+
+
+/**********last sec get ready contact****/
 
 .ready-start-row {
     display: flex;
@@ -7732,6 +7755,20 @@ h4.contect-readt-start {
 
 
 /****************1440px job details page css ************/
+
+
+/******tages*********/
+
+ul.find-job-tag li {
+    background: var(--secondary-color);
+    padding: 8px;
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+    border-radius: 6px;
+    border: 1px solid #F2F7FF;
+}
 
 .f-job-heaading h2 {
     text-align: center;
@@ -7783,7 +7820,7 @@ button.apply-j-btn {
 p.job-discription-com-j {
     color: var(--text-color);
     font-size: var(--promoted-btn);
-    line-height: 30px;
+    line-height: 38px;
 }
 
 ul.job-details-list li {
@@ -7936,6 +7973,15 @@ p.company-j-info-l {
 
 /****************1440px login form page page css ************/
 
+.candidate-signin h2 {
+    font-size: 32px;
+}
+
+.candidate-from-submit input[type="submit"],
+button.password-btn {
+    font-size: var(--promoted-btn);
+}
+
 .candidate-login-row {
     display: flex;
     align-items: center;
@@ -7947,6 +7993,13 @@ p.company-j-info-l {
     text-align: center;
     margin-bottom: 30px;
     font-weight: var(--font-weight-bold);
+}
+
+
+/**********1440px sign up all form ***********/
+
+.candidate-signup h2 {
+    font-size: 36px;
 }
 
 
@@ -7968,6 +8021,148 @@ p.company-j-info-l {
 
 .whishlist-btn button {
     margin-bottom: 24px;
+}
+
+
+/************ 1440 candiadte dashbord pages css ********/
+
+.candidate-name-img img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.job-applied-col.job-candidate-cards img {
+    display: block;
+    margin: 0 0 0 auto;
+    padding-bottom: 20px;
+}
+
+a.card-link-box-1 {
+    background: url('./image/candiate-card-1.jpeg');
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 20px 15px;
+    max-width: 50%;
+    background-size: cover;
+    border: 0;
+    background-position: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+a.card-link-box-2 {
+    background: url('./image/candiate-card-2.jpeg');
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 20px 15px;
+    max-width: 50%;
+    background-size: cover;
+    border: 0;
+    background-position: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+p.job-applied-candidate-dashboard {
+    color: var(--primary-color);
+    font-size: 60px;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    text-align: center;
+}
+
+
+/************ 1440px employee dashbord css *********/
+
+.employee-job-dasboard {
+    gap: 50px;
+    padding: 125px 0 100px 0;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: [col1-start] 300px [col2-start] 300px [col3-start] 300px [col3-end];
+    grid-template-rows: [row1-start] 200px [row2-start] 200px [row2-end];
+    justify-content: center;
+}
+
+.job-employee-cards img {
+    display: block;
+    margin: 0px 0 0 auto;
+    padding-bottom: 0;
+}
+
+.anchor-cards-job-1 {
+    background: url('./image/employee-card-1.jpeg');
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 20px 15px;
+    max-width: 100%;
+    background-size: cover;
+    border: 0;
+    background-position: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+.anchor-cards-job-4 {
+    background: url('./image/employee-card-4.jpeg');
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 20px 15px;
+    max-width: 100%;
+    background-size: cover;
+    border: 0;
+    background-position: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+.anchor-cards-job-2 {
+    background: url('./image/employee-card-2.jpeg');
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 20px 15px;
+    max-width: 100%;
+    background-size: cover;
+    border: 0;
+    background-position: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+.anchor-cards-job-3 {
+    background: url('./image/employee-card-3.jpeg');
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 20px 15px;
+    max-width: 100%;
+    background-size: cover;
+    border: 0;
+    background-position: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+.card-1 {
+    grid-column: col1-start;
+    grid-row: row1-start / row2-end;
+}
+
+.card-2 {
+    grid-column: col2-start;
+    grid-row: row1-start;
+}
+
+.card-3 {
+    grid-column: col3-start;
+    grid-row: row1-start;
+}
+
+.card-4 {
+    grid-column: col2-start / col3-end;
+    grid-row: row2-start;
 }
 
 
@@ -8682,6 +8877,10 @@ p.company-j-info-l {
     }
     .job-recommend-applied {
         flex-direction: column;
+    }
+    a.card-link-box-1,
+    a.card-link-box-2 {
+        max-width: 100%;
     }
     .employee-job-dasboard {
         flex-direction: inherit;
@@ -9628,6 +9827,10 @@ max-width: 78%;
         flex-direction: column;
         max-width: 100%;
         width: 100%;
+    }
+    a.card-link-box-1,
+    a.card-link-box-2 {
+        max-width: 100%;
     }
     .employee-job-dasboard {
         flex-direction: inherit;
