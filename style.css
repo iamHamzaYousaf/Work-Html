@@ -4250,7 +4250,7 @@ ul.list-job-title-year-job li:hover {
 } */
 
 .text-filter-icon p {
-    color: var(--text-color);
+    color: #000000cc;
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
 }
