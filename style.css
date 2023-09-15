@@ -233,7 +233,7 @@ html {
     border-radius: 4px;
     cursor: pointer;
     font-family: var(--museo-sans);
-    font-size: 22px;
+    font-size: var(--body-text);
     font-weight: 500;
 }
 
@@ -245,7 +245,7 @@ button.login-header {
     border: 1px solid var(--primary-color);
     cursor: pointer;
     font-family: var(--museo-sans);
-    font-size: 22px;
+    font-size: var(--body-text);
     font-weight: 500;
 }
 
@@ -7582,7 +7582,7 @@ button.form-submit-job-model {
 }
 
 .sucess-featured.alt {
-    background: linear-gradient(90deg, #f2f7ff99 75%, #FFFFFF 40%);
+    background: linear-gradient(90deg, #f2f7ff99 75%, #FBFBFB 40%);
     padding: 50px 0px;
     margin: 0 80px;
 }
@@ -7622,7 +7622,7 @@ button.form-submit-job-model {
 }
 
 .sucess-featured {
-    background: linear-gradient(90deg, #FFFFFF 20%, #f2f7ff99 80%);
+    background: linear-gradient(90deg, #FBFBFB 20%, #f2f7ff99 80%);
     padding: 50px 0px;
     margin: 0 80px;
 }
@@ -8803,12 +8803,37 @@ p.job-applied-candidate-dashboard {
 /******tablet*********/
 
 @media only screen and (max-width:859px) and (min-width:768px) {
+    /******header******/
+    .row-log {
+        align-items: center;
+    }
+    .find-job-btn button {
+        padding: 8px 20px;
+    }
+    button.login-header,
+    .col-two-button button {
+        padding: 8px 20px;
+    }
+    .col-1-banner,
+    .col-3-banner {
+        max-width: 25%;
+        width: 100%;
+    }
+    .col-2-banner {
+        max-width: 50%;
+        width: 100%;
+        padding: 0 20px;
+    }
+    .col-2-banner h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
     /***** home page feature sec ********/
     .sucess-featured.alt {
-        background: linear-gradient(90deg, #f2f7ff99 100%, #FFFFFF 40%);
+        background: linear-gradient(90deg, #f2f7ff99 100%, #FBFBFB 40%);
     }
     .sucess-featured {
-        background: linear-gradient(90deg, #FFFFFF 0%, #f2f7ff99 100%);
+        background: linear-gradient(90deg, #FBFBFB 0%, #f2f7ff99 100%);
     }
     .button-stack button {
         width: 100%;
