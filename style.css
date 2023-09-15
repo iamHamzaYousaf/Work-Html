@@ -7631,8 +7631,42 @@ button.form-submit-job-model {
     padding: 0 80px;
 }
 
+.first-col-content p {
+    font-size: var(--body-text);
+    color: var(--text-color);
+    font-weight: 300;
+    line-height: 36px;
+    padding: 40px 0px;
+    opacity: 0.8;
+}
+
 
 /******New Job Opportunities*******/
+
+p.job-discription {
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    font-weight: 300;
+    opacity: 0.8;
+    font-family: var(--museo-sans);
+    padding: 15px 0 36px 0;
+    text-align: justify;
+    line-height: 31px;
+}
+
+.job-time p {
+    color: rgb(0 0 0 / 80%);
+    font-size: var(--promoted-btn);
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+}
+
+.job-location p {
+    color: rgb(0 0 0 / 80%);
+    font-size: var(--promoted-btn);
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+}
 
 .job-sec-wrape {
     margin: 0 80px;
@@ -7750,8 +7784,19 @@ button.form-submit-job-model {
 }
 
 .contact-btn button {
-    padding: 18px 30px;
+    padding: 18px 20px;
     margin-top: 0px;
+}
+
+.contact-btn a>button:after {
+    content: " ";
+    background-image: url(./image/call.png);
+    width: 40px;
+    height: 35px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-left: 40px;
 }
 
 h4.team-remote,
@@ -8379,6 +8424,9 @@ p.job-applied-candidate-dashboard {
     .button-stack button {
         width: 100%;
         padding: 14px;
+    }
+    .job-col-right {
+        height: auto;
     }
 }
 
