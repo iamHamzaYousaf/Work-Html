@@ -12,562 +12,571 @@
 </head>
 
 <body>
-
-    <header>
-        <div class="container-site">
-            <div class="row-log">
-                <div class="logo-col">
-                    <a href="../index.html"><img src="../image/WORKBRIDGE.png" alt="logo"></a>
-                </div>
-                <div class="col-two-button">
-                    <div class="find-job-btn">
-                        <a href="job-search.html"><button>Find a Job</button></a>
+    <div class="all-page-bg-clr">
+        <header>
+            <div class="container-site">
+                <div class="row-log">
+                    <div class="logo-col">
+                        <a href="index.html"><img src="../image/WORKBRIDGE.png" alt="logo"></a>
                     </div>
-                    <div class="menu-items">
-                        <p><a href="#">Login </a></p>
-                        <a href="#"><button>Sign Up</button></a>
+                    <div class="col-two-button">
+                        <div class="find-job-btn">
+                            <a href="job/job-search.html"><button>Find a Job</button></a>
+                        </div>
+                        <div class="menu-items">
+                            <p><a href="#"><button class="login-header">Login </button></a></p>
+                            <a href="#"><button>Sign Up</button></a>
+                        </div>
+                        <div class="toggleBtn"><img src="./image/toogle-btn.png" alt="toggleBtn"></div>
                     </div>
-                    <div class="toggleBtn"><img src="../image/toogle-btn.png" alt="toggleBtn"></div>
                 </div>
             </div>
+        </header>
+        <!---------- find a job section start here-->
+        <section class="f-dream job">
+            <div class="container-site">
+                <div class="space-inner-row">
+                    <div class="f-job-heaading">
+                        <h2>Find your dream job</h2>
+                    </div>
+                    <div class="filter-serach-btn">
+                        <div class="job-fillter-f">
+                            <div class="three-filter-inline">
+                                <div class="job-keywords">
+                                    <img src="../image/job-search.png" alt="">
+                                    <input type="text" name="" id="job-search-field" placeholder="Key words, company, skills...">
+                                </div>
+                                <div class="job-type-f">
+                                    <div id="dropdown-boxId1" class="company-form-dropdownBox" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Job Type</div>
+                                    <div id="company-dropList1" class="dropdown-menu company-drop-list">
+                                        <ul>
+                                            <li>Mobile App </li>
+                                            <li>Website Developer</li>
+                                            <li>Social Media</li>
+                                            <li>Mobile App Developer</li>
 
-        </div>
-    </header>
-    <!---------- find a job section start here-->
-    <section class="f-dream job">
-        <div class="container-site">
-            <div class="space-inner-row">
-                <div class="f-job-heaading">
-                    <h2>Find your dream job</h2>
-                </div>
-                <div class="filter-serach-btn">
-                    <div class="job-fillter-f">
-                        <div class="three-filter-inline">
-                            <div class="job-keywords">
-                                <img src="../image/job-search.png" alt="">
-                                <input type="text" name="" id="job-search-field" placeholder="Key words, company, skills...">
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="job-location-f">
+                                    <img src="../image/job-location.png" alt="">
+                                    <input type="tel" name="" id="job-location-field" placeholder="Job Location">
+                                </div>
                             </div>
-                            <div class="job-type-f">
-                                <div id="dropdown-boxId1" class="company-form-dropdownBox" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Job Type</div>
-                                <div id="company-dropList1" class="dropdown-menu company-drop-list">
+                            <div class="job-post-date">
+                                <div id="dropdown-boxId2" class="company-form-dropdownBox" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Date Posted</div>
+                                <div id="company-dropList2" class="dropdown-menu company-drop-list">
                                     <ul>
-                                        <li>Mobile App </li>
-                                        <li>Website Developer</li>
-                                        <li>Social Media</li>
-                                        <li>Mobile App Developer</li>
+                                        <li>Today</li>
+                                        <li>Last 7 Days</li>
+                                        <li>Last 14 Days</li>
+                                        <li>This Month</li>
 
                                     </ul>
                                 </div>
                             </div>
-
-                            <div class="job-location-f">
-                                <img src="../image/job-location.png" alt="">
-                                <input type="tel" name="" id="job-location-field" placeholder="Job Location">
-                            </div>
                         </div>
-                        <div class="job-post-date">
-                            <div id="dropdown-boxId2" class="company-form-dropdownBox" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Date Posted</div>
-                            <div id="company-dropList2" class="dropdown-menu company-drop-list">
-                                <ul>
-                                    <li>Today</li>
-                                    <li>Last 7 Days</li>
-                                    <li>Last 14 Days</li>
-                                    <li>This Month</li>
-
-                                </ul>
-                            </div>
+                        <div class="job-filter-btn">
+                            <a href="#"><button>Find a Job</button></a>
+                            <p class="clear-filter">Clear All Filters</p>
                         </div>
-                    </div>
-                    <div class="job-filter-btn">
-                        <a href="#"><button>Find a Job</button></a>
-                        <p class="clear-filter">Clear All Filters</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-------------most job serch-->
-    <section class="job-search-sec">
-        <div class="container-site">
-            <div class="job-search-tag-heading">
-                <h2>Most Search Jobs</h2>
+        </section>
+        <!-------------most job serch-->
+        <section class="job-search-sec">
+            <div class="container-site">
+                <div class="job-search-tag-heading">
+                    <h2>Most Search Jobs</h2>
+                </div>
+                <div class="most-job-search-tag">
+                    <ul class="find-job-tag">
+                        <li>Software engineer</li>
+                        <li>Work From Home</li>
+                        <li>Artificial Intelligence</li>
+                        <li>Hybrid</li>
+                        <li>Mobile App Developer</li>
+                        <li>UI/UX Designer</li>
+                        <li>Manager Jobs</li>
+                        <li>Health jobs</li>
+                        <li>Freshers</li>
+                        <li>Data Entry</li>
+                    </ul>
+                </div>
             </div>
-            <div class="most-job-search-tag">
-                <ul class="find-job-tag">
-                    <li>Software engineer</li>
-                    <li>Work From Home</li>
-                    <li>Artificial Intelligence</li>
-                    <li>Hybrid</li>
-                    <li>Mobile App Developer</li>
-                    <li>UI/UX Designer</li>
-                    <li>Manager Jobs</li>
-                    <li>Health jobs</li>
-                    <li>Freshers</li>
-                    <li>Data Entry</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!--------- job title show-->
-    <section class="job-details-sec">
-        <div class="container-site">
-            <div class="space-inner-row">
-                <div class="j-compny-btn">
-                    <div class="j-company-logo">
-                        <img src="../image/amazaon.png" alt="">
-                    </div>
-                    <div class="j-company-dev">
-                        <p class="company-job-title">Senior Full Stack Developer(Java & Angular)</p>
-                        <p class="j-sub-title">Amazon Web Service</p>
-                        <div class="icon-text-job-requre">
-                            <img src="../image/j-salary.png" alt="">
-                            <p class="j-c-salary">Salary $40,000.00 - $80,000.00 <span>/year</span></p>
+        </section>
+        <!--------- job title show-->
+        <section class="job-details-sec">
+            <div class="container-site">
+                <div class="space-inner-row">
+                    <div class="j-compny-btn">
+                        <div class="j-company-logo">
+                            <img src="../image/amazaon.png" alt="">
                         </div>
-                        <div class="icon-text-job-requre">
-                            <img src="../image/company-eployee.png" alt="">
-                            <p class="j-c-salary">Employees 1,001 - 5,000</p>
-                        </div>
-                        <!-- <div class="icon-text-job-requre">
+                        <div class="j-company-dev">
+                            <p class="company-job-title">Senior Full Stack Developer(Java & Angular)</p>
+                            <p class="j-sub-title">Amazon Web Service</p>
+                            <div class="icon-text-job-requre">
+                                <img src="../image/j-salary.png" alt="">
+                                <p class="j-c-salary">Salary $40,000.00 - $80,000.00 <span>/year</span></p>
+                            </div>
+                            <div class="icon-text-job-requre">
+                                <img src="../image/company-eployee.png" alt="">
+                                <p class="j-c-salary">Employees 1,001 - 5,000</p>
+                            </div>
+                            <!-- <div class="icon-text-job-requre">
                         <img src="../image/j-timing.png" alt="">
                         <p class="j-c-salary">Full Time - Remote <span> . 21 Days ago</span></p>
                     </div> -->
-                        <div class="icon-text-job-requre">
-                            <img src="../image/j-timing.png" alt="">
-                            <div class="job-find-list">
-                                <p class="j-c-salary">Full Time - Remote</p>
-                                <ul>
-                                    <li>21 Days ago</li>
+                            <div class="icon-text-job-requre">
+                                <img src="../image/j-timing.png" alt="">
+                                <div class="job-find-list">
+                                    <p class="j-c-salary">Full Time - Remote</p>
+                                    <ul>
+                                        <li>21 Days ago</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="j-company-btn-apply">
+                            <div class="tow-btn-j-com">
+                                <button class="apply-j-btn"><img src="../image/apply-j.png" alt="">Apply Now</button>
+                                <button class="fav-j-btn"><img src="../image/company-j-f.png" alt="">Add Job To Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------------joib result-->
+        <section class="job-description-sec">
+            <div class="container-site">
+                <div class="space-inner-row">
+                    <div class="Job-Opportunities-row-company">
+                        <div class="job-company-details">
+                            <div class="job-heading-detail-sec">
+                                <h5>Job Summary</h5>
+                                <p class="job-discription-com-j">As a React.js developer, you will implement new features and maintain existing code using React and other standard tools in the React ecosystem, such as Node.js and Yarn. Your duties will include designing software solutions
+                                    to meet project requirements, maintaining and refactoring existing code, writing tests, and fixing bugs.</p>
+                            </div>
+                            <div class="job-heading-detail-sec">
+                                <h5>Responsibilities</h5>
+                                <ul class="job-details-list">
+                                    <li>Design and develop new features and upgrades supporting a range of Identity and Access Management applications for deployment</li>
+                                    <li>Translate software requirements into programming code through to usable applications</li>
+                                    <li>Design and select appropriate solutions</li>
+                                    <li>Write and implement efficient code, identifying any risks and issues escalating when necessary to leadership on a timely basis</li>
+                                    <li>Evaluate impact and support the testing, productization, and release processes</li>
+                                    <li>Investigate defects, logging details, and following defects through their resolution lifecycle</li>
+                                    <li>Track development tasks in the application lifecycle management tool and provide relevant reporting when needed</li>
+                                    <li>Perform code reviews and walkthroughs of system design and developed code</li>
                                 </ul>
                             </div>
+                            <div class="job-heading-detail-sec">
+                                <h5>Skills</h5>
+                                <ul class="job-details-list">
+                                    <li>Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model</li>
+                                    <li>Thorough understanding of React.js and its core principles</li>
+                                    <li>Experience with popular React.js workflows (such as Flux or Redux)</li>
+                                    <li>Familiarity with newer specifications of EcmaScript</li>
+                                    <li>Experience with data structure libraries (e.g., Immutable.js)</li>
+                                    <li>Knowledge of isomorphic React is a plus</li>
+                                    <li>Familiarity with RESTful APIs</li>
+                                    <li>Knowledge of modern authorization mechanisms, such as JSON Web Token</li>
+                                    <li>Familiarity with modern front-end build pipelines and tools</li>
+                                    <li>Experience with common front-end development tools such as Babel, Webpack, NPM, etc.</li>
+                                    <li>Ability to understand business requirements and translate them into technical requirements</li>
+                                    <li>A knack for benchmarking and optimization</li>
+                                    <li>Familiarity with code versioning tools (such as Git, SVN, and Mercurial)</li>
+                                </ul>
+                            </div>
+                            <div class="job-heading-detail-sec">
+                                <h5>Benefits</h5>
+                                <ul class="job-details-list">
+                                    <li>Competitive salary and comprehensive benefits package</li>
+                                    <li>Opportunities for career growth and advancement</li>
+                                    <li>Collaborative and dynamic work environment</li>
+                                    <li>Work from anywhere around the world</li>
+                                    <li>Professional development and training opportunities</li>
+                                </ul>
+                            </div>
+                            <div class="job-heading-detail-sec">
+                                <h5>Working Hours</h5>
+                                <ul class="job-details-list">
+                                    <li>Mon - Friday 9 AM - 7 PM EST</li>
+                                    <li>Should be flexible to work on Saturday twice a month.</li>
+                                </ul>
+                            </div>
+                            <div class="recruite-note-box">
+                                <h5>Recruiter Notes</h5>
+                                <p class="job-discription-com-j-recruite">Great role if you’re looking for something stable, and remote. Projects are interesting, team is positive and supportive, a manager who cares about you and your success.Please get in touch with me as soon as possible as
+                                    we’re looking to hire immediately</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="j-company-btn-apply">
-                        <div class="tow-btn-j-com">
-                            <button class="apply-j-btn"><img src="../image/apply-j.png" alt="">Apply Now</button>
-                            <button class="fav-j-btn"><img src="../image/company-j-f.png" alt="">Add Job To Wishlist</button>
+                        <div class="company-job-announcements">
+                            <div class="job-announcements-col">
+                                <div class="job-company-right">
+                                    <div class="job-location-title">
+                                        <p>Job Location </p>
+                                        <ul class="job-location-list">
+                                            <li>Skopje</li>
+                                            <li>Prilep</li>
+                                            <li>Bitola</li>
+                                        </ul>
+                                    </div>
+                                    <div class="company-right-col"></div>
+                                    <div class="j-com-dev-info">
+                                        <p class="company-j-info-l">Industry</p>
+                                        <p class="j-l-text">Government</p>
+                                    </div>
+                                    <div class="company-right-col"></div>
+                                    <div class="j-com-dev-info">
+                                        <p class="company-j-info-l">Reporting To</p>
+                                        <p class="j-l-text">Team Lead</p>
+                                    </div>
+                                    <div class="company-right-col"></div>
+                                    <div class="j-com-dev-info">
+                                        <p class="company-j-info-l">Work Methodology</p>
+                                        <p class="j-l-text">Waterfall & Agile</p>
+                                    </div>
+                                    <div class="company-right-col"></div>
+                                    <div class="j-com-dev-info">
+                                        <p class="company-j-info-l">Must Have Skills</p>
+                                        <ul class="skill-list-j">
+                                            <li>Experience with Identity and Access Management technologies </li>
+                                            <li>5-8 years of experience with Java, knowledge of Angular (front end)</li>
+                                            <li>Strong Programming and Software Development Skills</li>
+                                            <li>Proficiency in Angular</li>
+                                        </ul>
+                                    </div>
+                                    <div class="company-right-col"></div>
+                                    <div class="job-skills-detail-col">
+                                        <button>C++</button>
+                                        <button>C Sharp</button>
+                                        <button>React Js</button>
+                                        <button>C++</button>
+                                        <button>React Js</button>
+                                        <button>Java Developer</button>
+                                        <button>C++</button>
+                                        <button>My SQL</button>
+                                        <button>JSON</button>
+                                        <button>AngularJS</button>
+                                    </div>
+                                    <div class="company-right-col"></div>
+                                    <div class="j-com-dev-info">
+                                        <p class="company-j-info-l">Nice To Have</p>
+                                        <ul class="skill-list-j">
+                                            <li>Experience with Oracle</li>
+                                            <li>Understanding cloud platforms such as Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform</li>
+                                            <li>Experience with Microservices Architecture</li>
+                                            <li>Expertise in Angular, familiarity with other front-end frameworks.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="company-right-col"></div>
+                                    <div class="j-com-dev-info">
+                                        <p class="company-j-info-l">Interview Process</p>
+                                        <ul class="skill-list-j">
+                                            <li>1st TEAM screening with Poly</li>
+                                            <li>2nd TEAM panel interview with Client</li>
+                                            <li>Send Test</li>
+                                            <li>Job Offer</li>
+                                        </ul>
+                                    </div>
+                                    <div class="company-right-col"></div>
+                                    <div class="j-com-dev-info qr-code-img">
+                                        <p class="company-j-info-l ">Share This Job</p>
+                                        <img src="../image/QR.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-------------joib result-->
-    <section class="job-description-sec">
-        <div class="container-site">
-            <div class="space-inner-row">
-                <div class="Job-Opportunities-row-company">
-                    <div class="job-company-details">
-                        <div class="job-heading-detail-sec">
-                            <h5>Job Summary</h5>
-                            <p class="job-discription-com-j">As a React.js developer, you will implement new features and maintain existing code using React and other standard tools in the React ecosystem, such as Node.js and Yarn. Your duties will include designing software solutions
-                                to meet project requirements, maintaining and refactoring existing code, writing tests, and fixing bugs.</p>
+        </section>
+        <!-----------job section-->
+        <section class="new-job">
+            <div class="container-site">
+                <div class="space-inner-row">
+                    <div class="job-search-box-row">
+                        <div class="job-heading smilar-job-heading">
+                            <h2>Similar Jobs</h2>
                         </div>
-                        <div class="job-heading-detail-sec">
-                            <h5>Responsibilities</h5>
-                            <ul class="job-details-list">
-                                <li>Design and develop new features and upgrades supporting a range of Identity and Access Management applications for deployment</li>
-                                <li>Translate software requirements into programming code through to usable applications</li>
-                                <li>Design and select appropriate solutions</li>
-                                <li>Write and implement efficient code, identifying any risks and issues escalating when necessary to leadership on a timely basis</li>
-                                <li>Evaluate impact and support the testing, productization, and release processes</li>
-                                <li>Investigate defects, logging details, and following defects through their resolution lifecycle</li>
-                                <li>Track development tasks in the application lifecycle management tool and provide relevant reporting when needed</li>
-                                <li>Perform code reviews and walkthroughs of system design and developed code</li>
-                            </ul>
-                        </div>
-                        <div class="job-heading-detail-sec">
-                            <h5>Skills</h5>
-                            <ul class="job-details-list">
-                                <li>Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model</li>
-                                <li>Thorough understanding of React.js and its core principles</li>
-                                <li>Experience with popular React.js workflows (such as Flux or Redux)</li>
-                                <li>Familiarity with newer specifications of EcmaScript</li>
-                                <li>Experience with data structure libraries (e.g., Immutable.js)</li>
-                                <li>Knowledge of isomorphic React is a plus</li>
-                                <li>Familiarity with RESTful APIs</li>
-                                <li>Knowledge of modern authorization mechanisms, such as JSON Web Token</li>
-                                <li>Familiarity with modern front-end build pipelines and tools</li>
-                                <li>Experience with common front-end development tools such as Babel, Webpack, NPM, etc.</li>
-                                <li>Ability to understand business requirements and translate them into technical requirements</li>
-                                <li>A knack for benchmarking and optimization</li>
-                                <li>Familiarity with code versioning tools (such as Git, SVN, and Mercurial)</li>
-                            </ul>
-                        </div>
-                        <div class="job-heading-detail-sec">
-                            <h5>Benefits</h5>
-                            <ul class="job-details-list">
-                                <li>Competitive salary and comprehensive benefits package</li>
-                                <li>Opportunities for career growth and advancement</li>
-                                <li>Collaborative and dynamic work environment</li>
-                                <li>Work from anywhere around the world</li>
-                                <li>Professional development and training opportunities</li>
-                            </ul>
-                        </div>
-                        <div class="job-heading-detail-sec">
-                            <h5>Working Hours</h5>
-                            <ul class="job-details-list">
-                                <li>Mon - Friday 9 AM - 7 PM EST</li>
-                                <li>Should be flexible to work on Saturday twice a month.</li>
-                            </ul>
-                        </div>
-                        <div class="recruite-note-box">
-                            <h5>Recruiter Notes</h5>
-                            <p class="job-discription-com-j-recruite">Great role if you’re looking for something stable, and remote. Projects are interesting, team is positive and supportive, a manager who cares about you and your success.Please get in touch with me as soon as possible as we’re
-                                looking to hire immediately</p>
+                        <div class="search-box">
+                            <img src="../image/job-search.png" alt="">
+                            <input type="search" name="" class="form-font-f" id="jon-search-box" placeholder="Search Jobs">
                         </div>
                     </div>
-                    <div class="company-job-announcements">
-                        <div class="job-announcements-col">
-                            <div class="job-company-right">
-                                <div class="job-location-title">
-                                    <p>Job Location </p>
-                                    <ul class="job-location-list">
-                                        <li>Skopje</li>
-                                        <li>Prilep</li>
-                                        <li>Bitola</li>
-                                    </ul>
+                    <div class="divider"></div>
+                    <div class="Job-Opportunities-row">
+                        <div class="job-requriments">
+                            <div class="job-details">
+                                <div class="job-title">
+                                    <a href="#" class="title-job-link promoted-btn-not">
+                                        <h3>React Java Developer</h3>
+                                    </a>
+                                    <!-- <a href="#"><button>Promoted *</button></a> -->
                                 </div>
-                                <div class="company-right-col"></div>
-                                <div class="j-com-dev-info">
-                                    <p class="company-j-info-l">Industry</p>
-                                    <p class="j-l-text">Government</p>
+                                <div class="job-seclude">
+                                    <div class="job-time">
+                                        <p>Salary $1000.00 - $1500.00</p>
+                                    </div>
+                                    <div class="job-time">
+                                        <p>Full Time - On Site</p>
+                                    </div>
                                 </div>
-                                <div class="company-right-col"></div>
-                                <div class="j-com-dev-info">
-                                    <p class="company-j-info-l">Reporting To</p>
-                                    <p class="j-l-text">Team Lead</p>
+                            </div>
+                            <div class="job-info">
+                                <div class="job-services-anchor">
+                                    <a href="#">
+                                        <img src="../image/fitness.png" alt="fitenss">
+                                        <p>Amazon Web Service</p>
+                                    </a>
                                 </div>
-                                <div class="company-right-col"></div>
-                                <div class="j-com-dev-info">
-                                    <p class="company-j-info-l">Work Methodology</p>
-                                    <p class="j-l-text">Waterfall & Agile</p>
-                                </div>
-                                <div class="company-right-col"></div>
-                                <div class="j-com-dev-info">
-                                    <p class="company-j-info-l">Must Have Skills</p>
-                                    <ul class="skill-list-j">
-                                        <li>Experience with Identity and Access Management technologies </li>
-                                        <li>5-8 years of experience with Java, knowledge of Angular (front end)</li>
-                                        <li>Strong Programming and Software Development Skills</li>
-                                        <li>Proficiency in Angular</li>
-                                    </ul>
-                                </div>
-                                <div class="company-right-col"></div>
-                                <div class="job-skills-detail-col">
+                                <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem
+                                    Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                            </div>
+                            <div class="job-skill-location">
+                                <div class="job-skills">
                                     <button>C++</button>
-                                    <button>C Sharp</button>
-                                    <button>React Js</button>
+                                    <button>Java</button>
+                                    <button>Python</button>
+                                    <button>Micro Services</button>
+                                    <button>Angular</button>
+                                </div>
+                                <div class="job-location">
+                                    <p>Location</p>
+                                    <img src="../image/Location.png" alt="Location">
+                                    <p class="job-city">Cities</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="job-announcements">
+                            <div class="job-announcements-col btn-size">
+                                <a href="job/job-details-view.html"><button>View detailed Job Position</button></a>
+                                <div class="job-time-wishlist">
+                                    <div class="job-announcements-status">
+                                        <p>21 Days ago</p>
+                                    </div>
+                                    <div class="job-apply">
+                                        <img src="../image/apply.png" alt="apply">
+                                        <p>Apply now</p>
+                                    </div>
+                                    <div class="job-favorite">
+                                        <img src="../image/favorite.png" alt="favorite">
+                                        <p>Add Job to Wishlist</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="Job-Opportunities-row">
+                        <div class="job-requriments">
+                            <div class="job-details">
+                                <div class="job-title">
+                                    <a href="#" class="title-job-link promoted-btn-not">
+                                        <h3>React Java Developer</h3>
+                                    </a>
+                                    <!-- <a href="#"><button>Promoted *</button></a> -->
+                                </div>
+                                <div class="job-seclude">
+                                    <div class="job-time">
+                                        <p>Salary $1000.00 - $1500.00</p>
+                                    </div>
+                                    <div class="job-time">
+                                        <p>Full Time - On Site</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-info">
+                                <div class="job-services-anchor">
+                                    <a href="#">
+                                        <img src="../image/fitness.png" alt="fitenss">
+                                        <p>Amazon Web Service</p>
+                                    </a>
+                                </div>
+                                <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem
+                                    Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                            </div>
+                            <div class="job-skill-location">
+                                <div class="job-skills">
                                     <button>C++</button>
-                                    <button>React Js</button>
-                                    <button>Java Developer</button>
+                                    <button>Java</button>
+                                    <button>Python</button>
+                                    <button>Micro Services</button>
+                                    <button>Angular</button>
+                                </div>
+                                <div class="job-location">
+                                    <p>Location</p>
+                                    <img src="../image/Location.png" alt="Location">
+                                    <p class="job-city">Cities</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="job-announcements">
+                            <div class="job-announcements-col btn-size">
+                                <a href="job/job-details-view.html"><button>View detailed Job Position</button></a>
+                                <div class="job-time-wishlist">
+                                    <div class="job-announcements-status">
+                                        <p>21 Days ago</p>
+                                    </div>
+                                    <div class="job-apply">
+                                        <img src="../image/apply.png" alt="apply">
+                                        <p>Apply now</p>
+                                    </div>
+                                    <div class="job-favorite">
+                                        <img src="../image/favorite.png" alt="favorite">
+                                        <p>Add Job to Wishlist</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="Job-Opportunities-row">
+                        <div class="job-requriments">
+                            <div class="job-details">
+                                <div class="job-title">
+                                    <a href="#" class="title-job-link promoted-btn-not">
+                                        <h3>React Java Developer</h3>
+                                    </a>
+                                    <!-- <a href="#"><button>Promoted *</button></a> -->
+                                </div>
+                                <div class="job-seclude">
+                                    <div class="job-time">
+                                        <p>Salary $1000.00 - $1500.00</p>
+                                    </div>
+                                    <div class="job-time">
+                                        <p>Full Time - On Site</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-info">
+                                <div class="job-services-anchor">
+                                    <a href="#">
+                                        <img src="../image/fitness.png" alt="fitenss">
+                                        <p>Amazon Web Service</p>
+                                    </a>
+                                </div>
+                                <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem
+                                    Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                            </div>
+                            <div class="job-skill-location">
+                                <div class="job-skills">
                                     <button>C++</button>
-                                    <button>My SQL</button>
-                                    <button>JSON</button>
-                                    <button>AngularJS</button>
+                                    <button>Java</button>
+                                    <button>Python</button>
+                                    <button>Micro Services</button>
+                                    <button>Angular</button>
                                 </div>
-                                <div class="company-right-col"></div>
-                                <div class="j-com-dev-info">
-                                    <p class="company-j-info-l">Nice To Have</p>
-                                    <ul class="skill-list-j">
-                                        <li>Experience with Oracle</li>
-                                        <li>Understanding cloud platforms such as Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform</li>
-                                        <li>Experience with Microservices Architecture</li>
-                                        <li>Expertise in Angular, familiarity with other front-end frameworks.</li>
-                                    </ul>
-                                </div>
-                                <div class="company-right-col"></div>
-                                <div class="j-com-dev-info">
-                                    <p class="company-j-info-l">Interview Process</p>
-                                    <ul class="skill-list-j">
-                                        <li>1st TEAM screening with Poly</li>
-                                        <li>2nd TEAM panel interview with Client</li>
-                                        <li>Send Test</li>
-                                        <li>Job Offer</li>
-                                    </ul>
-                                </div>
-                                <div class="company-right-col"></div>
-                                <div class="j-com-dev-info qr-code-img">
-                                    <p class="company-j-info-l ">Share This Job</p>
-                                    <img src="../image/QR.png" alt="">
+                                <div class="job-location">
+                                    <p>Location</p>
+                                    <img src="../image/Location.png" alt="Location">
+                                    <p class="job-city">Cities</p>
                                 </div>
                             </div>
                         </div>
+                        <div class="job-announcements">
+                            <div class="job-announcements-col btn-size">
+                                <a href="job/job-details-view.html"><button>View detailed Job Position</button></a>
+                                <div class="job-time-wishlist">
+                                    <div class="job-announcements-status">
+                                        <p>21 Days ago</p>
+                                    </div>
+                                    <div class="job-apply">
+                                        <img src="../image/apply.png" alt="apply">
+                                        <p>Apply now</p>
+                                    </div>
+                                    <div class="job-favorite">
+                                        <img src="../image/favorite.png" alt="favorite">
+                                        <p>Add Job to Wishlist</p>
+                                    </div>
+                                </div>
 
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="Job-Opportunities-row">
+                        <div class="job-requriments">
+                            <div class="job-details">
+                                <div class="job-title">
+                                    <a href="#" class="title-job-link promoted-btn-not">
+                                        <h3>React Java Developer</h3>
+                                    </a>
+                                    <!-- <a href="#"><button>Promoted *</button></a> -->
+                                </div>
+                                <div class="job-seclude">
+                                    <div class="job-time">
+                                        <p>Salary $1000.00 - $1500.00</p>
+                                    </div>
+                                    <div class="job-time">
+                                        <p>Full Time - On Site</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-info">
+                                <div class="job-services-anchor">
+                                    <a href="#">
+                                        <img src="../image/fitness.png" alt="fitenss">
+                                        <p>Amazon Web Service</p>
+                                    </a>
+                                </div>
+                                <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem
+                                    Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                            </div>
+                            <div class="job-skill-location">
+                                <div class="job-skills">
+                                    <button>C++</button>
+                                    <button>Java</button>
+                                    <button>Python</button>
+                                    <button>Micro Services</button>
+                                    <button>Angular</button>
+                                </div>
+                                <div class="job-location">
+                                    <p>Location</p>
+                                    <img src="../image/Location.png" alt="Location">
+                                    <p class="job-city">Cities</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="job-announcements">
+                            <div class="job-announcements-col btn-size">
+                                <a href="job/job-details-view.html"><button>View detailed Job Position</button></a>
+                                <div class="job-time-wishlist">
+                                    <div class="job-announcements-status">
+                                        <p>21 Days ago</p>
+                                    </div>
+                                    <div class="job-apply">
+                                        <img src="../image/apply.png" alt="apply">
+                                        <p>Apply now</p>
+                                    </div>
+                                    <div class="job-favorite">
+                                        <img src="../image/favorite.png" alt="favorite">
+                                        <p>Add Job to Wishlist</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-----------job section-->
-    <section class="new-job">
-        <div class="container-site">
-            <div class="job-search-box-row">
-                <div class="job-heading smilar-job-heading">
-                    <h2>Similar Jobs</h2>
-                </div>
-                <div class="search-box">
-                    <img src="../image/job-search.png" alt="">
-                    <input type="search" name="" class="form-font-f" id="jon-search-box" placeholder="Search Jobs">
-                </div>
+            <div class="see-more-job">
+                <a href="#"><button>See more</button></a>
             </div>
-            <div class="divider"></div>
-            <div class="Job-Opportunities-row">
-                <div class="job-requriments">
-                    <div class="job-details">
-                        <div class="job-title">
-                            <h3>React Java Developer</h3>
-                            <a href="#"><button>Promoted *</button></a>
-                        </div>
-                        <div class="job-seclude">
-                            <div class="job-time">
-                                <p>Salary $500.00</p>
-                            </div>
-                            <div class="job-time">
-                                <p>Full Time - remote</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="job-info">
-                        <div class="job-services">
-                            <img src="../image/fitness.png" alt="fitenss">
-                            <p>Amazon Web Service</p>
-                        </div>
-                        <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem Ipsum
-                            is simply dummy text of the printing and typesetting industry. </p>
-                    </div>
-                    <div class="job-skill-location">
-                        <div class="job-skills">
-                            <button>C++</button>
-                            <button>Java</button>
-                            <button>Python</button>
-                            <button>Micro Services</button>
-                            <button>Angular</button>
-                        </div>
-                        <div class="job-location">
-                            <p>Location</p>
-                            <img src="../image/Location.png" alt="Location">
-                            <p class="job-city">Cities</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="job-announcements">
-                    <div class="job-announcements-col">
-                        <a href="#"><button>View detailed Job Position</button></a>
-                        <div class="job-time-wishlist">
-                            <div class="job-announcements-status">
-                                <p>21 Days ago</p>
-                            </div>
-                            <div class="job-apply">
-                                <img src="../image/apply.png" alt="apply">
-                                <p>Apply now</p>
-                            </div>
-                            <div class="job-favorite">
-                                <img src="../image/favorite.png" alt="favorite">
-                                <p>Add Job to Wishlist</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-            <div class="divider"></div>
-            <div class="Job-Opportunities-row">
-                <div class="job-requriments">
-                    <div class="job-details">
-                        <div class="job-title">
-                            <h3>React Java Developer</h3>
-                            <a href="#"><button>Promoted *</button></a>
-                        </div>
-                        <div class="job-seclude">
-                            <div class="job-time">
-                                <p>Salary $500.00</p>
-                            </div>
-                            <div class="job-time">
-                                <p>Full Time - remote</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="job-info">
-                        <div class="job-services">
-                            <img src="../image/fitness.png" alt="fitenss">
-                            <p>Amazon Web Service</p>
-                        </div>
-                        <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem Ipsum
-                            is simply dummy text of the printing and typesetting industry. </p>
-                    </div>
-                    <div class="job-skill-location">
-                        <div class="job-skills">
-                            <button>C++</button>
-                            <button>Java</button>
-                            <button>Python</button>
-                            <button>Micro Services</button>
-                            <button>Angular</button>
-                        </div>
-                        <div class="job-location">
-                            <p>Location</p>
-                            <img src="../image/Location.png" alt="Location">
-                            <p class="job-city">Cities</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="job-announcements">
-                    <div class="job-announcements-col">
-                        <a href="#"><button>View detailed Job Position</button></a>
-                        <div class="job-time-wishlist">
-                            <div class="job-announcements-status">
-                                <p>21 Days ago</p>
-                            </div>
-                            <div class="job-apply">
-                                <img src="../image/apply.png" alt="apply">
-                                <p>Apply now</p>
-                            </div>
-                            <div class="job-favorite">
-                                <img src="../image/favorite.png" alt="favorite">
-                                <p>Add Job to Wishlist</p>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                </div>
-            </div>
-            <div class="divider"></div>
-            <div class="Job-Opportunities-row">
-                <div class="job-requriments">
-                    <div class="job-details">
-                        <div class="job-title">
-                            <h3>React Java Developer</h3>
-                            <a href="#"><button>Promoted *</button></a>
-                        </div>
-                        <div class="job-seclude">
-                            <div class="job-time">
-                                <p>Salary $500.00</p>
-                            </div>
-                            <div class="job-time">
-                                <p>Full Time - remote</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="job-info">
-                        <div class="job-services">
-                            <img src="../image/fitness.png" alt="fitenss">
-                            <p>Amazon Web Service</p>
-                        </div>
-                        <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem Ipsum
-                            is simply dummy text of the printing and typesetting industry. </p>
-                    </div>
-                    <div class="job-skill-location">
-                        <div class="job-skills">
-                            <button>C++</button>
-                            <button>Java</button>
-                            <button>Python</button>
-                            <button>Micro Services</button>
-                            <button>Angular</button>
-                        </div>
-                        <div class="job-location">
-                            <p>Location</p>
-                            <img src="../image/Location.png" alt="Location">
-                            <p class="job-city">Cities</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="job-announcements">
-                    <div class="job-announcements-col">
-                        <a href="#"><button>View detailed Job Position</button></a>
-                        <div class="job-time-wishlist">
-                            <div class="job-announcements-status">
-                                <p>21 Days ago</p>
-                            </div>
-                            <div class="job-apply">
-                                <img src="../image/apply.png" alt="apply">
-                                <p>Apply now</p>
-                            </div>
-                            <div class="job-favorite">
-                                <img src="../image/favorite.png" alt="favorite">
-                                <p>Add Job to Wishlist</p>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                </div>
-            </div>
-            <div class="divider"></div>
-            <div class="Job-Opportunities-row">
-                <div class="job-requriments">
-                    <div class="job-details">
-                        <div class="job-title">
-                            <h3>React Java Developer</h3>
-                            <!-- <a href="#"><button>Promoted *</button></a> -->
-                            <div class="job-services">
-                                <img src="../image/fitness.png" alt="fitenss">
-                                <p>International Consolidated Airlines Group SA</p>
-                            </div>
-                        </div>
-                        <div class="job-seclude">
-                            <div class="job-time">
-                                <p>Salary $500.00</p>
-                            </div>
-                            <div class="job-time">
-                                <p>Full Time - remote</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="job-info">
-                        <!-- <div class="job-services">
-                                <img src="./image/fitness.png" alt="fitenss">
-                                <p>Amazon Web Service</p>
-                            </div> -->
-                        <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem Ipsum
-                            is simply dummy text of the printing and typesetting industry. </p>
-                    </div>
-                    <div class="job-skill-location">
-                        <div class="job-skills">
-                            <button>C++</button>
-                            <button>Java</button>
-                            <button>Python</button>
-                            <button>Micro Services</button>
-                            <button>Angular</button>
-                        </div>
-                        <div class="job-location">
-                            <p>Location</p>
-                            <img src="../image/Location.png" alt="Location">
-                            <p class="job-city">Cities</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="job-announcements">
-                    <div class="job-announcements-col">
-                        <a href="#"><button>View detailed Job Position</button></a>
-                        <div class="job-time-wishlist">
-                            <div class="job-announcements-status">
-                                <p>21 Days ago</p>
-                            </div>
-                            <div class="job-apply">
-                                <img src="../image/apply.png" alt="apply">
-                                <p>Apply now</p>
-                            </div>
-                            <div class="job-favorite">
-                                <img src="../image/favorite.png" alt="favorite">
-                                <p>Add Job to Wishlist</p>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                </div>
-            </div>
-            <div class="divider"></div>
-        </div>
-        <div class="see-more-job">
-            <a href="#"><button>See more</button></a>
-        </div>
-        </div>
-    </section>
+        </section>
+    </div>
     <!--------world conect-->
     <section class="world-conect-sec">
         <div class="world-conect-row">

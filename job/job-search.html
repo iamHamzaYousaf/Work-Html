@@ -11,1320 +11,480 @@
 </head>
 
 <body>
-    <header>
-        <div class="container-site">
-            <div class="row-log">
-                <div class="logo-col">
-                    <a href="../index.html"><img src="../image/WORKBRIDGE.png" alt="logo"></a>
+    <div class="all-page-bg-clr">
+        <header>
+            <div class="container-site">
+                <div class="row-log">
+                    <div class="logo-col">
+                        <a href="index.html"><img src="../image/WORKBRIDGE.png" alt="logo"></a>
+                    </div>
+                    <div class="col-two-button">
+                        <div class="find-job-btn">
+                            <a href="job/job-search.html"><button>Find a Job</button></a>
+                        </div>
+                        <div class="menu-items">
+                            <p><a href="#"><button class="login-header">Login </button></a></p>
+                            <a href="#"><button>Sign Up</button></a>
+                        </div>
+                        <div class="toggleBtn"><img src="./image/toogle-btn.png" alt="toggleBtn"></div>
+                    </div>
                 </div>
-                <div class="col-two-button">
-                    <div class="find-job-btn">
+            </div>
+        </header>
+        <!---------- find a job section start here-->
+        <section class="f-dream job">
+            <div class="container-site">
+                <div class="f-job-heaading">
+                    <h2>Find your dream job</h2>
+                </div>
+                <div class="filter-serach-btn">
+                    <div class="job-fillter-f">
+                        <div class="three-filter-inline" tabindex="0">
+                            <div class="job-keywords">
+                                <img src="../image/job-search.png" alt="">
+                                <input type="text" name="" id="job-search-field" placeholder="Key words, company, skills...">
+                                <div class="job-search-dropdown job-dropdown-hide">
+                                    <h3 class="job-suggestion">Suggested Job Titles</h3>
+                                    <ul class="dorpdown-list-search">
+                                        <li class="icon-cursor"><img src="../image/job-search.png" alt=""><span>Hr</span> Manager</li>
+                                        <li class="icon-cursor"><img src="../image/job-search.png" alt="">Product Manager</li>
+                                        <li class="icon-cursor"><img src="../image/job-search.png" alt="">HR Manager</li>
+                                        <li class="icon-cursor"><img src="../image/job-search.png" alt="">Product Manager</li>
+                                        <li class="icon-cursor"><img src="../image/job-search.png" alt="">Product Owner</li>
+                                    </ul>
+                                    <h3 class="job-suggestion">Suggested Technical Tags</h3>
+                                    <ul class="dorpdown-list-search">
+                                        <li class="icon-cursor"><img src="../image/job-search.png" alt="">Data Science</li>
+                                        <li class="icon-cursor"><img src="../image/job-search.png" alt="">Artificial Intelligence</li>
+                                        <li class="icon-cursor"><img src="../image/job-search.png" alt="">Machine Learning</li>
+                                        <li class="icon-cursor"><img src="../image/job-search.png" alt="">Big Data</li>
+                                        <li class="icon-cursor"><img src="../image/job-search.png" alt="">Cybersecurity</li>
+                                    </ul>
+                                    <h3 class="job-suggestion">Suggested Companies</h3>
+                                    <ul class="dorpdown-list-search">
+                                        <li class="icon-cursor"><img src="../image/job-search.png" alt="">Microsoft Corporation</li>
+                                        <li class="icon-cursor"><img src="../image/job-search.png" alt="">Apple</li>
+                                        <li class="icon-cursor"><img src="../image/job-search.png" alt="">Amazon.com</li>
+                                        <li class="icon-cursor"><img src="../image/job-search.png" alt="">Google</li>
+                                        <li class="icon-cursor"><img src="../image/job-search.png" alt="">IBM</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="job-type-f">
+                                <div id="dropdown-boxId1" class="company-form-dropdownBox" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Job Type</div>
+
+                                <div class="job-search-dropdown-job-type job-dropdown-hide">
+                                    <!-- <h3 class="job-suggestion">Suggested Job Titles</h3> -->
+                                    <ul class="dorpdown-list-search-j-type">
+                                        <li class="icon-cursor"><img src="../image/job-search.png" alt=""><span>Hr</span> Manager</li>
+                                        <li class="icon-cursor"><img src="../image/job-search.png" alt="">Product Manager</li>
+                                        <li class="icon-cursor"><img src="../image/job-search.png" alt="">HR Manager</li>
+                                        <li class="icon-cursor"><img src="../image/job-search.png" alt="">Product Manager</li>
+                                        <li class="icon-cursor"><img src="../image/job-search.png" alt="">Product Owner</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="job-location-f">
+                                <img src="../image/job-location.png" alt="" class="hide-img-j">
+                                <input type="text" name="" id="job-location-field" placeholder="Job Location">
+                            </div>
+                            <div class="job-location-dropdown job-dropdown-hide">
+                                <!-- <h3 class="job-suggestion">City</h3> -->
+                                <ul class="dorpdown-list-location">
+                                    <li class="icon-cursor"><img src="../image/location-j-place.png" alt="">Lahore</li>
+                                    <li class="icon-cursor"><img src="../image/location-j-place.png" alt="">Faisalabad</li>
+                                    <li class="icon-cursor"><img src="../image/location-j-place.png" alt="">Rawalpindi</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="job-post-date">
+                            <div id="dropdown-boxId2" class="company-form-dropdownBox" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Date Posted</div>
+
+                            <div class="job-date-dropdown job-dropdown-hide">
+                                <!-- <h3 class="job-suggestion">Date</h3> -->
+                                <ul class="dorpdown-list-date">
+                                    <li class="icon-cursor"><img src="../image/calander-d.png" alt="">Today</li>
+                                    <li class="icon-cursor"><img src="../image/calander-d.png" alt="">Last 7 Days</li>
+                                    <li class="icon-cursor"><img src="../image/calander-d.png" alt="">Last 14 Days</li>
+                                    <li class="icon-cursor"><img src="../image/calander-d.png" alt="">This Month</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="find-job-btn job-filter-btn">
                         <a href="#"><button>Find a Job</button></a>
-                    </div>
-                    <div class="menu-items">
-                        <p><a href="#">Login </a></p>
-                        <a href="#"><button>Sign Up</button></a>
-                    </div>
-                    <div class="toggleBtn"><img src="../image/toogle-btn.png" alt="toggleBtn"></div>
-                </div>
-            </div>
-
-        </div>
-    </header>
-    <!---------- find a job section start here-->
-    <section class="f-dream job">
-        <div class="container-site">
-            <div class="f-job-heaading">
-                <h2>Find your dream job</h2>
-            </div>
-            <div class="filter-serach-btn">
-                <div class="job-fillter-f">
-                    <div class="three-filter-inline" tabindex="0">
-                        <div class="job-keywords">
-                            <img src="../image/job-search.png" alt="">
-                            <input type="text" name="" id="job-search-field" placeholder="Key words, company, skills...">
-                            <div class="job-search-dropdown job-dropdown-hide">
-                                <h3 class="job-suggestion">Suggested Job Titles</h3>
-                                <ul class="dorpdown-list-search">
-                                    <li class="icon-cursor"><img src="../image/job-search.png" alt=""><span>Hr</span> Manager</li>
-                                    <li class="icon-cursor"><img src="../image/job-search.png" alt="">Product Manager</li>
-                                    <li class="icon-cursor"><img src="../image/job-search.png" alt="">HR Manager</li>
-                                    <li class="icon-cursor"><img src="../image/job-search.png" alt="">Product Manager</li>
-                                    <li class="icon-cursor"><img src="../image/job-search.png" alt="">Product Owner</li>
-                                </ul>
-                                <h3 class="job-suggestion">Suggested Technical Tags</h3>
-                                <ul class="dorpdown-list-search">
-                                    <li class="icon-cursor"><img src="../image/job-search.png" alt="">Data Science</li>
-                                    <li class="icon-cursor"><img src="../image/job-search.png" alt="">Artificial Intelligence</li>
-                                    <li class="icon-cursor"><img src="../image/job-search.png" alt="">Machine Learning</li>
-                                    <li class="icon-cursor"><img src="../image/job-search.png" alt="">Big Data</li>
-                                    <li class="icon-cursor"><img src="../image/job-search.png" alt="">Cybersecurity</li>
-                                </ul>
-                                <h3 class="job-suggestion">Suggested Companies</h3>
-                                <ul class="dorpdown-list-search">
-                                    <li class="icon-cursor"><img src="../image/job-search.png" alt="">Microsoft Corporation</li>
-                                    <li class="icon-cursor"><img src="../image/job-search.png" alt="">Apple</li>
-                                    <li class="icon-cursor"><img src="../image/job-search.png" alt="">Amazon.com</li>
-                                    <li class="icon-cursor"><img src="../image/job-search.png" alt="">Google</li>
-                                    <li class="icon-cursor"><img src="../image/job-search.png" alt="">IBM</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="job-type-f">
-                            <div id="dropdown-boxId1" class="company-form-dropdownBox" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Job Type</div>
-                            <!-- <div id="company-dropList1" class="dropdown-menu company-drop-list">
-                                <ul>
-                                    <li>Mobile App </li>
-                                    <li>Website Developer</li>
-                                    <li>Social Media</li>
-                                    <li>Mobile App Developer</li>
-                                </ul>
-                            </div> -->
-                            <div class="job-search-dropdown-job-type job-dropdown-hide">
-                                <!-- <h3 class="job-suggestion">Suggested Job Titles</h3> -->
-                                <ul class="dorpdown-list-search-j-type">
-                                    <li class="icon-cursor"><img src="../image/job-search.png" alt=""><span>Hr</span> Manager</li>
-                                    <li class="icon-cursor"><img src="../image/job-search.png" alt="">Product Manager</li>
-                                    <li class="icon-cursor"><img src="../image/job-search.png" alt="">HR Manager</li>
-                                    <li class="icon-cursor"><img src="../image/job-search.png" alt="">Product Manager</li>
-                                    <li class="icon-cursor"><img src="../image/job-search.png" alt="">Product Owner</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="job-location-f">
-                            <img src="../image/job-location.png" alt="" class="hide-img-j">
-                            <input type="text" name="" id="job-location-field" placeholder="Job Location">
-                        </div>
-                        <div class="job-location-dropdown job-dropdown-hide">
-                            <!-- <h3 class="job-suggestion">City</h3> -->
-                            <ul class="dorpdown-list-location">
-                                <li class="icon-cursor"><img src="../image/location-j-place.png" alt="">Lahore</li>
-                                <li class="icon-cursor"><img src="../image/location-j-place.png" alt="">Faisalabad</li>
-                                <li class="icon-cursor"><img src="../image/location-j-place.png" alt="">Rawalpindi</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="job-post-date">
-                        <div id="dropdown-boxId2" class="company-form-dropdownBox" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Date Posted</div>
-                        <!-- <div id="company-dropList2" class="dropdown-menu company-drop-list">
-                            <ul>
-                                <li>Today</li>
-                                <li>Last 7 Days</li>
-                                <li>Last 14 Days</li>
-                                <li>This Month</li>
-                            </ul>
-                        </div> -->
-                        <div class="job-date-dropdown job-dropdown-hide">
-                            <!-- <h3 class="job-suggestion">Date</h3> -->
-                            <ul class="dorpdown-list-date">
-                                <li class="icon-cursor"><img src="../image/calander-d.png" alt="">Today</li>
-                                <li class="icon-cursor"><img src="../image/calander-d.png" alt="">Last 7 Days</li>
-                                <li class="icon-cursor"><img src="../image/calander-d.png" alt="">Last 14 Days</li>
-                                <li class="icon-cursor"><img src="../image/calander-d.png" alt="">This Month</li>
-                            </ul>
-                        </div>
+                        <p class="clear-filter">Clear All Filters</p>
                     </div>
                 </div>
-                <div class="find-job-btn job-filter-btn">
-                    <a href="#"><button>Find a Job</button></a>
-                    <p class="clear-filter">Clear All Filters</p>
+            </div>
+        </section>
+        <!-------------most job serch-->
+        <section class="job-search-sec">
+            <div class="container-site">
+                <div class="job-search-tag-heading">
+                    <h2>Most Search Jobs</h2>
+                </div>
+                <div class="most-job-search-tag">
+                    <ul class="find-job-tag">
+                        <li>Software engineer</li>
+                        <li>Work From Home</li>
+                        <li>Artificial Intelligence</li>
+                        <li>Hybrid</li>
+                        <li>Mobile App Developer</li>
+                        <li>UI/UX Designer</li>
+                        <li>Manager Jobs</li>
+                        <li>Health jobs</li>
+                        <li>Freshers</li>
+                        <li>Data Entry</li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-------------most job serch-->
-    <section class="job-search-sec">
-        <div class="container-site">
-            <div class="job-search-tag-heading">
-                <h2>Most Search Jobs</h2>
-            </div>
-            <div class="most-job-search-tag">
-                <ul class="find-job-tag">
-                    <li>Software engineer</li>
-                    <li>Work From Home</li>
-                    <li>Artificial Intelligence</li>
-                    <li>Hybrid</li>
-                    <li>Mobile App Developer</li>
-                    <li>UI/UX Designer</li>
-                    <li>Manager Jobs</li>
-                    <li>Health jobs</li>
-                    <li>Freshers</li>
-                    <li>Data Entry</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!-------------------job search-->
-    <section class="job-posstion-job-content">
-        <div class="container-site">
-            <div class="job-heading">
-                <h2>Top Matches</h2>
-            </div>
-            <div class="divider"></div>
-            <div class="left-right-content">
-                <div class="col-left-j-space">
-                    <div class="short-content-left job-col-left">
-                        <div class="job-title-left">
-                            <div class="job-services-col-left job-services-col-left-w job-services-col-left-w-2">
-                                <a href="#">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </a>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <h3>React Java Developer</h3>
-                        </a>
-
-                        <div class="job-time">
-                            <p>Full Time - remote</p>
-                        </div>
-                        <p class="job-discription-left">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
-                        <a href="#"><button>View detailed Job Position</button></a>
-                    </div>
-                    <div class="divider-two"></div>
-                    <div class="short-content-left job-col-left">
-                        <div class="job-title-left">
-                            <div class="job-services-col-left job-services-col-left-w job-services-col-left-w-2">
-                                <a href="#">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </a>
-                            </div>
-                            <a href="#"><button>Promoted *</button></a>
-                        </div>
-                        <a href="#">
-                            <h3>React Java Developer</h3>
-                        </a>
-
-                        <div class="job-time">
-                            <p>Full Time - remote</p>
-                        </div>
-                        <p class="job-discription-left">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
-                        <a href="#"><button>View detailed Job Position</button></a>
-                    </div>
-                    <div class="divider-two"></div>
-                    <div class="short-content-left job-col-left">
-                        <div class="job-title-left">
-                            <div class="job-services-col-left job-services-col-left-w job-services-col-left-w-2">
-                                <a href="#">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </a>
-                            </div>
-                            <a href="#"><button>Promoted *</button></a>
-                        </div>
-                        <a href="#">
-                            <h3>React Java Developer</h3>
-                        </a>
-
-                        <div class="job-time">
-                            <p>Full Time - remote</p>
-                        </div>
-                        <p class="job-discription-left">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
-                        <a href="#"><button>View detailed Job Position</button></a>
-                    </div>
-                    <div class="divider-two"></div>
-                    <div class="short-content-left job-col-left">
-                        <div class="job-title-left">
-                            <div class="job-services-col-left job-services-col-left-w job-services-col-left-w-2">
-                                <a href="#">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </a>
-                            </div>
-                            <a href="#"><button>Promoted *</button></a>
-                        </div>
-                        <a href="#">
-                            <h3>React Java Developer</h3>
-                        </a>
-
-                        <div class="job-time">
-                            <p>Full Time - remote</p>
-                        </div>
-                        <p class="job-discription-left">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
-                        <a href="#"><button>View detailed Job Position</button></a>
-                    </div>
-                    <div class="divider-two"></div>
-                    <div class="short-content-left job-col-left">
-                        <div class="job-title-left">
-                            <div class="job-services-col-left job-services-col-left-w job-services-col-left-w-2">
-                                <a href="#">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </a>
-                            </div>
-                            <a href="#"><button>Promoted *</button></a>
-                        </div>
-                        <a href="#">
-                            <h3>React Java Developer</h3>
-                        </a>
-
-                        <div class="job-time">
-                            <p>Full Time - remote</p>
-                        </div>
-                        <p class="job-discription-left">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
-                        <a href="#"><button>View detailed Job Position</button></a>
-                    </div>
-                    <div class="divider-two"></div>
-                    <div class="short-content-left job-col-left">
-                        <div class="job-title-left">
-                            <div class="job-services-col-left job-services-col-left-w job-services-col-left-w-2">
-                                <a href="#">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </a>
-                            </div>
-                            <a href="#"><button>Promoted *</button></a>
-                        </div>
-                        <a href="#">
-                            <h3>React Java Developer</h3>
-                        </a>
-
-                        <div class="job-time">
-                            <p>Full Time - remote</p>
-                        </div>
-                        <p class="job-discription-left">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
-                        <a href="#"><button>View detailed Job Position</button></a>
-                    </div>
-                    <div class="divider-two"></div>
-                    <div class="short-content-left job-col-left">
-                        <div class="job-title-left">
-                            <div class="job-services-col-left job-services-col-left-w job-services-col-left-w-2">
-                                <a href="#">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </a>
-                            </div>
-                            <a href="#"><button>Promoted *</button></a>
-                        </div>
-                        <a href="#">
-                            <h3>React Java Developer</h3>
-                        </a>
-
-                        <div class="job-time">
-                            <p>Full Time - remote</p>
-                        </div>
-                        <p class="job-discription-left">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
-                        <a href="#"><button>View detailed Job Position</button></a>
-                    </div>
-                    <div class="divider-two"></div>
-                    <div class="short-content-left job-col-left">
-                        <div class="job-title-left">
-                            <div class="job-services-col-left job-services-col-left-w job-services-col-left-w-2">
-                                <a href="#">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </a>
-                            </div>
-                            <a href="#"><button>Promoted *</button></a>
-                        </div>
-                        <a href="#">
-                            <h3>React Java Developer</h3>
-                        </a>
-
-                        <div class="job-time">
-                            <p>Full Time - remote</p>
-                        </div>
-                        <p class="job-discription-left">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
-                        <a href="#"><button>View detailed Job Position</button></a>
-                    </div>
-                    <div class="divider-two"></div>
-                    <div class="short-content-left job-col-left">
-                        <div class="job-title-left">
-                            <div class="job-services-col-left job-services-col-left-w job-services-col-left-w-2">
-                                <a href="#">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </a>
-                            </div>
-                            <a href="#"><button>Promoted *</button></a>
-                        </div>
-                        <a href="#">
-                            <h3>React Java Developer</h3>
-                        </a>
-
-                        <div class="job-time">
-                            <p>Full Time - remote</p>
-                        </div>
-                        <p class="job-discription-left">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
-                        <a href="#"><button>View detailed Job Position</button></a>
-                    </div>
-                    <div class="divider-two"></div>
-                    <div class="short-content-left job-col-left">
-                        <div class="job-title-left">
-                            <div class="job-services-col-left job-services-col-left-w job-services-col-left-w-2">
-                                <a href="#">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </a>
-                            </div>
-                            <a href="#"><button>Promoted *</button></a>
-                        </div>
-                        <a href="#">
-                            <h3>React Java Developer</h3>
-                        </a>
-
-                        <div class="job-time">
-                            <p>Full Time - remote</p>
-                        </div>
-                        <p class="job-discription-left">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
-                        <a href="#"><button>View detailed Job Position</button></a>
-                    </div>
-                    <div class="divider-two"></div>
-                    <div class="short-content-left job-col-left">
-                        <div class="job-title-left">
-                            <div class="job-services-col-left job-services-col-left-w job-services-col-left-w-2">
-                                <a href="#">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </a>
-                            </div>
-                            <a href="#"><button>Promoted *</button></a>
-                        </div>
-                        <a href="#">
-                            <h3>React Java Developer</h3>
-                        </a>
-
-                        <div class="job-time">
-                            <p>Full Time - remote</p>
-                        </div>
-                        <p class="job-discription-left">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
-                        <a href="#"><button>View detailed Job Position</button></a>
-                    </div>
-                    <div class="divider-two"></div>
-                    <div class="short-content-left job-col-left">
-                        <div class="job-title-left">
-                            <div class="job-services-col-left job-services-col-left-w job-services-col-left-w-2">
-                                <a href="#">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </a>
-                            </div>
-                            <a href="#"><button>Promoted *</button></a>
-                        </div>
-                        <a href="#">
-                            <h3>React Java Developer</h3>
-                        </a>
-
-                        <div class="job-time">
-                            <p>Full Time - remote</p>
-                        </div>
-                        <p class="job-discription-left">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
-                        <a href="#"><button>View detailed Job Position</button></a>
-                    </div>
-                    <div class="divider-two"></div>
-
+        </section>
+        <!-------------------job search-->
+        <section class="job-posstion-job-content">
+            <div class="container-site">
+                <div class="job-heading">
+                    <h2>Top Matches</h2>
                 </div>
-                <div class="divider-left"></div>
-                <div class="col-right-j-space">
-                    <div class="Job-Opportunities-row-j-search job-col-right">
-                        <div class="job-requriments">
-                            <div class="job-details">
-                                <div class="job-title top-text-btn-align">
-                                    <h3>React Java Developer</h3>
-                                </div>
-                                <div class="job-seclude">
-                                    <div class="job-time">
-                                        <p>Salary $1000.00 - 1500.00</p>
-                                    </div>
-                                    <div class="job-time">
-                                        <p>Full Time - remote</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="job-info">
-                                <div class="job-services">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </div>
-                                <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            </div>
-                            <div class="job-skill-location">
-                                <div class="job-skills">
-                                    <button>C++</button>
-                                    <button>Java</button>
-                                    <button>Python</button>
-                                    <button>Micro Services</button>
-                                    <button>Angular</button>
-                                </div>
-                                <div class="job-location">
-                                    <p>Location</p>
-                                    <img src="../image/Location.png" alt="Location">
-                                    <p class="job-city">Cities</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="job-announcements">
-                            <div class="job-announcements-col btn-size">
-                                <a href="#"><button>View detailed Job Position</button></a>
-                                <div class="job-time-wishlist">
-                                    <div class="job-announcements-status">
-                                        <p>21 Days ago</p>
-                                    </div>
-                                    <div class="job-apply">
-                                        <img src="../image/apply.png" alt="apply">
-                                        <p>Apply now</p>
-                                    </div>
-                                    <div class="job-favorite">
-                                        <img src="../image/favorite.png" alt="favorite">
-                                        <p>Add Job to Wishlist</p>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="divider-two"></div>
-                    <div class="Job-Opportunities-row-j-search job-col-right">
-                        <div class="job-requriments">
-                            <div class="job-details">
-                                <div class="job-title top-text-btn-align">
-                                    <h3>React Java Developer</h3>
-                                </div>
-                                <div class="job-seclude">
-                                    <div class="job-time">
-                                        <p>Salary $500.00</p>
-                                    </div>
-                                    <div class="job-time">
-                                        <p>Full Time - remote</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="job-info">
-                                <div class="job-services">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </div>
-                                <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem
-                                    Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                            </div>
-                            <div class="job-skill-location">
-                                <div class="job-skills">
-                                    <button>C++</button>
-                                    <button>Java</button>
-                                    <button>Python</button>
-                                    <button>Micro Services</button>
-                                    <button>Angular</button>
-                                </div>
-                                <div class="job-location">
-                                    <p>Location</p>
-                                    <img src="../image/Location.png" alt="Location">
-                                    <p class="job-city">Cities</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="job-announcements">
-                            <div class="job-announcements-col btn-size">
-                                <a href="#"><button>View detailed Job Position</button></a>
-                                <div class="job-time-wishlist">
-                                    <div class="job-announcements-status">
-                                        <p>21 Days ago</p>
-                                    </div>
-                                    <div class="job-apply">
-                                        <img src="../image/apply.png" alt="apply">
-                                        <p>Apply now</p>
-                                    </div>
-                                    <div class="job-favorite">
-                                        <img src="../image/favorite.png" alt="favorite">
-                                        <p>Add Job to Wishlist</p>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="divider-two"></div>
-                    <div class="Job-Opportunities-row-j-search job-col-right">
-                        <div class="job-requriments">
-                            <div class="job-details">
-                                <div class="job-title top-text-btn-align">
-                                    <h3>React Java Developer</h3>
-                                </div>
-                                <div class="job-seclude">
-                                    <div class="job-time">
-                                        <p>Salary $500.00</p>
-                                    </div>
-                                    <div class="job-time">
-                                        <p>Full Time - remote</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="job-info">
-                                <div class="job-services">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </div>
-                                <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem
-                                    Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                            </div>
-                            <div class="job-skill-location">
-                                <div class="job-skills">
-                                    <button>C++</button>
-                                    <button>Java</button>
-                                    <button>Python</button>
-                                    <button>Micro Services</button>
-                                    <button>Angular</button>
-                                </div>
-                                <div class="job-location">
-                                    <p>Location</p>
-                                    <img src="../image/Location.png" alt="Location">
-                                    <p class="job-city">Cities</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="job-announcements">
-                            <div class="job-announcements-col btn-size">
-                                <a href="#"><button>View detailed Job Position</button></a>
-                                <div class="job-time-wishlist">
-                                    <div class="job-announcements-status">
-                                        <p>21 Days ago</p>
-                                    </div>
-                                    <div class="job-apply">
-                                        <img src="../image/apply.png" alt="apply">
-                                        <p>Apply now</p>
-                                    </div>
-                                    <div class="job-favorite">
-                                        <img src="../image/favorite.png" alt="favorite">
-                                        <p>Add Job to Wishlist</p>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="divider-two"></div>
-                    <div class="Job-Opportunities-row-j-search job-col-right">
-                        <div class="job-requriments">
-                            <div class="job-details">
-                                <div class="job-title top-text-btn-align">
-                                    <h3>React Java Developer</h3>
-                                    <a href="#"><button>Promoted *</button></a>
-                                </div>
-                                <div class="job-seclude">
-                                    <div class="job-time">
-                                        <p>Salary $500.00</p>
-                                    </div>
-                                    <div class="job-time">
-                                        <p>Full Time - remote</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="job-info">
-                                <div class="job-services">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </div>
-                                <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem
-                                    Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                            </div>
-                            <div class="job-skill-location">
-                                <div class="job-skills">
-                                    <button>C++</button>
-                                    <button>Java</button>
-                                    <button>Python</button>
-                                    <button>Micro Services</button>
-                                    <button>Angular</button>
-                                </div>
-                                <div class="job-location">
-                                    <p>Location</p>
-                                    <img src="../image/Location.png" alt="Location">
-                                    <p class="job-city">Cities</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="job-announcements">
-                            <div class="job-announcements-col btn-size">
-                                <a href="#"><button>View detailed Job Position</button></a>
-                                <div class="job-time-wishlist">
-                                    <div class="job-announcements-status">
-                                        <p>21 Days ago</p>
-                                    </div>
-                                    <div class="job-apply">
-                                        <img src="../image/apply.png" alt="apply">
-                                        <p>Apply now</p>
-                                    </div>
-                                    <div class="job-favorite">
-                                        <img src="../image/favorite.png" alt="favorite">
-                                        <p>Add Job to Wishlist</p>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="divider-two"></div>
-                    <div class="Job-Opportunities-row job-col-right">
-                        <div class="job-requriments">
-                            <div class="job-details">
-                                <div class="job-title top-text-btn-align">
-                                    <h3>React Java Developer</h3>
-                                    <a href="#"><button>Promoted *</button></a>
-                                </div>
-                                <div class="job-seclude">
-                                    <div class="job-time">
-                                        <p>Salary $500.00</p>
-                                    </div>
-                                    <div class="job-time">
-                                        <p>Full Time - remote</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="job-info">
-                                <div class="job-services">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </div>
-                                <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem
-                                    Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                            </div>
-                            <div class="job-skill-location">
-                                <div class="job-skills">
-                                    <button>C++</button>
-                                    <button>Java</button>
-                                    <button>Python</button>
-                                    <button>Micro Services</button>
-                                    <button>Angular</button>
-                                </div>
-                                <div class="job-location">
-                                    <p>Location</p>
-                                    <img src="../image/Location.png" alt="Location">
-                                    <p class="job-city">Cities</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="job-announcements">
-                            <div class="job-announcements-col btn-size">
-                                <a href="#"><button>View detailed Job Position</button></a>
-                                <div class="job-time-wishlist">
-                                    <div class="job-announcements-status">
-                                        <p>21 Days ago</p>
-                                    </div>
-                                    <div class="job-apply">
-                                        <img src="../image/apply.png" alt="apply">
-                                        <p>Apply now</p>
-                                    </div>
-                                    <div class="job-favorite">
-                                        <img src="../image/favorite.png" alt="favorite">
-                                        <p>Add Job to Wishlist</p>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="divider-two"></div>
-                    <div class="Job-Opportunities-row job-col-right">
-                        <div class="job-requriments">
-                            <div class="job-details">
-                                <div class="job-title top-text-btn-align">
-                                    <h3>React Java Developer</h3>
-                                    <a href="#"><button>Promoted *</button></a>
-                                </div>
-                                <div class="job-seclude">
-                                    <div class="job-time">
-                                        <p>Salary $500.00</p>
-                                    </div>
-                                    <div class="job-time">
-                                        <p>Full Time - remote</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="job-info">
-                                <div class="job-services">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </div>
-                                <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem
-                                    Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                            </div>
-                            <div class="job-skill-location">
-                                <div class="job-skills">
-                                    <button>C++</button>
-                                    <button>Java</button>
-                                    <button>Python</button>
-                                    <button>Micro Services</button>
-                                    <button>Angular</button>
-                                </div>
-                                <div class="job-location">
-                                    <p>Location</p>
-                                    <img src="../image/Location.png" alt="Location">
-                                    <p class="job-city">Cities</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="job-announcements">
-                            <div class="job-announcements-col btn-size">
-                                <a href="#"><button>View detailed Job Position</button></a>
-                                <div class="job-time-wishlist">
-                                    <div class="job-announcements-status">
-                                        <p>21 Days ago</p>
-                                    </div>
-                                    <div class="job-apply">
-                                        <img src="../image/apply.png" alt="apply">
-                                        <p>Apply now</p>
-                                    </div>
-                                    <div class="job-favorite">
-                                        <img src="../image/favorite.png" alt="favorite">
-                                        <p>Add Job to Wishlist</p>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="divider-two"></div>
-                    <div class="Job-Opportunities-row job-col-right">
-                        <div class="job-requriments">
-                            <div class="job-details">
-                                <div class="job-title top-text-btn-align">
-                                    <h3>React Java Developer</h3>
-                                    <a href="#"><button>Promoted *</button></a>
-                                </div>
-                                <div class="job-seclude">
-                                    <div class="job-time">
-                                        <p>Salary $500.00</p>
-                                    </div>
-                                    <div class="job-time">
-                                        <p>Full Time - remote</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="job-info">
-                                <div class="job-services">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </div>
-                                <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem
-                                    Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                            </div>
-                            <div class="job-skill-location">
-                                <div class="job-skills">
-                                    <button>C++</button>
-                                    <button>Java</button>
-                                    <button>Python</button>
-                                    <button>Micro Services</button>
-                                    <button>Angular</button>
-                                </div>
-                                <div class="job-location">
-                                    <p>Location</p>
-                                    <img src="../image/Location.png" alt="Location">
-                                    <p class="job-city">Cities</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="job-announcements">
-                            <div class="job-announcements-col btn-size">
-                                <a href="#"><button>View detailed Job Position</button></a>
-                                <div class="job-time-wishlist">
-                                    <div class="job-announcements-status">
-                                        <p>21 Days ago</p>
-                                    </div>
-                                    <div class="job-apply">
-                                        <img src="../image/apply.png" alt="apply">
-                                        <p>Apply now</p>
-                                    </div>
-                                    <div class="job-favorite">
-                                        <img src="../image/favorite.png" alt="favorite">
-                                        <p>Add Job to Wishlist</p>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="divider-two"></div>
-                </div>
-            </div>
-
-            <!-- <div class="divider"></div>
-            <div class="left-right-content">
-                <div class="col-left-j-space">
-                    <div class="short-content-left job-col-left">
-                        <div class="job-title-left">
-                            <div class="job-services-col-left job-services-col-left-w job-services-col-left-w-2">
-                                <a href="#">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </a>
-                            </div>
-                            <a href="#"><button>Promoted *</button></a>
-                        </div>
-                        <a href="#">
-                            <h3>React Java Developer</h3>
-                        </a>
-
-                        <div class="job-time">
-                            <p>Full Time - remote</p>
-                        </div>
-                        <p class="job-discription-left">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
-                        <a href="#"><button>View detailed Job Position</button></a>
-                    </div>
-                </div>
-                <div class="divider-left"></div>
-                <div class="col-right-j-space">
-                    <div class="Job-Opportunities-row">
-                        <div class="job-requriments">
-                            <div class="job-details">
-                                <div class="job-title">
-                                    <a href="#" class="title-job-link promoted-btn-not">
-                                        <h3>React Java Developer</h3>
-                                    </a>
-                                    <a href="#"><button>Promoted *</button></a>
-                                </div>
-                                <div class="job-seclude">
-                                    <div class="job-time">
-                                        <p>Salary $1000.00 - $1500.00</p>
-                                    </div>
-                                    <div class="job-time">
-                                        <p>Full Time - On Site</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="job-info">
-                                <div class="job-services-anchor">
+                <div class="divider"></div>
+                <div class="left-right-content">
+                    <div class="col-left-j-space">
+                        <div class="short-content-left job-col-left">
+                            <div class="job-title-left">
+                                <div class="job-services-col-left job-services-col-left-w job-services-col-left-w-2">
                                     <a href="#">
                                         <img src="../image/fitness.png" alt="fitenss">
                                         <p>Amazon Web Service</p>
                                     </a>
                                 </div>
-                                <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem
-                                    Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             </div>
-                            <div class="job-skill-location">
-                                <div class="job-skills">
-                                    <button>C++</button>
-                                    <button>Java</button>
-                                    <button>Python</button>
-                                    <button>Micro Services</button>
-                                    <button>Angular</button>
-                                </div>
-                                <div class="job-location">
-                                    <p>Location</p>
-                                    <img src="../image/Location.png" alt="Location">
-                                    <p class="job-city">Cities</p>
-                                </div>
+                            <a href="#">
+                                <h3>React Java Developer</h3>
+                            </a>
+                            <div class="job-time">
+                                <p>Full Time - remote</p>
                             </div>
+                            <p class="job-discription-left">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
+                            <a href="#"><button>View detailed Job Position</button></a>
                         </div>
-                        <div class="job-announcements">
-                            <div class="job-announcements-col">
-                                <a href="#"><button>View detailed Job Position</button></a>
-                                <div class="job-time-wishlist">
-                                    <div class="job-announcements-status">
-                                        <p>21 Days ago</p>
+                        <div class="divider-two"></div>
+                        <div class="short-content-left job-col-left">
+                            <div class="job-title-left">
+                                <div class="job-services-col-left job-services-col-left-w job-services-col-left-w-2">
+                                    <a href="#">
+                                        <img src="../image/fitness.png" alt="fitenss">
+                                        <p>Amazon Web Service</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#">
+                                <h3>React Java Developer</h3>
+                            </a>
+                            <div class="job-time">
+                                <p>Full Time - remote</p>
+                            </div>
+                            <p class="job-discription-left">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
+                            <a href="#"><button>View detailed Job Position</button></a>
+                        </div>
+                        <div class="divider-two"></div>
+                        <div class="short-content-left job-col-left">
+                            <div class="job-title-left">
+                                <div class="job-services-col-left job-services-col-left-w job-services-col-left-w-2">
+                                    <a href="#">
+                                        <img src="../image/fitness.png" alt="fitenss">
+                                        <p>Amazon Web Service</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#">
+                                <h3>React Java Developer</h3>
+                            </a>
+                            <div class="job-time">
+                                <p>Full Time - remote</p>
+                            </div>
+                            <p class="job-discription-left">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
+                            <a href="#"><button>View detailed Job Position</button></a>
+                        </div>
+                        <div class="divider-two"></div>
+                        <div class="short-content-left job-col-left">
+                            <div class="job-title-left">
+                                <div class="job-services-col-left job-services-col-left-w job-services-col-left-w-2">
+                                    <a href="#">
+                                        <img src="../image/fitness.png" alt="fitenss">
+                                        <p>Amazon Web Service</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#">
+                                <h3>React Java Developer</h3>
+                            </a>
+                            <div class="job-time">
+                                <p>Full Time - remote</p>
+                            </div>
+                            <p class="job-discription-left">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
+                            <a href="#"><button>View detailed Job Position</button></a>
+                        </div>
+                        <div class="divider-two"></div>
+                    </div>
+                    <div class="divider-left"></div>
+                    <div class="col-right-j-space">
+                        <div class="Job-Opportunities-row-j-search job-col-right">
+                            <div class="job-requriments">
+                                <div class="job-details">
+                                    <div class="job-title top-text-btn-align">
+                                        <h3>React Java Developer</h3>
                                     </div>
-                                    <div class="job-apply">
-                                        <img src="../image/apply.png" alt="apply">
-                                        <p>Apply now</p>
+                                    <div class="job-seclude">
+                                        <div class="job-time">
+                                            <p>Salary $1000.00 - 1500.00</p>
+                                        </div>
+                                        <div class="job-time">
+                                            <p>Full Time - remote</p>
+                                        </div>
                                     </div>
-                                    <div class="job-favorite">
-                                        <img src="../image/favorite.png" alt="favorite">
-                                        <p>Add Job to Wishlist</p>
+                                </div>
+                                <div class="job-info">
+                                    <div class="job-services">
+                                        <img src="../image/fitness.png" alt="fitenss">
+                                        <p>Amazon Web Service</p>
+                                    </div>
+                                    <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                </div>
+                                <div class="job-skill-location">
+                                    <div class="job-skills">
+                                        <button>C++</button>
+                                        <button>Java</button>
+                                        <button>Python</button>
+                                        <button>Micro Services</button>
+                                        <button>Angular</button>
+                                    </div>
+                                    <div class="job-location">
+                                        <p>Location</p>
+                                        <img src="../image/Location.png" alt="Location">
+                                        <p class="job-city">Cities</p>
                                     </div>
                                 </div>
-
                             </div>
-
+                            <div class="job-announcements">
+                                <div class="job-announcements-col btn-size">
+                                    <a href="#"><button>View detailed Job Position</button></a>
+                                    <div class="job-time-wishlist">
+                                        <div class="job-announcements-status">
+                                            <p>21 Days ago</p>
+                                        </div>
+                                        <div class="job-apply">
+                                            <img src="../image/apply.png" alt="apply">
+                                            <p>Apply now</p>
+                                        </div>
+                                        <div class="job-favorite">
+                                            <img src="../image/favorite.png" alt="favorite">
+                                            <p>Add Job to Wishlist</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <div class="divider-two"></div>
+                        <div class="Job-Opportunities-row-j-search job-col-right">
+                            <div class="job-requriments">
+                                <div class="job-details">
+                                    <div class="job-title top-text-btn-align">
+                                        <h3>React Java Developer</h3>
+                                    </div>
+                                    <div class="job-seclude">
+                                        <div class="job-time">
+                                            <p>Salary $1000.00 - 1500.00</p>
+                                        </div>
+                                        <div class="job-time">
+                                            <p>Full Time - remote</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="job-info">
+                                    <div class="job-services">
+                                        <img src="../image/fitness.png" alt="fitenss">
+                                        <p>Amazon Web Service</p>
+                                    </div>
+                                    <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                </div>
+                                <div class="job-skill-location">
+                                    <div class="job-skills">
+                                        <button>C++</button>
+                                        <button>Java</button>
+                                        <button>Python</button>
+                                        <button>Micro Services</button>
+                                        <button>Angular</button>
+                                    </div>
+                                    <div class="job-location">
+                                        <p>Location</p>
+                                        <img src="../image/Location.png" alt="Location">
+                                        <p class="job-city">Cities</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-announcements">
+                                <div class="job-announcements-col btn-size">
+                                    <a href="#"><button>View detailed Job Position</button></a>
+                                    <div class="job-time-wishlist">
+                                        <div class="job-announcements-status">
+                                            <p>21 Days ago</p>
+                                        </div>
+                                        <div class="job-apply">
+                                            <img src="../image/apply.png" alt="apply">
+                                            <p>Apply now</p>
+                                        </div>
+                                        <div class="job-favorite">
+                                            <img src="../image/favorite.png" alt="favorite">
+                                            <p>Add Job to Wishlist</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider-two"></div>
+                        <div class="Job-Opportunities-row-j-search job-col-right">
+                            <div class="job-requriments">
+                                <div class="job-details">
+                                    <div class="job-title top-text-btn-align">
+                                        <h3>React Java Developer</h3>
+                                    </div>
+                                    <div class="job-seclude">
+                                        <div class="job-time">
+                                            <p>Salary $1000.00 - 1500.00</p>
+                                        </div>
+                                        <div class="job-time">
+                                            <p>Full Time - remote</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="job-info">
+                                    <div class="job-services">
+                                        <img src="../image/fitness.png" alt="fitenss">
+                                        <p>Amazon Web Service</p>
+                                    </div>
+                                    <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                </div>
+                                <div class="job-skill-location">
+                                    <div class="job-skills">
+                                        <button>C++</button>
+                                        <button>Java</button>
+                                        <button>Python</button>
+                                        <button>Micro Services</button>
+                                        <button>Angular</button>
+                                    </div>
+                                    <div class="job-location">
+                                        <p>Location</p>
+                                        <img src="../image/Location.png" alt="Location">
+                                        <p class="job-city">Cities</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-announcements">
+                                <div class="job-announcements-col btn-size">
+                                    <a href="#"><button>View detailed Job Position</button></a>
+                                    <div class="job-time-wishlist">
+                                        <div class="job-announcements-status">
+                                            <p>21 Days ago</p>
+                                        </div>
+                                        <div class="job-apply">
+                                            <img src="../image/apply.png" alt="apply">
+                                            <p>Apply now</p>
+                                        </div>
+                                        <div class="job-favorite">
+                                            <img src="../image/favorite.png" alt="favorite">
+                                            <p>Add Job to Wishlist</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider-two"></div>
+                        <div class="Job-Opportunities-row-j-search job-col-right">
+                            <div class="job-requriments">
+                                <div class="job-details">
+                                    <div class="job-title top-text-btn-align">
+                                        <h3>React Java Developer</h3>
+                                    </div>
+                                    <div class="job-seclude">
+                                        <div class="job-time">
+                                            <p>Salary $1000.00 - 1500.00</p>
+                                        </div>
+                                        <div class="job-time">
+                                            <p>Full Time - remote</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="job-info">
+                                    <div class="job-services">
+                                        <img src="../image/fitness.png" alt="fitenss">
+                                        <p>Amazon Web Service</p>
+                                    </div>
+                                    <p class="job-discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                </div>
+                                <div class="job-skill-location">
+                                    <div class="job-skills">
+                                        <button>C++</button>
+                                        <button>Java</button>
+                                        <button>Python</button>
+                                        <button>Micro Services</button>
+                                        <button>Angular</button>
+                                    </div>
+                                    <div class="job-location">
+                                        <p>Location</p>
+                                        <img src="../image/Location.png" alt="Location">
+                                        <p class="job-city">Cities</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-announcements">
+                                <div class="job-announcements-col btn-size">
+                                    <a href="#"><button>View detailed Job Position</button></a>
+                                    <div class="job-time-wishlist">
+                                        <div class="job-announcements-status">
+                                            <p>21 Days ago</p>
+                                        </div>
+                                        <div class="job-apply">
+                                            <img src="../image/apply.png" alt="apply">
+                                            <p>Apply now</p>
+                                        </div>
+                                        <div class="job-favorite">
+                                            <img src="../image/favorite.png" alt="favorite">
+                                            <p>Add Job to Wishlist</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider-two"></div>
                     </div>
+                </div>
+                <!-- <div class="divider"></div> -->
+            </div>
+        </section>
+
+        <section class="pageniation-sec">
+            <div class="container-site-job-match">
+                <div class="pagination-job">
+                    <a class="fill-box" href="#">&laquo;</a>
+                    <a class="fill-box" href="#">&lt;</a>
+                    <a class="active" href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">...</a>
+                    <a href="#">9</a>
+                    <a href="#">10</a>
+                    <a class="fill-box" href="#">&gt;</a>
+                    <a class="fill-box" href="#">&raquo;</a>
                 </div>
             </div>
-
-            <div class="divider"></div>
-            <div class="left-right-content">
-                <div class="col-left-j-space">
-                    <div class="short-content-left job-col-left">
-                        <div class="job-title-left">
-                            <div class="job-services-col-left job-services-col-left-w job-services-col-left-w-2">
-                                <a href="#">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </a>
-                            </div>
-                            <a href="#"><button>Promoted *</button></a>
-                        </div>
-                        <a href="#">
-                            <h3>React Java Developer</h3>
-                        </a>
-
-                        <div class="job-time">
-                            <p>Full Time - remote</p>
-                        </div>
-                        <p class="job-discription-left">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
-                        <a href="#"><button>View detailed Job Position</button></a>
-                    </div>
-                </div>
-                <div class="divider-left"></div>
-                <div class="Job-Opportunities-row job-col-right">
-                    <div class="job-requriments-right-col">
-                        <div class="job-details-right-col">
-                            <div class="job-title-right-col">
-                                <a href="#" class="title-job-link title-job-link-w">
-                                    <h3>React Java Developer</h3>
-                                </a>
-                                <a href="#"><button>Promoted *</button></a>
-                            </div>
-                            <div class="job-seclude-right-col">
-                                <div class="job-time">
-                                    <p>Salary $500.00</p>
-                                </div>
-                                <div class="job-time">
-                                    <p>Full Time - remote</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="job-info">
-                            <div class="job-services-right-col-anchor">
-                                <a href="#">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service1</p>
-                                </a>
-                            </div>
-                            <p class="job-discription-right">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem
-                                Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                        </div>
-                        <div class="job-skill-location-right-col">
-                            <div class="job-skills-right-col">
-                                <button>C++</button>
-                                <button>Java</button>
-                                <button>Python</button>
-                                <button>Micro Services</button>
-                                <button>Angular</button>
-                            </div>
-                            <div class="job-location-right-col">
-                                <p>Location</p>
-                                <img src="../image/Location.png" alt="Location">
-                                <p class="job-city">Cities</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="job-announcements-right-col">
-                        <div class="job-announcements-col">
-                            <a href="#"><button>View detailed Job Position</button></a>
-                            <div class="job-time-wishlist">
-                                <div class="job-announcements-status">
-                                    <p>21 Days ago</p>
-                                </div>
-                                <div class="job-apply">
-                                    <img src="../image/apply.png" alt="apply">
-                                    <p>Apply now</p>
-                                </div>
-                                <div class="job-favorite">
-                                    <img src="../image/favorite.png" alt="favorite">
-                                    <p>Add Job to Wishlist</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        </section>
+        <!--------world conect-->
+        <section class="world-conect-sec">
+            <div class="world-conect-row">
+                <img src="../image/world.png" alt="world">
+                <p>Connecting the world to work</p>
             </div>
-
-            <div class="divider"> </div>
-            <div class="left-right-content">
-                <div class="col-left-j-space">
-                    <div class="short-content-left job-col-left">
-                        <div class="job-title-left">
-                            <div class="job-services-col-left job-services-col-left-w job-services-col-left-w-2">
-                                <a href="#">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </a>
-                            </div>
-                            <a href="#"><button>Promoted *</button></a>
-                        </div>
-                        <a href="#">
-                            <h3>React Java Developer</h3>
-                        </a>
-
-                        <div class="job-time">
-                            <p>Full Time - remote</p>
-                        </div>
-                        <p class="job-discription-left">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
-                        <a href="#"><button>View detailed Job Position</button></a>
-                    </div>
-                </div>
-                <div class="divider-left"></div>
-                <div class="Job-Opportunities-row job-col-right">
-                    <div class="job-requriments-right-col">
-                        <div class="job-details-right-col">
-                            <div class="job-title-right-col">
-                                <a href="#" class="title-job-link title-job-link-w">
-                                    <h3>React Java Developer</h3>
-                                </a>
-                                <a href="#"><button>Promoted *</button></a>
-                            </div>
-                            <div class="job-seclude-right-col">
-                                <div class="job-time">
-                                    <p>Salary $500.00</p>
-                                </div>
-                                <div class="job-time">
-                                    <p>Full Time - remote</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="job-info">
-                            <div class="job-services-right-col-anchor">
-                                <a href="#">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service1</p>
-                                </a>
-                            </div>
-                            <p class="job-discription-right">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem
-                                Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                        </div>
-                        <div class="job-skill-location-right-col">
-                            <div class="job-skills-right-col">
-                                <button>C++</button>
-                                <button>Java</button>
-                                <button>Python</button>
-                                <button>Micro Services</button>
-                                <button>Angular</button>
-                            </div>
-                            <div class="job-location-right-col">
-                                <p>Location</p>
-                                <img src="../image/Location.png" alt="Location">
-                                <p class="job-city">Cities</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="job-announcements-right-col">
-                        <div class="job-announcements-col">
-                            <a href="#"><button>View detailed Job Position</button></a>
-                            <div class="job-time-wishlist">
-                                <div class="job-announcements-status">
-                                    <p>21 Days ago</p>
-                                </div>
-                                <div class="job-apply">
-                                    <img src="../image/apply.png" alt="apply">
-                                    <p>Apply now</p>
-                                </div>
-                                <div class="job-favorite">
-                                    <img src="../image/favorite.png" alt="favorite">
-                                    <p>Add Job to Wishlist</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="divider"></div>
-            <div class="left-right-content">
-                <div class="col-left-j-space">
-                    <div class="short-content-left job-col-left">
-                        <div class="job-title-left">
-                            <div class="job-services-col-left job-services-col-left-w job-services-col-left-w-2">
-                                <a href="#">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </a>
-                            </div>
-                            <a href="#"><button>Promoted *</button></a>
-                        </div>
-                        <a href="#">
-                            <h3>React Java Developer</h3>
-                        </a>
-
-                        <div class="job-time">
-                            <p>Full Time - remote</p>
-                        </div>
-                        <p class="job-discription-left">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
-                        <a href="#"><button>View detailed Job Position</button></a>
-                    </div>
-                </div>
-                <div class="divider-left"></div>
-                <div class="Job-Opportunities-row job-col-right">
-                    <div class="job-requriments-right-col">
-                        <div class="job-details-right-col">
-                            <div class="job-title-right-col">
-                                <a href="#" class="title-job-link title-job-link-w">
-                                    <h3>React Java Developer</h3>
-                                </a>
-                                <a href="#"><button>Promoted *</button></a>
-                            </div>
-                            <div class="job-seclude-right-col">
-                                <div class="job-time">
-                                    <p>Salary $500.00</p>
-                                </div>
-                                <div class="job-time">
-                                    <p>Full Time - remote</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="job-info">
-                            <div class="job-services-right-col-anchor">
-                                <a href="#">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service1</p>
-                                </a>
-                            </div>
-                            <p class="job-discription-right">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem
-                                Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                        </div>
-                        <div class="job-skill-location-right-col">
-                            <div class="job-skills-right-col">
-                                <button>C++</button>
-                                <button>Java</button>
-                                <button>Python</button>
-                                <button>Micro Services</button>
-                                <button>Angular</button>
-                            </div>
-                            <div class="job-location-right-col">
-                                <p>Location</p>
-                                <img src="../image/Location.png" alt="Location">
-                                <p class="job-city">Cities</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="job-announcements-right-col">
-                        <div class="job-announcements-col">
-                            <a href="#"><button>View detailed Job Position</button></a>
-                            <div class="job-time-wishlist">
-                                <div class="job-announcements-status">
-                                    <p>21 Days ago</p>
-                                </div>
-                                <div class="job-apply">
-                                    <img src="../image/apply.png" alt="apply">
-                                    <p>Apply now</p>
-                                </div>
-                                <div class="job-favorite">
-                                    <img src="../image/favorite.png" alt="favorite">
-                                    <p>Add Job to Wishlist</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="divider"></div>
-            <div class="left-right-content">
-                <div class="col-left-j-space">
-                    <div class="short-content-left job-col-left">
-                        <div class="job-title-left">
-                            <div class="job-services-col-left job-services-col-left-w job-services-col-left-w-2">
-                                <a href="#">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service</p>
-                                </a>
-                            </div>
-                            <a href="#"><button>Promoted *</button></a>
-                        </div>
-                        <a href="#">
-                            <h3>React Java Developer</h3>
-                        </a>
-
-                        <div class="job-time">
-                            <p>Full Time - remote</p>
-                        </div>
-                        <p class="job-discription-left">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
-                        <a href="#"><button>View detailed Job Position</button></a>
-                    </div>
-                </div>
-                <div class="divider-left"></div>
-                <div class="Job-Opportunities-row job-col-right">
-                    <div class="job-requriments-right-col">
-                        <div class="job-details-right-col">
-                            <div class="job-title-right-col">
-                                <a href="#" class="title-job-link title-job-link-w">
-                                    <h3>React Java Developer</h3>
-                                </a>
-                                <a href="#"><button>Promoted *</button></a>
-                            </div>
-                            <div class="job-seclude-right-col">
-                                <div class="job-time">
-                                    <p>Salary $500.00</p>
-                                </div>
-                                <div class="job-time">
-                                    <p>Full Time - remote</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="job-info">
-                            <div class="job-services-right-col-anchor">
-                                <a href="#">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>Amazon Web Service1</p>
-                                </a>
-                            </div>
-                            <p class="job-discription-right">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem
-                                Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                        </div>
-                        <div class="job-skill-location-right-col">
-                            <div class="job-skills-right-col">
-                                <button>C++</button>
-                                <button>Java</button>
-                                <button>Python</button>
-                                <button>Micro Services</button>
-                                <button>Angular</button>
-                            </div>
-                            <div class="job-location-right-col">
-                                <p>Location</p>
-                                <img src="../image/Location.png" alt="Location">
-                                <p class="job-city">Cities</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="job-announcements-right-col">
-                        <div class="job-announcements-col">
-                            <a href="#"><button>View detailed Job Position</button></a>
-                            <div class="job-time-wishlist">
-                                <div class="job-announcements-status">
-                                    <p>21 Days ago</p>
-                                </div>
-                                <div class="job-apply">
-                                    <img src="../image/apply.png" alt="apply">
-                                    <p>Apply now</p>
-                                </div>
-                                <div class="job-favorite">
-                                    <img src="../image/favorite.png" alt="favorite">
-                                    <p>Add Job to Wishlist</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <div class="divider"></div>
-        </div>
-    </section>
-
-    <section class="pageniation-sec">
-        <div class="container-site-job-match">
-            <div class="pagination-job">
-                <a class="fill-box" href="#">&laquo;</a>
-                <a class="fill-box" href="#">&lt;</a>
-                <a class="active" href="#">1</a>
-                <a href="#">2</a>
-                <a href="#">...</a>
-                <a href="#">9</a>
-                <a href="#">10</a>
-                <a class="fill-box" href="#">&gt;</a>
-                <a class="fill-box" href="#">&raquo;</a>
-            </div>
-        </div>
-    </section>
-    <!--------world conect-->
-    <section class="world-conect-sec">
-        <div class="world-conect-row">
-            <img src="../image/world.png" alt="world">
-            <p>Connecting the world to work</p>
-        </div>
-    </section>
+        </section>
+    </div>
     <!--------foooter-->
     <section class="footer-sec">
         <div class="container-site">

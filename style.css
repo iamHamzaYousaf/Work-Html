@@ -418,6 +418,10 @@ img.vector {
     text-align: justify;
 }
 
+.featured-col button {
+    line-height: 24px;
+}
+
 .featured-col a>button:after {
     content: " ";
     background-image: url(./image/copmany-detail.svg);
@@ -820,7 +824,7 @@ p.job-discription {
     border-radius: 4px;
     border: 1px solid #E2EDFF;
     font-weight: var(--font-weight-medium);
-    padding: 5px 10px;
+    padding: 8px 10px;
 }
 
 .job-apply {
@@ -7461,6 +7465,10 @@ button.form-submit-job-model {
 
 /****************1440px home page css ************/
 
+.all-page-bg-clr {
+    background: #FBFBFB;
+}
+
 
 /*****banner start******/
 
@@ -7472,14 +7480,40 @@ button.form-submit-job-model {
 }
 
 .col-2-banner {
-    padding: 0px 20px 0 20px;
+    padding: 0 51px;
 }
 
 .col-2-banner p.banner-text {
-    color: #BDBDBD;
+    color: rgb(18 18 18 / 40%);
     font-size: var(--body-text);
     font-weight: var(--font-weight-medium);
     padding: 20px 0px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.button-stack button {
+    padding: 14px 30px;
+    width: 90%;
+    border-radius: 4px;
+    font-size: 22px;
+}
+
+.col-2-banner h1 {
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-weight: 700;
+    font-family: var(--fira-sans);
+}
+
+
+/***********logo slider**********/
+
+.logo-dev {
+    padding: 30px 0px;
+    background-color: #ffffff;
 }
 
 
@@ -7490,32 +7524,10 @@ button.form-submit-job-model {
     color: var(--text-color);
     font-weight: 300;
     line-height: 27px;
-    padding: 20px 0px;
+    padding: 24px 0px 30px 0;
     opacity: 0.8;
-}
-
-.button-stack button {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    background: var(--accent-color);
-    padding: 12px 30px;
-    width: 60%;
-    margin-top: 10px;
-    border: 0px;
-    border-radius: 6px;
-    color: var(--color-white);
-    font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
-    font-size: 22px;
-}
-
-.col-2-banner h1 {
-    font-size: 36px;
-    text-transform: uppercase;
-    color: var(--text-color);
-    font-weight: 700;
-    font-family: var(fi);
+    min-height: 135px;
+    height: auto;
 }
 
 
@@ -7713,7 +7725,11 @@ button.form-submit-job-model {
 }
 
 .country-flages-img {
-    margin: 0 80px;
+    margin: 0 100px;
+}
+
+.countries-work-location figcaption {
+    line-height: 31px;
 }
 
 .contact-sec {
@@ -7733,9 +7749,32 @@ button.form-submit-job-model {
     font-size: 36px;
 }
 
+.contact-btn button {
+    padding: 18px 30px;
+    margin-top: 0px;
+}
+
 h4.team-remote,
 h4.contect-readt-start {
     font-size: 45px;
+}
+
+
+/************world ********/
+
+.world-conect-sec {
+    background: #fff;
+}
+
+
+/********footer*********/
+
+.footer-sec {
+    background-color: #375B96;
+}
+
+.footer-row {
+    padding-bottom: 65px;
 }
 
 
@@ -7751,10 +7790,24 @@ h4.contect-readt-start {
 
 .company-content-right p {
     font-size: var(--promoted-btn);
+    line-height: 36px;
+}
+
+.company-detail-sec {
+    padding: 100px 0px 120px;
+}
+
+.search-box {
+    background: #fff;
 }
 
 
 /****************1440px job details page css ************/
+
+.three-filter-inline,
+.job-post-date {
+    background: white;
+}
 
 
 /******tages*********/
@@ -7840,6 +7893,13 @@ p.j-l-text {
 
 p.job-discription-com-j-recruite {
     font-size: var(--promoted-btn);
+    line-height: 38px;
+    padding: 20px 0 20px 0px;
+}
+
+.recruite-note-box {
+    background-size: 100% 100%;
+    padding: 24px 20px;
 }
 
 .job-location-title p,
@@ -7859,6 +7919,10 @@ p.company-j-info-l {
 
 .smilar-job-heading h2 {
     padding-bottom: 0;
+}
+
+.job-heading-detail-sec {
+    padding-bottom: 60px;
 }
 
 
@@ -7942,6 +8006,10 @@ p.company-j-info-l {
 .job-col-right .top-text-btn-align h3 {
     font-size: 18px;
     max-width: 100%;
+}
+
+.pagination-job a {
+    line-height: 20px;
 }
 
 
@@ -8304,6 +8372,10 @@ p.job-applied-candidate-dashboard {
     .job-title-right-col a.title-job-link {
         max-width: 100%;
     }
+    .button-stack button {
+        width: 100%;
+        padding: 14px;
+    }
 }
 
 @media only screen and (max-width:1299px) {
@@ -8391,7 +8463,8 @@ p.job-applied-candidate-dashboard {
 
 @media only screen and (max-width:1149px) {
     .button-stack button {
-        width: 70%;
+        width: 100%;
+        font-size: 20px;
     }
     .col-2-banner h1 {
         font-size: 40px;
