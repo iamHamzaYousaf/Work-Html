@@ -4247,6 +4247,9 @@ ul.list-job-title-year-job li:hover {
     align-items: center;
 }
 
+.text-filter-icon img,  .text-filter-icon div img{
+    height: 10px;
+  }
 
 /* .text-filter-icon img {
     width: 18px;
