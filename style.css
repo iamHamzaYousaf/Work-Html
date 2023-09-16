@@ -8285,6 +8285,66 @@ p.job-applied-candidate-dashboard {
 
 /*************responsivness start here ***********/
 
+@media only screen and (max-width: 1600px)and (min-width: 1100px) {
+    /********home page redesign********/
+    .find-job-btn button {
+        padding: 8px 24px;
+        font-size: 18px;
+    }
+    button.login-header,
+    .col-two-button button {
+        padding: 8px 24px;
+        font-size: 18px;
+    }
+    .col-2-banner h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .col-2-banner p.banner-text {
+        font-size: 18px;
+        padding: 15px 0px;
+    }
+    .button-stack button {
+        padding: 14px 30px;
+        width: auto;
+        border-radius: 4px;
+        font-size: 18px;
+    }
+    .image-heading h3 {
+        font-size: 20px;
+    }
+    .first-col-content p {
+        font-size: 18px;
+        padding: 30px 0px;
+    }
+    .new-job {
+        padding: 70px 0px;
+    }
+    .ensure-heading h2 {
+        font-size: 30px;
+    }
+    .job-heading h2 {
+        font-size: 30px;
+    }
+    .job-title a.title-job-link h3 {
+        font-size: 22px;
+    }
+    .countries-work-heading h2 {
+        font-size: 30px;
+    }
+    .countries-work {
+        padding: 0px 0px 70px;
+    }
+    .countries-work-location figcaption {
+        font-size: 20px;
+        line-height: 33px;
+    }
+    h4.team-remote,
+    h4.contect-readt-start {
+        font-size: 36px;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     /*******home page css*******/
     .job-sec-wrape {
@@ -8518,9 +8578,9 @@ p.job-applied-candidate-dashboard {
         width: 100%;
         font-size: 20px;
     }
-    .col-2-banner h1 {
+    /* .col-2-banner h1 {
         font-size: 40px;
-    }
+    } */
     .countries-work {
         padding: 0px 0px 50px 0px;
     }
