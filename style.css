@@ -249,7 +249,7 @@ button.login-header {
     font-weight: 500;
 }
 
-.find-job-btn button {
+button.find-j-nav {
     background: var(--primary-color);
     color: var(--color-white);
     padding: 8px 75px;
@@ -917,7 +917,7 @@ p.job-discription {
 
 
 /* .btn-size button {
-    width: 100%;
+width: 100%;
 } */
 
 .job-announcements-col a {
@@ -3069,10 +3069,10 @@ section.f-dream.job {
 
 
 /* .job-fillter-company {
-    display: flex;
-    align-items: center;
-    max-width: 100%;
-    width: 100%;
+display: flex;
+align-items: center;
+max-width: 100%;
+width: 100%;
 } */
 
 .three-filter-inline {
@@ -4229,15 +4229,15 @@ ul.list-job-title-year-job li:hover {
 
 
 /* .company-form-dropdownBox1:after {
-    content: " ";
-    background-image: url(./image/company--detail-filter.png);
-    width: 38px;
-    height: 10px;
-    background-repeat: no-repeat;
-    margin-left: 10px;
-    position: absolute;
-    background-size: contain;
-    right: 0;
+content: " ";
+background-image: url(./image/company--detail-filter.png);
+width: 38px;
+height: 10px;
+background-repeat: no-repeat;
+margin-left: 10px;
+position: absolute;
+background-size: contain;
+right: 0;
 } */
 
 .text-filter-icon {
@@ -4247,13 +4247,15 @@ ul.list-job-title-year-job li:hover {
     align-items: center;
 }
 
-.text-filter-icon img,  .text-filter-icon div img{
+.text-filter-icon img,
+.text-filter-icon div img {
     height: 10px;
-  }
+}
+
 
 /* .text-filter-icon img {
-    width: 18px;
-    height: 14px;
+width: 18px;
+height: 14px;
 } */
 
 .text-filter-icon p {
@@ -6051,15 +6053,15 @@ a.anchor-cards-job {
 
 
 /* .company-form-dropdownBox1-table:after {
-    content: " ";
-    background-image: url(./image/company--detail-filter.png);
-    width: 38px;
-    height: 10px;
-    background-repeat: no-repeat;
-    margin-left: 10px;
-    position: absolute;
-    background-size: contain;
-    right: 0;
+content: " ";
+background-image: url(./image/company--detail-filter.png);
+width: 38px;
+height: 10px;
+background-repeat: no-repeat;
+margin-left: 10px;
+position: absolute;
+background-size: contain;
+right: 0;
 } */
 
 .text-filter-icon-table {
@@ -6071,8 +6073,8 @@ a.anchor-cards-job {
 
 
 /* .text-filter-icon-table img {
-    width: 18px;
-    height: 14px;
+width: 18px;
+height: 14px;
 } */
 
 .text-filter-icon-table p {
@@ -7479,7 +7481,7 @@ button.form-submit-job-model {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 60px;
+    padding: 50px 60px 0;
 }
 
 .col-2-banner {
@@ -8290,13 +8292,13 @@ p.job-applied-candidate-dashboard {
 
 @media only screen and (max-width: 1600px)and (min-width: 1100px) {
     /********home page redesign********/
-    .find-job-btn button {
-        padding: 8px 24px;
-        font-size: 18px;
-    }
     button.login-header,
     .col-two-button button {
         padding: 8px 24px;
+        font-size: 18px;
+    }
+    button.find-j-nav {
+        padding: 8px 36px;
         font-size: 18px;
     }
     .col-2-banner h1 {
@@ -8313,11 +8315,45 @@ p.job-applied-candidate-dashboard {
         border-radius: 4px;
         font-size: 18px;
     }
+    .banner-row {
+        padding: 50px 100px 0;
+    }
+    .col-1-banner,
+    .col-3-banner {
+        max-width: 25%;
+    }
+    .col-2-banner {
+        max-width: 50%;
+    }
+    .logs-ros {
+        width: 90%;
+        margin: 0 auto;
+    }
     .image-heading h3 {
         font-size: 20px;
     }
+    .card-text {
+        padding: 10px 0px 20px 0;
+        min-height: 120px;
+        height: auto;
+    }
+    .sucess-featured-sec,
+    .sucess-featured-sec-alt {
+        margin-top: 75px;
+    }
+    .featured-col-content {
+        height: 280px;
+    }
+    .sucess-featured-img img {
+        height: 350px;
+        object-fit: cover;
+    }
     .first-col-content p {
         font-size: 18px;
+        padding: 20px 0px;
+    }
+    .sucess-featured.alt,
+    .sucess-featured {
         padding: 30px 0px;
     }
     .new-job {
@@ -8332,11 +8368,14 @@ p.job-applied-candidate-dashboard {
     .job-title a.title-job-link h3 {
         font-size: 22px;
     }
+    .countries-work-location {
+        padding-top: 50px;
+    }
     .countries-work-heading h2 {
         font-size: 30px;
     }
     .countries-work {
-        padding: 0px 0px 70px;
+        padding: 0px 0px 60px;
     }
     .countries-work-location figcaption {
         font-size: 20px;
@@ -8345,6 +8384,17 @@ p.job-applied-candidate-dashboard {
     h4.team-remote,
     h4.contect-readt-start {
         font-size: 36px;
+    }
+    h4.team-remote {
+        padding-bottom: 20px;
+    }
+    .contact-btn button {
+        padding: 15px 15px;
+    }
+    .contact-btn a>button:after {
+        width: 35px;
+        height: 30px;
+        margin-left: 20px;
     }
 }
 
@@ -8582,8 +8632,8 @@ p.job-applied-candidate-dashboard {
         font-size: 20px;
     }
     /* .col-2-banner h1 {
-        font-size: 40px;
-    } */
+    font-size: 40px;
+} */
     .countries-work {
         padding: 0px 0px 50px 0px;
     }
