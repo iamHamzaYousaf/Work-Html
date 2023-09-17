@@ -7837,7 +7837,9 @@ h4.contect-readt-start {
 .space-inner-row {
     padding: 0 20px;
 }
-
+.space-inner-nav {
+    padding: 0 40px;
+}
 .company-content-right p {
     font-size: var(--promoted-btn);
     line-height: 36px;
@@ -8302,11 +8304,11 @@ p.job-applied-candidate-dashboard {
         font-size: 18px;
     }
     .col-2-banner h1 {
-        font-size: 30px;
-        line-height: 35px;
+        font-size: 36px;
+        line-height: 44px;
     }
     .col-2-banner p.banner-text {
-        font-size: 18px;
+        font-size: 20px;
         padding: 15px 0px;
     }
     .button-stack button {
@@ -8316,7 +8318,7 @@ p.job-applied-candidate-dashboard {
         font-size: 18px;
     }
     .banner-row {
-        padding: 50px 100px 0;
+        padding: 50px 70px 0;
     }
     .col-1-banner,
     .col-3-banner {
