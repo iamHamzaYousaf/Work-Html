@@ -5,6 +5,7 @@
     --accent-color: #FFA033;
     --text-color: #000000;
     --color-white: #fff;
+    --color-grey: #FBFBFB;
     --btn-color: #E2EDFF;
     --boder-color: #BDBDBD;
     --form-text-account: #64A7B6;
@@ -906,7 +907,7 @@ p.job-discription {
 }
 
 .job-announcements-col button {
-    background: var(--color-white);
+    background: var(--color-grey);
     border: 1px solid var(--primary-color);
     border-radius: 6px;
     color: var(--primary-color);
