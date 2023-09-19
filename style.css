@@ -8989,9 +8989,7 @@ font-size: 40px;
 
 @media only screen and (max-width:860px) {
     .col-2-banner p.banner-text {
-        color: var(--text-color);
-        font-size: 18px;
-        font-weight: var(--font-weight-bold);
+        font-size: 16px;
         padding: 0px 0px;
     }
     .button-stack button {
@@ -9315,7 +9313,8 @@ font-size: 40px;
         justify-content: end;
     }
     .col-2-banner h1 {
-        font-size: 26px;
+        font-size: 24px;
+        line-height: 30px;
     }
     .col-1-banner,
     .col-3-banner {
@@ -9347,6 +9346,11 @@ font-size: 40px;
     }
     img.vector {
         display: none;
+    }
+    .logs-ros {
+        width: 100%;
+        margin: 0 auto;
+        gap: 20px;
     }
     .featured-col {
         width: 100%;
@@ -9398,8 +9402,8 @@ font-size: 40px;
         margin: 0 auto;
     }
     .ensure-heading h2 {
-        text-align: center;
-        font-size: 30px;
+        font-size: 24px;
+        line-height: 30px;
     }
     .sucess-featured-sec,
     .sucess-featured-sec-alt {
@@ -9490,18 +9494,19 @@ font-size: 40px;
     }
     .countries-work-heading h2 {
         text-align: center;
-        font-size: 30px;
+        font-size: 24px;
     }
     .countries-work-location {
         justify-content: center;
+        padding-top: 30px;
     }
     .countries-work-location figure {
         max-width: 44%;
         width: 100%;
     }
     .countries-work-location figcaption {
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 18px;
+        line-height: 28px;
     }
     .ready-start-image {
         display: none;
@@ -9512,8 +9517,11 @@ font-size: 40px;
     }
     h4.team-remote,
     h4.contect-readt-start {
-        font-size: 30px;
+        font-size: 24px;
         text-align: center;
+    }
+    h4.team-remote {
+        padding-bottom: 20px;
     }
     .contact-sec {
         padding: 50px 0px 50px 0px;
@@ -9831,7 +9839,7 @@ font-size: 40px;
     .j-react-title h2,
     .job-heading h2,
     .company-detail-heading h2 {
-        font-size: 30px;
+        font-size: 24px;
     }
     /******************/
     p.clear-filter {
@@ -9855,7 +9863,7 @@ font-size: 40px;
     }
     p.job-discription,
     .job-discription-com-j {
-        font-size: 18px;
+        font-size: 16px;
     }
     .job-search-box-row {
         display: block;
