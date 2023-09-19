@@ -7462,6 +7462,10 @@ button.form-submit-job-model {
     background: #FBFBFB;
 }
 
+.col-two-button .find-job-btn {
+    margin-right: 80px;
+}
+
 button.find-j-nav {
     background: var(--primary-color);
     color: var(--color-white);
@@ -7500,14 +7504,14 @@ button.signuo-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 0px 25px;
+    padding: 90px 0px 25px;
 }
 
 .col-1-banner img,
 .col-3-banner img {
-    height: 400px;
-    width: 400px;
-    object-fit: fill;
+    width: 300px;
+    height: 430px;
+    object-fit: contain;
 }
 
 .col-1-banner,
@@ -7582,14 +7586,20 @@ img.vector {
 }
 
 .card-text {
-    font-size: 14px;
+    font-size: 16px;
     color: var(--text-color);
     font-weight: 300;
     line-height: 27px;
     padding: 24px 0px 30px 0;
-    opacity: 0.8;
+    opacity: 1;
     min-height: 135px;
     height: auto;
+    font-family: var(--museo-sans);
+    text-align: left;
+}
+
+.featured-col button {
+    font-size: 14px;
 }
 
 .featured-row {
@@ -7666,7 +7676,8 @@ img.vector {
     font-weight: 300;
     line-height: 28px;
     padding: 20px 0px 50px 0;
-    opacity: 0.8;
+    opacity: 1;
+    font-family: var(--museo-sans);
 }
 
 .sucess-featured-info {
@@ -7692,6 +7703,10 @@ img.vector {
 
 .sucess-featured-sec-alt .sucess-featured-info {
     padding: 0 80px;
+}
+
+.sucess-featured-info button {
+    font-size: 14px;
 }
 
 
@@ -7863,12 +7878,14 @@ p.job-discription {
 .contact-btn a>button:before {
     content: " ";
     background-image: url(./image/call.png);
-    width: 40px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-size: contain;
     display: inline-block;
     background-repeat: no-repeat;
     vertical-align: middle;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 h4.team-remote,
