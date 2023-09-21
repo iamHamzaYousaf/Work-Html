@@ -682,8 +682,7 @@ button.detail-btn-lft {
 p.job-discription {
     color: var(--text-color);
     font-size: 16px;
-    font-weight: 300;
-    opacity: 0.8;
+    font-weight: 300; 
     font-family: var(--museo-sans);
     padding: 15px 0 36px 0;
     text-align: justify;
@@ -700,13 +699,13 @@ p.job-discription {
 .job-services-anchor p {
     color: var(--text-color);
     font-family: var(--museo-sans);
-    font-size: var(--promoted-btn);
+    font-size: 16px;
     font-weight: var(--font-weight-medium);
 }
 
 .job-time p {
     color: rgb(0 0 0 / 100%);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
 }
@@ -1080,9 +1079,9 @@ h4.contect-readt-start {
 .job-apply {
     display: flex;
     gap: 15px;
-    padding: 12px 0px;
+    padding: 16px 0px;
     color: var(--accent-color);
-    font-size: var(--promoted-btn);
+    font-size: 16px;
     font-weight: var(--font-weight-medium);
 }
 
