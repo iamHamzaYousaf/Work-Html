@@ -443,6 +443,7 @@ img.vector {
     height: 60px;
     width: 60px;
     object-fit: contain;
+    border-radius: 100%;
 }
 
 button.j-home-btn {
@@ -454,6 +455,7 @@ button.j-home-btn {
     border-radius: 4px;
     font-family: var(--museo-sans);
     border: 0;
+    font-weight: var(--font-weight-medium);
 }
 
 .card-headeing h3 {
@@ -484,6 +486,7 @@ button.e-btn {
     border-radius: 4px;
     font-family: var(--museo-sans);
     border: 0;
+    font-weight: var(--font-weight-medium);
 }
 
 .featured-row {
@@ -549,6 +552,12 @@ button.detail-btn {
     display: block;
     margin: 0 0 0 auto;
     align-self: flex-end;
+}
+
+.image-heading-col img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
 }
 
 .image-heading-col h3 {
