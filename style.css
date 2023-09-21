@@ -434,7 +434,7 @@ img.vector {
 
 .image-heading {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 0px;
     justify-content: space-between;
 }
@@ -450,8 +450,8 @@ button.j-home-btn {
     background: var(--btn-color);
     color: var(--primary-color);
     font-size: 14px;
-    padding: 8px 34px;
-    line-height: 32px;
+    padding: 8px 18px;
+    line-height: 21px;
     border-radius: 4px;
     font-family: var(--museo-sans);
     border: 0;
@@ -481,8 +481,8 @@ button.e-btn {
     background: var(--accent-color);
     color: var(--text-color);
     font-size: 14px;
-    padding: 8px 34px;
-    line-height: 32px;
+    padding: 8px 18px;
+    line-height: 21px;
     border-radius: 4px;
     font-family: var(--museo-sans);
     border: 0;
