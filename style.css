@@ -1341,7 +1341,7 @@ button.allow-btn {
     max-width: 100%;
     width: 100%;
     margin: 0 auto;
-    padding: 20px 30px 40px 30px;
+    padding: 20px 60px 40px 60px;
 }
 
 .candidate-signin h2 {
@@ -1358,16 +1358,19 @@ p.heading-below-text {
     font-family: var(--museo-sans);
     text-align: center;
     clear: both;
+}
+
+.heading-below-p {
     margin-top: 15px !important;
 }
 
 .candidate-username input[type="text"] {
     width: 100%;
-    padding: 10px 8px;
+    padding: 13px 8px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     color: var(--text-color);
-    font-size: var(--promoted-btn);
+    font-size: 16px;
     font-weight: var(--font-weight-medium);
 }
 
@@ -1469,7 +1472,7 @@ button.password-btn {
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 6px;
     padding: 15px 0;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .candidate-login-google a {
@@ -1567,7 +1570,7 @@ input#forgotpassowrd-mail {
     max-width: 100%;
     width: 100%;
     margin: 0 auto;
-    padding: 40px 30px 40px 30px;
+    padding: 40px 60px 40px 60px;
 }
 
 .candidate-signin-password-ft h2 {
@@ -1585,13 +1588,13 @@ input#forgotpassowrd-mail {
 }
 
 .candidate-signup-form {
-    max-width: 50%;
+    max-width: 55%;
     width: 100%;
     margin: 0 auto;
 }
 
 .goole-login-border {
-    max-width: 50%;
+    max-width: 55%;
     width: 100%;
     margin: 0 auto;
 }
@@ -1717,7 +1720,7 @@ button.toggle-btn-active {
 }
 
 .candidate-signup-form-feild {
-    max-width: 50%;
+    max-width: 55%;
     width: 100%;
     margin: 50px auto;
 }
@@ -1746,7 +1749,7 @@ button.toggle-btn-active {
 }
 
 .f-feild {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .f-feild-forgot {
@@ -1757,7 +1760,7 @@ button.toggle-btn-active {
     margin-bottom: 12px;
     color: var(--primary-color);
     font-family: var(--museo-sans);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: var(--font-weight-bold);
 }
 
@@ -1767,7 +1770,7 @@ label.l-f-img {
 
 .signup-email input[type="email"] {
     width: 100%;
-    padding: 18px 8px;
+    padding: 13px 8px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
 }
@@ -1863,10 +1866,10 @@ border-bottom-left-radius: 0; */
     bottom: 14px;
     left: 15px;
     color: var(--text-color);
-    font-size: var(--promoted-btn);
+    font-size: 16px;
     font-family: var(--museo-sans);
-    font-weight: var(--font-weight-medium);
-    opacity: 0.3;
+    font-weight: 300;
+    opacity: 0.4;
 }
 
 .signup-resume input[type="file"] {
@@ -1995,17 +1998,19 @@ button.form-submit {
 .tags-tittles ul.tags-titles-list li {
     display: inline-flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 
 /************** common error validation from csss *****************/
 
 p.error-msg {
-    text-align: end;
+    text-align: start;
     color: var(--error-msg-color);
     font-size: 14px;
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
+    text-transform: capitalize;
 }
 
 ul.error-msg li {
@@ -2026,6 +2031,7 @@ p.hide-error {
 p.error-email {
     text-align: center !important;
     margin-top: 30px;
+    display: none;
 }
 
 
@@ -2582,6 +2588,8 @@ img.password-icon-togle {
 
 ul.progressbar-steps {
     padding-left: 0;
+    z-index: 1;
+    position: relative;
 }
 
 .step-progressbar-container {
@@ -2741,7 +2749,7 @@ button.btn-next-pre-toggle:hover {
     padding: 14px 0;
     color: var(--color-white);
     font-family: var(--museo-sans);
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 15px;
     border: 1px solid var(--primary-color);
 }
@@ -2754,7 +2762,7 @@ button.btn-next-previous {
     padding: 14px 0;
     color: var(--primary-color);
     font-family: var(--museo-sans);
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 15px;
     border: 1px solid var(--primary-color);
 }
@@ -2767,7 +2775,7 @@ button.btn-job-post {
     padding: 6px 0;
     color: var(--color-white);
     font-family: var(--museo-sans);
-    font-size: var(--text-size);
+    font-size: 16px;
     margin-top: 15px;
     border: 1px solid var(--primary-color);
 }
@@ -2850,10 +2858,11 @@ button.btn-job-post {
 .company-form-dropdownBox-f {
     width: 100%;
     cursor: pointer;
-    color: rgb(0 0 0 / 60%);
+    color: rgb(0 0 0 / 40%);
     display: flex;
     align-items: center;
     gap: 5px;
+    font-size: 16px;
 }
 
 .company-form-dropdownBox-profile {
@@ -2868,20 +2877,6 @@ button.btn-job-post {
     font-weight: var(--font-weight-medium);
     padding-left: 10px;
 }
-
-
-/* .company-form-dropdownBox-f:after {
-content: " ";
-background-image: url(./image/dropdown-arrow.png);
-width: 19px;
-height: 20px;
-background-repeat: no-repeat;
-margin-left: 10px;
-position: absolute;
-background-size: 100%;
-right: 12px;
-bottom: 15px;
-} */
 
 .dropdown-form-f {
     position: absolute;
@@ -3818,6 +3813,7 @@ ul.skill-list-j {
     border: 0;
     width: 85%;
     margin-left: 5px;
+    background: transparent !important;
 }
 
 .smilar-job-heading {
@@ -3954,10 +3950,6 @@ section.company-job-sec {
 
 .company-detail-sec {
     padding: 100px 0px 120px;
-}
-
-.search-box {
-    background: #fff;
 }
 
 
@@ -4228,7 +4220,7 @@ ul.list-job-title-year-job {
 ul.list-job-title-year-job li {
     border-radius: 8px;
     background: #ffffff;
-    padding: 0px 10px;
+    padding: 0px 10px 0 2px;
     cursor: pointer;
     color: rgb(0 0 0 / 50%);
     font-size: var(--skill-text-size);
@@ -5594,10 +5586,10 @@ input#Company-name-employe-profile::-webkit-input-placeholder,
 input#profile-url-employee::-webkit-input-placeholder,
 input#location-f-profile::-webkit-input-placeholder,
 input#jon-search-box::-webkit-input-placeholder {
-    color: rgb(0 0 0 / 80%);
+    color: rgb(0 0 0 / 40%);
     font-size: var(--body-text);
     font-family: var(--museo-sans);
-    font-weight: var(--font-weight-medium);
+    font-weight: 300;
     /* opacity: 0.8; */
 }
 
@@ -5618,12 +5610,13 @@ input#password-field::-webkit-input-placeholder,
 .candidate-username input[type="text"]::-webkit-input-placeholder,
 input#forgotpassowrd-mail::-webkit-input-placeholder,
 input#jon-search-box::-webkit-input-placeholder,
-input#candidate-list-search::-webkit-input-placeholder {
-    color: var(--text-color);
+input#candidate-list-search::-webkit-input-placeholder,
+.signup-company-name input[type="text"]::-webkit-input-placeholder,
+.signup-website-url input[type="url"]::-webkit-input-placeholder {
+    color: rgb(0 0 0 / 40%);
     font-size: var(--promoted-btn);
     font-family: var(--museo-sans);
-    font-weight: var(--font-weight-medium);
-    opacity: 0.3;
+    font-weight: 300;
 }
 
 select#candidate-location-feild option {
@@ -5634,10 +5627,10 @@ select#candidate-location-feild option {
 }
 
 .form-font-f {
-    color: rgb(0 0 0 / 40%);
+    color: rgb(0 0 0 / 100%);
     font-family: var(--museo-sans);
     font-size: 16px;
-    font-weight: var(--font-weight-medium);
+    font-weight: 400;
     background-color: rgba(221, 222, 238, 0.25) !important;
 }
 
@@ -5649,7 +5642,7 @@ select#candidate-location-feild option {
     color: rgb(0 0 0 / 40%);
     font-family: var(--museo-sans);
     font-size: 16px;
-    font-weight: var(--font-weight-medium);
+    font-weight: 300;
     background-color: rgb(221 222 238 / 0%) !important;
 }
 
@@ -9632,10 +9625,14 @@ input#job-post-field {
     border: 0 !important;
     outline: 0;
     background: none !important;
+    color: rgb(0 0 0 / 40%);
+    font-size: var(--body-text);
+    font-family: var(--museo-sans);
+    font-weight: 300;
 }
 
 input#salary-end {
-    padding: 18px 8px;
+    padding: 15px 8px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
     width: 100%;
@@ -9691,7 +9688,7 @@ div#fsalary-year {
     background-repeat: no-repeat;
     background-position: right 15px bottom 18px;
     background-size: 20px;
-    font-size: var(--promoted-btn);
+    font-size: 16px;
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
