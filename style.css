@@ -562,6 +562,7 @@ button.detail-btn {
 .image-heading-col h3 {
     font-weight: 700;
     font-size: 28px;
+    padding-top: 10px;
 }
 
 .sucess-featured-sec {
@@ -772,17 +773,18 @@ p.job-discription {
     display: flex;
     align-items: flex-start;
     gap: 10px;
-    max-width: 40%;
+    max-width: 55%;
     width: 100%;
     flex-wrap: wrap;
-}
+  }
 
 .job-seclude {
+    gap: 40px;
     display: flex;
     flex-wrap: wrap;
-    max-width: 56%;
+    max-width: 40%;
     width: 100%;
-    justify-content: space-between;
+    justify-content: end;
 }
 
 .job-skills {
@@ -807,11 +809,12 @@ p.job-discription {
 .job-location {
     display: flex;
     gap: 5px;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     max-width: 35%;
     width: 100%;
     justify-content: end;
+    padding-top: 10px;
 }
 
 .job-location img {
@@ -4413,7 +4416,7 @@ p.file-error-msg {
 
 .short-content-left.job-col-left {
     padding: 30px 20px 25px 0px;
-    height: 300px;
+    min-height: 300px;
 }
 
 .Job-Opportunities-row-j-search {
@@ -4424,7 +4427,7 @@ p.file-error-msg {
 }
 
 .job-col-right {
-    height: 300px;
+    min-height: 300px;
 }
 
 .job-details-right-col {
@@ -4772,11 +4775,11 @@ border: 1px solid #e2edff;
 }
 
 .job-col-right .job-skills {
-    max-width: 67%;
+    max-width: 66%;
 }
 
 .job-col-right .job-location {
-    max-width: 27%;
+    max-width: 32%;
 }
 
 .job-col-right .job-location p {
