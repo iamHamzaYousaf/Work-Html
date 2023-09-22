@@ -3181,6 +3181,11 @@ section.job-search-sec {
 
 /************joib filter css **********/
 
+.three-filter-inline,
+.job-post-date {
+    background: white;
+}
+
 .filter-serach-btn {
     max-width: 100%;
     width: 100%;
@@ -7683,12 +7688,6 @@ button.form-submit-job-model {
 
 
 /****************1440px job details page css ************/
-
-.three-filter-inline,
-.job-post-date {
-    background: white;
-}
-
 
 /******tages*********/
 
