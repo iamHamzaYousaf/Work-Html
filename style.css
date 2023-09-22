@@ -2620,7 +2620,7 @@ ul.progressbar-steps {
     display: block;
     text-align: center;
     margin: 0 auto 10px auto;
-    background-color: #fff;
+    background-color: var(--color-grey);
     font-size: 25px;
     line-height: 38px;
 }
@@ -2634,7 +2634,7 @@ ul.progressbar-steps {
 }
 
 ul.progressbar-steps li {
-    color: rgb(0 0 0 / 20%);
+    color: #BDBDBD;
 }
 
 .progressbar-steps li:after {
