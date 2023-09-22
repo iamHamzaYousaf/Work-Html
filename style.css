@@ -885,6 +885,29 @@ p.job-discription {
     text-decoration: none;
 }
 
+.location-job-table img {
+    height: 18px;
+    width: 18px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.location-job-table p {
+    color: var(--text-color);
+    font-size: var(--promoted-btn);
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+}
+
+.job-apply {
+    display: flex;
+    gap: 15px;
+    padding: 16px 0px;
+    color: var(--accent-color);
+    font-size: 16px;
+    font-weight: var(--font-weight-medium);
+}
+
 .job-time-wishlist {
     padding-left: 25px;
 }
@@ -1069,29 +1092,6 @@ h4.contect-readt-start {
 
 
 /******New Job Opportunities*******/
-
-.location-job-table img {
-    height: 18px;
-    width: 18px;
-    object-fit: cover;
-    max-width: 100%;
-}
-
-.location-job-table p {
-    color: var(--text-color);
-    font-size: var(--promoted-btn);
-    font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
-}
-
-.job-apply {
-    display: flex;
-    gap: 15px;
-    padding: 16px 0px;
-    color: var(--accent-color);
-    font-size: 16px;
-    font-weight: var(--font-weight-medium);
-}
 
 
 /*****************candidate dashbor right column***********/
