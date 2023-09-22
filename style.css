@@ -608,7 +608,7 @@ button.detail-btn-lft {
     opacity: 1;
     font-family: var(--museo-sans);
     text-align: justify;
-  }
+}
 
 .sucess-featured-info {
     width: 100%;
@@ -776,7 +776,7 @@ p.job-discription {
     max-width: 55%;
     width: 100%;
     flex-wrap: wrap;
-  }
+}
 
 .job-seclude {
     gap: 40px;
@@ -1325,16 +1325,31 @@ button.allow-btn {
     height: auto;
 }
 
+.login-f-img img {
+    max-width: 100%;
+    width: 474px;
+    height: 511px;
+    object-fit: cover;
+}
+
 .candidate-login-row {
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
     margin-top: 100px;
-    gap: 0 75px;
+    gap: 0 10px;
+}
+
+.candidate-login-row-password {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    gap: 0 10px;
 }
 
 .candidate-profile {
-    max-width: 46%;
+    max-width: 50%;
     width: 100%;
 }
 
@@ -3714,6 +3729,7 @@ p.job-discription-com-j {
     font-family: var(--museo-sans);
     padding: 32px 0 0px 20px;
     line-height: 32px;
+    text-align: justify;
 }
 
 ul.job-details-list {
@@ -4395,18 +4411,18 @@ p.file-error-msg {
     font-family: var(--museo-sans);
 }
 
-
 .j-company-fillter .list-search-dropdown-company {
     display: none;
-  }
-  
-  .j-company-fillter.open .list-search-dropdown-company {
+}
+
+.j-company-fillter.open .list-search-dropdown-company {
     display: block;
-  }
-  
-  .j-company-fillter.open .list-search-dropdown-status {
+}
+
+.j-company-fillter.open .list-search-dropdown-status {
     display: block;
-  }
+}
+
 
 /****************top match page scss start here***********/
 
@@ -7704,6 +7720,7 @@ button.form-submit-job-model {
 
 /****************1440px job details page css ************/
 
+
 /******tages*********/
 
 .job-location-title p {
@@ -8054,9 +8071,6 @@ p.job-applied-candidate-dashboard {
     .job-col-right {
         height: auto;
     }
-    .candidate-login-row {
-        gap: 0 40px;
-    }
 }
 
 
@@ -8301,7 +8315,8 @@ p.job-applied-candidate-dashboard {
         margin-right: 70px;
     }
     /************* login form *********/
-    .candidate-login-row {
+    .candidate-login-row,
+    .candidate-login-row-password {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
@@ -8905,7 +8920,8 @@ p.job-applied-candidate-dashboard {
         width: 100%;
         padding: 20px 15px 40px 15px;
     }
-    .candidate-login-row {
+    .candidate-login-row,
+    .candidate-login-row-password {
         margin-top: 40px;
     }
     .candidate-signin h2,
