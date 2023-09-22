@@ -11,88 +11,91 @@
 </head>
 
 <body>
-    <header>
-        <div class="container-site">
-            <div class="row-log">
-                <div class="logo-col">
-                    <a href="#"><img src="../image/WORKBRIDGE.png" alt="logo"></a>
-                </div>
-                <div class="col-two-button">
-                    <!-- <div class="find-job-btn">
+    <div class="all-page-bg-clr">
+        <header>
+            <div class="container container-site">
+                <div class="row-log">
+                    <div class="logo-col">
+                        <a href="#"><img src="../image/WORKBRIDGE.png" alt="logo"></a>
+                    </div>
+                    <div class="col-two-button">
+                        <!-- <div class="find-job-btn">
                         <a href="#"><button>Find a Job</button></a>
                     </div> -->
-                    <div class="menu-items">
-                        <!-- <p><a href="#">Login </a></p> -->
-                        <a href="#"><button>Sign Up</button></a>
+                        <div class="menu-items">
+                            <!-- <p><a href="#">Login </a></p> -->
+                            <a href="#"><button>Sign Up</button></a>
+                        </div>
+                        <div class="toggleBtn"><img src="../image/toogle-btn.png" alt="toggleBtn"></div>
                     </div>
-                    <div class="toggleBtn"><img src="../image/toogle-btn.png" alt="toggleBtn"></div>
                 </div>
-            </div>
 
-        </div>
-    </header>
-    <!---------- login from section start here-->
-    <section class="candiate-login">
-        <div class="container-site">
-            <div class="candidate-login-row">
-                <div class="candidate-profile">
-                    <img src="../image/candidate-login.png" alt="candiate-login">
-                </div>
-                <div class="candiate-login-form">
-                    <div class="candidate-signin">
-                        <h2>Sign In</h2>
-                        <p class="heading-below-text">Unauthorised</p>
-                        <form action="">
-                            <div class="candidate-username">
-                                <input type="text" placeholder="Username">
-                            </div>
-                            <div class="candidate-password">
-                                <div class="signup-passowrd error-input">
-                                    <div class="password-icon">
-                                        <input type="password" name="" id="password-field" placeholder="Password">
-                                        <div class="icon-hide">
-                                            <img src="../image/password.png" alt="" class="password-icon-togle">
-                                            <img src="../image/hide-password.png" alt="" class="password-icon-togle">
-                                            <img src="../image/warning.png" alt="">
+            </div>
+        </header>
+        <!---------- login from section start here-->
+        <section class="candiate-login">
+            <div class="container container-site">
+                <div class="candidate-login-row">
+                    <div class="candidate-profile">
+                        <img src="../image/candidate-login.png" alt="candiate-login">
+                    </div>
+                    <div class="candiate-login-form">
+                        <div class="candidate-signin">
+                            <h2>Sign In</h2>
+                            <form action="">
+                                <div class="candidate-username">
+                                    <input type="text" placeholder="Username" id="">
+                                    <p class="error-msg hide-error">Please enter a valid Email id</p>
+                                </div>
+                                <div class="candidate-password">
+                                    <div class="signup-passowrd error-input">
+                                        <div class="password-icon">
+                                            <input type="password" name="" id="password-field" placeholder="Password">
+                                            <div class="icon-hide">
+                                                <img src="../image/password.png" alt="" class="password-icon-togle">
+                                                <img src="../image/hide-password.png" alt="" class="password-icon-togle">
+                                                <img src="../image/warning.png" alt="">
+                                            </div>
                                         </div>
+                                        <p class="error-msg">Incorrect Password</p>
                                     </div>
-                                    <p class="error-msg">Incorrect Password</p>
+                                    <div class="remember-forget-password">
+                                        <input id="rememberme" name="rememberme" value="remember" type="checkbox" /> &nbsp;Remember me
+                                        <p class="forget-password"><a href="/login/passwordforgot.html">Forgot password?</a></p>
+                                    </div>
+                                    <p class="heading-below-text">Please enter a valid Email or Password</p>
+                                    <div class="candidate-from-submit">
+                                        <button class="form-submit">Sign in</button>
+                                    </div>
                                 </div>
-                                <div class="remember-forget-password">
-                                    <input id="rememberme" name="rememberme" value="remember" type="checkbox" /> &nbsp;Remember me
-                                    <p class="forget-password">Forgot password?</p>
+                                <div class="signup-here">
+                                    <p>Don’t have an account? <a href="#"><span>Sign up</span></a></p>
                                 </div>
-                                <div class="candidate-from-submit">
-                                    <button class="form-submit">Sign in</button>
+                                <div class="or-divider">
+                                    <div class="divider-one"></div>
+                                    <div class="text-or">Or</div>
+                                    <div class="divider-one"></div>
                                 </div>
-                            </div>
-                            <div class="signup-here">
-                                <p>Don’t have an account? <a href="#"><span>Sign up</span></a></p>
-                            </div>
-                            <div class="or-divider">
-                                <div class="divider-one"></div>
-                                <div class="text-or">Or</div>
-                                <div class="divider-one"></div>
-                            </div>
-                            <div class="candidate-login-google">
-                                <a href="#">
-                                    <img src="../image/goole.png" alt="goole">
-                                    <p>Continue with Google</p>
-                                </a>
-                            </div>
-                        </form>
+                                <div class="candidate-login-google">
+                                    <a href="#">
+                                        <img src="../image/goole.png" alt="goole">
+                                        <p>Continue with Google</p>
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!--------world conect-->
-    <section class="world-conect-sec">
-        <div class="world-conect-row">
-            <img src="../image/world.png" alt="world">
-            <p>Connecting the world to work</p>
-        </div>
-    </section>
+        </section>
+        <!--------world conect-->
+        <section class="world-conect-sec">
+            <div class="world-conect-row">
+                <img src="../image/world.png" alt="world">
+                <p>Connecting the world to work</p>
+            </div>
+        </section>
+    </div>
     <!--------foooter-->
     <section class="footer-sec">
         <div class="container-site">

@@ -10,7 +10,7 @@
     --boder-color: #BDBDBD;
     --form-text-account: #64A7B6;
     --bg-color-sec: #FCFCFC;
-    --error-msg-color: #F32131;
+    --error-msg-color: #E15C52;
     --login-text: #54A8C4;
     --or-text-color: #4F4F4F;
     --fomr-telcode-bg: #F9F9F9;
@@ -580,7 +580,7 @@ button.detail-btn-lft {
     font-weight: var(--font-weight-medium);
     cursor: pointer;
     display: block;
-    margin: 0 auto 0 0;
+    margin: 0 0 0 auto;
     align-self: flex-end;
 }
 
@@ -639,6 +639,7 @@ button.detail-btn-lft {
 
 .sucess-featured-img img {
     max-width: 100%;
+    border-radius: 32px;
 }
 
 
@@ -682,7 +683,7 @@ button.detail-btn-lft {
 p.job-discription {
     color: var(--text-color);
     font-size: 16px;
-    font-weight: 300; 
+    font-weight: 300;
     font-family: var(--museo-sans);
     padding: 15px 0 36px 0;
     text-align: justify;
@@ -866,7 +867,7 @@ p.job-discription {
 .job-announcements-col button {
     background: var(--color-grey);
     border: 1px solid var(--primary-color);
-    border-radius: 6px;
+    border-radius: 4px;
     color: var(--primary-color);
     padding: 8px 20px;
     font-size: 16px;
@@ -911,7 +912,7 @@ p.job-discription {
 }
 
 .job-requriments {
-    width: calc(100% - 325px);
+    width: calc(100% - 290px);
     position: relative;
 }
 
@@ -1318,15 +1319,17 @@ button.allow-btn {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 100px;
+    gap: 0 75px;
 }
 
 .candidate-profile {
-    max-width: 50%;
+    max-width: 46%;
     width: 100%;
 }
 
 .candiate-login-form {
-    max-width: 50%;
+    max-width: 47%;
     width: 100%;
 }
 
@@ -1334,33 +1337,35 @@ button.allow-btn {
     background: var(--color-white);
     box-shadow: 0px 1px 4px 3px rgba(0, 0, 0, 0.08);
     backdrop-filter: blur(13px);
-    border-radius: 8px;
-    max-width: 70%;
+    border-radius: 16px;
+    max-width: 100%;
     width: 100%;
     margin: 0 auto;
-    padding: 45px 30px 30px;
+    padding: 20px 30px 40px 30px;
 }
 
 .candidate-signin h2 {
     text-align: center;
-    margin-bottom: 45px;
+    margin-bottom: 20px;
     font-weight: var(--font-weight-bold);
+    font-size: 28px;
 }
 
 p.heading-below-text {
     color: var(--error-msg-color);
-    font-size: var(--body-text);
-    font-weight: var(--font-weight-bold);
+    font-size: var(--skill-text-size);
+    font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
     text-align: center;
-    margin-bottom: 15px !important;
+    clear: both;
+    margin-top: 15px !important;
 }
 
 .candidate-username input[type="text"] {
     width: 100%;
-    padding: 18px 8px;
+    padding: 10px 8px;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 6px;
+    border-radius: 8px;
     color: var(--text-color);
     font-size: var(--promoted-btn);
     font-weight: var(--font-weight-medium);
@@ -1381,7 +1386,12 @@ p.forget-password {
     color: var(--primary-color);
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
-    font-size: var(--button-text);
+    font-size: 14px;
+}
+
+p.forget-password a {
+    color: var(--primary-color);
+    text-decoration: none;
 }
 
 .candidate-from-submit input[type="submit"],
@@ -1393,7 +1403,7 @@ button.password-btn {
     padding: 12px 0;
     color: var(--color-white);
     font-family: var(--museo-sans);
-    font-size: var(--text-size);
+    font-size: 16px;
 }
 
 .candidate-from-signup input[type="submit"] {
@@ -1412,13 +1422,13 @@ button.password-btn {
 /**** css for form option fields *****/
 
 .signup-here {
-    padding: 20px 0px;
+    padding: 15px 0px;
 }
 
 .signup-here p {
     text-align: center;
-    color: var(--form-text-account);
-    font-size: var(--promoted-btn);
+    color: var(--primary-color);
+    font-size: 14px;
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
 }
@@ -1477,10 +1487,10 @@ button.password-btn {
 }
 
 .candidate-login-google a p {
-    font-size: var(--promoted-btn);
+    font-size: 16px;
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
-    color: var(--text-color);
+    color: rgb(0 0 0 / 30%);
 }
 
 
@@ -1517,7 +1527,7 @@ button.password-btn {
 
 input#forgotpassowrd-mail {
     width: 100%;
-    padding: 18px 8px;
+    padding: 10px 8px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 6px;
     color: var(--text-color);
@@ -1549,11 +1559,29 @@ input#forgotpassowrd-mail {
     background-color: #07944F;
 }
 
+.candidate-signin-password-ft {
+    background: var(--color-white);
+    box-shadow: 0px 1px 4px 3px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(13px);
+    border-radius: 16px;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 30px 40px 30px;
+}
+
+.candidate-signin-password-ft h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: var(--font-weight-bold);
+    font-size: 28px;
+}
+
 
 /*********** candidate SignUp page satrt here ***************/
 
 .candiate-signup-row {
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 .candidate-signup-form {
@@ -1590,8 +1618,8 @@ input#forgotpassowrd-mail {
 
 .login-here p {
     text-align: center;
-    color: var(--text-color);
-    font-size: var(--promoted-btn);
+    color: rgb(0 0 0 / 80%);
+    font-size: 16px;
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
 }
@@ -1604,6 +1632,7 @@ input#forgotpassowrd-mail {
 .candidate-signup h2 {
     text-align: center;
     font-weight: var(--font-weight-bold);
+    font-size: 28px;
 }
 
 .candidate-employe-btn {
@@ -1613,24 +1642,38 @@ input#forgotpassowrd-mail {
     justify-content: center;
 }
 
-button.toggle-btn-active {
-    background: var(--primary-color);
-    padding: 15px 125px;
-    border: 1px solid var(--primary-color);
+.candidate-employe-btn a {
+    max-width: 50%;
+    width: 100%;
+}
+
+.candidate-employe-btn {
     border-radius: 6px;
-    color: var(--color-white);
-    font-size: var(--body-text);
-    font-family: var(--museo-sans);
-    font-weight: var(--font-weight-medium);
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: #FFF;
+    padding: 5px;
 }
 
 button.employee-btn {
     background: var(--color-white);
-    padding: 15px 125px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 15px 0px;
+    border: 0px solid rgba(0, 0, 0, 0.2);
     border-radius: 6px;
     color: var(--primary-color);
-    font-size: var(--body-text);
+    font-size: 18px;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    max-width: 100%;
+    width: 100%;
+}
+
+button.toggle-btn-active {
+    background: var(--primary-color);
+    padding: 15px 0px;
+    border: 1px solid var(--primary-color);
+    border-radius: 6px;
+    color: var(--color-white);
+    font-size: 18px;
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
 }
@@ -1686,18 +1729,18 @@ button.employee-btn {
 }
 
 .first-name {
-    max-width: 48.5%;
+    max-width: 48%;
     width: 100%;
 }
 
 .last-name {
-    max-width: 48.5%;
+    max-width: 48%;
     width: 100%;
 }
 
 .candidate-username-signup-form input[type="text"] {
     width: 100%;
-    padding: 18px 8px;
+    padding: 13px 8px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
 }
@@ -1712,10 +1755,9 @@ button.employee-btn {
 
 .f-feild label {
     margin-bottom: 12px;
-    color: var(--text-color);
-    opacity: 0.8;
+    color: var(--primary-color);
     font-family: var(--museo-sans);
-    font-size: var(--body-text);
+    font-size: 14px;
     font-weight: var(--font-weight-bold);
 }
 
@@ -1800,14 +1842,14 @@ border-bottom-left-radius: 0; */
 
 .signup-job-titles input[type="text"] {
     width: 100%;
-    padding: 18px 8px;
+    padding: 13px 8px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
 }
 
 .signup-skill-tags input[type="text"] {
     width: 100%;
-    padding: 18px 8px;
+    padding: 13px 8px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
 }
@@ -1818,7 +1860,7 @@ border-bottom-left-radius: 0; */
 
 .resume-choose-label {
     position: absolute;
-    bottom: 22px;
+    bottom: 14px;
     left: 15px;
     color: var(--text-color);
     font-size: var(--promoted-btn);
@@ -1829,7 +1871,7 @@ border-bottom-left-radius: 0; */
 
 .signup-resume input[type="file"] {
     width: 100%;
-    padding: 18px 8px;
+    padding: 13px 8px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
     text-indent: -999em;
@@ -1838,13 +1880,13 @@ border-bottom-left-radius: 0; */
 
 .signup-linkedIn-link input[type="text"] {
     width: 100%;
-    padding: 18px 8px;
+    padding: 13px 8px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
 }
 
 .signup-check.f-feild {
-    width: 70%;
+    width: 85%;
     margin: 0 auto;
     font-size: var(--promoted-btn);
     font-family: var(--museo-sans);
@@ -1861,7 +1903,7 @@ border-bottom-left-radius: 0; */
     border: 1px solid var(--accent-color);
     background: var(--color-white);
     box-shadow: 0px 4px 16px 0px rgba(16, 11, 39, 0.08);
-    padding: 20px;
+    padding: 18px;
     position: absolute;
     bottom: 35px;
     left: -5px;
@@ -1879,6 +1921,12 @@ p.atten-main-heading {
     font-family: var(--museo-sans);
 }
 
+p.text-atten-box {
+    font-size: 16px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+}
+
 
 /***********/
 
@@ -1886,11 +1934,11 @@ button.form-submit {
     width: 100%;
     background: var(--primary-color);
     border: 0;
-    border-radius: 6px;
+    border-radius: 8px;
     padding: 18px 0;
     color: var(--color-white);
     font-family: var(--museo-sans);
-    font-size: var(--body-text);
+    font-size: 16px;
     margin-top: 15px;
     line-height: 24px;
 }
@@ -1955,14 +2003,14 @@ button.form-submit {
 p.error-msg {
     text-align: end;
     color: var(--error-msg-color);
-    font-size: var(--button-text);
+    font-size: 14px;
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
 }
 
 ul.error-msg li {
     color: var(--error-msg-color);
-    font-size: var(--button-text);
+    font-size: 14px;
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
 }
@@ -1980,9 +2028,10 @@ p.error-email {
     margin-top: 30px;
 }
 
-.error-input>label {
+
+/* .error-input>label {
     color: var(--error-msg-color) !important;
-}
+} */
 
 .error-input>input {
     border: 1px solid var(--error-msg-color) !important;
@@ -2492,7 +2541,7 @@ button.save-logo-btn {
 .password-icon {
     display: flex;
     width: 100%;
-    padding: 18px 8px;
+    padding: 13px 8px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
 }
@@ -2531,6 +2580,10 @@ img.password-icon-togle {
 
 /********************* employer siggn up form start here ***********/
 
+ul.progressbar-steps {
+    padding-left: 0;
+}
+
 .step-progressbar-container {
     margin: 50px 0;
 }
@@ -2546,15 +2599,14 @@ img.password-icon-togle {
     position: relative;
     text-align: center;
     cursor: pointer;
-    font-size: var(--body-text);
+    font-size: 16px;
 }
 
 .progressbar-steps li:before {
     content: counter(step);
     counter-increment: step;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
+    width: 50px;
+    height: 50px;
     border: 3px solid rgb(0 0 0 / 20%);
     border-radius: 100%;
     display: block;
@@ -2562,7 +2614,7 @@ img.password-icon-togle {
     margin: 0 auto 10px auto;
     background-color: #fff;
     font-size: 25px;
-    line-height: 50px;
+    line-height: 38px;
 }
 
 .progressbar-steps li.active-circle:before {
@@ -2583,7 +2635,7 @@ ul.progressbar-steps li {
     width: 100%;
     height: 3px;
     background-color: #ddd;
-    top: 30px;
+    top: 22px;
     left: -50%;
     z-index: -1;
 }
@@ -2602,14 +2654,14 @@ ul.progressbar-steps li {
 
 .signup-website-url input[type="url"] {
     width: 100%;
-    padding: 18px 8px;
+    padding: 13px 8px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
 }
 
 .signup-company-name input[type="text"] {
     width: 100%;
-    padding: 18px 8px;
+    padding: 13px 8px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
 }
@@ -2632,7 +2684,7 @@ p.msg-show-blowe-textarea {
 .signup-file-company-logo label {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 9px;
 }
 
 .signup-file-company-logo input {
@@ -2656,7 +2708,7 @@ p.company-logo-file {
     color: rgb(0 0 0 / 80%);
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
-    font-size: var(--promoted-btn);
+    font-size: 16px;
     width: 193px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -2665,7 +2717,7 @@ p.company-logo-file {
 
 .signup-file-company-logo span {
     color: rgb(0 0 0 / 80%);
-    font-size: var(--button-text);
+    font-size: 14px;
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
 }
@@ -2686,10 +2738,10 @@ button.btn-next-pre-toggle:hover {
     width: 100%;
     background: var(--primary-color);
     border-radius: 6px;
-    padding: 6px 0;
+    padding: 14px 0;
     color: var(--color-white);
     font-family: var(--museo-sans);
-    font-size: var(--text-size);
+    font-size: 20px;
     margin-top: 15px;
     border: 1px solid var(--primary-color);
 }
@@ -2699,10 +2751,10 @@ button.btn-next-previous {
     background: transparent;
     border: 0;
     border-radius: 6px;
-    padding: 6px 0;
+    padding: 14px 0;
     color: var(--primary-color);
     font-family: var(--museo-sans);
-    font-size: var(--text-size);
+    font-size: 20px;
     margin-top: 15px;
     border: 1px solid var(--primary-color);
 }
@@ -2761,7 +2813,7 @@ button.btn-job-post {
 
 .industry-feild-frm {
     width: 100%;
-    padding: 18px 10px;
+    padding: 13px 10px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
     font-size: 18px;
@@ -2775,7 +2827,7 @@ button.btn-job-post {
 
 .industry-feild-frm-country {
     width: 100%;
-    padding: 18px 10px;
+    padding: 13px 10px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
     font-size: 18px;
@@ -2950,7 +3002,7 @@ label.job-postion-btn {
 
 .signup-salary input[type="text"] {
     width: 92%;
-    padding: 18px 8px;
+    padding: 16px 8px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
     border-top-left-radius: 0;
@@ -2960,7 +3012,7 @@ label.job-postion-btn {
 p.cities-job-heading {
     text-align: center;
     color: var(--primary-color);
-    font-size: var(--form-heading);
+    font-size: 28px;
     font-weight: var(--font-weight-bold);
 }
 
@@ -3028,13 +3080,15 @@ p.cities-job-heading {
 
 .post-job-title-employe h5 {
     font-weight: var(--font-weight-bold);
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+    font-size: 28px;
 }
 
 .final-sub-heading h3 {
     font-weight: var(--font-weight-bold);
     line-height: 28px;
-    padding-bottom: 24px;
+    font-size: 20px;
+    padding-bottom: 20px;
 }
 
 p.job-description-final-post,
@@ -3536,11 +3590,10 @@ p.j-c-salary span {
 }
 
 button.apply-j-btn {
-    max-width: 100%;
-    width: 100%;
+    min-width: 277px;
     padding: 15px 0;
     background: rgba(20, 57, 117, 0.03);
-    margin-bottom: 25px;
+    margin: 0 0 25px auto;
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
     border-radius: 4px;
@@ -3555,11 +3608,10 @@ button.apply-j-btn {
 }
 
 button.fav-j-btn {
-    max-width: 100%;
-    width: 100%;
+    min-width: 277px;
     padding: 15px 0;
     background: transparent;
-    margin-bottom: 25px;
+    margin: 0 0 25px auto;
     border: 1px solid var(--form-text-account);
     color: var(--form-text-account);
     border-radius: 4px;
@@ -3574,13 +3626,13 @@ button.fav-j-btn {
 }
 
 .job-company-details {
-    max-width: 75%;
+    max-width: 72%;
     width: 100%;
     padding-right: 40px;
 }
 
 .company-job-announcements {
-    max-width: 25%;
+    max-width: 28%;
     width: 100%;
     border-radius: 16px;
     border: 0.5px solid rgba(20, 57, 117, 0.20);
@@ -3700,7 +3752,7 @@ ul.job-location-list li {
 }
 
 .j-com-dev-info {
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 p.company-j-info-l {
@@ -3906,10 +3958,6 @@ section.company-job-sec {
 
 .search-box {
     background: #fff;
-}
-
-button.fav-j-btn {
-    background: transparent;
 }
 
 
@@ -4421,6 +4469,10 @@ p.file-error-msg {
     font-size: 14px;
 }
 
+.job-col-left .job-time p {
+    font-size: 14px;
+}
+
 .job-col-right .job-title {
     max-width: 40%;
 }
@@ -4430,6 +4482,12 @@ p.file-error-msg {
 }
 
 .job-col-right .job-services-anchor p {
+    font-size: 14px;
+}
+
+.job-col-right .job-favorite,
+.job-col-right .job-apply,
+.job-col-right .job-announcements-status p {
     font-size: 14px;
 }
 
@@ -4501,126 +4559,137 @@ p.file-error-msg {
     opacity: 0.2;
 }
 
-.job-services-right-col {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
+
+/* .job-services-right-col {
+display: flex;
+align-items: center;
+gap: 10px;
+} */
 
 
 /* .job-services-right-col-anchor a {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    text-decoration: none;
+display: flex;
+align-items: center;
+gap: 10px;
+text-decoration: none;
 }
 
 .job-services-right-col p {
-    color: var(--text-color);
-    font-family: var(--museo-sans);
-    font-size: var(--body-text);
-    font-weight: var(--font-weight-medium);
+color: var(--text-color);
+font-family: var(--museo-sans);
+font-size: var(--body-text);
+font-weight: var(--font-weight-medium);
 }
 
 .job-services-right-col-anchor a p {
-    color: var(--text-color);
-    font-family: var(--museo-sans);
-    font-size: var(--body-text);
-    font-weight: var(--font-weight-medium);
+color: var(--text-color);
+font-family: var(--museo-sans);
+font-size: var(--body-text);
+font-weight: var(--font-weight-medium);
 } */
 
-.job-services-right-col img {
-    height: 35px;
-    width: 35px;
-    object-fit: contain;
-}
 
-.job-services-right-col-anchor a img {
-    height: 35px;
-    width: 35px;
-    object-fit: contain;
-}
+/* 
+.job-services-right-col img {
+height: 35px;
+width: 35px;
+object-fit: contain;
+} */
+
+
+/* .job-services-right-col-anchor a img {
+height: 35px;
+width: 35px;
+object-fit: contain;
+} */
 
 
 /************************/
 
-.job-title-right-col {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    max-width: 57%;
-    width: 100%;
-    flex-wrap: wrap;
+
+/* .job-title-right-col {
+display: flex;
+align-items: center;
+gap: 15px;
+max-width: 57%;
+width: 100%;
+flex-wrap: wrap;
 }
 
 .job-title-right-col h3 {
-    font-weight: var(--font-weight-bold);
-    max-width: 60%;
+font-weight: var(--font-weight-bold);
+max-width: 60%;
 }
 
 .job-title-right-col a.title-job-link {
-    text-decoration: none;
-    max-width: 60%;
+text-decoration: none;
+max-width: 60%;
 }
 
 .job-title-right-col a.title-job-link-w {
-    text-decoration: none;
-    max-width: 100%;
+text-decoration: none;
+max-width: 100%;
 }
 
 .job-title-right-col a h3 {
-    font-weight: var(--font-weight-bold);
-    max-width: 100%;
-    text-decoration: none;
-    margin-bottom: 0;
-}
+font-weight: var(--font-weight-bold);
+max-width: 100%;
+text-decoration: none;
+margin-bottom: 0;
+} */
 
 .job-match-pro-btn h3 {
     max-width: 100%;
 }
 
-.job-skills-right-col {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    max-width: 54%;
-    width: 100%;
-    flex-wrap: wrap;
-}
 
-.job-seclude-right-col {
+/* .job-skills-right-col {
+display: flex;
+align-items: center;
+gap: 15px;
+max-width: 54%;
+width: 100%;
+flex-wrap: wrap;
+} */
+
+
+/* .job-seclude-right-col {
     display: flex;
     gap: 22px;
     flex-wrap: wrap;
     max-width: 40%;
     width: 100%;
-}
+} */
 
-.job-location-right-col {
+
+/* .job-location-right-col {
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
     max-width: 40%;
     width: 100%;
     align-items: center;
-}
+} */
 
-.job-requriments-right-col {
+
+/* .job-requriments-right-col {
     width: calc(100% - 275px);
-}
+} */
 
-.job-title-right-col a button {
-    padding: 7px 12px;
-    border: 0;
-    background: rgba(255, 160, 51, 0.15);
-    border-radius: 4px;
-    color: var(--accent-color);
-    font-family: var(--museo-sans);
-    font-size: var(--promoted-btn);
-    font-weight: var(--font-weight-bold);
-}
 
-.job-announcements-right-col {
+/* .job-title-right-col a button {
+padding: 7px 12px;
+border: 0;
+background: rgba(255, 160, 51, 0.15);
+border-radius: 4px;
+color: var(--accent-color);
+font-family: var(--museo-sans);
+font-size: var(--promoted-btn);
+font-weight: var(--font-weight-bold);
+} */
+
+
+/* .job-announcements-right-col {
     width: 250px;
 }
 
@@ -4632,7 +4701,7 @@ p.file-error-msg {
     padding: 8px 12px;
     font-size: var(--promoted-btn);
     font-weight: var(--font-weight-medium);
-}
+} */
 
 .job-services-col-left a {
     display: flex;
@@ -4642,13 +4711,14 @@ p.file-error-msg {
     width: 100%;
 }
 
-.job-location-right-col p {
+
+/* .job-location-right-col p {
     font-size: var(--promoted-btn);
     color: var(--text-color);
     opacity: 0.8;
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
-}
+} */
 
 .job-services-col-left a img {
     height: 35px;
@@ -4658,21 +4728,23 @@ p.file-error-msg {
     top: -5px;
 }
 
-.job-location-right-col img {
+
+/* .job-location-right-col img {
     height: 18px;
     width: 18px;
     object-fit: cover;
     max-width: 100%;
-}
+} */
 
-.job-skills-right-col button {
-    background: #f2f7ff;
-    padding: 5px;
-    color: var(--primary-color);
-    font-size: var(--button-text);
-    border-radius: 6px;
-    border: 1px solid #e2edff;
-}
+
+/* .job-skills-right-col button {
+background: #f2f7ff;
+padding: 5px;
+color: var(--primary-color);
+font-size: var(--button-text);
+border-radius: 6px;
+border: 1px solid #e2edff;
+} */
 
 .job-services-col-left a p {
     color: var(--text-color);
@@ -4714,7 +4786,7 @@ p.file-error-msg {
 .job-col-right .job-announcements-col button {
     background: var(--color-grey);
     border: 1px solid var(--primary-color);
-    border-radius: 6px;
+    border-radius: 4px;
     color: var(--primary-color);
     padding: 8px 20px;
     font-size: 14px;
@@ -5562,10 +5634,23 @@ select#candidate-location-feild option {
 }
 
 .form-font-f {
-    color: rgb(0 0 0 / 80%);
+    color: rgb(0 0 0 / 40%);
     font-family: var(--museo-sans);
-    font-size: var(--promoted-btn);
+    font-size: 16px;
     font-weight: var(--font-weight-medium);
+    background-color: rgba(221, 222, 238, 0.25) !important;
+}
+
+.bg-pass-f {
+    background-color: rgba(221, 222, 238, 0.25) !important;
+}
+
+.bg-pass-f>input#password-field {
+    color: rgb(0 0 0 / 40%);
+    font-family: var(--museo-sans);
+    font-size: 16px;
+    font-weight: var(--font-weight-medium);
+    background-color: rgb(221 222 238 / 0%) !important;
 }
 
 
@@ -7648,35 +7733,6 @@ button.form-submit-job-model {
 
 /****************1440px login form page page css ************/
 
-.candidate-signin h2 {
-    font-size: 32px;
-}
-
-.candidate-from-submit input[type="submit"],
-button.password-btn {
-    font-size: var(--promoted-btn);
-}
-
-.candidate-login-row {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 50px;
-}
-
-.candidate-signin h2 {
-    text-align: center;
-    margin-bottom: 30px;
-    font-weight: var(--font-weight-bold);
-}
-
-
-/**********1440px sign up all form ***********/
-
-.candidate-signup h2 {
-    font-size: 36px;
-}
-
 
 /****************1440px whislist page css ************/
 
@@ -7844,211 +7900,33 @@ p.job-applied-candidate-dashboard {
 /*************responsivness start here ***********/
 
 
-/* @media only screen and (max-width: 1600px)and (min-width: 1100px) {
-.row-log {
-padding: 40px 0 0 0;
-}
-button.login-header,
-.col-two-button button {
-padding: 8px 24px;
-font-size: 18px;
-}
-button.find-j-nav {
-padding: 8px 36px;
-font-size: 18px;
-}
-.col-2-banner h1 {
-font-size: 36px;
-line-height: 44px;
-}
-.col-2-banner p.banner-text {
-font-size: 20px;
-padding: 15px 0px;
-}
-.button-stack button {
-padding: 14px 30px;
-width: auto;
-border-radius: 4px;
-font-size: 18px;
-}
-.banner-row {
-padding: 40px 70px 0;
-}
-.col-1-banner,
-.col-3-banner {
-max-width: 25%;
-}
-.col-2-banner {
-max-width: 50%;
-}
-.logs-ros {
-width: 90%;
-margin: 0 auto;
-}
-.card-text {
-padding: 10px 0px 20px 0;
-min-height: 120px;
-height: auto;
-}
-.sucess-featured-sec,
-.sucess-featured-sec-alt {
-margin-top: 75px;
-}
-.featured-col-content {
-height: 280px;
-}
-.sucess-featured-img img {
-height: 350px;
-object-fit: cover;
-}
-
-
-.countries-work-location figcaption {
-font-size: 20px;
-line-height: 33px;
-}
-h4.team-remote,
-h4.contect-readt-start {
-font-size: 36px;
-}
-h4.team-remote {
-padding-bottom: 20px;
-}
-.contact-btn button {
-padding: 15px 15px;
-}
-.contact-btn a>button:after {
-width: 35px;
-height: 30px;
-margin-left: 20px;
-}
-} */
-
-@media only screen and (max-width: 1200px) {
-    /*******home page css*******/
-    .job-sec-wrape {
-        margin: 0 15px;
-    }
-    .sucess-featured.alt {
-        margin: 0 15px;
-    }
-    .featured-row {
-        padding: 0 15px;
-    }
-    .banner-row {
-        padding: 0 15px;
-    }
-    .ensure-heading {
-        width: 80%;
-    }
-    .see-more-job button {
-        width: 30%;
-    }
-    .ready-start-row {
-        margin: 0 15px;
-    }
-    .country-flages-img {
-        margin: 0 15px;
-    }
-}
-
-@media only screen and (max-width: 1480px)and (min-width: 1360px) {
-    .job-title-right-col h3 {
-        max-width: 66%;
-        width: 100%;
-        font-size: 20px;
-    }
-    .job-title-right-col a.title-job-link {
-        max-width: 66%;
-        width: 100%;
-        font-size: 20px;
-    }
-    .job-title a.title-job-link {
-        font-size: 20px;
-    }
-    .job-title-right-col a button {
-        padding: 9px 8px;
-    }
-}
-
-@media only screen and (max-width: 1420px) and (min-width: 1361px) {
-    .job-location p,
-    .location-job-table p {
-        font-size: 16px;
-    }
-    .filter-serach-btn {
-        max-width: 100%;
-    }
-    /*************top match css start here ***********/
-    .job-title-right-col {
-        max-width: 58%;
-    }
-    .job-seclude-right-col {
-        gap: 15px;
-        max-width: 39%;
-    }
-    .job-location-right-col {
-        gap: 5px;
-        max-width: 39%;
-    }
-    .job-skills-right-col {
-        max-width: 58%;
-    }
-    .job-location-right-col p {
-        font-size: 16px;
-    }
-}
-
-@media only screen and (max-width:1360px) and (min-width:1301px) {
+/* @media only screen and (max-width:1360px) and (min-width:1301px) {
     .job-title {
         gap: 10px;
     }
-    /* .job-seclude {
-max-width: 37%;
-} */
     .job-seclude {
         gap: 10px;
     }
     .filter-serach-btn {
         max-width: 90%;
     }
-}
+} */
 
 
-/****************top match job css ***********/
-
-@media only screen and (max-width:1360px) {
+/* @media only screen and (max-width:1360px) {
     .filter-serach-btn {
         max-width: 95%;
     }
     .job-details-right-col {
         flex-direction: column;
     }
-    .job-title-right-col {
-        max-width: 100%;
-    }
-    .job-seclude-right-col {
-        max-width: 100%;
-    }
     .job-skill-location-right-col {
         flex-direction: column;
-    }
-    .job-skills-right-col {
-        max-width: 100%;
-    }
-    .job-location-right-col {
-        max-width: 100%;
     }
     .job-services-col-left a p {
         font-size: 14px;
     }
     .job-services-col-left {
-        max-width: 100%;
-    }
-    .job-title-right-col h3 {
-        max-width: 100%;
-    }
-    .job-title-right-col a.title-job-link {
         max-width: 100%;
     }
     .button-stack button {
@@ -8058,9 +7936,10 @@ max-width: 37%;
     .job-col-right {
         height: auto;
     }
-}
+} */
 
-@media only screen and (max-width:1299px) {
+
+/* @media only screen and (max-width:1299px) {
     .job-seclude,
     .job-location,
     .job-location-switch {
@@ -8074,20 +7953,22 @@ max-width: 37%;
     .job-title {
         max-width: 100%;
     }
-}
+} */
 
-@media only screen and (max-width:1199px) {
-    /**************** job title h3 *************/
+
+/* @media only screen and (max-width:1199px) {
+   
     .job-title h3 {
         max-width: 70%;
     }
     .job-filter-btn button {
         padding: 10px 50px;
     }
-}
+} */
 
-@media only screen and (max-width:1250px) {
-    /******cnadidaate profile***/
+
+/* @media only screen and (max-width:1250px) {
+    
     .candidtae-profile-image {
         max-width: 18%;
     }
@@ -8110,9 +7991,10 @@ max-width: 37%;
     .hide-wishlist-style {
         max-width: 20%;
     }
-}
+} */
 
-@media only screen and (max-width:1160px) {
+
+/* @media only screen and (max-width:1160px) {
     .job-title {
         max-width: 100%;
     }
@@ -8135,16 +8017,10 @@ max-width: 37%;
         padding: 8px 10px !important;
         font-size: 16px;
     }
-    .job-col-right .job-title {
-        max-width: 100%;
-    }
-    .job-col-right .job-seclude {
-        max-width: 100%;
-    }
-}
+} */
 
-@media only screen and (max-width:1149px) {
-    .button-stack button {
+@media only screen and (max-width:1100px) {
+    /* .button-stack button {
         width: 100%;
         font-size: 20px;
     }
@@ -8166,6 +8042,12 @@ max-width: 37%;
     }
     .featured-sec {
         padding: 100px 0px 100px 0px;
+    } */
+    .job-col-right {
+        height: auto;
+    }
+    .candidate-login-row {
+        gap: 0 40px;
     }
 }
 
@@ -8261,6 +8143,13 @@ max-width: 37%;
         max-width: 46%;
         width: 100%;
     }
+    /******job search page *********/
+    .job-col-right .job-title {
+        max-width: 100%;
+    }
+    .job-col-right .job-seclude {
+        max-width: 70%;
+    }
 }
 
 @media only screen and (max-width:1000px) {
@@ -8349,13 +8238,13 @@ max-width: 37%;
     .col-left-j-space {
         max-width: 35%;
     }
-    .job-requriments-right-col {
+    /* .job-requriments-right-col {
         width: 100%;
-    }
-    .job-announcements-right-col {
+    } */
+    /* .job-announcements-right-col {
         width: 100%;
         margin-top: 20px;
-    }
+    } */
     /******cnadidaate profile 1000***/
     .candidtae-profile-image {
         max-width: 23%;
@@ -8491,9 +8380,18 @@ max-width: 37%;
     }
     .j-company-logo {
         max-width: 40%;
+        margin: 0 auto;
     }
     .j-company-btn-apply {
         max-width: 50%;
+        margin: 0 auto;
+    }
+    button.apply-j-btn,
+    button.fav-j-btn {
+        margin: 0 auto 25px auto;
+    }
+    .icon-text-job-requre {
+        justify-content: center;
     }
     p.job-discription-com-j-recruite {
         width: auto;
@@ -8501,6 +8399,7 @@ max-width: 37%;
     .j-company-dev {
         max-width: 100%;
         margin: 30px 0;
+        text-align: center;
     }
     .company-job-announcements {
         max-width: 100%;
@@ -8992,20 +8891,23 @@ max-width: 37%;
     .world-conect-row p {
         font-size: 20px;
     }
-    .candidate-signin {
+    .candidate-signin,
+    .candidate-signin-password-ft {
         max-width: 100%;
         width: 100%;
+        padding: 20px 15px 40px 15px;
     }
     .candidate-login-row {
         margin-top: 40px;
     }
-    .candidate-signin h2 {
-        font-size: 30px;
-        line-height: 36px;
+    .candidate-signin h2,
+    .candidate-signin-password-ft h2 {
+        font-size: 24px;
+        line-height: 30px;
     }
     .candidate-from-submit input[type="submit"],
     button.password-btn {
-        font-size: 18px;
+        font-size: 16px;
     }
     .candidate-from-signup input[type="submit"] {
         font-size: 18px;
@@ -9031,7 +8933,7 @@ max-width: 37%;
         gap: 10px;
     }
     button.employee-btn {
-        border: 1px solid rgba(0, 0, 0, 0.2);
+        border: 0px solid rgba(0, 0, 0, 0.2);
         border-top-left-radius: 6px;
         border-bottom-left-radius: 6px;
         padding: 10px 40px;
@@ -9047,8 +8949,8 @@ max-width: 37%;
         margin: 0 auto;
     }
     .candidate-signup h2 {
-        font-size: 30px;
-        line-height: 36px;
+        font-size: 24px;
+        line-height: 30px;
     }
     button.form-submit {
         font-size: 16px;
@@ -9140,8 +9042,8 @@ max-width: 37%;
         width: 86%;
     }
     p.cities-job-heading {
-        font-size: 30px;
-        line-height: 36px;
+        font-size: 24px;
+        line-height: 30px;
     }
     .img-radion-btn {
         display: block;
@@ -9364,6 +9266,14 @@ max-width: 37%;
     .j-company-dev {
         max-width: 100%;
         margin: 30px 0;
+        text-align: center;
+    }
+    .icon-text-job-requre {
+        justify-content: center;
+    }
+    button.apply-j-btn,
+    button.fav-j-btn {
+        margin: 0 auto 25px auto;
     }
     p.j-c-salary,
     .job-find-list ul li {
@@ -9401,6 +9311,10 @@ max-width: 37%;
     }
     .Job-Opportunities-row-j-search {
         justify-content: center;
+        padding-left: 0;
+    }
+    .job-col-right .job-seclude {
+        max-width: 80%;
     }
     /************pagenation on job page match****/
     .pagination-job {
@@ -9728,19 +9642,19 @@ input#salary-end {
 }
 
 #fsalary-country {
-    padding: 18px 8px;
+    padding: 18px 5px;
     border: 0px solid var(--boder-color);
     border-radius: 6px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    background: var(--fomr-telcode-bg);
+    background: #E9E9E9;
     -webkit-appearance: none;
     background-image: url(./image/salary-year.png);
     background-repeat: no-repeat;
     background-position: right -2px bottom 20px;
     background-size: 20px;
     width: 100%;
-    font-size: var(--promoted-btn);
+    font-size: 14px;
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
@@ -9769,7 +9683,7 @@ div#fsalary-year {
     padding: 15px 8px;
     border: 0px solid var(--boder-color);
     border-radius: 6px;
-    background: var(--fomr-telcode-bg);
+    background: rgba(221, 222, 238, 0.25);
     width: 100%;
     text-align: center;
     -webkit-appearance: none;
