@@ -3235,7 +3235,7 @@ section.job-search-sec {
     border-radius: 8px;
     background: #FFF;
     box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
-    width: 280px;
+    width: 270px;
     z-index: 1;
     padding-bottom: 10px;
     left: 0;
@@ -3258,7 +3258,7 @@ section.job-search-sec {
     border-radius: 8px;
     background: #FFF;
     box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
-    width: 230px;
+    width: 220px;
     z-index: 1;
     right: 0;
 }
@@ -3272,7 +3272,7 @@ section.job-search-sec {
     border-radius: 8px;
     background: #FFF;
     box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
-    width: 185px;
+    width: 175px;
     z-index: 1;
     right: 0;
 }
@@ -4395,6 +4395,18 @@ p.file-error-msg {
     font-family: var(--museo-sans);
 }
 
+
+.j-company-fillter .list-search-dropdown-company {
+    display: none;
+  }
+  
+  .j-company-fillter.open .list-search-dropdown-company {
+    display: block;
+  }
+  
+  .j-company-fillter.open .list-search-dropdown-status {
+    display: block;
+  }
 
 /****************top match page scss start here***********/
 
