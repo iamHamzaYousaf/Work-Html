@@ -779,12 +779,11 @@ p.job-discription {
 }
 
 .job-seclude {
-    gap: 10px 40px;
     display: flex;
     flex-wrap: wrap;
     max-width: 40%;
     width: 100%;
-    justify-content: end;
+    justify-content: space-between;
 }
 
 .job-skills {
@@ -4483,7 +4482,7 @@ p.file-error-msg {
 }
 
 .job-col-right .job-seclude {
-    max-width: 58%;
+    max-width: 50%;
 }
 
 .job-col-right .job-services-anchor p {
@@ -4866,7 +4865,6 @@ a.card-link-box-2 {
     font-size: 14px;
     color: var(--text-color);
     font-weight: var(--font-weight-medium);
-    ;
 }
 
 
