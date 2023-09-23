@@ -123,7 +123,7 @@ html {
 }
 
 .container-site-profile {
-    max-width: 1440px;
+    max-width: 1140px;
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
@@ -720,7 +720,7 @@ p.job-discription {
 }
 
 .job-location p {
-    color: rgb(0 0 0 / 80%);
+    color: rgb(0 0 0 / 100%);
     font-size: 16px;
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
@@ -779,7 +779,7 @@ p.job-discription {
 }
 
 .job-seclude {
-    gap: 40px;
+    gap: 10px 40px;
     display: flex;
     flex-wrap: wrap;
     max-width: 40%;
@@ -835,14 +835,6 @@ p.job-discription {
     color: var(--text-color);
     font-weight: var(--font-weight-medium);
     opacity: 0.5;
-}
-
-.job-application-status p {
-    padding: 15px 0px 0px;
-    font-size: 16px;
-    color: var(--text-color);
-    font-weight: var(--font-weight-medium);
-    opacity: 0.8;
 }
 
 .job-favorite {
@@ -924,8 +916,8 @@ p.job-discription {
     text-align: center;
     margin: 0 auto;
     background: var(--primary-color);
-    padding: 8px 30px;
-    width: 14%;
+    padding: 8px 0px;
+    min-width: 229px;
     margin-top: 0;
     border: 0px;
     border-radius: 6px;
@@ -1082,39 +1074,6 @@ h4.contect-readt-start {
 
 .contact-btn a {
     text-decoration: none;
-}
-
-
-/********* juast one heading*****/
-
-
-/********* images text start here******/
-
-
-/****** seond col****/
-
-
-/******New Job Opportunities*******/
-
-
-/*****************candidate dashbor right column***********/
-
-.job-opstion-status {
-    display: flex;
-    gap: 15px;
-    padding: 15px 0px;
-    font-size: var(--promoted-btn);
-    color: var(--text-color);
-    font-weight: var(--font-weight-medium);
-    opacity: 0.8;
-}
-
-.job-date-candidate p {
-    padding: 15px 0px 0px;
-    font-size: var(--promoted-btn);
-    color: var(--text-color);
-    font-weight: var(--font-weight-medium);
-    opacity: 0.8;
 }
 
 
@@ -4594,149 +4553,9 @@ p.file-error-msg {
     opacity: 0.2;
 }
 
-
-/* .job-services-right-col {
-display: flex;
-align-items: center;
-gap: 10px;
-} */
-
-
-/* .job-services-right-col-anchor a {
-display: flex;
-align-items: center;
-gap: 10px;
-text-decoration: none;
-}
-
-.job-services-right-col p {
-color: var(--text-color);
-font-family: var(--museo-sans);
-font-size: var(--body-text);
-font-weight: var(--font-weight-medium);
-}
-
-.job-services-right-col-anchor a p {
-color: var(--text-color);
-font-family: var(--museo-sans);
-font-size: var(--body-text);
-font-weight: var(--font-weight-medium);
-} */
-
-
-/* 
-.job-services-right-col img {
-height: 35px;
-width: 35px;
-object-fit: contain;
-} */
-
-
-/* .job-services-right-col-anchor a img {
-height: 35px;
-width: 35px;
-object-fit: contain;
-} */
-
-
-/************************/
-
-
-/* .job-title-right-col {
-display: flex;
-align-items: center;
-gap: 15px;
-max-width: 57%;
-width: 100%;
-flex-wrap: wrap;
-}
-
-.job-title-right-col h3 {
-font-weight: var(--font-weight-bold);
-max-width: 60%;
-}
-
-.job-title-right-col a.title-job-link {
-text-decoration: none;
-max-width: 60%;
-}
-
-.job-title-right-col a.title-job-link-w {
-text-decoration: none;
-max-width: 100%;
-}
-
-.job-title-right-col a h3 {
-font-weight: var(--font-weight-bold);
-max-width: 100%;
-text-decoration: none;
-margin-bottom: 0;
-} */
-
 .job-match-pro-btn h3 {
     max-width: 100%;
 }
-
-
-/* .job-skills-right-col {
-display: flex;
-align-items: center;
-gap: 15px;
-max-width: 54%;
-width: 100%;
-flex-wrap: wrap;
-} */
-
-
-/* .job-seclude-right-col {
-    display: flex;
-    gap: 22px;
-    flex-wrap: wrap;
-    max-width: 40%;
-    width: 100%;
-} */
-
-
-/* .job-location-right-col {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-    max-width: 40%;
-    width: 100%;
-    align-items: center;
-} */
-
-
-/* .job-requriments-right-col {
-    width: calc(100% - 275px);
-} */
-
-
-/* .job-title-right-col a button {
-padding: 7px 12px;
-border: 0;
-background: rgba(255, 160, 51, 0.15);
-border-radius: 4px;
-color: var(--accent-color);
-font-family: var(--museo-sans);
-font-size: var(--promoted-btn);
-font-weight: var(--font-weight-bold);
-} */
-
-
-/* .job-announcements-right-col {
-    width: 250px;
-}
-
-.job-announcements-right-col button {
-    background: var(--color-white);
-    border: 1px solid var(--primary-color);
-    border-radius: 6px;
-    color: var(--primary-color);
-    padding: 8px 12px;
-    font-size: var(--promoted-btn);
-    font-weight: var(--font-weight-medium);
-} */
 
 .job-services-col-left a {
     display: flex;
@@ -4746,15 +4565,6 @@ font-weight: var(--font-weight-bold);
     width: 100%;
 }
 
-
-/* .job-location-right-col p {
-    font-size: var(--promoted-btn);
-    color: var(--text-color);
-    opacity: 0.8;
-    font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
-} */
-
 .job-services-col-left a img {
     height: 35px;
     width: 35px;
@@ -4762,24 +4572,6 @@ font-weight: var(--font-weight-bold);
     position: relative;
     top: -5px;
 }
-
-
-/* .job-location-right-col img {
-    height: 18px;
-    width: 18px;
-    object-fit: cover;
-    max-width: 100%;
-} */
-
-
-/* .job-skills-right-col button {
-background: #f2f7ff;
-padding: 5px;
-color: var(--primary-color);
-font-size: var(--button-text);
-border-radius: 6px;
-border: 1px solid #e2edff;
-} */
 
 .job-services-col-left a p {
     color: var(--text-color);
@@ -4891,10 +4683,6 @@ section.pageniation-sec {
     justify-content: space-between;
 }
 
-.candidate-wishlist-block {
-    /* margin-left: 25px; */
-}
-
 .profile-right-col {
     display: flex;
     justify-content: flex-end;
@@ -4915,9 +4703,9 @@ section.pageniation-sec {
 }
 
 .candidate-name-img img {
-    /* max-width: 100%; */
-    width: 45px;
-    height: 45px;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
 }
 
 .candidate-wishlist-block a {
@@ -4925,30 +4713,6 @@ section.pageniation-sec {
     align-items: center;
     text-decoration: none;
     position: relative;
-}
-
-p.conter-text-wiishlist {
-    color: var(--color-white);
-    height: 22px;
-    width: 22px;
-    position: absolute;
-    font-size: 16px;
-    top: -10px;
-    display: inline-block;
-    z-index: 9999;
-    background: var(--accent-color);
-    border-radius: 50%;
-    bottom: 0;
-    left: 25px;
-    text-align: center;
-    font-weight: 700;
-    padding: 0px 0 0px 0px;
-    vertical-align: middle;
-    line-height: 20px;
-}
-
-.candidate-wishlist-block img {
-    /* max-width: 100%; */
 }
 
 p.candidate-name {
@@ -4961,7 +4725,7 @@ p.candidate-name {
 
 p.candidate-name {
     color: var(--primary-color);
-    font-size: var(--body-text);
+    font-size: 18px;
     font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
     padding: 0 20px;
@@ -4969,11 +4733,133 @@ p.candidate-name {
 
 p.candidate-wishlist {
     color: var(--primary-color);
-    font-size: var(--body-text);
+    font-size: 18px;
     font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
     margin: 0 20px;
 }
+
+
+/*****canidate dashbord page card******/
+
+.job-recommend-applied {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 100px 0 100px 0;
+    max-width: 54%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.recommende-new-job {
+    padding: 100px 0 100px 0;
+}
+
+a.card-link-box {
+    background: #FFFFFF;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 0 20px 15px;
+    max-width: 50%;
+    width: 100%;
+    text-decoration: none;
+}
+
+p.job-title-candidate-dashboard {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 18px;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+}
+
+.job-applied-col.job-candidate-cards img {
+    display: block;
+    margin: 0 0 0 auto;
+    padding-bottom: 10px;
+}
+
+p.job-applied-candidate-dashboard {
+    color: var(--primary-color);
+    font-size: 48px;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    text-align: center;
+}
+
+a.card-link-box-1 {
+    background: url('./image/candiate-card-1.jpeg');
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 20px 15px;
+    max-width: 50%;
+    background-size: cover;
+    border: 0;
+    background-position: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+a.card-link-box-2 {
+    background: url('./image/candiate-card-2.jpeg');
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 20px 15px;
+    max-width: 50%;
+    background-size: cover;
+    border: 0;
+    background-position: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+
+/*****************candidate dashbor right column***********/
+
+.job-opstion-status {
+    display: flex;
+    gap: 20px;
+    padding: 15px 0px 0 0;
+    font-size: 16px;
+    color: var(--text-color);
+    font-weight: var(--font-weight-medium);
+}
+
+.job-date-candidate p {
+    padding: 0px 0px 0px;
+    font-size: 16px;
+    color: var(--text-color);
+    font-weight: var(--font-weight-medium);
+}
+
+.job-applied-text-candidate {
+    display: flex;
+    gap: 20px;
+    padding: 15px 0px 0 0;
+    font-size: 16px;
+    color: var(--text-color);
+    font-weight: var(--font-weight-medium);
+}
+
+.job-applied-text-candidate img,
+.job-opstion-status img {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+}
+
+.job-application-status p {
+    padding: 15px 0px 0px;
+    font-size: 14px;
+    color: var(--text-color);
+    font-weight: var(--font-weight-medium);
+    ;
+}
+
+
+/********profilecnadidate ********/
 
 section.profile-edit {
     padding: 100px 0px 50px 0px;
@@ -6082,61 +5968,64 @@ p.resume-degree {
 
 /**************candidate-dashbord header as profile header*************/
 
-.job-recommend-applied {
-    display: flex;
-    justify-content: center;
-    gap: 80px;
-    padding: 125px 0 100px 0;
-    max-width: 70%;
-    width: 100%;
-    margin: 0 auto;
+
+/***************wishlist page start here ******/
+
+p.conter-text-wiishlist {
+    color: var(--color-white);
+    height: 22px;
+    width: 22px;
+    position: absolute;
+    font-size: 16px;
+    top: -10px;
+    display: inline-block;
+    z-index: 9999;
+    background: var(--primary-color);
+    border-radius: 50%;
+    bottom: 0;
+    left: 25px;
+    text-align: center;
+    font-weight: 700;
+    padding: 0px 0 0px 0px;
+    vertical-align: middle;
+    line-height: 20px;
 }
 
-.recommende-new-job {
-    padding: 150px 0 100px 0;
+section.wishlist-sec {
+    padding-top: 90px;
 }
 
-a.card-link-box {
-    background: #FFFFFF;
-    border: 0.5px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+.job-heading-wishlist h2 {
+    text-align: center;
+    font-weight: var(--font-weight-bold);
+    padding-bottom: 33px;
+    font-size: 28px;
+}
+
+.job-wishlist-btn button {
+    background: transparent;
+    border: 1px solid var(--error-msg-color);
     border-radius: 6px;
-    padding: 0 20px 15px;
-    max-width: 50%;
+    color: var(--error-msg-color);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: var(--font-weight-medium);
     width: 100%;
+    display: block;
+    margin-top: 20px;
+}
+
+.job-wishlist-btn a {
     text-decoration: none;
 }
 
-p.job-title-candidate-dashboard {
-    text-align: center;
-    color: var(--primary-color);
-    font-size: 22px;
-    font-family: var(--museo-sans);
-    font-weight: var(--font-weight-bold);
-}
-
-.job-applied-col.job-candidate-cards img {
-    text-align: center;
-    display: block;
-    margin: -45px auto 0;
-    padding-bottom: 20px;
-}
-
-p.job-applied-candidate-dashboard {
-    color: var(--accent-color);
-    font-size: 80px;
-    font-family: var(--museo-sans);
-    font-weight: var(--font-weight-bold);
-    text-align: center;
-}
-
 .job-announcements-col-candidate button {
-    background: var(--color-white);
+    background: transparent;
     border: 1px solid var(--primary-color);
     border-radius: 6px;
     color: var(--primary-color);
-    padding: 8px 20px;
-    font-size: var(--promoted-btn);
+    padding: 10px 20px;
+    font-size: 16px;
     font-weight: var(--font-weight-medium);
     width: 100%;
     display: block;
@@ -6158,16 +6047,16 @@ section.wishlist-btn-sec {
 
 .whishlist-btn button {
     max-width: 100%;
-    width: 270px;
-    margin-bottom: 15px;
+    min-width: 245px;
+    margin-bottom: 20px;
 }
 
 .wishlist-apply-btn button {
     padding: 10px 0;
-    color: var(--accent-color);
+    color: var(--primary-color);
     background-color: transparent;
-    border: 1px solid var(--accent-color);
-    font-size: var(--body-text);
+    border: 1px solid var(--primary-color);
+    font-size: 16px;
     font-weight: var(--font-weight-medium);
     border-radius: 6px;
     text-align: center;
@@ -6178,7 +6067,7 @@ section.wishlist-btn-sec {
     color: var(--error-msg-color);
     background-color: transparent;
     border: 1px solid var(--error-msg-color);
-    font-size: var(--body-text);
+    font-size: 16px;
     font-weight: var(--font-weight-medium);
     border-radius: 6px;
     text-align: center;
@@ -6189,40 +6078,10 @@ section.wishlist-btn-sec {
     color: var(--primary-color);
     background-color: transparent;
     border: 1px solid var(--primary-color);
-    font-size: var(--body-text);
+    font-size: 16px;
     font-weight: var(--font-weight-medium);
     border-radius: 6px;
     text-align: center;
-}
-
-
-/***************wishlist page start here ******/
-
-section.wishlist-sec {
-    padding-top: 90px;
-}
-
-.job-heading-wishlist h2 {
-    text-align: center;
-    font-weight: var(--font-weight-bold);
-    padding-bottom: 80px;
-}
-
-.job-wishlist-btn button {
-    background: var(--color-white);
-    border: 1px solid var(--error-msg-color);
-    border-radius: 6px;
-    color: var(--error-msg-color);
-    padding: 8px 20px;
-    font-size: var(--promoted-btn);
-    font-weight: var(--font-weight-medium);
-    width: 100%;
-    display: block;
-    margin-top: 15px;
-}
-
-.job-wishlist-btn a {
-    text-decoration: none;
 }
 
 
@@ -7712,12 +7571,6 @@ button.form-submit-job-model {
 }
 
 
-/****************1440px home page css ************/
-
-
-/****************1440px company details page css ************/
-
-
 /****************1440px job details page css ************/
 
 
@@ -7765,68 +7618,7 @@ button.form-submit-job-model {
 /****************1440px login form page page css ************/
 
 
-/****************1440px whislist page css ************/
-
-.job-heading-wishlist h2 {
-    font-size: 36px;
-}
-
-.job-wishlist-btn button {
-    margin-top: 24px;
-}
-
-.whishlist-btn button {
-    margin-bottom: 24px;
-}
-
-
-/************ 1440 candiadte dashbord pages css ********/
-
-.candidate-name-img img {
-    width: 30px;
-    height: 30px;
-    object-fit: contain;
-}
-
-.job-applied-col.job-candidate-cards img {
-    display: block;
-    margin: 0 0 0 auto;
-    padding-bottom: 20px;
-}
-
-a.card-link-box-1 {
-    background: url('./image/candiate-card-1.jpeg');
-    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
-    padding: 20px 15px;
-    max-width: 50%;
-    background-size: cover;
-    border: 0;
-    background-position: center;
-    width: 100%;
-    text-decoration: none;
-}
-
-a.card-link-box-2 {
-    background: url('./image/candiate-card-2.jpeg');
-    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
-    padding: 20px 15px;
-    max-width: 50%;
-    background-size: cover;
-    border: 0;
-    background-position: center;
-    width: 100%;
-    text-decoration: none;
-}
-
-p.job-applied-candidate-dashboard {
-    color: var(--primary-color);
-    font-size: 60px;
-    font-family: var(--museo-sans);
-    font-weight: var(--font-weight-bold);
-    text-align: center;
-}
+/************ 1440px candiadte dashbord pages css ********/
 
 
 /************ 1440px employee dashbord css *********/
@@ -7929,9 +7721,7 @@ p.job-applied-candidate-dashboard {
     .job-title {
         gap: 10px;
     }
-    .job-seclude {
-        gap: 10px;
-    }
+
     .filter-serach-btn {
         max-width: 90%;
     }
@@ -7965,12 +7755,6 @@ p.job-applied-candidate-dashboard {
 
 
 /* @media only screen and (max-width:1299px) {
-    .job-seclude,
-    .job-location,
-    .job-location-switch {
-        max-width: 50%;
-        width: 100%;
-    }
     .filter-serach-btn {
         max-width: 100%;
         width: 100%;
@@ -8013,9 +7797,7 @@ p.job-applied-candidate-dashboard {
     .dropdown-dashbord {
         max-width: 35%;
     }
-    .hide-wishlist-style {
-        max-width: 20%;
-    }
+
 } */
 
 
@@ -8023,13 +7805,7 @@ p.job-applied-candidate-dashboard {
     .job-title {
         max-width: 100%;
     }
-    .job-seclude,
-    .job-location,
-    .job-location-switch {
-        max-width: 100%;
-        justify-content: flex-start;
-        gap: 10px;
-    }
+
     .filter-serach-btn {
         max-width: 100%;
         width: 100%;
@@ -8045,31 +7821,14 @@ p.job-applied-candidate-dashboard {
 } */
 
 @media only screen and (max-width:1100px) {
-    /* .button-stack button {
-        width: 100%;
-        font-size: 20px;
-    }
-    .countries-work {
-        padding: 0px 0px 50px 0px;
-    }
-    h4.team-remote {
-        font-size: 45px;
-    }
-    h4.contect-readt-start {
-        font-size: 45px;
-    }
-    .h4.contect-readt-start {
-        font-size: 45px;
-    }
-    .ensure-heading {
-        width: 60%;
-        margin: 0 auto;
-    }
-    .featured-sec {
-        padding: 100px 0px 100px 0px;
-    } */
     .job-col-right {
         height: auto;
+    }
+    .job-title {
+        max-width: 46%;
+    }
+    .job-seclude {
+        max-width: 50%;
     }
 }
 
@@ -8171,6 +7930,11 @@ p.job-applied-candidate-dashboard {
     }
     .job-col-right .job-seclude {
         max-width: 70%;
+        justify-content: flex-start;
+    }
+    .job-seclude {
+        max-width: 70%;
+        justify-content: flex-start;
     }
 }
 
@@ -8256,17 +8020,15 @@ p.job-applied-candidate-dashboard {
     }
     .job-col-right .job-location {
         max-width: 100%;
+        justify-content: flex-start;
+    }
+    .job-location {
+        max-width: 100%;
+        justify-content: flex-start;
     }
     .col-left-j-space {
         max-width: 35%;
     }
-    /* .job-requriments-right-col {
-        width: 100%;
-    } */
-    /* .job-announcements-right-col {
-        width: 100%;
-        margin-top: 20px;
-    } */
     /******cnadidaate profile 1000***/
     .candidtae-profile-image {
         max-width: 23%;
@@ -8763,6 +8525,13 @@ p.job-applied-candidate-dashboard {
     .job-title {
         max-width: 100%;
     }
+    .job-title,
+    .job-seclude {
+        max-width: 100%;
+    }
+    .job-seclude {
+        justify-content: flex-start;
+    }
     .job-location {
         max-width: 100%;
         justify-content: center;
@@ -8789,11 +8558,9 @@ p.job-applied-candidate-dashboard {
     .job-favorite,
     .job-opstion-status,
     .job-candidate-list-icon,
-    .job-applied-text {
+    .job-applied-text,
+    .job-applied-text-candidate {
         justify-content: center;
-    }
-    .see-more-job button {
-        width: 80%;
     }
     .job-announcements-col button {
         margin: 0 auto;
@@ -8805,7 +8572,8 @@ p.job-applied-candidate-dashboard {
     .see-more-job button {
         font-weight: var(--font-weight-bold);
         font-size: 16px;
-        padding: 12px 52px;
+        min-width: 200px;
+        padding: 12px 0;
     }
     .countries-work-heading h2 {
         text-align: center;
@@ -9524,9 +9292,6 @@ width: 100%;
     .candidate-call {
         max-width: 24%;
     }
-    /* input#profile-call {
-max-width: 78%;
-} */
     select#candidate-location-feild,
     input#profile-email-candidate,
     .candidate-call,
@@ -9571,7 +9336,7 @@ max-width: 78%;
         width: 100%;
     }
     p.job-applied-candidate-dashboard {
-        font-size: 60px;
+        font-size: 30px;
     }
     /*****************employee dashbord job table **************/
     table {
