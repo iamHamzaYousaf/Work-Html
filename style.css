@@ -1346,6 +1346,7 @@ p.heading-below-text {
 
 .heading-below-p {
     margin-top: 15px !important;
+    margin-bottom: 5px !important;
 }
 
 .candidate-username input[type="text"] {
@@ -3221,7 +3222,7 @@ section.job-search-sec {
     border-radius: 8px;
     background: #FFF;
     box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
-    width: 230px;
+    width: 200px;
     z-index: 1;
     left: 0;
 }
@@ -3446,7 +3447,7 @@ p.clear-filter {
     text-align: center;
     text-decoration: underline;
     position: absolute;
-    right: 60px;
+    right: 50px;
     bottom: -34px;
 }
 
