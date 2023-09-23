@@ -801,9 +801,9 @@ p.job-discription {
     color: var(--primary-color);
     font-size: var(--skill-text-size);
     border-radius: 4px;
-    border: 1px solid #E2EDFF;
+    border: 0.5px solid #E2EDFF;
     font-weight: var(--font-weight-medium);
-    padding: 8px 10px;
+    padding: 8px 12px;
 }
 
 .job-location {
@@ -4793,7 +4793,7 @@ border: 1px solid #e2edff;
     color: var(--primary-color);
     font-size: var(--skill-text-size);
     border-radius: 4px;
-    border: 1px solid #E2EDFF;
+    border: 0.5px solid #E2EDFF;
     font-weight: var(--font-weight-medium);
     padding: 8px 8px;
 }
