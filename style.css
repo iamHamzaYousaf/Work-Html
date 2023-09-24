@@ -703,6 +703,7 @@ p.job-discription {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
+    align-items: flex-start;
 }
 
 .job-services-anchor p {
@@ -808,7 +809,7 @@ p.job-discription {
 .job-location {
     display: flex;
     gap: 5px;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     max-width: 35%;
     width: 100%;
@@ -1852,8 +1853,7 @@ border-bottom-left-radius: 0; */
     color: var(--text-color);
     font-size: 16px;
     font-family: var(--museo-sans);
-    font-weight: 300;
-    opacity: 0.4;
+    font-weight: 400;
 }
 
 .signup-resume input[type="file"] {
@@ -2852,11 +2852,12 @@ button.btn-job-post {
 .company-form-dropdownBox-f {
     width: 100%;
     cursor: pointer;
-    color: rgb(0 0 0 / 40%);
+    color: rgb(0 0 0 / 100%);
     display: flex;
     align-items: center;
     gap: 5px;
     font-size: 16px;
+    font-weight: 400;
 }
 
 .company-form-dropdownBox-profile {
@@ -4454,6 +4455,7 @@ p.file-error-msg {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
+    align-items: flex-start;
 }
 
 .col-right-j-space {
@@ -5577,10 +5579,10 @@ select#candidate-location-feild option {
 }
 
 .bg-pass-f>input#password-field {
-    color: rgb(0 0 0 / 40%);
+    color: rgb(0 0 0 / 100%);
     font-family: var(--museo-sans);
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     background-color: rgb(221 222 238 / 0%) !important;
 }
 
