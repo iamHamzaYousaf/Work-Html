@@ -803,7 +803,7 @@ p.job-discription {
     border-radius: 4px;
     border: 0.5px solid #E2EDFF;
     font-weight: var(--font-weight-medium);
-    padding: 8px 12px;
+    padding: 4px 8px;
 }
 
 .job-location {
@@ -4612,7 +4612,7 @@ p.file-error-msg {
     border-radius: 4px;
     border: 0.5px solid #E2EDFF;
     font-weight: var(--font-weight-medium);
-    padding: 8px 8px;
+    padding: 4px 8px;
 }
 
 .job-col-right .job-skill-location {
