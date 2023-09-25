@@ -2005,7 +2005,7 @@ p.error-msg-verify-email {
     font-family: var(--museo-sans);
     text-transform: capitalize;
     margin: 20px 0px;
-  }
+}
 
 ul.error-msg li {
     color: var(--error-msg-color);
@@ -4740,7 +4740,7 @@ p.candidate-name {
     font-size: 18px;
     font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
-    padding: 0 20px;
+    padding: 0 20px 0 10px;
 }
 
 p.candidate-wishlist {
@@ -4790,7 +4790,10 @@ p.job-title-candidate-dashboard {
 .job-applied-col.job-candidate-cards img {
     display: block;
     margin: 0 0 0 auto;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
+    width: 35px;
+    height: 30px;
+    object-fit: contain;
 }
 
 p.job-applied-candidate-dashboard {
@@ -4799,6 +4802,7 @@ p.job-applied-candidate-dashboard {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
     text-align: center;
+    line-height: normal;
 }
 
 a.card-link-box-1 {
@@ -9535,25 +9539,26 @@ div#fsalary-year {
     background-size: 20px !important;
 }
 
+
 /*Bulleted Text Area CSS*/
 
 .custom-bulleted-textarea {
-    width: 100% !important; 
+    width: 100% !important;
     height: 270px !important;
     border-radius: 6px;
     margin-bottom: 0px !important;
-  }
-  
-  .custom-bulleted-textarea > div {
+}
+
+.custom-bulleted-textarea>div {
     border-top: 0.5px solid var(--boder-color);
     border-left: 0.5px solid var(--boder-color);
     border-bottom: 0.5px solid var(--boder-color);
     height: 270px !important;
     overflow: hidden;
     display: none !important;
-  }
-  
-  .custom-bulleted-textarea > textarea {
+}
+
+.custom-bulleted-textarea>textarea {
     border-top: 0.5px solid var(--boder-color);
     border-right: 0.5px solid var(--boder-color);
     border-bottom: 0.5px solid var(--boder-color);
@@ -9569,16 +9574,16 @@ div#fsalary-year {
     font-style: normal;
     padding: 0px !important;
     background-color: rgba(221, 222, 238, 0.25) !important
-  }
-  
-  .custom-bulleted-textarea-error > div {
+}
+
+.custom-bulleted-textarea-error>div {
     border-top: 1px solid var(--error-msg-color);
-    border-left:  1px solid var(--error-msg-color);
-    border-bottom:  1px solid var(--error-msg-color);
-  }
-  
-  .custom-bulleted-textarea-error > textarea {
-    border-top:  1px solid var(--error-msg-color);
-    border-right:  1px solid var(--error-msg-color);
-    border-bottom:  1px solid var(--error-msg-color);
-  }
+    border-left: 1px solid var(--error-msg-color);
+    border-bottom: 1px solid var(--error-msg-color);
+}
+
+.custom-bulleted-textarea-error>textarea {
+    border-top: 1px solid var(--error-msg-color);
+    border-right: 1px solid var(--error-msg-color);
+    border-bottom: 1px solid var(--error-msg-color);
+}
