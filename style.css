@@ -1899,6 +1899,19 @@ border-bottom-left-radius: 0; */
 .attendtion-heading {
     display: flex;
     gap: 10px;
+    align-items: center;
+}
+
+.icon-atten {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-atten img {
+    height: 30px;
+    width: 26px;
+    object-fit: contain;
 }
 
 p.atten-main-heading {
@@ -9147,6 +9160,10 @@ button.form-submit-job-model {
     }
     .candidate-name-img {
         gap: 10px;
+        padding-left: 15px;
+    }
+    p.candidate-name {
+        padding: 0 20px 0 0px;
     }
     .candidate-name-img img {
         width: 25px;
