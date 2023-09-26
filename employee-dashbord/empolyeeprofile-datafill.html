@@ -13,133 +13,135 @@
 </head>
 
 <body>
-    <header>
-        <div class="container-site-profile">
-            <div class="row-log candidate-profile-header">
-                <!-- <div class="columns-wrapper"> -->
-                <div class="logo-col-profile-candidate">
-                    <a href="#"><img src="../image/WORKBRIDGE.png" alt="logo"></a>
-                    <div class="find-job-btn-candidate-dashbord">
-                        <a href="#"><button>Find a Job</button></a>
+    <div class="all-page-bg-clr">
+        <header>
+            <div class="container container-site-profile">
+                <div class="row-log candidate-profile-header">
+                    <!-- <div class="columns-wrapper"> -->
+                    <div class="logo-col-profile-candidate">
+                        <a href="#"><img src="../image/WORKBRIDGE.png" alt="logo"></a>
+                        <div class="find-job-btn-candidate-dashbord">
+                            <a href="#"><button>Find a Job</button></a>
+                        </div>
                     </div>
+                    <div class="profile-right-col">
+                        <div class="candidate-name-img icon-cursor">
+                            <img src="../image/profile.png" alt="">
+                            <p class="candidate-name">Hi, John</p>
+                        </div>
+                        <div class="candidate-wishlist-block icon-cursor">
+                            <a href="#">
+                                <img src="../image/wishlist.png" alt="">
+                                <p class="candidate-wishlist">Wishlist</p>
+                            </a>
+                        </div>
+                        <div class="toggle-icon-profile icon-cursor">
+                            <img src="../image/menu-profile.png" alt="">
+                        </div>
+                    </div>
+                    <!-- </div> -->
                 </div>
-                <div class="profile-right-col">
-                    <div class="candidate-name-img icon-cursor">
-                        <img src="../image/profile.png" alt="">
-                        <p class="candidate-name">Hi, John</p>
-                    </div>
-                    <div class="candidate-wishlist-block icon-cursor">
+                <div class="dropdown-dashbord hide-show-click">
+                    <ul>
                         <a href="#">
-                            <img src="../image/wishlist.png" alt="">
-                            <p class="candidate-wishlist">Wishlist</p>
+                            <li>Dashboard</li>
                         </a>
+                        <a href="#">
+                            <li>My Profile</li>
+                        </a>
+                        <a href="#">
+                            <li>Wishlist</li>
+                        </a>
+                        <a href="#">
+                            <li>Logout</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!---------- find a job section start here-->
+        <section class="profile-edit">
+            <div class="container container container-site">
+                <div class="profile-edit-row">
+                    <div class="profile-heading">
+                        <h2>My Profile</h2>
                     </div>
-                    <div class="toggle-icon-profile icon-cursor">
-                        <img src="../image/menu-profile.png" alt="">
+                    <div class="profile-eidt-icon edit-profile-icon icon-cursor">
+                        <img src="../image/profile-edit.png" alt="">
                     </div>
                 </div>
-                <!-- </div> -->
             </div>
-            <div class="dropdown-dashbord hide-show-click">
-                <ul>
-                    <a href="#">
-                        <li>Dashboard</li>
-                    </a>
-                    <a href="#">
-                        <li>My Profile</li>
-                    </a>
-                    <a href="#">
-                        <li>Wishlist</li>
-                    </a>
-                    <a href="#">
-                        <li>Logout</li>
-                    </a>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <!---------- find a job section start here-->
-    <section class="profile-edit">
-        <div class="container-site">
-            <div class="profile-edit-row">
-                <div class="profile-heading">
-                    <h2>My Profile</h2>
-                </div>
-                <div class="profile-eidt-icon edit-profile-icon icon-cursor">
-                    <img src="../image/profile-edit.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-----------------job detail section with deatils-->
-    <section class="candidate-profile-sec">
-        <div class="container-site">
-            <div class="my-profile-row">
-                <div class="candidtae-profile-image">
-                    <label for="file-input" id="candidate-img"><img src="../image/upload-1.png" alt="pic"><input
+        </section>
+        <!-----------------job detail section with deatils-->
+        <section class="candidate-profile-sec">
+            <div class="container container container-site">
+                <div class="my-profile-row">
+                    <div class="candidtae-profile-image">
+                        <label for="file-input" id="candidate-img"><img src="../image/upload-1.png" alt="pic"><input
                             id="file-input" value="Upload here" type="file" />
                         <p class="candidate-logo-file">Upload here</p>
                         <p class="file-size-candidate">Max: 10MB</p>
                     </label>
-                </div>
-                <div class="divider-left-profile"> </div>
-                <div class="candidate-information">
-                    <div class="candidate-profile-date-after">
-                        <h5>Azmazon</h5>
-                        <div class="candiate-info-heading">
-                            <a href="#">
-                                <img src="../image/candidate-location.png" alt="">
-                                <p class="candidate-info-text">Location</p>
-                            </a>
-                        </div>
-                        <div class="candiate-info-heading">
-                            <a href="#">
-                                <img src="../image/website-profile-link.png" alt="">
-                                <p class="candidate-info-text">Company Website Link</p>
-                            </a>
-                        </div>
-                        <div class="candiate-info-heading">
-                            <a href="mailto:teklavasadze@gmail.com">
-                                <img src="../image/mail-can.png" alt="">
-                                <p class="candidate-info-text">teklavasadze@gmail.com</p>
-                            </a>
-                        </div>
-                        <div class="candiate-info-heading">
-                            <a href="tel:+995599132862">
-                                <img src="../image/call-can.png" alt="">
-                                <p class="candidate-info-text">+995 599132862</p>
-                            </a>
-                        </div>
-                        <div class="candiate-info-heading">
-                            <a href="#">
-                                <img src="../image/linkdin.png" alt="">
-                                <p class="candidate-info-text">LinkedIn Link</p>
-                            </a>
-                        </div>
                     </div>
-                    <div class="employee-profile-compnay-data">
-                        <p class="company-name-profile-date">Company Information</p>
-                        <p class="employee-profile-company-content-date">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem Ipsum
-                            is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the industry'sorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                    <div class="divider-left-profile"> </div>
+                    <div class="candidate-information">
+                        <div class="candidate-profile-date-after">
+                            <h5>Azmazon</h5>
+                            <div class="candiate-info-heading">
+                                <a href="#">
+                                    <img src="../image/candidate-location.png" alt="">
+                                    <p class="candidate-info-text">Location</p>
+                                </a>
+                            </div>
+                            <div class="candiate-info-heading">
+                                <a href="#">
+                                    <img src="../image/website-profile-link.png" alt="">
+                                    <p class="candidate-info-text">Company Website Link</p>
+                                </a>
+                            </div>
+                            <div class="candiate-info-heading">
+                                <a href="mailto:teklavasadze@gmail.com">
+                                    <img src="../image/mail-can.png" alt="">
+                                    <p class="candidate-info-text">teklavasadze@gmail.com</p>
+                                </a>
+                            </div>
+                            <div class="candiate-info-heading">
+                                <a href="tel:+995599132862">
+                                    <img src="../image/call-can.png" alt="">
+                                    <p class="candidate-info-text">+995 599132862</p>
+                                </a>
+                            </div>
+                            <div class="candiate-info-heading">
+                                <a href="#">
+                                    <img src="../image/linkdin.png" alt="">
+                                    <p class="candidate-info-text">LinkedIn Link</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="employee-profile-compnay-data">
+                            <p class="company-name-profile-date">Company Information</p>
+                            <p class="employee-profile-company-content-date">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem
+                                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry'sorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 
+                        </div>
                     </div>
-                </div>
-                <div class="candidate-profile-btn">
-                    <div class="three-stack-btn">
-                        <button>Change Password</button>
+                    <div class="candidate-profile-btn">
+                        <div class="three-stack-btn">
+                            <button>Change Password</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!--------world conect-->
-    <section class="world-conect-sec">
-        <div class="world-conect-row">
-            <img src="../image/world.png" alt="world">
-            <p>Connecting the world to work</p>
-        </div>
-    </section>
+        </section>
+        <!--------world conect-->
+        <section class="world-conect-sec">
+            <div class="world-conect-row">
+                <img src="../image/world.png" alt="world">
+                <p>Connecting the world to work</p>
+            </div>
+        </section>
+    </div>
     <!--------foooter-->
     <section class="footer-sec">
         <div class="container-site">

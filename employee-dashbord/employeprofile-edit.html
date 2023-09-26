@@ -13,185 +13,184 @@
 </head>
 
 <body>
-    <header>
-        <div class="container-site-profile">
-            <!-- <div class="parent-flexible-width"> -->
-            <div class="row-log candidate-profile-header">
-                <div class="logo-col-profile-left">
-                    <a href="#"><img src="../image/WORKBRIDGE.png" alt="logo"></a>
-                    <div class="find-job-btn-candidate-dashbord">
-                        <a href="#"><button>Find a Job</button></a>
+    <div class="all-page-bg-clr">
+        <header>
+            <div class="container container-site-profile">
+                <!-- <div class="parent-flexible-width"> -->
+                <div class="row-log candidate-profile-header">
+                    <div class="logo-col-profile-left">
+                        <a href="#"><img src="../image/WORKBRIDGE.png" alt="logo"></a>
+                        <div class="find-job-btn-candidate-dashbord">
+                            <a href="#"><button>Find a Job</button></a>
+                        </div>
+                    </div>
+                    <div class="hide-wishlist-style">
+                        <div class="candidate-name-img icon-cursor">
+                            <img src="../image/profile.png" alt="">
+                            <p class="candidate-name">Hi Jhon</p>
+                        </div>
+                        <div class="toggle-icon-profile icon-cursor">
+                            <img src="../image/menu-profile.png" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="hide-wishlist-style">
-                    <div class="candidate-name-img icon-cursor">
-                        <img src="../image/profile.png" alt="">
-                        <p class="candidate-name">Hi Jhon</p>
+                <div class="dropdown-dashbord hide-show-click">
+                    <ul>
+                        <a href="#">
+                            <li>Dashboard</li>
+                        </a>
+                        <a href="#">
+                            <li>My Profile</li>
+                        </a>
+                        <a href="#">
+                            <li>Wishlist</li>
+                        </a>
+                        <a href="#">
+                            <li>Logout</li>
+                        </a>
+                    </ul>
+                </div>
+                <!-- </div> -->
+            </div>
+        </header>
+        <!---------- find a job section start here-->
+        <section class="profile-edit">
+            <div class="container container-site">
+                <div class="profile-edit-row">
+                    <div class="profile-heading">
+                        <h2>My Profile</h2>
                     </div>
-                    <div class="toggle-icon-profile icon-cursor">
-                        <img src="../image/menu-profile.png" alt="">
+                    <div class="profile-eidt-icon edit-profile-icon icon-cursor">
+                        <img src="../image/profile-edit.png" alt="">
                     </div>
                 </div>
             </div>
-            <div class="dropdown-dashbord hide-show-click">
-                <ul>
-                    <a href="#">
-                        <li>Dashboard</li>
-                    </a>
-                    <a href="#">
-                        <li>My Profile</li>
-                    </a>
-                    <a href="#">
-                        <li>Wishlist</li>
-                    </a>
-                    <a href="#">
-                        <li>Logout</li>
-                    </a>
-                </ul>
-            </div>
-            <!-- </div> -->
-        </div>
-    </header>
-    <!---------- find a job section start here-->
-    <section class="profile-edit">
-        <div class="container-site">
-            <div class="profile-edit-row">
-                <div class="profile-heading">
-                    <h2>My Profile</h2>
-                </div>
-                <div class="profile-eidt-icon edit-profile-icon icon-cursor">
-                    <img src="../image/profile-edit.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-----------------job detail section with deatils-->
-    <section class="candidate-profile-sec">
-        <div class="container-site">
-            <div class="my-profile-row">
-                <div class="candidtae-profile-image">
-                    <label for="file-input" id="candidate-img"><img src="../image/upload-1.png" alt="pic"><input
+        </section>
+        <!-----------------job detail section with deatils-->
+        <section class="candidate-profile-sec">
+            <div class="container container-site">
+                <div class="my-profile-row">
+                    <div class="candidtae-profile-image">
+                        <label for="file-input" id="candidate-img"><img src="../image/upload-1.png" alt="pic"><input
                             id="file-input" value="Upload here" type="file" />
                         <p class="candidate-logo-file">Upload here</p>
                         <p class="file-size-candidate">Max: 10MB</p>
                     </label>
-                    <div class="profile-img-c">
-                        <img src="../image/amazaon.png" height="250px" alt="">
+                        <div class="profile-img-c">
+                            <img src="../image/amazaon.png" height="250px" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="divider-left-profile"> </div>
-                <div class="candidate-information">
-                    <div class="candidate-about-me">
-                        <div class="candidate-profile-form">
-                            <form action="">
-                                <div class="candidate-name-field-profile-f profile-field-f error-input">
-                                    <div class="employr-f-profile password-icon">
-                                        <input type="text" name="" id="Company-name-employe-profile" placeholder="Company Name" class="form-font-f">
-                                        <div class="icon-hide">
-                                            <img src="../image/lock-profile-employye.png" alt="" class="password-icon-togle">
-                                            <img src="../image/warning.png" alt="">
-                                            <span class="tooltiptext-profile">Admin Support to talk</span>
+                    <div class="divider-left-profile"> </div>
+                    <div class="candidate-information">
+                        <div class="candidate-about-me">
+                            <div class="candidate-profile-form">
+                                <form action="">
+                                    <div class="candidate-name-field-profile-f profile-field-f error-input">
+                                        <div class="employr-f-profile password-icon bg-pass-f">
+                                            <input type="text" name="" id="Company-name-employe-profile" placeholder="Company Name" class="form-font-f">
+                                            <div class="icon-hide">
+                                                <img src="../image/lock-profile-employye.png" alt="" class="password-icon-togle">
+                                                <img src="../image/warning.png" alt="">
+                                                <span class="tooltiptext-profile">Admin Support to talk</span>
+                                            </div>
                                         </div>
+                                        <p class="error-msg">Please Enter Correct Company Name</p>
                                     </div>
-                                    <p class="error-msg">Please Enter Correct Company Name</p>
-                                </div>
-                                <div class="profile-field-f signup-passowrd-job error-input location-profile-list">
-                                    <div class="industry-feild-frm">
-                                        <div class="password-icon-logo">
-                                            <img src="../image/resume-location.png" alt="">
+                                    <div class="profile-field-f signup-passowrd-job error-input location-profile-list">
+                                        <div class="industry-feild-frm bg-pass-f">
+                                            <div class="password-icon-logo">
+                                                <img src="../image/resume-location.png" alt="">
+                                            </div>
+                                            <div id="dropdown-boxId-2" class="company-form-dropdownBox-profile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Location</div>
+                                            <div class="icon-hide">
+                                                <img src="../image/form-d-f.png" alt="" class="password-icon-togle">
+                                                <img src="../image/warning.png" alt="">
+                                            </div>
+                                            <div id="company-dropList-t" class="dropdown-form-f company-drop-list-t">
+                                                <ul>
+                                                    <li class="icon-cursor-f"><img src="../image/resume-location.png" alt="">Team Lead</li>
+                                                    <li class="icon-cursor-f"><img src="../image/resume-location.png" alt="">HR Manager</li>
+                                                    <li class="icon-cursor-f"><img src="../image/resume-location.png" alt="">Product Manager</li>
+                                                    <li class="icon-cursor-f"><img src="../image/resume-location.png" alt="">Product Owner</li>
+                                                </ul>
+                                            </div>
                                         </div>
-                                        <div id="dropdown-boxId-2" class="company-form-dropdownBox-profile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Location</div>
-                                        <div class="icon-hide">
-                                            <img src="../image/form-d-f.png" alt="" class="password-icon-togle">
-                                            <img src="../image/warning.png" alt="">
-                                        </div>
-                                        <div id="company-dropList-t" class="dropdown-form-f company-drop-list-t">
-                                            <ul>
-                                                <li class="icon-cursor-f"><img src="../image/resume-location.png" alt="">Team Lead</li>
-                                                <li class="icon-cursor-f"><img src="../image/resume-location.png" alt="">HR Manager</li>
-                                                <li class="icon-cursor-f"><img src="../image/resume-location.png" alt="">Product Manager</li>
-                                                <li class="icon-cursor-f"><img src="../image/resume-location.png" alt="">Product Owner</li>
+                                        <p class="error-msg">Please Enter Correct Location</p>
+                                        <div class="job-tags-titles-dropdown job-dropdown-hide">
+                                            <h3 class="job-suggestion">Job Tags</h3>
+                                            <ul class="dorpdown-list-location">
+                                                <li>Technical Support Analyst</li>
+                                                <li>Application Administrator</li>
+                                                <li>Technical Support</li>
+                                                <li>Recruiter</li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <p class="error-msg">Please Enter Correct Location</p>
-                                    <div class="job-tags-titles-dropdown job-dropdown-hide">
-                                        <h3 class="job-suggestion">Job Tags</h3>
-                                        <ul class="dorpdown-list-location">
-                                            <li>Technical Support Analyst</li>
-                                            <li>Application Administrator</li>
-                                            <li>Technical Support</li>
-                                            <li>Recruiter</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="url-employee-profile-f profile-field-f error-input">
-                                    <div class="location-f-icon">
-                                        <div class="password-icon-logo">
-                                            <img src="../image/website-profile-link.png" alt="">
-                                        </div>
-                                        <input type="url" name="" id="profile-url-employee" placeholder="Company Website Link" class="form-font-f">
-                                        <div class="icon-hide">
-                                            <img src="../image/warning.png" alt="">
-                                        </div>
-                                    </div>
-                                    <p class="error-msg">Please Enter Correct Website Url</p>
-                                </div>
-                                <div class="email-candidate-profile-f profile-field-f  error-input">
-                                    <div class="location-f-icon">
-                                        <div class="password-icon-logo">
-                                            <img src="../image/resume-mail.png" alt="">
-                                        </div>
-                                        <input type="email" name="" id="profile-email-candidate" placeholder="E-Mail" class="form-font-f">
-                                        <div class="icon-hide">
-                                            <img src="../image/warning.png" alt="">
-                                        </div>
-                                    </div>
-                                    <p class="error-msg">Please Enter Correct Email</p>
-                                </div>
-                                <div class="profile-field-f ">
-                                    <div class="country-code-profile phone-f-profile error-input">
-                                        <!-- <div class="candidate-call">
-                                            <input type="tel" name="" id="profile-call" placeholder="+(__) ___ ___ ____" class="form-font-f">
-                                        </div> -->
-                                        <div class="location-f-icon">
+                                    <div class="url-employee-profile-f profile-field-f error-input">
+                                        <div class="location-f-icon bg-pass-f">
                                             <div class="password-icon-logo">
-                                                <img src="../image/resume-call.png" alt="">
+                                                <img src="../image/website-profile-link.png" alt="">
                                             </div>
-                                            <input type="tel" name="" id="profile-call" placeholder="+(__) ___ ___ ____" class="form-font-f">
+                                            <input type="url" name="" id="profile-url-employee" placeholder="Company Website Link" class="form-font-f">
                                             <div class="icon-hide">
                                                 <img src="../image/warning.png" alt="">
                                             </div>
                                         </div>
+                                        <p class="error-msg">Please Enter Correct Website Url</p>
                                     </div>
-                                    <p class="error-msg">Please enter Url</p>
-                                </div>
-                                <div class="candidate-link-profile profile-field-f error-input">
-                                    <div class="location-f-icon">
-                                        <div class="password-icon-logo">
-                                            <img src="../image/linkdin.png" alt="">
+                                    <div class="email-candidate-profile-f profile-field-f  error-input">
+                                        <div class="location-f-icon bg-pass-f">
+                                            <div class="password-icon-logo">
+                                                <img src="../image/resume-mail.png" alt="">
+                                            </div>
+                                            <input type="email" name="" id="profile-email-candidate" placeholder="E-Mail" class="form-font-f">
+                                            <div class="icon-hide">
+                                                <img src="../image/warning.png" alt="">
+                                            </div>
                                         </div>
-                                        <input type="url" name="" id="social-link" placeholder="LinkedIn Link" class="form-font-f">
-                                        <div class="icon-hide">
-                                            <img src="../image/warning.png" alt="">
-                                        </div>
+                                        <p class="error-msg">Please Enter Correct Email</p>
                                     </div>
-                                    <p class="error-msg">Please enter Url</p>
-                                </div>
-                                <div class="employee-profile-compnay error-input">
-                                    <p class="company-name-profile">Company Information</p>
-                                    <textarea rows="15" cols="100"> </textarea>
-                                    <p class="msg-show-blowe-textarea">Max Limit (100) words</p>
-                                    <p class="error-msg hide-error">Enter Company Information</p>
-                                </div>
-                                <div class="back-save-btns">
-                                    <button class="save-btn-profilefill">Save</button>
-                                    <button class="cancel-btn-profile">Cancel</button>
-                                </div>
-                            </form>
+                                    <div class="profile-field-f ">
+                                        <div class="country-code-profile phone-f-profile error-input">
+
+                                            <div class="location-f-icon bg-pass-f">
+                                                <div class="password-icon-logo">
+                                                    <img src="../image/resume-call.png" alt="">
+                                                </div>
+                                                <input type="tel" name="" id="profile-call" placeholder="+(__) ___ ___ ____" class="form-font-f">
+                                                <div class="icon-hide">
+                                                    <img src="../image/warning.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p class="error-msg">Please enter Url</p>
+                                    </div>
+                                    <div class="candidate-link-profile profile-field-f error-input">
+                                        <div class="location-f-icon bg-pass-f">
+                                            <div class="password-icon-logo">
+                                                <img src="../image/linkdin.png" alt="">
+                                            </div>
+                                            <input type="url" name="" id="social-link" placeholder="LinkedIn Link" class="form-font-f">
+                                            <div class="icon-hide">
+                                                <img src="../image/warning.png" alt="">
+                                            </div>
+                                        </div>
+                                        <p class="error-msg">Please enter Url</p>
+                                    </div>
+                                    <div class="employee-profile-compnay error-input">
+                                        <p class="company-name-profile">Company Information</p>
+                                        <textarea rows="15" cols="100"> </textarea>
+                                        <p class="msg-show-blowe-textarea">Max Limit (100) words</p>
+                                        <p class="error-msg hide-error">Enter Company Information</p>
+                                    </div>
+                                    <div class="back-save-btns">
+                                        <button class="save-btn-profilefill">Save</button>
+                                        <button class="cancel-btn-profile">Cancel</button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
-                    </div>
-                    <!-- <div class="employee-profile-compnay error-input">
+                        <!-- <div class="employee-profile-compnay error-input">
                         <p class="company-name-profile">Company Information</p>
                         <textarea rows="15" cols="100"> </textarea>
                         <p class="msg-show-blowe-textarea">Max Limit (100) words</p>
@@ -201,22 +200,23 @@
                         <button class="save-btn-profilefill">Save</button>
                         <button class="cancel-btn-profile">Cancel</button>
                     </div> -->
-                </div>
-                <div class="candidate-profile-btn">
-                    <div class="three-stack-btn">
-                        <button>Change Password</button>
+                    </div>
+                    <div class="candidate-profile-btn">
+                        <div class="three-stack-btn">
+                            <button>Change Password</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!--------world conect-->
-    <section class="world-conect-sec">
-        <div class="world-conect-row">
-            <img src="../image/world.png" alt="world">
-            <p>Connecting the world to work</p>
-        </div>
-    </section>
+        </section>
+        <!--------world conect-->
+        <section class="world-conect-sec">
+            <div class="world-conect-row">
+                <img src="../image/world.png" alt="world">
+                <p>Connecting the world to work</p>
+            </div>
+        </section>
+    </div>
     <!--------foooter-->
     <section class="footer-sec">
         <div class="container-site">
