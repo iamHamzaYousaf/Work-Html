@@ -13,316 +13,325 @@
 </head>
 
 <body>
-    <header>
-        <div class="container-site-profile">
-            <div class="row-log candidate-profile-header">
-                <div class="logo-col-profile-candidate">
-                    <a href="#"><img src="../image/WORKBRIDGE.png" alt="logo"></a>
+    <div class="all-page-bg-clr">
+        <header>
+            <div class="container container-site-profile">
+                <div class="row-log candidate-profile-header">
+                    <div class="logo-col-profile-candidate">
+                        <a href="#"><img src="../image/WORKBRIDGE.png" alt="logo"></a>
+                        <div class="find-job-btn-candidate-dashbord">
+                            <a href="#"><button className="find-j-nav ">Find a Job</button></a>
+                        </div>
+                    </div>
+                    <div class="profile-right-col">
+                        <div class="candidate-name-img icon-cursor">
+                            <img src="../image/profile.png" alt="">
+                            <p class="candidate-name">Hi, John</p>
+                        </div>
+                        <div class="candidate-wishlist-block icon-cursor">
+                            <a href="#">
+                                <img src="../image/wishlist.png" alt="">
+                                <p class="candidate-wishlist">Wishlist</p>
+                                <div class="whislist-notofication">
+                                    <p class="conter-text-wiishlist">1</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="toggle-icon-profile icon-cursor">
+                            <img src="../image/menu-profile.png" alt="">
+                        </div>
+                    </div>
                 </div>
-                <div class="profile-right-col">
-                    <div class="candidate-name-img icon-cursor">
-                        <img src="../image/profile.png" alt="">
-                        <p class="candidate-name">Hi, John</p>
-                    </div>
-                    <div class="candidate-wishlist-block icon-cursor">
-                        <img src="../image/wishlist.png" alt="">
-                        <p class="candidate-wishlist">Wishlist</p>
-                    </div>
-                    <div class="toggle-icon-profile icon-cursor">
-                        <img src="../image/menu-profile.png" alt="">
+                <div class="dropdown-dashbord hide-show-click">
+                    <ul>
+                        <a href="#">
+                            <li>Dashboard</li>
+                        </a>
+                        <a href="#">
+                            <li>My Profile</li>
+                        </a>
+                        <a href="#">
+                            <li>Wishlist</li>
+                        </a>
+                        <a href="#">
+                            <li>Logout</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!---------- find a job section start here-->
+        <section class="profile-edit">
+            <div class="container-site">
+                <div class="space-inner-row">
+                    <div class="profile-edit-row">
+                        <div class="profile-heading">
+                            <h2>My Profile</h2>
+                        </div>
+                        <div class="profile-eidt-icon edit-profile-icon icon-cursor">
+                            <img src="../image/profile-edit.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="dropdown-dashbord hide-show-click">
-                <ul>
-                    <a href="#">
-                        <li>Dashboard</li>
-                    </a>
-                    <a href="#">
-                        <li>My Profile</li>
-                    </a>
-                    <a href="#">
-                        <li>Wishlist</li>
-                    </a>
-                    <a href="#">
-                        <li>Logout</li>
-                    </a>
-                </ul>
-            </div>
-
-        </div>
-    </header>
-    <!---------- find a job section start here-->
-    <section class="profile-edit">
-        <div class="container-site">
-            <div class="space-inner-row">
-                <div class="profile-edit-row">
-                    <div class="profile-heading">
-                        <h2>My Profile</h2>
-                    </div>
-                    <div class="profile-eidt-icon edit-profile-icon icon-cursor">
-                        <img src="../image/profile-edit.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-----------------job detail section with deatils-->
-    <section class="candidate-profile-sec">
-        <div class="container-site">
-            <div class="space-inner-row">
-                <div class="my-profile-row">
-                    <div class="candidtae-profile-image">
-                        <label for="file-input" id="candidate-img"><img src="../image/upload-1.png" alt="pic"><input
+        </section>
+        <!-----------------job detail section with deatils-->
+        <section class="candidate-profile-sec">
+            <div class="container-site">
+                <div class="space-inner-row">
+                    <div class="my-profile-row">
+                        <div class="candidtae-profile-image">
+                            <label for="file-input" id="candidate-img"><img src="../image/upload-1.png" alt="pic"><input
                             id="file-input" value="Upload here" type="file" />
                         <p class="candidate-logo-file">Upload here</p>
                         <p class="file-size-candidate">Max: 10MB</p>
                     </label>
-                    </div>
-                    <div class="divider-left-profile"> </div>
-                    <div class="candidate-information">
-                        <div class="candidate-about-me about-me-form">
-                            <h5>About Me</h5>
-                            <div class="candidate-profile-form">
-                                <form action="">
-                                    <div class="candidate-name-field-profile profile-field-f">
-                                        <div class="first-name-profile error-input">
-                                            <input type="text" name="" id="candidate-name-field" placeholder="First Name" class="form-font-f">
-                                            <p class="error-msg">Please enter first name</p>
-                                        </div>
-                                        <div class="first-name-profile error-input">
-                                            <input type="text" name="" id="candidate-name-field" placeholder="Last Name" class="form-font-f">
-                                            <p class="error-msg">Please enter Last name</p>
-                                        </div>
-                                    </div>
-                                    <div class="candidate-name-field-profile-f profile-field-f error-input">
-                                        <div class="employr-f-profile password-icon">
-                                            <input type="text" name="" id="Company-name-employe-profile" placeholder="Company Name" class="form-font-f">
-                                            <div class="icon-hide">
-                                                <img src="../image/lock-profile-employye.png" alt="" class="password-icon-togle">
-                                                <img src="../image/warning.png" alt="">
+                        </div>
+                        <div class="divider-left-profile"> </div>
+                        <div class="candidate-information">
+                            <div class="candidate-about-me about-me-form">
+                                <h5>About Me</h5>
+                                <div class="candidate-profile-form">
+                                    <form action="">
+                                        <div class="candidate-name-field-profile profile-field-f">
+                                            <div class="first-name-profile error-input">
+                                                <input type="text" name="" id="candidate-name-field" placeholder="First Name" class="form-font-f">
+                                                <p class="error-msg">Please enter first name</p>
+                                            </div>
+                                            <div class="first-name-profile error-input">
+                                                <input type="text" name="" id="candidate-name-field" placeholder="Last Name" class="form-font-f">
+                                                <p class="error-msg">Please enter Last name</p>
                                             </div>
                                         </div>
-                                        <p class="error-msg">Please Enter Correct Company Name</p>
-                                    </div>
-                                    <div class="profile-field-f signup-passowrd-job error-input location-profile-list">
-                                        <div class="location-f-icon">
-                                            <div class="password-icon-logo">
-                                                <img src="../image/resume-location.png" alt="">
-                                            </div>
-                                            <input type="text" name="" id="location-f-profile" placeholder="Location" class="form-font-f">
-                                            <div class="icon-hide">
-                                                <img src="../image/warning.png" alt="">
-                                            </div>
-                                        </div>
-                                        <p class="error-msg">Please Enter Correct Location</p>
-                                        <div class="job-tags-titles-dropdown job-dropdown-hide">
-                                            <h3 class="job-suggestion">Job Tags</h3>
-                                            <ul class="dorpdown-list-location">
-                                                <li>Technical Support Analyst</li>
-                                                <li>Application Administrator</li>
-                                                <li>Technical Support</li>
-                                                <li>Recruiter</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="url-employee-profile-f profile-field-f error-input">
-                                        <div class="location-f-icon">
-                                            <div class="password-icon-logo">
-                                                <img src="../image/website-profile-link.png" alt="">
-                                            </div>
-                                            <input type="url" name="" id="profile-url-employee" placeholder="Company Website Link" class="form-font-f">
-                                            <div class="icon-hide">
-                                                <img src="../image/warning.png" alt="">
-                                            </div>
-                                        </div>
-                                        <p class="error-msg">Please Enter Correct Website Url</p>
-                                    </div>
-                                    <div class="email-candidate-profile-f profile-field-f  error-input">
-                                        <div class="location-f-icon">
-                                            <div class="password-icon-logo">
-                                                <img src="../image/resume-mail.png" alt="">
-                                            </div>
-                                            <input type="email" name="" id="profile-email-candidate" placeholder="E-Mail" class="form-font-f">
-                                            <div class="icon-hide">
-                                                <img src="../image/warning.png" alt="">
-                                            </div>
-                                        </div>
-                                        <p class="error-msg">Please Enter Correct Email</p>
-                                    </div>
-                                    <div class="profile-field-f ">
-                                        <div class="country-code-profile phone-f-profile error-input">
-
-                                            <div class="location-f-icon">
-                                                <div class="password-icon-logo">
-                                                    <img src="../image/resume-call.png" alt="">
+                                        <div class="candidate-name-field-profile-f profile-field-f error-input">
+                                            <div class="bg-pass-f employr-f-profile password-icon">
+                                                <input type="text" name="" id="Company-name-employe-profile" placeholder="Company Name" class="form-font-f">
+                                                <div class="icon-hide">
+                                                    <img src="../image/lock-profile-employye.png" alt="" class="password-icon-togle">
+                                                    <img src="../image/warning.png" alt="">
                                                 </div>
-                                                <input type="tel" name="" id="profile-call" placeholder="+(__) ___ ___ ____" class="form-font-f">
+                                            </div>
+                                            <p class="error-msg">Please Enter Correct Company Name</p>
+                                        </div>
+                                        <div class="profile-field-f signup-passowrd-job error-input location-profile-list">
+                                            <div class="bg-pass-f location-f-icon">
+                                                <div class="password-icon-logo">
+                                                    <img src="../image/resume-location.png" alt="">
+                                                </div>
+                                                <input type="text" name="" id="location-f-profile" placeholder="Location" class="form-font-f">
                                                 <div class="icon-hide">
                                                     <img src="../image/warning.png" alt="">
                                                 </div>
                                             </div>
+                                            <p class="error-msg">Please Enter Correct Location</p>
+                                            <div class="job-tags-titles-dropdown job-dropdown-hide">
+                                                <h3 class="job-suggestion">Job Tags</h3>
+                                                <ul class="dorpdown-list-location">
+                                                    <li>Technical Support Analyst</li>
+                                                    <li>Application Administrator</li>
+                                                    <li>Technical Support</li>
+                                                    <li>Recruiter</li>
+                                                </ul>
+                                            </div>
                                         </div>
-                                        <p class="error-msg">Please enter Url</p>
+                                        <div class="url-employee-profile-f profile-field-f error-input">
+                                            <div class="bg-pass-f location-f-icon">
+                                                <div class="password-icon-logo">
+                                                    <img src="../image/website-profile-link.png" alt="">
+                                                </div>
+                                                <input type="url" name="" id="profile-url-employee" placeholder="Company Website Link" class="form-font-f">
+                                                <div class="icon-hide">
+                                                    <img src="../image/warning.png" alt="">
+                                                </div>
+                                            </div>
+                                            <p class="error-msg">Please Enter Correct Website Url</p>
+                                        </div>
+                                        <div class="email-candidate-profile-f profile-field-f  error-input">
+                                            <div class="bg-pass-f location-f-icon">
+                                                <div class="password-icon-logo">
+                                                    <img src="../image/resume-mail.png" alt="">
+                                                </div>
+                                                <input type="email" name="" id="profile-email-candidate" placeholder="E-Mail" class="form-font-f">
+                                                <div class="icon-hide">
+                                                    <img src="../image/warning.png" alt="">
+                                                </div>
+                                            </div>
+                                            <p class="error-msg">Please Enter Correct Email</p>
+                                        </div>
+                                        <div class="profile-field-f ">
+                                            <div class="country-code-profile phone-f-profile error-input">
+
+                                                <div class="bg-pass-f location-f-icon">
+                                                    <div class="password-icon-logo">
+                                                        <img src="../image/resume-call.png" alt="">
+                                                    </div>
+                                                    <input type="tel" name="" id="profile-call" placeholder="+(__) ___ ___ ____" class="form-font-f">
+                                                    <div class="icon-hide">
+                                                        <img src="../image/warning.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="error-msg">Please enter Url</p>
+                                        </div>
+                                        <div class="candidate-link-profile profile-field-f error-input">
+                                            <div class="bg-pass-f location-f-icon">
+                                                <div class="password-icon-logo">
+                                                    <img src="../image/linkdin.png" alt="">
+                                                </div>
+                                                <input type="url" name="" id="social-link" placeholder="LinkedIn Link" class="form-font-f">
+                                                <div class="icon-hide">
+                                                    <img src="../image/warning.png" alt="">
+                                                </div>
+                                            </div>
+                                            <p class="error-msg">Please enter Url</p>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="candidate-profile-date-after">
+                                <h5>John Smith</h5>
+                                <div class="candiate-info-heading">
+                                    <a href="#">
+                                        <img src="../image/candidate-location.png" alt="">
+                                        <p class="candidate-info-text">Location</p>
+                                    </a>
+                                </div>
+                                <div class="candiate-info-heading">
+                                    <a href="mailto:teklavasadze@gmail.com">
+                                        <img src="../image/mail-can.png" alt="">
+                                        <p class="candidate-info-text">teklavasadze@gmail.com</p>
+                                    </a>
+                                </div>
+                                <div class="candiate-info-heading">
+                                    <a href="tel:+995599132862">
+                                        <img src="../image/call-can.png" alt="">
+                                        <p class="candidate-info-text">+995 599132862</p>
+                                    </a>
+                                </div>
+                                <div class="candiate-info-heading">
+                                    <a href="#">
+                                        <img src="../image/linkdin.png" alt="">
+                                        <p class="candidate-info-text">LinkedIn Link</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="accordion-candidate-prfile divider-bottom-tabdata">
+                                <div class="accordion-item">
+                                    <div class="candidate-profile-datefill">Tell us about yourself</div>
+                                    <div class="card-body">
+                                        <p class="candidate-profile-data">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem
+                                            Ipsum is simply dummy text of the printing and typesetting industry. </p>
+
                                     </div>
-                                    <div class="candidate-link-profile profile-field-f error-input">
-                                        <div class="location-f-icon">
-                                            <div class="password-icon-logo">
-                                                <img src="../image/linkdin.png" alt="">
-                                            </div>
-                                            <input type="url" name="" id="social-link" placeholder="LinkedIn Link" class="form-font-f">
-                                            <div class="icon-hide">
-                                                <img src="../image/warning.png" alt="">
-                                            </div>
-                                        </div>
-                                        <p class="error-msg">Please enter Url</p>
+
+                                </div>
+                                <div class="accordion-item">
+                                    <div class="candidate-profile-datefill">Things I like to do.</div>
+                                    <div class="card-body">
+                                        <ul class="candidate-profile-data-list">
+                                            <li>Swimming </li>
+                                            <li>Swimming </li>
+                                            <li>Swimming </li>
+                                            <li>Swimming </li>
+                                            <li>Swimming </li>
+                                            <li>Swimming </li>
+                                        </ul>
                                     </div>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="candidate-profile-date-after">
-                            <h5>John Smith</h5>
-                            <div class="candiate-info-heading">
-                                <a href="#">
-                                    <img src="../image/candidate-location.png" alt="">
-                                    <p class="candidate-info-text">Location</p>
-                                </a>
-                            </div>
-                            <div class="candiate-info-heading">
-                                <a href="mailto:teklavasadze@gmail.com">
-                                    <img src="../image/mail-can.png" alt="">
-                                    <p class="candidate-info-text">teklavasadze@gmail.com</p>
-                                </a>
-                            </div>
-                            <div class="candiate-info-heading">
-                                <a href="tel:+995599132862">
-                                    <img src="../image/call-can.png" alt="">
-                                    <p class="candidate-info-text">+995 599132862</p>
-                                </a>
-                            </div>
-                            <div class="candiate-info-heading">
-                                <a href="#">
-                                    <img src="../image/linkdin.png" alt="">
-                                    <p class="candidate-info-text">LinkedIn Link</p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="accordion-candidate-prfile divider-bottom-tabdata">
-                            <div class="accordion-item">
-                                <div class="candidate-profile-datefill">Tell us about yourself</div>
-                                <div class="card-body">
-                                    <p class="candidate-profile-data">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sorem
-                                        Ipsum is simply dummy text of the printing and typesetting industry. </p>
 
                                 </div>
-
-                            </div>
-                            <div class="accordion-item">
-                                <div class="candidate-profile-datefill">Things I like to do.</div>
-                                <div class="card-body">
-                                    <ul class="candidate-profile-data-list">
-                                        <li>Swimming </li>
-                                        <li>Swimming </li>
-                                        <li>Swimming </li>
-                                        <li>Swimming </li>
-                                        <li>Swimming </li>
-                                        <li>Swimming </li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                            <div class="accordion-item">
-                                <div class="candidate-profile-datefill">Short Intro video</div>
-                                <div class="card-body">
-                                    <div class="intro-profile-vedio-chek">
-                                        <div class="upload-candidate-intro-vedio">
-                                            <img src="../image/video-yhumnail.png" alt="">
-                                        </div>
-                                        <div class="check-box-vedio">
-                                            <div class="chek-box-one">
-                                                <input type="checkbox" name="" id="">&nbsp;Send video with every job application
+                                <div class="accordion-item">
+                                    <div class="candidate-profile-datefill">Short Intro video</div>
+                                    <div class="card-body">
+                                        <div class="intro-profile-vedio-chek">
+                                            <div class="upload-candidate-intro-vedio">
+                                                <img src="../image/video-yhumnail.png" alt="">
                                             </div>
-                                            <div class="check-box-two">
-                                                <input type="checkbox" name="" id="">&nbsp;Ask before applying for job
+                                            <div class="check-box-vedio">
+                                                <div class="chek-box-one">
+                                                    <input type="checkbox" name="" id="">&nbsp;Send video with every job application
+                                                </div>
+                                                <div class="check-box-two">
+                                                    <input type="checkbox" name="" id="">&nbsp;Ask before applying for job
+                                                </div>
                                             </div>
-                                        </div>
 
+                                        </div>
                                     </div>
-                                </div>
 
-                            </div>
-                        </div>
-                        <div class="preferences-row">
-                            <h5>Preferences</h5>
-                        </div>
-                        <div class="preferences-fields-profile">
-                            <div class="signup-job-titles f-feild tags-candidate-profile tags-tittles">
-                                <label for="fjobtitles">Job Titles I’m interested in</label><br>
-                                <input type="text" name="" id="preferences-prfile" placeholder="Job Titles I’m interested in">
-                                <div class="job-tags-titles-dropdown job-dropdown-hide">
-                                    <h3 class="job-suggestion">Job Tags</h3>
-                                    <ul class="dorpdown-list-location">
-                                        <li>Technical Support Analyst</li>
-                                        <li>Application Administrator</li>
-                                        <li>Technical Support</li>
-                                        <li>Recruiter</li>
-                                    </ul>
                                 </div>
-                                <ul class="tags-titles-list">
-                                    <li>Technical Support Analyst<button><img src="../image/cross.png" alt=""></button></li>
-                                    <li>Application Administrator<button><img src="../image/cross.png" alt=""></button></li>
-                                    <li>System Administrator<button><img src="../image/cross.png" alt=""></button>
-                                    </li>
-                                    <li>Technical Support Engineer<button><img src="../image/cross.png" alt=""></button></li>
-                                    <li>Technical Support Analyst<button><img src="../image/cross.png" alt=""></button></li>
-                                </ul>
-                                <p class="error-msg hide-error">Enter job titles </p>
                             </div>
-                            <div class="signup-skill-tags f-feild tags-candidate-profile tags-tittles">
-                                <label for="fjobtitles">My Top Tech Skill Tags</label><br>
-                                <input type="text" name="" id="preferences-prfile" placeholder="My Top Tech Skill Tagsn">
-                                <div class="job-tags-titles-dropdown job-dropdown-hide">
-                                    <h3 class="job-suggestion">Job Tags</h3>
-                                    <ul class="dorpdown-list-location">
-                                        <li>Technical Support Analyst</li>
-                                        <li>Application Administrator</li>
-                                        <li>Technical Support</li>
-                                        <li>Recruiter</li>
+                            <div class="preferences-row">
+                                <h5>Preferences</h5>
+                            </div>
+                            <div class="preferences-fields-profile">
+                                <div class="signup-job-titles f-feild tags-candidate-profile tags-tittles">
+                                    <label for="fjobtitles">Job Titles I’m interested in</label><br>
+                                    <input type="text" name="" id="preferences-prfile" placeholder="Job Titles I’m interested in">
+                                    <div class="job-tags-titles-dropdown job-dropdown-hide">
+                                        <h3 class="job-suggestion">Job Tags</h3>
+                                        <ul class="dorpdown-list-location">
+                                            <li>Technical Support Analyst</li>
+                                            <li>Application Administrator</li>
+                                            <li>Technical Support</li>
+                                            <li>Recruiter</li>
+                                        </ul>
+                                    </div>
+                                    <ul class="tags-titles-list">
+                                        <li>Technical Support Analyst<button><img src="../image/cross.png" alt=""></button></li>
+                                        <li>Application Administrator<button><img src="../image/cross.png" alt=""></button></li>
+                                        <li>System Administrator<button><img src="../image/cross.png" alt=""></button>
+                                        </li>
+                                        <li>Technical Support Engineer<button><img src="../image/cross.png" alt=""></button></li>
+                                        <li>Technical Support Analyst<button><img src="../image/cross.png" alt=""></button></li>
                                     </ul>
+                                    <p class="error-msg hide-error">Enter job titles </p>
                                 </div>
-                                <ul class="tags-titles-list">
-                                    <li>Active Directory<button><img src="../image/cross.png" alt=""></button></li>
-                                    <li>SQL Server<button><img src="../image/cross.png" alt=""></button></li>
-                                    <li>Windows Server<button><img src="../image/cross.png" alt=""></button></li>
-                                    <li>SQL Server<button><img src="../image/cross.png" alt=""></button></li>
-                                    <li>Windows Server<button><img src="../image/cross.png" alt=""></button></li>
-                                </ul>
-                                <p class="error-msg hide-error">Enter skill tags</p>
+                                <div class="signup-skill-tags f-feild tags-candidate-profile tags-tittles">
+                                    <label for="fjobtitles">My Top Tech Skill Tags</label><br>
+                                    <input type="text" name="" id="preferences-prfile" placeholder="My Top Tech Skill Tagsn">
+                                    <div class="job-tags-titles-dropdown job-dropdown-hide">
+                                        <h3 class="job-suggestion">Job Tags</h3>
+                                        <ul class="dorpdown-list-location">
+                                            <li>Technical Support Analyst</li>
+                                            <li>Application Administrator</li>
+                                            <li>Technical Support</li>
+                                            <li>Recruiter</li>
+                                        </ul>
+                                    </div>
+                                    <ul class="tags-titles-list">
+                                        <li>Active Directory<button><img src="../image/cross.png" alt=""></button></li>
+                                        <li>SQL Server<button><img src="../image/cross.png" alt=""></button></li>
+                                        <li>Windows Server<button><img src="../image/cross.png" alt=""></button></li>
+                                        <li>SQL Server<button><img src="../image/cross.png" alt=""></button></li>
+                                        <li>Windows Server<button><img src="../image/cross.png" alt=""></button></li>
+                                    </ul>
+                                    <p class="error-msg hide-error">Enter skill tags</p>
+                                </div>
+                            </div>
+                            <div class="back-save-btns">
+                                <button class="save-btn-profilefill">Save</button>
+                                <button class="cancel-btn-profile">Cancel</button>
                             </div>
                         </div>
-                        <div class="back-save-btns">
-                            <button class="save-btn-profilefill">Save</button>
-                            <button class="cancel-btn-profile">Cancel</button>
-                        </div>
-                    </div>
-                    <div class="candidate-profile-btn">
-                        <div class="three-stack-btn">
-                            <button>View your Resume</button>
-                            <button>Upload new Resume</button>
-                            <button>Change Password</button>
+                        <div class="candidate-profile-btn">
+                            <div class="three-stack-btn">
+                                <button>View your Resume</button>
+                                <button>Upload new Resume</button>
+                                <button>Change Password</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!--------world conect-->
-    <section class="world-conect-sec">
-        <div class="world-conect-row">
-            <img src="../image/world.png" alt="world">
-            <p>Connecting the world to work</p>
-        </div>
-    </section>
+        </section>
+        <!--------world conect-->
+        <section class="world-conect-sec">
+            <div class="world-conect-row">
+                <img src="../image/world.png" alt="world">
+                <p>Connecting the world to work</p>
+            </div>
+        </section>
+    </div>
     <!--------foooter-->
     <section class="footer-sec">
         <div class="container-site">

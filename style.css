@@ -216,13 +216,13 @@ html {
 .find-job-btn-candidate-dashbord button {
     background: var(--primary-color);
     color: var(--color-white);
-    padding: 10px 50px;
+    padding: 8px 53px;
     text-align: center;
     border: 0;
-    border-radius: 6px;
+    border-radius: 4px;
     cursor: pointer;
     font-family: var(--museo-sans);
-    font-size: var(--body-text);
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -696,6 +696,8 @@ p.job-discription {
     padding: 15px 0 36px 0;
     text-align: justify;
     line-height: 28px;
+    min-height: 135px;
+    height: auto;
 }
 
 .job-skill-location {
@@ -1985,7 +1987,7 @@ button.form-submit {
 
 .tags-tittles ul.tags-titles-list li {
     background: var(--secondary-color);
-    padding: 5px 10px;
+    padding: 4px 8px;
     color: var(--primary-color);
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-medium);
@@ -2212,10 +2214,10 @@ textarea:focus-visible {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 18px 8px;
+    padding: 13px 8px;
     border-radius: 6px;
     border: 0.5px solid rgba(0, 0, 0, 0.20);
-    background: #FFF;
+    background-color: rgba(221, 222, 238, 0.25) !important;
 }
 
 input#location-f-profile {
@@ -2243,9 +2245,10 @@ input#location-f-profile {
     color: var(--error-msg-color);
 }
 
-.error-input>p.company-name-profile {
+
+/* .error-input>p.company-name-profile {
     color: var(--error-msg-color) !important;
-}
+} */
 
 
 /*************post a job error feild**********/
@@ -2876,12 +2879,13 @@ button.btn-job-post {
 .company-form-dropdownBox-profile {
     width: 100%;
     cursor: pointer;
-    color: rgb(0 0 0 / 80%);
+    color: rgb(0 0 0 / 40%);
+    font-size: 16px;
+    font-family: var(--museo-sans);
+    font-weight: 300;
     display: flex;
     align-items: center;
     gap: 5px;
-    font-size: var(--body-text);
-    font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
     padding-left: 10px;
 }
@@ -4519,6 +4523,8 @@ p.file-error-msg {
     font-weight: 300;
     font-family: var(--museo-sans);
     text-align: justify;
+    min-height: 110px;
+    height: auto;
 }
 
 .job-title-left {
@@ -4795,7 +4801,7 @@ a.card-link-box {
 p.job-title-candidate-dashboard {
     text-align: center;
     color: var(--primary-color);
-    font-size: 18px;
+    font-size: 20px;
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
 }
@@ -4887,7 +4893,7 @@ a.card-link-box-2 {
 }
 
 
-/********profilecnadidate ********/
+/********profile candidate ********/
 
 section.profile-edit {
     padding: 100px 0px 50px 0px;
@@ -4908,6 +4914,7 @@ section.profile-edit {
     top: 50%;
     margin: 0;
     font-weight: var(--font-weight-bold);
+    font-size: 28px;
 }
 
 .my-profile-row {
@@ -4930,6 +4937,8 @@ section.profile-edit {
 
 .candidate-information h5 {
     font-weight: var(--font-weight-bold);
+    font-size: 24px;
+    margin-bottom: 0;
 }
 
 .employee-profile-compnay-data {
@@ -4937,24 +4946,27 @@ section.profile-edit {
 }
 
 p.company-name-profile-date {
-    font-size: var(--sub-heading);
+    font-size: 24px;
     color: var(--primary-color);
     font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
 }
 
 p.employee-profile-company-content-date {
-    font-size: var(--body-text);
+    font-size: 16px;
     font-weight: 300;
     font-family: var(--museo-sans);
     color: var(--text-color);
-    line-height: 42px;
-    opacity: 0.8;
+    line-height: 26px;
     text-align: justify;
 }
 
 .about-me-form {
     display: none;
+}
+
+.candidate-profile-form {
+    margin-top: 24px;
 }
 
 .candidate-profile-btn {
@@ -4973,7 +4985,7 @@ p.candidate-info-text {
     color: var(--text-color);
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
-    font-size: var(--promoted-btn);
+    font-size: 16px;
     line-height: 24px;
 }
 
@@ -4986,7 +4998,7 @@ p.candidate-info-text {
     align-items: center;
     background: #C4C4C4;
     padding: 15px 0;
-    height: 250px;
+    height: 180px;
 }
 
 .candidtae-profile-image-avatar {
@@ -5046,13 +5058,13 @@ p.file-size-candidate {
 .three-stack-btn button {
     max-width: 100%;
     width: 100%;
-    padding: 15px 0;
+    padding: 8px 0;
     background: transparent;
-    margin-bottom: 25px;
+    margin-bottom: 16px;
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
     border-radius: 6px;
-    font-size: var(--promoted-btn);
+    font-size: 16px;
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
     outline: 0;
@@ -5119,7 +5131,9 @@ section.candidate-profile-tabs {
 }
 
 .accordion-item {
+    padding-bottom: 20px;
     border: 0px solid rgba(0, 0, 0, .125);
+    background: transparent;
 }
 
 .accordion-button:focus {
@@ -5135,16 +5149,17 @@ h2#headingOne:focus-visible {
 
 button.accordion-button.collapsed {
     color: var(--primary-color);
-    font-size: var(--sub-heading);
+    font-size: 24px;
     font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
     margin-bottom: 25px;
     padding: 0 10px;
+    background: transparent;
 }
 
 .accordion-button:not(.collapsed) {
     color: var(--primary-color);
-    font-size: var(--sub-heading);
+    font-size: 24px;
     font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
     margin-bottom: 15px;
@@ -5158,9 +5173,9 @@ textarea#candidate-profile-tabs {
     border: 0.5px solid rgb(0 0 0 / 30%);
     border-radius: 6px;
     color: var(--text-color);
-    font-size: var(--promoted-btn);
+    font-size: 16px;
     font-family: var(--museo-sans);
-    opacity: 0.8;
+    background-color: rgba(221, 222, 238, 0.25) !important;
 }
 
 .upload-intro-vedio input {
@@ -5173,15 +5188,14 @@ textarea#candidate-profile-tabs {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: transparent;
+    background-color: rgba(221, 222, 238, 0.25) !important;
     border: 0.5px solid rgb(0 0 0 / 30%);
     border-radius: 6px;
 }
 
 p.candidate-profile-tabs-msg {
     color: var(--text-color);
-    opacity: 0.8;
-    font-size: var(--promoted-btn);
+    font-size: 16px;
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
     text-align: end;
@@ -5195,8 +5209,8 @@ p.candidate-profile-tabs-msg {
 }
 
 button.cancel-btn-profile {
-    font-size: var(--promoted-btn);
-    padding: 12px 57px;
+    font-size: 16px;
+    padding: 10px 57px;
     background: transparent;
     border: 1px solid var(--error-msg-color);
     color: var(--error-msg-color);
@@ -5210,27 +5224,27 @@ button.cancel-btn-profile:hover {
 }
 
 button.save-btn-profile {
-    font-size: var(--promoted-btn);
-    padding: 12px 57px;
+    font-size: 16px;
+    padding: 10px 57px;
     background: transparent;
-    border: 1px solid var(--accent-color);
-    color: var(--accent-color);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
     border-radius: 6px;
     font-family: var(--museo-sans);
 }
 
 button.save-btn-profilefill {
-    font-size: var(--promoted-btn);
-    padding: 12px 57px;
-    background: var(--accent-color);
-    border: 1px solid var(--accent-color);
+    font-size: 16px;
+    padding: 10px 57px;
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
     color: var(--color-white);
     border-radius: 6px;
     font-family: var(--museo-sans);
 }
 
 button.save-btn-profile:hover {
-    background: var(--accent-color);
+    background: var(--primary-color);
     color: var(--color-white);
 }
 
@@ -5239,7 +5253,7 @@ button.save-btn-profile:hover {
     justify-content: center;
     gap: 20px;
     flex-direction: column;
-    max-width: 40%;
+    max-width: 44%;
     margin: 0 auto;
 }
 
@@ -5260,7 +5274,7 @@ button.profile-end-btn:hover {
 }
 
 .preferences-row {
-    padding: 40px 0px;
+    padding: 30px 0px;
 }
 
 .preferences-row h2 {
@@ -5321,21 +5335,17 @@ ul.dorpdown-list-location li {
 
 input#preferences-prfile {
     width: 100%;
-    padding: 18px 8px;
+    padding: 13px 8px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
     color: var(--text-color);
-    font-size: var(--promoted-btn);
+    font-size: 16px;
     font-family: var(--museo-sans);
-    opacity: 0.8;
+    background-color: rgba(221, 222, 238, 0.25) !important;
 }
 
 .card-body {
     padding: 0 10px;
-}
-
-.accordion-item {
-    padding-bottom: 20px;
 }
 
 .divider-left-profile {
@@ -5358,7 +5368,7 @@ input#preferences-prfile {
 input#candidate-name-field {
     /* max-width: 50%; */
     width: 100%;
-    padding: 18px 10px;
+    padding: 13px 10px;
     border: 0.5px solid #BDBDBD;
     border-radius: 6px;
 }
@@ -5462,13 +5472,15 @@ input#profile-url-employee {
     width: 100%;
     border: 0.5px solid var(--gray-4, #BDBDBD);
     border-radius: 4px;
-    color: rgb(0 0 0 / 80%);
-    font-size: var(--promoted-btn);
+    color: rgb(0 0 0 / 100%);
+    font-size: 16px;
+    font-weight: 300;
     font-family: var(--museo-sans);
+    background-color: rgba(221, 222, 238, 0.25) !important;
 }
 
 p.company-name-profile {
-    font-size: var(--sub-heading);
+    font-size: 24px;
     color: var(--primary-color);
     font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
@@ -5485,6 +5497,19 @@ p.employee-profile-company-content {
     opacity: 0.8;
     line-height: 42px;
     text-align: justify;
+}
+
+.bg-pass-f>input#Company-name-employe-profile,
+.bg-pass-f>input#location-f-profile,
+.bg-pass-f>input#profile-url-employee,
+.bg-pass-f>input#profile-email-candidate,
+.bg-pass-f>input#profile-call,
+.bg-pass-f>input#social-link {
+    color: rgb(0 0 0 / 100%);
+    font-family: var(--museo-sans);
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgb(221 222 238 / 0%) !important;
 }
 
 
@@ -5542,9 +5567,10 @@ select#candidate-location-feild,
 input#Company-name-employe-profile::-webkit-input-placeholder,
 input#profile-url-employee::-webkit-input-placeholder,
 input#location-f-profile::-webkit-input-placeholder,
-input#jon-search-box::-webkit-input-placeholder {
+input#jon-search-box::-webkit-input-placeholder,
+input#preferences-prfile::-webkit-input-placeholder {
     color: rgb(0 0 0 / 40%);
-    font-size: var(--body-text);
+    font-size: 16px;
     font-family: var(--museo-sans);
     font-weight: 300;
     /* opacity: 0.8; */
@@ -5571,7 +5597,7 @@ input#candidate-list-search::-webkit-input-placeholder,
 .signup-company-name input[type="text"]::-webkit-input-placeholder,
 .signup-website-url input[type="url"]::-webkit-input-placeholder {
     color: rgb(0 0 0 / 40%);
-    font-size: var(--promoted-btn);
+    font-size: 16px;
     font-family: var(--museo-sans);
     font-weight: 300;
 }
@@ -5666,23 +5692,23 @@ select#candidate-location-feild option {
 
 p.candidate-profile-data {
     color: var(--text-color);
-    opacity: 0.8;
     font-family: var(--museo-sans);
-    font-size: var(--body-text);
-    line-height: 42px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
 }
 
 ul.candidate-profile-data-list {
     color: var(--text-color);
-    opacity: 0.8;
     font-family: var(--museo-sans);
-    font-size: var(--body-text);
-    line-height: 42px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
 }
 
 .candidate-profile-datefill {
     color: var(--primary-color);
-    font-size: var(--sub-heading);
+    font-size: 24px;
     font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
     margin-bottom: 15px;
@@ -6136,32 +6162,93 @@ p.error-wishlist {
 /*****************employee dasbord ***********/
 
 .employee-job-dasboard {
-    display: flex;
-    justify-content: center;
-    gap: 80px 50px;
+    gap: 20px;
     padding: 125px 0 100px 0;
     max-width: 100%;
     width: 100%;
     margin: 0 auto;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: [col1-start] 280px [col2-start] 280px [col3-start] 280px [col3-end];
+    grid-template-rows: [row1-start] 152px [row2-start] 152px [row2-end];
+    justify-content: center;
 }
 
-a.anchor-cards-job {
-    background: #FFFFFF;
-    border: 0.5px solid rgba(0, 0, 0, 0.1);
+.job-employee-cards img {
+    display: block;
+    margin: 0px 0 0 auto;
+    padding-bottom: 0;
+}
+
+.anchor-cards-job-1 {
+    background: url('./image/employee-card-1.jpeg');
     box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
-    padding: 0 20px 15px;
-    max-width: 30%;
+    padding: 20px 15px;
+    max-width: 100%;
+    background-size: cover;
+    border: 0;
+    background-position: center;
     width: 100%;
     text-decoration: none;
 }
 
-.job-employee-cards img {
-    text-align: center;
-    display: block;
-    margin: -45px auto 0;
-    padding-bottom: 20px;
+.anchor-cards-job-4 {
+    background: url('./image/employee-card-4.jpeg');
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 20px 15px;
+    max-width: 100%;
+    background-size: cover;
+    border: 0;
+    background-position: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+.anchor-cards-job-2 {
+    background: url('./image/employee-card-2.jpeg');
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 20px 15px;
+    max-width: 100%;
+    background-size: cover;
+    border: 0;
+    background-position: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+.anchor-cards-job-3 {
+    background: url('./image/employee-card-3.jpeg');
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 20px 15px;
+    max-width: 100%;
+    background-size: cover;
+    border: 0;
+    background-position: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+.card-1 {
+    grid-column: col1-start;
+    grid-row: row1-start / row2-end;
+}
+
+.card-2 {
+    grid-column: col2-start;
+    grid-row: row1-start;
+}
+
+.card-3 {
+    grid-column: col3-start;
+    grid-row: row1-start;
+}
+
+.card-4 {
+    grid-column: col2-start / col3-end;
+    grid-row: row2-start;
 }
 
 .j-fillter-only-table {
@@ -6194,19 +6281,6 @@ a.anchor-cards-job {
     font-size: var(--promoted-btn);
     font-weight: var(--font-weight-medium);
 }
-
-
-/* .company-form-dropdownBox1-table:after {
-content: " ";
-background-image: url(./image/company--detail-filter.png);
-width: 38px;
-height: 10px;
-background-repeat: no-repeat;
-margin-left: 10px;
-position: absolute;
-background-size: contain;
-right: 0;
-} */
 
 .text-filter-icon-table {
     display: flex;
@@ -7651,96 +7725,6 @@ button.form-submit-job-model {
 
 /************ 1440px employee dashbord css *********/
 
-.employee-job-dasboard {
-    gap: 50px;
-    padding: 125px 0 100px 0;
-    max-width: 100%;
-    width: 100%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: [col1-start] 300px [col2-start] 300px [col3-start] 300px [col3-end];
-    grid-template-rows: [row1-start] 200px [row2-start] 200px [row2-end];
-    justify-content: center;
-}
-
-.job-employee-cards img {
-    display: block;
-    margin: 0px 0 0 auto;
-    padding-bottom: 0;
-}
-
-.anchor-cards-job-1 {
-    background: url('./image/employee-card-1.jpeg');
-    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
-    padding: 20px 15px;
-    max-width: 100%;
-    background-size: cover;
-    border: 0;
-    background-position: center;
-    width: 100%;
-    text-decoration: none;
-}
-
-.anchor-cards-job-4 {
-    background: url('./image/employee-card-4.jpeg');
-    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
-    padding: 20px 15px;
-    max-width: 100%;
-    background-size: cover;
-    border: 0;
-    background-position: center;
-    width: 100%;
-    text-decoration: none;
-}
-
-.anchor-cards-job-2 {
-    background: url('./image/employee-card-2.jpeg');
-    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
-    padding: 20px 15px;
-    max-width: 100%;
-    background-size: cover;
-    border: 0;
-    background-position: center;
-    width: 100%;
-    text-decoration: none;
-}
-
-.anchor-cards-job-3 {
-    background: url('./image/employee-card-3.jpeg');
-    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
-    padding: 20px 15px;
-    max-width: 100%;
-    background-size: cover;
-    border: 0;
-    background-position: center;
-    width: 100%;
-    text-decoration: none;
-}
-
-.card-1 {
-    grid-column: col1-start;
-    grid-row: row1-start / row2-end;
-}
-
-.card-2 {
-    grid-column: col2-start;
-    grid-row: row1-start;
-}
-
-.card-3 {
-    grid-column: col3-start;
-    grid-row: row1-start;
-}
-
-.card-4 {
-    grid-column: col2-start / col3-end;
-    grid-row: row2-start;
-}
-
 
 /*************responsivness start here ***********/
 
@@ -7806,9 +7790,7 @@ button.form-submit-job-model {
 
 /* @media only screen and (max-width:1250px) {
     
-    .candidtae-profile-image {
-        max-width: 18%;
-    }
+
     .candidate-information {
         max-width: 64%;
     }
@@ -7928,7 +7910,7 @@ button.form-submit-job-model {
     }
     /************candidate profile ******/
     button.accordion-button.collapsed {
-        font-size: 28px;
+        font-size: 20px;
     }
     .candidate-information {
         max-width: 56%;
@@ -8081,7 +8063,7 @@ button.form-submit-job-model {
         max-width: 35%;
     }
     button.accordion-button.collapsed {
-        font-size: 28px;
+        font-size: 20px;
     }
     /**candidate model ******/
     .resume-heading h1 {
@@ -8325,7 +8307,7 @@ button.form-submit-job-model {
         max-width: 80%;
     }
     button.accordion-button.collapsed {
-        font-size: 28px;
+        font-size: 20px;
     }
     input#preferences-prfile {
         width: 100%;
@@ -8348,9 +8330,6 @@ button.form-submit-job-model {
         left: 35%;
     }
     /*********profile candidate *********/
-    .preferences-row {
-        padding: 40px 0;
-    }
     /*******candidate job dashboard ***/
     .job-announcements-col-candidate button,
     .job-wishlist-btn button {
@@ -9175,7 +9154,7 @@ button.form-submit-job-model {
         display: none;
     }
     .profile-heading h2 {
-        font-size: 30px;
+        font-size: 24px;
     }
     section.profile-edit {
         padding: 50px 0px 50px 0px;
@@ -9212,10 +9191,10 @@ button.form-submit-job-model {
     }
     button.accordion-button.collapsed,
     .accordion-button:not(.collapsed) {
-        font-size: 24px;
+        font-size: 20px;
     }
     .candidate-profile-datefill {
-        font-size: 24px;
+        font-size: 20px;
     }
     .back-save-btns {
         gap: 15px;
@@ -9225,20 +9204,12 @@ button.form-submit-job-model {
     input#preferences-prfile {
         width: 100%;
     }
-    /* .tags-candidate-profile ul {
-grid-template-columns: repeat(2, 1fr);
-max-width: 100%;
-width: 100%;
-} */
     .save-cancel-btn {
         justify-content: space-around;
     }
     button.cancel-btn-profile,
     button.save-btn-profile {
         padding: 9px 45px;
-    }
-    .preferences-row {
-        padding: 30px 0;
     }
     /****************profile detail fill bobile******/
     .intro-profile-vedio-chek {
@@ -9255,8 +9226,7 @@ width: 100%;
         max-width: 100%;
     }
     p.candidate-profile-data {
-        font-size: var(--font-weight-medium);
-        line-height: 33px;
+        line-height: 26px;
     }
     /***************candidate model css mobile *******/
     .candidate-name-btn {
