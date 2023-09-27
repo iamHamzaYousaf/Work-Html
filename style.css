@@ -4580,7 +4580,7 @@ p.file-error-msg {
     border: 1px solid var(--primary-color);
     border-radius: 6px;
     color: var(--primary-color);
-    padding: 12px 18px;
+    padding: 8px 20px;
     font-size: 14px;
     font-weight: var(--font-weight-medium);
     display: block;
