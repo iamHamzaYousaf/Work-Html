@@ -10,8 +10,9 @@
 </head>
 
 <body>
+    <div class="all-page-bg-clr">
     <header>
-        <div class="container-site-profile">
+        <div class="container container-site-profile">
             <div class="row-log candidate-profile-header">
                 <div class="logo-col-profile-candidate logo-col-profile-left">
                     <a href="#"><img src="../image/WORKBRIDGE.png" alt="logo"></a>
@@ -49,7 +50,7 @@
     </header>
     <!-----------employee dashbord-->
     <section class="new-job">
-        <div class="container-site">
+        <div class="container container-site">
             <div class="job-search-box-row">
                 <div class="job-heading smilar-job-heading">
                     <h2>Favourites</h2>
@@ -57,27 +58,44 @@
             </div>
             <div class="employee-searchbox-btn">
                 <div class="employee-list-btn">
-                    <a href="#"><button>Candidate List</button></a>
-                </div>
+                    <a href="#"><button>View Favorites</button></a>
+                </div>              
                 <div class="search-list-box">
                     <div class="filter-search-box">
-                        <img src="../image/job-search.png" alt="">
-                        <input type="text" name="" id="candidate-list-search" placeholder="Search Jobs" class="form-font-f">
-                        <img src="../image/Filter.png" alt="">
-                    </div>
-                    <div class="data-not-found hide-notfound">
-                        <img src="../image/notfound.png" alt="">
+                        <img src="../image/job-search.png" alt="" />
+                        <input
+                          type="text"
+                          name="search"
+                          id="jon-search-box"
+                          placeholder="Search Applicants"
+                          class="form-font-f"                 
+                        />
+                      </div>
+<!--         
+                      {/* <div class="filter-search-box">
+                        <img src="/image/job-search.png" alt="" />
+                        <input
+                          type="text"
+                          name=""
+                          id="candidate-list-search"
+                          placeholder="Search Jobs"
+                          class="form-font-f"
+                        />
+                        <img src="/image/Filter.png" alt="" />
+                      </div> */} -->
+                      <div class="data-not-found hide-notfound">
+                        <img src="../image/notfound.png" alt="" />
                         <p class="search-text-notfound">No candidate found</p>
-                    </div>
-                    <div class="list-search-dropdown">
+                      </div>
+                      <!-- {/* <div class="list-search-dropdown">
                         <ul class="list-job-title">
-                            <li>React Developer</li>
-                            <li>React Developer</li>
-                            <li>React Developer</li>
-                            <li>React Developer</li>
+                          <li>React Developer</li>
+                          <li>React Developer</li>
+                          <li>React Developer</li>
+                          <li>React Developer</li>
                         </ul>
-                    </div>
-                </div>
+                      </div> */} -->
+                    </div>         
             </div>
             <div class="divider"></div>
             <table style="width:100%">
@@ -530,4 +548,5 @@
             </div>
         </section>
     </div>
+</div>
 </body>
