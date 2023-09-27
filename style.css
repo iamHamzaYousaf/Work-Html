@@ -1286,6 +1286,12 @@ button.allow-btn {
     height: auto;
 }
 
+.candidate-profile-login-f img {
+    max-width: 100%;
+    width: 394px;
+    height: 328px;
+}
+
 .login-f-img img {
     max-width: 100%;
     width: 474px;
@@ -1303,9 +1309,9 @@ button.allow-btn {
 
 .candidate-login-row-password {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
-    margin-top: 100px;
+    margin: 70px 0 170px 0;
     gap: 0 10px;
 }
 
@@ -4731,6 +4737,14 @@ section.pageniation-sec {
     flex-grow: 1;
     display: flex;
     align-items: center;
+}
+
+.candidate-name-img a {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;
 }
 
 .candidate-name-img img {
