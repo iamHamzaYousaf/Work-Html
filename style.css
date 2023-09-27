@@ -5027,8 +5027,9 @@ p.candidate-info-text {
 }
 
 .candidtae-profile-image-avatar img {
-    width: 250px;
-    height: 250px;
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
 }
 
 .profile-img-c {
