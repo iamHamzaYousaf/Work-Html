@@ -784,7 +784,7 @@ p.job-discription {
 .job-seclude {
     display: flex;
     flex-wrap: wrap;
-    max-width: 50%;
+    max-width: 42%;
     width: 100%;
     justify-content: space-between;
 }
@@ -6345,7 +6345,7 @@ height: 14px;
     padding: 12px;
     border: 0.5px solid rgba(0, 0, 0, 0.20);
     border-radius: 6px;
-    width: 200px;
+    width: 230px;
     background: var(--secondary-color);
     position: relative;
 }
@@ -6443,7 +6443,7 @@ ul.list-table-title-cand li:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 145px;
+    width: 165px;
 }
 
 
@@ -6486,7 +6486,7 @@ table th {
 }
 
 th.technical-tags-row {
-    width: 300px;
+    width: 260px;
 }
 
 .job-table-employee {
@@ -7276,7 +7276,7 @@ td.name-box-hvr {
     border-radius: 6px;
     cursor: pointer;
     font-family: var(--museo-sans);
-    font-size: var(--body-text);
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -7288,7 +7288,7 @@ td.name-box-hvr {
     padding: 8px;
     border: 1px solid rgb(0 0 0 / 30%);
     border-radius: 25px;
-    width: 350px;
+    width: 300px;
     display: flex;
     justify-content: space-around;
 }
