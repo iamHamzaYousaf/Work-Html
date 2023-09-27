@@ -891,7 +891,7 @@ p.job-discription {
 
 .location-job-table p {
     color: var(--text-color);
-    font-size: var(--promoted-btn);
+    font-size: 16px;
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
 }
@@ -6368,7 +6368,7 @@ height: 14px;
     padding: 8px;
     border: 0.5px solid rgba(0, 0, 0, 0.20);
     border-radius: 6px;
-    width: 156px;
+    width: 144px;
     background: var(--secondary-color);
     position: relative;
 }
@@ -6443,7 +6443,7 @@ ul.list-table-title-cand li:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 175px;
+    width: 145px;
 }
 
 
@@ -6514,7 +6514,7 @@ th.technical-tags-row {
 .cv-cions {
     display: flex;
     justify-content: end;
-    gap: 10px;
+    gap: 7px;
     position: relative;
 }
 
@@ -6834,11 +6834,6 @@ input:checked+.slider:before {
     display: flex;
     align-items: center;
     gap: 5px;
-    color: var(--text-color);
-    font-size: var(--promoted-btn);
-    font-weight: var(--font-weight-medium);
-    opacity: 0.8;
-    font-family: var(--museo-sans);
 }
 
 .job-candidate-list-icon {
