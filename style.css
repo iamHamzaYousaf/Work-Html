@@ -1309,7 +1309,7 @@ button.allow-btn {
 
 .candidate-login-row-password {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     flex-wrap: wrap;
     margin: 70px 0 170px 0;
     gap: 0 10px;
@@ -1573,6 +1573,13 @@ input#forgotpassowrd-mail {
     font-size: 28px;
 }
 
+.change-password-f h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: var(--font-weight-bold);
+    font-size: 24px;
+}
+
 
 /*********** candidate SignUp page satrt here ***************/
 
@@ -1746,7 +1753,7 @@ button.toggle-btn-active {
 }
 
 .f-feild-forgot {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .f-feild label {
@@ -1979,7 +1986,7 @@ button.form-submit {
 .tags-tittles ul.tags-titles-list {
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
     gap: 20px;
     margin: 15px 0 30px 0;
     padding: 0;
@@ -2596,7 +2603,7 @@ img.password-icon-togle {
 /******change password feild ***********/
 
 .password-change-f {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 
@@ -4929,6 +4936,12 @@ section.profile-edit {
     margin: 0;
     font-weight: var(--font-weight-bold);
     font-size: 28px;
+    align-items: flex-end;
+}
+
+.profile-heading h2 span {
+    font-size: 20px;
+    padding-left: 5px;
 }
 
 .my-profile-row {
@@ -5073,7 +5086,7 @@ p.file-size-candidate {
 .three-stack-btn button {
     max-width: 100%;
     width: 100%;
-    padding: 8px 0;
+    padding: 10px 0;
     background: transparent;
     margin-bottom: 16px;
     border: 1px solid var(--primary-color);
@@ -5225,12 +5238,13 @@ p.candidate-profile-tabs-msg {
 
 button.cancel-btn-profile {
     font-size: 16px;
-    padding: 10px 57px;
+    padding: 10px 0px;
     background: transparent;
     border: 1px solid var(--error-msg-color);
     color: var(--error-msg-color);
     border-radius: 6px;
     font-family: var(--museo-sans);
+    min-width: 115px;
 }
 
 button.cancel-btn-profile:hover {
@@ -5240,12 +5254,13 @@ button.cancel-btn-profile:hover {
 
 button.save-btn-profile {
     font-size: 16px;
-    padding: 10px 57px;
+    padding: 10px 0px;
     background: transparent;
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
     border-radius: 6px;
     font-family: var(--museo-sans);
+    min-width: 115px;
 }
 
 button.save-btn-profilefill {
@@ -5710,7 +5725,7 @@ p.candidate-profile-data {
     font-family: var(--museo-sans);
     font-size: 16px;
     line-height: 26px;
-    font-weight: 300;
+    text-align: justify;
 }
 
 ul.candidate-profile-data-list {
@@ -8713,6 +8728,7 @@ button.form-submit-job-model {
     .candidate-login-row,
     .candidate-login-row-password {
         margin-top: 40px;
+        margin-bottom: 0;
     }
     .candidate-signin h2,
     .candidate-signin-password-ft h2 {
