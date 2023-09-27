@@ -26,8 +26,10 @@
                     </div>
                     <div class="hide-wishlist-style">
                         <div class="candidate-name-img icon-cursor">
-                            <img src="../image/profile.png" alt="">
-                            <p class="candidate-name">Hi Jhon</p>
+                            <a href="#">
+                                <img src="../image/profile.png" alt="">
+                                <p class="candidate-name">Hi, John</p>
+                            </a>
                         </div>
                         <div class="toggle-icon-profile icon-cursor">
                             <img src="../image/menu-profile.png" alt="">
@@ -55,7 +57,7 @@
         </header>
         <!-------------------candidate dashbord banner start here ------->
         <section class="candidate-dashbord-sec">
-            <div class="container-site">
+            <div class="container container-site">
                 <div class="space-inner-row">
                     <div class="employee-job-dasboard">
                         <a href="#" class="anchor-cards-job-1 card-1">
@@ -96,7 +98,7 @@
         </section>
         <!-----------employee dashbord-->
         <section class="new-job">
-            <div class="container-site">
+            <div class="container container-site">
                 <div class="space-inner-row">
                     <div class="job-search-box-row">
                         <div class="job-heading smilar-job-heading">
@@ -213,7 +215,7 @@
                                 </td>
                                 <td data-label="Candidate Status">
                                     <div class="job-fillter-table-data">
-                                        <div class="j-company-fillter-table">
+                                        <div class="j-company-fillter-table-data ">
                                             <div id="dropdown-boxId2" class="company-form-dropdownBox1-tabeldate" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Candidate Status</div>
                                             <div class="list-search-dropdown-company">
                                                 <ul class="list-table-title-cand">
@@ -500,7 +502,7 @@
         </section>
         <!---------job table listing--------->
         <section class="open-postion">
-            <div class="container-site">
+            <div class="container container-site">
                 <div class="job-search-box-row">
                     <div class="job-heading smilar-job-heading">
                         <h2>Job Listing</h2>
@@ -608,7 +610,7 @@
         <!-----------job section-->
         <section class="company-job-sec">
             <div class="space-inner-row">
-                <div class="container-site">
+                <div class="container container-site">
                     <div class="divider"></div>
                     <div class="Job-Opportunities-row">
                         <div class="job-requriments">
@@ -645,10 +647,18 @@
                                     <button>Micro Services</button>
                                     <button>Angular</button>
                                 </div>
-                                <div class="job-location">
-                                    <p>Location</p>
-                                    <img src="../image/Location.png" alt="Location">
-                                    <p class="job-city">Cities</p>
+                                <div class="job-location-switch">
+                                    <div class="location-job-table">
+                                        <p>Location</p>
+                                        <img src="../image/Location.png" alt="Location">
+                                        <p class="job-city">Cities</p>
+                                    </div>
+                                    <div class="loction-switch-col">
+                                        <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider"></span>
+                                </label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -664,12 +674,6 @@
                                         <img src="../image/candidate-job-list.png" alt="apply">
                                         <p>Candidates List</p>
                                     </div>
-                                </div>
-                                <div class="loction-switch-col">
-                                    <label class="switch">
-                                <input type="checkbox" checked>
-                                <span class="slider"></span>
-                            </label>
                                 </div>
                             </div>
                         </div>
@@ -812,7 +816,7 @@
         <!---------job table listing--------->
         <section class="open-postion">
             <div class="space-inner-row">
-                <div class="container-site">
+                <div class="container container-site">
                     <div class="job-search-box-row">
                         <div class="job-heading smilar-job-heading">
                             <h2>Drafts</h2>
@@ -824,25 +828,22 @@
         </section>
         <!-----------job section draft-->
         <section class="company-job-sec">
-            <div class="container-site">
+            <div class="container container-site">
                 <div class="divider"></div>
                 <div class="Job-Opportunities-row">
                     <div class="job-requriments">
                         <div class="job-details">
                             <div class="job-title">
-                                <h3>React Java Developer</h3>
-                                <!-- <a href="#"><button>Promoted *</button></a> -->
-                                <div class="job-services">
-                                    <img src="../image/fitness.png" alt="fitenss">
-                                    <p>International Consolidated Airlines Group SA</p>
-                                </div>
+                                <a href="#" class="title-job-link promoted-btn-not">
+                                    <h3>React Java Developer</h3>
+                                </a>
                             </div>
                             <div class="job-seclude">
                                 <div class="job-time">
-                                    <p>Salary $500.00</p>
+                                    <p>Salary $1000.00 - $1500.00</p>
                                 </div>
                                 <div class="job-time">
-                                    <p>Full Time - remote</p>
+                                    <p>Full Time - On Site</p>
                                 </div>
                             </div>
                         </div>
