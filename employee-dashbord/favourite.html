@@ -11,67 +11,61 @@
 
 <body>
     <div class="all-page-bg-clr">
-    <header>
-        <div class="container container-site-profile">
-            <div class="row-log candidate-profile-header">
-                <div class="logo-col-profile-candidate logo-col-profile-left">
-                    <a href="#"><img src="../image/WORKBRIDGE.png" alt="logo"></a>
-                    <div class="find-job-btn-candidate-dashbord">
-                        <a href="#"><button>Find a Job</button></a>
+        <header>
+            <div class="container container-site-profile">
+                <div class="row-log candidate-profile-header">
+                    <div class="logo-col-profile-candidate logo-col-profile-left">
+                        <a href="#"><img src="../image/WORKBRIDGE.png" alt="logo"></a>
+                        <div class="find-job-btn-candidate-dashbord">
+                            <a href="#"><button>Find a Job</button></a>
+                        </div>
+                    </div>
+                    <div class="profile-right-col hide-wishlist-style">
+                        <div class="candidate-name-img icon-cursor">
+                            <img src="../image/profile.png" alt="">
+                            <p class="candidate-name">Hi, John</p>
+                        </div>
+                        <div class="toggle-icon-profile icon-cursor">
+                            <img src="../image/menu-profile.png" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="profile-right-col hide-wishlist-style">
-                    <div class="candidate-name-img icon-cursor">
-                        <img src="../image/profile.png" alt="">
-                        <p class="candidate-name">Hi, John</p>
-                    </div>
-                    <div class="toggle-icon-profile icon-cursor">
-                        <img src="../image/menu-profile.png" alt="">
-                    </div>
+                <div class="dropdown-dashbord hide-show-click">
+                    <ul>
+                        <a href="#">
+                            <li>Dashboard</li>
+                        </a>
+                        <a href="#">
+                            <li>My Profile</li>
+                        </a>
+                        <a href="#">
+                            <li>Wishlist</li>
+                        </a>
+                        <a href="#">
+                            <li>Logout</li>
+                        </a>
+                    </ul>
                 </div>
             </div>
-            <div class="dropdown-dashbord hide-show-click">
-                <ul>
-                    <a href="#">
-                        <li>Dashboard</li>
-                    </a>
-                    <a href="#">
-                        <li>My Profile</li>
-                    </a>
-                    <a href="#">
-                        <li>Wishlist</li>
-                    </a>
-                    <a href="#">
-                        <li>Logout</li>
-                    </a>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <!-----------employee dashbord-->
-    <section class="new-job">
-        <div class="container container-site">
-            <div class="job-search-box-row">
-                <div class="job-heading smilar-job-heading">
-                    <h2>Favourites</h2>
+        </header>
+        <!-----------employee dashbord-->
+        <section class="new-job">
+            <div class="container container-site">
+                <div class="job-search-box-row">
+                    <div class="job-heading smilar-job-heading">
+                        <h2>Favourites</h2>
+                    </div>
                 </div>
-            </div>
-            <div class="employee-searchbox-btn">
-                <div class="employee-list-btn">
-                    <a href="#"><button>View Favorites</button></a>
-                </div>              
-                <div class="search-list-box">
-                    <div class="filter-search-box">
-                        <img src="../image/job-search.png" alt="" />
-                        <input
-                          type="text"
-                          name="search"
-                          id="jon-search-box"
-                          placeholder="Search Applicants"
-                          class="form-font-f"                 
-                        />
-                      </div>
-<!--         
+                <div class="employee-searchbox-btn">
+                    <div class="employee-list-btn">
+                        <a href="#"><button>View Favorites</button></a>
+                    </div>
+                    <div class="search-list-box">
+                        <div class="filter-search-box">
+                            <img src="../image/job-search.png" alt="" />
+                            <input type="text" name="search" id="jon-search-box" placeholder="Search Applicants" class="form-font-f" />
+                        </div>
+                        <!--         
                       {/* <div class="filter-search-box">
                         <img src="/image/job-search.png" alt="" />
                         <input
@@ -83,11 +77,11 @@
                         />
                         <img src="/image/Filter.png" alt="" />
                       </div> */} -->
-                      <div class="data-not-found hide-notfound">
-                        <img src="../image/notfound.png" alt="" />
-                        <p class="search-text-notfound">No candidate found</p>
-                      </div>
-                      <!-- {/* <div class="list-search-dropdown">
+                        <div class="data-not-found hide-notfound">
+                            <img src="../image/notfound.png" alt="" />
+                            <p class="search-text-notfound">No candidate found</p>
+                        </div>
+                        <!-- {/* <div class="list-search-dropdown">
                         <ul class="list-job-title">
                           <li>React Developer</li>
                           <li>React Developer</li>
@@ -95,458 +89,469 @@
                           <li>React Developer</li>
                         </ul>
                       </div> */} -->
-                    </div>         
-            </div>
-            <div class="divider"></div>
-            <table style="width:100%">
-                <thead>
-                    <tr>
-                        <th scope="col">Full name</th>
-                        <th scope="col">Location</th>
-                        <th scope="col">Date Applied</th>
-                        <th scope="col">CV Review</th>
-                        <th scope="col" class="technical-tags-row">Technical Tags:</th>
-                        <th scope="col">Candidate Status</th>
-                        <th scope="col">Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td data-label="full name" class="name-box-hvr">
-                            jhon
-                            <div class="name-comment-box">
-                                <div class="name-add-box">
-                                    <div class="name-owner-info">
-                                        <img src="../image/comment-owner.png" alt="">
-                                        <p class="name-comment-owner">James Michael</p>
-                                    </div>
-                                    <div class="name-info-box">
-                                        <p>Experienced Python developer with 7 years of experience, adept at utilizing libraries and frameworks to build efficient and scalable applications. Strong problem-solving skills and attention to detail, delivering
-                                            high-quality software solutions on time.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </td>
-                        <td data-label="Location">Canada</td>
-                        <td data-label="Date Applied">31/07/2022</td>
-                        <td data-label="CV Review">
-                            <div class="cv-cions">
-                                <img src="../image/bad-cv-icon.png" alt="">
-                                <img src="../image/normal.cv.png" alt="">
-                                <img src="../image/good-cv.png" alt="">
-                                <img src="../image/cv-favt.png" alt="" class="notfill-heart">
-                                <img src="../image/favourite-fillicon.png" alt="" class="fill-heart">
-                            </div>
-                        </td>
-                        <td data-label="Technical Tags:">
-                            <div class="job-table-employee">
-                                <button>C++</button>
-                                <button>C Sharp</button>
-                                <button>React Js</button>
-                                <button>C++</button>
-                                <button>React Js</button>
-                                <button>Java Developer</button>
-                                <button>My SQL</button>
-                                <button>My SQL</button>
-                                <button>JSON</button>
-                                <button>Angular</button>
-                            </div>
-                        </td>
-                        <td data-label="Candidate Status">
-                            New Applicant
-                        </td>
-                        <td data-label="Action">
-                            <div class="cv-cions">
-                                <img src="../image/cv-comment.png" alt="">
-                                <img src="../image/cv-not.png" alt="">
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td data-label="full name">
-                            jhon
-                        </td>
-                        <td data-label="Location">Canada</td>
-                        <td data-label="Date Applied">31/07/2022</td>
-                        <td data-label="CV Review">
-                            <div class="cv-cions">
-                                <img src="../image/bad-cv-icon.png" alt="">
-                                <img src="../image/normal.cv.png" alt="">
-                                <img src="../image/good-cv.png" alt="">
-                                <img src="../image/cv-favt.png" alt="">
-                            </div>
-                        </td>
-                        <td data-label="Technical Tags:">
-                            <div class="job-table-employee">
-                                <button>C++</button>
-                                <button>C Sharp</button>
-                                <button>React Js</button>
-                                <button>C++</button>
-                                <button>React Js</button>
-                                <button>Java Developer</button>
-                                <button>My SQL</button>
-                                <button>My SQL</button>
-                                <button>JSON</button>
-                                <button>Angular</button>
-                            </div>
-                        </td>
-                        <td data-label="Candidate Status">
-                            New Applicant
-                        </td>
-                        <td data-label="Action">
-                            <div class="cv-cions">
-                                <img src="../image/cv-comment.png" alt="">
-                                <img src="../image/cv-not.png" alt="">
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td data-label="full name">
-                            jhon
-                        </td>
-                        <td data-label="Location">Canada</td>
-                        <td data-label="Date Applied">31/07/2022</td>
-                        <td data-label="CV Review">
-                            <div class="cv-cions">
-                                <img src="../image/bad-cv-icon.png" alt="">
-                                <img src="../image/normal.cv.png" alt="">
-                                <img src="../image/good-cv.png" alt="">
-                                <img src="../image/cv-favt.png" alt="">
-                            </div>
-                        </td>
-                        <td data-label="Technical Tags:">
-                            <div class="job-table-employee">
-                                <button>C++</button>
-                                <button>C Sharp</button>
-                                <button>React Js</button>
-                                <button>C++</button>
-                                <button>React Js</button>
-                                <button>Java Developer</button>
-                                <button>My SQL</button>
-                                <button>My SQL</button>
-                                <button>JSON</button>
-                                <button>Angular</button>
-                            </div>
-                        </td>
-                        <td data-label="Candidate Status">
-                            New Applicant
-                        </td>
-                        <td data-label="Action">
-                            <div class="cv-cions">
-                                <div class="cv-resume">
-                                    <img src="../image/cv-not.png" alt="">
-                                    <span class="tooltiptext">Resume</span>
-                                </div>
-                                <div class="cv-comment">
-                                    <img src="../image/cv-comment.png" alt="">
-                                    <span class="tooltiptext">Comment</span>
-                                    <div class="text-comment-box">
-                                        <p class="comment-heading-text">Comment:</p>
-                                        <textarea name="" id="comment-area-job" cols="30" rows="3" placeholder="Type here..."></textarea><br>
-                                        <button type="submit" class="comment-submit">save</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td data-label="full name">
-                            jhon
-                        </td>
-                        <td data-label="Location">Canada</td>
-                        <td data-label="Date Applied">31/07/2022</td>
-                        <td data-label="CV Review">
-                            <div class="cv-cions">
-                                <img src="../image/bad-cv-icon.png" alt="">
-                                <img src="../image/normal.cv.png" alt="">
-                                <img src="../image/good-cv.png" alt="">
-                                <img src="../image/cv-favt.png" alt="">
-                            </div>
-                        </td>
-                        <td data-label="Technical Tags:">
-                            <div class="job-table-employee">
-                                <button>C++</button>
-                                <button>C Sharp</button>
-                                <button>React Js</button>
-                                <button>C++</button>
-                                <button>React Js</button>
-                                <button>Java Developer</button>
-                                <button>My SQL</button>
-                                <button>My SQL</button>
-                                <button>JSON</button>
-                                <button>Angular</button>
-                            </div>
-                        </td>
-                        <td data-label="Candidate Status">
-                            New Applicant
-                        </td>
-                        <td data-label="Action">
-                            <div class="cv-cions">
-                                <img src="../image/cv-comment.png" alt="">
-                                <img src="../image/cv-not.png" alt="">
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td data-label="full name">
-                            jhon
-                        </td>
-                        <td data-label="Location">Canada</td>
-                        <td data-label="Date Applied">31/07/2022</td>
-                        <td data-label="CV Review">
-                            <div class="cv-cions">
-                                <img src="../image/bad-cv-icon.png" alt="">
-                                <img src="../image/normal.cv.png" alt="">
-                                <img src="../image/good-cv.png" alt="">
-                                <img src="../image/cv-favt.png" alt="">
-                            </div>
-                        </td>
-                        <td data-label="Technical Tags:">
-                            <div class="job-table-employee">
-                                <button>C++</button>
-                                <button>C Sharp</button>
-                                <button>React Js</button>
-                                <button>C++</button>
-                                <button>React Js</button>
-                                <button>Java Developer</button>
-                                <button>My SQL</button>
-                                <button>My SQL</button>
-                                <button>JSON</button>
-                                <button>Angular</button>
-                            </div>
-                        </td>
-                        <td data-label="Candidate Status">
-                            New Applicant
-                        </td>
-                        <td data-label="Action">
-                            <div class="cv-cions">
-                                <div class="cv-resume">
-                                    <img src="../image/cv-not.png" alt="">
-                                    <span class="tooltiptext">Resume</span>
-                                </div>
-                                <div class="cv-comment">
-                                    <img src="../image/cv-comment.png" alt="">
-                                    <span class="tooltiptext">Comment</span>
-                                    <div class="text-comment-box">
-                                        <div class="name-info-add-box">
-                                            <div class="comment-owner-info">
-                                                <img src="../image/comment-owner.png" alt="">
-                                                <p class="name-comment-owner">James Michael</p>
-                                                <p class="comment-add-date">1 day ago</p>
-                                                <p class="comment-remove">Remove</p>
-                                            </div>
-                                            <div class="comment-adit-icon">
-                                                <a href="#"><img src="../image/comment-edit.png" alt=""></a>
-                                            </div>
-                                        </div>
-                                        <div class="comment-info-box">
-                                            <p>This candidate has a very strong background and a strong 5 years of experience I recommend him for the next round of interview. </p>
-                                        </div>
-                                        <div class="comment-reply">
-                                            <p>Reply</p>
-                                            <img src="../image/comment-reply.png" alt="">
-                                        </div>
-                                        <div class="more-comment">
-                                            <a href="#">
-                                                <p>5 more commensts</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="see-more-job">
-            <a href="#"><button>See more</button></a>
-        </div>
-    </section>
-    <!-----------candidate model signup   hide-model-popup-->
-    <div class="click-model-close">
-        <section class="model-comment-popup hide-model-comment">
-            <div class="popup-bg">
-                <div class="popup-candidate-resume">
-                    <div class="close-img-resume"><img src="../image/profile-cross.jpg" alt=""></div>
-                    <div class="model-logo">
-                        <img src="../image/WORKBRIDGE.png">
                     </div>
-                    <div class="chat-model-comment-box">
-                        <div class="comment-model-title">
-                            <div class="resume-heading">
-                                <h1>Comments</h1>
-                            </div>
-                            <div class="border-text">
-                                <fieldset>
-                                    <legend>25 - May</legend>
-                                </fieldset>
-                            </div>
-                        </div>
-                        <div class="comment-chat-model">
-                            <img src="../image/chat-model.png" alt="">
-                            <div class="chat-comment-box">
-                                <div class="comment-add-box">
-                                    <div class="comment-owner-details">
-                                        <p class="name-comment-owner">James Michael</p>
-                                        <p class="comment-add-date">1 day ago</p>
-                                        <p class="comment-remove">Remove</p>
+                </div>
+                <div class="divider"></div>
+                <table style="width:100%">
+                    <thead>
+                        <tr>
+                            <th scope="col">Full name</th>
+                            <th scope="col">Location</th>
+                            <th scope="col">Date Applied</th>
+                            <th scope="col">CV Review</th>
+                            <th scope="col" class="technical-tags-row">Technical Tags:</th>
+                            <th scope="col">Candidate Status</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="full name" class="name-box-hvr">
+                                jhon
+                                <div class="name-comment-box">
+                                    <div class="name-add-box">
+                                        <div class="name-owner-info">
+                                            <img src="../image/comment-owner.png" alt="">
+                                            <p class="name-comment-owner">James Michael</p>
+                                        </div>
+                                        <div class="name-info-box">
+                                            <p>Experienced Python developer with 7 years of experience, adept at utilizing libraries and frameworks to build efficient and scalable applications. Strong problem-solving skills and attention to detail, delivering
+                                                high-quality software solutions on time.</p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="chat-info-box">
-                                    <p>This candidate has a very strong background and a strong 5 years of experience I recommend him for the next round of interview. </p>
+                            </td>
+                            <td data-label="Location">Canada</td>
+                            <td data-label="Date Applied">31/07/2022</td>
+                            <td data-label="CV Review">
+                                <div class="cv-cions">
+                                    <img src="../image/bad-cv-icon.png" alt="">
+                                    <img src="../image/normal.cv.png" alt="">
+                                    <img src="../image/good-cv.png" alt="">
+                                    <img src="../image/cv-favt.png" alt="" class="notfill-heart">
+                                    <img src="../image/favourite-fillicon.png" alt="" class="fill-heart">
                                 </div>
-                                <div class="chat-reply">
-                                    <p>Reply</p>
-                                    <img src="../image/comment-reply.png" alt="">
+                            </td>
+                            <td data-label="Technical Tags:">
+                                <div class="job-table-employee">
+                                    <button>C++</button>
+                                    <button>C Sharp</button>
+                                    <button>React Js</button>
+                                    <button>C++</button>
+                                    <button>React Js</button>
+                                    <button>Java Developer</button>
+                                    <button>My SQL</button>
+                                    <button>My SQL</button>
+                                    <button>JSON</button>
+                                    <button>Angular</button>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="comment-chat-model">
-                            <img src="../image/chat-model.png" alt="">
-                            <div class="chat-comment-box">
-                                <div class="comment-add-box">
-                                    <div class="comment-owner-details">
-                                        <p class="name-comment-owner">James Michael</p>
-                                        <p class="comment-add-date">1 day ago</p>
-                                        <p class="comment-remove">Remove</p>
+                            </td>
+                            <td data-label="Candidate Status">
+                                New Applicant
+                            </td>
+                            <td data-label="Action">
+                                <div class="cv-cions">
+                                    <img src="../image/cv-comment.png" alt="">
+                                    <img src="../image/cv-not.png" alt="">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td data-label="full name">
+                                jhon
+                            </td>
+                            <td data-label="Location">Canada</td>
+                            <td data-label="Date Applied">31/07/2022</td>
+                            <td data-label="CV Review">
+                                <div class="cv-cions">
+                                    <img src="../image/bad-cv-icon.png" alt="">
+                                    <img src="../image/normal.cv.png" alt="">
+                                    <img src="../image/good-cv.png" alt="">
+                                    <img src="../image/cv-favt.png" alt="">
+                                </div>
+                            </td>
+                            <td data-label="Technical Tags:">
+                                <div class="job-table-employee">
+                                    <button>C++</button>
+                                    <button>C Sharp</button>
+                                    <button>React Js</button>
+                                    <button>C++</button>
+                                    <button>React Js</button>
+                                    <button>Java Developer</button>
+                                    <button>My SQL</button>
+                                    <button>My SQL</button>
+                                    <button>JSON</button>
+                                    <button>Angular</button>
+                                </div>
+                            </td>
+                            <td data-label="Candidate Status">
+                                New Applicant
+                            </td>
+                            <td data-label="Action">
+                                <div class="cv-cions">
+                                    <img src="../image/cv-comment.png" alt="">
+                                    <img src="../image/cv-not.png" alt="">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td data-label="full name">
+                                jhon
+                            </td>
+                            <td data-label="Location">Canada</td>
+                            <td data-label="Date Applied">31/07/2022</td>
+                            <td data-label="CV Review">
+                                <div class="cv-cions">
+                                    <img src="../image/bad-cv-icon.png" alt="">
+                                    <img src="../image/normal.cv.png" alt="">
+                                    <img src="../image/good-cv.png" alt="">
+                                    <img src="../image/cv-favt.png" alt="">
+                                </div>
+                            </td>
+                            <td data-label="Technical Tags:">
+                                <div class="job-table-employee">
+                                    <button>C++</button>
+                                    <button>C Sharp</button>
+                                    <button>React Js</button>
+                                    <button>C++</button>
+                                    <button>React Js</button>
+                                    <button>Java Developer</button>
+                                    <button>My SQL</button>
+                                    <button>My SQL</button>
+                                    <button>JSON</button>
+                                    <button>Angular</button>
+                                </div>
+                            </td>
+                            <td data-label="Candidate Status">
+                                New Applicant
+                            </td>
+                            <td data-label="Action">
+                                <div class="cv-cions">
+                                    <div class="cv-resume">
+                                        <img src="../image/cv-not.png" alt="">
+                                        <span class="tooltiptext">Resume</span>
+                                    </div>
+                                    <div class="cv-comment">
+                                        <img src="../image/cv-comment.png" alt="">
+                                        <span class="tooltiptext">Comment</span>
+                                        <div class="text-comment-box">
+                                            <p class="comment-heading-text">Comment:</p>
+                                            <textarea name="" id="comment-area-job" cols="30" rows="3" placeholder="Type here..."></textarea><br>
+                                            <button type="submit" class="comment-submit">save</button>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="chat-info-box">
-                                    <p>This candidate has a very strong background and a strong 5 years of experience I recommend him for the next round of interview. </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td data-label="full name">
+                                jhon
+                            </td>
+                            <td data-label="Location">Canada</td>
+                            <td data-label="Date Applied">31/07/2022</td>
+                            <td data-label="CV Review">
+                                <div class="cv-cions">
+                                    <img src="../image/bad-cv-icon.png" alt="">
+                                    <img src="../image/normal.cv.png" alt="">
+                                    <img src="../image/good-cv.png" alt="">
+                                    <img src="../image/cv-favt.png" alt="">
                                 </div>
-                                <div class="chat-reply">
-                                    <p>Reply</p>
-                                    <img src="../image/comment-reply.png" alt="">
+                            </td>
+                            <td data-label="Technical Tags:">
+                                <div class="job-table-employee">
+                                    <button>C++</button>
+                                    <button>C Sharp</button>
+                                    <button>React Js</button>
+                                    <button>C++</button>
+                                    <button>React Js</button>
+                                    <button>Java Developer</button>
+                                    <button>My SQL</button>
+                                    <button>My SQL</button>
+                                    <button>JSON</button>
+                                    <button>Angular</button>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="comment-chat-model">
-                            <img src="../image/chat-model.png" alt="">
-                            <div class="chat-comment-box">
-                                <div class="comment-add-box">
-                                    <div class="comment-owner-details">
-                                        <p class="name-comment-owner">James Michael</p>
-                                        <p class="comment-add-date">1 day ago</p>
-                                        <p class="comment-remove">Remove</p>
+                            </td>
+                            <td data-label="Candidate Status">
+                                New Applicant
+                            </td>
+                            <td data-label="Action">
+                                <div class="cv-cions">
+                                    <img src="../image/cv-comment.png" alt="">
+                                    <img src="../image/cv-not.png" alt="">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td data-label="full name">
+                                jhon
+                            </td>
+                            <td data-label="Location">Canada</td>
+                            <td data-label="Date Applied">31/07/2022</td>
+                            <td data-label="CV Review">
+                                <div class="cv-cions">
+                                    <img src="../image/bad-cv-icon.png" alt="">
+                                    <img src="../image/normal.cv.png" alt="">
+                                    <img src="../image/good-cv.png" alt="">
+                                    <img src="../image/cv-favt.png" alt="">
+                                </div>
+                            </td>
+                            <td data-label="Technical Tags:">
+                                <div class="job-table-employee">
+                                    <button>C++</button>
+                                    <button>C Sharp</button>
+                                    <button>React Js</button>
+                                    <button>C++</button>
+                                    <button>React Js</button>
+                                    <button>Java Developer</button>
+                                    <button>My SQL</button>
+                                    <button>My SQL</button>
+                                    <button>JSON</button>
+                                    <button>Angular</button>
+                                </div>
+                            </td>
+                            <td data-label="Candidate Status">
+                                New Applicant
+                            </td>
+                            <td data-label="Action">
+                                <div class="cv-cions">
+                                    <div class="cv-resume">
+                                        <img src="../image/cv-not.png" alt="">
+                                        <span class="tooltiptext">Resume</span>
+                                    </div>
+                                    <div class="cv-comment">
+                                        <img src="../image/cv-comment.png" alt="">
+                                        <span class="tooltiptext">Comment</span>
+                                        <div class="text-comment-box">
+                                            <div class="name-info-add-box">
+                                                <div class="comment-owner-info">
+                                                    <img src="../image/comment-owner.png" alt="">
+                                                    <p class="name-comment-owner">James Michael</p>
+                                                    <p class="comment-add-date">1 day ago</p>
+                                                    <p class="comment-remove">Remove</p>
+                                                </div>
+                                                <div class="comment-adit-icon">
+                                                    <a href="#"><img src="../image/comment-edit.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="comment-info-box">
+                                                <p>This candidate has a very strong background and a strong 5 years of experience I recommend him for the next round of interview. </p>
+                                            </div>
+                                            <div class="comment-reply">
+                                                <p>Reply</p>
+                                                <img src="../image/comment-reply.png" alt="">
+                                            </div>
+                                            <div class="more-comment">
+                                                <a href="#">
+                                                    <p>5 more commensts</p>
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="chat-info-box">
-                                    <p>This candidate has a very strong background and a strong 5 years of experience I recommend him for the next round of interview. </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="see-more-job">
+                <a href="#"><button>See more</button></a>
+            </div>
+        </section>
+        <!-----------candidate model signup hide-model-comment  hide-model-popup-->
+        <div class="click-model-close">
+            <section class="model-comment-popup">
+                <div class="popup-bg">
+                    <div class="popup-candidate-resume">
+                        <div class="close-img-resume"><img src="../image/profile-cross.jpg" alt=""></div>
+                        <div class="model-logo">
+                            <img src="../image/WORKBRIDGE.png">
+                        </div>
+                        <div class="chat-model-comment-box">
+                            <div class="comment-model-title">
+                                <div class="resume-heading">
+                                    <h1>Comments</h1>
                                 </div>
-                                <div class="chat-reply">
-                                    <p>Reply</p>
-                                    <img src="../image/comment-reply.png" alt="">
+                                <div class="border-text">
+                                    <fieldset>
+                                        <legend>25 - May</legend>
+                                    </fieldset>
                                 </div>
                             </div>
-                        </div>
-                        <div class="comment-model-title">
-                            <div class="border-text">
-                                <fieldset>
-                                    <legend>Yesterday</legend>
-                                </fieldset>
-                            </div>
-                        </div>
-                        <div class="comment-chat-model-right">
-                            <img src="../image/right-chatbot.png" alt="">
-                            <div class="chat-comment-box-right">
-                                <div class="comment-add-box">
-                                    <div class="comment-owner-details">
-                                        <p class="name-comment-owner">James Michael</p>
-                                        <p class="comment-add-date">1 day ago</p>
-                                        <p class="comment-remove">Remove</p>
+                            <div class="comment-chat-model">
+                                <img src="../image/chat-model.png" alt="">
+                                <div class="chat-comment-box">
+                                    <div class="comment-add-box">
+                                        <div class="comment-owner-details">
+                                            <p class="name-comment-owner">James Michael</p>
+                                            <p class="comment-add-date">1 day ago</p>
+                                            <p class="comment-remove">Remove</p>
+                                        </div>
+                                    </div>
+                                    <div class="chat-info-box">
+                                        <p>This candidate has a very strong background and a strong 5 years of experience I recommend him for the next round of interview. </p>
+                                    </div>
+                                    <div class="chat-reply">
+                                        <p>Reply</p>
+                                        <img src="../image/comment-reply.png" alt="">
                                     </div>
                                 </div>
-                                <div class="chat-info-box">
-                                    <p>This candidate has a very strong background and a strong 5 years of experience I recommend him for the next round of interview. </p>
-                                </div>
-                                <div class="chat-reply">
-                                    <p>Reply</p>
-                                    <img src="../image/comment-reply.png" alt="">
-                                </div>
                             </div>
-                        </div>
-                        <div class="comment-chat-model">
-                            <img src="../image/chat-model.png" alt="">
-                            <div class="chat-comment-box">
-                                <div class="comment-add-box">
-                                    <div class="comment-owner-details">
-                                        <p class="name-comment-owner">James Michael</p>
-                                        <p class="comment-add-date">1 day ago</p>
-                                        <p class="comment-remove">Remove</p>
+                            <div class="comment-chat-model">
+                                <img src="../image/chat-model.png" alt="">
+                                <div class="chat-comment-box">
+                                    <div class="comment-add-box">
+                                        <div class="comment-owner-details">
+                                            <p class="name-comment-owner">James Michael</p>
+                                            <p class="comment-add-date">1 day ago</p>
+                                            <p class="comment-remove">Remove</p>
+                                        </div>
+                                    </div>
+                                    <div class="chat-info-box">
+                                        <p>This candidate has a very strong background and a strong 5 years of experience I recommend him for the next round of interview. </p>
+                                    </div>
+                                    <div class="chat-reply">
+                                        <p>Reply</p>
+                                        <img src="../image/comment-reply.png" alt="">
                                     </div>
                                 </div>
-                                <div class="chat-info-box">
-                                    <p>This candidate has a very strong background and a strong 5 years of experience I recommend him for the next round of interview. </p>
-                                </div>
-                                <div class="chat-reply">
-                                    <p>Reply</p>
-                                    <img src="../image/comment-reply.png" alt="">
-                                </div>
                             </div>
-                        </div>
-                        <div class="comment-chat-model-right">
-                            <img src="../image/right-chatbot.png" alt="">
-                            <div class="chat-comment-box-right">
-                                <div class="comment-add-box">
-                                    <div class="comment-owner-details">
-                                        <p class="name-comment-owner">James Michael</p>
-                                        <p class="comment-add-date">1 day ago</p>
-                                        <p class="comment-remove">Remove</p>
+                            <div class="comment-chat-model">
+                                <img src="../image/chat-model.png" alt="">
+                                <div class="chat-comment-box">
+                                    <div class="comment-add-box">
+                                        <div class="comment-owner-details">
+                                            <p class="name-comment-owner">James Michael</p>
+                                            <p class="comment-add-date">1 day ago</p>
+                                            <p class="comment-remove">Remove</p>
+                                        </div>
                                     </div>
-                                    <div class="two-icon-chat">
-                                        <img src="../image/chat-cut.png" alt="">
-                                        <img src="../image/chat-right.png" alt="">
+                                    <div class="chat-info-box">
+                                        <p>This candidate has a very strong background and a strong 5 years of experience I recommend him for the next round of interview. </p>
+                                    </div>
+                                    <div class="chat-reply">
+                                        <p>Reply</p>
+                                        <img src="../image/comment-reply.png" alt="">
                                     </div>
                                 </div>
-                                <div class="chat-info-box">
-                                    <p>This candidate has a very strong background and a strong 5 years of experience I recommend him for the next round of interview. </p>
+                            </div>
+                            <div class="comment-model-title">
+                                <div class="border-text">
+                                    <fieldset>
+                                        <legend>Yesterday</legend>
+                                    </fieldset>
                                 </div>
                             </div>
-                        </div>
-                        <div class="comment-chat-model">
-                            <div class="chat-comment-box-left">
-                                <div class="comment-add-box-left">
-                                    <img src="../image/chat-cut.png">
-                                </div>
-                                <div class="chat-info-box-left">
-                                    <div class="name-comment-owner-left">James Michael</div>
-                                    <p>This candidate has a very strong background and a strong 5 years of experience I recommend him for the next round of interview. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="comment-chat-model">
-                            <div class="chat-comment-box-left-bg-change">
-                                <div class="comment-add-box-left">
-                                    <img src="../image/chat-model-edit.png">
-                                </div>
-                                <div class="chat-info-box-left-bg-clr-chg">
-                                    <div class="name-comment-owner-left">James Michael</div>
-                                    <p>This candidate has a very strong background and a strong 5 years of experience I recommend him for the next round of interview. </p>
-                                </div>
-                                <div class="chat-info-box-bg-clr">
-                                    <div class="comment-owner-details">
-                                        <p class="name-comment-owner">James Michael</p>
-                                        <p class="comment-add-date">1 day ago</p>
-                                        <p class="comment-remove">Remove</p>
+                            <div class="comment-chat-model-right">
+                                <img src="../image/right-chatbot.png" alt="">
+                                <div class="chat-comment-box-right">
+                                    <div class="comment-add-box">
+                                        <div class="comment-owner-details">
+                                            <p class="name-comment-owner">James Michael</p>
+                                            <p class="comment-add-date">1 day ago</p>
+                                            <p class="comment-remove">Remove</p>
+                                        </div>
                                     </div>
-                                    <p>Noted!</p>
+                                    <div class="chat-info-box">
+                                        <p>This candidate has a very strong background and a strong 5 years of experience I recommend him for the next round of interview. </p>
+                                    </div>
+                                    <div class="chat-reply">
+                                        <p>Reply</p>
+                                        <img src="../image/comment-reply.png" alt="">
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="chat-comment-f">
-                            <div class="chat-form">
-                                <input type="text" name="" id="comment-f" placeholder="Type here...">
-                                <img src="../image/ssmile.png" alt="">
+                            <div class="comment-chat-model">
+                                <img src="../image/chat-model.png" alt="">
+                                <div class="chat-comment-box">
+                                    <div class="comment-add-box">
+                                        <div class="comment-owner-details">
+                                            <p class="name-comment-owner">James Michael</p>
+                                            <p class="comment-add-date">1 day ago</p>
+                                            <p class="comment-remove">Remove</p>
+                                        </div>
+                                    </div>
+                                    <div class="chat-info-box">
+                                        <p>This candidate has a very strong background and a strong 5 years of experience I recommend him for the next round of interview. </p>
+                                    </div>
+                                    <div class="chat-reply">
+                                        <p>Reply</p>
+                                        <img src="../image/comment-reply.png" alt="">
+                                    </div>
+                                </div>
                             </div>
-                            <div class="send-comment">
-                                <button type="submit"><img src="../image/send-chat.png" alt=""></button>
+                            <div class="comment-chat-model-right">
+                                <img src="../image/right-chatbot.png" alt="">
+                                <div class="chat-comment-box-right">
+                                    <div class="comment-add-box">
+                                        <div class="comment-owner-details">
+                                            <p class="name-comment-owner">James Michael</p>
+                                            <p class="comment-add-date">1 day ago</p>
+                                            <p class="comment-remove">Remove</p>
+                                        </div>
+                                        <div class="two-icon-chat">
+                                            <img src="../image/chat-cut.png" alt="">
+                                            <img src="../image/chat-right.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="chat-info-box">
+                                        <p>This candidate has a very strong background and a strong 5 years of experience I recommend him for the next round of interview. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-chat-model">
+                                <div class="chat-comment-box-left-bg-chng">
+                                    <div class="comment-add-box-left">
+                                        <img src="../image/chat-cut.png">
+                                    </div>
+                                    <div class="chat-info-box-left">
+                                        <div class="name-comment-owner-left">James Michael</div>
+                                        <p>This candidate has a very strong background and a strong 5 years of experience I recommend him for the next round of interview. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-chat-model">
+                                <div class="chat-comment-box-right-bg-chng">
+                                    <div class="comment-add-box-right">
+                                        <img src="../image/chat-cut.png">
+                                    </div>
+                                    <div class="chat-info-box-right">
+                                        <div class="name-comment-owner-left">James Michael</div>
+                                        <p>This candidate has a very strong background and a strong 5 years of experience I recommend him for the next round of interview. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-chat-model-end-user hide-model-chat">
+                                <div class="chat-comment-box-left-enduser">
+                                    <div class="comment-add-box-left">
+                                        <img src="../image/chat-model-edit.png">
+                                    </div>
+                                    <div class="chat-info-box-left-bg-clr-chg">
+                                        <div class="name-comment-owner-left">James Michael</div>
+                                        <p>This candidate has a very strong background and a strong 5 years of experience I recommend him for the next round of interview. </p>
+                                    </div>
+                                    <div class="chat-info-box-bg-clr">
+                                        <div class="comment-owner-details">
+                                            <p class="name-comment-owner">James Michael</p>
+                                            <p class="comment-add-date">1 day ago</p>
+                                            <p class="comment-remove">Remove</p>
+                                        </div>
+                                        <p>Noted!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chat-comment-f">
+                                <div class="chat-form">
+                                    <input type="text" name="" id="comment-f" placeholder="Type here...">
+                                    <img src="../image/ssmile.png" alt="">
+                                </div>
+                                <div class="send-comment">
+                                    <button type="submit"><img src="../image/send-chat.png" alt=""></button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </div>
-</div>
 </body>

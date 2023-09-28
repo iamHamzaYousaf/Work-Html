@@ -2259,11 +2259,6 @@ input#location-f-profile {
 }
 
 
-/* .error-input>p.company-name-profile {
-    color: var(--error-msg-color) !important;
-} */
-
-
 /*************post a job error feild**********/
 
 .error-input>.salary-start {
@@ -2314,13 +2309,6 @@ outline: 0 !important;
 #fsalary-year:focus-visible {
     border: 0px solid var(--error-msg-color) !important;
     outline: 0 !important;
-}
-
-
-/*******filterdropdown hide ***********/
-
-.job-dropdown-hide {
-    display: none;
 }
 
 
@@ -2581,9 +2569,6 @@ input#password-field {
     padding: 0 15px 0 0;
     border: 0;
     border-radius: 0;
-    /* color: var(--text-color);
-font-size: var(--promoted-btn);
-font-weight: var(--font-weight-medium); */
 }
 
 .icon-hide {
@@ -3279,6 +3264,31 @@ section.job-search-sec {
 }
 
 
+/*******filterdropdown hide ***********/
+
+.job-search-dropdown-job-type,
+.job-date-dropdown,
+.job-location-dropdown {
+    display: none;
+}
+
+.job-type-f.open .job-search-dropdown-job-type {
+    display: block;
+}
+
+.job-location-f.open .job-location-dropdown {
+    display: block;
+}
+
+.job-post-date.open .job-date-dropdown {
+    display: block;
+}
+
+.job-dropdown-hide {
+    display: none;
+}
+
+
 /************date drop down *******/
 
 .job-date-dropdown {
@@ -3464,6 +3474,12 @@ input#job-search-field {
 .job-type-f {
     padding: 0 20px 0 10px;
     border-right: 1px solid var(--boder-color);
+    max-width: 30%;
+    width: 100%;
+}
+
+.job-location-f {
+    padding: 0 20px 0 10px;
     max-width: 30%;
     width: 100%;
 }
@@ -5204,6 +5220,7 @@ textarea#candidate-profile-tabs {
     font-size: 16px;
     font-family: var(--museo-sans);
     background-color: rgba(221, 222, 238, 0.25) !important;
+    padding: 15px;
 }
 
 .upload-intro-vedio input {
@@ -5625,7 +5642,9 @@ input#forgotpassowrd-mail::-webkit-input-placeholder,
 input#jon-search-box::-webkit-input-placeholder,
 input#candidate-list-search::-webkit-input-placeholder,
 .signup-company-name input[type="text"]::-webkit-input-placeholder,
-.signup-website-url input[type="url"]::-webkit-input-placeholder {
+.signup-website-url input[type="url"]::-webkit-input-placeholder,
+input#password-field-job::-webkit-input-placeholder,
+input#email-j-model::-webkit-input-placeholder {
     color: rgb(0 0 0 / 40%);
     font-size: 16px;
     font-family: var(--museo-sans);
@@ -5647,6 +5666,14 @@ select#candidate-location-feild option {
     background-color: rgba(221, 222, 238, 0.25) !important;
 }
 
+.form-font-job-m {
+    color: rgb(0 0 0 / 100%);
+    font-family: var(--museo-sans);
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgba(221, 222, 238, 0) !important;
+}
+
 .bg-pass-f {
     background-color: rgba(221, 222, 238, 0.25) !important;
 }
@@ -5663,13 +5690,13 @@ select#candidate-location-feild option {
 /***********drop down list data ******/
 
 .dropdown-dashbord {
-    max-width: 25%;
+    max-width: 26%;
     width: 100%;
     margin: 0 0 0 auto;
     position: absolute;
     right: 0;
     z-index: 1;
-    padding-right: 15px;
+    padding-right: 10px;
 }
 
 .hide-show-click {
@@ -5682,18 +5709,52 @@ select#candidate-location-feild option {
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
     list-style: none;
-    padding: 24px;
+    padding: 20px 24px 24px 24px;
     z-index: 1;
 }
 
 .dropdown-dashbord ul a {
-    font-size: var(--body-text);
+    font-size: 16px;
     font-family: var(--museo-sans);
     font-size: var(--font-weight-medium);
     text-decoration: none;
-    color: var(--text-color);
-    opacity: 0.8;
-    line-height: 40px;
+    color: var(--primary-color);
+    line-height: 20px;
+    transition: font-weight 0.3s ease;
+}
+
+li.menu-dropdown {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px;
+}
+
+li.menu-dropdown {
+    font-weight: 400;
+    animation: increaseFontWeight 0.3s ease;
+}
+
+li.menu-dropdown:hover {
+    border-radius: 8px;
+    background: #E2EDFF;
+    font-weight: 600;
+}
+
+li.menu-dropdown img {
+    height: 25px;
+    width: 20px;
+    object-fit: contain;
+}
+
+@keyframes increaseFontWeight {
+    0% {
+        font-weight: 400;
+    }
+    100% {
+        font-weight: 700;
+        /* or any other desired value */
+    }
 }
 
 
@@ -6474,6 +6535,7 @@ table td {
     font-size: 16px;
     font-weight: 300;
     font-family: var(--museo-sans);
+    vertical-align: baseline;
 }
 
 table th {
@@ -6486,7 +6548,7 @@ table th {
 }
 
 th.technical-tags-row {
-    width: 260px;
+    width: 230px;
 }
 
 .job-table-employee {
@@ -6743,8 +6805,8 @@ img.notfill-heart {
 .switch {
     position: relative;
     display: inline-block;
-    width: 50px;
-    height: 25px;
+    width: 44px;
+    height: 22px;
 }
 
 .switch input {
@@ -6773,9 +6835,9 @@ img.notfill-heart {
 .slider:before {
     position: absolute;
     content: "";
-    height: 20px;
-    width: 20px;
-    left: 4px;
+    height: 18px;
+    width: 18px;
+    left: 2px;
     top: 50%;
     /* Vertically center the circle */
     transform: translateY(-50%);
@@ -7063,6 +7125,17 @@ button.comment-submit {
     top: 9px;
 }
 
+.comment-add-box-right {
+    display: flex;
+    justify-content: end;
+}
+
+.comment-add-box-right img {
+    position: absolute;
+    right: 4px;
+    top: 9px;
+}
+
 .name-comment-owner-left {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
@@ -7071,6 +7144,14 @@ button.comment-submit {
 }
 
 .chat-info-box-left {
+    border-radius: 4px;
+    border: 0.5px solid #BDBDBD;
+    background: #FDFDFD;
+    padding: 20px 10px;
+    border-left: 8px solid var(--primary-color);
+}
+
+.chat-info-box-right {
     border-radius: 4px;
     border: 0.5px solid #BDBDBD;
     background: #FDFDFD;
@@ -7421,51 +7502,71 @@ ul.list-job-title li {
 .comment-chat-model {
     position: relative;
     padding: 0 30px;
-    height: 220px;
     margin-bottom: 30px;
 }
 
 .comment-chat-model-right {
     position: relative;
     padding: 0 30px;
-    height: 220px;
     margin-bottom: 30px;
     text-align: end;
+}
+
+.comment-chat-model-end-user {
+    position: relative;
+    padding: 0 30px;
+    margin-bottom: 0px;
+}
+
+.hide-model-chat {
+    display: none;
 }
 
 .chat-comment-box {
     height: auto;
     width: 570px;
-    position: absolute;
-    left: 75px;
+    position: relative;
+    left: 45px;
     border-radius: 4px;
     border: 0.5px solid #BDBDBD;
     background: #FDFDFD;
-    top: 47px;
+    top: 0;
     padding: 20px 15px;
     z-index: 1;
+    display: block;
+    margin: 0 auto 0 0;
 }
 
 .chat-comment-box-right {
     height: auto;
     width: 570px;
-    position: absolute;
-    right: 75px;
+    position: relative;
+    right: 50px;
     border-radius: 4px;
     border: 0.5px solid #BDBDBD;
     background: #FDFDFD;
-    top: 47px;
+    top: 0;
     padding: 20px 15px;
     z-index: 1;
+    display: block;
+    margin: 0 0 0 auto;
 }
 
-.chat-comment-box-right .chat-info-box {
+.chat-info-box {
     border-radius: 6px;
     border: 1px solid rgba(0, 0, 0, 0.17);
     margin: 5px 0;
 }
 
-.chat-comment-box-right .chat-info-box p {
+
+/* .chat-comment-box-right .chat-info-box {
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    margin: 5px 0;
+} */
+
+
+/* .chat-comment-box-right .chat-info-box p {
     color: #4F4F4F;
     font-family: var(--museo-sans);
     font-size: var(--skill-text-size);
@@ -7473,29 +7574,40 @@ ul.list-job-title li {
     line-height: 24px;
     text-align: left;
     padding: 27px 10px;
-}
+} */
 
-.chat-comment-box-left {
+.chat-comment-box-left-bg-chng {
     height: auto;
     width: 570px;
-    position: absolute;
-    left: 75px;
+    position: relative;
+    left: 0px;
     border-radius: 4px;
     border: 0.5px solid #BDBDBD;
     background: #F3F3F3;
     padding: 10px 35px 10px 10px;
     z-index: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
+    margin: 0 auto 0 0;
 }
 
-.chat-comment-box-left-bg-change {
+.chat-comment-box-right-bg-chng {
     height: auto;
     width: 570px;
-    position: absolute;
-    left: 75px;
+    position: relative;
+    left: 0px;
+    border-radius: 4px;
+    border: 0.5px solid #BDBDBD;
+    background: #F3F3F3;
+    padding: 10px 35px 10px 10px;
+    z-index: 1;
+    text-align: start;
+    display: block;
+    margin: 0 0 0 auto;
+}
+
+.chat-comment-box-left-enduser {
+    height: auto;
+    width: 570px;
+    position: relative;
     border-radius: 4px;
     border: 0.5px solid #BDBDBD;
     background: #fff;
@@ -7513,7 +7625,7 @@ ul.list-job-title li {
     font-weight: var(--font-weight-medium);
     line-height: 24px;
     text-align: left;
-    padding: 15px 0px;
+    padding: 27px 10px;
 }
 
 .chat-reply {
@@ -7565,7 +7677,6 @@ ul.list-job-title li {
     display: flex;
     margin-bottom: 15px;
     justify-content: space-evenly;
-    padding: 0 50px;
 }
 
 .chat-form {
@@ -8062,7 +8173,8 @@ button.form-submit-job-model {
         flex-direction: column;
     }
     .job-keywords,
-    .job-type-f {
+    .job-type-f,
+    .job-location-f {
         max-width: 100%;
     }
     .job-post-date {

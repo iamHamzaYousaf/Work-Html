@@ -73,8 +73,7 @@
                             <div class="job-type-f">
                                 <div id="dropdown-boxId1" class="company-form-dropdownBox" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Job Type</div>
 
-                                <div class="job-search-dropdown-job-type job-dropdown-hide">
-                                    <!-- <h3 class="job-suggestion">Suggested Job Titles</h3> -->
+                                <div class="job-search-dropdown-job-type">
                                     <ul class="dorpdown-list-search-j-type">
                                         <li class="icon-cursor"><img src="../image/job-search.png" alt=""><span>Hr</span> Manager</li>
                                         <li class="icon-cursor"><img src="../image/job-search.png" alt="">Product Manager</li>
@@ -85,22 +84,23 @@
                                 </div>
                             </div>
                             <div class="job-location-f">
-                                <img src="../image/job-location.png" alt="" class="hide-img-j">
-                                <input type="text" name="" id="job-location-field" placeholder="Job Location">
-                            </div>
-                            <div class="job-location-dropdown job-dropdown-hide">
-                                <!-- <h3 class="job-suggestion">City</h3> -->
-                                <ul class="dorpdown-list-location">
-                                    <li class="icon-cursor"><img src="../image/location-j-place.png" alt="">Lahore</li>
-                                    <li class="icon-cursor"><img src="../image/location-j-place.png" alt="">Faisalabad</li>
-                                    <li class="icon-cursor"><img src="../image/location-j-place.png" alt="">Rawalpindi</li>
-                                </ul>
+                                <!-- <img src="../image/job-location.png" alt="" class="hide-img-j"> -->
+                                <!-- <input type="text" name="" id="job-location-field" placeholder="Job Location"> -->
+                                <div id="dropdown-boxId1" class="company-form-dropdownBox" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Job Location</div>
+
+                                <div class="job-location-dropdown">
+                                    <ul class="dorpdown-list-location">
+                                        <li class="icon-cursor"><img src="../image/location-j-place.png" alt="">Lahore</li>
+                                        <li class="icon-cursor"><img src="../image/location-j-place.png" alt="">Faisalabad</li>
+                                        <li class="icon-cursor"><img src="../image/location-j-place.png" alt="">Rawalpindi</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                         <div class="job-post-date">
                             <div id="dropdown-boxId2" class="company-form-dropdownBox" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Date Posted</div>
 
-                            <div class="job-date-dropdown job-dropdown-hide">
+                            <div class="job-date-dropdown">
                                 <!-- <h3 class="job-suggestion">Date</h3> -->
                                 <ul class="dorpdown-list-date">
                                     <li class="icon-cursor"><img src="../image/calander-d.png" alt="">Today</li>
@@ -566,11 +566,11 @@
                         <div class="model-signin">
                             <form action="">
                                 <div class="candidate-username error-input">
-                                    <div class="mail-log-waring-icon">
+                                    <div class="bg-pass-f mail-log-waring-icon">
                                         <div class="email-icon-logo">
                                             <img src="../image/j-m-User.svg" alt="">
                                         </div>
-                                        <input type="email" name="Email" id="email-j-model" placeholder="Email">
+                                        <input type="email" name="Email" id="email-j-model" placeholder="Email" class="form-font-job-m">
                                         <!-- <div class="icon-hide">
                                                 <img src="../image/warning.png" alt="">
                                             </div> -->
@@ -578,11 +578,11 @@
                                 </div>
                                 <div class="candidate-password">
                                     <div class="signup-passowrd-job error-input">
-                                        <div class="password-icon-job">
+                                        <div class="bg-pass-f password-icon-job">
                                             <div class="password-icon-logo">
                                                 <img src="../image/j-m-Password.svg" alt="">
                                             </div>
-                                            <input type="password" name="" id="password-field-job" placeholder="Password">
+                                            <input type="password" name="" id="password-field-job" placeholder="Password" class="form-font-job-m">
                                             <div class="icon-hide">
                                                 <img src="../image/password.png" alt="" class="password-icon-togle">
                                                 <img src="../image/hide-password.png" alt="" class="password-icon-togle">
