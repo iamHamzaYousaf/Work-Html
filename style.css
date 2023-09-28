@@ -3308,11 +3308,15 @@ section.job-search-sec {
     display: none;
 }
 
+.location-input-f {
+    display: flex;
+}
+
 .job-type-f.open .job-search-dropdown-job-type {
     display: block;
 }
 
-.job-location-f.open .job-location-dropdown {
+.location-input-f.open .job-location-dropdown {
     display: block;
 }
 
@@ -3460,6 +3464,9 @@ ul.dorpdown-list-location li {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
     line-height: 40px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 12px;
 }
 
 ul.dorpdown-list-location li:hover {
@@ -3495,7 +3502,7 @@ ul.dorpdown-list-location li:hover {
 }
 
 .job-location-f img {
-    padding: 0 12px;
+    padding: 0 12px 0 0;
 }
 
 .job-keywords img,
@@ -3522,7 +3529,7 @@ input#job-search-field {
 }
 
 .job-location-f {
-    padding: 0 20px 0 10px;
+    padding: 0 10px 0 10px;
     max-width: 30%;
     width: 100%;
 }
