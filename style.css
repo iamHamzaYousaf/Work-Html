@@ -2312,6 +2312,13 @@ outline: 0 !important;
 }
 
 
+/*******filterdropdown hide ***********/
+
+.job-dropdown-hide {
+    display: none;
+  }
+
+
 /************* model popup start here **************/
 
 section.model-popup {
@@ -2668,7 +2675,7 @@ ul.progressbar-steps li {
     border-color: var(--accent-color);
 }
 
-.signup-website-url input[type="url"] {
+.signup-website-url input[type="text"] {
     width: 100%;
     padding: 13px 8px;
     border: 0.5px solid var(--boder-color);
@@ -5642,7 +5649,7 @@ input#forgotpassowrd-mail::-webkit-input-placeholder,
 input#jon-search-box::-webkit-input-placeholder,
 input#candidate-list-search::-webkit-input-placeholder,
 .signup-company-name input[type="text"]::-webkit-input-placeholder,
-.signup-website-url input[type="url"]::-webkit-input-placeholder,
+.signup-website-url input[type="text"]::-webkit-input-placeholder,
 input#password-field-job::-webkit-input-placeholder,
 input#email-j-model::-webkit-input-placeholder {
     color: rgb(0 0 0 / 40%);
