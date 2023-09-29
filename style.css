@@ -7260,7 +7260,7 @@ p.name-comment-owner {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
-    font-size: var(--promoted-btn);
+    font-size: 20px;
 }
 
 p.comment-add-date {
@@ -7603,12 +7603,6 @@ ul.list-job-title li {
     margin: 0 0 0 auto;
 }
 
-.chat-info-box {
-    border-radius: 6px;
-    border: 1px solid rgba(0, 0, 0, 0.17);
-    margin: 5px 0;
-}
-
 
 /* .chat-comment-box-right .chat-info-box {
     border-radius: 6px;
@@ -7669,14 +7663,36 @@ ul.list-job-title li {
     justify-content: flex-end;
 }
 
+.chat-info-box {
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    margin: 5px 0;
+}
+
 .chat-info-box p {
-    color: #4F4F4F;
+    color: #000;
     font-family: var(--museo-sans);
     font-size: var(--skill-text-size);
-    font-weight: var(--font-weight-medium);
+    font-weight: 300;
     line-height: 24px;
     text-align: left;
     padding: 27px 10px;
+}
+
+.info-border .chat-info-box {
+    border-radius: 0px;
+    border: 0px solid rgba(0, 0, 0, 0.17);
+    margin: 0px 0;
+}
+
+.info-border .chat-info-box p {
+    color: #000;
+    font-family: var(--museo-sans);
+    font-size: var(--skill-text-size);
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    padding: 15px 10px 15px;
 }
 
 .chat-reply {
