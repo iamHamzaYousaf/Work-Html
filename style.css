@@ -10259,7 +10259,7 @@ button.form-submit-job-model {
     font-weight: 300;
     line-height: 33px;
     font-style: normal;
-    padding: 0px !important;
+    padding: 10px !important;
     background-color: rgba(221, 222, 238, 0.25) !important
 }
 
