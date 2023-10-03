@@ -104,6 +104,16 @@
                                             </div>
                                         </div>
                                         <div class="job-textarea-box f-feild-post">
+                                            <label for="flink">Job Description Requirements</label><br>
+                                            <div class="input-box-user">
+                                                <div class="type-user-f">
+                                                    <input type="text" id="chat-cv-job">
+                                                    <button type="submit" class="send-chat-j"><img src="../image/chat-post-job.png" alt=""></button>
+                                                </div>
+                                            </div>
+                                            <p class="error-msg hide-error">Enter Short Description</p>
+                                        </div>
+                                        <div class="job-textarea-box f-feild-post">
                                             <label for="flink">Job Summary</label><br>
                                             <textarea rows="10" cols="100" class="form-font-f"> </textarea>
                                             <p class="msg-show-blowe-textarea">Max Limit (100) words</p>
@@ -162,119 +172,202 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="job-textarea-box f-feild-post">
-                                                <label for="flink">Skills</label><br>
-                                                <textarea rows="10" cols="100" class="form-font-f"> </textarea>
-                                                <p class="msg-show-blowe-textarea">Max Limit (100) words</p>
-                                                <p class="error-msg hide-error">Enter Skills</p>
-                                            </div>
-                                            <div class="job-textarea-box f-feild-post">
-                                                <label for="flink">Must Have Skills</label><br>
-                                                <textarea rows="10" cols="100" class="form-font-f"> </textarea>
-                                                <p class="msg-show-blowe-textarea">Max Limit (100) words</p>
-                                                <p class="error-msg hide-error">Enter Must Have Skills</p>
-                                            </div>
-                                            <div class="job-textarea-box f-feild-post">
-                                                <label for="flink">Nice to have</label><br>
-                                                <textarea rows="10" cols="100" class="form-font-f"> </textarea>
-                                                <p class="msg-show-blowe-textarea">Max Limit (100) words</p>
-                                                <p class="error-msg hide-error">Enter Nice to have</p>
-                                            </div>
-                                            <div class="job-textarea-box f-feild-post">
-                                                <label for="flink">Benefits</label><br>
-                                                <textarea rows="10" cols="100" class="form-font-f"> </textarea>
-                                                <p class="error-msg hide-error">Enter Benefits you want</p>
-                                            </div>
-                                            <div class="job-textarea-box f-feild-post">
-                                                <label for="flink">Working Hours</label><br>
-                                                <textarea rows="10" cols="100" class="form-font-f"> </textarea>
-                                                <p class="error-msg hide-error">Enter Working Hours</p>
-                                            </div>
-                                            <div class="job-textarea-box f-feild-post">
-                                                <label for="flink">Interview Process</label><br>
-                                                <textarea rows="10" cols="100" class="form-font-f"> </textarea>
-                                                <p class="error-msg hide-error">Enter Interview Process</p>
-                                            </div>
-                                            <div class="job-textarea-box f-feild-post">
-                                                <label for="flink">Recruiter Notes</label><br>
-                                                <textarea rows="10" cols="100" class="form-font-f"> </textarea>
-                                                <p class="error-msg hide-error">Enter Recruiter Notes</p>
-                                            </div>
-                                            <div class="job-textarea-box signup-skill-tags f-feild-post tags-tittles">
-                                                <label for="fjobtitles">Tech Tags</label>
-                                                <input type="text" name="" id="" placeholder="My Top Tech Skill Tagsn" class="form-font-f">
-                                                <ul class="tags-titles-list">
-                                                    <li>Active Directory<button><img src="../image/cross.png"
+                                        </div>
+                                        <div class="job-textarea-box f-feild-post">
+                                            <label for="flink">Skills</label><br>
+                                            <textarea rows="10" cols="100" class="form-font-f"> </textarea>
+                                            <p class="msg-show-blowe-textarea">Max Limit (100) words</p>
+                                            <p class="error-msg hide-error">Enter Skills</p>
+                                        </div>
+                                        <div class="job-textarea-box f-feild-post">
+                                            <label for="flink">Must Have Skills</label><br>
+                                            <textarea rows="10" cols="100" class="form-font-f"> </textarea>
+                                            <p class="msg-show-blowe-textarea">Max Limit (100) words</p>
+                                            <p class="error-msg hide-error">Enter Must Have Skills</p>
+                                        </div>
+                                        <div class="job-textarea-box f-feild-post">
+                                            <label for="flink">Nice to have</label><br>
+                                            <textarea rows="10" cols="100" class="form-font-f"> </textarea>
+                                            <p class="msg-show-blowe-textarea">Max Limit (100) words</p>
+                                            <p class="error-msg hide-error">Enter Nice to have</p>
+                                        </div>
+                                        <div class="job-textarea-box f-feild-post">
+                                            <label for="flink">Benefits</label><br>
+                                            <textarea rows="10" cols="100" class="form-font-f"> </textarea>
+                                            <p class="error-msg hide-error">Enter Benefits you want</p>
+                                        </div>
+                                        <div class="job-textarea-box f-feild-post">
+                                            <label for="flink">Working Hours</label><br>
+                                            <textarea rows="10" cols="100" class="form-font-f"> </textarea>
+                                            <p class="error-msg hide-error">Enter Working Hours</p>
+                                        </div>
+                                        <div class="job-textarea-box f-feild-post">
+                                            <label for="flink">Interview Process</label><br>
+                                            <textarea rows="10" cols="100" class="form-font-f"> </textarea>
+                                            <p class="error-msg hide-error">Enter Interview Process</p>
+                                        </div>
+                                        <div class="job-textarea-box f-feild-post">
+                                            <label for="flink">Recruiter Notes</label><br>
+                                            <textarea rows="10" cols="100" class="form-font-f"> </textarea>
+                                            <p class="error-msg hide-error">Enter Recruiter Notes</p>
+                                        </div>
+                                        <div class="job-textarea-box signup-skill-tags f-feild-post tags-tittles">
+                                            <label for="fjobtitles">Tech Tags</label>
+                                            <input type="text" name="" id="" placeholder="My Top Tech Skill Tagsn" class="form-font-f">
+                                            <ul class="tags-titles-list">
+                                                <li>Active Directory<button><img src="../image/cross.png"
                                                             alt=""></button></li>
-                                                    <li>SQL Server<button><img src="../image/cross.png" alt=""></button>
-                                                    </li>
-                                                    <li>Windows Server<button><img src="../image/cross.png" alt=""></button>
-                                                    </li>
-                                                    <li>SQL Server<button><img src="../image/cross.png" alt=""></button>
-                                                    </li>
-                                                    <li>Windows Server<button><img src="../image/cross.png" alt=""></button>
-                                                    </li>
-                                                </ul>
-                                                <p class="error-msg hide-error">Enter skill Skills</p>
-                                            </div>
-                                            <div class="signup-salary f-feild-post">
-                                                <label for="fsalary">Salary Range</label><br>
-                                                <div class="salary-range-start-end">
-                                                    <div class="merge-feild-1 error-input">
-                                                        <div class=" salary-f-job error-input">
-                                                            <div class="salary-start">
-                                                                <div id="fsalary-country" class="company-form-dropdownBox-post" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD $</div>
-                                                                <div class="list-search-dropdown-country-job">
-                                                                    <ul class="list-job-title-country">
-                                                                        <li><img src="../image/CA.png" alt="">CAD - Canadian Dollar
-                                                                        </li>
-                                                                        <li><img src="../image/GB.png" alt="">GBP - British Pound
-                                                                        </li>
-                                                                        <li><img src="../image/US.png" alt="">USD - US Dollar
-                                                                        </li>
-                                                                        <li><img src="../image/US.png" alt="">USD - US Dollar
-                                                                        </li>
-                                                                        <li><img src="../image/CA.png" alt="">CAD - Canadian Dollar
-                                                                        </li>
-                                                                        <li><img src="../image/GB.png" alt="">GBP - British Pound
-                                                                        </li>
-                                                                        <li><img src="../image/US.png" alt="">USD - US Dollar
-                                                                        </li>
-                                                                        <li><img src="../image/US.png" alt="">USD - US Dollar
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
+                                                <li>SQL Server<button><img src="../image/cross.png" alt=""></button>
+                                                </li>
+                                                <li>Windows Server<button><img src="../image/cross.png" alt=""></button>
+                                                </li>
+                                                <li>SQL Server<button><img src="../image/cross.png" alt=""></button>
+                                                </li>
+                                                <li>Windows Server<button><img src="../image/cross.png" alt=""></button>
+                                                </li>
+                                            </ul>
+                                            <p class="error-msg hide-error">Enter skill Skills</p>
+                                        </div>
+                                        <div class="signup-salary f-feild-post">
+                                            <label for="fsalary">Salary Range</label><br>
+                                            <div class="salary-range-start-end">
+                                                <div class="merge-feild-1 error-input">
+                                                    <div class=" salary-f-job error-input">
+                                                        <div class="salary-start">
+                                                            <div id="fsalary-country" class="company-form-dropdownBox-post" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD $</div>
+                                                            <div class="list-search-dropdown-country-job">
+                                                                <ul class="list-job-title-country">
+                                                                    <li><img src="../image/CA.png" alt="">CAD - Canadian Dollar
+                                                                    </li>
+                                                                    <li><img src="../image/GB.png" alt="">GBP - British Pound
+                                                                    </li>
+                                                                    <li><img src="../image/US.png" alt="">USD - US Dollar
+                                                                    </li>
+                                                                    <li><img src="../image/US.png" alt="">USD - US Dollar
+                                                                    </li>
+                                                                    <li><img src="../image/CA.png" alt="">CAD - Canadian Dollar
+                                                                    </li>
+                                                                    <li><img src="../image/GB.png" alt="">GBP - British Pound
+                                                                    </li>
+                                                                    <li><img src="../image/US.png" alt="">USD - US Dollar
+                                                                    </li>
+                                                                    <li><img src="../image/US.png" alt="">USD - US Dollar
+                                                                    </li>
+                                                                </ul>
                                                             </div>
                                                         </div>
-                                                        <input type="text" name="" id="salary-start-range" class="form-font-f">
                                                     </div>
-                                                    <div class="merge-feild-2">
-                                                        <p class="salryto">To</p>
-                                                    </div>
-                                                    <div class="merge-feild-3 error-input">
-                                                        <input type="text" name="" id="salary-end" class="form-font-f">
-                                                    </div>
-                                                    <div class="merge-feild-4">
-                                                        <div class="error-input">
-                                                            <div class="Year">
-                                                                <div id="fsalary-year" class="company-form-dropdownBox-post" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Year</div>
-                                                                <div class="list-search-dropdown-year-job">
-                                                                    <ul class="list-job-title-year-job">
-                                                                        <li>Hourly</li>
-                                                                        <li>Monthly</li>
-                                                                        <li>Yearly</li>
-                                                                    </ul>
-                                                                </div>
+                                                    <input type="text" name="" id="salary-start-range" class="form-font-f">
+                                                </div>
+                                                <div class="merge-feild-2">
+                                                    <p class="salryto">To</p>
+                                                </div>
+                                                <div class="merge-feild-3 error-input">
+                                                    <input type="text" name="" id="salary-end" class="form-font-f">
+                                                </div>
+                                                <div class="merge-feild-4">
+                                                    <div class="error-input">
+                                                        <div class="Year">
+                                                            <div id="fsalary-year" class="company-form-dropdownBox-post" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Year</div>
+                                                            <div class="list-search-dropdown-year-job">
+                                                                <ul class="list-job-title-year-job">
+                                                                    <li>Hourly</li>
+                                                                    <li>Monthly</li>
+                                                                    <li>Yearly</li>
+                                                                </ul>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <p class="error-msg">Enter Correct Salary</p>
                                             </div>
-                                            <div class="signup-jobs-option f-feild-post error-input">
-                                                <label for="fjobtypes">Job Type</label><br>
+                                            <p class="error-msg">Enter Correct Salary</p>
+                                        </div>
+                                        <div class="signup-jobs-option f-feild-post error-input">
+                                            <label for="fjobtypes">Job Type</label><br>
+                                            <div class="industry-feild-frm bg-pass-f">
+                                                <div id="dropdown-boxId-2" class="company-form-dropdownBox-post" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Job Type</div>
+                                                <div class="icon-hide">
+                                                    <img src="../image/form-d-f.png" alt=" " class="password-icon-togle">
+                                                    <img src="../image/warning.png" alt=" ">
+                                                </div>
+                                                <div id="company-dropList-t" class="dropdown-form-f company-drop-list-t">
+                                                    <ul>
+                                                        <li class="icon-cursor-f"><img src="../image/w-m-f.png " alt=" ">Waterfall</li>
+                                                        <li class="icon-cursor-f"><img src="../image/w-m-f.png " alt=" ">Agile</li>
+                                                        <li class="icon-cursor-f"><img src="../image/w-m-f.png " alt=" ">Scrum Methodology</li>
+                                                        <li class="icon-cursor-f"><img src="../image/w-m-f.png " alt=" ">Critical Path Method</li>
+                                                        <li class="icon-cursor-f"><img src="../image/w-m-f.png " alt=" ">Waterfall Model</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <p class="error-msg">Please select Job Type</p>
+                                        </div>
+                                        <div class="last-four-feild-post-job select-postion-hide-feilds">
+                                            <div class="signup-jobs-option f-feild-post">
+                                                <label for="fjobtitles">Industry</label><br>
                                                 <div class="industry-feild-frm bg-pass-f">
-                                                    <div id="dropdown-boxId-2" class="company-form-dropdownBox-post" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Job Type</div>
+                                                    <div id="dropdown-boxId-2" class="company-form-dropdownBox-post" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Reporting To</div>
+                                                    <div class="icon-hide">
+                                                        <img src="../image/form-d-f.png" alt="" class="password-icon-togle">
+                                                        <img src="../image/warning.png" alt="">
+                                                    </div>
+                                                    <div id="company-dropList-t" class="dropdown-form-f company-drop-list-t">
+                                                        <ul>
+                                                            <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Team Lead</li>
+                                                            <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">HR Manager</li>
+                                                            <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Product Manager</li>
+                                                            <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Product Owner</li>
+                                                            <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Team Lead</li>
+                                                            <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Team Lead</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <p class="error-msg hide-error">Please select Job Title</p>
+                                            </div>
+                                            <div class="signup-jobs-option f-feild-post">
+                                                <label for="fjobtitles">Reporting To</label><br>
+                                                <div class="industry-feild-frm bg-pass-f">
+                                                    <div id="dropdown-boxId-2" class="company-form-dropdownBox-post" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Reporting To</div>
+                                                    <div class="icon-hide">
+                                                        <img src="../image/form-d-f.png" alt="" class="password-icon-togle">
+                                                        <img src="../image/warning.png" alt="">
+                                                    </div>
+                                                    <div id="company-dropList-t" class="dropdown-form-f company-drop-list-t">
+                                                        <ul>
+                                                            <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Team Lead</li>
+                                                            <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">HR Manager</li>
+                                                            <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Product Manager</li>
+                                                            <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Product Owner</li>
+                                                            <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Team Lead</li>
+                                                            <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Team Lead</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <p class="error-msg hide-error">Please select Reporting To</p>
+                                            </div>
+                                            <div class="signup-jobs-option f-feild-post">
+                                                <label for=" fjobtitles ">Company Size</label><br>
+                                                <div class="industry-feild-frm bg-pass-f">
+                                                    <div id="dropdown-boxId-2" class="company-form-dropdownBox-post" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Company Size</div>
+                                                    <div class="icon-hide">
+                                                        <img src="../image/form-d-f.png" alt=" " class="password-icon-togle">
+                                                        <img src="../image/warning.png" alt=" ">
+                                                    </div>
+                                                    <div id="company-dropList-t" class="dropdown-form-f company-drop-list-t">
+                                                        <ul>
+                                                            <li class="icon-cursor-f"><img src="../image/c-z-f.png " alt=" ">Full Time - Office</li>
+                                                            <li class="icon-cursor-f"><img src="../image/c-z-f.png " alt=" ">Full Time - Remote</li>
+                                                            <li class="icon-cursor-f"><img src="../image/c-z-f.png " alt=" ">Full Time - Hybrid</li>
+                                                            <li class="icon-cursor-f"><img src="../image/c-z-f.png " alt=" ">Part Time - Remote</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <p class="error-msg hide-error ">Please select Company Size</p>
+                                            </div>
+                                            <div class="signup-jobs-option f-feild-post">
+                                                <label for="fjobtitles ">Work Methodology</label><br>
+                                                <div class="industry-feild-frm bg-pass-f">
+                                                    <div id="dropdown-boxId-2" class="company-form-dropdownBox-post" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Work Methodology</div>
                                                     <div class="icon-hide">
                                                         <img src="../image/form-d-f.png" alt=" " class="password-icon-togle">
                                                         <img src="../image/warning.png" alt=" ">
@@ -289,90 +382,7 @@
                                                         </ul>
                                                     </div>
                                                 </div>
-                                                <p class="error-msg">Please select Job Type</p>
-                                            </div>
-                                            <div class="last-four-feild-post-job select-postion-hide-feilds">
-                                                <div class="signup-jobs-option f-feild-post">
-                                                    <label for="fjobtitles">Industry</label><br>
-                                                    <div class="industry-feild-frm bg-pass-f">
-                                                        <div id="dropdown-boxId-2" class="company-form-dropdownBox-post" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Reporting To</div>
-                                                        <div class="icon-hide">
-                                                            <img src="../image/form-d-f.png" alt="" class="password-icon-togle">
-                                                            <img src="../image/warning.png" alt="">
-                                                        </div>
-                                                        <div id="company-dropList-t" class="dropdown-form-f company-drop-list-t">
-                                                            <ul>
-                                                                <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Team Lead</li>
-                                                                <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">HR Manager</li>
-                                                                <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Product Manager</li>
-                                                                <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Product Owner</li>
-                                                                <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Team Lead</li>
-                                                                <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Team Lead</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <p class="error-msg hide-error">Please select Job Title</p>
-                                                </div>
-                                                <div class="signup-jobs-option f-feild-post">
-                                                    <label for="fjobtitles">Reporting To</label><br>
-                                                    <div class="industry-feild-frm bg-pass-f">
-                                                        <div id="dropdown-boxId-2" class="company-form-dropdownBox-post" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Reporting To</div>
-                                                        <div class="icon-hide">
-                                                            <img src="../image/form-d-f.png" alt="" class="password-icon-togle">
-                                                            <img src="../image/warning.png" alt="">
-                                                        </div>
-                                                        <div id="company-dropList-t" class="dropdown-form-f company-drop-list-t">
-                                                            <ul>
-                                                                <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Team Lead</li>
-                                                                <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">HR Manager</li>
-                                                                <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Product Manager</li>
-                                                                <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Product Owner</li>
-                                                                <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Team Lead</li>
-                                                                <li class="icon-cursor-f"><img src="../image/team-f.png" alt="">Team Lead</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <p class="error-msg hide-error">Please select Reporting To</p>
-                                                </div>
-                                                <div class="signup-jobs-option f-feild-post">
-                                                    <label for=" fjobtitles ">Company Size</label><br>
-                                                    <div class="industry-feild-frm bg-pass-f">
-                                                        <div id="dropdown-boxId-2" class="company-form-dropdownBox-post" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Company Size</div>
-                                                        <div class="icon-hide">
-                                                            <img src="../image/form-d-f.png" alt=" " class="password-icon-togle">
-                                                            <img src="../image/warning.png" alt=" ">
-                                                        </div>
-                                                        <div id="company-dropList-t" class="dropdown-form-f company-drop-list-t">
-                                                            <ul>
-                                                                <li class="icon-cursor-f"><img src="../image/c-z-f.png " alt=" ">Full Time - Office</li>
-                                                                <li class="icon-cursor-f"><img src="../image/c-z-f.png " alt=" ">Full Time - Remote</li>
-                                                                <li class="icon-cursor-f"><img src="../image/c-z-f.png " alt=" ">Full Time - Hybrid</li>
-                                                                <li class="icon-cursor-f"><img src="../image/c-z-f.png " alt=" ">Part Time - Remote</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <p class="error-msg hide-error ">Please select Company Size</p>
-                                                </div>
-                                                <div class="signup-jobs-option f-feild-post">
-                                                    <label for="fjobtitles ">Work Methodology</label><br>
-                                                    <div class="industry-feild-frm bg-pass-f">
-                                                        <div id="dropdown-boxId-2" class="company-form-dropdownBox-post" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Work Methodology</div>
-                                                        <div class="icon-hide">
-                                                            <img src="../image/form-d-f.png" alt=" " class="password-icon-togle">
-                                                            <img src="../image/warning.png" alt=" ">
-                                                        </div>
-                                                        <div id="company-dropList-t" class="dropdown-form-f company-drop-list-t">
-                                                            <ul>
-                                                                <li class="icon-cursor-f"><img src="../image/w-m-f.png " alt=" ">Waterfall</li>
-                                                                <li class="icon-cursor-f"><img src="../image/w-m-f.png " alt=" ">Agile</li>
-                                                                <li class="icon-cursor-f"><img src="../image/w-m-f.png " alt=" ">Scrum Methodology</li>
-                                                                <li class="icon-cursor-f"><img src="../image/w-m-f.png " alt=" ">Critical Path Method</li>
-                                                                <li class="icon-cursor-f"><img src="../image/w-m-f.png " alt=" ">Waterfall Model</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <p class="error-msg hide-error ">Please select Work Methodology</p>
-                                                </div>
+                                                <p class="error-msg hide-error ">Please select Work Methodology</p>
                                             </div>
                                         </div>
                                     </form>
@@ -506,13 +516,28 @@
             </div>
         </div>
     </section>
-    <!-----------candidate model signup -->
-    <section class="model-popup hide-model-popup ">
-        <div class="popup-bg ">
-            <div class="popup-content ">
-                <div class="close-img "><img src="../image/close.png " alt=" "></div>
-                <p class="popup-text ">Welcome! Your account has been successfully created.</p>
-                <div class="send-correct "><img src="../image/send-correct.png " alt=" "></div>
+    <!-----------candidate model signup  hide-model-popup-->
+    <section class="model-popup-post-job">
+        <div class="popup-post-job">
+            <div class="popup-content-post-job">
+                <div class="logo-site">
+                    <a href="#"><img src="../image/WORKBRIDGE.png" alt=""></a>
+                </div>
+                <div class="three-row">
+                    <div class="col-job-cardone">
+                        <div class="line-one"></div>
+                        <div class="line-two"></div>
+                        <div class="line-white"></div>
+                        <div class="line-white"></div>
+                        <div class="line-white"></div>
+                        <p class="copy-j-description-content">Copy/Paste your </p>
+                        <p class="j-card-text-job">Job Description 🗒️</p>
+                    </div>
+                    <div class="col-job-cardtwo">
+                        <p>OR</p>
+                    </div>
+                    <div class="col-job-cardthree"></div>
+                </div>
             </div>
         </div>
     </section>
