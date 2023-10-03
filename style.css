@@ -1891,6 +1891,13 @@ border-bottom-left-radius: 0; */
     position: relative;
 }
 
+textarea.form-font-f {
+    width: 100%;
+    padding: 10px;
+    border: 0.5px solid var(--boder-color);
+    border-radius: 6px;
+}
+
 
 /*********** attention box*****/
 
