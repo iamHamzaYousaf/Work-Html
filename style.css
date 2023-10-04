@@ -3655,7 +3655,7 @@ div#fsalary-year {
 }
 
 
-/********job post model ******/
+/********job post model final******/
 
 section.model-popup-post-job {
     position: fixed;
@@ -3675,7 +3675,7 @@ section.model-popup-post-job {
     width: 100%;
     height: 50%;
     margin: 50px auto 0;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 65%, rgba(20, 57, 117, 1) 65%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 80%, rgba(20, 57, 117, 1) 80%);
     padding: 20px 100px 100px 100px;
     position: relative;
     border-radius: 30px;
@@ -3692,7 +3692,11 @@ section.model-popup-post-job {
     border-radius: 20px;
     border: 3px solid #143975;
     background: #9CC7E3;
-    padding: 20px 30px 40px 30px;
+    padding: 20px 20px 40px 20px;
+    max-width: 45%;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
 }
 
 .line-one {
@@ -3717,7 +3721,7 @@ p.copy-j-description-content {
     font-size: 18px;
     font-weight: 300;
     line-height: 23.1px;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 p.j-card-text-job {
@@ -3737,11 +3741,178 @@ p.j-card-text-job {
     font-family: var(--museo-sans);
 }
 
+.col-job-cardtwo {
+    max-width: 10%;
+    width: 100%;
+}
+
 .col-job-cardthree {
     border-radius: 20px;
     border: 3px solid #143975;
     background: #FFBD72;
-    padding: 20px 30px 40px 30px;
+    padding: 10px 20px 20px 20px;
+    max-width: 45%;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.col-job-cardthree img {
+    max-width: 100%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    object-fit: contain;
+}
+
+p.text-zoeai {
+    color: var(--text-color);
+    font-weight: var(--font-weight-medium);
+    font-size: 18px;
+    text-align: center;
+    font-family: var(--museo-sans);
+    line-height: 23px;
+}
+
+p.text-zoeai span {
+    color: var(--primary-color);
+    font-weight: var(--font-weight-bold);
+    font-size: 18px;
+    text-align: center;
+    font-family: var(--museo-sans);
+    line-height: 23px;
+}
+
+
+/********zoe check job post model final******/
+
+section.model-popup-post-job {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(0 0 0 / 80%);
+    top: 0%;
+    z-index: 1;
+}
+
+.popup-post-job {
+    width: 740px;
+    margin: 0 auto;
+}
+
+.popup-content-zoe-chek {
+    width: 100%;
+    margin: 50px auto 0;
+    background-image: url(./image/zoai-bg.png);
+    padding: 20px 40px 100px 40px;
+    position: relative;
+    border-radius: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 500px;
+}
+
+.col-job-zoecard {
+    border-radius: 16px;
+    border: 1px solid rgba(20, 57, 117, 0.20);
+    padding: 20px;
+    max-width: 60%;
+    width: 100%;
+    margin-top: 70px;
+    position: relative;
+}
+
+.col-job-zoecard img {
+    position: absolute;
+    right: -10px;
+    top: -12px;
+}
+
+p.zeo-chek-text {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 34px;
+    font-family: var(--museo-sans);
+}
+
+p.zeo-chek-text strong {
+    font-weight: var(--font-weight-bold);
+}
+
+p.zeo-chek-text span {
+    color: var(--accent-color);
+    font-size: 20px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+}
+
+.zeo-btn {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    max-width: 60%;
+    width: 100%;
+    gap: 20px;
+}
+
+button.zeo-nobtn {
+    border-radius: 4px;
+    border: 1px solid var(--primary-color);
+    min-width: 85px;
+    padding: 8px 0;
+    color: #143975;
+    font-family: var(--museo-sans);
+    font-size: 16px;
+    font-weight: 400;
+    background-color: transparent;
+    text-align: center;
+}
+
+button.zeo-yesbtn {
+    border-radius: 4px;
+    border: 1px solid var(--primary-color);
+    min-width: 85px;
+    padding: 8px 0;
+    color: var(--color-white);
+    font-family: var(--museo-sans);
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #143975;
+    ;
+    text-align: center;
+}
+
+
+/********radio button styling for post a job form ***********/
+
+input#clr-btn {
+    appearance: none;
+    width: 25px;
+    height: 13px;
+    border: 1px solid #003a75;
+    border-radius: 50%;
+    background-clip: content-box;
+    padding: 2px;
+}
+
+input#clr-btn:checked,
+input#job-postion:checked {
+    background-color: #003a75;
+}
+
+input#job-postion {
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #003a75;
+    border-radius: 50%;
+    background-clip: content-box;
+    padding: 2px;
 }
 
 
@@ -8337,6 +8508,7 @@ input#comment-f {
     width: 100%;
     border: 0;
     outline: 0;
+    background: transparent;
 }
 
 input#comment-f:focus-visible {
@@ -9178,6 +9350,12 @@ button.form-submit-job-model {
     /******* image model css****/
     p.popup-text-model-img {
         font-size: 18px;
+    }
+    /*******post job form new****/
+    .employe-final-job-post {
+        max-width: 90%;
+        width: 100%;
+        margin: 0 auto;
     }
 }
 
@@ -10220,6 +10398,12 @@ button.form-submit-job-model {
     .comment-owner-details {
         justify-content: flex-start;
         text-align: start;
+    }
+    /*******post job form new****/
+    .employe-final-job-post {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
     }
 }
 
