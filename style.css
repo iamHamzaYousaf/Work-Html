@@ -3456,7 +3456,7 @@ input#job-post-field {
     border: 0 !important;
     outline: 0;
     background: none !important;
-    color: rgb(0 0 0 / 40%);
+    color: rgb(0 0 0 / 100%);
     font-size: var(--body-text);
     font-family: var(--museo-sans);
     font-weight: 300;
@@ -8364,7 +8364,7 @@ ul.list-job-title li {
 
 .comment-chat-model-end-user {
     position: relative;
-    padding: 0 30px;
+    padding: 0 17px;
     margin-bottom: 0px;
 }
 
