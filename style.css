@@ -8960,6 +8960,8 @@ p.department-name {
 .flag-list img {
     text-align: center;
     opacity: 0.4;
+    height: 30px;
+    width: 30px;
 }
 
 .flag-list.active::after {
@@ -8976,23 +8978,37 @@ p.department-name {
     left: 0;
     right: 0;
     visibility: hidden;
+    visibility: visible;
     /* transform-origin: right top;
     transform: scale(0, 1);
     transition: color 0.1s, transform 0.2s ease-out; */
 }
 
-.flag-list.active img:hover {
+.flag-list.active img {
     opacity: 1;
     transform: scale(1.1);
 }
 
-.flag-list.active:hover::after {
+
+/* .flag-list.active:hover::after {
     visibility: visible;
-}
+} */
 
 .flag-caption {
     position: absolute;
     top: 58px;
+}
+
+.flag-caption.active {
+    position: absolute;
+    top: 70px;
+    left: -14px;
+    color: var(--primary-color);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: var(--museo-sans);
+    visibility: visible;
 }
 
 .flag-caption {
@@ -9007,9 +9023,10 @@ p.department-name {
     visibility: hidden;
 }
 
-.flag-list.active:hover .flag-caption {
+
+/* .flag-list.active:hover .flag-caption {
     visibility: visible;
-}
+} */
 
 
 /*******admin cards******/
