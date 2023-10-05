@@ -8821,8 +8821,6 @@ button.form-submit-job-model {
     background: #375B96;
     padding: 50px 0px 50px 20px;
     min-height: 100vh;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
 }
 
 li.nav-item {
@@ -9092,7 +9090,7 @@ button.admin-continue {
     padding: 12px 24px;
     font-size: 14px;
     color: var(--primary-color);
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-bold);
     color: var(--primary-color);
 }
 

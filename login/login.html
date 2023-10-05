@@ -43,9 +43,9 @@
                     <div class="candiate-login-form">
                         <div class="candidate-signin">
                             <h2  id="signInBtn">Sign In</h2>
-                            <form action="../candidate-dashboard/candidate-dashborad.html">
+                            <form id="login-form">
                                 <div class="candidate-username">
-                                    <input type="text" placeholder="Username" id="">
+                                    <input type="text" placeholder="Username" id="email">
                                     <p class="error-msg hide-error">Please enter a valid Email id</p>
                                 </div>
                                 <div class="candidate-password">
@@ -160,5 +160,30 @@
             </div>
         </div>
     </section>
+
+    <script>
+
+document.getElementById("login-form").addEventListener("submit", function (e) {
+    e.preventDefault(); // Prevent the default form submission
+
+    // Get the user input
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password-field").value;
+
+    // Check if the email and password match the desired values
+    if (email === "candidate@workbridge.com" && password === "123456") {
+        // Redirect to the specific page
+        window.location.href = "../candidate-dashboard/candidate-dashborad.html";
+    } 
+    if (email === "employer@workbridge.com" && password === "123456") {
+        // Redirect to the specific page
+        window.location.href = "../employee-dashbord/employeedashord.html";
+    } 
+    if (email === "admin@workbridge.com" && password === "123456") {
+        // Redirect to the specific page
+        window.location.href = "../admin-dashboard/department/module.html";
+    }    
+});
+    </script>
 </body>
 
