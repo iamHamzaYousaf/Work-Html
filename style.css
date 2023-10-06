@@ -9455,7 +9455,7 @@ img.show-tooltip:hover~.tooltip-delete-role {
     min-width: 328px;
     margin: 0 auto;
     padding: 7px;
-    border: 1px solid rgb(0 0 0 / 100%);
+    border: 1px solid rgb(0 0 0 / 30%);
     border-radius: 25px;
     display: flex;
     align-items: center;
