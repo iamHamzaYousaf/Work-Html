@@ -9068,13 +9068,14 @@ p.department-name {
 /*******admin cards******/
 
 .admin-cards {
-    padding: 90px 90px 50px 20px;
+    padding: 40px 90px 50px 20px;
 }
 
 .all-admin-cards-rows {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    padding-top: 34px;
 }
 
 .admin-card-one {
@@ -9102,8 +9103,7 @@ p.admin-main-title {
 }
 
 ul.crad-admin-list {
-    column-count: 2;
-    padding: 10px 0 40px 0;
+    padding: 0px 0 40px 0;
     margin: 0;
     list-style-type: none;
 }
@@ -9192,7 +9192,7 @@ button.admin-continue {
     font-family: var(--museo-sans);
     text-align: center;
     display: block;
-    margin: 0 0 0 auto;
+    margin: 0 60px 0 auto;
 }
 
 .department-table-imge {
@@ -9202,18 +9202,20 @@ button.admin-continue {
 }
 
 .col-left-table-depart {
-    max-width: 52%;
+    max-width: 50%;
     width: 100%;
     margin-top: -10px;
 }
 
 .col-right-image-depart {
-    max-width: 46.5%;
+    max-width: 49%;
     width: 100%;
 }
 
 .col-right-image-depart img {
     border-radius: 16px;
+    max-width: 100%;
+    width: 100%;
 }
 
 table.depart-table-left {
@@ -9406,10 +9408,11 @@ img.show-tooltip:hover~.tooltip-delete-role {
     display: flex;
     justify-content: end;
     margin-right: 0px;
+    align-items: center;
 }
 
 .pagination-admin-tb a {
-    color: black;
+    color: #BDBDBD;
     padding: 1px 7px;
     text-decoration: none;
     border: 1px solid var(--boder-color);
@@ -9433,11 +9436,19 @@ img.show-tooltip:hover~.tooltip-delete-role {
     line-height: 20px;
 }
 
+.pagination-admin-tb p {
+    color: var(--text-color);
+    font-size: 13px;
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+}
+
 .filter-search-bar {
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
     align-items: flex-end;
+    padding-right: 60px;
 }
 
 .search-admin {
