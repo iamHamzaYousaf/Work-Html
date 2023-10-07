@@ -8849,8 +8849,41 @@ li.nav-item a.nav-link {
     font-weight: var(--font-weight-medium);
 }
 
+li.nav-item.show,
 li.nav-item:hover {
     background: var(--primary-color);
+}
+
+.navbar-nav .dropdown-menu {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 0 0 25px!important;
+    margin: 20px 0 0 !important;
+    box-shadow: none !important;
+    background: none !important;
+    border-radius: 50px 0 0 50px !important;
+}
+
+.navbar-nav .dropdown-menu li {
+    margin-top: 10px;
+}
+
+.navbar-nav .dropdown-menu li a {
+    color: #fff;
+    padding: 10px 15px;
+    position: relative;
+    display: inline-block;
+    border-radius: 50px 0 0 50px !important;
+}
+
+.navbar-nav .dropdown-menu li a:hover {
+    background: var(--primary-color);
+}
+
+.navbar-nav .dropdown-menu li a:hover::before,
+.navbar-nav .dropdown-menu li a:hover::after {
+    opacity: 1;
 }
 
 li.nav-item:hover a.active {
@@ -8868,12 +8901,17 @@ ul.navbar-nav {
     position: relative;
 }
 
-li.icon-crv::before {
-    content: 'abc';
+li.icon-crv {
+    position: relative;
+}
+
+li.icon-crv::before,
+.navbar-nav .dropdown-menu li a::before {
+    content: '';
     color: rgba(255, 255, 255, 0);
     position: absolute;
     right: 0;
-    top: -21px;
+    bottom: 100%;
     background: url(./image/up-crv.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -8882,20 +8920,25 @@ li.icon-crv::before {
     width: 15px;
 }
 
-li.icon-crv::after {
-    content: 'abc';
+li.icon-crv::after,
+.navbar-nav .dropdown-menu li a::after {
+    content: '';
     color: rgba(255, 255, 255, 0);
     position: absolute;
     right: 0;
-    bottom: 30px;
+    top: 100%;
     background: url(./image/dwn-crv.png);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0;
     height: 21px;
     width: 15px;
+    margin: 0;
+    border: none;
 }
 
+li.nav-item.show::before,
+li.nav-item.show::after,
 li.icon-crv:hover::before,
 li.icon-crv:hover::after {
     opacity: 1;
@@ -9068,14 +9111,14 @@ p.department-name {
 /*******admin cards******/
 
 .admin-cards {
-    padding: 40px 90px 50px 20px;
+    padding: 40px 80px 50px 20px;
 }
 
 .all-admin-cards-rows {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    padding-top: 34px;
+    padding-top: 20px;
 }
 
 .admin-card-one {
@@ -9086,24 +9129,17 @@ p.department-name {
     box-shadow: 0px 1px 25px 7px rgba(193, 193, 193, 0.22);
 }
 
-p.card-subtitle-admin {
-    font-family: var(--museo-sans);
-    font-size: 16px;
-    font-weight: var(--font-weight-bold);
-    color: var(--primary-color);
-}
-
 p.admin-main-title {
     font-family: var(--museo-sans);
     font-size: 20px;
     line-height: 38px;
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
 ul.crad-admin-list {
-    padding: 0px 0 40px 0;
+    padding: 0px 0 30px 0;
     margin: 0;
     list-style-type: none;
 }
@@ -9114,8 +9150,8 @@ ul.crad-admin-list li {
     line-height: 21px;
     font-weight: var(--font-weight-medium);
     color: var(--primary-color);
-    padding-top: 17px;
-    background: url(./image/list-icon-admin.png) no-repeat 0px 19px;
+    padding-top: 12px;
+    background: url(./image/list-icon-admin.png) no-repeat 0px 13px;
     padding-left: 25px;
 }
 
@@ -9166,10 +9202,9 @@ button.admin-continue {
 /**************departemt page css ********/
 
 .page-title-heading h2 {
-    color: var(--primary-color);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .page-space {
