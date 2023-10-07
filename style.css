@@ -8873,7 +8873,8 @@ li.nav-item:hover {
     color: #fff;
     padding: 10px 15px;
     position: relative;
-    display: inline-block;
+    display: flex;
+    gap: 14px;
     border-radius: 50px 0 0 50px !important;
 }
 
@@ -9237,13 +9238,13 @@ button.admin-continue {
 }
 
 .col-left-table-depart {
-    max-width: 50%;
+    max-width: 54%;
     width: 100%;
     margin-top: -10px;
 }
 
 .col-right-image-depart {
-    max-width: 49%;
+    max-width: 45%;
     width: 100%;
 }
 
@@ -9276,7 +9277,7 @@ thead.tb-heading-deprt tr {
 }
 
 thead.tb-heading-deprt th {
-    padding: 20px 0;
+    padding: 18px 0;
     font-size: 14px;
     font-weight: var(--font-weight-bold);
     color: rgb(0 0 0 / 100%);
@@ -9290,11 +9291,17 @@ thead.tb-heading-deprt th {
 }
 
 tbody.tb-admin td {
-    padding: 18px 0px;
+    padding: 15px 0px 15px 0px;
     font-size: 14px;
     color: var(--primary-color);
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
+    text-align: center;
+}
+
+td.deprt-left-td {
+    text-align: left !important;
+    padding-left: 20px !important;
 }
 
 tbody.tb-admin tr:nth-child(even) {
@@ -9481,9 +9488,8 @@ img.show-tooltip:hover~.tooltip-delete-role {
 .filter-search-bar {
     display: flex;
     justify-content: space-between;
-    padding: 30px 0;
+    padding: 15px 60px 20px 0;
     align-items: flex-end;
-    padding-right: 60px;
 }
 
 .search-admin {
@@ -9511,7 +9517,7 @@ img.show-tooltip:hover~.tooltip-delete-role {
 .admin-status-filter {
     padding: 12px;
     border: 0px solid var(--boder-color);
-    width: 240px;
+    width: 270px;
     border-radius: 5px;
     background: rgba(221, 222, 238, 0.25);
 }
@@ -9529,7 +9535,7 @@ img.show-tooltip:hover~.tooltip-delete-role {
     border-radius: 8px;
     background: #FFF;
     box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
-    width: 240px;
+    width: 270px;
     overflow: auto;
     z-index: 1;
     margin: 5px 0 0 auto;
@@ -9584,6 +9590,261 @@ p.filter-label-admin {
 /* Handle */
 
 .admin-status-dropdown::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: var(--primary-color);
+}
+
+
+/*********create department *******/
+
+.department-role-space {
+    padding: 30px 145px 100px 20px;
+}
+
+ul.progressbar-admin {
+    padding-left: 0;
+    z-index: 1;
+    position: relative;
+}
+
+.step-progressbar-admin {
+    margin: 50px 0;
+}
+
+.progressbar-admin {
+    counter-reset: step;
+}
+
+.progressbar-admin li {
+    list-style: none;
+    display: inline-block;
+    width: 30.33%;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.progressbar-admin li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgb(0 0 0 / 30%);
+    border-radius: 100%;
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    background-color: var(--color-grey);
+    font-size: 24px;
+    line-height: 44px;
+}
+
+.progressbar-admin li.active-circle:before {
+    border: 1px solid var(--primary-color);
+}
+
+.progressbar-admin li.active-circle:after {
+    background-color: var(--primary-color);
+}
+
+ul.progressbar-admin li {
+    color: #BDBDBD;
+}
+
+.progressbar-admin li:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+    top: 22px;
+    left: -50%;
+    z-index: -1;
+}
+
+.progressbar-admin li:first-child:after {
+    content: none;
+}
+
+.progressbar-admin li.active {
+    color: var(--primary-color);
+}
+
+.progressbar-admin li.active:before {
+    border-color: var(--primary-color);
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.department-form-box {
+    border-radius: 16px;
+    border: 1px solid #143975;
+    background: #FFF;
+    padding: 32px 100px 24px 24px;
+    margin-top: 25px;
+}
+
+.admin-from-step {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px 40px;
+    flex-wrap: wrap;
+}
+
+.form-heading h2 {
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-color);
+    font-size: 24px;
+}
+
+input#dept-f {
+    padding: 12px;
+    border: 0px solid var(--boder-color);
+    width: 100%;
+    border-radius: 5px;
+    background: rgba(221, 222, 238, 0.25);
+}
+
+.feild-f-admin {
+    width: 100%;
+    max-width: 30%;
+    position: relative;
+}
+
+.f-admin label {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+    margin-bottom: 15px;
+}
+
+.form-font-admin {
+    color: rgb(0 0 0 / 100%);
+    font-family: var(--museo-sans);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.admin-form-btn {
+    display: flex;
+    gap: 16px;
+    justify-content: end;
+    padding-top: 25px;
+}
+
+button.cancel-admin {
+    border-radius: 6px;
+    border: 1px solid #F32131;
+    min-width: 140px;
+    padding: 14px 10px;
+    background: transparent;
+    color: #F32131;
+    font-family: var(--museo-sans);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+button.next-admin {
+    border-radius: 6px;
+    border: 1px solid var(--primary-color);
+    min-width: 140px;
+    padding: 14px 10px;
+    background: var(--primary-color);
+    color: var(--color-white);
+    font-family: var(--museo-sans);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/*******create role ********/
+
+.form-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button.add-role-admin {
+    min-width: 148px;
+    padding: 12px 0;
+    border-radius: 6px;
+    background: #143975;
+    color: #fff;
+    border: 0;
+}
+
+.feild-f-text-are {
+    max-width: 100%;
+    width: 100%;
+}
+
+textarea#text-admin {
+    width: 100%;
+    border-radius: 5px;
+    background: rgba(221, 222, 238, 0.25);
+    border: 0;
+}
+
+.space-b-f {
+    margin-bottom: 40px;
+}
+
+.admin-status-filter-form {
+    padding: 12px;
+    border: 0px solid var(--boder-color);
+    width: 100%;
+    ;
+    border-radius: 5px;
+    background: rgba(221, 222, 238, 0.25);
+}
+
+.admin-status-dropdown-frm {
+    position: absolute;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
+    width: 100%;
+    overflow: auto;
+    z-index: 1;
+    margin: 5px 0 0 auto;
+    left: 0;
+    top: 100%;
+    max-height: 185px;
+    height: auto;
+}
+
+.admin-status-filter-form.open .admin-status-dropdown-frm {
+    display: block;
+}
+
+.admin-status-filter-form .admin-status-dropdown-frm {
+    display: none;
+}
+
+
+/* width */
+
+.admin-status-dropdown-frm::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+/* Track */
+
+.admin-status-dropdown-frm::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+.admin-status-dropdown-frm::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: var(--primary-color);
