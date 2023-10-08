@@ -3944,7 +3944,7 @@ section.f-dream.job {
 }
 
 section.job-search-sec {
-    padding: 80px 0 70px 0;
+    padding: 80px 0 0px 0;
 }
 
 .job-search-tag-heading h2 {
@@ -4325,6 +4325,7 @@ ul.find-job-tag li {
 .job-details-sec {
     padding: 60px 0px;
     background: var(--secondary-color);
+    margin-top: 70px;
 }
 
 .j-compny-btn {
@@ -9172,15 +9173,15 @@ button.admin-continue {
 }
 
 .card-one-bg {
-    background: #9CC7E3;
-}
-
-.card-two-bg {
     background: #B8DCE7;
 }
 
-.card-three-bg {
+.card-two-bg {
     background: #D3E6EF;
+}
+
+.card-three-bg {
+    background: #B3DAFB;
 }
 
 .card-four-bg {
@@ -9192,7 +9193,7 @@ button.admin-continue {
 }
 
 .card-six-bg {
-    background: #B3DAFB;
+    background: #FFC685;
 }
 
 .card-seven-bg {
