@@ -9119,7 +9119,7 @@ p.department-name {
 }
 
 .admin-card-one {
-    max-width: 32%;
+    max-width: 29%;
     width: 100%;
     padding: 20px 24px 24px;
     border-radius: 12px;
@@ -9167,31 +9167,31 @@ button.admin-continue {
     color: var(--primary-color);
 }
 
-.card-one-bg {
+.card-bg-0 {
     background: #B8DCE7;
 }
 
-.card-two-bg {
+.card-bg-1 {
     background: #D3E6EF;
 }
 
-.card-three-bg {
+.card-bg-2 {
     background: #B3DAFB;
 }
 
-.card-four-bg {
+.card-bg-3 {
     background: #D8ECFF;
 }
 
-.card-five-bg {
+.card-bg-4 {
     background: #C4E9FC;
 }
 
-.card-six-bg {
+.card-bg-5 {
     background: #FFC685;
 }
 
-.card-seven-bg {
+.card-bg-6 {
     background: #FFC685;
 }
 
@@ -9761,7 +9761,7 @@ button.next-admin {
 }
 
 button.add-role-admin {
-    min-width: 148px;
+    min-width: 140px;
     padding: 12px 0;
     border-radius: 6px;
     background: #143975;
