@@ -9105,11 +9105,6 @@ p.department-name {
 }
 
 
-/* .flag-list.active:hover .flag-caption {
-    visibility: visible;
-} */
-
-
 /*******admin cards******/
 
 .admin-cards {
@@ -9561,11 +9556,6 @@ p.filter-label-admin {
     padding-bottom: 5px;
 }
 
-
-/* .text-filter-admin img {
-    height: 10px;
-} */
-
 .text-filter-admin p {
     color: #0000004d;
     font-family: var(--museo-sans);
@@ -9691,7 +9681,7 @@ ul.progressbar-admin li {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 15px 40px;
+    gap: 25px 40px;
     flex-wrap: wrap;
 }
 
@@ -9849,6 +9839,76 @@ textarea#text-admin {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: var(--primary-color);
+}
+
+
+/******admin portal ********/
+
+.first-part-f {
+    padding: 0px 0 25px 0;
+}
+
+.first-part-f h3 {
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
+.first-part-f p {
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+}
+
+.feild-f-admin-addres {
+    width: 100%;
+    max-width: 65%;
+    position: relative;
+}
+
+.feild-f-admin-city {
+    width: 100%;
+    max-width: 30%;
+    position: relative;
+}
+
+
+/************** contry dropdown css*******/
+
+ul.list-admin-country {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 15px 10px;
+}
+
+ul.list-admin-country li {
+    border-radius: 8px;
+    background: #ffffff;
+    padding: 0px 10px;
+    cursor: pointer;
+    color: rgb(0 0 0 / 50%);
+    font-size: 11px;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    line-height: 40px;
+}
+
+ul.list-admin-country li:hover {
+    border-radius: 6px;
+    background: #F2F7FF;
+    color: var(--text-color);
+    font-weight: var(--font-weight-medium);
+}
+
+ul.list-admin-country li img {
+    padding: 0px 10px 0 0;
+    position: relative;
+    top: -2px;
+    height: 14px;
+    width: 30px;
+    object-fit: contain;
 }
 
 
