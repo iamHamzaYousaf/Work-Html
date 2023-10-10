@@ -8870,7 +8870,7 @@ img.cart-menu {
     width: 100%;
     outline: none;
     border: none;
-    padding: 0 0 0 25px!important;
+    padding: 0 0 0 10px!important;
     margin: 20px 0 0 !important;
     box-shadow: none !important;
     background: none !important;
@@ -8886,8 +8886,6 @@ img.cart-menu {
     border-radius: 50px 0 0 50px !important;
     text-decoration: none;
 }
-
-.navbar-nav .inner-dropdown li.sub-children.active a {}
 
 .inner-dropdown {
     display: none;
@@ -9219,6 +9217,10 @@ button.admin-continue {
 
 .bg-clr-admin {
     background: #F9F9F9;
+}
+
+.bg-clr-admin a {
+    text-decoration: none;
 }
 
 .create-department {
@@ -9609,7 +9611,7 @@ ul.progressbar-admin {
 }
 
 .step-progressbar-admin {
-    margin: 50px 0;
+    margin: 30px 0;
 }
 
 .progressbar-admin {
@@ -9631,18 +9633,23 @@ ul.progressbar-admin {
     counter-increment: step;
     width: 54px;
     height: 54px;
-    border: 1px solid #C7C7C7;
     border-radius: 100%;
     display: block;
     text-align: center;
     margin: 0 auto 10px auto;
-    background-color: var(--color-grey);
     font-size: 24px;
     line-height: 44px;
+    background: #C7C7C7;
+    color: #fff;
+    border: 4px solid #fff;
+    outline: 2px solid #C7C7C7;
 }
 
 .progressbar-admin li.active-circle:before {
-    border: 1px solid #C7C7C7;
+    background: #C7C7C7;
+    color: #fff;
+    border: 4px solid #fff;
+    outline: 2px solid #C7C7C7;
 }
 
 .progressbar-admin li.active-circle:after {
@@ -9685,7 +9692,7 @@ ul.progressbar-admin li {
     border: 1px solid #143975;
     background: #FFF;
     padding: 32px 80px 24px 24px;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 .admin-from-step {
@@ -9742,7 +9749,7 @@ button.cancel-admin {
     border-radius: 6px;
     border: 1px solid #F32131;
     min-width: 140px;
-    padding: 14px 10px;
+    padding: 12px 10px;
     background: transparent;
     color: #F32131;
     font-family: var(--museo-sans);
@@ -9754,7 +9761,7 @@ button.next-admin {
     border-radius: 6px;
     border: 1px solid var(--primary-color);
     min-width: 140px;
-    padding: 14px 10px;
+    padding: 12px 10px;
     background: var(--primary-color);
     color: var(--color-white);
     font-family: var(--museo-sans);
@@ -9788,6 +9795,7 @@ button.add-role-admin {
 textarea#text-admin {
     width: 100%;
     border-radius: 5px;
+    padding: 10px;
     background: rgba(221, 222, 238, 0.25);
     border: 0;
 }
@@ -9800,7 +9808,7 @@ textarea#text-admin {
     padding: 12px;
     border: 0px solid var(--boder-color);
     width: 100%;
-    ;
+    position: relative;
     border-radius: 5px;
     background: rgba(221, 222, 238, 0.25);
 }
@@ -9886,7 +9894,7 @@ textarea#text-admin {
 }
 
 
-/************** contry dropdown css*******/
+/************** admin contry dropdown css*******/
 
 ul.list-admin-country {
     list-style: none;
@@ -9922,6 +9930,44 @@ ul.list-admin-country li img {
     object-fit: contain;
 }
 
+
+/*****************/
+
+ul.list-admin-portal {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0;
+    padding: 15px 10px;
+}
+
+ul.list-admin-portal li {
+    border-radius: 8px;
+    background: #ffffff;
+    padding: 0px 10px;
+    cursor: pointer;
+    color: rgb(0 0 0 / 50%);
+    font-size: var(--skill-text-size);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    line-height: 40px;
+}
+
+ul.list-admin-portal li:hover {
+    border-radius: 6px;
+    background: #F2F7FF;
+    color: var(--text-color);
+    font-weight: var(--font-weight-medium);
+}
+
+ul.list-admin-portal li img {
+    height: 18px;
+    position: relative;
+    top: 10px;
+}
+
+
+/*******************/
+
 input#admin-module {
     border: 0;
     background: #ff000000 !important;
@@ -9937,8 +9983,8 @@ input#admin-module {
 .tags-admin ul.tags-titles-list {
     list-style: none;
     display: flex;
-    gap: 10px;
-    margin: 15px 0 0px 0;
+    gap: 8px;
+    margin: 10px 0 0px 0;
     padding: 0;
     flex-wrap: wrap;
     position: absolute;
@@ -9947,7 +9993,6 @@ input#admin-module {
 .tags-admin ul.tags-titles-list li img {
     border: 1px solid var(--primary-color);
     border-radius: 38px;
-    font-size: 15px;
     height: 15px;
     width: 15px;
     padding: 2px;
@@ -9963,13 +10008,138 @@ input#admin-module {
     background: rgba(20, 62, 117, 0.07);
     padding: 4px 8px;
     color: var(--primary-color);
-    font-size: var(--skill-text-size);
+    font-size: 13px;
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
 }
 
 .second-box-admin {
-    min-height: 410px;
+    min-height: 440px;
+}
+
+
+/*************User Credential********/
+
+input#admin-pass-field {
+    background: transparent;
+    border: 0;
+}
+
+.password-admin-f {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img.pass-icon-hide {
+    display: none;
+}
+
+
+/***********user permission******/
+
+.user-heading-filter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.select-filter {
+    display: flex;
+    align-items: center;
+}
+
+.select-filter {
+    display: flex;
+    align-items: center;
+    max-width: 21%;
+    width: 100%;
+    gap: 10px;
+    position: relative;
+}
+
+.select-filter label {
+    color: var(--text-color);
+    font-size: 13px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+}
+
+.hide-tick {
+    display: none;
+}
+
+
+/***user persmisson table ****/
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link {
+    border: 0;
+}
+
+a.nav-link {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+}
+
+a.nav-link.active {
+    border: 0;
+    border-bottom: 2px solid var(--primary-color) !important;
+    color: var(--primary-color) !important;
+    font-size: 14px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+}
+
+thead.tb-heading-user-admin {
+    border: 0;
+    background: #F8F8F8;
+}
+
+thead.tb-heading-user-admin th {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.user-permission-form-box {
+    border-radius: 16px;
+    border: 1px solid #143975;
+    background: #FFF;
+    padding: 30px 24px 24px 24px;
+    margin-top: 25px;
+}
+
+tbody.tb-user-admin tr:nth-child(odd) {
+    background-color: #E8F1FF;
+}
+
+tbody.tb-user-admin tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+.name-sr-circle {
+    color: var(--text-color);
+    font-size: 13px;
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+}
+
+tbody.tb-user-admin td {
+    padding: 15px 10px;
+    text-align: center;
+    color: rgb(0 0 0 / 100%);
+    font-size: 16px;
+    font-weight: 300;
+    font-family: var(--museo-sans);
+    vertical-align: baseline;
 }
 
 
