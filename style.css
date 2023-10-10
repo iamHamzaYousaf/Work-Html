@@ -8835,7 +8835,7 @@ button.form-submit-job-model {
     border: none;
     width: 100%;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 13px;
     border: none;
     outline: none;
     color: var(--color-white) !important;
@@ -8843,6 +8843,7 @@ button.form-submit-job-model {
     font-weight: var(--font-weight-bold);
     background: transparent;
     border-radius: 50px 0 0 50px;
+    text-decoration: none;
 }
 
 .navbar-nav li .menu-btn img {
@@ -8882,7 +8883,7 @@ img.cart-menu {
     padding: 10px 15px;
     position: relative;
     display: flex;
-    gap: 14px;
+    gap: 0px;
     border-radius: 50px 0 0 50px !important;
     text-decoration: none;
 }
@@ -10079,6 +10080,11 @@ img.pass-icon-hide {
     border: 0;
 }
 
+.nav-link:focus,
+.nav-link:hover {
+    color: rgba(0, 0, 0, 0.3);
+}
+
 a.nav-link {
     color: rgba(0, 0, 0, 0.3);
     font-size: 14px;
@@ -10102,11 +10108,11 @@ thead.tb-heading-user-admin {
 
 thead.tb-heading-user-admin th {
     color: var(--text-color);
-    font-size: 16px;
+    font-size: 13px;
     font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
-    padding: 20px 0px;
-    text-align: center;
+    padding: 20px 0px 20px 18px;
+    text-align: left;
 }
 
 .user-permission-form-box {
