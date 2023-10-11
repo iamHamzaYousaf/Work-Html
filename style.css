@@ -3367,6 +3367,26 @@ button.send-chat-j {
     background: transparent;
 }
 
+.re-gen-btn {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+button.clr-reg-btn {
+    border-radius: 4px;
+    background: rgba(20, 57, 117, 0.08);
+    color: var(--primary-color);
+    font-size: 12px;
+    border: 0;
+    min-width: 127px;
+    padding: 8.5px 8px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
 button.clr-j-btn {
     border-radius: 4px;
     background: rgba(20, 57, 117, 0.08);
@@ -3903,6 +3923,14 @@ button.zeo-yesbtn {
 
 
 /********radio button styling for post a job form ***********/
+
+.radio-button-container {
+    width: 12px;
+    height: 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
 
 input#clr-btn {
     appearance: none;
@@ -8872,7 +8900,7 @@ img.cart-menu {
     outline: none;
     border: none;
     padding: 0 0 0 10px!important;
-    margin: 20px 0 0 !important;
+    margin: 15px 0 0 !important;
     box-shadow: none !important;
     background: none !important;
     border-radius: 50px 0 0 50px !important;
@@ -8886,6 +8914,7 @@ img.cart-menu {
     gap: 0px;
     border-radius: 50px 0 0 50px !important;
     text-decoration: none;
+    margin-top: 10px;
 }
 
 .inner-dropdown {
@@ -8977,6 +9006,37 @@ li.icon-crv .menu-btn::after {
 .row-header {
     display: flex;
     justify-content: space-between;
+}
+
+.dropdown-dashbord-admin {
+    max-width: 100%;
+    width: 300px;
+    margin: 0 0 0 auto;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    z-index: 1;
+    padding-right: 10px;
+}
+
+.dropdown-dashbord-admin ul {
+    background: #FCFDFD;
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    list-style: none;
+    padding: 20px 24px 24px 24px;
+    z-index: 1;
+}
+
+.dropdown-dashbord-admin ul a {
+    font-size: 16px;
+    font-family: var(--museo-sans);
+    font-size: var(--font-weight-medium);
+    text-decoration: none;
+    color: var(--primary-color);
+    line-height: 20px;
+    transition: font-weight 0.3s ease;
 }
 
 .text-header-sidebar {
@@ -9951,6 +10011,9 @@ ul.list-admin-portal li {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
     line-height: 40px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 0px;
 }
 
 ul.list-admin-portal li:hover {
@@ -9964,6 +10027,11 @@ ul.list-admin-portal li img {
     height: 18px;
     position: relative;
     top: 10px;
+    padding: 0px 10px;
+}
+
+img.hide-icon-admin {
+    display: none;
 }
 
 
@@ -10146,6 +10214,111 @@ tbody.tb-user-admin td {
     font-weight: 300;
     font-family: var(--museo-sans);
     vertical-align: baseline;
+}
+
+
+/*********offcanvese*********/
+
+div#sidebarmbl {
+    padding: 24px 20px;
+}
+
+.name-dashbord-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+p.employee-name-mbl {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+    line-height: 16px;
+}
+
+a.employee-email-mbl {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: var(--museo-sans);
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 300;
+    line-height: 14px
+}
+
+.dropdown-mbl-side ul {
+    background: #fff;
+    border: 0px solid rgba(0, 0, 0, 0.3);
+    box-shadow: none;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.dropdown-mbl-side ul a {
+    font-size: 16px;
+    font-family: var(--museo-sans);
+    font-size: var(--font-weight-medium);
+    text-decoration: none;
+    color: var(--primary-color);
+    line-height: 20px;
+    transition: font-weight 0.3s ease;
+}
+
+.btn-close {
+    opacity: 1 !important;
+    background: transparent url('./image/sidebar-close.png') center/1.2em auto no-repeat !important;
+}
+
+.offcanvas-header .btn-close {
+    padding: 0.2rem 0.2rem !important;
+}
+
+
+/********admin model*********/
+
+.popup-admin-portal {
+    width: 370px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.logo-site a img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.uper-part-admin {
+    background: #fff;
+    padding: 20px 30px 40px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.lower-part-admin {
+    padding: 45px 30px;
+    border-radius: 0px 0px 30px 30px;
+    background: #FBE8E7;
+}
+
+p.text-admin-two {
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--text-color);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+}
+
+.admin-logo-model {
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+
+.admin-logo-model img {
+    max-width: 100%;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
 }
 
 
