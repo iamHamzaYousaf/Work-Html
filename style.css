@@ -4347,13 +4347,11 @@ ul.find-job-tag li {
     border: 1px solid #e2edff;
 }
 
+
 /*************job detail head *********/
 
-
-/************ job company veiw page ***********/
-
 .job-details-sec {
-    padding: 60px 0px;
+    padding: 40px 0px;
     background: var(--secondary-color);
     margin-top: 70px;
 }
@@ -4450,7 +4448,7 @@ p.j-c-salary span {
 
 button.apply-j-btn {
     min-width: 277px;
-    padding: 15px 0;
+    padding: 13px 0;
     background: rgba(20, 57, 117, 0.03);
     margin: 0 0 25px auto;
     border: 1px solid var(--primary-color);
@@ -4468,7 +4466,7 @@ button.apply-j-btn {
 
 button.fav-j-btn {
     min-width: 277px;
-    padding: 15px 0;
+    padding: 13px 0;
     background: transparent;
     margin: 0 0 25px auto;
     border: 1px solid var(--form-text-account);
@@ -4484,6 +4482,52 @@ button.fav-j-btn {
     gap: 15px;
 }
 
+button.edit-j-btn {
+    min-width: 277px;
+    padding: 13px 0;
+    background: rgba(255, 160, 51, 0.05);
+    margin: 0 0 25px auto;
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+    outline: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+button.ques-list-j-btn {
+    min-width: 277px;
+    padding: 13px 0;
+    background: transparent;
+    margin: 0 0 25px auto;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+    outline: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+
+/************ job company veiw page ***********/
+
+
+/*************job detail of company show *********/
+
+section.job-description-sec {
+    padding: 50px 0px 0px 0;
+}
+
 .job-company-details {
     max-width: 72%;
     width: 100%;
@@ -4497,14 +4541,6 @@ button.fav-j-btn {
     border: 0.5px solid rgba(20, 57, 117, 0.20);
     background: rgb(242 247 255 / 50%);
     padding: 32px 24px;
-}
-
-
-
-/*************job detail of company show *********/
-
-section.job-description-sec {
-    padding: 50px 0px 0px 0;
 }
 
 .Job-Opportunities-row-company {
@@ -4734,12 +4770,38 @@ button.sub-heading {
     margin: 0 !important;
 }
 
+button.queation-answer-tab {
+    border-radius: 8px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.08) !important;
+    padding: 20px 30px 20px 15px !important;
+    margin: 0 !important;
+    border: 1px solid rgba(0, 0, 0, 0.20) !important;
+    background: rgba(221, 222, 238, 0.25) !important;
+    display: flex;
+    align-items: flex-start !important;
+}
+
+button.queation-answer-tab::after {
+    display: none;
+}
+
 span.q-text-s {
     color: var(--text-color);
     font-size: 14px;
     font-weight: 300;
     font-family: var(--museo-sans);
     padding-left: 10px;
+}
+
+span.q-text-ans {
+    color: var(--text-color);
+    font-size: 13px;
+    font-weight: 300;
+    font-family: var(--museo-sans);
+    padding-left: 10px;
+    line-height: 21px;
 }
 
 button.accordion-button.sub-heading.collapsed::after {
@@ -7980,7 +8042,7 @@ button.comment-submit {
 /*******Employer View Job Details page css start here *******/
 
 .job-details-sec-employee {
-    padding: 60px 0px;
+    padding: 40px 0px;
     background: var(--secondary-color);
     margin-top: 100px;
 }
@@ -10394,7 +10456,6 @@ p.text-admin-two {
     width: 100px;
     margin: 0 auto;
 }
-
 
 
 /*************responsivness start here ***********/

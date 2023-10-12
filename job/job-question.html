@@ -51,10 +51,6 @@
                                 <img src="../image/company-eployee.png" alt="">
                                 <p class="j-c-salary">Employees 1,001 - 5,000</p>
                             </div>
-                            <!-- <div class="icon-text-job-requre">
-                        <img src="../image/j-timing.png" alt="">
-                        <p class="j-c-salary">Full Time - Remote <span> . 21 Days ago</span></p>
-                    </div> -->
                             <div class="icon-text-job-requre">
                                 <img src="../image/j-timing.png" alt="">
                                 <div class="job-find-list">
@@ -69,6 +65,8 @@
                             <div class="tow-btn-j-com space-top-question">
                                 <button class="apply-j-btn"><img src="../image/apply-j.png" alt="">Apply Now</button>
                                 <button class="fav-j-btn"><img src="../image/company-j-f.png" alt="">Add Job To Wishlist</button>
+                                <button class="edit-j-btn"><img src="../image/edit-q.png" alt="">Edit</button>
+                                <button class="ques-list-j-btn"><img src="../image/questi-list.png" alt="">Candidates List</button>
                             </div>
                         </div>
                     </div>
@@ -91,24 +89,51 @@
                                     <div class="accordion" id="sub-accordionExample">
                                         <div class="accordion-item">
                                             <h2 class="accordion-header sub-header" id="sub-headingOne">
-                                                <button class="accordion-button sub-heading" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                <button class="accordion-button sub-heading" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseanswer" aria-expanded="true" aria-controls="collapseOne">
                                                     Question 1:<span class="q-text-s"> What is the importance of the Model-View-Controller (MVC) design pattern in Java-based application development?</span>
                                                 </button>
                                             </h2>
+                                            <div id="sub-collapseanswer" class="accordion-collapse collapse" aria-labelledby="sub-headingOne" data-bs-parent="#sub-accordionExample">
+                                                <div class="accordion-body side-space">
+                                                    <h2 class="accordion-header sub-header tab-space-tb" id="sub-headingOne">
+                                                        <button class="accordion-button queation-answer-tab" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                            Answer:<span class="q-text-ans">ArrayList and LinkedList are both implementations of the List interface in Java. The main difference is in their underlying data structures. An ArrayList uses an array to store elements, which makes it efficient for random access but slower for insertions and deletions. On the other hand, a LinkedList uses a doubly-linked list, which makes it efficient for insertions and deletions but slower for random access. I would choose ArrayList when I need fast access to elements and LinkedList when I require frequent insertions or deletions in the list.</span>
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="accordion-item">
                                             <h2 class="accordion-header sub-header" id="sub-headingOne">
-                                                <button class="accordion-button sub-heading" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                <button class="accordion-button sub-heading" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseanswer1" aria-expanded="true" aria-controls="collapseOne">
                                                     Question 2:<span class="q-text-s"> How can you improve the performance of a Java application?</span>
                                                 </button>
                                             </h2>
+                                            <div id="sub-collapseanswer1" class="accordion-collapse collapse" aria-labelledby="sub-headingOne" data-bs-parent="#sub-accordionExample">
+                                                <div class="accordion-body side-space">
+                                                    <h2 class="accordion-header sub-header tab-space-tb" id="sub-headingOne">
+                                                        <button class="accordion-button queation-answer-tab" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                            Answer:<span class="q-text-ans">ArrayList and LinkedList are both implementations of the List interface in Java. The main difference is in their underlying data structures. An ArrayList uses an array to store elements, which makes it efficient for random access but slower for insertions and deletions. On the other hand, a LinkedList uses a doubly-linked list, which makes it efficient for insertions and deletions but slower for random access. I would choose ArrayList when I need fast access to elements and LinkedList when I require frequent insertions or deletions in the list.</span>
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="accordion-item">
                                             <h2 class="accordion-header sub-header" id="sub-headingOne">
-                                                <button class="accordion-button sub-heading" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                <button class="accordion-button sub-heading" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseanswer2" aria-expanded="true" aria-controls="collapseOne">
                                                     Question 3:<span class="q-text-s"> Explain the significance of unit testing in Java application development.</span>
                                                 </button>
                                             </h2>
+                                            <div id="sub-collapseanswer2" class="accordion-collapse collapse" aria-labelledby="sub-headingOne" data-bs-parent="#sub-accordionExample">
+                                                <div class="accordion-body side-space">
+                                                    <h2 class="accordion-header sub-header tab-space-tb" id="sub-headingOne">
+                                                        <button class="accordion-button queation-answer-tab" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                            Answer:<span class="q-text-ans">ArrayList and LinkedList are both implementations of the List interface in Java. The main difference is in their underlying data structures. An ArrayList uses an array to store elements, which makes it efficient for random access but slower for insertions and deletions. On the other hand, a LinkedList uses a doubly-linked list, which makes it efficient for insertions and deletions but slower for random access. I would choose ArrayList when I need fast access to elements and LinkedList when I require frequent insertions or deletions in the list.</span>
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -127,17 +152,35 @@
                             <div class="accordion" id="sub-accordionExample1">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header sub-header" id="sub-headingOne">
-                                        <button class="accordion-button sub-heading" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <button class="accordion-button sub-heading" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseanswer3" aria-expanded="true" aria-controls="collapseOne">
                                             Question 1:<span class="q-text-s">Can you describe a work situation where you had to collaborate closely with a diverse team?</span>
                                         </button>
                                     </h2>
+                                    <div id="sub-collapseanswer3" class="accordion-collapse collapse" aria-labelledby="sub-headingOne" data-bs-parent="#sub-accordionExample">
+                                        <div class="accordion-body side-space">
+                                            <h2 class="accordion-header sub-header tab-space-tb" id="sub-headingOne">
+                                                <button class="accordion-button queation-answer-tab" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseanswer4" aria-expanded="true" aria-controls="collapseOne">
+                                                    Answer:<span class="q-text-ans">ArrayList and LinkedList are both implementations of the List interface in Java. The main difference is in their underlying data structures. An ArrayList uses an array to store elements, which makes it efficient for random access but slower for insertions and deletions. On the other hand, a LinkedList uses a doubly-linked list, which makes it efficient for insertions and deletions but slower for random access. I would choose ArrayList when I need fast access to elements and LinkedList when I require frequent insertions or deletions in the list.</span>
+                                                </button>
+                                            </h2>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header sub-header" id="sub-headingOne">
-                                        <button class="accordion-button sub-heading" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <button class="accordion-button sub-heading" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseanswer4" aria-expanded="true" aria-controls="collapseOne">
                                             Question 2:<span class="q-text-s">How do you handle tight deadlines and high-pressure situations? Can you provide an example from your past work experience?</span>
                                         </button>
                                     </h2>
+                                    <div id="sub-collapseanswer4" class="accordion-collapse collapse" aria-labelledby="sub-headingOne" data-bs-parent="#sub-accordionExample">
+                                        <div class="accordion-body side-space">
+                                            <h2 class="accordion-header sub-header tab-space-tb" id="sub-headingOne">
+                                                <button class="accordion-button queation-answer-tab" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseanswer4" aria-expanded="true" aria-controls="collapseOne">
+                                                    Answer:<span class="q-text-ans">ArrayList and LinkedList are both implementations of the List interface in Java. The main difference is in their underlying data structures. An ArrayList uses an array to store elements, which makes it efficient for random access but slower for insertions and deletions. On the other hand, a LinkedList uses a doubly-linked list, which makes it efficient for insertions and deletions but slower for random access. I would choose ArrayList when I need fast access to elements and LinkedList when I require frequent insertions or deletions in the list.</span>
+                                                </button>
+                                            </h2>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header sub-header" id="sub-headingOne">
