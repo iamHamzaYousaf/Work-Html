@@ -8093,16 +8093,13 @@ p.comment-remove {
 
 /**************name hover comment **************/
 
-td.name-box-hvr {
-    cursor: pointer;
-}
-
 .name-comment-box {
     display: none;
 }
 
 td.name-box-hvr:hover .name-comment-box {
     display: block !important;
+    z-index: 1;
 }
 
 .name-comment-box::before {
@@ -8156,6 +8153,7 @@ td.name-box-hvr:hover .name-comment-box {
 
 td.name-box-hvr {
     position: relative;
+    cursor: pointer;
 }
 
 
@@ -10319,6 +10317,79 @@ p.text-admin-two {
     height: 100px;
     width: 100px;
     margin: 0 auto;
+}
+
+
+/*********question page ****/
+
+.space-top-question {
+    padding-top: 30px;
+}
+
+.question-sec {
+    padding: 100px 0 80px 0;
+}
+
+button.q-tabs {
+    padding: 18px 10px !important;
+    margin: 0;
+    text-align: center !important;
+    display: block;
+    font-size: 20px !important;
+    border-radius: 8px;
+    background: #FFF !important;
+    box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.05) !important;
+}
+
+button.accordion-button.q-tabs.collapsed::after {
+    display: none;
+}
+
+button.sub-heading {
+    border-radius: 8px !important;
+    background: #FFF !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.08) !important;
+    padding: 20px 10px !important;
+    margin: 0 !important;
+}
+
+span.q-text-s {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 300;
+    font-family: var(--museo-sans);
+    padding-left: 10px;
+}
+
+button.accordion-button.sub-heading.collapsed::after {
+    display: none;
+}
+
+.accordion-body.side-space {
+    padding: 1rem 0 !important;
+}
+
+.sub-header {
+    border: 0px solid #375B96 !important;
+    border-radius: 8px !important;
+}
+
+button.bg-clr-q {
+    border-radius: 8px !important;
+    background: #375B96 !important;
+    color: var(--color-white) !important;
+    box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.08) !important;
+    padding: 20px 10px !important;
+    margin: 0 !important;
+    text-align: center !important;
+    display: block;
+    font-size: 16px !important;
+}
+
+.tab-space-tb {
+    margin-bottom: 20px !important;
 }
 
 
