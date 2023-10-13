@@ -12037,6 +12037,10 @@ p.error-wishlist {
     font-size: var(--form-heading);
 }
 
+.error-input .quill {
+    border: 1px solid var(--error-msg-color) !important;
+}
+
 
 /*****************employee dasbord ***********/
 
@@ -16956,6 +16960,10 @@ p.text-admin-two {
     margin-bottom: 20px !important;
 }
 
+.ql-editor {
+    height: 270px !important;
+    background: rgba(221, 222, 238, 0.25) !important;
+}
 
 /*********company detail page start here ************/
 
