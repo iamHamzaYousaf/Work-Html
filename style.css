@@ -4794,11 +4794,12 @@ span.q-text-s {
 
 span.q-text-ans {
     color: var(--text-color);
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 300;
     font-family: var(--museo-sans);
     padding-left: 10px;
-    line-height: 21px;
+    line-height: 22px;
+    text-transform: capitalize;
 }
 
 button.accordion-button.sub-heading.collapsed::after {
