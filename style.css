@@ -9710,6 +9710,11 @@ img.show-tooltip:hover~.tooltip-delete-role {
     align-items: flex-end;
 }
 
+.two-drop-role {
+    display: flex;
+    gap: 20px;
+}
+
 .search-admin {
     min-width: 328px;
     margin: 0 auto;
