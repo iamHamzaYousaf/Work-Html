@@ -4828,7 +4828,7 @@ button.bg-clr-q {
 }
 
 .tab-space-tb {
-    margin-bottom: 20px !important;
+    margin: 20px 0 !important;
 }
 
 
@@ -10453,6 +10453,28 @@ p.text-admin-two {
     height: 100px;
     width: 100px;
     margin: 0 auto;
+}
+
+
+/*********admin form common***********/
+
+.error-input-admin>input {
+    background: url('./image/warning.png');
+    background-repeat: no-repeat;
+    display: block;
+    display: block;
+    background-position: 98% center;
+    background-size: 20px;
+    padding-right: 40px !important;
+}
+
+.error-input-admin>input {
+    border: 1px solid var(--error-msg-color) !important;
+}
+
+.error-input-admin>input:focus-visible {
+    border: 1px solid var(--error-msg-color) !important;
+    outline: 0;
 }
 
 
