@@ -4402,7 +4402,7 @@ p.j-sub-title {
 .icon-text-job-requre {
     display: flex;
     gap: 15px;
-    padding: 12px 0 0 0;
+    padding: 20px 0 0 0;
 }
 
 .icon-text-job-requre img {
@@ -4414,8 +4414,7 @@ p.j-c-salary {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
     font-size: 16px;
-    color: rgb(0 0 0 / 80%);
-    opacity: 1;
+    color: rgb(0 0 0 / 100%);
 }
 
 p.j-c-salary span {
@@ -4454,7 +4453,7 @@ button.apply-j-btn {
     min-width: 277px;
     padding: 13px 0;
     background: rgba(20, 57, 117, 0.03);
-    margin: 0 0 25px auto;
+    margin: 0 0 20px auto;
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
     border-radius: 4px;
