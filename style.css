@@ -1856,13 +1856,15 @@ border-bottom-left-radius: 0; */
 }
 
 .resume-choose-label {
-    position: absolute;
-    bottom: 14px;
+    position: relative;
+    bottom: -40px;
     left: 15px;
     color: var(--text-color);
     font-size: 16px;
     font-family: var(--museo-sans);
     font-weight: 400;
+    z-index: 0;
+    display: table;
 }
 
 .signup-resume input[type="file"] {
@@ -1872,6 +1874,8 @@ border-bottom-left-radius: 0; */
     border-radius: 6px;
     text-indent: -999em;
     outline: none;
+    z-index: 1;
+    position: relative;
 }
 
 .signup-linkedIn-link input[type="text"] {
@@ -9703,6 +9707,56 @@ img.show-tooltip:hover~.tooltip-delete-role {
     font-family: var(--museo-sans);
 }
 
+
+/********user admin************/
+
+.col-user-table {
+    max-width: 100%;
+    width: 100%;
+    margin-top: -10px;
+}
+
+thead.tb-heading-user th {
+    padding: 15px 0px 15px 15px;
+    font-size: 14px;
+    font-weight: var(--font-weight-bold);
+    color: rgb(0 0 0 / 100%);
+    line-height: 18px;
+    text-align: left;
+}
+
+tbody.tb-user {
+    border-radius: 16px;
+    border: 0px solid #BDBDBD;
+    background: #FFF;
+}
+
+tbody.tb-user tr,
+thead.tb-heading-deprt tr {
+    border: 0;
+}
+
+tbody.tb-user td {
+    padding: 10px 0px 10px 18px;
+    font-size: 14px;
+    color: var(--text-color);
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+    text-align: left;
+    word-wrap: break-word;
+}
+
+tbody.tb-user tr:nth-child(even) {
+    background-color: white;
+}
+
+tbody.tb-user tr:nth-child(odd) {
+    background-color: #E8F1FF;
+}
+
+
+/*****************/
+
 .filter-search-bar {
     display: flex;
     justify-content: space-between;
@@ -10489,7 +10543,7 @@ p.text-admin-two {
 }
 
 .error-input-admin>input {
-    background: url('../../image/warning.png') !important;
+    background: url('./image/warning.png') !important;
     background-repeat: no-repeat !important;
     display: block;
     background-position: 98% center !important;
@@ -10507,6 +10561,15 @@ p.text-admin-two {
 
 .hide-error {
     display: none;
+}
+
+.email-error--admin p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+    color: var(--error-msg-color);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
 }
 
 
