@@ -4413,7 +4413,7 @@ p.j-sub-title {
 p.j-c-salary {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
-    font-size: 14px;
+    font-size: 16px;
     color: rgb(0 0 0 / 80%);
     opacity: 1;
 }
