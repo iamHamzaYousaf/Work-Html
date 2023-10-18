@@ -4396,13 +4396,13 @@ p.j-sub-title {
     font-size: 16px;
     color: var(--text-color);
     opacity: 0.8;
-    padding-top: 24px;
+    padding-top: 12px;
 }
 
 .icon-text-job-requre {
     display: flex;
     gap: 15px;
-    padding: 23px 0 0 0;
+    padding: 12px 0 0 0;
 }
 
 .icon-text-job-requre img {
@@ -4413,7 +4413,7 @@ p.j-sub-title {
 p.j-c-salary {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
-    font-size: 18px;
+    font-size: 14px;
     color: rgb(0 0 0 / 80%);
     opacity: 1;
 }
@@ -4739,7 +4739,7 @@ ul.skill-list-j {
 /*********job question page ****/
 
 .space-top-question {
-    padding-top: 30px;
+    padding-top: 0px;
 }
 
 .question-sec {
@@ -8060,7 +8060,7 @@ button.comment-submit {
 /*******Employer View Job Details page css start here *******/
 
 .job-details-sec-employee {
-    padding: 40px 0px;
+    padding: 25px 0px 0 0;
     background: var(--secondary-color);
     margin-top: 100px;
 }
