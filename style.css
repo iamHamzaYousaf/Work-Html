@@ -9754,6 +9754,19 @@ tbody.tb-user tr:nth-child(odd) {
 }
 
 
+/*******error table not found **********/
+
+.table-error {
+    text-align: center;
+    background: #e5f1ff;
+    padding: 26px 0;
+    font-size: 18px;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-color);
+}
+
+
 /*****************/
 
 .filter-search-bar {
