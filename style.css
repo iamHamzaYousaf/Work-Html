@@ -9764,6 +9764,7 @@ tbody.tb-user tr:nth-child(odd) {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
+    margin-top: 15px;
 }
 
 
