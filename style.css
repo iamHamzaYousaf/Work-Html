@@ -9548,6 +9548,8 @@ span.later-circle {
     color: var(--primary-color);
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
+    display: inline-flex;
+    height: 38px;
 }
 
 .four-role-img img {
@@ -9651,15 +9653,15 @@ img.show-tooltip:hover~.tooltip-view-role {
     opacity: 1;
 }
 
-img.show-tooltip:hover~.tooltip-crete-role {
+img.show-tooltip1:hover~.tooltip-crete-role {
     opacity: 1;
 }
 
-img.show-tooltip:hover~.tooltip-edit-role {
+img.show-tooltip2:hover~.tooltip-edit-role {
     opacity: 1;
 }
 
-img.show-tooltip:hover~.tooltip-delete-role {
+img.show-tooltip3:hover~.tooltip-delete-role {
     opacity: 1;
 }
 
@@ -9722,6 +9724,8 @@ thead.tb-heading-user th {
     color: rgb(0 0 0 / 100%);
     line-height: 18px;
     text-align: left;
+    border: 0;
+    background: #fff;
 }
 
 tbody.tb-user {
@@ -9751,6 +9755,10 @@ tbody.tb-user tr:nth-child(even) {
 
 tbody.tb-user tr:nth-child(odd) {
     background-color: #E8F1FF;
+}
+
+th.size-th-user {
+    width: 240px;
 }
 
 
@@ -9848,6 +9856,10 @@ p.filter-label-admin {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
     padding-bottom: 5px;
+}
+
+p.text-filter-select {
+    color: #000;
 }
 
 .text-filter-admin p {
@@ -10104,7 +10116,7 @@ textarea#text-admin {
     width: 100%;
     overflow: auto;
     z-index: 1;
-    margin: 5px 0 0 auto;
+    margin: 15px 0 0 auto;
     left: 0;
     display: none;
     max-height: 185px;
@@ -10235,7 +10247,7 @@ ul.list-admin-portal li {
     line-height: 40px;
     display: flex;
     align-items: flex-start;
-    padding-left: 0px;
+    padding-left: 10px;
 }
 
 ul.list-admin-portal li:hover {
@@ -10426,6 +10438,8 @@ tbody.tb-user-admin tr:nth-child(even) {
     font-size: 13px;
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
+    display: flex;
+    align-items: center;
 }
 
 tbody.tb-user-admin td {
