@@ -9550,6 +9550,8 @@ span.later-circle {
     font-family: var(--museo-sans);
     display: inline-flex;
     height: 38px;
+    width: 38px;
+    justify-content: center;
 }
 
 .four-role-img img {
@@ -9665,9 +9667,75 @@ img.show-tooltip3:hover~.tooltip-delete-role {
     opacity: 1;
 }
 
+
+/*******user admin icon *********/
+
+.tooltip-delete-role-admin {
+    position: absolute;
+    top: -35px;
+    display: inline-block;
+    left: 80px;
+    border-radius: 4px;
+    border: 0.5px solid #F32131;
+    background: #FFF;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.14);
+    color: #F32131;
+    font-family: var(--museo-sans);
+    font-size: 12px;
+    padding: 5px;
+    opacity: 0;
+}
+
+.tooltip-edit-role-admin {
+    position: absolute;
+    top: -35px;
+    display: inline-block;
+    left: 44px;
+    border-radius: 4px;
+    border: 0.5px solid #FFA033;
+    background: #FFF;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.14);
+    color: #FFA033;
+    font-family: var(--museo-sans);
+    font-size: 12px;
+    padding: 5px;
+    opacity: 0;
+}
+
+.tooltip-view-role-admin {
+    position: absolute;
+    top: -35px;
+    display: inline-block;
+    left: 10px;
+    border-radius: 4px;
+    border: 0.5px solid #143975;
+    background: #FFF;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.14);
+    color: #143975;
+    font-family: var(--museo-sans);
+    font-size: 12px;
+    padding: 5px;
+    opacity: 0;
+}
+
+img.show-tooltip:hover~.tooltip-view-role-admin {
+    opacity: 1;
+}
+
+img.show-tooltip3:hover~.tooltip-delete-role-admin {
+    opacity: 1;
+}
+
+img.show-tooltip2:hover~.tooltip-edit-role-admin {
+    opacity: 1;
+}
+
 .hide-role {
     display: none;
 }
+
+
+/**********/
 
 .pagination-admin-tb {
     display: flex;
@@ -9859,7 +9927,7 @@ p.filter-label-admin {
 }
 
 p.text-filter-select {
-    color: #000;
+    color: #000 !important;
 }
 
 .text-filter-admin p {
@@ -9890,6 +9958,16 @@ p.text-filter-select {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: var(--primary-color);
+}
+
+
+/********** wishlist popup admin ****************/
+
+.close-img-admin {
+    position: absolute;
+    right: 20px;
+    top: 17px;
+    cursor: pointer;
 }
 
 
@@ -9992,7 +10070,7 @@ ul.progressbar-admin li {
 
 .admin-from-step {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 25px 25px;
     flex-wrap: wrap;
