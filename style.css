@@ -10342,6 +10342,66 @@ ul.list-admin-portal li img {
     padding: 0px 10px;
 }
 
+
+/*********svg icon **********/
+
+ul.list-admin-portal-clr {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0;
+    padding: 15px 10px;
+}
+
+ul.list-admin-portal-clr li {
+    border-radius: 8px;
+    background: #ffffff;
+    padding: 0px 10px;
+    cursor: pointer;
+    color: rgb(0 0 0 / 50%);
+    font-size: var(--skill-text-size);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    line-height: 40px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+
+ul.list-admin-portal-clr li:hover {
+    border-radius: 6px;
+    background: #F2F7FF;
+    color: var(--text-color);
+    font-weight: var(--font-weight-medium);
+}
+
+ul.list-admin-portal-clr li img {
+    height: 18px;
+    position: relative;
+    top: 10px;
+    padding: 0px 10px;
+}
+
+
+/* li.hover-image {
+    list-style: none;
+ 
+    background-image: url('./image/li-search.png') !important;
+   
+    background-size: 20px !important;
+  
+    background-repeat: no-repeat !important;
+    padding-left: 30px;
+   
+}
+
+li.hover-image:hover {
+    background-image: url('./image/Modules.png') !important;
+    
+} */
+
+
+/*************/
+
 img.hide-icon-admin {
     display: none;
 }
