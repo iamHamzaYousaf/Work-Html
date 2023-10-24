@@ -9586,6 +9586,7 @@ span.later-circle {
 .four-role-img {
     position: relative;
     display: flex;
+    justify-content: center;
 }
 
 .tooltip-view-role {
@@ -9643,7 +9644,7 @@ span.later-circle {
     position: absolute;
     top: -35px;
     display: inline-block;
-    left: 15px;
+    left: 7px;
     border-radius: 4px;
     border: 0.5px solid #F32131;
     background: #FFF;
@@ -10373,8 +10374,9 @@ ul.list-admin-portal-clr li {
     font-weight: var(--font-weight-medium);
     line-height: 40px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     padding-left: 10px;
+    gap: 10px;
 }
 
 ul.list-admin-portal-clr li:hover {
@@ -10384,11 +10386,113 @@ ul.list-admin-portal-clr li:hover {
     font-weight: var(--font-weight-medium);
 }
 
-ul.list-admin-portal-clr li img {
+ul.list-admin-portal-clr li:hover img.hover-s-list {
+    display: block;
+}
+
+ul.list-admin-portal-clr li img.normal-s-list {
+    height: 18px;
+    position: relative;
+    padding: 0px 0px 0 10px;
+}
+
+img.hover-s-list {
+    display: none;
+    height: 18px;
+    position: relative;
+    padding: 0px 0px 0 10px;
+}
+
+ul.list-admin-portal-clr li:hover img.normal-s-list {
+    display: none;
+}
+
+ul.list-admin-portal-clr li:hover img.hover-s-list {
+    display: block;
+}
+
+ul.list-admin-portal li img.normal-s-list {
     height: 18px;
     position: relative;
     top: 10px;
     padding: 0px 10px;
+}
+
+ul.list-admin-portal li:hover img.normal-s-list {
+    display: none;
+}
+
+ul.list-admin-portal li:hover img.hover-s-list {
+    display: block;
+}
+
+
+/*****chek box *******/
+
+
+/* Hide the browser's default checkbox */
+
+
+/* .main-box {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.main-box input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 2px;
+    border: 0.5px solid #CDCDCD;
+    background: #F6F6F6;
+}
+
+.container input:checked~.checkmark {
+    background-color: var(--primary-color);
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+} */
+
+input#admin-chk {
+    accent-color: var(--primary-color)
 }
 
 
@@ -10474,6 +10578,7 @@ input#admin-module {
 input#admin-pass-field {
     background: transparent;
     border: 0;
+    width: 100%;
 }
 
 .password-admin-f {
