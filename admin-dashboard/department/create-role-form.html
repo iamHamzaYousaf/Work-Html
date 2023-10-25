@@ -188,16 +188,202 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="f-admin feild-f-admin tags-admin error-input-admin">
+                                    <label for="">Module Access </label>
+                                    <div class="admin-status-filter-form">
+                                        <div class="custom-tag-input">
+                                            <input type="text" name="" id="admin-module" placeholder="Admin Module Access" class="form-font-f">
+                                            <img src="../../image/admin-d.png" alt="" class="hide-tick">
+                                            <img src="../../image/warning.png" alt="">
+                                        </div>
+                                    </div>
+                                    <ul class="tags-titles-list">
+                                        <li>Job Portal<img src="../../image/cross.png" alt=""></li>
+                                        <li>Time Sheet Module<img src="../../image/cross.png" alt=""></li>
+                                        <li>HR Module<img src="../../image/cross.png" alt="">
+                                        </li>
+                                        <li>Expense Module<img src="../../image/cross.png" alt=""></li>
+                                        <li>Asset Module<img src="../../image/cross.png" alt=""></li>
+                                    </ul>
+                                    <p class="error-msg hide-error">Please Enter Admin Module Access</p>
+                                </div>
+                                <div class="f-admin feild-f-admin">
+                                </div>
+                                <div class="f-admin feild-f-admin">
+                                </div>
                             </div>
                             <div class="f-admin feild-f-text-are">
                                 <label for="">Role Description</label><br>
                                 <textarea name="" id="text-admin" cols="30" rows="5"></textarea>
                             </div>
                         </form>
-                        <div class="admin-form-btn">
+                        <!-- <div class="admin-form-btn">
                             <a href="./steup-department.html"> <button class="cancel-admin">Cancel</button></a>
                             <button class="next-admin">Next</button>
-                        </div>
+                        </div> -->
+                    </div>
+                    <!---------------Permissions-->
+                    <div class="user-permission-form-box">
+                        <form action="">
+                            <div class="user-heading-filter">
+                                <div class="first-part-f">
+                                    <h3>Permissions</h3>
+                                    <p>User Permissions details</p>
+                                </div>
+                                <div class="select-filter">
+                                    <label for="">Permission:</label>
+                                    <div class="admin-status-filter-form">
+                                        <div id="dropdown-boxId2" class="company-form-dropdownBox1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <div class="text-filter-admin">
+                                                <p>Select</p>
+                                                <img src="../../image/admin-d.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="admin-status-dropdown-frm">
+                                            <ul class="list-admin-portal">
+                                                <li>All</li>
+                                                <li>Reset</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table-user-permission">
+                                <!-- Tabs navs -->
+                                <ul class="nav nav-tabs mb-3" id="ex1" role="tablist">
+                                    <li class="nav nav-tabs nav-fill" role="presentation">
+                                        <a class="nav-link active" id="ex1-tab-1" data-mdb-toggle="tab" href="#ex1-tabs-1" role="tab" aria-controls="ex1-tabs-1" aria-selected="true">Job Portal</a>
+                                    </li>
+                                    <li class="nav nav-tabs nav-fill" role="presentation">
+                                        <a class="nav-link" id="ex1-tab-2" data-mdb-toggle="tab" href="#ex1-tabs-2" role="tab" aria-controls="ex1-tabs-2" aria-selected="false">Time Sheet Module</a>
+                                    </li>
+                                    <li class="nav nav-tabs nav-fill" role="presentation">
+                                        <a class="nav-link" id="ex1-tab-3" data-mdb-toggle="tab" href="#ex1-tabs-3" role="tab" aria-controls="ex1-tabs-3" aria-selected="false">HR Module</a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link" id="ex1-tab-3" data-mdb-toggle="tab" href="#ex1-tabs-3" role="tab" aria-controls="ex1-tabs-3" aria-selected="false">Expense Module</a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link" id="ex1-tab-3" data-mdb-toggle="tab" href="#ex1-tabs-3" role="tab" aria-controls="ex1-tabs-3" aria-selected="false">Asset Module</a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link" id="ex1-tab-3" data-mdb-toggle="tab" href="#ex1-tabs-3" role="tab" aria-controls="ex1-tabs-3" aria-selected="false">System Setup</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="ex1-content">
+                                    <div class="tab-pane fade show active" id="ex1-tabs-1" role="tabpanel" aria-labelledby="ex1-tab-1">
+                                        <div class="table-responsive">
+                                            <table class="depart-table-left">
+                                                <thead class="tb-heading-user-admin">
+                                                    <tr>
+                                                        <th scope="col">
+                                                            <div class="th-admin-heading">Sub Modules</div>
+                                                        </th>
+                                                        <th scope="col">
+                                                            <div class="th-admin-heading">View Permission</div>
+                                                        </th>
+                                                        <th scope="col">
+                                                            <div class="th-admin-heading">Create Permission</div>
+                                                        </th>
+                                                        <th scope="col">
+                                                            <div class="th-admin-heading">Edit Permission</div>
+                                                        </th>
+                                                        <th scope="col">
+                                                            <div class="th-admin-heading">Delete Permission</div>
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="tb-user-admin">
+                                                    <tr>
+                                                        <td class="deprt-left-td">
+                                                            <div class="name-sr-circle">Country Management</div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="tik-crl"><img src="../../image/clr-b-bg.png" alt="" class="hide-tick"></div>
+                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="deprt-left-td">
+                                                            <div class="name-sr-circle">Department</div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="tik-crl"><img src="../../image/clr-b-bg.png" alt="" class="hide-tick"></div>
+                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="deprt-left-td">
+                                                            <div class="name-sr-circle">Roles</div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="tik-crl"><img src="../../image/clr-b-bg.png" alt="" class="hide-tick"></div>
+                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="deprt-left-td">
+                                                            <div class="name-sr-circle">Users</div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="tik-crl"><img src="../../image/clr-b-bg.png" alt="" class="hide-tick"></div>
+                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="ex1-tabs-2" role="tabpanel" aria-labelledby="ex1-tab-2">
+                                        Tab 2 content
+                                    </div>
+                                    <div class="tab-pane fade" id="ex1-tabs-3" role="tabpanel" aria-labelledby="ex1-tab-3">
+                                        Tab 3 content
+                                    </div>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                    <div class="admin-form-btn">
+                        <a href="./steup-department.html"> <button class="cancel-admin">Cancel</button></a>
+                        <button class="next-admin">Next</button>
                     </div>
                 </div>
             </div>
