@@ -9623,6 +9623,7 @@ th.size-th-user {
     width: 226px;
 }
 
+
 /*******error table not found **********/
 
 .table-error {
@@ -9731,6 +9732,7 @@ img.show-tooltip3:hover~.tooltip-delete-role {
     display: none;
 }
 
+
 /*admin table pagination*/
 
 .pagination-admin-tb {
@@ -9772,6 +9774,7 @@ img.show-tooltip3:hover~.tooltip-delete-role {
     font-family: var(--museo-sans);
 }
 
+
 /*admin search & dropdown*/
 
 .filter-search-bar {
@@ -9787,7 +9790,8 @@ img.show-tooltip3:hover~.tooltip-delete-role {
 }
 
 .search-admin {
-    min-width: 328px;
+    min-width: 315px;
+    width: 100%;
     margin: 0 auto;
     padding: 7px;
     border: 1px solid rgb(0 0 0 / 30%);
@@ -10764,6 +10768,17 @@ button.edit-form-user {
     font-family: var(--museo-sans);
     font-size: 16px;
     font-weight: 400;
+}
+
+
+/********view user css *****/
+
+.size-th-user-role {
+    width: 197px;
+}
+
+.size-th-user-depart {
+    width: 150px;
 }
 
 
