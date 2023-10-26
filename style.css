@@ -9399,7 +9399,7 @@ button.admin-continue {
 }
 
 
-/**************departemt page css ********/
+/**************departemt & role page css ********/
 
 .page-title-heading h2 {
     font-weight: var(--font-weight-bold);
@@ -9569,6 +9569,76 @@ span.later-circle {
     justify-content: center;
 }
 
+
+/********user admin************/
+
+.col-user-table {
+    max-width: 100%;
+    width: 100%;
+    margin-top: -10px;
+}
+
+thead.tb-heading-user th {
+    padding: 15px 0px 15px 15px;
+    font-size: 14px;
+    font-weight: var(--font-weight-bold);
+    color: rgb(0 0 0 / 100%);
+    line-height: 18px;
+    text-align: left;
+    border: 0;
+    background: #fff;
+}
+
+tbody.tb-user {
+    border-radius: 16px;
+    border: 0px solid #BDBDBD;
+    background: #FFF;
+}
+
+tbody.tb-user tr,
+thead.tb-heading-deprt tr {
+    border: 0;
+}
+
+tbody.tb-user td {
+    padding: 10px 0px 10px 18px;
+    font-size: 14px;
+    color: var(--text-color);
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+    text-align: left;
+    word-wrap: break-word;
+    vertical-align: middle;
+}
+
+tbody.tb-user tr:nth-child(even) {
+    background-color: white;
+}
+
+tbody.tb-user tr:nth-child(odd) {
+    background-color: #E8F1FF;
+}
+
+th.size-th-user {
+    width: 226px;
+}
+
+/*******error table not found **********/
+
+.table-error {
+    text-align: center;
+    background: #e5f1ff;
+    padding: 26px 0;
+    font-size: 18px;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-color);
+    margin-top: 15px;
+}
+
+
+/* admin table tooltip */
+
 .tooltip-view-role {
     position: absolute;
     top: -35px;
@@ -9657,75 +9727,11 @@ img.show-tooltip3:hover~.tooltip-delete-role {
     position: relative;
 }
 
-
-/*******user admin icon *********/
-
-.tooltip-delete-role-admin {
-    position: absolute;
-    top: -35px;
-    display: inline-block;
-    left: 80px;
-    border-radius: 4px;
-    border: 0.5px solid #F32131;
-    background: #FFF;
-    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.14);
-    color: #F32131;
-    font-family: var(--museo-sans);
-    font-size: 12px;
-    padding: 5px;
-    opacity: 0;
-}
-
-.tooltip-edit-role-admin {
-    position: absolute;
-    top: -35px;
-    display: inline-block;
-    left: 44px;
-    border-radius: 4px;
-    border: 0.5px solid #FFA033;
-    background: #FFF;
-    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.14);
-    color: #FFA033;
-    font-family: var(--museo-sans);
-    font-size: 12px;
-    padding: 5px;
-    opacity: 0;
-}
-
-.tooltip-view-role-admin {
-    position: absolute;
-    top: -35px;
-    display: inline-block;
-    left: 10px;
-    border-radius: 4px;
-    border: 0.5px solid #143975;
-    background: #FFF;
-    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.14);
-    color: #143975;
-    font-family: var(--museo-sans);
-    font-size: 12px;
-    padding: 5px;
-    opacity: 0;
-}
-
-img.show-tooltip:hover~.tooltip-view-role-admin {
-    opacity: 1;
-}
-
-img.show-tooltip3:hover~.tooltip-delete-role-admin {
-    opacity: 1;
-}
-
-img.show-tooltip2:hover~.tooltip-edit-role-admin {
-    opacity: 1;
-}
-
 .hide-role {
     display: none;
 }
 
-
-/**********/
+/*admin table pagination*/
 
 .pagination-admin-tb {
     display: flex;
@@ -9766,76 +9772,7 @@ img.show-tooltip2:hover~.tooltip-edit-role-admin {
     font-family: var(--museo-sans);
 }
 
-
-/********user admin************/
-
-.col-user-table {
-    max-width: 100%;
-    width: 100%;
-    margin-top: -10px;
-}
-
-thead.tb-heading-user th {
-    padding: 15px 0px 15px 15px;
-    font-size: 14px;
-    font-weight: var(--font-weight-bold);
-    color: rgb(0 0 0 / 100%);
-    line-height: 18px;
-    text-align: left;
-    border: 0;
-    background: #fff;
-}
-
-tbody.tb-user {
-    border-radius: 16px;
-    border: 0px solid #BDBDBD;
-    background: #FFF;
-}
-
-tbody.tb-user tr,
-thead.tb-heading-deprt tr {
-    border: 0;
-}
-
-tbody.tb-user td {
-    padding: 10px 0px 10px 18px;
-    font-size: 14px;
-    color: var(--text-color);
-    font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
-    text-align: left;
-    word-wrap: break-word;
-    vertical-align: middle;
-}
-
-tbody.tb-user tr:nth-child(even) {
-    background-color: white;
-}
-
-tbody.tb-user tr:nth-child(odd) {
-    background-color: #E8F1FF;
-}
-
-th.size-th-user {
-    width: 226px;
-}
-
-
-/*******error table not found **********/
-
-.table-error {
-    text-align: center;
-    background: #e5f1ff;
-    padding: 26px 0;
-    font-size: 18px;
-    font-family: var(--museo-sans);
-    font-weight: var(--font-weight-medium);
-    color: var(--text-color);
-    margin-top: 15px;
-}
-
-
-/*****************/
+/*admin search & dropdown*/
 
 .filter-search-bar {
     display: flex;
