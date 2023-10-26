@@ -10176,6 +10176,7 @@ textarea#text-admin {
 .tag-input-f {
     display: flex;
     gap: 25px 25px;
+    width: 100%;
 }
 
 .tags-admin ul.tags-titles-list {
@@ -10189,7 +10190,7 @@ textarea#text-admin {
 }
 
 .list-role-c {
-    padding-top: 35px;
+    padding-top: 39px;
 }
 
 
@@ -10779,6 +10780,10 @@ button.edit-form-user {
 
 .size-th-user-depart {
     width: 150px;
+}
+
+.size-th-user-status {
+    width: 100px;
 }
 
 
