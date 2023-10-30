@@ -10720,7 +10720,7 @@ p.text-admin-two {
 /***user form fill ********/
 
 button.edit-form-user {
-    border-radius: px;
+    border-radius: 4px;
     border: 1px solid var(--accent-color);
     background: transparent;
     color: var(--accent-color);
@@ -10730,7 +10730,7 @@ button.edit-form-user {
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
     text-align: center;
-    margin: 0 60px 0 auto;
+    margin: 0 10px 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
