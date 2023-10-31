@@ -1874,7 +1874,7 @@ border-bottom-left-radius: 0; */
     border-radius: 6px;
     text-indent: -999em;
     outline: none;
-    z-index: 1;
+    /* z-index: 1; */
     position: relative;
 }
 
