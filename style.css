@@ -10919,6 +10919,13 @@ button.edit-form-user {
     font-weight: 400;
 }
 
+.form-fill-user-in-active {
+    color: #F32131;
+    font-family: var(--museo-sans);
+    font-size: 16px;
+    font-weight: 400;
+}
+
 
 /*************responsivness start here ***********/
 
