@@ -3240,6 +3240,31 @@ p.cities-job-heading {
 }
 
 
+/******Generate Job Description btn*********/
+
+button.job-des-btn {
+    display: flex;
+    align-items: center;
+    min-width: 208px;
+    justify-content: center;
+    padding: 12px 10px;
+    border: 0;
+    color: var(--color-white);
+    border-radius: 4px;
+    background: var(--primary-color);
+    gap: 10px;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    font-size: 13px;
+}
+
+.job-des-d {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+
 /**************post the final job ************/
 
 .f-feild-post {
@@ -3843,7 +3868,7 @@ section.model-popup-post-job {
     position: relative;
 }
 
-.col-job-zoecard img {
+img.eye-img-m {
     position: absolute;
     right: -10px;
     top: -12px;
@@ -3903,6 +3928,72 @@ button.zeo-yesbtn {
     background-color: #143975;
     ;
     text-align: center;
+}
+
+
+/******progress bar in model***/
+
+.progress-bar-striped,
+.progress {
+    border-radius: 12px !important;
+}
+
+img.animation-img-m {
+    margin: 0 auto;
+    display: block;
+}
+
+p.progressbar-text {
+    color: #0AB84D;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 12px;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+}
+
+p.zeo-gen-text {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 34px;
+    font-family: var(--museo-sans);
+    text-align: center;
+}
+
+p.zeo-gen-text span {
+    color: var(--accent-color);
+    font-size: 20px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+}
+
+img.close-m-gen {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+.popup-content-zoe-job-gen {
+    width: 100%;
+    margin: 50px auto 0;
+    background-image: url(./image/job-gen-bg.png);
+    padding: 20px 40px 100px 40px;
+    position: relative;
+    border-radius: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.col-job-gencard {
+    border-radius: 16px;
+    border: 1px solid rgba(20, 57, 117, 0.20);
+    padding: 20px;
+    max-width: 100%;
+    width: 365px;
+    margin: 55px 0 50px 0;
+    position: relative;
 }
 
 
@@ -10674,7 +10765,6 @@ p.text-admin-two {
     margin: 0 auto;
 }
 
-
 .size-th-user-role {
     width: 197px;
 }
@@ -10743,6 +10833,7 @@ p.text-confrim-modl {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
 }
+
 
 /**********admin from common css******/
 
@@ -10827,7 +10918,6 @@ button.edit-form-user {
     font-size: 16px;
     font-weight: 400;
 }
-
 
 
 /*************responsivness start here ***********/
