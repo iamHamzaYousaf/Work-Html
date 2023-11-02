@@ -3941,6 +3941,8 @@ button.zeo-yesbtn {
 img.animation-img-m {
     margin: 0 auto;
     display: block;
+    height: 55px;
+    width: 55px;
 }
 
 p.progressbar-text {
@@ -4641,7 +4643,7 @@ section.job-description-sec {
 .recruite-note-box {
     margin-bottom: 0px;
     border-radius: 12px;
-    background-image: url(/public/image/rec-bg.png);
+    background-image: url(./image/rec-bg.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
