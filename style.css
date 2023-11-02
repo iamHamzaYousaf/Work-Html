@@ -6737,7 +6737,7 @@ select#candidate-location-feild option {
     margin: 0 0 0 auto;
     position: absolute;
     right: 0;
-    z-index: 1;
+    z-index: 2;
     padding-right: 10px;
 }
 
@@ -12596,3 +12596,11 @@ button.edit-form-user {
     height: 270px !important;
     background: rgba(221, 222, 238, 0.25) !important;
 }
+
+/* React Quill*/
+
+.ql-editor p, ul li{
+    color: rgb(0 0 0 / 100%);
+    font-family: var(--museo-sans);
+    font-size: 16px;
+  }
