@@ -4009,6 +4009,11 @@ img.close-m-gen {
     justify-content: center;
 }
 
+.count-span{
+    width: 40px;
+    display: flex;
+}
+
 input#clr-btn {
     appearance: none;
     width: 25px;
