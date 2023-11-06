@@ -4750,7 +4750,7 @@ p.j-l-text {
     padding-top: 16px;
 }
 
-.skill-list-j ul, p {
+.skill-list-j ul, .skill-list-j p {
     color: rgb(0 0 0 / 100%);
     font-family: var(--museo-sans);
     font-weight: 300;
