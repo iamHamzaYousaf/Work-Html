@@ -4750,16 +4750,26 @@ p.j-l-text {
     padding-top: 16px;
 }
 
-.skill-list-j ul, .skill-list-j p {
-    color: rgb(0 0 0 / 100%);
-    font-family: var(--museo-sans);
-    font-weight: 300;
-    font-size: 16px;
-    padding-left: 20px;
-    margin-bottom: 0;
-    line-height: 32px;
-    padding-top: 15px;
+.skill-list-j ul,
+.skill-list-j p {
+  color: rgb(0 0 0 / 100%);
+  font-family: var(--museo-sans);
+  font-weight: 300;
+  font-size: 16px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  line-height: 32px;
+  padding-top: 15px;
 }
+
+.skill-list-j ul li {
+  color: rgb(0 0 0 / 100%);
+  font-family: var(--museo-sans);
+  font-size: 16px;
+  line-height: 32px;
+  text-align: start;
+}
+
 
 .qr-code-img {
     text-align: center;
@@ -12597,15 +12607,17 @@ button.edit-form-user {
     border-bottom: 1px solid var(--error-msg-color);
 }
 
+/* React Quill*/
+
 .ql-editor {
     height: 270px !important;
     background: rgba(221, 222, 238, 0.25) !important;
 }
 
-/* React Quill*/
-
-.ql-editor p, ul li{
+.ql-editor p, .ql-editor ul li{
     color: rgb(0 0 0 / 100%);
     font-family: var(--museo-sans);
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: justify;
   }
