@@ -4001,18 +4001,34 @@ img.close-m-gen {
 
 /********radio button styling for post a job form ***********/
 
-.radio-button-container {
+
+.post-line-content {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .post-line-content ul {
+    padding-left: 16px;
+  }
+  
+  .post-line-content ul li,.post-line-content p {
+    color: #000;
+    font-size: 14px;
+  }
+  
+  .radio-button-container {
     width: 12px;
     height: 25px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
-}
-
-.count-span{
-    width: 40px;
+  }
+  
+  .count-span {
     display: flex;
-}
+    max-width: 40px;
+    width: 100%;
+  }
 
 input#clr-btn {
     appearance: none;
