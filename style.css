@@ -3258,10 +3258,27 @@ button.job-des-btn {
     font-size: 13px;
 }
 
+button.job-reset-btn {
+    display: flex;
+    align-items: center;
+    min-width: 208px;
+    justify-content: center;
+    padding: 12px 10px;
+    border: 1px solid #143975;
+    color: var(--primary-color);
+    border-radius: 4px;
+    background: transparent;
+    gap: 10px;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    font-size: 13px;
+}
+
 .job-des-d {
     display: flex;
     justify-content: end;
     margin-bottom: 20px;
+    gap: 15px;
 }
 
 
@@ -4001,34 +4018,34 @@ img.close-m-gen {
 
 /********radio button styling for post a job form ***********/
 
-
 .post-line-content {
     width: 100%;
     max-width: 100%;
-  }
-  
-  .post-line-content ul {
+}
+
+.post-line-content ul {
     padding-left: 16px;
-  }
-  
-  .post-line-content ul li,.post-line-content p {
+}
+
+.post-line-content ul li,
+.post-line-content p {
     color: #000;
     font-size: 14px;
-  }
-  
-  .radio-button-container {
+}
+
+.radio-button-container {
     width: 12px;
     height: 25px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
-  }
-  
-  .count-span {
+}
+
+.count-span {
     display: flex;
     max-width: 40px;
     width: 100%;
-  }
+}
 
 input#clr-btn {
     appearance: none;
@@ -4768,24 +4785,23 @@ p.j-l-text {
 
 .skill-list-j ul,
 .skill-list-j p {
-  color: rgb(0 0 0 / 100%);
-  font-family: var(--museo-sans);
-  font-weight: 300;
-  font-size: 16px;
-  padding-left: 20px;
-  margin-bottom: 0;
-  line-height: 32px;
-  padding-top: 15px;
+    color: rgb(0 0 0 / 100%);
+    font-family: var(--museo-sans);
+    font-weight: 300;
+    font-size: 16px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    line-height: 32px;
+    padding-top: 15px;
 }
 
 .skill-list-j ul li {
-  color: rgb(0 0 0 / 100%);
-  font-family: var(--museo-sans);
-  font-size: 16px;
-  line-height: 32px;
-  text-align: start;
+    color: rgb(0 0 0 / 100%);
+    font-family: var(--museo-sans);
+    font-size: 16px;
+    line-height: 32px;
+    text-align: start;
 }
-
 
 .qr-code-img {
     text-align: center;
@@ -12623,6 +12639,7 @@ button.edit-form-user {
     border-bottom: 1px solid var(--error-msg-color);
 }
 
+
 /* React Quill*/
 
 .ql-editor {
@@ -12630,10 +12647,11 @@ button.edit-form-user {
     background: rgba(221, 222, 238, 0.25) !important;
 }
 
-.ql-editor p, .ql-editor ul li{
+.ql-editor p,
+.ql-editor ul li {
     color: rgb(0 0 0 / 100%);
     font-family: var(--museo-sans);
     font-size: 14px;
     line-height: 23px;
     text-align: justify;
-  }
+}
