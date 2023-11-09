@@ -8246,7 +8246,7 @@ button.comment-submit {
 .chat-info-box-bg-clr {
     border-radius: 4px;
     background: #F2F7FF;
-    padding: 10px 10px;
+    padding: 10px;
 }
 
 .two-icon-chat {
@@ -8556,6 +8556,8 @@ ul.list-job-title li {
     padding: 40px 0 20px 0;
 }
 
+
+/* 
 .border-text fieldset {
     border-top: 1px solid var(--boder-color);
 }
@@ -8569,7 +8571,7 @@ ul.list-job-title li {
     font-family: var(--museo-sans);
     font-size: var(--body-text);
     font-weight: var(--font-weight-bold);
-}
+} */
 
 .comment-chat-model {
     position: relative;
@@ -8620,7 +8622,7 @@ ul.list-job-title li {
 
 .chat-comment-box-left-bg-chng {
     height: auto;
-    width: 92%;
+    width: 93%;
     position: relative;
     left: 0px;
     background: #F4F8FF;
@@ -8702,10 +8704,17 @@ ul.list-job-title li {
     padding: 27px 10px;
 }
 
-.info-border .chat-info-box {
-    border-radius: 0px;
-    border: 0px solid rgba(0, 0, 0, 0.17);
-    margin: 0px 0;
+p.left-chat-c {
+    color: #000;
+    font-family: var(--museo-sans);
+    font-size: var(--skill-text-size);
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+}
+
+.hide-para-chat {
+    display: none;
 }
 
 .info-border .chat-info-box p {
@@ -8788,7 +8797,7 @@ ul.list-job-title li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 92%;
+    width: 93%;
     gap: 15px;
 }
 
@@ -8839,6 +8848,14 @@ input#comment-f::-webkit-input-placeholder {
     border-bottom: 1px solid rgba(180, 171, 171, 0.66);
 }
 
+.close-img-comment {
+    text-align: end;
+}
+
+.header-bar-comment>.size-w-d {
+    flex-basis: 33%;
+}
+
 p.name-clinet {
     color: var(--primary-color);
     font-family: var(--museo-sans);
@@ -8865,6 +8882,7 @@ p.clinet-rank {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
     font-size: 22px;
+    justify-content: center;
 }
 
 .chat-date-b {
@@ -8884,23 +8902,54 @@ p.clinet-rank {
     text-align: center;
 }
 
+.chat-f-icon {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+
 .comment-chat-model img.model-avtar {
     position: absolute;
     bottom: -20px;
 }
 
 .comment-chat-model-right img.model-avtar {
-    position: absolute;
-    bottom: -20px;
-    right: 0;
+    display: none;
 }
 
 p.time-chat-left {
-    text-align: center;
+    text-align: end;
     color: #707070;
     font-size: 14px;
     font-weight: 300;
     font-family: var(--museo-sans);
+    height: auto;
+    width: 570px;
+    position: relative;
+    left: 38px;
+    top: 0;
+    padding: 10px 0px 0 0;
+    z-index: 1;
+    display: block;
+    margin: 0 auto 0 0;
+}
+
+.comment-chat-model-right p.time-chat-left {
+    text-align: left;
+    color: #707070;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: var(--museo-sans);
+    height: auto;
+    width: 570px;
+    position: relative;
+    right: 0;
+    top: 0;
+    left: -40px;
+    padding: 10px 0px 0 0;
+    z-index: 1;
+    display: block;
+    margin: 0 0 0 auto;
 }
 
 .edit-icon-model {
@@ -8908,6 +8957,10 @@ p.time-chat-left {
     gap: 10px;
     justify-content: end;
     cursor: pointer;
+}
+
+.chat-info-box-f {
+    width: 100%;
 }
 
 input.chat-user-in-f {
@@ -8918,6 +8971,7 @@ input.chat-user-in-f {
     font-size: 14px;
     font-weight: 300;
     font-family: var(--museo-sans);
+    padding-right: 20px;
 }
 
 
