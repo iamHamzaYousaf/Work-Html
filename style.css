@@ -6926,18 +6926,6 @@ ul.candidate-profile-data-list {
     margin: 0 auto;
 }
 
-.popup-candidate-resume {
-    width: 100%;
-    height: 85vh;
-    margin: 100px auto 0;
-    padding: 40px 0px;
-    position: relative;
-    background: #FFFFFF;
-    border: 2px solid #BDBDBD;
-    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 24px;
-}
-
 .close-img-resume {
     position: absolute;
     right: 15px;
@@ -8214,19 +8202,14 @@ button.comment-submit {
 
 .comment-add-box-left img {
     position: absolute;
-    right: 4px;
-    top: 9px;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
 }
 
 .comment-add-box-right {
     display: flex;
     justify-content: end;
-}
-
-.comment-add-box-right img {
-    position: absolute;
-    right: 4px;
-    top: 9px;
 }
 
 .name-comment-owner-left {
@@ -8241,7 +8224,6 @@ button.comment-submit {
     border: 0.5px solid #BDBDBD;
     background: #FDFDFD;
     padding: 20px 10px;
-    border-left: 8px solid var(--primary-color);
 }
 
 .chat-info-box-right {
@@ -8258,12 +8240,11 @@ button.comment-submit {
     background: #F3F3F3;
     padding: 20px 10px;
     border-left: 8px solid var(--primary-color);
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 
 .chat-info-box-bg-clr {
     border-radius: 4px;
-    border: 0.5px solid #F3F3F3;
     background: #F2F7FF;
     padding: 10px 10px;
 }
@@ -8572,7 +8553,7 @@ ul.list-job-title li {
 }
 
 .comment-model-title {
-    padding: 40px 0 30px 0;
+    padding: 40px 0 20px 0;
 }
 
 .border-text fieldset {
@@ -8592,13 +8573,13 @@ ul.list-job-title li {
 
 .comment-chat-model {
     position: relative;
-    padding: 0 30px;
-    margin-bottom: 30px;
+    padding: 0 0px;
+    margin-bottom: 50px;
 }
 
 .comment-chat-model-right {
     position: relative;
-    padding: 0 30px;
+    padding: 0 0px;
     margin-bottom: 30px;
     text-align: end;
 }
@@ -8612,9 +8593,9 @@ ul.list-job-title li {
     width: 570px;
     position: relative;
     left: 45px;
-    border-radius: 4px;
-    border: 0.5px solid #BDBDBD;
-    background: #FDFDFD;
+    border-radius: 12px 12px 12px 0px;
+    border: 1px solid #D7D7D7;
+    background: #F4F4F4;
     top: 0;
     padding: 20px 15px;
     z-index: 1;
@@ -8627,9 +8608,9 @@ ul.list-job-title li {
     width: 570px;
     position: relative;
     right: 50px;
-    border-radius: 4px;
-    border: 0.5px solid #BDBDBD;
-    background: #FDFDFD;
+    border-radius: 12px 12px 0px 12px;
+    border: 1px solid #D7D7D7;
+    background: #F4F8FF;
     top: 0;
     padding: 20px 15px;
     z-index: 1;
@@ -8637,35 +8618,16 @@ ul.list-job-title li {
     margin: 0 0 0 auto;
 }
 
-
-/* .chat-comment-box-right .chat-info-box {
-    border-radius: 6px;
-    border: 1px solid rgba(0, 0, 0, 0.17);
-    margin: 5px 0;
-} */
-
-
-/* .chat-comment-box-right .chat-info-box p {
-    color: #4F4F4F;
-    font-family: var(--museo-sans);
-    font-size: var(--skill-text-size);
-    font-weight: var(--font-weight-medium);
-    line-height: 24px;
-    text-align: left;
-    padding: 27px 10px;
-} */
-
 .chat-comment-box-left-bg-chng {
     height: auto;
-    width: 570px;
+    width: 92%;
     position: relative;
     left: 0px;
-    border-radius: 4px;
-    border: 0.5px solid #BDBDBD;
-    background: #F3F3F3;
+    background: #F4F8FF;
     padding: 10px 35px 10px 10px;
     z-index: 1;
-    margin: 0 auto 0 0;
+    margin: 0 auto 10px 0;
+    border-left: 8px solid var(--primary-color);
 }
 
 .chat-comment-box-right-bg-chng {
@@ -8685,7 +8647,7 @@ ul.list-job-title li {
 
 .comment-chat-model-end-user {
     position: relative;
-    padding: 0 17px;
+    padding: 0 0px;
     margin-bottom: 0px;
 }
 
@@ -8716,8 +8678,8 @@ ul.list-job-title li {
     position: relative;
     border-radius: 4px;
     border: 0.5px solid #BDBDBD;
-    background: #fff;
-    padding: 10px 35px 10px 10px;
+    background: #F4F8FF;
+    padding: 15px;
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -8727,7 +8689,6 @@ ul.list-job-title li {
 
 .chat-info-box {
     border-radius: 6px;
-    border: 1px solid rgba(0, 0, 0, 0.17);
     margin: 5px 0;
 }
 
@@ -8774,8 +8735,20 @@ ul.list-job-title li {
 
 .chat-model-comment-box {
     overflow: auto;
-    padding: 0 100px;
+    padding: 0 20px;
     height: 100%;
+}
+
+.popup-chat-model-user {
+    width: 100%;
+    height: auto;
+    margin: 100px auto 0;
+    padding: 15px 0px;
+    position: relative;
+    background: #FFFFFF;
+    border: 2px solid #BDBDBD;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
 }
 
 
@@ -8805,24 +8778,22 @@ ul.list-job-title li {
 .chat-comment-f {
     display: flex;
     margin-bottom: 15px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .chat-form {
-    border-radius: 4px;
-    border: 0.5px solid var(--boder-color);
-    background: #FDFDFD;
+    border-radius: 8px;
+    background: #F2F7FF;
     padding: 7px 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 92%;
+    gap: 15px;
 }
 
 .chat-form img {
-    height: 28px;
-    width: 28px;
-    object-fit: contain;
+    cursor: pointer;
 }
 
 input#comment-f {
@@ -8842,10 +8813,10 @@ input#comment-f:focus {
 }
 
 .send-comment button {
-    border-radius: 4px;
-    border: 0.5px solid #BDBDBD;
-    background: #FDFDFD;
+    border-radius: 8px;
+    background: #F2F7FF;
     padding: 10px 15px;
+    border: 0;
 }
 
 input#comment-f::-webkit-input-placeholder {
@@ -8853,6 +8824,100 @@ input#comment-f::-webkit-input-placeholder {
     font-size: var(--button-text);
     font-family: var(--museo-sans);
     line-height: 24px;
+}
+
+.clinet-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-bar-comment {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 10px;
+    border-bottom: 1px solid rgba(180, 171, 171, 0.66);
+}
+
+p.name-clinet {
+    color: var(--primary-color);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    font-size: 20px;
+}
+
+p.clinet-rank {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 300;
+    font-family: var(--museo-sans);
+}
+
+.close-img-comment img {
+    cursor: pointer;
+}
+
+.comment-img-b {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--primary-color);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    font-size: 22px;
+}
+
+.chat-date-b {
+    text-align: center;
+}
+
+.chat-date-b h1 {
+    color: var(--primary-color);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    font-size: 14px;
+    text-align: center;
+    border-radius: 39px;
+    background: rgba(20, 57, 117, 0.10);
+    padding: 12px 24px;
+    display: inline-block;
+    text-align: center;
+}
+
+.comment-chat-model img.model-avtar {
+    position: absolute;
+    bottom: -20px;
+}
+
+.comment-chat-model-right img.model-avtar {
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+}
+
+p.time-chat-left {
+    text-align: center;
+    color: #707070;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: var(--museo-sans);
+}
+
+.edit-icon-model {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    cursor: pointer;
+}
+
+input.chat-user-in-f {
+    border: 0;
+    width: 100%;
+    background: transparent;
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 300;
+    font-family: var(--museo-sans);
 }
 
 
