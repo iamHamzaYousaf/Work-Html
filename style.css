@@ -8648,9 +8648,12 @@ ul.list-job-title li {
 }
 
 .comment-chat-model-end-user {
-    position: relative;
+    position: fixed;
     padding: 0 0px;
     margin-bottom: 0px;
+    z-index: 1;
+    bottom: 78px;
+    width: 86%;
 }
 
 .comment-chat-model-user-reply {
@@ -8787,8 +8790,12 @@ p.left-chat-c {
 
 .chat-comment-f {
     display: flex;
-    margin-bottom: 15px;
     justify-content: space-between;
+    position: fixed;
+    bottom: 20px;
+    width: 86%;
+    margin: 0 auto;
+    z-index: 1;
 }
 
 .chat-form {
