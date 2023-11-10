@@ -3277,9 +3277,10 @@ button.job-reset-btn {
 .job-des-d {
     display: flex;
     justify-content: end;
+    margin-top: 10px;
     margin-bottom: 20px;
     gap: 15px;
-}
+  }
 
 
 /**************post the final job ************/
@@ -8292,7 +8293,6 @@ p.comment-add-date {
     font-family: var(--museo-sans);
     color: #ADADAD;
     padding-right: 15px;
-    border-right: 1px solid rgb(79 79 79 / 30%);
 }
 
 p.comment-remove {
@@ -8655,7 +8655,7 @@ ul.list-job-title li {
 
 .comment-chat-model-user-reply {
     position: relative;
-    padding: 0 30px;
+    padding: 0 0px;
     margin-bottom: 30px;
 }
 
@@ -8687,6 +8687,7 @@ ul.list-job-title li {
     flex-direction: column;
     justify-content: flex-end;
     margin: 0 0 0px auto;
+    right: 50px;
 }
 
 .chat-info-box {
@@ -8745,7 +8746,7 @@ p.left-chat-c {
 .chat-model-comment-box {
     overflow: auto;
     padding: 0 20px;
-    height: 100%;
+    height: 80vh;
 }
 
 .popup-chat-model-user {
@@ -12709,56 +12710,6 @@ button.edit-form-user {
 
 /*****************form test ***************/
 
-
-/*Bulleted Text Area CSS*/
-
-.custom-bulleted-textarea {
-    width: 100% !important;
-    height: 270px !important;
-    border-radius: 6px;
-    margin-bottom: 0px !important;
-}
-
-.custom-bulleted-textarea>div {
-    border-top: 0.5px solid var(--boder-color);
-    border-left: 0.5px solid var(--boder-color);
-    border-bottom: 0.5px solid var(--boder-color);
-    height: 270px !important;
-    overflow: hidden;
-    display: none !important;
-}
-
-.custom-bulleted-textarea>textarea {
-    border-top: 0.5px solid var(--boder-color);
-    border-right: 0.5px solid var(--boder-color);
-    border-bottom: 0.5px solid var(--boder-color);
-    height: 270px !important;
-    overflow: hidden;
-    overflow-y: auto;
-    overflow-x: auto;
-    color: rgb(0 0 0 / 80%);
-    font-family: var(--museo-sans);
-    font-size: var(--promoted-btn);
-    font-weight: 300;
-    line-height: 33px;
-    font-style: normal;
-    padding: 10px !important;
-    background-color: rgba(221, 222, 238, 0.25) !important
-}
-
-.custom-bulleted-textarea-error>div {
-    border-top: 1px solid var(--error-msg-color);
-    border-left: 1px solid var(--error-msg-color);
-    border-bottom: 1px solid var(--error-msg-color);
-}
-
-.custom-bulleted-textarea-error>textarea {
-    border-top: 1px solid var(--error-msg-color);
-    border-right: 1px solid var(--error-msg-color);
-    border-bottom: 1px solid var(--error-msg-color);
-}
-
-
 /* React Quill*/
 
 .ql-editor {
@@ -12774,3 +12725,16 @@ button.edit-form-user {
     line-height: 23px;
     text-align: justify;
 }
+
+/*Emoji Style*/
+
+.emoji-container {
+    display: flex;
+    align-content: center;
+    justify-content: right;
+    position: absolute;
+    right: 80px;
+    bottom: 100px;
+    z-index: 1;
+  }
+  
