@@ -8797,6 +8797,7 @@ p.left-chat-c {
 .chat-comment-f {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
     /* position: absolute;
     bottom: 20px;
     width: 95%;
