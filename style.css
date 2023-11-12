@@ -8983,7 +8983,8 @@ p.time-chat-left {
     width: 100%;
 }
 
-textarea.chat-user-in-f {
+
+/* textarea.chat-user-in-f {
     box-sizing: border-box;
     border: 0;
     width: 98%;
@@ -8997,10 +8998,9 @@ textarea.chat-user-in-f {
     overflow-y: hidden;
     height: auto;
     min-height: 30px;
-}
+} */
 
-
-/* input.chat-user-in-f {
+input.chat-user-in-f {
     border: 0;
     width: 100%;
     background: transparent;
@@ -9009,7 +9009,7 @@ textarea.chat-user-in-f {
     font-weight: 300;
     font-family: var(--museo-sans);
     padding-right: 20px;
-} */
+}
 
 
 /***************job model popoup **********/
