@@ -8986,7 +8986,7 @@ p.time-chat-left {
 textarea.chat-user-in-f {
     box-sizing: border-box;
     border: 0;
-    width: 96%;
+    width: 98%;
     background: transparent;
     color: var(--text-color);
     font-size: 14px;
@@ -8994,7 +8994,7 @@ textarea.chat-user-in-f {
     font-family: var(--museo-sans);
     padding-right: 20px;
     resize: none;
-    overflow-y: visible;
+    overflow-y: hidden;
     height: auto;
     min-height: 30px;
 }
