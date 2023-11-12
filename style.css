@@ -3280,7 +3280,7 @@ button.job-reset-btn {
     margin-top: 10px;
     margin-bottom: 20px;
     gap: 15px;
-  }
+}
 
 
 /**************post the final job ************/
@@ -8648,12 +8648,12 @@ ul.list-job-title li {
 }
 
 .comment-chat-model-end-user {
-    position: fixed;
+    /* position: fixed; */
     padding: 0 0px;
     margin-bottom: 0px;
-    z-index: 1;
+    /* z-index: 1;
     bottom: 78px;
-    width: 86%;
+    width: 86%; */
 }
 
 .comment-chat-model-user-reply {
@@ -8750,6 +8750,12 @@ p.left-chat-c {
     overflow: auto;
     padding: 0 20px;
     height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.all-chat-comment-m {
+    flex: 1;
 }
 
 .popup-chat-model-user {
@@ -8791,18 +8797,15 @@ p.left-chat-c {
 .chat-comment-f {
     display: flex;
     justify-content: space-between;
-<<<<<<< HEAD
     /* position: absolute;
     bottom: 20px;
     width: 95%;
     margin: 0 auto; */
-=======
-    position: absolute;
+    /* position: absolute;
     bottom: 20px;
     width: 92.5%;
     margin: 0 auto;
-    z-index: 1;
->>>>>>> ef2bc9ab244553a3e5c8de3d54d8d900b88665b4
+    z-index: 1; */
 }
 
 .chat-form {
@@ -12724,6 +12727,7 @@ button.edit-form-user {
 
 /*****************form test ***************/
 
+
 /* React Quill*/
 
 .ql-editor {
@@ -12740,6 +12744,7 @@ button.edit-form-user {
     text-align: justify;
 }
 
+
 /*Emoji Style*/
 
 .emoji-container {
@@ -12750,5 +12755,4 @@ button.edit-form-user {
     right: 80px;
     bottom: 100px;
     z-index: 1;
-  }
-  
+}
