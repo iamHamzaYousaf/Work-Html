@@ -7586,7 +7586,8 @@ ul.list-table-title-cand li:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 165px;
+    width: 146px;
+    margin-left: 10px;
 }
 
 
@@ -7611,7 +7612,7 @@ table tr {
 }
 
 table td {
-    padding: 20px 10px;
+    padding: 20px 0px;
     text-align: center;
     color: rgb(0 0 0 / 100%);
     font-size: 16px;
@@ -7715,6 +7716,41 @@ th.technical-tags-row {
 
 img.tooltip-show:hover~.hide-box {
     opacity: 1;
+}
+
+.progress-table {
+    width: 65px;
+    height: 65px;
+    position: relative;
+    border-radius: 85%;
+    overflow: hidden;
+    background: #000;
+    /* Background color for the remaining progress */
+}
+
+.progress-bar-per {
+    width: 85%;
+    /* Width to represent 85% progress */
+    height: 100%;
+    background: #4CAF50;
+    /* Green color for progress */
+    border-top-right-radius: 85%;
+    border-bottom-right-radius: 85%;
+    box-sizing: border-box;
+}
+
+.progress-value {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #fff;
+    line-height: 65px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 
@@ -8983,8 +9019,7 @@ p.time-chat-left {
     width: 100%;
 }
 
-
-/* textarea.chat-user-in-f {
+textarea.chat-user-in-f {
     box-sizing: border-box;
     border: 0;
     width: 98%;
@@ -8995,10 +9030,8 @@ p.time-chat-left {
     font-family: var(--museo-sans);
     padding-right: 20px;
     resize: none;
-    overflow-y: hidden;
-    height: auto;
-    min-height: 30px;
-} */
+    height: 60px;
+}
 
 input.chat-user-in-f {
     border: 0;
