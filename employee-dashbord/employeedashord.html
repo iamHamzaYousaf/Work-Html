@@ -194,7 +194,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="divider"></div>
                     <table style="width:100%">
                         <thead>
@@ -210,7 +209,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
+                            <tr class="bor-top">
                                 <td data-label="full name" class="name-box-hvr">
                                     John Smith
                                     <!-- <div class="name-comment-box">
@@ -251,15 +250,30 @@
                                 <td data-label="Journey Status">Short Call</td>
                                 <td data-label="Action">
                                     <div class="cv-cions">
-                                        <img src="../image/cv-comment.png" alt="">
-                                        <img src="../image/cv-not.png" alt="">
-                                        <img src="../image/table-icon-opt.png" alt="">
-                                        <img src="../image/cv-not.png" alt="">
-                                        <img src="../image/table-icon-opt.png" alt="">
+                                        <div class="img-table-tooltip">
+                                            <img src="../image/table-card.png" alt="" class="show-tooltip">
+                                            <div class="tooltip-table">Resume</div>
+                                        </div>
+                                        <div class="img-table-tooltip">
+                                            <img src="../image/table-man.png" alt="" class="show-tooltip">
+                                            <div class="tooltip-table">Candidate Detail</div>
+                                        </div>
+                                        <div class="img-table-tooltip">
+                                            <img src="../image/table-activity.png" alt="" class="show-tooltip">
+                                            <div class="tooltip-table">Schedule Activity</div>
+                                        </div>
+                                        <div class="img-table-tooltip">
+                                            <img src="../image/table-comm.png" alt="" class="show-tooltip">
+                                            <div class="tooltip-table">Comments</div>
+                                        </div>
+                                        <div class="img-table-tooltip">
+                                            <img src="../image/table-list.png" alt="" class="show-tooltip">
+                                            <div class="tooltip-table">List</div>
+                                        </div>
                                     </div>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="bor-botm">
                                 <td data-label="Technical Tags:" colspan="6">
                                     <div class="job-table-employee">
                                         <button>C++</button>
@@ -274,7 +288,7 @@
                                         <button>Angular</button>
                                     </div>
                                 </td>
-                                <td data-label="CV Review">
+                                <td data-label="CV Review" class="cv-icon-m">
                                     <div class="cv-cions-review">
                                         <img src="../image/bad-cv-icon.png" alt="">
                                         <img src="../image/normal.cv.png" alt="">
@@ -286,11 +300,13 @@
                                         </div>
                                     </div>
                                 </td>
-
-                                <td data-label="Candidate Status">
+                                <td data-label="Candidate Status" class="prog-bar-cir">
                                     <div class="progress-table">
-                                        <div class="progress-bar-per"></div>
-                                        <div class="progress-value">90%</div>
+                                        <div class="progress-bar-outer">
+                                            <div class="progress-bar-inner">
+                                                <div class="progress-value">85%</div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </td>
                             </tr>
@@ -335,6 +351,38 @@
                                     <div class="cv-cions">
                                         <img src="../image/cv-comment.png" alt="">
                                         <img src="../image/cv-not.png" alt="">
+                                    </div>
+                                </td>
+                                <td data-label="Candidate Status">
+                                    <div class="job-fillter-table-data">
+                                        <div class="j-company-fillter-table-data ">
+                                            <div id="dropdown-boxId2" class="company-form-dropdownBox1-tabeldate" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Candidate Status</div>
+                                            <div class="list-search-dropdown-company">
+                                                <ul class="list-table-title-cand">
+                                                    <li>Resume Reviewed</li>
+                                                    <li>Overqualified</li>
+                                                    <li>Experience not relevant</li>
+                                                    <li>Need to think</li>
+                                                    <div class="j-company-fillter-table-data ">
+                                                        <div id="dropdown-boxId2" class="company-form-dropdownBox1-tabeldate" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Candidate Status</div>
+                                                        <div class="list-search-dropdown-company">
+                                                            <ul class="list-table-title-cand">
+                                                                <li>Resume Reviewed</li>
+                                                                <li>Overqualified</li>
+                                                                <li>Experience not relevant</li>
+                                                                <li>Need to think</li>
+                                                                <li>No Experience at all</li>
+                                                                <li>Good Candidate for Future</li>
+                                                                <li>Do Not Contact</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <li>No Experience at all</li>
+                                                    <li>Good Candidate for Future</li>
+                                                    <li>Do Not Contact</li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
                                 </td>
                             </tr>
@@ -720,7 +768,25 @@
                         </div>
                         <div class="job-announcements">
                             <div class="job-announcements-col btn-size">
-                                <a href="#"><button>View detailed Job Position</button></a>
+                                <div class="tow-btn-job-dash">
+                                    <a href="#"><button>View detailed Job Position</button></a>
+                                    <div class="candidate-filter-drop-dash">
+                                        <div class="j-candidate-fillter-table">
+                                            <div id="dropdown-boxId2" class="company-form-dropdownBox1-tabeldate" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Candidate Status</div>
+                                            <div class="list-search-dropdown-company">
+                                                <ul class="list-table-title-cand">
+                                                    <li>Resume Reviewed</li>
+                                                    <li>Overqualified</li>
+                                                    <li>Experience not relevant</li>
+                                                    <li>Need to think</li>
+                                                    <li>No Experience at all</li>
+                                                    <li>Good Candidate for Future</li>
+                                                    <li>Do Not Contact</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="job-time-wishlist">
                                     <div class="job-eployee-table-col">
                                         <p class="day">7 Days ago</p>

@@ -7651,9 +7651,8 @@ th.technical-tags-row {
 }
 
 .cv-cions img {
-    height: 20px;
-    width: 25px;
     object-fit: contain;
+    cursor: pointer;
 }
 
 .cv-cions {
@@ -7719,38 +7718,108 @@ img.tooltip-show:hover~.hide-box {
 }
 
 .progress-table {
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
     position: relative;
-    border-radius: 85%;
-    overflow: hidden;
-    background: #000;
-    /* Background color for the remaining progress */
+    display: inline-block;
+    margin-bottom: -15px;
+    margin-top: -5px;
 }
 
-.progress-bar-per {
-    width: 85%;
-    /* Width to represent 85% progress */
+.progress-bar-outer {
+    width: 100%;
     height: 100%;
-    background: #4CAF50;
-    /* Green color for progress */
-    border-top-right-radius: 85%;
-    border-bottom-right-radius: 85%;
+    background: none;
+    border: 6px solid #0AB84D;
     box-sizing: border-box;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.progress-bar-inner {
+    width: 85%;
+    height: 85%;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
 }
 
 .progress-value {
     width: 100%;
     height: 100%;
-    border-radius: 50%;
-    font-size: 24px;
-    color: #fff;
-    line-height: 65px;
+    font-size: 16px;
+    color: #0AB84D;
+    line-height: 36px;
     text-align: center;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+}
+
+td.prog-bar-cir {
+    text-align: center;
+}
+
+td.cv-icon-m {
+    padding-left: 17px !important;
+}
+
+tr.bor-top {
+    border-top: 1px solid rgb(0 0 0 / 20%);
+    border-bottom: 0;
+}
+
+tr.bor-botm {
+    border-bottom: 1px solid rgb(0 0 0 / 20%);
+    border-top: 0;
+}
+
+.img-table-tooltip {
+    position: relative;
+}
+
+.tooltip-table {
+    position: absolute;
+    top: -35px;
+    display: inline-block;
+    left: -4px;
+    border-radius: 4px;
+    border: 0.5px solid #143975;
+    background: #FFF;
+    color: #143975;
+    font-family: var(--museo-sans);
+    font-size: 12px;
+    padding: 5px;
+    opacity: 0;
+    white-space: nowrap;
+}
+
+img.show-tooltip:hover~.tooltip-table {
+    opacity: 1;
+}
+
+
+/************canidate filter css *****/
+
+.candidate-filter-drop-dash {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.j-candidate-fillter-table {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #2B819D;
+    width: 230px;
+    position: relative;
 }
 
 
@@ -9031,6 +9100,7 @@ textarea.chat-user-in-f {
     padding-right: 20px;
     resize: none;
     height: 60px;
+    /* transition: height 0.3s; */
 }
 
 input.chat-user-in-f {
@@ -9042,6 +9112,21 @@ input.chat-user-in-f {
     font-weight: 300;
     font-family: var(--museo-sans);
     padding-right: 20px;
+}
+
+.chat-info-box-f {
+    width: 100%;
+    border: 0;
+    text-align: left;
+    padding-right: 15px;
+    word-break: break-all;
+}
+
+.chat-info-box-f:focus-visible {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    text-align: left;
 }
 
 
