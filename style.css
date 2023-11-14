@@ -9070,7 +9070,7 @@ p.time-chat-left {
     position: relative;
     right: 0;
     top: 0;
-    left: -40px;
+    left: 0px;
     padding: 10px 0px 0 0;
     z-index: 1;
     display: block;
