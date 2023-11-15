@@ -7805,6 +7805,170 @@ img.show-tooltip:hover~.tooltip-table {
     opacity: 1;
 }
 
+.first-menu-dropdown {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: var(--color-white);
+}
+
+.first-menu-dropdown li .sub-menu-lists {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+    color: #2B819D;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    background: transparent;
+    text-decoration: none;
+}
+
+.first-menu-dropdown .second-menu-dropdown {
+    width: 232px;
+    padding: 0 10px 20px 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.20);
+    position: relative;
+    top: 10px;
+    border-radius: 8px;
+    left: 0px;
+    background: var(--color-white);
+}
+
+.second-menu-dropdown-border {
+    border: none !important;
+    width: 217px !important;
+    padding: 0 14px 10px 10px !important;
+    position: relative !important;
+    top: 0px !important;
+    border-radius: 8px;
+    left: 0px !important;
+    overflow: auto;
+    min-height: 80px;
+    height: auto;
+}
+
+
+/* width */
+
+.second-menu-dropdown-border::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+.second-menu-dropdown-border::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+.second-menu-dropdown-border::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: var(--primary-color);
+}
+
+a.sub-menu-lists.clr-set {
+    border-radius: 4px;
+    border: 1px solid #2B819D;
+    padding: 8px;
+}
+
+.second-menu-dropdown {
+    display: none
+}
+
+.first-menu-dropdown .second-menu-dropdown li a {
+    color: rgb(0 0 0 / 70%);
+    padding: 10px 10px 10px 7px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--museo-sans);
+}
+
+.first-menu-dropdown .second-menu-dropdown li a:hover {
+    border-radius: 4px;
+    background: #F2F7FF;
+    color: #000;
+}
+
+.second-menu-dropdown-border li a {
+    color: #143975 !important;
+    padding: 10px 10px 10px 7px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 12px !important;
+    font-weight: 400;
+    font-family: var(--museo-sans);
+}
+
+ul.second-menu-dropdown {
+    list-style: none;
+}
+
+.main-dropdown-heading {
+    width: 232px;
+    position: relative;
+}
+
+.multi-dropdown-box {
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #FFF;
+    z-index: 1;
+    max-height: 42px;
+    height: auto;
+}
+
+.multi-dropdown-box::-webkit-scrollbar {
+    width: 8px;
+}
+
+.multi-dropdown-box::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+.multi-dropdown-box::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #143975;
+}
+
+.dash-bord-list {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.tow-btn-job-dash {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
 
 /************canidate filter css *****/
 
@@ -8052,15 +8216,15 @@ input:checked+.slider:before {
 }
 
 .job-eployee-table-col p {
-    padding: 15px 0px 0px;
+    padding: 10px 0px 0px;
     font-size: 16px;
     color: var(--text-color);
     font-weight: var(--font-weight-medium);
-    padding-bottom: 5px;
 }
 
 .job-eployee-table-col p.day {
     opacity: 0.5;
+    text-align: end;
 }
 
 .job-location-switch {
@@ -8532,15 +8696,34 @@ td.name-box-hvr {
     padding: 10px 50px;
     text-align: center;
     border: 0;
-    border-radius: 6px;
+    border-radius: 4px;
     cursor: pointer;
     font-family: var(--museo-sans);
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.employee-list-btn-create button {
+    background: transparent;
+    color: var(--primary-color);
+    padding: 10px 50px;
+    text-align: center;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: var(--museo-sans);
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .employee-list-btn {
-    margin-right: 40px;
+    margin-right: 0px;
+}
+
+.two-btn-list {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
 }
 
 .filter-search-box {
@@ -8560,6 +8743,7 @@ td.name-box-hvr {
     display: flex;
     justify-content: flex-end;
     padding: 70px 0 40px 0;
+    gap: 40px;
 }
 
 #candidate-list-search {
@@ -11254,6 +11438,65 @@ button.edit-form-user {
     font-family: var(--museo-sans);
     font-size: 16px;
     font-weight: 400;
+}
+
+
+/**********add list model candidate *********/
+
+.model-list-popup {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    /* background: rgb(0 0 0 / 55%); */
+    top: 0%;
+    overflow-y: auto;
+    z-index: 2;
+}
+
+.popup-bg-listadd {
+    width: 370px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: #FFF;
+}
+
+.popup-content-list-add {
+    width: 100%;
+    height: 450px;
+    margin: 50px auto 0;
+    position: relative;
+    padding: 15px;
+}
+
+.logo-main {
+    text-align: center;
+}
+
+.logo-main img {
+    max-width: 100%;
+    width: 145px;
+    margin: 0 auto;
+}
+
+.close-btn img {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.list-content-s {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    gap: 15px;
+}
+
+.list-content-s p {
+    color: var(--primary-color);
+    font-family: var(--museo-sans);
+    font-size: 18px;
+    font-weight: 600;
 }
 
 
