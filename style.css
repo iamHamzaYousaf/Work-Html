@@ -7613,7 +7613,7 @@ table tr {
 }
 
 table td {
-    padding: 20px 0px;
+    /* padding: 20px 0px; */
     text-align: center;
     color: rgb(0 0 0 / 100%);
     font-size: 16px;
@@ -7676,6 +7676,7 @@ th.technical-tags-row {
     justify-content: space-between;
     gap: 10px;
     position: relative;
+    padding-top: 20px;
 }
 
 
@@ -7777,10 +7778,19 @@ tr.bor-top {
     vertical-align: baseline;
 }
 
+.bor-top td {
+    padding-top: 20px !important;
+    padding-bottom: 18px !important;
+}
+
 tr.bor-botm {
     border-bottom: 1px solid rgb(0 0 0 / 20%);
     border-top: 0;
-    vertical-align: middle;
+    vertical-align: baseline;
+}
+
+.bor-botm td {
+    padding-bottom: 20px !important;
 }
 
 .tag-cell {
@@ -7843,13 +7853,13 @@ img.show-tooltip:hover~.tooltip-table {
     color: #2B819D;
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
-    background: transparent;
+    background: #FBFBFB;
     text-decoration: none;
 }
 
 .first-menu-dropdown .second-menu-dropdown {
     width: 232px;
-    padding: 0 10px 20px 10px;
+    padding: 0 10px 10px 10px;
     border: 0.5px solid rgba(0, 0, 0, 0.20);
     position: relative;
     top: 10px;
@@ -7867,8 +7877,8 @@ img.show-tooltip:hover~.tooltip-table {
     top: 0px !important;
     border-radius: 8px;
     left: 0px !important;
-    overflow: auto;
-    height: 180px;
+    /* overflow: auto;
+    height: 180px; */
     border-radius: 0 !important;
     box-shadow: none !important;
     /* height: auto; */
@@ -7916,15 +7926,16 @@ a.sub-menu-lists.clr-set {
     justify-content: space-between;
     gap: 0px;
     text-decoration: none;
-    margin-top: 10px;
+    margin-top: 0px;
     font-size: 14px;
+    background: transparent !important;
     font-weight: 300;
     font-family: var(--museo-sans);
 }
 
 .first-menu-dropdown .second-menu-dropdown li a:hover {
     border-radius: 4px;
-    background: #F2F7FF;
+    background: #F2F7FF !important;
     color: #000;
     font-weight: 400;
 }
@@ -7936,8 +7947,8 @@ a.sub-menu-lists.clr-set {
 }
 
 .second-menu-dropdown-border li img {
-    height: 14px;
-    width: 17px;
+    height: 18px;
+    width: 18px;
     object-fit: contain;
 }
 
@@ -7950,6 +7961,10 @@ ul.second-menu-dropdown {
     position: relative;
 }
 
+li.sub-menu-dropdpwn-list-f a.sub-menu-lists:nth-child(1) {
+    margin-top: 10px;
+}
+
 .multi-dropdown-box {
     margin-top: 10px;
     border-radius: 8px;
@@ -7959,20 +7974,27 @@ ul.second-menu-dropdown {
     height: auto;
 }
 
-.multi-dropdown-box::-webkit-scrollbar {
+
+/* .drop-height-sroll {
+    max-height: 130px;
+    height: auto;
+    overflow-y: auto;
+}
+
+.drop-height-sroll::-webkit-scrollbar {
     width: 8px;
 }
 
-.multi-dropdown-box::-webkit-scrollbar-track {
+.drop-height-sroll::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
 }
 
-.multi-dropdown-box::-webkit-scrollbar-thumb {
+.drop-height-sroll::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: #143975;
-}
+} */
 
 .dash-bord-list {
     display: flex;
@@ -11566,7 +11588,7 @@ button.edit-form-user {
 
 .list-radio-add {
     overflow: auto;
-    height: 200px;
+    height: 290px;
     border-radius: 0 !important;
     box-shadow: none !important;
     margin-top: 12px;
