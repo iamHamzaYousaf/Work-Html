@@ -198,10 +198,10 @@
                     <table style="width:100%">
                         <thead>
                             <tr>
-                                <th scope="col"><input type="checkbox" name="" id="">Full name</th>
+                                <th scope="col"><input type="checkbox" name="" class="td-tr-chk">Full name</th>
                                 <th scope="col">Job Title</th>
-                                <th scope="col">Date Applied</th>
-                                <th scope="col">Experience</th>
+                                <th scope="col" class="date-cell">Date Applied</th>
+                                <th scope="col" class="experience-cell">Experience</th>
                                 <th scope="col">Education</th>
                                 <th scope="col">Candidate Status</th>
                                 <th scope="col">Journey Status</th>
@@ -211,7 +211,7 @@
                         <tbody>
                             <tr class="bor-top">
                                 <td data-label="full name" class="name-box-hvr">
-                                    John Smith
+                                    <input type="checkbox" name="" class="td-tr-chk">John Smith
                                     <!-- <div class="name-comment-box">
                                         <div class="name-add-box">
                                             <div class="comment-owner-info">
@@ -274,7 +274,7 @@
                                 </td>
                             </tr>
                             <tr class="bor-botm">
-                                <td data-label="Technical Tags:" colspan="6">
+                                <td data-label="Technical Tags:" colspan="6" class="tag-cell">
                                     <div class="job-table-employee">
                                         <button>C++</button>
                                         <button>C Sharp</button>

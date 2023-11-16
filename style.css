@@ -7545,8 +7545,8 @@ height: 14px;
 
 .company-form-dropdownBox1-tabeldate:after {
     content: " ";
-    background-image: url(./image/company--detail-filter.png);
-    width: 38px;
+    background-image: url(./image/table-applicant-arrow.png);
+    width: 30px;
     height: 10px;
     background-repeat: no-repeat;
     margin-left: 10px;
@@ -7587,7 +7587,7 @@ ul.list-table-title-cand li:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 146px;
+    width: 150px;
     margin-left: 10px;
 }
 
@@ -7619,7 +7619,6 @@ table td {
     font-size: 16px;
     font-weight: 300;
     font-family: var(--museo-sans);
-    vertical-align: baseline;
 }
 
 table th {
@@ -7775,11 +7774,29 @@ td.cv-icon-m {
 tr.bor-top {
     border-top: 1px solid rgb(0 0 0 / 20%);
     border-bottom: 0;
+    vertical-align: baseline;
 }
 
 tr.bor-botm {
     border-bottom: 1px solid rgb(0 0 0 / 20%);
     border-top: 0;
+    vertical-align: middle;
+}
+
+.tag-cell {
+    padding-left: 20px;
+}
+
+.date-cell {
+    width: 110px;
+}
+
+.experience-cell {
+    width: 100px;
+}
+
+input.td-tr-chk {
+    margin-right: 8px;
 }
 
 .img-table-tooltip {
