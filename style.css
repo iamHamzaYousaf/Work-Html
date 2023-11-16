@@ -5498,7 +5498,8 @@ ul.list-job-title-year-job li:hover {
 }
 
 .text-filter-icon img,
-.text-filter-icon div img {
+.text-filter-icon div img,
+.text-filter-icon-table div img {
     height: 10px;
 }
 
@@ -7637,8 +7638,8 @@ th.technical-tags-row {
 .job-table-employee {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+    justify-content: left;
+    gap: 10px
 }
 
 .job-table-employee button {
@@ -8757,10 +8758,14 @@ td.name-box-hvr {
     width: 300px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .filter-search-box img {
     max-width: 100%;
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
 }
 
 .employee-searchbox-btn {
