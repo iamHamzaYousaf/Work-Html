@@ -52,8 +52,90 @@
         <section class="new-job">
             <div class="container container-site">
                 <div class="job-search-box-row">
-                    <div class="job-heading smilar-job-heading">
+                    <div class="candidate-list-header">
                         <h2>Job Title: React Java Developer</h2>
+                        <div class="multi-dropdown-box">
+                            <ul class="first-menu-dropdown">
+                                <li class="sub-menu-dropdpwn main-dropdown-heading">
+                                    <a class="sub-menu-lists clr-b-chng" aria-current="page" href="#">
+                                        Candidate List
+                                        <img src="../image/v-fill.png" alt="" class="">
+                                    </a>
+                                    <ul class="second-menu-dropdown">
+                                        <li class="sub-menu-dropdpwn">
+                                            <a class="sub-menu-lists" href="#">
+                                                All Candidates
+                                                <img src="" width="" height="" class="">
+                                            </a>
+                                        </li>
+                                        <li class="sub-menu-dropdpwn">
+                                            <a class="sub-menu-lists" href="#">
+                                                Lists created by me
+                                                <img src="../image/cand-vactor.png" class="">
+                                            </a>
+                                            <ul class="second-menu-dropdown second-menu-dropdown-border">
+                                                <li class="sub-menu-dropdpwn">
+                                                    <a class="sub-menu-lists" href="#">
+                                                        Good Candidate List for us
+                                                        <img src="../image/table-list.png" class="page-copy-img">
+                                                    </a>
+                                                </li>
+                                                <li class="sub-menu-dropdpwn">
+                                                    <a class="sub-menu-lists" href="#">
+                                                        My Top 10 List
+                                                        <img src="../image/table-list.png" class="page-copy-img">
+                                                    </a>
+                                                </li>
+                                                <li class="sub-menu-dropdpwn">
+                                                    <a class="sub-menu-lists" href="#">
+                                                        My Developers List
+                                                        <img src="../image/table-list.png" class="page-copy-img">
+                                                    </a>
+                                                </li>
+                                                <li class="sub-menu-dropdpwn">
+                                                    <a class="sub-menu-lists" href="#">
+                                                        React Developers
+                                                        <img src="../image/table-list.png" class="page-copy-img">
+                                                    </a>
+                                                </li>
+                                                <li class="sub-menu-dropdpwn">
+                                                    <a class="sub-menu-lists" href="#">
+                                                        James Developers List
+                                                        <img src="../image/table-list.png" class="page-copy-img">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub-menu-dropdpwn">
+                                            <a class="sub-menu-lists" href="#">
+                                                Lists shared with me
+                                                <img src="../image/cand-vactor.png" class="">
+                                            </a>
+                                            <ul class="second-menu-dropdown second-menu-dropdown-border">
+                                                <li class="sub-menu-dropdpwn">
+                                                    <a class="sub-menu-lists" href="#">
+                                                        Good Candidate List for us
+                                                        <img src="../image/table-list.png" class="page-copy-img">
+                                                    </a>
+                                                </li>
+                                                <li class="sub-menu-dropdpwn">
+                                                    <a class="sub-menu-lists" href="#">
+                                                        Good Candidate List for us
+                                                        <img src="../image/table-list.png" class="page-copy-img">
+                                                    </a>
+                                                </li>
+                                                <li class="sub-menu-dropdpwn">
+                                                    <a class="sub-menu-lists" href="#">
+                                                        Good Candidate List for us
+                                                        <img src="../image/table-list.png" class="page-copy-img">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="employee-searchbox-btn">
@@ -70,286 +152,114 @@
                             <img src="../image/job-search.png" alt="" />
                             <input type="text" name="search" id="jon-search-box" placeholder="Search Applicants" class="form-font-f" />
                         </div>
-                        <!--         
-                      {/* <div class="filter-search-box">
-                        <img src="/image/job-search.png" alt="" />
-                        <input
-                          type="text"
-                          name=""
-                          id="candidate-list-search"
-                          placeholder="Search Jobs"
-                          class="form-font-f"
-                        />
-                        <img src="/image/Filter.png" alt="" />
-                      </div> */} -->
+
                         <div class="data-not-found hide-notfound">
                             <img src="../image/notfound.png" alt="" />
                             <p class="search-text-notfound">No candidate found</p>
                         </div>
-                        <!-- {/* <div class="list-search-dropdown">
-                        <ul class="list-job-title">
-                          <li>React Developer</li>
-                          <li>React Developer</li>
-                          <li>React Developer</li>
-                          <li>React Developer</li>
-                        </ul>
-                      </div> */} -->
+
                     </div>
                 </div>
                 <div class="divider"></div>
                 <table style="width:100%">
                     <thead>
                         <tr>
-                            <th scope="col">Full name</th>
-                            <th scope="col">Location</th>
+                            <th scope="col"><input type="checkbox" name="" id="">Full name</th>
+                            <th scope="col">Job Title</th>
                             <th scope="col">Date Applied</th>
-                            <th scope="col">CV Review</th>
-                            <th scope="col" class="technical-tags-row">Technical Tags:</th>
+                            <th scope="col">Experience</th>
+                            <th scope="col">Education</th>
                             <th scope="col">Candidate Status</th>
+                            <th scope="col">Journey Status</th>
                             <th scope="col">Action</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr class="bor-top">
                             <td data-label="full name" class="name-box-hvr">
-                                jhon
-                                <div class="name-comment-box">
-                                    <div class="name-add-box">
-                                        <div class="name-owner-info">
-                                            <img src="../image/comment-owner.png" alt="">
-                                            <p class="name-comment-owner">James Michael</p>
+                                John Smith
+                            </td>
+                            <td data-label="job Title">React Developer</td>
+                            <td data-label="Date Applied">31/07/2022</td>
+                            <td data-label="Experience">9 Years</td>
+                            <td data-label="Education" class="study-cell">Bachelor’s Degree</td>
+                            <td data-label="Candidate Status">
+                                <div class="job-fillter-table-data">
+                                    <div class="j-company-fillter-table-data">
+                                        <div id="dropdown-boxId2" class="company-form-dropdownBox1-tabeldate" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Candidate Status
                                         </div>
-                                        <div class="name-info-box">
-                                            <p>Experienced Python developer with 7 years of experience, adept at utilizing libraries and frameworks to build efficient and scalable applications. Strong problem-solving skills and attention to detail, delivering
-                                                high-quality software solutions on time.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </td>
-                            <td data-label="Location">Canada</td>
-                            <td data-label="Date Applied">31/07/2022</td>
-                            <td data-label="CV Review">
-                                <div class="cv-cions">
-                                    <img src="../image/bad-cv-icon.png" alt="">
-                                    <img src="../image/normal.cv.png" alt="">
-                                    <img src="../image/good-cv.png" alt="">
-                                    <img src="../image/cv-favt.png" alt="" class="notfill-heart">
-                                    <img src="../image/favourite-fillicon.png" alt="" class="fill-heart">
-                                </div>
-                            </td>
-                            <td data-label="Technical Tags:">
-                                <div class="job-table-employee">
-                                    <button>C++</button>
-                                    <button>C Sharp</button>
-                                    <button>React Js</button>
-                                    <button>C++</button>
-                                    <button>React Js</button>
-                                    <button>Java Developer</button>
-                                    <button>My SQL</button>
-                                    <button>My SQL</button>
-                                    <button>JSON</button>
-                                    <button>Angular</button>
-                                </div>
-                            </td>
-                            <td data-label="Candidate Status">
-                                New Applicant
-                            </td>
-                            <td data-label="Action">
-                                <div class="cv-cions">
-                                    <img src="../image/cv-comment.png" alt="">
-                                    <img src="../image/cv-not.png" alt="">
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td data-label="full name">
-                                jhon
-                            </td>
-                            <td data-label="Location">Canada</td>
-                            <td data-label="Date Applied">31/07/2022</td>
-                            <td data-label="CV Review">
-                                <div class="cv-cions">
-                                    <img src="../image/bad-cv-icon.png" alt="">
-                                    <img src="../image/normal.cv.png" alt="">
-                                    <img src="../image/good-cv.png" alt="">
-                                    <img src="../image/cv-favt.png" alt="">
-                                </div>
-                            </td>
-                            <td data-label="Technical Tags:">
-                                <div class="job-table-employee">
-                                    <button>C++</button>
-                                    <button>C Sharp</button>
-                                    <button>React Js</button>
-                                    <button>C++</button>
-                                    <button>React Js</button>
-                                    <button>Java Developer</button>
-                                    <button>My SQL</button>
-                                    <button>My SQL</button>
-                                    <button>JSON</button>
-                                    <button>Angular</button>
-                                </div>
-                            </td>
-                            <td data-label="Candidate Status">
-                                New Applicant
-                            </td>
-                            <td data-label="Action">
-                                <div class="cv-cions">
-                                    <img src="../image/cv-comment.png" alt="">
-                                    <img src="../image/cv-not.png" alt="">
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td data-label="full name">
-                                jhon
-                            </td>
-                            <td data-label="Location">Canada</td>
-                            <td data-label="Date Applied">31/07/2022</td>
-                            <td data-label="CV Review">
-                                <div class="cv-cions">
-                                    <img src="../image/bad-cv-icon.png" alt="">
-                                    <img src="../image/normal.cv.png" alt="">
-                                    <img src="../image/good-cv.png" alt="">
-                                    <img src="../image/cv-favt.png" alt="">
-                                </div>
-                            </td>
-                            <td data-label="Technical Tags:">
-                                <div class="job-table-employee">
-                                    <button>C++</button>
-                                    <button>C Sharp</button>
-                                    <button>React Js</button>
-                                    <button>C++</button>
-                                    <button>React Js</button>
-                                    <button>Java Developer</button>
-                                    <button>My SQL</button>
-                                    <button>My SQL</button>
-                                    <button>JSON</button>
-                                    <button>Angular</button>
-                                </div>
-                            </td>
-                            <td data-label="Candidate Status">
-                                New Applicant
-                            </td>
-                            <td data-label="Action">
-                                <div class="cv-cions">
-                                    <div class="cv-resume">
-                                        <img src="../image/cv-not.png" alt="">
-                                        <span class="tooltiptext">Resume</span>
-                                    </div>
-                                    <div class="cv-comment">
-                                        <img src="../image/cv-comment.png" alt="">
-                                        <span class="tooltiptext">Comment</span>
-                                        <div class="text-comment-box">
-                                            <p class="comment-heading-text">Comment:</p>
-                                            <textarea name="" id="comment-area-job" cols="30" rows="3" placeholder="Type here..."></textarea><br>
-                                            <button type="submit" class="comment-submit">save</button>
+                                        <div class="list-search-dropdown-company">
+                                            <ul class="list-table-title-cand">
+                                                <li>Resume Reviewed</li>
+                                                <li>Overqualified</li>
+                                                <li>Experience not relevant</li>
+                                                <li>Need to think</li>
+                                                <li>No Experience at all</li>
+                                                <li>Good Candidate for Future</li>
+                                                <li>Do Not Contact</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </td>
-                        </tr>
-                        <tr>
-                            <td data-label="full name">
-                                jhon
-                            </td>
-                            <td data-label="Location">Canada</td>
-                            <td data-label="Date Applied">31/07/2022</td>
-                            <td data-label="CV Review">
-                                <div class="cv-cions">
-                                    <img src="../image/bad-cv-icon.png" alt="">
-                                    <img src="../image/normal.cv.png" alt="">
-                                    <img src="../image/good-cv.png" alt="">
-                                    <img src="../image/cv-favt.png" alt="">
-                                </div>
-                            </td>
-                            <td data-label="Technical Tags:">
-                                <div class="job-table-employee">
-                                    <button>C++</button>
-                                    <button>C Sharp</button>
-                                    <button>React Js</button>
-                                    <button>C++</button>
-                                    <button>React Js</button>
-                                    <button>Java Developer</button>
-                                    <button>My SQL</button>
-                                    <button>My SQL</button>
-                                    <button>JSON</button>
-                                    <button>Angular</button>
-                                </div>
-                            </td>
-                            <td data-label="Candidate Status">
-                                New Applicant
-                            </td>
+                            <td data-label="Journey Status">Short Call</td>
                             <td data-label="Action">
                                 <div class="cv-cions">
-                                    <img src="../image/cv-comment.png" alt="">
-                                    <img src="../image/cv-not.png" alt="">
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td data-label="full name">
-                                jhon
-                            </td>
-                            <td data-label="Location">Canada</td>
-                            <td data-label="Date Applied">31/07/2022</td>
-                            <td data-label="CV Review">
-                                <div class="cv-cions">
-                                    <img src="../image/bad-cv-icon.png" alt="">
-                                    <img src="../image/normal.cv.png" alt="">
-                                    <img src="../image/good-cv.png" alt="">
-                                    <img src="../image/cv-favt.png" alt="">
-                                </div>
-                            </td>
-                            <td data-label="Technical Tags:">
-                                <div class="job-table-employee">
-                                    <button>C++</button>
-                                    <button>C Sharp</button>
-                                    <button>React Js</button>
-                                    <button>C++</button>
-                                    <button>React Js</button>
-                                    <button>Java Developer</button>
-                                    <button>My SQL</button>
-                                    <button>My SQL</button>
-                                    <button>JSON</button>
-                                    <button>Angular</button>
-                                </div>
-                            </td>
-                            <td data-label="Candidate Status">
-                                New Applicant
-                            </td>
-                            <td data-label="Action">
-                                <div class="cv-cions">
-                                    <div class="cv-resume">
-                                        <img src="../image/cv-not.png" alt="">
-                                        <span class="tooltiptext">Resume</span>
+                                    <div class="img-table-tooltip">
+                                        <img src="../image/table-card.png" alt="" class="show-tooltip">
+                                        <div class="tooltip-table">Resume</div>
                                     </div>
-                                    <div class="cv-comment">
-                                        <img src="../image/cv-comment.png" alt="">
-                                        <span class="tooltiptext">Comment</span>
-                                        <div class="text-comment-box">
-                                            <div class="name-info-add-box">
-                                                <div class="comment-owner-info">
-                                                    <img src="../image/comment-owner.png" alt="">
-                                                    <p class="name-comment-owner">James Michael</p>
-                                                    <p class="comment-add-date">1 day ago</p>
-                                                    <p class="comment-remove">Remove</p>
-                                                </div>
-                                                <div class="comment-adit-icon">
-                                                    <a href="#"><img src="../image/comment-edit.png" alt=""></a>
-                                                </div>
-                                            </div>
-                                            <div class="comment-info-box">
-                                                <p>This candidate has a very strong background and a strong 5 years of experience I recommend him for the next round of interview. </p>
-                                            </div>
-                                            <div class="comment-reply">
-                                                <p>Reply</p>
-                                                <img src="../image/comment-reply.png" alt="">
-                                            </div>
-                                            <div class="more-comment">
-                                                <a href="#">
-                                                    <p>5 more commensts</p>
-                                                </a>
-                                            </div>
+                                    <div class="img-table-tooltip">
+                                        <img src="../image/table-man.png" alt="" class="show-tooltip">
+                                        <div class="tooltip-table">Candidate Detail</div>
+                                    </div>
+                                    <div class="img-table-tooltip">
+                                        <img src="../image/table-activity.png" alt="" class="show-tooltip">
+                                        <div class="tooltip-table">Schedule Activity</div>
+                                    </div>
+                                    <div class="img-table-tooltip">
+                                        <img src="../image/table-comm.png" alt="" class="show-tooltip">
+                                        <div class="tooltip-table">Comments</div>
+                                    </div>
+                                    <div class="img-table-tooltip">
+                                        <img src="../image/table-list.png" alt="" class="show-tooltip">
+                                        <div class="tooltip-table">List</div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="bor-botm">
+                            <td data-label="Technical Tags:" colspan="6">
+                                <div class="job-table-employee">
+                                    <button>C++</button>
+                                    <button>C Sharp</button>
+                                    <button>React Js</button>
+                                    <button>C++</button>
+                                    <button>React Js</button>
+                                    <button>Java Developer</button>
+                                    <button>My SQL</button>
+                                    <button>My SQL</button>
+                                    <button>JSON</button>
+                                    <button>Angular</button>
+                                </div>
+                            </td>
+                            <td data-label="CV Review" class="cv-icon-m">
+                                <div class="cv-cions-review">
+                                    <img src="../image/bad-cv-icon.png" alt="">
+                                    <img src="../image/normal.cv.png" alt="">
+                                    <img src="../image/good-cv-icon.png" alt="" class="tooltip-show">
+                                    <img src="../image/cv-favt.png" alt="">
+                                    <div class="good-cv-box hide-box">
+                                        <p>Good Candidate</p>
+                                        <img src="../image/review-good-cv.png" alt="">
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-label="Candidate Status" class="prog-bar-cir">
+                                <div class="progress-table">
+                                    <div class="progress-bar-outer">
+                                        <div class="progress-bar-inner">
+                                            <div class="progress-value">85%</div>
                                         </div>
                                     </div>
                                 </div>
@@ -571,8 +481,8 @@
                 </div>
             </section>
         </div>
-        <!-----------candidate model signup hide-model-comment  hide-model-popup-->
-        <div class="click-model-close">
+        <!-----------candidate list add -->
+        <div class="click-model-close hide-model-comment">
             <section class="model-list-popup">
                 <div class="popup-bg-listadd">
                     <div class="popup-content-list-add">
@@ -586,13 +496,93 @@
                             <p>Add to List</p>
                             <img src="../image/table-list.png" alt="">
                         </div>
-                        <div class="search-box">
+                        <div class="search-box-list">
                             <img src="../image/job-search.png" alt="">
                             <input type="search" name="" class="form-font-f" id="jon-search-box" placeholder="Search">
+                        </div>
+                        <div class="list-radio-add">
+                            <div class="radio-list-name">
+                                <label for="" class="list-lab-clr"> <input type="radio" name="" id="" class="list-select-b">Adams List</label>
+                                <img src="../image/table-list.png" alt="">
+                            </div>
+                            <div class="radio-list-name">
+                                <label for="" class="list-lab-clr"> <input type="radio" name="" id="" class="list-select-b">Adams List</label>
+                                <img src="../image/table-list.png" alt="">
+                            </div>
+                            <div class="radio-list-name">
+                                <label for="" class="list-lab-clr"> <input type="radio" name="" id="" class="list-select-b">Adams List</label>
+                                <img src="../image/table-list.png" alt="">
+                            </div>
+                            <div class="radio-list-name">
+                                <label for="" class="list-lab-clr"> <input type="radio" name="" id="" class="list-select-b">Adams List</label>
+                                <img src="../image/table-list.png" alt="">
+                            </div>
+                            <div class="radio-list-name">
+                                <label for="" class="list-lab-clr"> <input type="radio" name="" id="" class="list-select-b">Adams List</label>
+                                <img src="../image/table-list.png" alt="">
+                            </div>
+                            <div class="radio-list-name">
+                                <label for="" class="list-lab-clr"> <input type="radio" name="" id="" class="list-select-b">Adams List</label>
+                                <img src="../image/table-list.png" alt="">
+                            </div>
+                        </div>
+                        <div class="add-rem-list-btn">
+                            <button class="can-list" type="submit">Cancel</button>
+                            <button class="list-sub" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-----------candidate list-create hide-model-comment-->
+        <div class="click-model-close hide-model-comment">
+            <section class="model-list-popup">
+                <div class="popup-bg-listadd">
+                    <div class="popup-content-list-add">
+                        <div class="logo-main">
+                            <img src="../image/WORKBRIDGE.png" alt="">
+                        </div>
+                        <div class="close-btn">
+                            <img src="../image/chat-cut.png" alt="">
+                        </div>
+                        <div class="list-content-s">
+                            <p>Create List</p>
+                            <img src="../image/table-list.png" alt="">
+                        </div>
+                        <div class="crea-list-m">
+                            <div class="creadt-list-form">
+                                <label for="">List Name</label><br>
+                                <input type="text" name="" class="form-font-list ">
+                            </div>
+                            <div class="creadt-list-form">
+                                <label for="">List Description</label><br>
+                                <textarea name="" id="" cols="30" rows="4" class="form-font-list"></textarea>
+                            </div>
+                        </div>
+                        <div class="add-rem-list-btn">
+                            <button class="can-list" type="submit">Cancel</button>
+                            <button class="list-sub" type="submit">Submit</button>
                         </div>
                     </div>
                 </div>
             </section>
         </div>
     </div>
+
+    <!-- Include Bootstrap JS (optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.sub-menu-dropdpwn > a').click(function() {
+                $('.sub-menu-dropdpwn').removeClass('active');
+                $(this).parent('li').addClass('active');
+                $(this).next('.second-menu-dropdown').fadeToggle();
+                return false;
+            })
+        });
+    </script>
 </body>
