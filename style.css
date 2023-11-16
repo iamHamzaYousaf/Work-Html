@@ -8013,30 +8013,6 @@ li.sub-menu-dropdpwn-list-f a.sub-menu-lists:nth-child(1) {
     flex-direction: column;
 }
 
-/*Candidate Listing Page*/
-
-.candidate-list-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 100%;
-    width: 100%;
-}
-
-.candidate-list-header h2 {
-    text-align: center;
-    font-weight: var(--font-weight-bold);
-    font-size: 28px;
-}
-
-a.clr-b-chng {
-    border-radius: 4px;
-    border: 1px solid #143975 !important;
-    padding: 8px !important;
-    font-size: 18px !important;
-    color: var(--primary-color) !important;
-}
-
 
 /************canidate filter css *****/
 
@@ -8900,6 +8876,33 @@ ul.list-job-title li {
     background-color: var(--primary-color);
 }
 
+
+/*Candidate Listing Page*/
+
+.candidate-list-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 100%;
+}
+
+.candidate-list-header h2 {
+    text-align: center;
+    font-weight: var(--font-weight-bold);
+    font-size: 28px;
+}
+
+a.clr-b-chng {
+    border-radius: 4px;
+    border: 1px solid #143975 !important;
+    padding: 8px !important;
+    font-size: 18px !important;
+    color: var(--primary-color) !important;
+}
+
+
+/* comment css*/
 .hide-model-comment {
     display: none;
 }
