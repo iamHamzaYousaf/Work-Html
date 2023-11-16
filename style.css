@@ -7833,6 +7833,8 @@ img.show-tooltip:hover~.tooltip-table {
     opacity: 1;
 }
 
+/*Candidate Listing DropDown*/
+
 .first-menu-dropdown {
     list-style: none;
     padding: 0;
@@ -8010,6 +8012,8 @@ li.sub-menu-dropdpwn-list-f a.sub-menu-lists:nth-child(1) {
     display: flex;
     flex-direction: column;
 }
+
+/*Candidate Listing Page*/
 
 .candidate-list-header {
     display: flex;
