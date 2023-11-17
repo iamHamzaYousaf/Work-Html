@@ -7836,6 +7836,7 @@ img.show-tooltip:hover~.tooltip-table {
     opacity: 1;
 }
 
+
 /*Candidate Listing DropDown*/
 
 .first-menu-dropdown {
@@ -8894,7 +8895,7 @@ ul.list-job-title li {
 .candidate-list-header h2 {
     text-align: center;
     font-weight: var(--font-weight-bold);
-    font-size: 28px;
+    font-size: 24px;
 }
 
 a.clr-b-chng {
@@ -8907,6 +8908,7 @@ a.clr-b-chng {
 
 
 /* comment css*/
+
 .hide-model-comment {
     display: none;
 }
@@ -9612,8 +9614,7 @@ button.form-submit-job-model {
 }
 
 
-
-/**********add list model candidate *********/
+/**********add list model candidate  main css*********/
 
 .model-list-popup {
     position: fixed;
@@ -9663,6 +9664,7 @@ button.form-submit-job-model {
     justify-content: center;
     padding: 15px 0;
     gap: 15px;
+    align-items: center;
 }
 
 .list-content-s p {
@@ -9671,6 +9673,9 @@ button.form-submit-job-model {
     font-size: 18px;
     font-weight: 600;
 }
+
+
+/****************add list model ************/
 
 .search-box-list {
     width: 100%;
@@ -9754,6 +9759,9 @@ label.list-lab-clr {
     gap: 15px
 }
 
+
+/*********** form button for moddel of list ********/
+
 button.can-list {
     color: #F32131;
     font-family: var(--museo-sans);
@@ -9779,6 +9787,9 @@ button.list-sub {
     font-size: 16px;
     font-weight: 400;
 }
+
+
+/********create list model********/
 
 .form-font-list {
     color: #000000;
@@ -9807,6 +9818,188 @@ button.list-sub {
 textarea.form-font-list {
     resize: none;
 }
+
+
+/********share list model ********/
+
+.share-list-feild {
+    padding: 10px;
+    border: 0px solid var(--boder-color);
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+    background: rgba(221, 222, 238, 0.25);
+}
+
+.share-list-f label {
+    color: #000000;
+    font-family: var(--museo-sans);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.admin-status-dropdown-frm {
+    position: absolute;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
+    width: 100%;
+    overflow: auto;
+    z-index: 1;
+    margin: 15px 0 0 auto;
+    left: 0;
+    display: none;
+    max-height: 185px;
+    height: auto;
+}
+
+.share-list-feild.open .admin-status-dropdown-frm {
+    display: block;
+}
+
+.share-list-feild .admin-status-dropdown-frm {
+    display: none;
+}
+
+
+/* width */
+
+.admin-status-dropdown-frm::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+/* Track */
+
+.admin-status-dropdown-frm::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+.admin-status-dropdown-frm::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: var(--primary-color);
+}
+
+.error-input .share-list-feild {
+    border: 1px solid var(--error-msg-color) !important;
+}
+
+.form-font-list-share {
+    color: #000000;
+    font-family: var(--museo-sans);
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 4px;
+    background-color: rgb(221 222 238 / 0%) !important;
+    width: 100%;
+    padding: 0px 12px 0 0;
+    border: 0 !important;
+}
+
+ul.list-share-drop {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0;
+    padding: 15px 10px;
+}
+
+ul.list-share-drop li {
+    border-radius: 8px;
+    background: #ffffff;
+    padding: 0px 10px;
+    cursor: pointer;
+    color: rgb(0 0 0 / 50%);
+    font-size: var(--skill-text-size);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    line-height: 40px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+
+ul.list-share-drop li:hover {
+    border-radius: 6px;
+    background: #F2F7FF;
+    color: var(--text-color);
+    font-weight: var(--font-weight-medium);
+}
+
+.tags-share ul.tags-share-list {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    margin: 8px 0 0px 0;
+    padding: 0;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.tags-share ul.tags-share-list li img {
+    border: 1px solid var(--primary-color);
+    border-radius: 38px;
+    height: 15px;
+    width: 15px;
+    padding: 2px;
+}
+
+.tags-share ul.tags-share-list li {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    border: 0.5px solid #F2F7FF;
+    background: #E2EDFF;
+    padding: 4px 8px;
+    color: var(--primary-color);
+    font-size: 13px;
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+}
+
+
+/**************delet list drop down********/
+
+.delet-list-menu {
+    position: absolute;
+    border-radius: 12px;
+    background: #FFF;
+    width: 240px;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.25);
+    left: -90px;
+    z-index: 1;
+    padding: 12px;
+}
+
+ul.list-item-delet {
+    padding: 0 0px;
+    list-style: none;
+    margin: 0;
+}
+
+ul.list-item-delet li {
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 7px;
+    color: #121212;
+    font-family: var(--museo-sans);
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+ul.list-item-delet li:hover {
+    border-radius: 4px;
+    background: #F2F7FF;
+}
+
 
 /****************1440px job details page css ************/
 

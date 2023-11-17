@@ -53,7 +53,8 @@
             <div class="container container-site">
                 <div class="job-search-box-row">
                     <div class="candidate-list-header">
-                        <h2>Job Title: React Java Developer</h2>
+                        <!-- <h2>Job Title: React Java Developer</h2> -->
+                        <h2>List > My Top 10 List </h2>
                         <div class="multi-dropdown-box">
                             <ul class="first-menu-dropdown">
                                 <li class="sub-menu-dropdpwn main-dropdown-heading">
@@ -140,11 +141,12 @@
                 </div>
                 <div class="employee-searchbox-btn">
                     <div class="two-btn-list">
-                        <div class="employee-list-btn-create">
+                        <!-- <div class="employee-list-btn-create">
                             <a href="#"><button>Add to List</button></a>
-                        </div>
+                        </div> -->
                         <div class="employee-list-btn">
-                            <a href="#"><button>Create List +</button></a>
+                            <!-- <a href="#"><button>Create List +</button></a> -->
+                            <a href="#"><button>Share List <img src="../image/share-list.png" alt=""></button></a>
                         </div>
                     </div>
                     <div class="search-list-box">
@@ -222,6 +224,100 @@
                                     <div class="img-table-tooltip">
                                         <img src="../image/table-list.png" alt="" class="show-tooltip">
                                         <div class="tooltip-table">List</div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="bor-botm">
+                            <td data-label="Technical Tags:" colspan="7" class="tag-cell">
+                                <div class="job-table-employee">
+                                    <button>C++</button>
+                                    <button>C Sharp</button>
+                                    <button>React Js</button>
+                                    <button>C++</button>
+                                    <button>React Js</button>
+                                    <button>Java Developer</button>
+                                    <button>My SQL</button>
+                                    <button>My SQL</button>
+                                    <button>JSON</button>
+                                    <button>Angular</button>
+                                </div>
+                            </td>
+                            <td data-label="CV Review" class="cv-icon-m">
+                                <div class="prog-bar-cir">
+                                    <div class="progress-table">
+                                        <div class="progress-bar-outer">
+                                            <div class="progress-bar-inner">
+                                                <div class="progress-value">85%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cv-cions-review">
+                                    <img src="../image/bad-cv-icon.png" alt="">
+                                    <img src="../image/normal.cv.png" alt="">
+                                    <img src="../image/good-cv-icon.png" alt="" class="tooltip-show">
+                                    <img src="../image/cv-favt.png" alt="">
+                                    <div class="good-cv-box hide-box">
+                                        <p>Good Candidate</p>
+                                        <img src="../image/review-good-cv.png" alt="">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="bor-top">
+                            <td data-label="full name" class="name-box-hvr">
+                                <input type="checkbox" name="" class="td-tr-chk">John Smith
+                            </td>
+                            <td data-label="job Title">React Developer</td>
+                            <td data-label="Date Applied">31/07/2022</td>
+                            <td data-label="Experience">9 Years</td>
+                            <td data-label="Education" class="study-cell">Bachelor’s Degree</td>
+                            <td data-label="Candidate Status">
+                                <div class="job-fillter-table-data">
+                                    <div class="j-company-fillter-table-data">
+                                        <div id="dropdown-boxId2" class="company-form-dropdownBox1-tabeldate" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Candidate Status</div>
+                                        <div class="list-search-dropdown-company">
+                                            <ul class="list-table-title-cand">
+                                                <li>Resume Reviewed</li>
+                                                <li>Overqualified</li>
+                                                <li>Experience not relevant</li>
+                                                <li>Need to think</li>
+                                                <li>No Experience at all</li>
+                                                <li>Good Candidate for Future</li>
+                                                <li>Do Not Contact</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-label="Journey Status">Short Call</td>
+                            <td data-label="Action">
+                                <div class="cv-cions">
+                                    <div class="img-table-tooltip">
+                                        <img src="../image/table-man.png" alt="" class="show-tooltip">
+                                        <div class="tooltip-table">Candidate Detail</div>
+                                    </div>
+                                    <div class="img-table-tooltip">
+                                        <img src="../image/table-activity.png" alt="" class="show-tooltip">
+                                        <div class="tooltip-table">Schedule Activity</div>
+                                    </div>
+                                    <div class="img-table-tooltip">
+                                        <img src="../image/table-comm.png" alt="" class="show-tooltip">
+                                        <div class="tooltip-table">Comments</div>
+                                    </div>
+                                    <div class="img-table-tooltip">
+                                        <img src="../image/table-list.png" alt="" class="show-tooltip">
+                                        <div class="tooltip-table">List</div>
+                                    </div>
+                                    <div class="img-table-dot">
+                                        <img src="../image/dot-circle-li.png" alt="" class="show-tooltip">
+                                        <div class="delet-list-menu">
+                                            <ul class="list-item-delet">
+                                                <li>Delete from This List<img src="../image/role-delet.png" alt=""></li>
+                                                <li>Delete from All Lists<img src="../image/role-delet.png" alt=""></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </td>
@@ -534,32 +630,93 @@
         </div>
         <!-----------candidate list-create hide-model-comment-->
         <div class="click-model-close hide-model-comment">
-            <section class="model-list-popup">
-                <div class="popup-bg-listadd">
-                    <div class="popup-content-list-add">
-                        <div class="logo-main">
-                            <img src="../image/WORKBRIDGE.png" alt="">
+            <section class=" model-list-popup ">
+                <div class="popup-bg-listadd ">
+                    <div class="popup-content-list-add ">
+                        <div class="logo-main ">
+                            <img src="../image/WORKBRIDGE.png " alt=" ">
                         </div>
-                        <div class="close-btn">
-                            <img src="../image/chat-cut.png" alt="">
+                        <div class="close-btn ">
+                            <img src="../image/chat-cut.png " alt=" ">
                         </div>
                         <div class="list-content-s">
                             <p>Create List</p>
-                            <img src="../image/table-list.png" alt="">
+                            <img src="../image/table-list.png " alt=" ">
                         </div>
-                        <div class="crea-list-m">
-                            <div class="creadt-list-form">
-                                <label for="">List Name</label><br>
-                                <input type="text" name="" class="form-font-list ">
+                        <div class="crea-list-m ">
+                            <div class="creadt-list-form error-input ">
+                                <label for=" ">List Name</label><br>
+                                <input type="text " name=" " class="form-font-list ">
+                                <p class="error-msg ">Please List Name</p>
                             </div>
-                            <div class="creadt-list-form">
-                                <label for="">List Description</label><br>
-                                <textarea name="" id="" cols="30" rows="4" class="form-font-list"></textarea>
+                            <div class="creadt-list-form error-input ">
+                                <label for=" ">List Description</label><br>
+                                <textarea name=" " id=" " cols="30 " rows="4 " class="form-font-list "></textarea>
+                                <p class="error-msg ">List Description</p>
                             </div>
                         </div>
-                        <div class="add-rem-list-btn">
-                            <button class="can-list" type="submit">Cancel</button>
-                            <button class="list-sub" type="submit">Submit</button>
+                        <div class="add-rem-list-btn ">
+                            <button class="can-list " type="submit ">Cancel</button>
+                            <button class="list-sub " type="submit ">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-----------candidate share-list hide-model-comment-->
+        <div class="click-model-close">
+            <section class=" model-list-popup ">
+                <div class="popup-bg-listadd ">
+                    <div class="popup-content-list-add ">
+                        <div class="logo-main ">
+                            <img src="../image/WORKBRIDGE.png " alt=" ">
+                        </div>
+                        <div class="close-btn ">
+                            <img src="../image/chat-cut.png " alt=" ">
+                        </div>
+                        <div class="list-content-s">
+                            <p>Share List</p>
+                            <img src="../image/share-list-b.png" alt=" ">
+                        </div>
+                        <div class="crea-list-m ">
+                            <div class="share-list-f error-input">
+                                <label for="">Invite people to access the list </label>
+                                <div class="share-list-feild">
+                                    <div id="dropdown-boxId2" class="company-form-dropdownBox1 custom-tag-input" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <div class="text-filter-admin">
+                                            <input type="text " name=" " class="form-font-list-share">
+                                            <img src="../../image/admin-d.png" alt="" class="hide-tick">
+                                            <img src="../../image/warning.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="admin-status-dropdown-frm">
+                                        <ul class="list-share-drop">
+                                            <li>James Joshphe</li>
+                                            <li>James Jr.</li>
+                                            <li>James Jr.</li>
+                                            <li>James Joshphe</li>
+                                            <li>James Jr.</li>
+                                            <li>James Jr.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <p class="error-msg hide-error">Please Invite people to access the list</p>
+                                <div class="tags-share">
+                                    <ul class="tags-share-list">
+                                        <li>James Andrew<img src="../image/cross.png" alt=""></li>
+                                        <li>Michael Jr<img src="../image/cross.png" alt=""></li>
+                                        <li>Ben James<img src="../../image/cross.png" alt="">
+                                        </li>
+                                        <li>Michael<img src="../image/cross.png" alt=""></li>
+                                        <li>Michael Jr<img src="../image/cross.png" alt=""></li>
+                                        <li>Ben James<img src="../image/cross.png" alt=""></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="add-rem-list-btn ">
+                            <button class="can-list " type="submit ">Cancel</button>
+                            <button class="list-sub " type="submit ">Submit</button>
                         </div>
                     </div>
                 </div>
@@ -568,11 +725,11 @@
     </div>
 
     <!-- Include Bootstrap JS (optional) -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js " integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js " integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+ " crossorigin="anonymous "></script>
+    <script type="text/javascript " src="js/jquery.min.js "></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js "></script>
     <script>
         $(document).ready(function() {
             $('.sub-menu-dropdpwn > a').click(function() {
