@@ -9752,15 +9752,15 @@ label.list-lab-clr {
     font-weight: 600;
 }
 
+
+/*********** form button for moddel of list ********/
+
 .add-rem-list-btn {
     margin-top: 20px;
     display: flex;
     justify-content: end;
     gap: 15px
 }
-
-
-/*********** form button for moddel of list ********/
 
 button.can-list {
     color: #F32131;
