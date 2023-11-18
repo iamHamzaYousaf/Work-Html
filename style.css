@@ -7814,6 +7814,7 @@ input.td-tr-chk {
 
 .img-table-tooltip {
     position: relative;
+    cursor: pointer;
 }
 
 .tooltip-table {
@@ -7829,11 +7830,38 @@ input.td-tr-chk {
     font-size: 12px;
     padding: 5px;
     opacity: 0;
+    font-weight: 500;
     white-space: nowrap;
 }
 
 img.show-tooltip:hover~.tooltip-table {
     opacity: 1;
+}
+
+
+/*************all list page tabel*********/
+
+th.list-description {
+    width: 400px;
+}
+
+.list-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+}
+
+.description-list-content {
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+/******** share list table ****/
+
+.save-list-icon {
+    display: none;
 }
 
 
@@ -7864,7 +7892,7 @@ img.show-tooltip:hover~.tooltip-table {
 }
 
 .first-menu-dropdown .second-menu-dropdown {
-    width: 232px;
+    width: 228px;
     padding: 0 10px 10px 10px;
     border: 0.5px solid rgba(0, 0, 0, 0.20);
     position: relative;
@@ -7964,7 +7992,7 @@ ul.second-menu-dropdown {
 }
 
 .main-dropdown-heading {
-    width: 232px;
+    width: 228px;
     position: relative;
 }
 
