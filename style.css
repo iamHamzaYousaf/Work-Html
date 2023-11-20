@@ -8780,6 +8780,11 @@ td.name-box-hvr {
     font-weight: 400;
 }
 
+.list-btn-create-opcity button {
+    color: rgb(20 57 117 / 50%);
+    border: 1px solid rgb(20 57 117 / 50%);
+}
+
 .employee-list-btn-create button {
     background: transparent;
     color: var(--primary-color);
