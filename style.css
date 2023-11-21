@@ -3164,6 +3164,27 @@ p.error-msg-place {
     opacity: 0.8;
 }
 
+.reset-img-btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.signup-jobs-option.f-feild-post {
+    width: 95%;
+}
+
+button.job-reset-btn-f {
+    width: 100%;
+    max-width: 64px;
+    padding: 18px 10px 18px;
+    border: 0.5px solid var(--boder-color);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .job-postion-form {
     display: flex;
     align-items: center;
