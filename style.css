@@ -3747,7 +3747,7 @@ p.box-heading-f {
     color: #143975;
     text-align: center;
     font-family: var(--museo-sans);
-    font-size: 28px;
+    font-size: 27px;
     font-weight: var(--font-weight-bold);
 }
 
@@ -8061,7 +8061,7 @@ th.list-description {
 
 .second-menu-dropdown-sroll {
     overflow: auto;
-    max-height: 307px;
+    max-height: 400px;
     height: auto;
 }
 
