@@ -3754,13 +3754,14 @@ p.box-heading-f {
 .tow-boxes-data {
     display: flex;
     padding-top: 30px;
-    gap: 60px;
+    gap: 20px;
 }
 
 .left-form-data,
 .right-form-data {
-    max-width: 360px;
+    max-width: 340px;
     width: 100%;
+    height: 400px;
 }
 
 .uper-part-clr {
@@ -3781,7 +3782,7 @@ p.box-heading-f {
     border: 1px solid #D9D9D9;
     background: #FFF;
     box-shadow: 0px 0px 49.8px 0px rgba(0, 0, 0, 0.10);
-    padding: 50px 30px 25px;
+    padding: 50px 41px 25px;
 }
 
 p.l-box-one {
@@ -3810,7 +3811,7 @@ p.l-boc-two {
     font-size: 18px;
     font-weight: 300;
     line-height: 31px;
-    padding: 15px 0;
+    padding: 24px 0 24px;
 }
 
 button.copy-paste-l {
@@ -12208,7 +12209,7 @@ button.edit-form-user {
 
 /*************responsivness start here ***********/
 
-@media only screen and (max-width:1120px) {
+@media only screen and (max-width:1100px) {
     .job-col-right {
         height: auto;
     }
@@ -12218,9 +12219,8 @@ button.edit-form-user {
     .job-seclude {
         max-width: 50%;
     }
-    p.l-boc-two {
-        min-height: 155px;
-        height: auto;
+    .lower-part-data {
+        padding: 50px 25px 25px;
     }
 }
 
