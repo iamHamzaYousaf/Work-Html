@@ -3166,11 +3166,11 @@ p.error-msg-place {
 
 .reset-img-btn {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     gap: 20px;
 }
 
-.signup-jobs-option.f-feild-post {
+.signup-jobs-option.f-feild-post-first {
     width: 95%;
 }
 
@@ -3747,7 +3747,7 @@ p.box-heading-f {
     color: #143975;
     text-align: center;
     font-family: var(--museo-sans);
-    font-size: 27px;
+    font-size: 26px;
     font-weight: var(--font-weight-bold);
 }
 
@@ -12222,6 +12222,9 @@ button.edit-form-user {
     .lower-part-data {
         padding: 50px 25px 25px;
     }
+    p.box-heading-f {
+        font-size: 24px;
+    }
 }
 
 
@@ -12327,6 +12330,10 @@ button.edit-form-user {
     .job-seclude {
         max-width: 70%;
         justify-content: flex-start;
+    }
+    /*******form image boxes****/
+    p.l-boc-two {
+        height: 175px;
     }
 }
 
@@ -12455,6 +12462,16 @@ button.edit-form-user {
     /*********empolyeee dahsbord *******/
     .employee-job-dasboard {
         grid-template-columns: [col1-start] 1fr [col2-start] 1fr [col3-start] 1fr [col3-end];
+    }
+    /*image box f***/
+    .lower-part-data {
+        padding: 50px 15px 25px;
+    }
+    p.l-box-one {
+        font-size: 16px;
+    }
+    p.box-heading-f {
+        font-size: 20px;
     }
 }
 
@@ -13811,6 +13828,29 @@ button.edit-form-user {
         max-width: 100%;
         width: 100%;
         margin: 0 auto;
+    }
+    /***images box f ******/
+    .tow-boxes-data {
+        display: block;
+    }
+    .left-form-data,
+    .right-form-data {
+        max-width: 100%;
+        width: 100%;
+        height: 400px;
+    }
+    p.l-box-one {
+        font-size: 14px;
+    }
+    p.l-boc-two {
+        font-size: 14px;
+        padding: 10px 0 10px;
+    }
+    p.l-boc-two span {
+        font-size: 14px;
+    }
+    p.l-boc-two {
+        height: 110px;
     }
 }
 
