@@ -13895,7 +13895,12 @@ button.edit-form-user {
     text-align: justify;
   }
   
+/* React Circular Progress Bar*/
 
+.CircularProgressbar .CircularProgressbar-text{
+    font-family: var(--museo-sans);
+    font-weight: 700;
+}
 
 /*Emoji Style*/
 
