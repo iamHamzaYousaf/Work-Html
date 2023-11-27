@@ -3478,6 +3478,17 @@ button.update-j-btn {
     font-weight: 300;
 }
 
+.company-form-dropdownBox-post-kit {
+    width: 100%;
+    cursor: pointer;
+    color: rgb(0 0 0 / 100%);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
 .level-of-developer {
     display: flex;
     align-items: center;
@@ -13863,26 +13874,27 @@ button.edit-form-user {
 .ql-editor {
     height: 270px !important;
     background: rgba(221, 222, 238, 0.25) !important;
-}
-
-.ql-container {
-    color: rgb(0 0 0 / 100%);
+  }
+  
+  .ql-editor.ql-blank::before {
+    color: rgb(0 0 0 / 50%);
     font-family: var(--museo-sans);
     font-size: 14px;
     line-height: 23px;
     text-align: justify;
     font-weight: 300;
     font-style: normal;
-}
-
-.ql-editor p,
-.ql-editor ul li {
+  }
+  
+  .ql-editor p,
+  .ql-editor ul li {
     color: rgb(0 0 0 / 100%);
     font-family: var(--museo-sans);
     font-size: 14px;
     line-height: 23px;
     text-align: justify;
-}
+  }
+  
 
 
 /*Emoji Style*/
