@@ -13865,6 +13865,16 @@ button.edit-form-user {
     background: rgba(221, 222, 238, 0.25) !important;
 }
 
+.ql-container {
+    color: rgb(0 0 0 / 100%);
+    font-family: var(--museo-sans);
+    font-size: 14px;
+    line-height: 23px;
+    text-align: justify;
+    font-weight: 300;
+    font-style: normal;
+}
+
 .ql-editor p,
 .ql-editor ul li {
     color: rgb(0 0 0 / 100%);
