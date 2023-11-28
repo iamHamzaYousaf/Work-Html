@@ -12218,6 +12218,56 @@ button.edit-form-user {
 }
 
 
+/**************** promotion pages stat here ************/
+
+.admin-status-filter.open .promotion-status-dropdown {
+    display: block;
+}
+
+.admin-status-filter .promotion-status-dropdown {
+    display: none;
+}
+
+.promotion-status-dropdown {
+    position: absolute;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
+    width: 240px;
+    overflow: auto;
+    z-index: 1;
+    margin: 5px 0 0 auto;
+    left: 0;
+    top: 100%;
+    max-height: 185px;
+    height: auto;
+}
+
+
+/* width */
+
+.promotion-status-dropdown::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+/* Track */
+
+.promotion-status-dropdown::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+.promotion-status-dropdown::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: var(--primary-color);
+}
+
+
 /*************responsivness start here ***********/
 
 @media only screen and (max-width:1100px) {
@@ -13863,6 +13913,50 @@ button.edit-form-user {
     p.l-boc-two {
         height: 110px;
     }
+    /*********React Quill post a job form mobile **********/
+    .ql-editor p,
+    .ql-editor ul li {
+        padding-left: 0 !important;
+    }
+    .ql-editor ol,
+    .ql-editor ul {
+        padding-left: 0.5em;
+    }
+    .cities-center-in-form {
+        margin: 20px auto 0;
+        max-width: 100%;
+    }
+    .ql-editor p,
+    .ql-editor ul li,
+    .ql-editor.ql-blank:before {
+        text-align: left;
+    }
+}
+
+.tags-tittles ul.tags-titles-list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 15px 0 30px;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.tags-tittles ul.tags-titles-list li span img {
+    vertical-align: baseline;
+}
+
+.tags-tittles ul.tags-titles-list li {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    display: inline-flex;
+    font-family: var(--museo-sans);
+    font-size: var(--skill-text-size);
+    font-weight: var(--font-weight-medium);
+    justify-content: space-between;
+    padding: 4px 8px;
+    gap: 14px;
+    align-items: flex-start;
 }
 
 
@@ -13874,9 +13968,9 @@ button.edit-form-user {
 .ql-editor {
     height: 270px !important;
     background: rgba(221, 222, 238, 0.25) !important;
-  }
-  
-  .ql-editor.ql-blank::before {
+}
+
+.ql-editor.ql-blank::before {
     color: rgb(0 0 0 / 50%);
     font-family: var(--museo-sans);
     font-size: 14px;
@@ -13884,23 +13978,25 @@ button.edit-form-user {
     text-align: justify;
     font-weight: 300;
     font-style: normal;
-  }
-  
-  .ql-editor p,
-  .ql-editor ul li {
+}
+
+.ql-editor p,
+.ql-editor ul li {
     color: rgb(0 0 0 / 100%);
     font-family: var(--museo-sans);
     font-size: 14px;
     line-height: 23px;
     text-align: justify;
-  }
-  
+}
+
+
 /* React Circular Progress Bar*/
 
-.CircularProgressbar .CircularProgressbar-text{
+.CircularProgressbar .CircularProgressbar-text {
     font-family: var(--museo-sans);
     font-weight: 700;
 }
+
 
 /*Emoji Style*/
 
