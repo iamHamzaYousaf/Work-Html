@@ -13891,27 +13891,50 @@ button.edit-form-user {
         margin: 0 auto;
     }
     /***images box f ******/
-    .tow-boxes-data {
-        display: block;
-    }
     .left-form-data,
     .right-form-data {
         max-width: 100%;
-        width: 100%;
-        height: 329px;
+        width: 190px;
+        height: 242px;
+        border-radius: 12px;
+        border: 0.5px solid #375B96;
+        background: #FFF;
     }
     p.l-box-one {
-        font-size: 14px;
+        font-size: 12px;
+        line-height: 20px;
     }
     p.l-boc-two {
         font-size: 14px;
         padding: 10px 0 10px;
     }
     p.l-boc-two span {
-        font-size: 14px;
+        font-size: 12px;
     }
     p.l-boc-two {
-        height: 110px;
+        height: auto;
+    }
+    button.copy-paste-l {
+        display: none;
+    }
+    .lower-part-data {
+        padding: 10px 10px 0px;
+    }
+    .uper-part-clr img,
+    .uper-part-clr-right img {
+        text-align: center;
+        display: block;
+        margin: 0px auto 0px;
+        padding-top: 15px;
+        width: 48px;
+    }
+    .uper-part-clr,
+    .lower-part-data,
+    .uper-part-clr-right {
+        border-radius: 12px;
+        background: #ffffff;
+        box-shadow: none;
+        border: 0;
     }
     /*********React Quill post a job form mobile **********/
     .ql-editor p,
@@ -13930,6 +13953,44 @@ button.edit-form-user {
     .ql-editor ul li,
     .ql-editor.ql-blank:before {
         text-align: left;
+    }
+    input#salary-start-range {
+        padding: 10px 8px;
+    }
+    .salary-f-job {
+        max-width: 43% !important;
+    }
+    #fsalary-country,
+    input#salary-end {
+        padding: 12px 5px;
+        background-position: right 0px bottom 14px;
+    }
+    div#fsalary-year {
+        padding: 12px 8px;
+    }
+    .merge-feild-4 {
+        max-width: 15%;
+    }
+    .list-search-dropdown-year-job {
+        width: 20%;
+    }
+    button.job-des-btn,
+    button.job-reset-btn {
+        width: 100%;
+    }
+    .popup-content-zoe-job-gen {
+        width: 100%;
+        margin: 50px auto 0;
+        background-image: url(./image/zoe-mbl-bg.png);
+        padding: 20px 40px 100px 40px;
+        position: relative;
+        border-radius: 30px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .popup-post-job {
+        width: auto;
+        margin: 0 auto;
     }
 }
 
