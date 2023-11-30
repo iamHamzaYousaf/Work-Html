@@ -3177,7 +3177,7 @@ p.error-msg-place {
 button.job-reset-btn-f {
     width: 100%;
     max-width: 64px;
-    padding: 12px 10px 12px;
+    padding: 15px 10px;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
     display: flex;
@@ -3767,6 +3767,7 @@ p.box-heading-f {
     display: flex;
     padding-top: 30px;
     gap: 20px;
+    justify-content: center;
 }
 
 .left-form-data,
@@ -4197,7 +4198,8 @@ input#clr-btn {
     padding: 2px;
 }
 
-input#clr-btn:checked,
+
+/* input#clr-btn:checked,
 input#job-postion:checked {
     background-color: #003a75;
 }
@@ -4210,6 +4212,35 @@ input#job-postion {
     border-radius: 50%;
     background-clip: content-box;
     padding: 2px;
+} */
+
+#job-position {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #333;
+    background-color: white;
+    position: relative;
+}
+
+#job-position:checked {
+    background-color: green;
+}
+
+#job-position::before {
+    content: '\2713';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    visibility: hidden;
+}
+
+#job-position:checked::before {
+    visibility: visible;
 }
 
 
@@ -12304,6 +12335,51 @@ button.edit-form-user {
     gap: 16px;
     justify-content: flex-start;
     padding-top: 25px;
+}
+
+.left-box-card-content {
+    border-radius: 12px;
+    border: 1px solid #FFA033;
+    background: rgba(255, 160, 51, 0.05);
+    box-shadow: 0px 0px 16px 0px rgba(55, 91, 150, 0.12);
+    padding: 25px 12px 15px;
+}
+
+.first-row-l-c {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+p.logo-card {
+    border-radius: 70px;
+    border: 0.5px solid rgba(0, 0, 0, 0.16);
+    background: #FFF;
+    padding: 14px 8px;
+    color: rgb(0 0 0 / 40%);
+    font-size: 12px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+}
+
+p.job-postion-h {
+    padding: 14px 8px;
+    color: rgb(0 0 0 / 100%);
+    font-size: 16px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+}
+
+p.job-no-cir {
+    border-radius: 70px;
+    background: #FFF;
+    padding: 14px 2px;
+    color: rgb(0 0 0 / 100%);
+    font-size: 10px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+    height: 46px;
+    width: 46px;
 }
 
 
