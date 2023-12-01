@@ -12222,7 +12222,7 @@ button.edit-form-user {
 }
 
 
-/**************** promotion pages stat here ************/
+/**************** all promotion pages stat here ************/
 
 .admin-status-filter.open .promotion-status-dropdown {
     display: block;
@@ -12360,19 +12360,29 @@ button.edit-form-user {
 .first-row-l-c {
     display: flex;
     align-items: center;
-    gap: 15px;
     justify-content: space-between;
+}
+
+.logo-postion-promotion {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 p.logo-card {
     border-radius: 70px;
     border: 0.5px solid rgba(0, 0, 0, 0.16);
     background: #FFF;
-    padding: 14px 8px;
     color: rgb(0 0 0 / 40%);
     font-size: 12px;
     font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
+    height: 50px;
+    width: 50px;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 p.job-postion-h {
@@ -12385,13 +12395,16 @@ p.job-postion-h {
 p.job-no-cir {
     border-radius: 70px;
     background: #FFF;
-    padding: 14px 2px;
     color: rgb(0 0 0 / 100%);
     font-size: 10px;
     font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
-    height: 46px;
-    width: 46px;
+    height: 50px;
+    width: 50px;
+    padding: 0 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 p.c-name-card {
@@ -12413,12 +12426,13 @@ p.c-content-c {
 a.cmpy-card-tags {
     border-radius: 44px;
     background: #FFA033;
-    padding: 4px 20px;
+    padding: 5px 20px;
     color: #000;
     font-size: 12px;
     font-family: var(--museo-sans);
     font-weight: 400;
     margin-top: 12px;
+    min-width: 88px;
 }
 
 .radio-crd-btn {
@@ -12491,6 +12505,162 @@ button.boooking-req {
     font-family: var(--museo-sans);
     font-size: 16px;
     font-weight: 400;
+}
+
+
+/********cards promotion css******/
+
+.avaliable-date {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.date-drop-prom {
+    width: 180px;
+}
+
+.availabel-slot-sec {
+    padding-top: 32px;
+}
+
+.avaliable-post-cards {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-top: 35px;
+}
+
+.card-slot-bg-clr {
+    padding: 20px 10px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    max-width: 32%;
+    width: 100%;
+}
+
+p.logo-card-avaliable {
+    border-radius: 70px;
+    border: 0.5px solid rgba(0, 0, 0, 0.16);
+    background: #FFF;
+    color: rgb(0 0 0 / 40%);
+    font-size: 12px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p.job-postion-avalibe {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+}
+
+p.job-no-cir-avaliable {
+    border-radius: 70px;
+    background: #E2EDFF;
+    color: #143975;
+    font-size: 12px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p.c-name-card-avalibe {
+    color: var(--primary-color);
+    padding: 15px 0 5px;
+    font-size: 16px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+}
+
+.card-slot-bg-dark-card {
+    padding: 20px 10px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #C1C1C1;
+    max-width: 32%;
+    width: 100%;
+}
+
+p.logo-card-avaliable-dark {
+    border-radius: 70px;
+    border: 0.5px solid #7A7A7A;
+    opacity: 0.8;
+    background: #8E8E8E;
+    color: rgb(255 255 255 / 80%);
+    font-size: 12px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p.job-postion-avalibe-dark {
+    color: #454545;
+    font-size: 16px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+}
+
+p.job-no-cir-avaliable-dark {
+    border-radius: 70px;
+    border: 0.5px solid #7A7A7A;
+    opacity: 0.8;
+    background: #8E8E8E;
+    color: rgb(255 255 255 / 80%);
+    font-size: 12px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p.c-name-card-avalibe-dark {
+    color: #454545;
+    padding: 15px 0 5px;
+    font-size: 16px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+}
+
+p.c-content-c-dark {
+    color: #454545;
+    padding-bottom: 15px;
+    font-size: 10px;
+    font-weight: 300;
+    font-family: var(--museo-sans);
+}
+
+a.cmpy-card-tags-dark {
+    border-radius: 44px;
+    opacity: 0.8;
+    background: #8E8E8E;
+    padding: 5px 20px;
+    color: rgb(255 255 255 / 80%);
+    font-size: 12px;
+    font-family: var(--museo-sans);
+    font-weight: 400;
+    margin-top: 12px;
+    min-width: 88px;
 }
 
 
