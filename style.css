@@ -12446,6 +12446,20 @@ input#selct-btn-c:checked {
     background-color: #003a75;
 }
 
+input#selct-btn-c-d {
+    appearance: none;
+    width: 18px;
+    border-radius: 50%;
+    height: 18px;
+    border: 1px solid #BDBDBD;
+    background-clip: content-box;
+    padding: 3px;
+}
+
+input#selct-btn-c-d:checked {
+    background-color: #000000;
+}
+
 .right-box-card {
     border-radius: 16px;
     border: 1px solid rgba(0, 0, 0, 0.10);
