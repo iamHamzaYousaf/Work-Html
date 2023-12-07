@@ -12290,6 +12290,35 @@ input#company-promotion {
     width: 122px;
 }
 
+.promotion-table-button {
+    display: flex;
+    padding: 0px 60px 20px 0;
+    justify-content: end;
+    gap: 18px;
+}
+
+button.reject-prom-btn {
+    min-width: 122px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: 1px solid #E15C52;
+    background: #FFF;
+    color: #E15C52;
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+}
+
+button.approve-prom-btn {
+    min-width: 122px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: 1px solid var(--primary-color);
+    background: var(--primary-color);
+    color: var(--color-white);
+    font-weight: var(--font-weight-medium);
+    font-family: var(--museo-sans);
+}
+
 
 /**********promotion slot*****/
 
