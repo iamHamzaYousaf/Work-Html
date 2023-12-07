@@ -12673,7 +12673,7 @@ a.cmpy-card-tags-dark {
 }
 
 
-/*****requesr table pormorion************/
+/**prmotion request table*****/
 
 .four-pormotion-img img {
     margin-right: 9px;
@@ -12689,9 +12689,8 @@ a.cmpy-card-tags-dark {
 }
 
 .dash-td-por {
-    width: 20px;
+    width: 13px;
     border-bottom: 4px solid var(--primary-color);
-    margin: 0 auto;
 }
 
 
