@@ -12280,6 +12280,7 @@ button.edit-form-user {
 
 input#company-promotion {
     margin-right: 5px;
+    accent-color: var(--primary-color);
 }
 
 .th-size-status-req {
