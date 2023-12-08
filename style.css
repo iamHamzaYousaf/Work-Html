@@ -10173,7 +10173,6 @@ section.model-delet-list {
 
 .popup-delet-list-content {
     width: 100%;
-    height: 450px;
     margin: 15px auto 0;
     position: relative;
 }
@@ -12721,6 +12720,16 @@ a.cmpy-card-tags-dark {
 .dash-td-por {
     width: 13px;
     border-bottom: 4px solid var(--primary-color);
+}
+
+.popup-bg-delet-admin-pormotion {
+    width: 370px;
+    border-radius: 32px;
+    background: #FFF;
+    box-shadow: 0px 1px 25px 8px rgba(0, 0, 0, 0.12);
+    margin: 50px auto 0;
+    position: relative;
+    right: 100px;
 }
 
 
