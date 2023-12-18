@@ -13050,6 +13050,16 @@ button.boooking-req {
     box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.14);
 }
 
+.active-color-card {
+    padding: 20px 10px;
+    width: 312px;
+    max-width: 100%;
+    border-radius: 12px;
+    border: 1px solid #FFA033;
+    background: rgba(255, 160, 51, 0.10);
+    box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.24);
+}
+
 p.logo-card-avaliable {
     border-radius: 70px;
     border: 0.5px solid rgba(0, 0, 0, 0.16);
@@ -13170,6 +13180,10 @@ a.cmpy-card-tags-dark {
     font-weight: 400;
     margin-top: 12px;
     min-width: 88px;
+}
+
+img.prom-cross {
+    display: none;
 }
 
 
