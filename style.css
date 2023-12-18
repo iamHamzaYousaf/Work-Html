@@ -10540,6 +10540,7 @@ button.link-profile-jour {
     gap: 10px;
     border: 0;
     margin-bottom: 20px;
+    min-width: 230px;
 }
 
 button.link-mail-jour {
@@ -10553,6 +10554,7 @@ button.link-mail-jour {
     border-radius: 6px;
     border: 1px solid #143975;
     margin-bottom: 20px;
+    min-width: 230px;
 }
 
 p.work-jour-heading {
@@ -10586,12 +10588,6 @@ button.tag-jour-btn {
 
 .summary-col-jour {
     margin-left: 30px;
-    color: var(--text-color);
-    font-size: 13px;
-    text-align: justify;
-    font-family: var(--museo-sans);
-    font-weight: 300;
-    line-height: 26.6px;
 }
 
 p.summary-jour {
@@ -10599,6 +10595,15 @@ p.summary-jour {
     font-size: 18px;
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
+}
+
+p.summary-jour-content {
+    color: var(--text-color);
+    font-size: 16px;
+    text-align: justify;
+    font-family: var(--museo-sans);
+    font-weight: 300;
+    line-height: 26.6px;
 }
 
 ul.nav.nav-tabs.mb-3.tabs-summary {
@@ -10770,7 +10775,7 @@ p.right-col-heading {
     color: #243465;
     font-size: 24px;
     font-family: var(--museo-sans);
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-bold);
 }
 
 p.right-col-percentage {
@@ -10782,9 +10787,9 @@ p.right-col-percentage {
     text-align: center;
     margin: 15px auto !important;
     color: var(--primary-color);
-    padding: 52px 53px;
+    padding: 58px 50px;
     font-family: var(--museo-sans);
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-bold);
 }
 
 p.right-col-sub-heading {
@@ -10792,7 +10797,7 @@ p.right-col-sub-heading {
     padding: 10px 0;
     color: var(--primary-color);
     font-family: var(--museo-sans);
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-bold);
 }
 
 p.right-col-jour-sub-content {
@@ -10801,7 +10806,7 @@ p.right-col-jour-sub-content {
     text-align: justify;
     font-family: var(--museo-sans);
     font-weight: 300;
-    line-height: 26.6px;
+    line-height: 20px;
 }
 
 .tab-size-jour {
