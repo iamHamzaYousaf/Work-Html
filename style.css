@@ -245,17 +245,128 @@ html {
 
 /**** company card*****/
 
-.row-2-companycards {
+.featured-sec {
+    padding: 100px 0px 75px 0;
+    background: var(--card-home-bg);
+  }
+  
+  .featured-col-content {
+    background: var(--color-white);
+    padding: 20px 20px;
+    margin-bottom: 28px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+  }
+  
+  .image-heading {
     display: flex;
+    align-items: flex-start;
+    gap: 0px;
     justify-content: space-between;
-    padding-bottom: 30px;
-}
-
-.row-3-companycards {
+  }
+  
+  .image-heading img {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+    border-radius: 100%;
+  }
+  .j-home-btn-round,
+  button.j-home-btn {
+    background: var(--btn-color);
+    color: var(--primary-color);
+    font-size: 14px;
+    padding: 8px 18px;
+    line-height: 21px;
+    border-radius: 4px;
+    font-family: var(--museo-sans);
+    border: 0;
+    font-weight: var(--font-weight-medium);
+  }
+  .j-home-btn-round{
+    padding: 1px 1px;
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 30px;
-}
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .card-headeing h3 {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 0 10px 0;
+  }
+  
+  .card-text {
+    font-size: 14px;
+    color: var(--text-color);
+    font-weight: 300;
+    line-height: 27px;
+    padding: 0px 0px 24px 0;
+    opacity: 1;
+    font-family: var(--museo-sans);
+    text-align: left;
+    min-height: 78px;
+    height: auto;
+  }
+  
+  button.e-btn {
+    background: var(--accent-color);
+    color: var(--text-color);
+    font-size: 14px;
+    padding: 8px 18px;
+    line-height: 21px;
+    border-radius: 4px;
+    font-family: var(--museo-sans);
+    border: 0;
+    font-weight: var(--font-weight-medium);
+  }
+  
+  .featured-row {
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  button.e-btn-rounded{
+    border-radius: 44px !important;
+    cursor: auto;
+  }
+  .companyCard-cursor{
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width:767px) {
+    .featured-row {
+      padding: 0 10px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+    }
+    .companyCard-cursor{
+      width: 328px;
+      margin-right: 13px
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .companyCard-cursor{
+      width: 290px;
+      margin-right: 13px;
+      height: 310px
+    }
+  
+  }
+  @media only screen and (max-width: 359px) {
+    .companyCard-cursor{
+      width: 250px;
+      margin-right: 13px;
+      height: 310px
+    }
+  
+  }
 
 
 /************/
