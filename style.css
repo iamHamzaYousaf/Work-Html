@@ -12850,11 +12850,11 @@ button.approve-prom-btn {
 .left-box-card-content {
     border-radius: 12px;
     border: 1px solid #FFA033;
-    background: rgba(255, 160, 51, 0.05);
+    background: rgba(255, 160, 51, 0.10);
     box-shadow: 0px 0px 16px 0px rgba(55, 91, 150, 0.12);
     padding: 25px 12px 15px;
     width: 225px;
-}
+  }
 
 .first-row-l-c {
     display: flex;
@@ -12917,14 +12917,14 @@ p.c-name-card {
 p.c-content-c {
     color: rgb(0 0 0 / 100%);
     padding-bottom: 15px;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 300;
     font-family: var(--museo-sans);
-}
-
-a.cmpy-card-tags {
+  }
+  
+  a.cmpy-card-tags {
     border-radius: 44px;
-    background: #FFA033;
+    background: #ffa033;
     padding: 5px 20px;
     color: #000;
     font-size: 12px;
@@ -12932,7 +12932,7 @@ a.cmpy-card-tags {
     font-weight: 400;
     margin-top: 12px;
     min-width: 88px;
-}
+  }
 
 .radio-crd-btn {
     text-align: end;
@@ -13047,23 +13047,23 @@ button.boooking-req {
 }
 
 .card-slot-bg-clr {
-    padding: 20px 10px;
-    border-radius: 12px;
-    border: 1px solid rgba(0, 0, 0, 0.10);
-    background: #FFF;
-    max-width: 100%;
-    width: 312px;
-    box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.14);
+  padding: 20px 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  max-width: 100%;
+  width: 312px;
+  box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.14);
 }
 
 .active-color-card {
-    padding: 20px 10px;
-    width: 312px;
-    max-width: 100%;
-    border-radius: 12px;
-    border: 1px solid #FFA033;
-    background: rgba(255, 160, 51, 0.10);
-    box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.24);
+  padding: 20px 10px;
+  width: 312px;
+  max-width: 100%;
+  border-radius: 12px;
+  border: 1px solid #ffa033;
+  background: rgba(255, 160, 51, 0.1);
+  box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.24);
 }
 
 p.logo-card-avaliable {
@@ -13090,7 +13090,7 @@ p.job-postion-avalibe {
 
 p.job-no-cir-avaliable {
     border-radius: 70px;
-    background: #E2EDFF;
+    background: #e2edff;
     color: var(--primary-color);
     font-size: 12px;
     font-weight: var(--font-weight-bold);
@@ -13100,7 +13100,7 @@ p.job-no-cir-avaliable {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+  }
 
 p.c-name-card-avalibe {
     color: var(--primary-color);
@@ -13113,72 +13113,70 @@ p.c-name-card-avalibe {
 .card-slot-bg-dark-card {
     padding: 20px 10px;
     border-radius: 12px;
-    border: 1px solid rgba(0, 0, 0, 0.10);
-    background: #C1C1C1;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: #D1D1D1;
     max-width: 100%;
     width: 312px;
     box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.14);
-}
-
-p.logo-card-avaliable-dark {
+  }
+  
+  p.logo-card-avaliable-dark {
     border-radius: 70px;
-    border: 0.5px solid #7A7A7A;
+    border: 0.5px solid #868585;
     opacity: 0.8;
-    background: #8E8E8E;
+    background: #B3B1B1;
     color: rgb(255 255 255 / 80%);
     font-size: 12px;
-    font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
     height: 60px;
     width: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-p.job-postion-avalibe-dark {
-    color: #454545;
+  }
+  
+  p.job-postion-avalibe-dark {
+    color: #797979;
     font-size: 16px;
     font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
-}
-
-p.job-no-cir-avaliable-dark {
-    border-radius: 70px;
-    border: 0.5px solid #7A7A7A;
-    opacity: 0.8;
-    background: #8E8E8E;
-    color: rgb(255 255 255 / 80%);
-    font-size: 12px;
-    font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
-    height: 60px;
-    width: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-p.c-name-card-avalibe-dark {
-    color: #454545;
+  }
+  
+  p.job-no-cir-avaliable-dark {
+      border-radius: 70px;
+      border: 0.5px solid #868585;
+      opacity: 0.8;
+      background: #B3B1B1;
+      color: rgb(255 255 255 / 80%);
+      font-size: 12px;
+      font-family: var(--museo-sans);
+      height: 60px;
+      width: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  p.c-name-card-avalibe-dark {
+    color: #797979;
     padding: 15px 0 5px;
     font-size: 16px;
     font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
-}
-
-p.c-content-c-dark {
+  }
+  
+  p.c-content-c-dark {
     color: #454545;
     padding-bottom: 15px;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 300;
     font-family: var(--museo-sans);
-}
-
-a.cmpy-card-tags-dark {
+  }
+  
+  a.cmpy-card-tags-dark {
     border-radius: 44px;
     opacity: 0.8;
-    background: #8E8E8E;
+    background: #B3B1B1;
     padding: 5px 20px;
     color: rgb(255 255 255 / 80%);
     font-size: 12px;
@@ -13186,12 +13184,12 @@ a.cmpy-card-tags-dark {
     font-weight: 400;
     margin-top: 12px;
     min-width: 88px;
-}
-
-img.prom-cross {
+  }
+  
+  img.prom-cross {
     display: none;
-}
-
+  }
+  
 
 /**prmotion request table*****/
 
@@ -13240,7 +13238,7 @@ img.prom-cross {
     padding: 20px 10px;
     border-radius: 12px;
     border: 1px solid rgba(0, 0, 0, 0.10);
-    background: #C1C1C1;
+    background: #D1D1D1;
     max-width: 100%;
     width: 100%;
     box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.14);
@@ -13291,8 +13289,8 @@ p.full-content-c {
     padding-bottom: 0;
 }
 
-p.job-postion-avalibe-dark-full {
-    color: #454545;
+p.job-postion-avalibe-dark-full { 
+    color: #B3B1B1;
     font-size: 16px;
     font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
@@ -13306,17 +13304,17 @@ p.job-title-promtion-dark {
     font-family: var(--museo-sans);
 }
 
-p.logo-card-avaliable-dark-full {
+p.logo-card-avaliable-dark {
     border-radius: 70px;
-    border: 0.5px solid #7A7A7A;
+    border: 0.5px solid #868585;
     opacity: 0.8;
-    background: #8E8E8E;
+    background: #B3B1B1;
     color: rgb(255 255 255 / 80%);
     font-size: 12px;
     font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
-    height: 32px;
-    width: 32px;
+    height: 60px;
+    width: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
