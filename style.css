@@ -14094,7 +14094,7 @@ p.text-prom-below {
 /**********mobile***********/
 
 @media only screen and (max-width:767px) {
-    .no-companyCard{
+    .no-companyCard {
         display: none;
     }
     .menu-items {
@@ -14186,6 +14186,17 @@ p.text-prom-below {
     }
     .sucess-featured {
         display: block;
+    }
+    .featured-row {
+        padding: 0 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .companyCard-cursor {
+        width: 328px;
+        margin-right: 13px
     }
     /***** home page feature sec 1440********/
     /*******/
@@ -15395,6 +15406,22 @@ p.text-prom-below {
     align-items: flex-start;
 }
 
+@media only screen and (max-width: 400px) {
+    .companyCard-cursor {
+        width: 290px;
+        margin-right: 13px;
+        height: 310px
+    }
+}
+
+@media only screen and (max-width: 359px) {
+    .companyCard-cursor {
+        width: 250px;
+        margin-right: 13px;
+        height: 310px
+    }
+}
+
 
 /*****************form test ***************/
 
@@ -15444,34 +15471,4 @@ p.text-prom-below {
     right: 80px;
     bottom: 100px;
     z-index: 1;
-}
-
-@media only screen and (max-width:767px) {
-    .featured-row {
-        padding: 0 10px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        overflow-x: auto;
-    }
-    .companyCard-cursor {
-        width: 328px;
-        margin-right: 13px
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    .companyCard-cursor {
-        width: 290px;
-        margin-right: 13px;
-        height: 310px
-    }
-}
-
-@media only screen and (max-width: 359px) {
-    .companyCard-cursor {
-        width: 250px;
-        margin-right: 13px;
-        height: 310px
-    }
 }
