@@ -14094,6 +14094,9 @@ p.text-prom-below {
 /**********mobile***********/
 
 @media only screen and (max-width:767px) {
+    .no-companyCard{
+        display: none;
+    }
     .menu-items {
         display: none;
     }
