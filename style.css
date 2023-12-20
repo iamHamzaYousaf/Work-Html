@@ -11408,6 +11408,11 @@ thead.tb-heading-deprt th {
     padding-left: 10px;
 }
 
+.th-admin-heading .arrow-icon {
+    width: 20px;
+    height: 20px;
+}
+  
 tbody.tb-admin td {
     padding: 15px 0px 15px 0px;
     font-size: 14px;
