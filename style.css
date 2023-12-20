@@ -13124,7 +13124,6 @@ button.boooking-req {
 
 .avaliable-post-cards {
     display: flex;
-    align-items: flex-start;
     flex-wrap: wrap;
     gap: 15px;
     padding-top: 35px;
