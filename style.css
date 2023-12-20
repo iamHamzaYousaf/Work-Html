@@ -248,31 +248,32 @@ html {
 .featured-sec {
     padding: 100px 0px 75px 0;
     background: var(--card-home-bg);
-  }
-  
-  .featured-col-content {
+}
+
+.featured-col-content {
     background: var(--color-white);
     padding: 20px 20px;
     margin-bottom: 28px;
     border-radius: 12px;
     border: 1px solid rgba(0, 0, 0, 0.20);
-  }
-  
-  .image-heading {
+}
+
+.image-heading {
     display: flex;
     align-items: flex-start;
     gap: 0px;
     justify-content: space-between;
-  }
-  
-  .image-heading img {
+}
+
+.image-heading img {
     height: 60px;
     width: 60px;
     object-fit: contain;
     border-radius: 100%;
-  }
-  .j-home-btn-round,
-  button.j-home-btn {
+}
+
+.j-home-btn-round,
+button.j-home-btn {
     background: var(--btn-color);
     color: var(--primary-color);
     font-size: 14px;
@@ -282,8 +283,9 @@ html {
     font-family: var(--museo-sans);
     border: 0;
     font-weight: var(--font-weight-medium);
-  }
-  .j-home-btn-round{
+}
+
+.j-home-btn-round {
     padding: 1px 1px;
     display: flex;
     justify-content: center;
@@ -291,15 +293,15 @@ html {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-  }
-  
-  .card-headeing h3 {
+}
+
+.card-headeing h3 {
     font-size: 20px;
     font-weight: 700;
     padding: 20px 0 10px 0;
-  }
-  
-  .card-text {
+}
+
+.card-text {
     font-size: 14px;
     color: var(--text-color);
     font-weight: 300;
@@ -310,9 +312,9 @@ html {
     text-align: left;
     min-height: 78px;
     height: auto;
-  }
-  
-  button.e-btn {
+}
+
+button.e-btn {
     background: var(--accent-color);
     color: var(--text-color);
     font-size: 14px;
@@ -322,51 +324,22 @@ html {
     font-family: var(--museo-sans);
     border: 0;
     font-weight: var(--font-weight-medium);
-  }
-  
-  .featured-row {
+}
+
+.featured-row {
     padding: 0 10px;
     display: flex;
     flex-wrap: wrap;
-  }
-  button.e-btn-rounded{
+}
+
+button.e-btn-rounded {
     border-radius: 44px !important;
     cursor: auto;
-  }
-  .companyCard-cursor{
+}
+
+.companyCard-cursor {
     cursor: pointer;
-  }
-  
-  @media only screen and (max-width:767px) {
-    .featured-row {
-      padding: 0 10px;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      overflow-x: auto;
-    }
-    .companyCard-cursor{
-      width: 328px;
-      margin-right: 13px
-    }
-  }
-  
-  @media only screen and (max-width: 400px) {
-    .companyCard-cursor{
-      width: 290px;
-      margin-right: 13px;
-      height: 310px
-    }
-  
-  }
-  @media only screen and (max-width: 359px) {
-    .companyCard-cursor{
-      width: 250px;
-      margin-right: 13px;
-      height: 310px
-    }
-  
-  }
+}
 
 
 /************/
@@ -12965,7 +12938,7 @@ button.approve-prom-btn {
     box-shadow: 0px 0px 16px 0px rgba(55, 91, 150, 0.12);
     padding: 25px 12px 15px;
     width: 225px;
-  }
+}
 
 .first-row-l-c {
     display: flex;
@@ -13031,9 +13004,9 @@ p.c-content-c {
     font-size: 12px;
     font-weight: 300;
     font-family: var(--museo-sans);
-  }
-  
-  a.cmpy-card-tags {
+}
+
+a.cmpy-card-tags {
     border-radius: 44px;
     background: #ffa033;
     padding: 5px 20px;
@@ -13043,7 +13016,7 @@ p.c-content-c {
     font-weight: 400;
     margin-top: 12px;
     min-width: 88px;
-  }
+}
 
 .radio-crd-btn {
     text-align: end;
@@ -13158,23 +13131,23 @@ button.boooking-req {
 }
 
 .card-slot-bg-clr {
-  padding: 20px 10px;
-  border-radius: 12px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  background: #fff;
-  max-width: 100%;
-  width: 312px;
-  box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.14);
+    padding: 20px 10px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: #fff;
+    max-width: 100%;
+    width: 312px;
+    box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.14);
 }
 
 .active-color-card {
-  padding: 20px 10px;
-  width: 312px;
-  max-width: 100%;
-  border-radius: 12px;
-  border: 1px solid #ffa033;
-  background: rgba(255, 160, 51, 0.1);
-  box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.24);
+    padding: 20px 10px;
+    width: 312px;
+    max-width: 100%;
+    border-radius: 12px;
+    border: 1px solid #ffa033;
+    background: rgba(255, 160, 51, 0.1);
+    box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.24);
 }
 
 p.logo-card-avaliable {
@@ -13211,7 +13184,7 @@ p.job-no-cir-avaliable {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
 p.c-name-card-avalibe {
     color: var(--primary-color);
@@ -13229,9 +13202,9 @@ p.c-name-card-avalibe {
     max-width: 100%;
     width: 312px;
     box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.14);
-  }
-  
-  p.logo-card-avaliable-dark {
+}
+
+p.logo-card-avaliable-dark {
     border-radius: 70px;
     border: 0.5px solid #868585;
     opacity: 0.8;
@@ -13244,47 +13217,47 @@ p.c-name-card-avalibe {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  p.job-postion-avalibe-dark {
+}
+
+p.job-postion-avalibe-dark {
     color: #797979;
     font-size: 16px;
     font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
-  }
-  
-  p.job-no-cir-avaliable-dark {
-      border-radius: 70px;
-      border: 0.5px solid #868585;
-      opacity: 0.8;
-      background: #B3B1B1;
-      color: rgb(255 255 255 / 80%);
-      font-size: 12px;
-      font-family: var(--museo-sans);
-      height: 60px;
-      width: 60px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  }
-  
-  p.c-name-card-avalibe-dark {
+}
+
+p.job-no-cir-avaliable-dark {
+    border-radius: 70px;
+    border: 0.5px solid #868585;
+    opacity: 0.8;
+    background: #B3B1B1;
+    color: rgb(255 255 255 / 80%);
+    font-size: 12px;
+    font-family: var(--museo-sans);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p.c-name-card-avalibe-dark {
     color: #797979;
     padding: 15px 0 5px;
     font-size: 16px;
     font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
-  }
-  
-  p.c-content-c-dark {
+}
+
+p.c-content-c-dark {
     color: #454545;
     padding-bottom: 15px;
     font-size: 12px;
     font-weight: 300;
     font-family: var(--museo-sans);
-  }
-  
-  a.cmpy-card-tags-dark {
+}
+
+a.cmpy-card-tags-dark {
     border-radius: 44px;
     opacity: 0.8;
     background: #B3B1B1;
@@ -13295,12 +13268,12 @@ p.c-name-card-avalibe {
     font-weight: 400;
     margin-top: 12px;
     min-width: 88px;
-  }
-  
-  img.prom-cross {
+}
+
+img.prom-cross {
     display: none;
-  }
-  
+}
+
 
 /**prmotion request table*****/
 
@@ -13400,7 +13373,7 @@ p.full-content-c {
     padding-bottom: 0;
 }
 
-p.job-postion-avalibe-dark-full { 
+p.job-postion-avalibe-dark-full {
     color: #B3B1B1;
     font-size: 16px;
     font-weight: var(--font-weight-bold);
@@ -15468,4 +15441,34 @@ p.text-prom-below {
     right: 80px;
     bottom: 100px;
     z-index: 1;
+}
+
+@media only screen and (max-width:767px) {
+    .featured-row {
+        padding: 0 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .companyCard-cursor {
+        width: 328px;
+        margin-right: 13px
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .companyCard-cursor {
+        width: 290px;
+        margin-right: 13px;
+        height: 310px
+    }
+}
+
+@media only screen and (max-width: 359px) {
+    .companyCard-cursor {
+        width: 250px;
+        margin-right: 13px;
+        height: 310px
+    }
 }
