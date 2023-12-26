@@ -10878,11 +10878,9 @@ ul.progressbar-journey li {
     max-width: 88%;
     width: 100%;
     margin-left: 30px;
-}
-
-.right-col-jour {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .name-cand-jour-porgres {
