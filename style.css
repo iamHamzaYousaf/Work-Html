@@ -10855,6 +10855,9 @@ ul.progressbar-journey li {
     outline: 2px solid var(--primary-color);
 }
 
+
+/******header main banner journey***********/
+
 .jour-left-right {
     display: flex;
     align-items: flex-start;
@@ -11044,6 +11047,9 @@ p.summary-jour-content {
     font-weight: 300;
     line-height: 26.6px;
 }
+
+
+/******main tabs of journey***********/
 
 ul.nav.nav-tabs.mb-3.tabs-summary {
     justify-content: center;
@@ -11332,7 +11338,7 @@ p.percentage-summary-similarity-clr {
 }
 
 
-/******first roe journey************/
+/******first row journey************/
 
 .back-arrrow-job-title {
     display: flex;
@@ -11352,6 +11358,9 @@ p.percentage-summary-similarity-clr {
     font-size: 25px;
     color: var(--primary-color);
 }
+
+
+/******tootltips  journey***********/
 
 .img-table-tooltip {
     position: relative;
