@@ -11000,12 +11000,13 @@ button.link-profile-jour {
 
 button.link-mail-jour {
     background: transparent;
-    padding: 12px 24px;
+    padding: 10px 24px;
     color: var(--primary-color);
     font-size: 16px;
     font-family: var(--museo-sans);
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 10px;
     border-radius: 6px;
     border: 1px solid #143975;
