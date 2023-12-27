@@ -10930,6 +10930,12 @@ p.progress-percent-jour {
     gap: 10px;
 }
 
+.four-icon-link-jour img {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+}
+
 .link-profile-btn-jour {
     display: flex;
     flex-direction: column;
@@ -10980,7 +10986,7 @@ ul.info-list-jour li span {
 button.link-profile-jour {
     border-radius: 6px;
     background: #0288D1;
-    padding: 15px 24px;
+    padding: 12px 24px;
     color: #fff;
     font-size: 16px;
     font-family: var(--museo-sans);
@@ -10994,7 +11000,7 @@ button.link-profile-jour {
 
 button.link-mail-jour {
     background: transparent;
-    padding: 15px 24px;
+    padding: 12px 24px;
     color: var(--primary-color);
     font-size: 16px;
     font-family: var(--museo-sans);
