@@ -10924,6 +10924,12 @@ p.progress-percent-jour {
     gap: 20px;
 }
 
+.four-icon-link-jour {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .link-profile-btn-jour {
     display: flex;
     flex-direction: column;
@@ -10974,29 +10980,31 @@ ul.info-list-jour li span {
 button.link-profile-jour {
     border-radius: 6px;
     background: #0288D1;
-    padding: 12px 24px;
+    padding: 15px 24px;
     color: #fff;
     font-size: 16px;
     font-family: var(--museo-sans);
     display: flex;
     gap: 10px;
     border: 0;
+    justify-content: center;
     margin-bottom: 20px;
-    min-width: 230px;
+    min-width: 240px;
 }
 
 button.link-mail-jour {
     background: transparent;
-    padding: 12px 24px;
+    padding: 15px 24px;
     color: var(--primary-color);
     font-size: 16px;
     font-family: var(--museo-sans);
     display: flex;
+    justify-content: center;
     gap: 10px;
     border-radius: 6px;
     border: 1px solid #143975;
     margin-bottom: 20px;
-    min-width: 230px;
+    min-width: 240px;
 }
 
 p.work-jour-heading {
@@ -11504,6 +11512,193 @@ button.resum-btn-p {
     background: transparent;
     font-size: 16px;
     font-weight: var(--font-weight-bold);
+}
+
+.all-content-resume-jour {
+    padding: 50px 60px;
+}
+
+.name-res-jou {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-color);
+    font-size: 32px;
+    text-align: center;
+}
+
+.location-res-j {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.location-res-j p {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.resume-can-info {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    border-bottom: 1px solid rgb(0 0 0 / 20%);
+    gap: 30px;
+    align-items: center;
+}
+
+.box-one-res,
+.box-two-res,
+.box-three-res {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.box-one-res a {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-color);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.box-two-res a {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-color);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.box-three-res a {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.resume-start-jour {
+    border-radius: 10px;
+    overflow: auto;
+    z-index: 1;
+    max-height: 1400px;
+    height: auto;
+}
+
+
+/* width */
+
+.resume-start-jour::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+.resume-start-jour::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 15px;
+}
+
+
+/* Handle */
+
+.resume-start-jour::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: var(--primary-color);
+}
+
+.resume-content-start {
+    padding: 20px 0 50px 0;
+}
+
+.first-heading-res-j {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-color);
+    font-size: 24px;
+}
+
+p.res-sumry-jour {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    padding: 20px 0;
+}
+
+.time-comp-res-jour {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 10px 0;
+}
+
+.sub-heading-res-j {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
+p.res-postion-j {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+p.res-postion-j span {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+ul.resume-job-list {
+    padding: 15px 0 0 20px;
+}
+
+ul.resume-job-list li {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+p.edu-resume {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.certificat-resume {
+    padding-top: 15px;
+}
+
+ul.certificate-res-list {
+    padding: 0px 0 0 20px;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.certification-res-jour {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0 0px 0;
 }
 
 
