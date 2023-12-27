@@ -10943,12 +10943,28 @@ ul.info-list-jour li {
     font-weight: var(--font-weight-medium);
 }
 
-.jour-info-list ul,
-.jour-info-list p {
+ul.info-list-jour li span {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+}
+
+.jour-info-list ul {
     color: var(--text-color);
     font-size: 16px;
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
+    margin-bottom: 4px !important;
+    list-style: none;
+    padding-left: 10px;
+}
+
+.jour-info-list p {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
     margin-bottom: 4px !important;
 }
 
@@ -11067,7 +11083,7 @@ ul.nav.nav-tabs.mb-3.tabs-summary {
 
 p.content-heading-jour {
     color: var(--primary-color);
-    font-size: 20px;
+    font-size: 24px;
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
     border-bottom: 1px solid rgb(0 0 0 / 20%);
@@ -11335,6 +11351,138 @@ p.percentage-summary-similarity-clr {
 .arrow-back-t {
     font-size: 25px;
     color: var(--primary-color);
+}
+
+.img-table-tooltip {
+    position: relative;
+    cursor: pointer;
+}
+
+.good-cv-box-j {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #0AB84D;
+    background: #FFF;
+    box-shadow: 0px 4px 16px 0px rgba(16, 11, 39, 0.08);
+    padding: 8px 12px;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.good-cv-box-j p {
+    color: #0AB84D;
+    font-family: var(--museo-sans);
+    font-size: 12px;
+    font-weight: var(--font-weight-medium);
+}
+
+.good-cv-box-j img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.badreview-cv-box-j {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid var(--error-msg-color);
+    background: #FFF;
+    box-shadow: 0px 4px 16px 0px rgba(16, 11, 39, 0.08);
+    padding: 8px 12px;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.badreview-cv-box-j p {
+    color: var(--error-msg-color);
+    font-family: var(--museo-sans);
+    font-size: 12px;
+    font-weight: var(--font-weight-medium);
+}
+
+.badreview-cv-box-j img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.thinkneed-cv-box-j {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid var(--accent-color);
+    background: #FFF;
+    box-shadow: 0px 4px 16px 0px rgba(16, 11, 39, 0.08);
+    padding: 8px 12px;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.thinkneed-cv-box-j p {
+    color: var(--accent-color);
+    font-family: var(--museo-sans);
+    font-size: 12px;
+    font-weight: var(--font-weight-medium);
+}
+
+.thinkneed-cv-box-j img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.tooltip-table-jour {
+    position: absolute;
+    top: -57px;
+    display: inline-block;
+    left: -4px;
+    padding: 5px;
+    opacity: 0;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+img.show-tooltip:hover~.tooltip-table-jour {
+    opacity: 1;
+}
+
+
+/**resume journy page *******/
+
+.text-resume-buttn-j {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(0 0 0 / 20%);
+    padding-bottom: 25px;
+}
+
+p.content-heading-jour-res {
+    color: var(--primary-color);
+    font-size: 24px;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    padding-bottom: 0px;
+    margin-bottom: 0px !important;
+}
+
+.resume-dwl-pr-btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button.resum-btn-p {
+    min-width: 130px;
+    padding: 10px;
+    border: 0;
+    border-radius: 6px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background: transparent;
+    font-size: 16px;
+    font-weight: var(--font-weight-bold);
 }
 
 
@@ -13919,101 +14067,6 @@ p.text-prom-below {
     font-weight: var(--font-weight-bold);
 }
 
-.img-table-tooltip {
-    position: relative;
-    cursor: pointer;
-}
-
-.good-cv-box-j {
-    display: flex;
-    align-items: center;
-    border-radius: 8px;
-    border: 1px solid #0AB84D;
-    background: #FFF;
-    box-shadow: 0px 4px 16px 0px rgba(16, 11, 39, 0.08);
-    padding: 8px 12px;
-    width: 150px;
-    justify-content: space-between;
-}
-
-.good-cv-box-j p {
-    color: #0AB84D;
-    font-family: var(--museo-sans);
-    font-size: 12px;
-    font-weight: var(--font-weight-medium);
-}
-
-.good-cv-box-j img {
-    width: 24px;
-    height: 24px;
-    object-fit: contain;
-}
-
-.badreview-cv-box-j {
-    display: flex;
-    align-items: center;
-    border-radius: 8px;
-    border: 1px solid var(--error-msg-color);
-    background: #FFF;
-    box-shadow: 0px 4px 16px 0px rgba(16, 11, 39, 0.08);
-    padding: 8px 12px;
-    width: 150px;
-    justify-content: space-between;
-}
-
-.badreview-cv-box-j p {
-    color: var(--error-msg-color);
-    font-family: var(--museo-sans);
-    font-size: 12px;
-    font-weight: var(--font-weight-medium);
-}
-
-.badreview-cv-box-j img {
-    width: 24px;
-    height: 24px;
-    object-fit: contain;
-}
-
-.thinkneed-cv-box-j {
-    display: flex;
-    align-items: center;
-    border-radius: 8px;
-    border: 1px solid var(--accent-color);
-    background: #FFF;
-    box-shadow: 0px 4px 16px 0px rgba(16, 11, 39, 0.08);
-    padding: 8px 12px;
-    width: 150px;
-    justify-content: space-between;
-}
-
-.thinkneed-cv-box-j p {
-    color: var(--accent-color);
-    font-family: var(--museo-sans);
-    font-size: 12px;
-    font-weight: var(--font-weight-medium);
-}
-
-.thinkneed-cv-box-j img {
-    width: 24px;
-    height: 24px;
-    object-fit: contain;
-}
-
-.tooltip-table-jour {
-    position: absolute;
-    top: -57px;
-    display: inline-block;
-    left: -4px;
-    padding: 5px;
-    opacity: 0;
-    font-weight: 500;
-    white-space: nowrap;
-}
-
-img.show-tooltip:hover~.tooltip-table-jour {
-    opacity: 1;
-}
-
 
 /*************responsivness start here ***********/
 
@@ -15910,7 +15963,7 @@ img.show-tooltip:hover~.tooltip-table-jour {
     }
     ul.nav.nav-tabs.mb-3.tabs-summary {
         flex-wrap: nowrap;
-        justify-content: center;
+        justify-content: flex-start;
         overflow: auto;
         padding-bottom: 20px;
     }
@@ -15922,6 +15975,9 @@ img.show-tooltip:hover~.tooltip-table-jour {
     }
     .arrow-back-t {
         font-size: 18px;
+    }
+    .tooltip-table-jour {
+        left: -75px;
     }
 }
 
