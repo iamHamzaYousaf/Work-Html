@@ -11457,6 +11457,18 @@ img.show-tooltip:hover~.tooltip-table-jour {
     opacity: 1;
 }
 
+.attention-box-resume {
+    border-radius: 6px;
+    border: 1px solid var(--accent-color);
+    background: var(--color-white);
+    box-shadow: 0px 4px 16px 0px rgba(16, 11, 39, 0.08);
+    padding: 8px 15px;
+    position: absolute;
+    bottom: 35px;
+    left: -12px;
+    width: 225px;
+}
+
 
 /**resume journy page *******/
 
