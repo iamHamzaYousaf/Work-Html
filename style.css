@@ -10771,7 +10771,7 @@ ul.list-item-delet li:hover {
 /******progressbar journey***********/
 
 .journey-sec {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 ul.progressbar-journey {
@@ -10949,6 +10949,7 @@ ul.info-list-jour {
     padding-left: 0;
     list-style: none;
     line-height: 2.5rem;
+    margin-bottom: 0;
 }
 
 ul.info-list-jour li {
@@ -10998,6 +10999,11 @@ button.link-profile-jour {
     min-width: 240px;
 }
 
+button.link-profile-jour img {
+    height: 24px;
+    width: 24px;
+}
+
 button.link-mail-jour {
     background: transparent;
     padding: 10px 24px;
@@ -11012,6 +11018,11 @@ button.link-mail-jour {
     border: 1px solid #143975;
     margin-bottom: 20px;
     min-width: 240px;
+}
+
+button.link-mail-jour img {
+    height: 24px;
+    width: 24px;
 }
 
 p.work-jour-heading {
@@ -11040,7 +11051,7 @@ button.tag-jour-btn {
 }
 
 .journey-row {
-    padding-top: 30px;
+    padding-top: 15px;
 }
 
 .summary-col-jour {
@@ -11358,7 +11369,7 @@ p.percentage-summary-similarity-clr {
 .back-arrrow-job-title {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 }
 
 .job-title-joourny {
