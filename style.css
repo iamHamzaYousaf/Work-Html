@@ -16109,7 +16109,7 @@ p.text-prom-below {
         width: 100%;
     }
     .left-right-content-jour {
-        padding: 50px 0px;
+        padding: 30px 0px;
     }
     .experience-col,
     .skills-col,
@@ -16212,6 +16212,13 @@ p.text-prom-below {
     }
     .tooltip-table-jour {
         left: -75px;
+    }
+    .attention-box-resume {
+        left: -92px;
+    }
+    p.content-heading-jour,
+    .text-resume-buttn-j {
+        display: none;
     }
 }
 
