@@ -11135,6 +11135,22 @@ p.content-heading-jour {
     box-shadow: 0px 2px 12.4px 4px rgba(20, 57, 117, 0.16);
 }
 
+.ative-all-exper-col {
+    box-shadow: 0px 2px 12.4px 4px rgba(255, 160, 51, 0.16);
+}
+
+.ative-all-skill-col {
+    box-shadow: 0px 2px 12.4px 4px rgba(55, 91, 150, 0.16);
+}
+
+.ative-all-education-col {
+    box-shadow: 0px 2px 12.4px 4px rgba(4, 191, 218, 0.16);
+}
+
+.ative-all-job-summary-col {
+    box-shadow: 0px 2px 12.4px 4px rgba(100, 167, 182, 0.16);
+}
+
 .experience-col {
     border-radius: 12px;
     border: 1px solid rgba(255, 160, 51, 0.25);
@@ -11346,7 +11362,7 @@ p.education-heading-color {
     color: #04BFDA;
 }
 
-p.percentage-education-clr{
+p.percentage-education-clr {
     border: 15px solid #04BFDA;
     color: #04BFDA;
 }
