@@ -8257,7 +8257,7 @@ th.technical-tags-row {
     padding: 8px 12px;
     width: 150px;
     justify-content: space-between;
-    top: -60px;
+    top: -30px;
     left: 70px;
 }
 
@@ -8669,7 +8669,7 @@ background-color: var(--primary-color);
     padding: 8px 12px;
     width: 150px;
     justify-content: space-between;
-    top: -60px;
+    top: -30px;
     left: 45px;
 }
 
@@ -8700,7 +8700,7 @@ background-color: var(--primary-color);
     padding: 8px 12px;
     width: 150px;
     justify-content: space-between;
-    top: -60px;
+    top: -30px;
     left: 8px;
 }
 
