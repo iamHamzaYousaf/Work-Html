@@ -16148,11 +16148,11 @@ p.text-prom-below {
         margin-bottom: 0;
     }
     p.heading-main-jour {
-        font-size: 14px;
+        font-size: 16px;
         text-align: left;
     }
     p.content-main-jour {
-        font-size: 12px;
+        font-size: 14px;
         text-align: left;
     }
     .tabs-content-jour {
@@ -16252,6 +16252,9 @@ p.text-prom-below {
         width: 50px;
         font-size: 16px;
         line-height: 40px;
+    }
+    .col-all-link-tb {
+        width: 100%;
     }
 }
 
