@@ -11342,7 +11342,7 @@ p.right-col-jour-sub-content {
 .tab-size-jour {
     font-size: 18px !important;
     font-family: var(--museo-sans) !important;
-    font-weight: 300 !important;
+    font-weight: 500 !important;
     color: rgba(0, 0, 0, 0.3) !important;
 }
 
@@ -11814,6 +11814,9 @@ button.active-toggle-btn-ver {
     opacity: 1;
 }
 
+
+/**********resume left side page***/
+
 .resume-verivication-form {
     border-radius: 16px;
     border: 1px solid rgba(0, 0, 0, 0.20);
@@ -11990,7 +11993,7 @@ p.edu-resume-left {
 .resume-form-info {
     max-width: 45%;
     width: 100%;
-    padding: 20px;
+    padding: 20px 20px 20px 10px;
 }
 
 .personal-info-right {
@@ -12021,6 +12024,7 @@ p.edu-resume-left {
 .feild-stl-res {
     width: 100%;
     padding: 13px 8px;
+    margin-bottom: 8px;
     border-radius: 8px;
     border: 0.5px solid rgba(0, 0, 0, 0.16);
     background: rgba(221, 222, 238, 0.25);
@@ -12037,6 +12041,9 @@ p.edu-resume-left {
 .address-res {
     padding-top: 15px;
 }
+
+
+/********experince tab form**********/
 
 .experince-resume-right {
     padding: 30px 0;
@@ -12103,9 +12110,197 @@ p.job-title-res-right {
     font-size: 14px;
 }
 
-.accordion-button:not(.collapsed)::after {
+.accordion-button:not(.collapsed)::after,
+.accordion-button.collapsed::after {
     background-image: none;
     display: none;
+}
+
+button.data-tab-res-right {
+    padding: 14px 10px !important;
+    border-radius: 12px !important;
+    border: 1px solid rgba(0, 0, 0, 0.16) !important;
+    background: #FFF !important;
+    box-shadow: 0px 1px 8px 2px rgba(0, 0, 0, 0.06) !important;
+}
+
+button.resume-exper-right-tb {
+    border-radius: 16px !important;
+    border: 1px solid rgba(0, 0, 0, 0.16) !important;
+    background: #FFF !important;
+    box-shadow: 0px 1px 8px 2px rgba(0, 0, 0, 0.06) !important;
+    padding: 0px 20px 20px 15px !important;
+    margin: 0 !important;
+}
+
+.resume-right-f-date {
+    max-width: 50%;
+    width: 100%;
+}
+
+.date-range-date-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.list-search-dropdown-year-resume {
+    position: absolute;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
+    width: 46%;
+    overflow: auto;
+    z-index: 2;
+    margin: 5px 0 0 auto;
+    right: 0;
+    top: 90%;
+    max-height: 185px;
+    height: auto;
+    display: none;
+}
+
+.Year.open .list-search-dropdown-year-resume {
+    display: block;
+}
+
+.month {
+    border: 0.5px solid var(--boder-color);
+    border-radius: 6px;
+}
+
+.list-search-dropdown-month-resume {
+    position: absolute;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
+    width: 46%;
+    overflow: auto;
+    z-index: 2;
+    margin: 5px 0 0 auto;
+    left: 0;
+    top: 90%;
+    max-height: 185px;
+    height: auto;
+    display: none;
+}
+
+.month.open .list-search-dropdown-month-resume {
+    display: block;
+}
+
+
+/* width */
+
+.list-search-dropdown-month-resume::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+/* Track */
+
+.list-search-dropdown-month-resume::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+.list-search-dropdown-month-resume::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: var(--primary-color);
+}
+
+
+/* width */
+
+.list-search-dropdown-year-resume::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+/* Track */
+
+.list-search-dropdown-year-resume::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+.list-search-dropdown-year-resume::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: var(--primary-color);
+}
+
+ul.list-job-title-year-res {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 15px 10px;
+}
+
+ul.list-job-title-year-res li {
+    border-radius: 8px;
+    background: #ffffff;
+    padding: 0px 10px 0 2px;
+    cursor: pointer;
+    color: rgb(0 0 0 / 50%);
+    font-size: var(--skill-text-size);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    line-height: 40px;
+}
+
+ul.list-job-title-year-res li:hover {
+    border-radius: 6px;
+    background: #F2F7FF;
+    color: var(--text-color);
+    font-weight: var(--font-weight-medium);
+}
+
+.present-chek {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 14px;
+    gap: 4px;
+}
+
+input#job-res:checked {
+    accent-color: var(--primary-color) !important;
+}
+
+div#fresume-year {
+    padding: 15px 8px;
+    border: 0px solid var(--boder-color);
+    border-radius: 6px;
+    background: rgba(221, 222, 238, 0.25);
+    width: 100%;
+    text-align: center;
+    -webkit-appearance: none;
+    background-image: url(./image/salary-year.png);
+    background-repeat: no-repeat;
+    background-position: right 5px bottom 15px;
+    background-size: 20px;
+    font-size: 14px;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-color);
+}
+
+.disabl-res-f {
+    opacity: 0.5;
+}
+
+.experince-res-ver-right {
+    padding-bottom: 0px !important;
 }
 
 
