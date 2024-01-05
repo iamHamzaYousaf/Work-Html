@@ -278,14 +278,13 @@
                                                                         <label for="fname">Employer</label><br>
                                                                         <input type="text" placeholder="Employer"
                                                                             class="feild-stl-res form-font-f">
-                                                                        <p class="error-msg">Please enter first name</p>
+                                                                        <p class="error-msg">Please enter Employer Name</p>
                                                                     </div>
-                                                                    <div class="last-name-res">
+                                                                    <div class="last-name-res error-input">
                                                                         <label for="lname">Job Title</label><br>
                                                                         <input type="text" placeholder="Job Title"
                                                                             class="feild-stl-res form-font-f">
-                                                                        <p class="error-msg hide-error">Please enter
-                                                                            last name</p>
+                                                                        <p class="error-msg">Please enter job Title</p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="resume-personal-form f-feild-res">
@@ -293,27 +292,30 @@
                                                                         <label for="fname">City/State</label><br>
                                                                         <input type="text" placeholder="City/State"
                                                                             class="feild-stl-res form-font-f">
-                                                                        <p class="error-msg">Please enter first name</p>
+                                                                        <p class="error-msg">Please City/State Name</p>
                                                                     </div>
-                                                                    <div class="last-name-res">
+                                                                    <div class="last-name-res error-input">
                                                                         <label for="lname">Country</label><br>
                                                                         <input type="text" placeholder="Country"
                                                                             class="feild-stl-res form-font-f">
-                                                                        <p class="error-msg hide-error">Please enter
-                                                                            last name</p>
+                                                                        <p class="error-msg">Please Country Name</p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="resume-personal-form f-feild-res">
                                                                     <div class="first-name-res error-input">
                                                                         <label for="fname">Start Date</label><br>
                                                                         <div class="date-range-date-end">
-                                                                            <div class="resume-right-f-date">
+                                                                            <div class="resume-right-f-date error-input">
                                                                                 <div class="month">
                                                                                     <div id="fresume-year"
                                                                                         class="company-form-dropdownBox-post"
                                                                                         data-toggle="dropdown"
                                                                                         aria-haspopup="true"
                                                                                         aria-expanded="false">Month
+                                                                                    </div>
+                                                                                    <div class="icon-hide-res">
+                                                                                        <img src="../image/salary-year.png" alt="" class="password-icon-togle">
+                                                                                        <img src="../image/warning.png" alt="">
                                                                                     </div>
                                                                                     <div
                                                                                         class="list-search-dropdown-month-resume">
@@ -335,15 +337,19 @@
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="resume-right-f-date">
-                                                                                <div class="Year">
+                                                                            <div class="resume-right-f-date error-input">
+                                                                                <div class="Year-res-v">
                                                                                     <div id="fresume-year"
                                                                                         class="company-form-dropdownBox-post"
                                                                                         data-toggle="dropdown"
                                                                                         aria-haspopup="true"
-                                                                                        aria-expanded="false">Year</div>
-                                                                                    <div
-                                                                                        class="list-search-dropdown-year-resume">
+                                                                                        aria-expanded="false">Year
+                                                                                    </div>
+                                                                                    <div class="icon-hide-res">
+                                                                                        <img src="../image/salary-year.png" alt="" class="password-icon-togle">
+                                                                                        <img src="../image/warning.png" alt="">
+                                                                                    </div>
+                                                                                    <div class="list-search-dropdown-year-resume">
                                                                                         <ul
                                                                                             class="list-job-title-year-res">
                                                                                             <li>2024</li>
@@ -363,85 +369,95 @@
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        <p class="error-msg-date-res">Please enter first name</p>
+                                                                        <p class="error-msg-date-res">Please Enter Month/Year</p>
                                                                     </div>
                                                                     <div class="last-name-res">
-                                                                        <label for="lname">End Date</label><br>
-                                                                        <div class="date-range-date-end">
-                                                                            <div class="resume-right-f-date">
-                                                                                <div class="month">
-                                                                                    <div id="fresume-year"
-                                                                                        class="company-form-dropdownBox-post disabl-res-f"
-                                                                                        data-toggle="dropdown"
-                                                                                        aria-haspopup="true"
-                                                                                        aria-expanded="false">Month
-                                                                                    </div>
-                                                                                    <div
-                                                                                        class="list-search-dropdown-month-resume">
-                                                                                        <ul
-                                                                                            class="list-job-title-year-res">
-                                                                                            <li>Jan</li>
-                                                                                            <li>Feb</li>
-                                                                                            <li>March</li>
-                                                                                            <li>April</li>
-                                                                                            <li>May</li>
-                                                                                            <li>June</li>
-                                                                                            <li>July</li>
-                                                                                            <li>Agu</li>
-                                                                                            <li>Sep</li>
-                                                                                            <li>Octo</li>
-                                                                                            <li>Nov</li>
-                                                                                            <li>Dec</li>
-                                                                                        </ul>
-                                                                                    </div>
+                                                                        <div class="end-date-res-ver">
+                                                                            <div class="labe-end-date">
+                                                                             <label for="lname">End Date</label><br>
+                                                                        </div>
+                                                                        <div class="resume-personal-form-chek">
+                                                                            <div class="last-name-res">
+                                                                                <div class="present-chek">
+                                                                                    <input type="checkbox" name=""
+                                                                                        id="job-res">Present
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="resume-right-f-date">
-                                                                                <div class="Year">
-                                                                                    <div id="fresume-year"
-                                                                                        class="company-form-dropdownBox-post disabl-res-f"
-                                                                                        data-toggle="dropdown"
-                                                                                        aria-haspopup="true"
-                                                                                        aria-expanded="false">Year</div>
-                                                                                    <div
-                                                                                        class="list-search-dropdown-year-resume">
-                                                                                        <ul
-                                                                                            class="list-job-title-year-res">
-                                                                                            <li>2024</li>
-                                                                                            <li>2023</li>
-                                                                                            <li>2022</li>
-                                                                                            <li>2021</li>
-                                                                                            <li>2020</li>
-                                                                                            <li>2019</li>
-                                                                                            <li>2018</li>
-                                                                                            <li>2017</li>
-                                                                                            <li>2016</li>
-                                                                                            <li>2015</li>
-                                                                                            <li>2014</li>
-                                                                                            <li>2013</li>
-                                                                                        </ul>
-                                                                                    </div>
+                                                                        </div>
+                                                                       </div>
+                                                                       <div class="date-range-date-end">
+                                                                        <div class="resume-right-f-date error-input">
+                                                                            <div class="month">
+                                                                                <div id="fresume-year"
+                                                                                    class="company-form-dropdownBox-post"
+                                                                                    data-toggle="dropdown"
+                                                                                    aria-haspopup="true"
+                                                                                    aria-expanded="false">Month
+                                                                                </div>
+                                                                                <div class="icon-hide-res">
+                                                                                    <img src="../image/salary-year.png" alt="" class="password-icon-togle">
+                                                                                    <img src="../image/warning.png" alt="">
+                                                                                </div>
+                                                                                <div
+                                                                                    class="list-search-dropdown-month-resume">
+                                                                                    <ul
+                                                                                        class="list-job-title-year-res">
+                                                                                        <li>Jan</li>
+                                                                                        <li>Feb</li>
+                                                                                        <li>March</li>
+                                                                                        <li>April</li>
+                                                                                        <li>May</li>
+                                                                                        <li>June</li>
+                                                                                        <li>July</li>
+                                                                                        <li>Agu</li>
+                                                                                        <li>Sep</li>
+                                                                                        <li>Octo</li>
+                                                                                        <li>Nov</li>
+                                                                                        <li>Dec</li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="resume-right-f-date error-input">
+                                                                            <div class="Year-res-v">
+                                                                                <div id="fresume-year"
+                                                                                    class="company-form-dropdownBox-post"
+                                                                                    data-toggle="dropdown"
+                                                                                    aria-haspopup="true"
+                                                                                    aria-expanded="false">Year
+                                                                                </div>
+                                                                                <div class="icon-hide-res">
+                                                                                    <img src="../image/salary-year.png" alt="" class="password-icon-togle">
+                                                                                    <img src="../image/warning.png" alt="">
+                                                                                </div>
+                                                                                <div class="list-search-dropdown-year-resume">
+                                                                                    <ul
+                                                                                        class="list-job-title-year-res">
+                                                                                        <li>2024</li>
+                                                                                        <li>2023</li>
+                                                                                        <li>2022</li>
+                                                                                        <li>2021</li>
+                                                                                        <li>2020</li>
+                                                                                        <li>2019</li>
+                                                                                        <li>2018</li>
+                                                                                        <li>2017</li>
+                                                                                        <li>2016</li>
+                                                                                        <li>2015</li>
+                                                                                        <li>2014</li>
+                                                                                        <li>2013</li>
+                                                                                    </ul>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                </div>
-                                                                <div class="resume-personal-form-chek">
-                                                                    <div class="first-name-res error-input">
-                                                                    </div>
-                                                                    <div class="last-name-res">
-                                                                        <div class="present-chek">
-                                                                            <input type="checkbox" name=""
-                                                                                id="job-res">Present
-                                                                        </div>
+                                                                    <p class="error-msg-date-res">Please Enter Month/Year</p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="address-res f-feild-res">
+                                                                <div class="address-res f-feild-res error-input">
                                                                     <label for="lname">Achievements</label><br>
                                                                     <textarea name="" class="feild-stl-res form-font-f"
                                                                         cols="30" rows="7"></textarea>
-                                                                    <p class="error-msg hide-error">Please enter last
-                                                                        name</p>
+                                                                    <p class="error-msg hide-error">Please Enter Roles and Responsibilities</p>
                                                                 </div>
                                                                 <div class="address-res f-feild-res">
                                                                     <div class="two-can-sav-btn"> 
@@ -538,7 +554,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="resume-right-f-date">
-                                                                                <div class="Year">
+                                                                                <div class="Year-res-v">
                                                                                     <div id="fresume-year"
                                                                                         class="company-form-dropdownBox-post"
                                                                                         data-toggle="dropdown"
@@ -599,7 +615,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="resume-right-f-date">
-                                                                                <div class="Year">
+                                                                                <div class="Year-res-v">
                                                                                     <div id="fresume-year"
                                                                                         class="company-form-dropdownBox-post disabl-res-f"
                                                                                         data-toggle="dropdown"
@@ -729,7 +745,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="resume-right-f-date">
-                                                                                <div class="Year">
+                                                                                <div class="Year-res-v">
                                                                                     <div id="fresume-year"
                                                                                         class="company-form-dropdownBox-post"
                                                                                         data-toggle="dropdown"
@@ -790,7 +806,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="resume-right-f-date">
-                                                                                <div class="Year">
+                                                                                <div class="Year-res-v">
                                                                                     <div id="fresume-year"
                                                                                         class="company-form-dropdownBox-post disabl-res-f"
                                                                                         data-toggle="dropdown"
@@ -904,7 +920,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="resume-right-f-date">
-                                                                                <div class="Year">
+                                                                                <div class="Year-res-v">
                                                                                     <div id="fresume-year"
                                                                                         class="company-form-dropdownBox-post"
                                                                                         data-toggle="dropdown"
@@ -965,7 +981,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="resume-right-f-date">
-                                                                                <div class="Year">
+                                                                                <div class="Year-res-v">
                                                                                     <div id="fresume-year"
                                                                                         class="company-form-dropdownBox-post disabl-res-f"
                                                                                         data-toggle="dropdown"
@@ -1202,7 +1218,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="resume-right-f-date">
-                                                                                <div class="Year">
+                                                                                <div class="Year-res-v">
                                                                                     <div id="fresume-year"
                                                                                         class="company-form-dropdownBox-post"
                                                                                         data-toggle="dropdown"
@@ -1263,7 +1279,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="resume-right-f-date">
-                                                                                <div class="Year">
+                                                                                <div class="Year-res-v">
                                                                                     <div id="fresume-year"
                                                                                         class="company-form-dropdownBox-post disabl-res-f"
                                                                                         data-toggle="dropdown"
@@ -1371,7 +1387,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="resume-right-f-date">
-                                                                                <div class="Year">
+                                                                                <div class="Year-res-v">
                                                                                     <div id="fresume-year"
                                                                                         class="company-form-dropdownBox-post"
                                                                                         data-toggle="dropdown"
@@ -1432,7 +1448,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="resume-right-f-date">
-                                                                                <div class="Year">
+                                                                                <div class="Year-res-v">
                                                                                     <div id="fresume-year"
                                                                                         class="company-form-dropdownBox-post disabl-res-f"
                                                                                         data-toggle="dropdown"

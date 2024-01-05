@@ -2465,7 +2465,6 @@ p.error-msg-date-res {
     font-weight: var(--font-weight-medium);
     font-family: var(--museo-sans);
     text-transform: capitalize;
-    position: absolute;
 }
 
 p.error-msg-verify-email {
@@ -2498,11 +2497,6 @@ p.error-email {
     margin-top: 30px;
     display: none;
 }
-
-
-/* .error-input>label {
-color: var(--error-msg-color) !important;
-} */
 
 .error-input>input {
     border: 1px solid var(--error-msg-color) !important;
@@ -2623,6 +2617,16 @@ textarea:focus-visible {
 }
 
 .error-input>#salary {
+    border: 1px solid var(--error-msg-color) !important;
+    outline: 0;
+}
+
+.error-input>.month {
+    border: 1px solid var(--error-msg-color) !important;
+    outline: 0;
+}
+
+.error-input>.Year-res-v {
     border: 1px solid var(--error-msg-color) !important;
     outline: 0;
 }
@@ -10940,6 +10944,14 @@ p.progress-percent-jour {
 .inner-right-jour {
     display: flex;
     gap: 20px;
+    max-width: 50%;
+    width: 100%;
+    justify-content: end;
+}
+
+.inner-left-jour {
+    max-width: 50%;
+    width: 100%;
 }
 
 .four-icon-link-jour {
@@ -10979,6 +10991,7 @@ ul.info-list-jour li {
     font-size: 16px;
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
+    display: flex;
 }
 
 ul.info-list-jour li span {
@@ -10986,6 +10999,7 @@ ul.info-list-jour li span {
     font-size: 16px;
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
+    min-width: 160px !important;
 }
 
 .jour-info-list ul {
@@ -11059,6 +11073,7 @@ p.work-jour-heading {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    padding-bottom: 25px;
 }
 
 button.tag-jour-btn {
@@ -11104,7 +11119,7 @@ ul.nav.nav-tabs.mb-3.tabs-summary {
 }
 
 .table-user-permission {
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 .left-right-content-jour {
@@ -11656,6 +11671,41 @@ button.resum-btn-p {
     font-size: 16px;
 }
 
+
+/*****resueme for mbl********/
+
+.mbl-resume-all {
+    display: none;
+}
+
+.resume-name-mbl {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px !important;
+    border: 1px solid #EEE !important;
+    background: rgba(212, 239, 255, 0.07) !important;
+    padding: 10px;
+}
+
+.resume-name-mbl a {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-color);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.resume-name-mbl a span {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-color);
+    font-size: 14px;
+}
+
+
+/*************/
+
 .resume-start-jour {
     border-radius: 10px;
     overflow: auto;
@@ -12107,15 +12157,8 @@ p.edu-resume-left {
     margin-bottom: 10px;
 }
 
-.experience-info-right span {
-    width: 28px;
-    height: 28px;
-    font-size: 20px;
-    line-height: 20px;
-    border: 1px solid var(--primary-color);
-    border-radius: 8px;
-    padding: 3px;
-    text-align: center;
+.experience-info-right img {
+    height: 40px;
 }
 
 .accordion-body.educ-res-right {
@@ -12217,13 +12260,37 @@ button.resume-exper-right-tb {
     display: none;
 }
 
-.Year.open .list-search-dropdown-year-resume {
+.Year-res-v.open .list-search-dropdown-year-resume {
     display: block;
 }
 
-.month {
+.icon-hide-res {
+    max-width: 18%;
+    width: 100%;
+    top: -3px;
+    left: -8px;
+    position: relative;
+}
+
+.icon-hide-res img {
+    cursor: pointer;
+}
+
+.month,
+.Year-res-v {
+    display: flex;
+    align-items: center;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
+    padding: 15px 8px;
+    background: rgba(221, 222, 238, 0.25);
+    width: 100%;
+    text-align: center;
+    -webkit-appearance: none;
+    font-size: 18px;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-color);
 }
 
 .list-search-dropdown-month-resume {
@@ -12331,23 +12398,7 @@ input#job-res:checked {
     accent-color: var(--primary-color) !important;
 }
 
-div#fresume-year {
-    padding: 15px 8px;
-    border: 0px solid var(--boder-color);
-    border-radius: 6px;
-    background: rgba(221, 222, 238, 0.25);
-    width: 100%;
-    text-align: center;
-    -webkit-appearance: none;
-    background-image: url(./image/salary-year.png);
-    background-repeat: no-repeat;
-    background-position: right 5px bottom 15px;
-    background-size: 20px;
-    font-size: 14px;
-    font-family: var(--museo-sans);
-    font-weight: var(--font-weight-medium);
-    color: var(--text-color);
-}
+div#fresume-year {}
 
 .disabl-res-f {
     opacity: 0.5;
@@ -12364,9 +12415,13 @@ div#fresume-year {
 
 .resume-personal-form-chek {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
     padding-top: 0px;
+}
+
+.end-date-res-ver {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .two-can-sav-btn {
@@ -12536,8 +12591,7 @@ ul.progressbar-steps-res li {
 /*******orignal resume template ********/
 
 .resume-orignal-template {
-    max-width: 800px;
-    height: auto;
+    height: 900px;
 }
 
 
@@ -16991,11 +17045,16 @@ p.text-prom-below {
     .left-col-jour {
         max-width: 20%;
         width: 100%;
+        display: none;
     }
     .right-col-jour {
-        max-width: 74%;
+        max-width: 100%;
         width: 100%;
         margin-left: 15px;
+    }
+    .inner-left-jour {
+        max-width: 100%;
+        width: 100%;
     }
     p.name-can-jou {
         font-size: 18px;
@@ -17068,6 +17127,9 @@ p.text-prom-below {
     .col-all-link-tb {
         width: 100%;
     }
+    .table-user-permission {
+        padding-top: 30px;
+    }
     /********resume verification*/
     .resume-verivication-form {
         flex-direction: column;
@@ -17091,6 +17153,14 @@ p.text-prom-below {
     }
     .progressbar-steps-res li {
         width: 45.33%;
+    }
+    /*****resume hide***********/
+    .resume-start-jour,
+    .resume-orignal-template {
+        display: none;
+    }
+    .mbl-resume-all {
+        display: block;
     }
 }
 
