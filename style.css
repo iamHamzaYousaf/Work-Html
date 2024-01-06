@@ -8167,7 +8167,7 @@ ul.list-table-title-cand li:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 150px;
+    width: 190px;
     margin-left: 10px;
 }
 
@@ -8256,8 +8256,7 @@ th.technical-tags-row {
 
 .cv-cions-review {
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
+    gap: 5px;
     position: relative;
     padding-top: 20px;
 }
@@ -8379,16 +8378,20 @@ tr.bor-botm {
     padding-bottom: 20px !important;
 }
 
-.tag-cell {
-    padding-left: 20px;
+.experience-cell {
+    width: 100px;
+}
+
+.can-status-cell {
+    width: 190px !important;
 }
 
 .date-cell {
     width: 110px;
 }
 
-.experience-cell {
-    width: 100px;
+.tag-cell {
+    padding-left: 20px;
 }
 
 input.td-tr-chk {
