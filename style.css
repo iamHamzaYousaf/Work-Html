@@ -6681,7 +6681,7 @@ p.employee-profile-company-content-date {
 }
 
 .candidate-profile-btn {
-    max-width: 23%;
+    max-width: 24%;
     width: 100%;
 }
 
@@ -6772,14 +6772,24 @@ p.file-size-candidate {
     width: 100%;
     padding: 10px 0;
     background: transparent;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
-    border-radius: 6px;
+    border-radius: 8px;
     font-size: 16px;
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
     outline: 0;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.three-stack-btn button:hover {
+    background: var(--primary-color);
+    color: var(--color-white);
 }
 
 .three-stack-btn button input {
@@ -11769,10 +11779,23 @@ p.res-sumry-jour {
     padding: 15px 0 10px 0;
 }
 
+.project-comp-resr {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0 10px 0;
+}
+
 .sub-heading-res-j {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
+    font-size: 20px;
+}
+
+a.project-link-res-j {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-color);
     font-size: 20px;
 }
 
@@ -12011,10 +12034,23 @@ p.res-sumry-left {
     padding: 15px 0 10px 0;
 }
 
+.project-comp-res-left {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0 10px 0;
+}
+
 .sub-heading-res-left {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
+    font-size: 14px;
+}
+
+a.project-link-res {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-color);
     font-size: 14px;
 }
 
@@ -17042,9 +17078,23 @@ p.text-prom-below {
     p.right-col-heading {
         font-size: 18px
     }
-    .inner-right-jour,
     p.progress-percent-jour {
         display: none;
+    }
+    .jour-left-right {
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0px 1px 12px 4px rgba(0, 0, 0, 0.06);
+        padding: 16px 12px;
+        word-break: break-all;
+    }
+    .link-profile-btn-jour {
+        padding-top: 15px;
+    }
+    .inner-right-jour {
+        max-width: 100%;
+        width: 100%;
+        margin-left: 0px;
     }
     .left-col-jour {
         max-width: 20%;
@@ -17054,11 +17104,17 @@ p.text-prom-below {
     .right-col-jour {
         max-width: 100%;
         width: 100%;
-        margin-left: 15px;
+        margin-left: 0px;
+        flex-direction: column;
     }
     .inner-left-jour {
         max-width: 100%;
         width: 100%;
+    }
+    .icon-row-profile-jour,
+    button.link-profile-jour,
+    button.link-mail-jour {
+        display: none;
     }
     p.name-can-jou {
         font-size: 18px;
