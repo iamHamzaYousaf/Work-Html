@@ -17214,6 +17214,11 @@ p.text-prom-below {
     .progressbar-steps-res li {
         width: 45.33%;
     }
+    button.can-res-btn-last,
+    button.save-res-btn-last {
+        min-width: 175px;
+        padding: 17px 37.5px 16px;
+    }
     /*****resume hide***********/
     .resume-start-jour,
     .resume-orignal-template {
