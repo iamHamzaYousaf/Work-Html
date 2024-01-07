@@ -10960,7 +10960,7 @@ p.progress-percent-jour {
     gap: 20px;
     max-width: 50%;
     width: 100%;
-    justify-content: end;
+    justify-content: left;
 }
 
 .inner-left-jour {
