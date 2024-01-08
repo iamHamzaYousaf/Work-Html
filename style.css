@@ -12249,6 +12249,14 @@ p.job-title-res-right {
     font-size: 14px;
 }
 
+p.job-pro-url-res-right {
+    font-family: var(--museo-sans);
+    font-weight: 500 !important;
+    color: var(--text-color);
+    font-size: 14px;
+    text-decoration: underline;
+}
+
 .accordion-button:not(.collapsed)::after,
 .accordion-button.collapsed::after {
     background-image: none;
