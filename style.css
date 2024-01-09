@@ -12425,6 +12425,7 @@ ul.list-job-title-year-res li {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
     line-height: 40px;
+    text-align: left;
 }
 
 ul.list-job-title-year-res li:hover {
