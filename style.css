@@ -12274,8 +12274,12 @@ p.job-pro-url-res-right {
     font-weight: 500 !important;
     color: var(--text-color);
     font-size: 14px;
+  
+  }
+  
+  p.job-pro-url-res-right-inner {
     text-decoration: underline;
-}
+  }
 
 .accordion-button:not(.collapsed)::after,
 .accordion-button.collapsed::after {
@@ -12366,7 +12370,7 @@ button.resume-exper-right-tb {
     border-radius: 8px;
     background: #FFF;
     box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
-    width: 46%;
+    width: 50%;
     overflow: auto;
     z-index: 2;
     margin: 5px 0 0 auto;
@@ -12445,6 +12449,7 @@ ul.list-job-title-year-res li {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
     line-height: 40px;
+    text-align: left;
 }
 
 ul.list-job-title-year-res li:hover {
@@ -12483,7 +12488,7 @@ div#fresume-year {}
 }
 
 .border-box-clr-res {
-    border: 1px solid red !important;
+    border: 1px solid #E15C52 !important;
 }
 
 .resume-personal-form-chek {
