@@ -12241,7 +12241,7 @@ img.del-res {
     top: 22px;
     right: 0;
     margin: 0 10px;
-    z-index: 3;
+    z-index: 4;
     cursor: pointer;
 }
 
@@ -12250,7 +12250,7 @@ img.del-res-skill {
     top: 11px;
     right: 0;
     margin: 0 10px;
-    z-index: 3;
+    z-index: 4;
     cursor: pointer;
 }
 
