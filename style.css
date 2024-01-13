@@ -11827,6 +11827,19 @@ ul.resume-job-list li {
     text-align: justify;
 }
 
+.cus-resume-job-list {
+    padding: 15px 0 0 0px;
+}
+  
+.cus-resume-job-list li {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+}
+
 p.edu-resume {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
@@ -12067,6 +12080,14 @@ p.res-postion-left span {
     font-weight: var(--font-weight-bold);
     color: var(--text-color);
     font-size: 14px;
+}
+
+.certificat-resume {
+    padding-top: 15px;
+}
+  
+.certificat-resume-heading {
+    padding-bottom: 15px;
 }
 
 ul.certificate-res-list-left {
@@ -17003,7 +17024,7 @@ p.text-prom-below {
     }
     .ql-editor ol,
     .ql-editor ul {
-        padding-left: 0.5em;
+      padding-left: 0em;
     }
     .cities-center-in-form {
         margin: 20px auto 0;
@@ -17346,6 +17367,11 @@ p.text-prom-below {
     text-align: justify;
     font-weight: 300;
     font-style: normal;
+}
+
+.ql-editor ol,
+.ql-editor ul {
+  padding-left: 0em;
 }
 
 .ql-editor p,
