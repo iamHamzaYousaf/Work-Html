@@ -12259,7 +12259,7 @@ p.edu-resume-left {
 
 img.del-res {
     position: absolute;
-    top: 14px;
+    top: 10px;
     right: 0;
     margin: 0 10px;
     z-index: 4;
@@ -12268,7 +12268,7 @@ img.del-res {
 
 img.del-res-skill {
     position: absolute;
-    top: 14px;
+    top: 10px;
     right: 0;
     margin: 0 10px;
     z-index: 4;
