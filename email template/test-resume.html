@@ -85,6 +85,12 @@
             padding: 20px 0;
         }
         
+        table {
+            caption-side: bottom;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
         .name-res-template {
             font-family: var(--museo-sans);
             font-weight: var(--font-weight-bold);
@@ -92,6 +98,7 @@
             font-size: 24px;
             text-align: center;
             margin-bottom: 10px;
+            text-align: center;
         }
         
         .location-res-temp {
@@ -147,8 +154,13 @@
         }
         
         .resume-content-template {
-            padding: 20px 40px;
+            padding: 20px 40px 0;
             display: block;
+        }
+        
+        .resume-content-template-tbl {
+            padding: 0px 40px 0;
+            display: grid
         }
         
         .first-heading-res-temp {
@@ -200,6 +212,16 @@
         
         td.clearfix {
             padding: 15px 0 10px;
+        }
+        
+        .clearfix-cer::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        td.clearfix-cer {
+            padding: 10px 0 0px;
         }
         
         .res-postion-temp {
@@ -262,12 +284,18 @@
             color: var(--text-color);
             font-size: 14px;
             line-height: 28px;
+            margin-bottom: 0;
         }
         
         .certification-res-temp,
         .certificate-resume-temp {
             display: inline-block;
             width: 100%;
+        }
+        
+        tr.certificat-resume {
+            padding-top: 15px;
+            display: block;
         }
         
         .resume-job-list-skill li {
@@ -308,7 +336,6 @@
                             <img src="./resume-images/res-lo.png" alt="">
                             <p>15 Orce Nikolov, Skopje, North Macedonia</p>
                         </div>
-
                     </td>
                 </tr>
                 <tr class="resume-can-info-temp">
@@ -330,94 +357,189 @@
                 <tr class="resume-content-template">
                     <td>
                         <div class="first-heading-res-temp">Summary</div>
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <p class="res-sumry-temp">Senior React Developer with six years of experience in developing finance solutions, focusing on Angular.js/Angular, utilizing various libraries, collaborating with backend teams and actively participating in developing
-                                            multi-cloud environment solutions.
-                                        </p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="first-heading-res-temp">Professional Experience</div>
-                                    </td>
-                                </tr>
-                                <tr class="time-comp-res-temp">
-                                    <td class="clearfix">
-                                        <div class="sub-heading-res-temp left">Systems Limited, Skopje</div>
-                                        <div class="sub-heading-res-temp right">Jan 2022 - Present</div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="res-postion-temp">Position: <span>React Developer</span> </p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <ul class="resume-job-list-temp">
-                                            <li>Currently working on building a system to address Banco BV's FinOps needs.</li>
-                                            <li>Functioning as a full stack developer with a primary focus on the project's front end, utilizing Angular 11 and TypeScript to create a user-friendly and responsive interface.</li>
-                                            <li>Utilizing RxJS as the primary communication library to enhance data flow and user interactions.</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="first-heading-res-temp">Projects</div>
-                                    </td>
-                                </tr>
-                                <tr class="time-comp-res-temp">
-                                    <td class="clearfix">
-                                        <div class="sub-heading-res-temp">Online ticketing system</div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="sub-heading-res-temp">Project URL: <a href="https://github.com/faizanahmed/project/44432.com" class="project-link-template">https://github.com/faizanahmed/project/44432.com</a> </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <ul class="resume-job-list-temp">
-                                            <li>Currently working on building a system to address Banco BV's FinOps needs.</li>
-                                            <li>Functioning as a full stack developer with a primary focus on the project's front end, utilizing Angular 11 and TypeScript to create a user-friendly and responsive interface.</li>
-                                            <li>Utilizing RxJS as the primary communication library to enhance data flow and user interactions.</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr class="time-comp-res-temp">
-                                    <td class="clearfix">
-                                        <div class="sub-heading-res-temp left">Systems Limited, Skopje</div>
-                                        <div class="sub-heading-res-temp right">Jan 2022 - Present</div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="res-postion-temp">Position: <span>React Developer</span> </p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <ul class="resume-job-list-temp">
-                                            <li>Currently working on building a system to address Banco BV's FinOps needs.</li>
-                                            <li>Functioning as a full stack developer with a primary focus on the project's front end, utilizing Angular 11 and TypeScript to create a user-friendly and responsive interface.</li>
-                                            <li>Utilizing RxJS as the primary communication library to enhance data flow and user interactions.</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    </td>
+                </tr>
+                <tr class="resume-content-template-tbl">
+                    <td>
+                        <p class="res-sumry-temp">Senior React Developer with six years of experience in developing finance solutions, focusing on Angular.js/Angular, utilizing various libraries, collaborating with backend teams and actively participating in developing multi-cloud
+                            environment solutions.
+                        </p>
+                    </td>
+                </tr>
+                <tr class="resume-content-template-tbl">
+                    <td>
+                        <div class="first-heading-res-temp">Professional Experience</div>
+                    </td>
+                </tr>
+                <tr class="time-comp-res-temp resume-content-template-tbl">
+                    <td class="clearfix">
+                        <div class="sub-heading-res-temp left">Systems Limited, Skopje</div>
+                        <div class="sub-heading-res-temp right">Jan 2022 - Present</div>
+                    </td>
+                </tr>
+                <tr class="resume-content-template-tbl">
+                    <td>
+                        <p class="res-postion-temp">Position: <span>React Developer</span> </p>
+                    </td>
+                </tr>
+                <tr class="resume-content-template-tbl">
+                    <td>
+                        <ul class="resume-job-list-temp">
+                            <li>Currently working on building a system to address Banco BV's FinOps needs.</li>
+                            <li>Functioning as a full stack developer with a primary focus on the project's front end, utilizing Angular 11 and TypeScript to create a user-friendly and responsive interface.</li>
+                            <li>Utilizing RxJS as the primary communication library to enhance data flow and user interactions.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="resume-content-template-tbl">
+                    <td>
+                        <div class="first-heading-res-temp">Projects</div>
+                    </td>
+                </tr>
+                <tr class="time-comp-res-temp resume-content-template-tbl">
+                    <td class="clearfix">
+                        <div class="sub-heading-res-temp">Online ticketing system</div>
+                    </td>
+                </tr>
+                <tr class="resume-content-template-tbl">
+                    <td>
+                        <div class="sub-heading-res-temp">Project URL: <a href="https://github.com/faizanahmed/project/44432.com" class="project-link-template">https://github.com/faizanahmed/project/44432.com</a> </div>
+                    </td>
+                </tr>
+                <tr class="resume-content-template-tbl">
+                    <td>
+                        <ul class="resume-job-list-temp">
+                            <li>Currently working on building a system to address Banco BV's FinOps needs.</li>
+                            <li>Functioning as a full stack developer with a primary focus on the project's front end, utilizing Angular 11 and TypeScript to create a user-friendly and responsive interface.</li>
+                            <li>Utilizing RxJS as the primary communication library to enhance data flow and user interactions.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="time-comp-res-temp resume-content-template-tbl">
+                    <td class="clearfix">
+                        <div class="sub-heading-res-temp">Tutor Finder</div>
+                    </td>
+                </tr>
+                <tr class="resume-content-template-tbl">
+                    <td>
+                        <div class="sub-heading-res-temp">Project URL: <a href="https://github.com/faizanahmed/project/44432.com" class="project-link-template">https://github.com/faizanahmed/project/44432.com</a> </div>
+                    </td>
+                </tr>
+                <tr class="resume-content-template-tbl">
+                    <td>
+                        <ul class="resume-job-list-temp">
+                            <li>Tutor finder will be a web and android based application that will allow students and parents to find teachers in their vicinity. The system will enable teachers to register themselves in the system through web-based interface
+                                or a mobile application. The teacher will enter its profile information and portfolio along with the subject of expertise. The students and parents will be able to search for tutors for a course or topic.
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="resume-content-template-tbl">
+                    <td>
+                        <div class="first-heading-res-temp">Education</div>
+                    </td>
+                </tr>
+                <tr class="time-comp-res-temp resume-content-template-tbl">
+                    <td class="clearfix">
+                        <div class="sub-heading-res-temp left">University of Toronto</div>
+                        <div class="sub-heading-res-temp right">Sep 2012 - Sep 2016</div>
+                    </td>
+                </tr>
+                <tr class="resume-content-template-tbl">
+                    <td>
+                        <p class="edu-resume-temp">Bachelor’s in I.T</p>
+                    </td>
+                </tr>
+                <tr class="time-comp-res-temp resume-content-template-tbl">
+                    <td class="clearfix">
+                        <div class="sub-heading-res-temp left">University of Toronto</div>
+                        <div class="sub-heading-res-temp right">Sep 2012 - Sep 2016</div>
+                    </td>
+                </tr>
+                <tr class="resume-content-template-tbl">
+                    <td>
+                        <p class="edu-resume-temp">Bachelor’s in I.T</p>
+                    </td>
+                </tr>
+                <tr class="time-comp-res-temp resume-content-template-tbl">
+                    <td class="clearfix">
+                        <div class="sub-heading-res-temp left">University of Toronto</div>
+                        <div class="sub-heading-res-temp right">Sep 2012 - Sep 2016</div>
+                    </td>
+                </tr>
+                <tr class="resume-content-template-tbl">
+                    <td>
+                        <p class="edu-resume-temp">Bachelor’s in I.T</p>
+                    </td>
+                </tr>
+                <tr class="time-comp-res-temp resume-content-template-tbl">
+                    <td class="clearfix">
+                        <div class="sub-heading-res-temp left">University of Toronto</div>
+                        <div class="sub-heading-res-temp right">Sep 2012 - Sep 2016</div>
+                    </td>
+                </tr>
+                <tr class="resume-content-template-tbl">
+                    <td>
+                        <p class="edu-resume-temp">Bachelor’s in I.T</p>
+                    </td>
+                </tr>
+                <tr class="certificat-resume resume-content-template-tbl">
+                    <td>
+                        <div class="first-heading-res-temp">Certifications</div>
+                    </td>
+                </tr>
+                <tr class="time-comp-res-temp resume-content-template-tbl">
+                    <td class="clearfix-cer">
+                        <div class="sub-heading-res-temp left">
+                            <ul class="certificate-res-list-temp">
+                                <li>Oracle Certified Foundations Associate, Java</li>
+                            </ul>
+                        </div>
+                        <div class="sub-heading-res-temp right">Sep 2012 - Sep 2016</div>
+                    </td>
+                </tr>
+                <tr class="time-comp-res-temp resume-content-template-tbl">
+                    <td class="clearfix-cer">
+                        <div class="sub-heading-res-temp left">
+                            <ul class="certificate-res-list-temp">
+                                <li>Oracle Certified Foundations Associate, Java</li>
+                            </ul>
+                        </div>
+                        <div class="sub-heading-res-temp right">Sep 2012 - Sep 2016</div>
+                    </td>
+                </tr>
+                <tr class="certificat-resume resume-content-template-tbl">
+                    <td>
+                        <div class="first-heading-res-temp">Skills</div>
+                    </td>
+                </tr>
+                <tr class="time-comp-res-temp resume-content-template-tbl">
+                    <td class="clearfix-cer">
+                        <div class="sub-heading-res-temp left">
+                            <ul class="resume-job-list-skill">
+                                <li>Python, Machine Learning, Responsive Design, Testing Libraries, GraphQL</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="certificat-resume resume-content-template-tbl">
+                    <td>
+                        <div class="first-heading-res-temp">References</div>
+                    </td>
+                </tr>
+                <tr class="time-comp-res-temp resume-content-template-tbl">
+                    <td class="clearfix-cer">
+                        <div class="sub-heading-res-temp left">
+                            <ul class="resume-job-list-skill">
+                                <li>Available on request</li>
+                            </ul>
+                        </div>
                     </td>
                 </tr>
             </tbody>
         </table>
     </div>
 </section>
-
-<body>
 
 </body>
 

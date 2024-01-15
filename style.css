@@ -11830,7 +11830,7 @@ ul.resume-job-list li {
 .cus-resume-job-list {
     padding: 15px 0 0 0px;
 }
-  
+
 .cus-resume-job-list li {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
@@ -12085,7 +12085,7 @@ p.res-postion-left span {
 .certificat-resume {
     padding-top: 15px;
 }
-  
+
 .certificat-resume-heading {
     padding-bottom: 15px;
 }
@@ -12231,7 +12231,7 @@ p.edu-resume-left {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    align-items: center;
+    align-items: flex-start;
     gap: 10px;
 }
 
@@ -12259,7 +12259,7 @@ p.edu-resume-left {
 
 img.del-res {
     position: absolute;
-    top: 22px;
+    top: 14px;
     right: 0;
     margin: 0 10px;
     z-index: 4;
@@ -12268,7 +12268,7 @@ img.del-res {
 
 img.del-res-skill {
     position: absolute;
-    top: 11px;
+    top: 14px;
     right: 0;
     margin: 0 10px;
     z-index: 4;
@@ -15312,6 +15312,10 @@ p.text-prom-below {
         max-width: 48%;
         width: 100%;
     }
+    button.can-res-btn-last,
+    button.save-res-btn-last {
+        min-width: 200px;
+    }
 }
 
 @media only screen and (max-width:1100px) {
@@ -15443,6 +15447,10 @@ p.text-prom-below {
     /****journey page***/
     .tabs-content-jour {
         width: auto;
+    }
+    button.can-res-btn-last,
+    button.save-res-btn-last {
+        min-width: 180px;
     }
 }
 
@@ -17024,7 +17032,7 @@ p.text-prom-below {
     }
     .ql-editor ol,
     .ql-editor ul {
-      padding-left: 0em;
+        padding-left: 0em;
     }
     .cities-center-in-form {
         margin: 20px auto 0;
@@ -17371,7 +17379,7 @@ p.text-prom-below {
 
 .ql-editor ol,
 .ql-editor ul {
-  padding-left: 0em;
+    padding-left: 0em;
 }
 
 .ql-editor p,
