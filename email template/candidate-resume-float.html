@@ -96,28 +96,37 @@
         
         .location-res-temp {
             text-align: center;
-            width: fit-content;
+            width: 100%;
             margin: auto;
+            padding: 10px 0 0;
+        }
+        
+        table {
+            width: 100%;
+        }
+        
+        .location-res-temp img {
+            display: inline-block;
+            vertical-align: middle;
+            max-width: 24px;
+            height: auto;
+            margin-right: 0px;
         }
         
         .location-res-temp p {
+            display: inline-block;
+            vertical-align: middle;
             font-family: var(--museo-sans);
             font-weight: 400;
             color: var(--text-color);
             font-size: 11px;
             line-height: 22px;
-            float: right;
-            text-align: start;
-            display: contents;
+            margin: 0;
         }
         
         .resume-can-info-temp {
-            /* display: flex; */
-            /* justify-content: center; */
             padding: 15px 0;
             border-bottom: 1px solid rgb(0 0 0 / 20%);
-            gap: 15px;
-            align-items: center;
         }
         
         .resume-can-info-temp table {
@@ -127,13 +136,6 @@
         .resume-can-info-temp table td {
             text-align: center;
         }
-        /* .box-one-res-l,
-        .box-two-res-l,
-        .box-three-res-l {
-            display: flex;
-            align-items: center;
-            gap: 7px;
-        } */
         
         .box-one-res-tem a {
             font-family: var(--museo-sans);
@@ -257,11 +259,6 @@
         .education-resu-temp {
             padding-bottom: 15px;
         }
-        /* .time-comp-res-temp {
-            display: flex;
-            justify-content: space-between;
-            padding: 15px 0 10px 0;
-        } */
         
         ul.certificate-res-list-temp {
             padding: 0px 0 0 20px;
@@ -307,10 +304,22 @@
     <div class="resume-template-verivication">
         <div class="all-content-resume-verification">
             <div class="name-res-template">Faizan Ahmed</div>
-            <div class="location-res-temp">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="location-res-temp">
+                                <img src="./resume-images/res-lo.png" alt="">
+                                <p>15 Orce Nikolov, Skopje, North Macedonia</p>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- <div class="location-res-temp">
                 <img src="./resume-images/res-lo.png" alt="">
                 <p>15 Orce Nikolov, Skopje, North Macedonia</p>
-            </div>
+            </div> -->
             <div class="resume-can-info-temp">
                 <table>
                     <tbody>
@@ -379,26 +388,22 @@
                     <div class="first-heading-res-temp">Projects</div>
                     <div class="time-comp-res-temp">
                         <div class="sub-heading-res-temp">Online ticketing system</div>
-                        <!-- <div class="sub-heading-res-temp">Jan 2015 - Sep 2016</div> -->
                     </div>
                     <div class="project-comp-res-temp">
                         <div class="sub-heading-res-temp">Project URL: <a href="https://github.com/faizanahmed/project/44432.com" class="project-link-template">https://github.com/faizanahmed/project/44432.com</a>
                         </div>
                     </div>
-                    <!-- <p class="edu-resume-temp">Final Year Project (FYP)</p> -->
                     <ul class="resume-job-list-temp">
                         <li>In this project we can make our customer to buy ticket online. This whole project is validated in js and jquery and bootstrap. The design is very simple and user-friendly. lovely and attractive home page contact page is already
                             ready. For page style and design CSS and js is used. HTML is USE for HOME page and Contact US page. for text font styling fontawesome-webfont is used. There is not any admin panel this is only front end for customer. </li>
                     </ul>
                     <div class="time-comp-res-temp">
                         <div class="sub-heading-res-temp">Tutor Finder</div>
-                        <!-- <div class="sub-heading-res-temp">Jan 2015 - Sep 2016</div> -->
                     </div>
                     <div class="project-comp-res-temp">
                         <div class="sub-heading-res-temp">Project URL: <a href="https://github.com/faizanahmed/project/44432.com" class="project-link-template">https://github.com/faizanahmed/project/44432.com</a>
                         </div>
                     </div>
-                    <!-- <p class="edu-resume-temp">WAD (Web & Android Development)</p> -->
                     <ul class="resume-job-list-temp">
                         <li>Tutor finder will be a web and android based application that will allow students and parents to find teachers in their vicinity. The system will enable teachers to register themselves in the system through web-based interface
                             or a mobile application. The teacher will enter its profile information and portfolio along with the subject of expertise. The students and parents will be able to search for tutors for a course or topic.
@@ -454,10 +459,6 @@
                 <div class="first-heading-res-temp">Skills</div>
                 <ul class="resume-job-list-skill">
                     <li>Python, Machine Learning, Responsive Design, Testing Libraries, GraphQL</li>
-                    <!-- <li>Machine Learning</li>
-                    <li>Responsive Design</li>
-                    <li>Testing Libraries</li>
-                    <li>GraphQL</li> -->
                 </ul>
                 <div class="first-heading-res-temp">References</div>
                 <ul class="resume-job-list-skill">
