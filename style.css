@@ -12693,6 +12693,250 @@ ul.progressbar-steps-res li {
 }
 
 
+/***********job candidate resume ********/
+
+.candidate-job-resume {
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    background: #FFF;
+    display: flex;
+    position: relative;
+}
+
+.left-res-txt {
+    max-width: 50%;
+    width: 100%;
+    border-radius: 16px 0px 0px 16px;
+    background: #F8FBFF;
+    padding: 40px 25px 40px 60px;
+}
+
+.main-heading-l {
+    color: #5E82B8;
+    font-family: var(--museo-sans);
+    font-size: 50px;
+    font-weight: var(--font-weight-bold);
+    line-height: 57px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    padding-right: 75px;
+}
+
+p.job-ai-text {
+    color: #000;
+    font-family: var(--museo-sans);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 20px 60px 40px 0px;
+}
+
+.img-stok-job {
+    position: absolute;
+    left: 15px;
+}
+
+.job-form-info {
+    max-width: 50%;
+    width: 100%;
+    padding: 40px 24px 20px 24px;
+}
+
+.job-res-info-right {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-color);
+    font-size: 28px;
+    text-align: left;
+}
+
+p.job-info-res {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: rgb(0 0 0 / 40%);
+    font-size: 16px;
+    line-height: 52px;
+}
+
+.candidate-res-file {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: var(--boarder, 4px);
+    border: 1px dashed #143975;
+    background: rgba(221, 222, 238, 0.25);
+    padding: 15px 0;
+    height: 180px;
+}
+
+.candidate-res-file input {
+    display: none;
+}
+
+label#candidate-res img {
+    cursor: pointer;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+p.candidate-file-res-drop {
+    padding: 25px 0 10px 0;
+    color: #0F0F0F;
+    text-align: center;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+a.brow-res-f {
+    color: var(--primary-color);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+p.file-suport-text {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: rgb(0 0 0 / 50%);
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.job-res-frm-right {
+    padding-top: 20px;
+}
+
+.two-can-sav-btn-right {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 15px;
+}
+
+.can-res-btn-res,
+.save-res-btn-res {
+    flex-grow: 1;
+    max-width: calc(50% - 10px);
+    /* Adjusted to accommodate the gap */
+}
+
+button.can-res-btn-res {
+    border-radius: 6px;
+    border: 1px solid #E15C52;
+    background: #FFF;
+    color: #E15C52;
+    text-align: center;
+    font-family: var(--museo-sans);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 15px;
+    padding: 19px 37.5px 20px;
+}
+
+button.save-res-btn-res {
+    border-radius: 6px;
+    border: 1px solid #143975;
+    background: #143975;
+    color: #fff;
+    text-align: center;
+    font-family: var(--museo-sans);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 15px;
+    padding: 19px 37.5px 20px;
+}
+
+
+/*******candidate resume dession******/
+
+.candidate-card-heading-main {
+    padding: 100px 0 60px 0;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-color);
+    font-size: 28px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.two-card-res {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card-left-res {
+    border-radius: 16px;
+    background: #375B96;
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 5px 0 24px;
+}
+
+.card-right-res {
+    border-radius: 16px;
+    background: #64A7B6;
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0px 0 24px;
+}
+
+.res-main-heading-crd {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-white);
+    font-size: 28px;
+    line-height: 36px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+p.crd-res-content {
+    font-family: var(--museo-sans);
+    font-weight: 400;
+    color: var(--color-white);
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.all-crd-res-content-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.crd-content-res {
+    flex: 1;
+}
+
+.res-custmize-btn {
+    padding-bottom: 20px;
+}
+
+button.res-crd-btn {
+    border-radius: 31px;
+    border: 1px solid #FFF;
+    padding: 11.5px 47px;
+    background: transparent;
+    font-family: var(--museo-sans);
+    font-weight: 600;
+    color: var(--color-white);
+    font-size: 14px;
+    min-width: 220px;
+    text-align: center;
+}
+
+
 /****************admin dashbord start here *****************/
 
 
@@ -15452,6 +15696,20 @@ p.text-prom-below {
     button.save-res-btn-last {
         min-width: 180px;
     }
+    /***********job resume candiate***/
+    .candidate-job-resume {
+        flex-direction: column;
+    }
+    .left-res-txt,
+    .job-form-info {
+        max-width: 100%;
+        width: 100%;
+    }
+    .img-stok-job {
+        position: relative;
+        left: 0px;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width:1000px) {
@@ -17311,6 +17569,31 @@ p.text-prom-below {
     }
     .mbl-resume-all {
         display: block;
+    }
+    /***********job resume candiate***/
+    .left-res-txt {
+        padding: 20px;
+        border-radius: 16px 16px 0 0px;
+    }
+    .main-heading-l {
+        font-size: 24px;
+        line-height: 32px;
+        padding-right: 30px;
+    }
+    .img-stok-job {
+        display: none;
+    }
+    p.job-ai-text {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 0;
+    }
+    .job-form-info {
+        padding: 20px;
+    }
+    .job-res-info-right {
+        font-size: 20px;
+        text-align: left;
     }
 }
 
