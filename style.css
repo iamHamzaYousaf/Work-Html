@@ -2831,6 +2831,72 @@ p.popup-text span {
 }
 
 
+/*********model welcom signup 2 *******************/
+
+section.model-popup-signup {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(0 0 0 / 80%);
+    top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-bg-welcome {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.popup-content-welcome {
+    width: 100%;
+    height: 370px;
+    position: relative;
+}
+
+.close-welcome {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.welcome-logo-model {
+    padding: 40px 0 12px 0;
+    text-align: center;
+}
+
+p.text-welcome-succes {
+    text-align: center;
+    font-size: 24px;
+    color: #0AB84D;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+}
+
+.uper-part-welcome {
+    background: #fff;
+    padding: 20px;
+    border-radius: 23px 23px 0px 0px;
+}
+
+.lower-welcome-success {
+    padding: 40px 20px;
+    border-radius: 0px 0px 23px 23px;
+    background: #0AB84D;
+}
+
+p.text-welcome-sucess {
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--color-white);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+}
+
+
 /**********model wish list*********/
 
 section.model-popup-wishlist {
@@ -11926,10 +11992,10 @@ button.active-toggle-btn-ver {
     border: 1px solid rgba(0, 0, 0, 0.20);
     background: #FFF;
     display: flex;
-    overflow: auto;
+    /* overflow: auto;
     z-index: 1;
     max-height: 1500px;
-    height: auto;
+    height: auto; */
 }
 
 
@@ -12858,7 +12924,7 @@ button.save-res-btn-res {
 /*******candidate resume dession******/
 
 .candidate-card-heading-main {
-    padding: 100px 0 60px 0;
+    padding: 50px 0 60px 0;
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
@@ -12876,19 +12942,27 @@ button.save-res-btn-res {
 .card-left-res {
     border-radius: 16px;
     background: #375B96;
-    width: 460px;
+    width: 420px;
     display: flex;
     justify-content: space-between;
     padding: 32px 5px 0 24px;
 }
 
+.card-left-res:hover {
+    box-shadow: 0px 4px 35.6px 16px rgba(55, 91, 150, 0.20);
+}
+
 .card-right-res {
     border-radius: 16px;
     background: #64A7B6;
-    width: 460px;
+    width: 420px;
     display: flex;
     justify-content: space-between;
     padding: 32px 0px 0 24px;
+}
+
+.card-right-res:hover {
+    box-shadow: 0px 4px 35.6px 16px rgba(100, 167, 182, 0.20);
 }
 
 .res-main-heading-crd {
@@ -12904,7 +12978,7 @@ button.save-res-btn-res {
 p.crd-res-content {
     font-family: var(--museo-sans);
     font-weight: 400;
-    color: var(--color-white);
+    color: rgb(255 255 255 / 80%);
     font-size: 14px;
     line-height: 20px;
     text-align: left;
@@ -12919,11 +12993,12 @@ p.crd-res-content {
     flex: 1;
 }
 
-.res-custmize-btn {
-    padding-bottom: 20px;
-}
 
-button.res-crd-btn {
+/* .res-custmize-btn {
+    padding-bottom: 20px;
+} */
+
+a.res-crd-btn {
     border-radius: 31px;
     border: 1px solid #FFF;
     padding: 11.5px 47px;
@@ -12933,7 +13008,307 @@ button.res-crd-btn {
     color: var(--color-white);
     font-size: 14px;
     min-width: 220px;
+    margin-bottom: 20px !important;
     text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+
+/*********upload resume form*************/
+
+.upload-resume-model-popup-bg {
+    width: 688px;
+    margin: 0 auto;
+}
+
+.popup-resume-content {
+    width: 100%;
+    height: 50%;
+    margin: 50px auto 0;
+    border-radius: 16px;
+    background: #FFF;
+    padding: 20px 40px 60px 40px;
+    position: relative;
+}
+
+.send-correct-resume {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0 0 0;
+}
+
+.close-resmodle-file {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.res-upload-heading {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-color);
+    font-size: 24px;
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+
+.sub-text-upload-res {
+    font-family: var(--museo-sans);
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0px 0 20px 0;
+}
+
+.user-input-resumefile {
+    border-radius: 10px;
+    border: 1px dashed rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    height: 284px;
+}
+
+.user-input-resumefile input {
+    display: none;
+}
+
+label#resumefile-upload-model img {
+    cursor: pointer;
+}
+
+label#resumefile-upload-model {
+    text-align: center;
+}
+
+p.candidate-file-res-upload {
+    font-family: var(--museo-sans);
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 24px 0 0px 0;
+}
+
+p.candidate-file-res-subtext-upload {
+    font-family: var(--museo-sans);
+    color: rgba(0, 0, 0, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 12px 0 24px 0;
+}
+
+p.candidate-file-res-suberror {
+    font-family: var(--museo-sans);
+    color: #E15C52;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 12px 0 24px 0;
+}
+
+.hide-text-res {
+    display: none;
+}
+
+button.slt-file-res {
+    display: flex;
+    padding: 12px 78px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(20, 57, 117, 0.70);
+    background: #FFF;
+    font-family: var(--museo-sans);
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+/*********job experince model resume*************/
+
+.upload-resume-model-popup-bg {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.popup-resume-jbmdl {
+    width: 100%;
+    height: 50%;
+    margin: 50px auto 0;
+    border-radius: 16px 16px 0 0;
+    background: #FFF;
+    padding: 20px 20px 0px 20px;
+    position: relative;
+}
+
+.res-jbmdl-heading {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-color);
+    font-size: 20px;
+    padding: 10px 0 0px 0;
+}
+
+.sub-text-jbmdl-res {
+    font-family: var(--museo-sans);
+    color: #000;
+    font-size: 16px;
+    font-weight: var(--font-weight-bold);
+    padding: 0px 0 15px 0;
+}
+
+.bdr-btm {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+.two-col-jbmdl {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-left-jbmdl {
+    max-width: 50%;
+    width: 100%;
+    margin-right: 12px;
+}
+
+.col-right-jbmdl {
+    max-width: 50%;
+    width: 100%;
+    margin-left: 12px;
+}
+
+.img-text-jbmdl {
+    border-radius: 12px;
+    border: 1px solid #143975;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.14);
+    display: flex;
+    padding: 14px 24px;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.img-text-jbmdl-right {
+    border-radius: 12px;
+    border: 1px solid #FFA033;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.14);
+    display: flex;
+    padding: 14px 24px;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+p.org-text-right {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+p.org-text-right-r {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: #FFA033;
+    font-size: 18px;
+}
+
+p.jb-desc-mdl {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: rgb(0 0 0 / 50%);
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.textedditor-jbmdl {
+    padding-top: 20px;
+    width: 100%;
+}
+
+textarea.txt-editr-jbmdl {
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    background: rgba(221, 222, 238, 0.25);
+}
+
+.all-text-jbmdl {
+    padding: 20px;
+    background: #fff;
+    border-radius: 0px 0px 16px 16px;
+}
+
+.two-btn-jbmdl {
+    padding: 15px 0;
+    display: flex;
+    justify-content: end;
+}
+
+button.regenerate-res {
+    border-radius: 8px;
+    border: 1px solid #143975;
+    background: #143975;
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #ffffff;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    font-size: 18px;
+}
+
+button.replace-res {
+    border-radius: 8px;
+    border: 1px solid #143975;
+    background: transparent;
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: var(--primary-color);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.text-user-f {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+    align-items: end;
+}
+
+textarea.user-inp-jbmdl {
+    width: 100%;
+    padding: 15px 16px;
+    border-radius: 11px;
+    border: 1px solid #143975;
+    background: #F7F7FB;
+}
+
+button.res-img-btn {
+    display: flex;
+    border-radius: 8px;
+    padding: 12px 16px;
+    background: #07944F;
+    border: 0;
 }
 
 
@@ -15885,6 +16260,15 @@ p.text-prom-below {
     button.candidate-btn {
         padding: 15px 60px;
     }
+    /*****candidate-resume-decession*****/
+    .right-crd-img {
+        display: none;
+    }
+    .card-left-res,
+    .card-right-res {
+        width: 350px;
+        padding: 20px;
+    }
 }
 
 
@@ -17594,6 +17978,38 @@ p.text-prom-below {
     .job-res-info-right {
         font-size: 20px;
         text-align: left;
+    }
+    /*****candidate-resume-decession*****/
+    .candidate-card-heading-main {
+        font-size: 22px;
+    }
+    .card-left-res,
+    .card-right-res {
+        width: 189px;
+        padding: 16px 12px;
+    }
+    .res-main-heading-crd {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .res-custmize-btn {
+        padding-bottom: 0px;
+    }
+    a.res-crd-btn {
+        padding: 9.5px 10px;
+        font-size: 13px;
+        min-width: 150px;
+        text-align: center;
+        margin-bottom: 0 !important;
+    }
+    .two-card-res {
+        gap: 10px;
+    }
+    p.crd-res-content {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 26px;
+        padding-bottom: 10px;
     }
 }
 
