@@ -2532,7 +2532,6 @@ textarea:focus-visible {
     background: url('./image/warning.png');
     background-repeat: no-repeat;
     display: block;
-    display: block;
     background-position: 98% center;
     background-size: 20px;
     padding-right: 40px !important;
@@ -12011,11 +12010,11 @@ button.active-toggle-btn-ver {
 /*************/
 
 button.resume-skills-right-tb {
-    border-top: 1px solid rgba(0, 0, 0, 0.16) !important;
+    border-top: 0px solid rgba(0, 0, 0, 0.16) !important;
     background: #FFF !important;
     padding: 0px 20px 20px 15px !important;
     margin: 0 !important;
-    border-radius: 16px !important;
+    border-radius: 12px !important;
     display: block !important;
 }
 
@@ -12819,7 +12818,6 @@ ul.progressbar-steps-res li {
 
 .candidate-job-resume {
     width: 600px;
-    background: #FFF;
     margin: 0 auto;
     position: relative;
 }
@@ -18174,6 +18172,11 @@ p.text-prom-below {
     }
     .res-jbmdl-heading {
         padding: 0;
+    }
+    button.can-res-btn-res,
+    button.save-res-btn-res {
+        font-size: 14px;
+        padding: 16px 10px;
     }
 }
 
