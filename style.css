@@ -11933,6 +11933,29 @@ ul.certificate-res-list {
     padding: 0px 0 0px 0;
 }
 
+.lbl-ai-mdl-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 12px;
+}
+
+a.ai-rec-btn-from {
+    text-decoration: none;
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-white);
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #143975;
+    background: #143975;
+    display: inline-flex;
+    padding: 6px 8px;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /*********resume verivication*************/
 
@@ -11982,6 +12005,18 @@ button.active-toggle-btn-ver {
     font-size: 16px;
     line-height: 18px;
     opacity: 1;
+}
+
+
+/*************/
+
+button.resume-skills-right-tb {
+    border-top: 1px solid rgba(0, 0, 0, 0.16) !important;
+    background: #FFF !important;
+    padding: 0px 20px 20px 15px !important;
+    margin: 0 !important;
+    border-radius: 16px !important;
+    display: block !important;
 }
 
 
@@ -12761,12 +12796,41 @@ ul.progressbar-steps-res li {
 
 /***********job candidate resume ********/
 
+.resume-sec-upload {
+    margin: 50px 0;
+    padding: 20px 0;
+    background: #F1F6FF;
+}
+
+.candidate-job-resume-sec {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.text-mainheadingupload {
+    color: #5E82B8;
+    font-family: var(--museo-sans);
+    font-size: 36px;
+    font-weight: var(--font-weight-bold);
+    line-height: 52px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
 .candidate-job-resume {
-    border-radius: 16px;
-    border: 1px solid rgba(0, 0, 0, 0.16);
+    width: 600px;
     background: #FFF;
-    display: flex;
+    margin: 0 auto;
     position: relative;
+}
+
+p.text-sumtext-upload {
+    color: rgb(0 0 0 / 60%);
+    font-family: var(--museo-sans);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
 }
 
 .left-res-txt {
@@ -12804,9 +12868,13 @@ p.job-ai-text {
 }
 
 .job-form-info {
-    max-width: 50%;
+    max-width: 100%;
     width: 100%;
-    padding: 40px 24px 20px 24px;
+    padding: 0px 10px 0px 10px;
+}
+
+.resume-form-upload {
+    padding-bottom: 50px;
 }
 
 .job-res-info-right {
@@ -12852,7 +12920,7 @@ label#candidate-res img {
 
 p.candidate-file-res-drop {
     padding: 25px 0 10px 0;
-    color: #0F0F0F;
+    color: var(--primary-color);
     text-align: center;
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
@@ -13150,6 +13218,7 @@ button.slt-file-res {
     background: #FFF;
     padding: 20px 20px 0px 20px;
     position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
 }
 
 .res-jbmdl-heading {
@@ -13166,10 +13235,6 @@ button.slt-file-res {
     font-size: 16px;
     font-weight: var(--font-weight-bold);
     padding: 0px 0 15px 0;
-}
-
-.bdr-btm {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
 }
 
 .two-col-jbmdl {
@@ -13240,8 +13305,13 @@ p.jb-desc-mdl {
 textarea.txt-editr-jbmdl {
     width: 100%;
     border-radius: 12px;
+    padding: 12px;
     border: 1px solid rgba(0, 0, 0, 0.16);
     background: rgba(221, 222, 238, 0.25);
+    color: var(--text-color);
+    font-family: var(--museo-sans);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .all-text-jbmdl {
@@ -13295,12 +13365,24 @@ button.replace-res {
     align-items: end;
 }
 
-textarea.user-inp-jbmdl {
+.user-inp-jbmdl {
     width: 100%;
     padding: 15px 16px;
     border-radius: 11px;
     border: 1px solid #143975;
     background: #F7F7FB;
+    max-height: 150px;
+    overflow: auto;
+    height: auto;
+    color: var(--text-color);
+    font-family: var(--museo-sans);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.user-inp-jbmdl:focus-visible {
+    outline: 0;
 }
 
 button.res-img-btn {
@@ -17955,9 +18037,10 @@ p.text-prom-below {
         display: block;
     }
     /***********job resume candiate***/
-    .left-res-txt {
-        padding: 20px;
-        border-radius: 16px 16px 0 0px;
+    .candidate-job-resume-sec,
+    .candidate-job-resume {
+        margin: 0 auto;
+        width: auto;
     }
     .main-heading-l {
         font-size: 24px;
@@ -17973,11 +18056,35 @@ p.text-prom-below {
         padding-bottom: 0;
     }
     .job-form-info {
-        padding: 20px;
+        padding: 20px 0;
     }
     .job-res-info-right {
         font-size: 20px;
         text-align: left;
+    }
+    .text-mainheadingupload {
+        font-size: 24px;
+        line-height: 32px;
+        text-align: left;
+        letter-spacing: 1.44px;
+    }
+    p.text-sumtext-upload {
+        color: rgb(0 0 0 / 100%) !important;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        padding: 10px 0;
+        text-align: left;
+    }
+    label#candidate-res img {
+        width: 40px;
+        height: 35px;
+    }
+    p.candidate-file-res-drop {
+        padding: 0px 0 10px 0;
+    }
+    .candidate-res-file {
+        height: 120px;
     }
     /*****candidate-resume-decession*****/
     .candidate-card-heading-main {
