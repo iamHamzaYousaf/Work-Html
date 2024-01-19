@@ -11937,7 +11937,7 @@ ul.certificate-res-list {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding-bottom: 12px;
+    padding: 12px 0;
 }
 
 a.ai-rec-btn-from {
@@ -13205,15 +13205,36 @@ button.slt-file-res {
 
 /*********job experince model resume*************/
 
-.upload-resume-model-popup-bg {
+.upload-resume-model-jbmdl {
     width: 1040px;
     margin: 0 auto;
+}
+
+.model-jd-upld-scroll {
+    max-height: 550px;
+    height: auto;
+    overflow: auto;
+    margin: 50px 0;
+}
+
+.model-jd-upld-scroll::-webkit-scrollbar {
+    width: 8px;
+}
+
+.model-jd-upld-scroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+.model-jd-upld-scroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: var(--primary-color);
 }
 
 .popup-resume-jbmdl {
     width: 100%;
     height: 50%;
-    margin: 50px auto 0;
     border-radius: 16px 16px 0 0;
     background: #FFF;
     padding: 20px 20px 0px 20px;
@@ -16305,6 +16326,19 @@ p.text-prom-below {
     p.box-heading-f {
         font-size: 20px;
     }
+    /*******jb file upload***********/
+    .two-col-jbmdl {
+        flex-direction: column;
+    }
+    .col-left-jbmdl,
+    .col-right-jbmdl {
+        max-width: 100%;
+        width: 100%;
+        margin: 0px;
+    }
+    .upload-resume-model-jbmdl {
+        width: auto;
+    }
 }
 
 @media only screen and (max-width:860px) {
@@ -18063,10 +18097,10 @@ p.text-prom-below {
         text-align: left;
     }
     .text-mainheadingupload {
-        font-size: 24px;
+        font-size: 21px;
         line-height: 32px;
         text-align: left;
-        letter-spacing: 1.44px;
+        letter-spacing: 1.24px;
     }
     p.text-sumtext-upload {
         color: rgb(0 0 0 / 100%) !important;
@@ -18117,6 +18151,29 @@ p.text-prom-below {
         font-size: 12px;
         line-height: 26px;
         padding-bottom: 10px;
+    }
+    /*******jb file upload***********/
+    .col-left-jbmdl {
+        display: none;
+    }
+    .col-right-jbmdl {
+        max-width: 100%;
+        width: 100%;
+        margin: 0px;
+    }
+    .model-jd-upld-scroll {
+        max-height: 450px;
+    }
+    .two-btn-jbmdl {
+        justify-content: space-between;
+    }
+    button.replace-res,
+    button.regenerate-res {
+        min-width: 175px;
+        margin-right: 0;
+    }
+    .res-jbmdl-heading {
+        padding: 0;
     }
 }
 
