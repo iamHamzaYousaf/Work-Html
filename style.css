@@ -11935,8 +11935,12 @@ ul.certificate-res-list {
 .lbl-ai-mdl-btn {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     padding: 12px 0;
+}
+
+.lbl-ai-mdl-btn label {
+    margin-bottom: 0 !important;
 }
 
 a.ai-rec-btn-from {
@@ -11944,7 +11948,7 @@ a.ai-rec-btn-from {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
     color: var(--color-white);
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 6px;
     border: 1px solid #143975;
     background: #143975;
@@ -12009,6 +12013,16 @@ button.active-toggle-btn-ver {
 
 /*************/
 
+.experince-res-ver-right-skills {
+    padding-bottom: 0px !important;
+    margin-bottom: 10px !important;
+    border-radius: 12px !important;
+    border: 1px solid rgba(0, 0, 0, 0.16) !important;
+    background: #FFF;
+    box-shadow: 0px 1px 8px 2px rgba(0, 0, 0, 0.06);
+    position: relative;
+}
+
 button.resume-skills-right-tb {
     border-top: 0px solid rgba(0, 0, 0, 0.16) !important;
     background: #FFF !important;
@@ -12016,6 +12030,31 @@ button.resume-skills-right-tb {
     margin: 0 !important;
     border-radius: 12px !important;
     display: block !important;
+}
+
+.tags-skills ul.tags-skill-list {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    margin: 8px 0 0px 0;
+    padding: 0;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.tags-skills ul.tags-skill-list li {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    border: 0.5px solid #F2F7FF;
+    background: #E2EDFF;
+    padding: 4px 8px;
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 700;
+    font-family: var(--museo-sans);
 }
 
 
@@ -12405,6 +12444,10 @@ p.job-pro-url-res-right-inner {
 .accordion-button.collapsed::after {
     background-image: none;
     display: none;
+}
+
+a.ai-rec-btn-from {
+    white-space: nowrap;
 }
 
 button.data-tab-res-right {
@@ -13103,7 +13146,7 @@ a.res-crd-btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px 0 0 0;
+    padding: 10px 0 0 0;
 }
 
 .close-resmodle-file {
@@ -13209,25 +13252,7 @@ button.slt-file-res {
 }
 
 .model-jd-upld-scroll {
-    max-height: 550px;
-    height: auto;
-    overflow: auto;
     margin: 50px 0;
-}
-
-.model-jd-upld-scroll::-webkit-scrollbar {
-    width: 8px;
-}
-
-.model-jd-upld-scroll::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
-    border-radius: 10px;
-}
-
-.model-jd-upld-scroll::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-    background-color: var(--primary-color);
 }
 
 .popup-resume-jbmdl {
@@ -13237,7 +13262,6 @@ button.slt-file-res {
     background: #FFF;
     padding: 20px 20px 0px 20px;
     position: relative;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
 }
 
 .res-jbmdl-heading {
@@ -13279,7 +13303,7 @@ button.slt-file-res {
     border: 1px solid #143975;
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.14);
     display: flex;
-    padding: 14px 24px;
+    padding: 12px 24px;
     align-items: flex-start;
     gap: 16px;
 }
@@ -13289,7 +13313,7 @@ button.slt-file-res {
     border: 1px solid #FFA033;
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.14);
     display: flex;
-    padding: 14px 24px;
+    padding: 12px 24px;
     align-items: flex-start;
     gap: 16px;
 }
@@ -13317,16 +13341,23 @@ p.jb-desc-mdl {
 }
 
 .textedditor-jbmdl {
-    padding-top: 20px;
+    margin-top: 10px;
+    padding: 8px;
     width: 100%;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    background: rgba(221, 222, 238, 0.25);
+    color: var(--text-color);
+    font-family: var(--museo-sans);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 textarea.txt-editr-jbmdl {
     width: 100%;
-    border-radius: 12px;
-    padding: 12px;
-    border: 1px solid rgba(0, 0, 0, 0.16);
-    background: rgba(221, 222, 238, 0.25);
+    border-radius: 0px;
+    border: 0px solid rgba(0, 0, 0, 0.16);
+    background: rgb(246 247 251);
     color: var(--text-color);
     font-family: var(--museo-sans);
     font-size: 16px;
@@ -13340,7 +13371,7 @@ textarea.txt-editr-jbmdl {
 }
 
 .two-btn-jbmdl {
-    padding: 15px 0;
+    padding: 12px 0;
     display: flex;
     justify-content: end;
 }
@@ -13357,7 +13388,7 @@ button.regenerate-res {
     color: #ffffff;
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
-    font-size: 18px;
+    font-size: 16px;
 }
 
 button.replace-res {
@@ -13372,7 +13403,7 @@ button.replace-res {
     color: var(--primary-color);
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
-    font-size: 18px;
+    font-size: 16px;
     margin-right: 15px;
 }
 
@@ -13386,7 +13417,7 @@ button.replace-res {
 
 .user-inp-jbmdl {
     width: 100%;
-    padding: 15px 16px;
+    padding: 10px 16px;
     border-radius: 11px;
     border: 1px solid #143975;
     background: #F7F7FB;
@@ -18159,11 +18190,11 @@ p.text-prom-below {
         width: 100%;
         margin: 0px;
     }
-    .model-jd-upld-scroll {
-        max-height: 450px;
-    }
     .two-btn-jbmdl {
         justify-content: space-between;
+    }
+    p.org-text-right-r {
+        font-size: 16px;
     }
     button.replace-res,
     button.regenerate-res {
