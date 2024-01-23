@@ -13483,7 +13483,7 @@ button.res-img-btn {
     margin: 50px auto 0;
     border-radius: 16px;
     background: #FFF;
-    padding: 20px 40px 62px 40px;
+    padding: 20px 40px 20px 40px;
     position: relative;
 }
 
@@ -13493,7 +13493,7 @@ button.res-img-btn {
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.16);
     background: #FFF;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     ;
 }
 
@@ -13532,6 +13532,19 @@ img.dowld-res {
 
 .two-icon-choose-res img {
     max-width: 100%;
+}
+
+.show-less {
+    text-align: end;
+    padding-top: 10px;
+    color: var(--primary-color);
+    font-family: var(--museo-sans);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 8px;
 }
 
 
@@ -18303,6 +18316,28 @@ p.text-prom-below {
     /****resume uploadmodel************/
     .upload-resume-model-popup-bg {
         width: auto;
+    }
+    .popup-resume-content {
+        padding: 20px;
+    }
+    /**choose resume *******/
+    .choose-resume-model-popup-bg {
+        width: auto;
+    }
+    p.name-file-choose {
+        font-size: 14px;
+    }
+    p.date-res-choose {
+        font-size: 12px;
+    }
+    .popup-resume-content-choose {
+        padding: 20px 10px;
+    }
+    .res-name-choose {
+        padding-right: 15px;
+    }
+    .two-icon-choose-res {
+        display: flex;
     }
 }
 
