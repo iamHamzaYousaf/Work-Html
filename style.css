@@ -18209,6 +18209,10 @@ p.text-prom-below {
         font-size: 14px;
         padding: 16px 10px;
     }
+    /****resume uploadmodel************/
+    .upload-resume-model-popup-bg {
+        width: auto;
+    }
 }
 
 .tags-tittles ul.tags-titles-list {
