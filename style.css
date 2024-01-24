@@ -11959,7 +11959,6 @@ a.ai-rec-btn-from {
     align-items: center;
 }
 
-
 a.ai-rec-btn-from {
     white-space: nowrap;
 }
@@ -11968,6 +11967,7 @@ a.ai-rec-btn-from {
     width: 18px;
     height: 18px;
 }
+
 
 /*********resume verivication*************/
 
@@ -13432,23 +13432,27 @@ button.replace-res {
     align-items: end;
 }
 
-.user-inp-jbmdl {
+textarea.user-inp-jbmdl {
     width: 100%;
     padding: 10px 16px;
     border-radius: 11px;
     border: 1px solid #143975;
     background: #F7F7FB;
-    max-height: 150px;
-    overflow: auto;
+    /* max-height: 150px;
+    overflow: auto; */
     height: auto;
     color: var(--text-color);
     font-family: var(--museo-sans);
     font-size: 16px;
     font-weight: 400;
     text-align: justify;
+    max-height: 150px;
+    resize: none;
+    overflow-y: hidden;
+    transition: height 0.3s ease;
 }
 
-.user-inp-jbmdl:focus-visible {
+textarea.user-inp-jbmdl:focus-visible {
     outline: 0;
 }
 
