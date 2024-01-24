@@ -13325,8 +13325,8 @@ section.model-popup-3 {
     gap: 16px;
     margin-bottom: 10px;
 }
-  
-  .img-text-jbmdl-right {
+
+.img-text-jbmdl-right {
     border-radius: 12px;
     border: 1px solid #FFA033;
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.14);
@@ -13435,20 +13435,17 @@ button.replace-res {
 
 textarea.user-inp-jbmdl {
     width: 100%;
-    padding: 10px 16px;
+    padding: 8px 16px;
     border-radius: 11px;
     border: 1px solid #143975;
     background: #F7F7FB;
-    /* max-height: 150px;
-    overflow: auto; */
     height: auto;
     color: var(--text-color);
     font-family: var(--museo-sans);
     font-size: 16px;
     font-weight: 400;
     text-align: justify;
-    max-height: 150px;
-    resize: none;
+    height: 3.5em;
     overflow-y: hidden;
     transition: height 0.3s ease;
 }
