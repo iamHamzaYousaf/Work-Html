@@ -11960,6 +11960,15 @@ a.ai-rec-btn-from {
 }
 
 
+a.ai-rec-btn-from {
+    white-space: nowrap;
+}
+
+.ai-rec-btn-from img {
+    width: 18px;
+    height: 18px;
+}
+
 /*********resume verivication*************/
 
 .resum-verivication-job {
@@ -12452,10 +12461,6 @@ p.job-pro-url-res-right-inner {
 .accordion-button.collapsed::after {
     background-image: none;
     display: none;
-}
-
-a.ai-rec-btn-from {
-    white-space: nowrap;
 }
 
 button.data-tab-res-right {
