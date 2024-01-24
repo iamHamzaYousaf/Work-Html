@@ -13303,6 +13303,12 @@ section.model-popup-3 {
     justify-content: space-between;
 }
 
+.col-left-jbmdl,
+.col-right-jbmdl {
+    display: flex;
+    flex-direction: column;
+}
+
 .col-left-jbmdl {
     max-width: 50%;
     width: 100%;
@@ -13335,6 +13341,7 @@ section.model-popup-3 {
     align-items: flex-start;
     gap: 16px;
     margin-bottom: 10px;
+    flex: 1;
 }
 
 p.org-text-right {
@@ -13407,6 +13414,7 @@ button.regenerate-res {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
     font-size: 16px;
+    min-width: 157px;
 }
 
 button.replace-res {
@@ -13423,6 +13431,7 @@ button.replace-res {
     font-weight: var(--font-weight-bold);
     font-size: 16px;
     margin-right: 15px;
+    min-width: 157px;
 }
 
 .text-user-f {
@@ -18313,7 +18322,7 @@ p.text-prom-below {
     }
     button.replace-res,
     button.regenerate-res {
-        min-width: 175px;
+        min-width: 160px;
         margin-right: 0;
     }
     .res-jbmdl-heading {
