@@ -13259,6 +13259,10 @@ button.slt-file-res {
 
 /*********job experince model resume*************/
 
+section.model-popup-3 {
+    z-index: 5;
+}
+
 .upload-resume-model-jbmdl {
     width: 1040px;
     margin: 0 auto;
