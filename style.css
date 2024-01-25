@@ -13467,6 +13467,10 @@ button.res-img-btn {
     align-items: center;
 }
 
+.res-img-btn img {
+    width: 34px;
+    height: 34px;
+}
 
 /**********choose resume model*********/
 
