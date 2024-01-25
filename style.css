@@ -13325,6 +13325,7 @@ section.model-popup-3 {
     gap: 16px;
     margin-bottom: 10px;
     min-height: 98px;
+    align-items: center;
 }
 
 .img-text-jbmdl-right {
@@ -13337,6 +13338,7 @@ section.model-popup-3 {
     gap: 16px;
     margin-bottom: 10px;
     min-height: 98px;
+    align-items: center;
 }
 
 p.org-text-right {
