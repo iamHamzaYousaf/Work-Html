@@ -13324,9 +13324,10 @@ section.model-popup-3 {
     align-items: flex-start;
     gap: 16px;
     margin-bottom: 10px;
-}
-
-.img-text-jbmdl-right {
+    min-height: 98px;
+  }
+  
+  .img-text-jbmdl-right {
     border-radius: 12px;
     border: 1px solid #FFA033;
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.14);
@@ -13335,6 +13336,7 @@ section.model-popup-3 {
     align-items: flex-start;
     gap: 16px;
     margin-bottom: 10px;
+    min-height: 98px;
 }
 
 p.org-text-right {
