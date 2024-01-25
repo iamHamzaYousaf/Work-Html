@@ -13195,7 +13195,7 @@ a.res-crd-btn {
     justify-content: center;
     align-items: center;
     padding: 40px 0;
-    height: 284px;
+    min-height: 284px;
 }
 
 .user-input-resumefile input {
@@ -13225,7 +13225,7 @@ p.candidate-file-res-subtext-upload {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    padding: 12px 0 24px 0;
+    padding: 12px 0 18px 0;
 }
 
 p.candidate-file-res-suberror {
@@ -13234,7 +13234,7 @@ p.candidate-file-res-suberror {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    padding: 12px 0 24px 0;
+    padding: 0px 0 12px 0;
 }
 
 .hide-text-res {
@@ -13242,10 +13242,7 @@ p.candidate-file-res-suberror {
 }
 
 button.slt-file-res {
-    display: flex;
     padding: 12px 78px;
-    align-items: center;
-    gap: 10px;
     border-radius: 5px;
     border: 1px solid rgba(20, 57, 117, 0.70);
     background: #FFF;
@@ -13309,6 +13306,12 @@ section.model-popup-3 {
     margin-right: 12px;
 }
 
+.col-left-jbmdl,
+.col-right-jbmdl {
+    display: flex;
+    flex-direction: column;
+}
+
 .col-right-jbmdl {
     max-width: 50%;
     width: 100%;
@@ -13324,7 +13327,6 @@ section.model-popup-3 {
     align-items: flex-start;
     gap: 16px;
     margin-bottom: 10px;
-    min-height: 98px;
     align-items: center;
 }
 
@@ -13337,8 +13339,14 @@ section.model-popup-3 {
     align-items: flex-start;
     gap: 16px;
     margin-bottom: 10px;
-    min-height: 98px;
     align-items: center;
+    flex: 1;
+}
+
+.ql-editor {
+    background: #dddeee40!important;
+    height: 270px!important;
+    border: 1px solid #ccc;
 }
 
 p.org-text-right {
@@ -13471,6 +13479,7 @@ button.res-img-btn {
     width: 34px;
     height: 34px;
 }
+
 
 /**********choose resume model*********/
 
