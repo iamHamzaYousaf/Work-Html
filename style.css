@@ -13462,6 +13462,7 @@ button.res-img-btn {
     padding: 12px 16px;
     background: #07944F;
     border: 0;
+    align-items: center;
 }
 
 
