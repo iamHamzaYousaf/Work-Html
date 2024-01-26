@@ -2516,6 +2516,11 @@ p.error-email {
     outline: 0;
 }
 
+.error-input.candidate-res-file{
+    border: 1px dashed var(--error-msg-color) !important;
+    outline: 0;
+}
+
 input:focus-visible,
 textarea:focus-visible {
     outline: 0;
