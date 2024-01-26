@@ -18419,8 +18419,13 @@ p.text-prom-below {
 /* React Quill*/
 
 .ql-editor {
-    height: 270px !important;
     background: rgba(221, 222, 238, 0.25) !important;
+    height: 270px !important;
+    border: 1px solid #ccc;
+  }
+  
+.ql-container.ql-snow {
+    border: none !important;
 }
 
 .ql-editor.ql-blank::before {
