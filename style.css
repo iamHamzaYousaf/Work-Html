@@ -12959,7 +12959,7 @@ p.job-info-res {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border-radius: var(--boarder, 4px);
+    border-radius: var(--boarder, 8px);
     border: 1px dashed #143975;
     background: rgba(221, 222, 238, 0.25);
     padding: 15px 0;
