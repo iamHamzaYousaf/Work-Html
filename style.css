@@ -2516,7 +2516,7 @@ p.error-email {
     outline: 0;
 }
 
-.error-input.candidate-res-file{
+.error-input.candidate-res-file {
     border: 1px dashed var(--error-msg-color) !important;
     outline: 0;
 }
@@ -13488,9 +13488,10 @@ button.res-img-btn {
 
 /**********choose resume model*********/
 
-.choose-resume-model-popup-bg {
+.choose-job-model-popup-bg {
     width: 688px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .choose-upload-heading {
@@ -13508,17 +13509,21 @@ button.res-img-btn {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    padding: 0px 0 20px 0;
+    padding: 0px 0 12px 0;
 }
 
 .popup-resume-content-choose {
     width: 100%;
-    height: 50%;
+    height: 660px;
     margin: 50px auto 0;
     border-radius: 16px;
     background: #FFF;
     padding: 20px 40px 20px 40px;
     position: relative;
+}
+
+.popup-resume-content-onshowless {
+    overflow-y: scroll;
 }
 
 .choose-res-row {
@@ -13528,7 +13533,25 @@ button.res-img-btn {
     border: 1px solid rgba(0, 0, 0, 0.16);
     background: #FFF;
     margin-bottom: 8px;
-    ;
+}
+
+.choose-remove-row {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    background: #E15C52;
+    margin-bottom: 8px;
+    justify-content: center;
+}
+
+.remove-f-mdl {
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    font-family: var(--museo-sans);
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .choose-res-all-content {
@@ -13536,7 +13559,7 @@ button.res-img-btn {
     justify-content: space-between;
     width: 100%;
     align-items: center;
-    padding: 11px 12px 11px 8px;
+    padding: 9px 12px 9px 8px;
     border-left: 1px solid rgba(0, 0, 0, 0.16);
 }
 
@@ -13547,8 +13570,24 @@ button.res-img-btn {
 p.name-file-choose {
     color: #000;
     font-family: var(--museo-sans);
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+a.job-link-modl {
+    color: var(--primary-color);
+    font-family: var(--museo-sans);
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+span.link-mdl-j {
+    color: var(--primary-color);
+    font-family: var(--museo-sans);
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 p.date-res-choose {
@@ -13570,15 +13609,38 @@ img.dowld-res {
 
 .show-less {
     text-align: end;
-    padding-top: 10px;
+    padding: 10px 0;
     color: var(--primary-color);
     font-family: var(--museo-sans);
     font-size: 16px;
     font-weight: 400;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     gap: 8px;
+    position: relative;
+    cursor: pointer;
+}
+
+.show-less::before,
+.show-less::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+}
+
+.show-less::before {
+    left: 0;
+    width: calc(50% - 71px);
+    border-top: 1px solid rgb(0 0 0 / 20%);
+    top: 20px;
+}
+
+.show-less::after {
+    right: 0;
+    width: calc(50% - 71px);
+    border-top: 1px solid rgb(0 0 0 / 20%);
+    top: 20px;
 }
 
 
@@ -18427,8 +18489,8 @@ p.text-prom-below {
     background: rgba(221, 222, 238, 0.25) !important;
     height: 270px !important;
     border: 1px solid #ccc;
-  }
-  
+}
+
 .ql-container.ql-snow {
     border: none !important;
 }
