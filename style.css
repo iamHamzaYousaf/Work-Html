@@ -13522,8 +13522,25 @@ button.res-img-btn {
     position: relative;
 }
 
-.popup-resume-content-onshowless {
-    overflow-y: scroll;
+.scroll-resume-mdl-job {
+    height: auto;
+    overflow: auto;
+    max-height: 350px;
+}
+
+.scroll-resume-mdl-job::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scroll-resume-mdl-job::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+.scroll-resume-mdl-job::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: var(--primary-color);
 }
 
 .choose-res-row {
@@ -18410,7 +18427,8 @@ p.text-prom-below {
         padding: 16px 10px;
     }
     /****resume uploadmodel************/
-    .upload-resume-model-popup-bg {
+    .upload-resume-model-popup-bg,
+    .choose-job-model-popup-bg {
         width: auto;
     }
     .popup-resume-content {
@@ -18430,7 +18448,11 @@ p.text-prom-below {
         padding: 20px 10px;
     }
     .res-name-choose {
-        padding-right: 15px;
+        padding-right: 10px;
+    }
+    img.dowld-res {
+        padding-right: 8px;
+        margin-right: 8px;
     }
     .two-icon-choose-res {
         display: flex;
