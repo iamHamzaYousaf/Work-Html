@@ -13523,13 +13523,13 @@ button.res-img-btn {
 }
 
 .scroll-resume-mdl-job {
-    height: auto;
     overflow: auto;
-    max-height: 350px;
+    max-height: 280px;
+    overflow-y: auto;
 }
 
 .scroll-resume-mdl-job::-webkit-scrollbar {
-    width: 0px;
+    width: 8px;
 }
 
 .scroll-resume-mdl-job::-webkit-scrollbar-track {
@@ -13550,6 +13550,7 @@ button.res-img-btn {
     border: 1px solid rgba(0, 0, 0, 0.16);
     background: #FFF;
     margin-bottom: 8px;
+    margin-right: 8px;
 }
 
 .choose-remove-row {
@@ -13560,6 +13561,7 @@ button.res-img-btn {
     background: #E15C52;
     margin-bottom: 8px;
     justify-content: center;
+    margin-right: 15px;
 }
 
 .remove-f-mdl {
