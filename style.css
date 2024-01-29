@@ -12412,6 +12412,7 @@ p.job-pro-url-res-right {
     font-weight: 500 !important;
     color: var(--text-color);
     font-size: 14px;
+    word-break: break-all;
 }
 
 p.job-pro-url-res-right-inner {
@@ -13536,6 +13537,7 @@ button.res-img-btn {
     align-items: center;
     padding: 9px 12px 9px 8px;
     border-left: 1px solid rgba(0, 0, 0, 0.16);
+    gap: 10px;
 }
 
 .pdf-res-icon {
@@ -13555,6 +13557,7 @@ a.job-link-modl {
     font-size: 12px;
     font-weight: 600;
     text-decoration: underline;
+    word-break: break-all;
 }
 
 span.link-mdl-j {
@@ -13578,6 +13581,12 @@ img.dowld-res {
     border-right: 1px solid rgba(0, 0, 0, 0.16);
     height: 14px;
     object-fit: contain;
+}
+
+.two-icon-choose-res {
+    max-width: 15%;
+    text-align: end;
+    width: 100%;
 }
 
 .two-icon-choose-res img {
@@ -18533,6 +18542,9 @@ p.text-prom-below {
     }
     .two-icon-choose-res {
         display: flex;
+        max-width: 18%;
+        text-align: end;
+        width: 100%;
     }
     /*****term and condition ploicy pages********/
     section.term-condition {
