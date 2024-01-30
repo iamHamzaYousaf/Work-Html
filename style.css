@@ -12106,7 +12106,7 @@ height: auto; */
 .resume-can-info-left {
     display: flex;
     justify-content: center;
-    padding: 15px 0;
+    padding: 15px 10px;
     border-bottom: 1px solid rgb(0 0 0 / 20%);
     gap: 7px;
     align-items: center;
@@ -12126,6 +12126,7 @@ height: auto; */
     color: var(--text-color);
     font-size: 11px;
     text-decoration: none;
+    word-break: break-all;
 }
 
 .box-two-res-l a {
@@ -12134,6 +12135,7 @@ height: auto; */
     color: var(--text-color);
     font-size: 11px;
     text-decoration: none;
+    word-break: break-all;
 }
 
 .box-three-res-l a {
@@ -12141,6 +12143,7 @@ height: auto; */
     font-weight: var(--font-weight-bold);
     color: var(--text-color);
     font-size: 11px;
+    word-break: break-all;
 }
 
 .first-heading-res-left {
@@ -13042,8 +13045,12 @@ button.save-res-btn-res {
     background: #64A7B6;
     width: 420px;
     display: flex;
-    justify-content: space-between;
-    padding: 32px 0px 0 24px;
+    justify-content: space-around;
+    padding: 32px 0px 0 20px;
+}
+
+.right-crd-img {
+    padding-right: 2px;
 }
 
 .card-right-res:hover {
@@ -18502,8 +18509,9 @@ p.text-prom-below {
     }
     button.replace-res,
     button.regenerate-res {
-        min-width: 160px;
+        min-width: 172px;
         margin-right: 0;
+        padding: 10px 16px;
     }
     .res-jbmdl-heading {
         padding: 0;
