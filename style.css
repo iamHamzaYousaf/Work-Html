@@ -2801,8 +2801,8 @@ section.model-popup-2 {
 
 .close-img {
     position: absolute;
-    right: 15px;
-    top: 15px;
+    right: 10px;
+    top: 10px;
     cursor: pointer;
 }
 
@@ -13129,9 +13129,11 @@ a.res-crd-btn {
     width: 100%;
     height: 50%;
     margin: 50px auto 0;
-    border-radius: 16px;
-    background: #FFF;
-    padding: 20px 40px 60px 40px;
+    border-radius: 10px;
+    border: 1px solid #ebeffa;
+    background: var(--White, #fff);
+    box-shadow: 0px 17px 34px 0px rgba(0, 0, 0, 0.1);
+    padding: 24px;
     position: relative;
 }
 
@@ -13140,7 +13142,6 @@ a.res-crd-btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 0 0 0;
 }
 
 .close-resmodle-file {
@@ -13151,12 +13152,15 @@ a.res-crd-btn {
 }
 
 .res-upload-heading {
-    font-family: var(--museo-sans);
-    font-weight: var(--font-weight-bold);
+    font-size: 20px;
     color: var(--primary-color);
-    font-size: 24px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--museo-sans);
+    line-height: 20px;
+    text-transform: capitalize;
+    padding: 12px 0;
     text-align: center;
-    padding: 12px 0 12px 0;
+    border-bottom: 1px solid #D0D5DD;
 }
 
 .sub-text-upload-res {
@@ -13254,11 +13258,11 @@ p.candidate-file-res-subtext-upload {
 
 p.candidate-file-res-suberror {
     font-family: var(--museo-sans);
-    color: #E15C52;
+    color: #e15c52;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    padding: 0px 0 12px 0;
+    padding: 12px 0 10px 0;
 }
 
 .hide-text-res {
@@ -18578,7 +18582,8 @@ p.text-prom-below {
     }
     /****resume uploadmodel************/
     .upload-resume-model-popup-bg,
-    .choose-job-model-popup-bg {
+    .choose-job-model-popup-bg,
+    .popup-bg-employee {
         width: auto;
     }
     .popup-resume-content {
