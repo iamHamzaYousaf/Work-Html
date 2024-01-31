@@ -13121,7 +13121,7 @@ a.res-crd-btn {
 /*********upload resume form*************/
 
 .upload-resume-model-popup-bg {
-    width: 688px;
+    width: 680px;
     margin: 0 auto;
 }
 
@@ -13249,7 +13249,7 @@ p.candidate-file-res-subtext-upload {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    padding: 12px 0 18px 0;
+    padding: 12px 0 10px 0;
 }
 
 p.candidate-file-res-suberror {
