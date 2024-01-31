@@ -1861,7 +1861,9 @@ button.password-btn {
 }
 
 .signup-here a {
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--accent-color);
 }
 
 .or-divider {
@@ -2799,8 +2801,8 @@ section.model-popup-2 {
 
 .close-img {
     position: absolute;
-    right: 25px;
-    top: 25px;
+    right: 15px;
+    top: 15px;
     cursor: pointer;
 }
 
@@ -3180,7 +3182,7 @@ section.model-popup-employee {
 }
 
 .popup-bg-employee {
-    width: 800px;
+    width: 680px;
     margin: 0 auto;
 }
 
@@ -3197,24 +3199,29 @@ section.model-popup-employee {
 }
 
 p.model-employee-title {
-    font-size: 17px;
-    color: #000;
+    font-size: 20px;
+    color: var(--primary-color);
     font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
     line-height: 20px;
     text-transform: capitalize;
-    padding-bottom: 20px;
+    padding: 12px 0;
+    text-align: center;
     border-bottom: 1px solid #D0D5DD;
 }
 
 p.employee-model-content {
-    color: #000;
-    text-align: justify;
+    color: var(--primary-color);
+    text-align: center;
     font-family: var(--museo-sans);
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 20px;
     padding: 20px 0;
+}
+
+p.employee-model-content span {
+    font-weight: 600;
 }
 
 .employee-img-box {
@@ -3222,7 +3229,7 @@ p.employee-model-content {
     border: 1px dashed var(--primary-color);
     background: #F2F7FF;
     width: 100%;
-    height: 350px;
+    height: 280px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -3265,6 +3272,7 @@ p.brow-btn {
     font-family: var(--museo-sans);
     line-height: 14px;
     padding: 16px 0;
+    margin-top: 20px;
 }
 
 .employee-img-btns {
@@ -12630,7 +12638,7 @@ div#fresume-year {}
 }
 
 .border-box-clr-res {
-    border: 1px solid #E15C52 !important;
+    border: 1px solid #FFA033 !important;
 }
 
 .resume-personal-form-chek {
@@ -13148,7 +13156,7 @@ a.res-crd-btn {
     color: var(--primary-color);
     font-size: 24px;
     text-align: center;
-    padding: 20px 0 10px 0;
+    padding: 12px 0 12px 0;
 }
 
 .sub-text-upload-res {
@@ -13160,6 +13168,21 @@ a.res-crd-btn {
     padding: 0px 0 20px 0;
 }
 
+p.sub-text-upload-res {
+    color: var(--primary-color);
+    text-align: center;
+    font-family: var(--museo-sans);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 20px 0;
+    border-top: 1px solid #D0D5DD;
+}
+
+p.sub-text-upload-res span {
+    font-weight: 600;
+}
+
 .user-input-resumefile {
     border-radius: 10px;
     border: 1px dashed rgba(0, 0, 0, 0.25);
@@ -13169,6 +13192,34 @@ a.res-crd-btn {
     align-items: center;
     padding: 40px 0;
     min-height: 284px;
+}
+
+.user-input-resumefile-box {
+    border-radius: 10px;
+    border: 1px dashed var(--primary-color);
+    background: #F2F7FF;
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resmfile-img-data {
+    text-align: center;
+}
+
+.resmfile-img-data input {
+    display: none;
+}
+
+.user-input-resumefile-box img {
+    max-width: 100%;
+    width: 92px;
+    height: 72px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .user-input-resumefile input {
@@ -13492,7 +13543,7 @@ button.res-img-btn {
 
 .scroll-resume-mdl-job {
     overflow: auto;
-    max-height: 280px;
+    max-height: 380px;
     overflow-y: auto;
 }
 

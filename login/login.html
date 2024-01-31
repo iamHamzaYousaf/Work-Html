@@ -42,7 +42,7 @@
                     </div>
                     <div class="candiate-login-form">
                         <div class="candidate-signin">
-                            <h2  id="signInBtn">Sign In</h2>
+                            <h2 id="signInBtn">Sign In</h2>
                             <form id="login-form">
                                 <div class="candidate-username">
                                     <input type="text" placeholder="Username" id="email">
@@ -67,11 +67,11 @@
                                     <div class="heading-below-p">
                                         <p class="heading-below-text hide-error">Please enter a valid Email or Password</p>
                                     </div>
-                                    
+
                                     <div class="candidate-from-submit">
                                         <button type="submit" class="form-submit">Sign in</button>
                                     </div>
-                                
+
                                 </div>
                                 <div class="signup-here">
                                     <p>Don’t have an account? <a href="#"><span>Sign up</span></a></p>
@@ -86,6 +86,9 @@
                                         <img src="../image/goole.png" alt="goole">
                                         <p>Continue with Google</p>
                                     </a>
+                                </div>
+                                <div class="signup-here">
+                                    <p>Haven't received the confirmation email yet? <a href="#"><span>Resend Email</span></a></p>
                                 </div>
                             </form>
                         </div>
@@ -162,28 +165,26 @@
     </section>
 
     <script>
+        document.getElementById("login-form").addEventListener("submit", function(e) {
+            e.preventDefault(); // Prevent the default form submission
 
-document.getElementById("login-form").addEventListener("submit", function (e) {
-    e.preventDefault(); // Prevent the default form submission
+            // Get the user input
+            const email = document.getElementById("email").value;
+            const password = document.getElementById("password-field").value;
 
-    // Get the user input
-    const email = document.getElementById("email").value;
-    const password = document.getElementById("password-field").value;
-
-    // Check if the email and password match the desired values
-    if (email === "candidate@workbridge.com" && password === "123456") {
-        // Redirect to the specific page
-        window.location.href = "../candidate-dashboard/candidate-dashborad.html";
-    } 
-    if (email === "employer@workbridge.com" && password === "123456") {
-        // Redirect to the specific page
-        window.location.href = "../employee-dashbord/employeedashord.html";
-    } 
-    if (email === "admin@workbridge.com" && password === "123456") {
-        // Redirect to the specific page
-        window.location.href = "../admin-dashboard/department/module.html";
-    }    
-});
+            // Check if the email and password match the desired values
+            if (email === "candidate@workbridge.com" && password === "123456") {
+                // Redirect to the specific page
+                window.location.href = "../candidate-dashboard/candidate-dashborad.html";
+            }
+            if (email === "employer@workbridge.com" && password === "123456") {
+                // Redirect to the specific page
+                window.location.href = "../employee-dashbord/employeedashord.html";
+            }
+            if (email === "admin@workbridge.com" && password === "123456") {
+                // Redirect to the specific page
+                window.location.href = "../admin-dashboard/department/module.html";
+            }
+        });
     </script>
 </body>
-
