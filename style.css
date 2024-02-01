@@ -4578,7 +4578,7 @@ p.zeo-chek-text span {
 button.zeo-nobtn {
     border-radius: 4px;
     border: 1px solid var(--primary-color);
-    min-width: 85px;
+    min-width: 120px;
     padding: 8px 0;
     color: var(--primary-color);
     font-family: var(--museo-sans);
@@ -4591,7 +4591,7 @@ button.zeo-nobtn {
 button.zeo-yesbtn {
     border-radius: 4px;
     border: 1px solid var(--primary-color);
-    min-width: 85px;
+    min-width: 120px;
     padding: 8px 0;
     color: var(--color-white);
     font-family: var(--museo-sans);
@@ -18354,6 +18354,11 @@ p.text-prom-below {
         font-size: 18px;
         font-weight: 300;
         line-height: 28px;
+    }
+    .zeo-btn {
+        max-width: 100%;
+        width: 100%;
+        gap: 20px;
     }
     .popup-content-zoe-job-gen {
         width: 100%;
