@@ -18332,6 +18332,29 @@ p.text-prom-below {
     button.job-reset-btn {
         width: 100%;
     }
+    .popup-content-zoe-chek {
+        object-fit: cover;
+        height: auto;
+        width: 100%;
+        margin: 50px auto 0;
+        background-image: url(./image/zoe-mbl-bg.png);
+        padding: 20px 20px 115px 20px;
+        position: relative;
+        border-radius: 30px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .col-job-zoecard {
+        padding: 10px;
+        max-width: 100%;
+        width: 100%;
+        margin-top: 20px;
+    }
+    p.zeo-chek-text {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 28px;
+    }
     .popup-content-zoe-job-gen {
         width: 100%;
         margin: 50px auto 0;
@@ -18669,7 +18692,12 @@ p.text-prom-below {
         justify-content: space-between;
     }
     p.org-text-right-r {
-        font-size: 16px;
+        font-size: 14px;
+    }
+    .img-text-jbmdl-right {
+        gap: 10px;
+        margin-bottom: 10px;
+        padding: 10px 15px;
     }
     button.replace-res,
     button.regenerate-res {
