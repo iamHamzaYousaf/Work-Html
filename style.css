@@ -2324,6 +2324,26 @@ border-bottom-left-radius: 0; */
     position: relative;
 }
 
+.signup-resendmail {
+    padding: 25px 0px 0 0;
+}
+
+.signup-resendmail p {
+    text-align: center;
+    color: var(--text-color);
+    font-size: 20px;
+    font-family: var(--museo-sans);
+    font-weight: 400;
+}
+
+.signup-resendmail a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--accent-color);
+    font-weight: 600;
+    color: var(--accent-color);
+}
+
 textarea.form-font-f {
     width: 100%;
     padding: 10px;
@@ -12738,6 +12758,16 @@ button.save-res-btn-last {
 
 /**********rename resume file model***********/
 
+section.model-popup-resmdl {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(0 0 0 / 80%);
+    top: 0%;
+    display: grid;
+    place-items: center;
+}
+
 section.model-popup-resfile {
     z-index: 4;
 }
@@ -12756,7 +12786,7 @@ section.model-popup-resfile {
 .popup-resumesave-content {
     width: 100%;
     height: 50%;
-    margin: 50px auto 0;
+    margin: 0px auto 0;
     border-radius: 10px;
     border: 1px solid #ebeffa;
     background: var(--White, #fff);
@@ -13673,7 +13703,7 @@ button.res-img-btn {
 
 .choose-res-row {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.16);
     background: #FFF;
@@ -13702,10 +13732,10 @@ button.res-img-btn {
 }
 
 .choose-res-all-content {
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     width: 100%;
-    align-items: center;
+    align-items: flex-start;
     padding: 9px 12px 9px 8px;
     border-left: 1px solid rgba(0, 0, 0, 0.16);
     gap: 10px;
@@ -18661,7 +18691,7 @@ p.text-prom-below {
         padding: 16px 12px;
     }
     .res-main-heading-crd {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 22px;
     }
     .res-custmize-btn {
@@ -18695,6 +18725,7 @@ p.text-prom-below {
     }
     .two-btn-jbmdl {
         justify-content: space-between;
+        gap: 18px;
     }
     p.org-text-right-r {
         font-size: 14px;
@@ -18706,7 +18737,7 @@ p.text-prom-below {
     }
     button.replace-res,
     button.regenerate-res {
-        min-width: 172px;
+        min-width: 160px;
         margin-right: 0;
         padding: 10px 16px;
     }
