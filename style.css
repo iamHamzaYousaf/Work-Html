@@ -1877,8 +1877,8 @@ button.password-btn {
 
 .text-or {
     text-align: center;
-    color: var(--form-text-account);
-    font-size: var(--promoted-btn);
+    color: var(--primary-color);
+    font-size: 16px;
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
 }
@@ -2331,9 +2331,10 @@ border-bottom-left-radius: 0; */
 .signup-resendmail p {
     text-align: center;
     color: var(--text-color);
-    font-size: 20px;
+    font-size: 16px;
     font-family: var(--museo-sans);
     font-weight: 400;
+    line-height: 20px;
 }
 
 .signup-resendmail a {
@@ -10975,6 +10976,12 @@ ul.progressbar-journey li {
     padding-bottom: 15px;
 }
 
+.progress-icon-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .cv-icons-list img {
     height: 26px;
     object-fit: contain;
@@ -10984,6 +10991,14 @@ p.name-can-jou {
     color: var(--primary-color);
     font-weight: var(--font-weight-bold);
     font-size: 20px;
+}
+
+.text-list-tile-mbl {
+    display: none;
+    color: var(--primary-color);
+    font-weight: var(--font-weight-bold);
+    font-size: 20px;
+    line-height: 24px;
 }
 
 p.progress-percent-jour {
@@ -11037,6 +11052,10 @@ p.progress-percent-jour {
 
 .jour-info-list {
     display: flex;
+}
+
+.info-below-mbl {
+    display: none;
 }
 
 ul.info-list-jour {
@@ -11138,17 +11157,18 @@ p.work-jour-heading {
 
 button.tag-jour-btn {
     border-radius: 5px;
-    background: #E2EDFF;
+    background: #F2F7FF;
     color: var(--primary-color);
-    font-size: 13px;
+    font-size: 14px;
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
-    border: 0;
     padding: 7px;
+    line-height: 16.8px;
+    border: 1px solid #E2EDFF;
 }
 
 .journey-row {
-    padding-top: 15px;
+    padding-top: 50px;
 }
 
 .summary-col-jour {
@@ -13732,7 +13752,7 @@ button.res-img-btn {
 }
 
 .choose-res-all-content {
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
     width: 100%;
     align-items: flex-start;
@@ -18503,6 +18523,86 @@ p.text-prom-below {
         max-width: 100%;
         width: 100%;
     }
+    .name-cand-jour-porgres {
+        display: block;
+        background: white;
+        border-radius: 16px;
+        box-shadow: 0px 1px 12px 4px #0000000F;
+        padding: 16px 12px;
+    }
+    .info-below-mbl {
+        display: block;
+    }
+    .jour-left-right {
+        background: transparent;
+        border-radius: 12px;
+        box-shadow: none;
+        padding: 0;
+        word-break: break-all;
+    }
+    p.progress-percent-jour {
+        display: block;
+        position: absolute;
+        top: 14px;
+    }
+    .info-below-jour {
+        margin-top: 20px;
+    }
+    .progress-icon-box {
+        justify-content: end;
+    }
+    ul.info-list-jour-mbl {
+        line-height: normal;
+        margin-bottom: 0;
+        padding: 12px 0;
+    }
+    ul.info-list-jour-mbl li a,
+    ul.info-list-jour-mbl li {
+        color: rgb(0 0 0 / 50%);
+        font-size: 16px;
+        font-family: var(--museo-sans);
+        font-weight: var(--font-weight-medium);
+        display: flex;
+        line-height: 25.8px;
+        text-decoration: none;
+    }
+    ul.info-list-jour li,
+    ul.info-list-jour li a {
+        color: rgb(0 0 0 / 100%);
+        font-size: 16px;
+        font-family: var(--museo-sans);
+        font-weight: var(--font-weight-medium);
+        display: flex;
+        line-height: 25.8px;
+        text-decoration: none;
+        background: #fff;
+        box-shadow: 0px 1px 12px 4px #0000000F;
+        padding: 25px 12px;
+        border-radius: 12px;
+        margin-bottom: 12px;
+    }
+    .tags-wrok {
+        display: flex;
+        justify-content: space-between;
+        background: #fff;
+        box-shadow: 0px 1px 12px 4px #0000000F;
+        padding: 25px 12px;
+        border-radius: 12px;
+        margin-bottom: 12px;
+        position: relative;
+        align-items: flex-start;
+    }
+    p.work-jour-heading {
+        margin-bottom: 0px !important;
+        white-space: nowrap;
+        margin-right: 30px;
+    }
+    .tags-jour {
+        padding-bottom: 0px;
+    }
+    li.hide-li-mbl {
+        display: none !important;
+    }
     .icon-row-profile-jour,
     button.link-profile-jour,
     button.link-mail-jour {
@@ -18510,6 +18610,11 @@ p.text-prom-below {
     }
     p.name-can-jou {
         font-size: 18px;
+    }
+    .text-list-tile-mbl {
+        display: block;
+        margin-top: 17px;
+        padding-left: 6px;
     }
     .jour-info-list ul,
     .jour-info-list p {
@@ -18643,6 +18748,14 @@ p.text-prom-below {
     .candidate-job-resume {
         margin: 0 auto;
         width: auto;
+    }
+    .resume-top-cantainer {
+        margin-top: 20px;
+    }
+    .resume-sec-upload {
+        margin: 30px 0;
+        padding: 20px 0;
+        background: #F1F6FF;
     }
     .main-heading-l {
         font-size: 24px;
@@ -18788,8 +18901,9 @@ p.text-prom-below {
     .two-icon-choose-res {
         display: flex;
         max-width: 18%;
-        text-align: end;
         width: 100%;
+        align-items: start;
+        justify-content: end;
     }
     /*****term and condition ploicy pages********/
     section.term-condition {
