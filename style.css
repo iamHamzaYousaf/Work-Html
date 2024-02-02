@@ -18348,15 +18348,22 @@ p.text-prom-below {
     div#fsalary-year {
         padding: 12px 8px;
     }
+    .merge-feild-3 {
+        max-width: 33%;
+    }
     .merge-feild-4 {
-        max-width: 16%;
+        max-width: 17%;
     }
     div#fsalary-year {
         background-position: right -3px bottom 12px;
     }
     .list-search-dropdown-year-job {
-        width: 18%;
-        right: -4px;
+        right: 0px;
+        width: 100%;
+        max-width: 100%;
+    }
+    ul.list-job-title-year-job {
+        padding: 15px 5px;
     }
     button.job-des-btn,
     button.job-reset-btn {
