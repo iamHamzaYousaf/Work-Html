@@ -12827,7 +12827,7 @@ section.model-popup-resfile {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 .res-save-heading img {
