@@ -18372,7 +18372,7 @@ p.text-prom-below {
         max-width: 33%;
     }
     .merge-feild-4 {
-        max-width: 17%;
+        max-width: 20%;
     }
     div#fsalary-year {
         background-position: right -3px bottom 12px;
@@ -18437,6 +18437,9 @@ p.text-prom-below {
     .list-search-dropdown-country-job {
         width: 37%;
     }
+    .list-search-dropdown-country-job-post {
+        width: 32%;
+     }
     /*******journey page**/
     .left-right-content-jour {
         flex-direction: column;
