@@ -11733,7 +11733,7 @@ img.preview-icon-job {
 .box-two-res,
 .box-three-res {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 15px;
 }
 
@@ -12164,7 +12164,7 @@ height: auto; */
 .box-two-res-l,
 .box-three-res-l {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 7px;
 }
 
