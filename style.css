@@ -18298,7 +18298,7 @@ p.text-prom-below {
     .right-form-data {
         max-width: 100%;
         width: 190px;
-        height: 242px;
+        height: 210px;
         border-radius: 12px;
         border: 0.5px solid #375B96;
         background: #FFF;
@@ -18313,7 +18313,7 @@ p.text-prom-below {
         line-height: 20px;
     }
     p.l-boc-two span {
-        font-size: 12px;
+        font-size: 14px;
     }
     p.l-boc-two {
         height: auto;
@@ -18665,7 +18665,7 @@ p.text-prom-below {
         white-space: nowrap !important;
     }
     .job-title-joourny {
-        font-size: 22px;
+        font-size: 20px;
     }
     .arrow-back-t {
         font-size: 18px;
