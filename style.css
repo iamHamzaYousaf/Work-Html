@@ -4086,7 +4086,7 @@ input#job-post-field {
     outline: 0;
     background: none !important;
     color: rgb(0 0 0 / 100%);
-    font-size: var(--body-text);
+    font-size: 16px;
     font-family: var(--museo-sans);
     font-weight: 300;
 }
@@ -11022,6 +11022,10 @@ p.progress-percent-jour {
     max-width: 50%;
     width: 100%;
     justify-content: left;
+}
+
+.icon-row-profile-jour {
+    width: 324px;
 }
 
 .inner-left-jour {
@@ -18318,23 +18322,25 @@ p.text-prom-below {
         display: none;
     }
     .lower-part-data {
-        padding: 10px 10px 0px;
+        padding: 30px 10px 0px;
     }
     .uper-part-clr img,
     .uper-part-clr-right img {
         text-align: center;
         display: block;
-        margin: 0px auto 0px;
-        padding-top: 15px;
+        margin: 0px auto -20px;
+        padding-top: 10px;
         width: 48px;
     }
     .uper-part-clr,
     .lower-part-data,
     .uper-part-clr-right {
-        border-radius: 12px;
-        background: #ffffff;
+        border-radius: 12px 10px 0px 0px;
         box-shadow: none;
         border: 0;
+    }
+    .lower-part-data {
+        border-radius: 0;
     }
     /*********React Quill post a job form mobile **********/
     .ql-editor p,
@@ -18358,7 +18364,7 @@ p.text-prom-below {
         padding: 10px 8px;
     }
     .salary-f-job {
-        max-width: 43% !important;
+        max-width: 40% !important;
     }
     #fsalary-country,
     input#salary-end {
@@ -18369,7 +18375,7 @@ p.text-prom-below {
         padding: 12px 8px;
     }
     .merge-feild-3 {
-        max-width: 33%;
+        max-width: 25%;
     }
     .merge-feild-4 {
         max-width: 20%;
@@ -18439,7 +18445,7 @@ p.text-prom-below {
     }
     .list-search-dropdown-country-job-post {
         width: 32%;
-     }
+    }
     /*******journey page**/
     .left-right-content-jour {
         flex-direction: column;
@@ -18659,7 +18665,7 @@ p.text-prom-below {
         white-space: nowrap !important;
     }
     .job-title-joourny {
-        font-size: 20px;
+        font-size: 22px;
     }
     .arrow-back-t {
         font-size: 18px;
@@ -19004,7 +19010,7 @@ p.text-prom-below {
 .ql-editor ul li {
     color: rgb(0 0 0 / 100%);
     font-family: var(--museo-sans);
-    font-size: 14px;
+    font-size: 16px;
     line-height: 23px;
     text-align: justify;
 }
