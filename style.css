@@ -18291,7 +18291,7 @@ p.text-prom-below {
     .employe-final-job-post {
         max-width: 100%;
         width: 100%;
-        margin: 0 auto;
+        margin: 30px auto;
     }
     /***images box f ******/
     .left-form-data,
@@ -18378,7 +18378,7 @@ p.text-prom-below {
         max-width: 25%;
     }
     .merge-feild-4 {
-        max-width: 20%;
+        max-width: 22%;
     }
     div#fsalary-year {
         background-position: right -3px bottom 12px;
@@ -18444,7 +18444,7 @@ p.text-prom-below {
         width: 37%;
     }
     .list-search-dropdown-country-job-post {
-        width: 32%;
+        width: 38%;
     }
     /*******journey page**/
     .left-right-content-jour {
@@ -18964,6 +18964,9 @@ p.text-prom-below {
         width: 290px;
         margin-right: 13px;
         height: 310px
+    }
+    .list-search-dropdown-country-job-post {
+        width: 36%;
     }
 }
 
