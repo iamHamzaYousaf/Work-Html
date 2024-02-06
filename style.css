@@ -4131,10 +4131,6 @@ input#salary-end {
     border-bottom-right-radius: 0;
 }
 
-input#salary-start-range {
-    width: 75%;
-}
-
 div#fsalary-year {
     padding: 15px 8px;
     border: 0px solid var(--boder-color);
@@ -11527,7 +11523,7 @@ p.percentage-summary-similarity-clr {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
     text-align: center;
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .arrow-back-t {
