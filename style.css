@@ -18507,6 +18507,7 @@ p.text-prom-below {
     }
     .link-profile-btn-jour {
         padding-top: 15px;
+        width: 100%;
     }
     .inner-right-jour {
         max-width: 100%;
@@ -18608,7 +18609,7 @@ p.text-prom-below {
         margin-right: 30px;
     }
     .tags-jour {
-        padding-bottom: 0px;
+        justify-content: end;
     }
     li.hide-li-mbl {
         display: none !important;
@@ -18658,7 +18659,7 @@ p.text-prom-below {
     }
     .tab-size-jour {
         font-size: 16px !important;
-    }      
+    }
     a.active.tab-size-jour {
         font-size: 16px !important;
     }
@@ -18973,17 +18974,18 @@ p.text-prom-below {
         height: 310px
     }
     /*Post a job*/
-    .left-form-data, .right-form-data {
+    .left-form-data,
+    .right-form-data {
         max-width: 100%;
         width: 190px;
         height: 242px;
         border-radius: 12px;
         border: 0.5px solid #375B96;
         background: #FFF;
-      }
-      .list-search-dropdown-country-job-post {
+    }
+    .list-search-dropdown-country-job-post {
         width: 36%;
-      }
+    }
 }
 
 @media only screen and (max-width: 359px) {
