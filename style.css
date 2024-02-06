@@ -18550,6 +18550,11 @@ p.text-prom-below {
         position: absolute;
         top: 14px;
     }
+    .cus-progress-percent-jour {
+        display: block;
+        position: absolute;
+        top: 14px;
+    }
     .info-below-jour {
         margin-top: 20px;
     }
