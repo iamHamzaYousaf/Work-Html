@@ -11875,7 +11875,7 @@ a.project-link-res-j {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
     color: var(--text-color);
-    font-size: 20px;
+    font-size: 14px;
 }
 
 p.res-postion-j {
@@ -12277,7 +12277,7 @@ ul.certificate-res-list-left {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
     color: var(--text-color);
-    font-size: 20px;
+    font-size: 16px;
     line-height: 28px;
 }
 
