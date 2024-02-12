@@ -11778,7 +11778,7 @@ img.preview-icon-job {
     border-radius: 8px !important;
     border: 1px solid #EEE !important;
     background: rgba(212, 239, 255, 0.07) !important;
-    padding: 10px;
+    padding: 14px;
 }
 
 .resume-name-mbl a {
@@ -12297,8 +12297,8 @@ ul.resume-job-list-left li {
 .cus-resume-job-list-left ul {
     padding: 15px 0 0 20px;
 }
-  
-  .cus-resume-job-list-left ul li {
+
+.cus-resume-job-list-left ul li {
     font-family: var(--museo-sans);
     font-weight: 400;
     color: var(--text-color);
@@ -12357,7 +12357,7 @@ p.edu-resume-left {
 .resume-form-info {
     max-width: 700px;
     width: 100%;
-    padding: 20px 20px 20px 10px;
+    padding: 20px 10px 20px 10px;
     margin: 0 auto;
 }
 
@@ -12372,17 +12372,17 @@ p.edu-resume-left {
 .resume-personal-form {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 2%;
     padding-top: 20px;
 }
 
 .first-name-res {
-    max-width: 47%;
+    max-width: 49%;
     width: 100%;
 }
 
 .last-name-res {
-    max-width: 47%;
+    max-width: 49%;
     width: 100%;
 }
 
@@ -12527,7 +12527,7 @@ button.data-tab-res-right {
 button.resume-exper-right-tb {
     border-top: 1px solid rgba(0, 0, 0, 0.16) !important;
     background: #FFF !important;
-    padding: 0px 20px 20px 15px !important;
+    padding: 0px 15px 20px 15px !important;
     margin: 0 !important;
     border-radius: 0 0 16px 16px !important;
     display: block !important;
@@ -12551,7 +12551,7 @@ button.resume-exper-right-tb {
     border-radius: 8px;
     background: #FFF;
     box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
-    width: 46%;
+    width: 49%;
     overflow: auto;
     z-index: 2;
     margin: 5px 0 0 auto;
@@ -12600,7 +12600,7 @@ button.resume-exper-right-tb {
     border-radius: 8px;
     background: #FFF;
     box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
-    width: 50%;
+    width: 49%;
     overflow: auto;
     z-index: 2;
     margin: 5px 0 0 auto;
@@ -12782,12 +12782,12 @@ p.right-resume-certificate {
 
 .two-can-sav-btn-last {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     gap: 15px;
     padding-bottom: 15px;
     margin-top: 0px;
     border-top: 1px solid rgb(0 0 0 / 20%);
-    padding-top: 15px;
+    padding-top: 30px;
 }
 
 button.can-res-btn-last {
@@ -12800,8 +12800,8 @@ button.can-res-btn-last {
     font-size: 16px;
     font-weight: 600;
     line-height: 15px;
-    min-width: 226px;
-    padding: 19px 37.5px 20px;
+    min-width: 290px;
+    padding: 19px 10px 20px;
 }
 
 button.save-res-btn-last {
@@ -12814,8 +12814,8 @@ button.save-res-btn-last {
     font-size: 16px;
     font-weight: 600;
     line-height: 15px;
-    min-width: 226px;
-    padding: 19px 37.5px 20px;
+    min-width: 290px;
+    padding: 19px 10px 20px;
 }
 
 
@@ -16634,7 +16634,7 @@ p.text-prom-below {
     }
     button.can-res-btn-last,
     button.save-res-btn-last {
-        min-width: 200px;
+        min-width: 250px;
     }
 }
 
@@ -16770,7 +16770,7 @@ p.text-prom-below {
     }
     button.can-res-btn-last,
     button.save-res-btn-last {
-        min-width: 180px;
+        min-width: 230px;
     }
     /***********job resume candiate***/
     .candidate-job-resume {
@@ -18759,6 +18759,13 @@ p.text-prom-below {
     .resume-start-verivication {
         display: none;
     }
+    .resume-verivication-res {
+        margin-top: 30px;
+        border-radius: 12px;
+        background: #FFF;
+        padding: 0;
+        border: 0;
+    }
     .resume-form-info {
         max-width: 100%;
         padding: 20px 15px 20px 15px;
@@ -18775,8 +18782,8 @@ p.text-prom-below {
     }
     button.can-res-btn-last,
     button.save-res-btn-last {
-        min-width: 175px;
-        padding: 17px 37.5px 16px;
+        min-width: 156px;
+        padding: 17px 10.5px 16px;
     }
     .job-title-resume-form {
         flex-direction: column;
