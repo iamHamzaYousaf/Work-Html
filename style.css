@@ -12294,6 +12294,19 @@ ul.resume-job-list-left li {
     text-align: justify;
 }
 
+.cus-resume-job-list-left ul {
+    padding: 15px 0 0 20px;
+}
+  
+  .cus-resume-job-list-left ul li {
+    font-family: var(--museo-sans);
+    font-weight: 400;
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+}
+
 ul.resume-job-list-skill li {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
