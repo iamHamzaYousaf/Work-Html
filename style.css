@@ -12451,7 +12451,7 @@ p.edu-resume-left {
 
 .date-job-res {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 15px;
     max-width: 50%;
     justify-content: end;
