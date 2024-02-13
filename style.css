@@ -11520,6 +11520,7 @@ p.percentage-summary-similarity-clr {
     display: flex;
     justify-content: space-between;
     padding-bottom: 0px;
+    align-items: center;
 }
 
 .job-title-joourny {
@@ -11984,17 +11985,38 @@ a.ai-rec-btn-from {
 
 /*********resume verivication*************/
 
+.back-arrrow-job-title-resume {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    align-items: center;
+}
+
+.arrow-text-res-form {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+}
+
 .resum-verivication-job {
     color: var(--primary-color);
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
     text-align: center;
-    font-size: 32px;
+    font-size: 28px;
+    flex-grow: 1;
 }
 
-.jres-verification-row {
-    padding-top: 15px;
+.arrow-back-t-res {
+    width: 215px;
+    text-align: start;
 }
+
+
+/* .jres-verification-row {
+    padding-top: 15px;
+} */
 
 .toogle-btn-res {
     text-align: end;
@@ -18766,13 +18788,44 @@ p.text-prom-below {
         padding: 0;
         border: 0;
     }
+    .back-arrrow-job-title-resume {
+        justify-content: end;
+        flex-direction: column;
+        align-items: end;
+    }
+    .arrow-back-t-res {
+        width: 14px;
+        text-align: start;
+    }
+    .resum-verivication-job {
+        font-size: 22px;
+    }
+    .arrow-text-res-form {
+        display: flex;
+        align-items: center;
+        flex-grow: 0;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .main-heading-form-right {
+        font-size: 20px;
+    }
     .resume-form-info {
         max-width: 100%;
-        padding: 20px 15px 20px 15px;
+        padding: 0px 0px 20px 0px;
+    }
+    .resume-personal-form {
+        padding-top: 5px;
+    }
+    .personal-info-right,
+    .experience-info-right {
+        font-size: 20px;
     }
     .first-name-res,
     .last-name-res {
         max-width: 100%;
+        padding-top: 15px;
     }
     .resume-personal-form-chek {
         gap: 3px;
@@ -18786,20 +18839,23 @@ p.text-prom-below {
         padding: 17px 10.5px 16px;
     }
     .job-title-resume-form {
-        flex-direction: column;
-        align-items: flex-start;
+        /* flex-direction: column;
+        align-items: flex-start; */
+        align-items: end;
     }
     .compay-name-job-resume-right {
-        max-width: 75%;
+        max-width: 55%;
         width: 100%;
     }
     .date-job-res {
-        max-width: 100%;
+        max-width: 46%;
         justify-content: end;
         width: 100%;
+        align-items: end;
+        margin-right: 0;
     }
     .date-job-res p {
-        margin-top: -25px;
+        /* margin-top: -25px; */
     }
     img.del-res {
         top: 11px;
