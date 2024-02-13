@@ -11869,14 +11869,14 @@ p.res-sumry-jour {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
-    font-size: 20px;
+    font-size: 16px;
 }
 
 a.project-link-res-j {
     font-family: var(--museo-sans);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-medium);
     color: var(--text-color);
-    font-size: 14px;
+    font-size: 16px;
 }
 
 p.res-postion-j {
@@ -11921,7 +11921,7 @@ ul.resume-job-list li {
 
 p.edu-resume {
     font-family: var(--museo-sans);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
     line-height: 28px;
@@ -11934,7 +11934,7 @@ p.edu-resume {
 ul.certificate-res-list {
     padding: 0px 0 0 20px;
     font-family: var(--museo-sans);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
     line-height: 28px;
@@ -12259,15 +12259,15 @@ p.res-sumry-left {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
-    font-size: 20px;
+    font-size: 16px;
     line-height: 24px;
 }
 
 a.project-link-res {
     font-family: var(--museo-sans);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-medium);
     color: var(--text-color);
-    font-size: 14px;
+    font-size: 16px;
 }
 
 p.res-postion-left {
@@ -12297,7 +12297,7 @@ p.res-postion-left span {
 ul.certificate-res-list-left {
     padding: 0px 0 0 20px;
     font-family: var(--museo-sans);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
     line-height: 28px;
@@ -12331,9 +12331,9 @@ ul.resume-job-list-left li {
 
 ul.resume-job-list-skill li {
     font-family: var(--museo-sans);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-medium);
     color: var(--text-color);
-    font-size: 20px;
+    font-size: 16px;
     line-height: 28px;
     text-align: justify;
 }
@@ -12344,7 +12344,7 @@ ul.resume-job-list-skill li {
 
 p.edu-resume-left {
     font-family: var(--museo-sans);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
     line-height: 28px;
