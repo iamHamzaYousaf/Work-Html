@@ -1743,7 +1743,7 @@ button.allow-btn {
     align-items: flex-start;
     flex-wrap: wrap;
     margin-top: 100px;
-    gap: 0 10px;
+    gap: 0 30px;
 }
 
 .candidate-login-row-password {
@@ -1751,7 +1751,7 @@ button.allow-btn {
     align-items: flex-end;
     flex-wrap: wrap;
     margin: 70px 0 170px 0;
-    gap: 0 10px;
+    gap: 0 30px;
 }
 
 .candidate-profile {
