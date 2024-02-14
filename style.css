@@ -11967,10 +11967,11 @@ a.ai-rec-btn-from {
     border: 1px solid #143975;
     background: #143975;
     display: inline-flex;
-    padding: 6px 8px;
-    gap: 6px;
+    padding: 7px 8px;
+    gap: 8px;
     justify-content: center;
     align-items: center;
+    min-width: 153px;
 }
 
 a.ai-rec-btn-from {
@@ -11978,8 +11979,7 @@ a.ai-rec-btn-from {
 }
 
 .ai-rec-btn-from img {
-    width: 18px;
-    height: 18px;
+    max-width: 100%;
 }
 
 
@@ -12838,6 +12838,95 @@ button.save-res-btn-last {
     line-height: 15px;
     min-width: 290px;
     padding: 19px 10px 20px;
+}
+
+
+/********model for resume delet ********/
+
+section.model-res-list {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    /* background: rgb(0 0 0 / 80%); */
+    top: 0%;
+    place-items: center;
+    display: grid;
+    z-index: 4;
+}
+
+.popup-bg-res-list {
+    width: 320px;
+    margin: 0 auto;
+    border-radius: 32px;
+    background: #FFF;
+    box-shadow: 0px 1px 25px 8px rgba(0, 0, 0, 0.12);
+    margin: 0px auto 0;
+}
+
+.popup-res-list-content {
+    width: 100%;
+    margin: 15px auto 0;
+    position: relative;
+}
+
+.close-img-delet {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.uper-part-delet {
+    background: #fff;
+    padding: 30px 20px 20px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.warning-logo-model {
+    padding: 20px;
+    text-align: center;
+}
+
+p.text-res-list {
+    text-align: center;
+    font-size: 24px;
+    color: var(--accent-color);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+}
+
+.warning-logo-resume {
+    padding: 15px 0;
+    text-align: center;
+}
+
+.warning-logo-resume img {
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+}
+
+.lower-part-resume {
+    padding: 20px 20px;
+    border-radius: 0px 0px 30px 30px;
+    background: var(--accent-color);
+}
+
+p.text-res-below {
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--color-white);
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-bold);
+}
+
+.btn-yes-no-resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
 }
 
 
