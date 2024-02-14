@@ -62,6 +62,18 @@
     font-weight: 700;
 }
 
+@font-face {
+    font-family: 'Times New Roman Cyr';
+    src: url('fonts/TimesNRCyrMT.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Times New Roman Cyr';
+    src: url('fonts/TimesNRCyrMT-Bold.woff') format('woff');
+    font-weight: 700;
+}
+
 
 /*** HEADING TEXT SIZE****/
 
@@ -11703,7 +11715,7 @@ img.preview-icon-job {
 }
 
 .name-res-jou {
-    font-family: var(--museo-sans);
+    font-family: 'Times New Roman Cyr';
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
     font-size: 32px;
@@ -11718,7 +11730,7 @@ img.preview-icon-job {
 }
 
 .location-res-j p {
-    font-family: var(--museo-sans);
+    font-family: 'Times New Roman Cyr';
     font-weight: var(--font-weight-bold);
     color: var(--text-color);
     font-size: 16px;
@@ -11743,7 +11755,7 @@ img.preview-icon-job {
 }
 
 .box-one-res a {
-    font-family: var(--museo-sans);
+    font-family: 'Times New Roman Cyr';
     font-weight: var(--font-weight-bold);
     color: var(--text-color);
     font-size: 16px;
@@ -11751,7 +11763,7 @@ img.preview-icon-job {
 }
 
 .box-two-res a {
-    font-family: var(--museo-sans);
+    font-family: 'Times New Roman Cyr';
     font-weight: var(--font-weight-bold);
     color: var(--text-color);
     font-size: 16px;
@@ -11759,7 +11771,7 @@ img.preview-icon-job {
 }
 
 .box-three-res a {
-    font-family: var(--museo-sans);
+    font-family: 'Times New Roman Cyr';
     font-weight: var(--font-weight-bold);
     color: var(--text-color);
     font-size: 16px;
@@ -11837,14 +11849,14 @@ img.preview-icon-job {
 }
 
 .first-heading-res-j {
-    font-family: var(--museo-sans);
+    font-family: 'Times New Roman Cyr';
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
     font-size: 24px;
 }
 
 p.res-sumry-jour {
-    font-family: var(--museo-sans);
+    font-family: 'Times New Roman Cyr';
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
@@ -11866,28 +11878,28 @@ p.res-sumry-jour {
 }
 
 .sub-heading-res-j {
-    font-family: var(--museo-sans);
+    font-family: 'Times New Roman Cyr';
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
     font-size: 18px;
 }
 
 a.project-link-res-j {
-    font-family: var(--museo-sans);
+    font-family: 'Times New Roman Cyr';
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
 }
 
 p.res-postion-j {
-    font-family: var(--museo-sans);
+    font-family: 'Times New Roman Cyr';
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
     font-size: 18px;
 }
 
 p.res-postion-j span {
-    font-family: var(--museo-sans);
+    font-family: 'Times New Roman Cyr';
     font-weight: var(--font-weight-bold);
     color: var(--text-color);
     font-size: 18px;
@@ -11898,7 +11910,7 @@ ul.resume-job-list {
 }
 
 ul.resume-job-list li {
-    font-family: var(--museo-sans);
+    font-family: 'Times New Roman Cyr';
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
@@ -11911,7 +11923,7 @@ ul.resume-job-list li {
 }
 
 .cus-resume-job-list li {
-    font-family: var(--museo-sans);
+    font-family: 'Times New Roman Cyr';
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
@@ -11920,7 +11932,7 @@ ul.resume-job-list li {
 }
 
 p.edu-resume {
-    font-family: var(--museo-sans);
+    font-family: 'Times New Roman Cyr';
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
@@ -11933,7 +11945,7 @@ p.edu-resume {
 
 ul.certificate-res-list {
     padding: 0px 0 0 20px;
-    font-family: var(--museo-sans);
+    font-family: 'Times New Roman Cyr';
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
