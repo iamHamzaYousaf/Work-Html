@@ -11786,7 +11786,7 @@ img.preview-icon-job {
 
 .resume-name-mbl {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border-radius: 8px !important;
     border: 1px solid #EEE !important;
@@ -12602,7 +12602,6 @@ button.resume-exper-right-tb {
     max-width: 18%;
     width: 100%;
     top: -3px;
-    left: -8px;
     position: relative;
 }
 
