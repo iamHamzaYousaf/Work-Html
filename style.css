@@ -18753,20 +18753,23 @@ p.text-prom-below {
         text-decoration: none;
         background: #fff;
         box-shadow: 0px 1px 12px 4px #0000000F;
-        padding: 25px 12px;
+        padding: 15px 15px;
         border-radius: 12px;
         margin-bottom: 12px;
+        flex-direction: column;
     }
     .tags-wrok {
         display: flex;
         justify-content: space-between;
         background: #fff;
         box-shadow: 0px 1px 12px 4px #0000000F;
-        padding: 25px 12px;
+        padding: 15px 15px;
         border-radius: 12px;
         margin-bottom: 12px;
         position: relative;
         align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
     }
     p.work-jour-heading {
         margin-bottom: 0px !important;
@@ -18774,7 +18777,7 @@ p.text-prom-below {
         margin-right: 30px;
     }
     .tags-jour {
-        justify-content: end;
+        padding-bottom: 0px;
     }
     li.hide-li-mbl {
         display: none !important;
@@ -19068,8 +19071,8 @@ p.text-prom-below {
         gap: 10px;
     }
     p.crd-res-content {
-        font-weight: 300;
-        font-size: 12px;
+        font-weight: 500;
+        font-size: 14px;
         line-height: 18px;
         padding-bottom: 10px;
         padding-top: 10px;
