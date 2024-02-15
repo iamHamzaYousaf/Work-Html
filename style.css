@@ -5238,7 +5238,7 @@ p.j-c-salary span {
 .job-find-list ul li {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
-    font-size: 18px;
+    font-size: 16px;
     color: var(--text-color);
     opacity: 0.5;
 }
