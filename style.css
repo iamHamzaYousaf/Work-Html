@@ -19117,6 +19117,7 @@ p.text-prom-below {
         justify-content: space-between;
         gap: 12px;
     }
+    p.org-text-right,
     p.org-text-right-r {
         font-size: 14px;
     }
@@ -19133,8 +19134,6 @@ p.text-prom-below {
         min-width: 150px;
         margin-right: 0;
         padding: 8px 7px;
-    }
-    button.replace-res {
         font-size: 12px;
     }
     .res-jbmdl-heading {
