@@ -19126,10 +19126,12 @@ p.text-prom-below {
     p.org-text-right-r {
         font-size: 14px;
     }
+    .img-text-jbmdl, 
     .img-text-jbmdl-right {
         gap: 10px;
         margin-bottom: 10px;
         padding: 10px 15px;
+        min-height: auto;
     }
     .img-text-jbmdl-right.height-box-r {
         min-height: 80px;
