@@ -17053,7 +17053,7 @@ p.text-prom-below {
     }
     /*******jb file upload***********/
     .two-col-jbmdl {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .col-left-jbmdl,
     .col-right-jbmdl {
