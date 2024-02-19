@@ -13743,7 +13743,11 @@ textarea.txt-editr-jbmdl {
     font-weight: 400;
 }
 
-.textedditor-jbmdl.hide-box-right {
+.hide-box-right {
+    display: none;
+}
+  
+  .hide-box-left {
     display: none;
 }
 
