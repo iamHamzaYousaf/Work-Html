@@ -13673,7 +13673,7 @@ section.model-popup-3 {
     align-items: flex-start;
     gap: 16px;
     margin-bottom: 10px;
-    align-items: center;
+    min-height: 100px;
 }
 
 .img-text-jbmdl-right {
@@ -13685,8 +13685,11 @@ section.model-popup-3 {
     align-items: flex-start;
     gap: 16px;
     margin-bottom: 10px;
-    align-items: center;
-    flex: 1;
+    /* flex: 1; */
+}
+
+.img-text-jbmdl-right.height-box-r {
+    min-height: 100px;
 }
 
 .ql-editor {
@@ -13738,6 +13741,10 @@ textarea.txt-editr-jbmdl {
     font-family: var(--museo-sans);
     font-size: 16px;
     font-weight: 400;
+}
+
+.textedditor-jbmdl.hide-box-right {
+    display: none;
 }
 
 .all-text-jbmdl {
@@ -19078,8 +19085,28 @@ p.text-prom-below {
         padding-top: 10px;
     }
     /*******jb file upload***********/
+    .all-text-jbmdl {
+        padding: 20px;
+        background: #fff;
+        border-radius: 0px 0px 16px 16px;
+        overflow: auto;
+        max-height: 500px;
+        overflow-y: auto;
+    }
+    .all-text-jbmdl::-webkit-scrollbar {
+        width: 8px;
+    }
+    .all-text-jbmdl::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 10px;
+    }
+    .all-text-jbmdl::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+        background-color: var(--primary-color);
+    }
     .col-left-jbmdl {
-        display: none;
+        margin-bottom: 20px;
     }
     .col-right-jbmdl {
         max-width: 100%;
@@ -19088,7 +19115,7 @@ p.text-prom-below {
     }
     .two-btn-jbmdl {
         justify-content: space-between;
-        gap: 18px;
+        gap: 12px;
     }
     p.org-text-right-r {
         font-size: 14px;
@@ -19097,6 +19124,9 @@ p.text-prom-below {
         gap: 10px;
         margin-bottom: 10px;
         padding: 10px 15px;
+    }
+    .img-text-jbmdl-right.height-box-r {
+        min-height: 80px;
     }
     button.replace-res,
     button.regenerate-res {
