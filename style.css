@@ -13746,8 +13746,8 @@ textarea.txt-editr-jbmdl {
 .hide-box-right {
     display: none;
 }
-  
-  .hide-box-left {
+
+.hide-box-left {
     display: none;
 }
 
@@ -13837,6 +13837,20 @@ button.res-img-btn {
 .res-img-btn img {
     width: 34px;
     height: 34px;
+}
+
+
+/***tootltip  model form*****/
+
+.toottip-job-mdl img {
+    text-align: end;
+    display: block;
+    margin: 0 0 0 auto;
+}
+
+.toottip-job-mdl {
+    position: relative;
+    display: none;
 }
 
 
@@ -17058,13 +17072,13 @@ p.text-prom-below {
     /*******jb file upload***********/
     .two-col-jbmdl {
         flex-direction: column-reverse;
-        gap: 20px;
+        gap: 0px;
     }
     .col-left-jbmdl,
     .col-right-jbmdl {
         max-width: 100%;
         width: 100%;
-        margin: 0px;
+        margin: 0 0 15px 0;
     }
     .upload-resume-model-jbmdl {
         width: auto;
@@ -19110,13 +19124,13 @@ p.text-prom-below {
         -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
         background-color: var(--primary-color);
     }
-    .col-left-jbmdl {
+    /* .col-left-jbmdl {
         margin-bottom: 20px;
-    }
+    } */
     .col-right-jbmdl {
         max-width: 100%;
         width: 100%;
-        margin: 0px;
+        margin: 0 0 15px 0;
     }
     .two-btn-jbmdl {
         justify-content: space-between;
@@ -19126,22 +19140,28 @@ p.text-prom-below {
     p.org-text-right-r {
         font-size: 14px;
     }
-    .img-text-jbmdl, 
+    .img-text-jbmdl,
     .img-text-jbmdl-right {
         gap: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
         padding: 10px 15px;
         min-height: auto;
     }
     .img-text-jbmdl-right.height-box-r {
         min-height: 80px;
+        margin-bottom: 0px;
     }
-    button.replace-res,
-    button.regenerate-res {
+    button.replace-res {
         min-width: 150px;
         margin-right: 0;
         padding: 8px 7px;
-        font-size: 12px;
+        font-size: 16px;
+    }
+    button.regenerate-res {
+        min-width: 110px;
+        margin-right: 0;
+        padding: 8px 7px;
+        font-size: 16px;
     }
     .res-jbmdl-heading {
         padding: 0;
@@ -19150,6 +19170,90 @@ p.text-prom-below {
     button.save-res-btn-res {
         font-size: 14px;
         padding: 16px 10px;
+    }
+    button.res-img-btn {
+        padding: 8px 7px;
+    }
+    .res-img-btn img {
+        width: 28px;
+        height: 28px;
+    }
+    textarea.user-inp-jbmdl {
+        height: 3em;
+    }
+    .textedditor-jbmdl {
+        margin-top: 10px;
+    }
+    .img-text-jbmdl-right img,
+    .img-text-jbmdl img {
+        height: 36px;
+        width: 36px;
+        object-fit: contain;
+    }
+    .col-left-jbmdl {
+        margin: 0 0 0px 0;
+    }
+    .two-btn-jbmdl {
+        padding: 15px 0;
+    }
+    .toottip-job-mdl {
+        display: block;
+        padding-top: 4px;
+    }
+    .tooltip-outer-box {
+        position: relative;
+    }
+    p.tootl-tip-text-jbmdl {
+        width: 313px;
+        border: 1px solid #FFA033;
+        box-shadow: 0px 2px 7.300000190734863px 0px #00000040;
+        padding: 5px 6px;
+        color: #6D6E71;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: var(--museo-sans);
+        border-radius: 8px;
+        position: absolute;
+        right: 0px;
+        top: 6px;
+        background: #fff;
+    }
+    .tooltip-outer-box::before {
+        content: '';
+        display: block;
+        width: 16px;
+        height: 1px;
+        position: absolute;
+        top: 1px;
+        background: #FFA033;
+        transform: rotate(-54deg);
+        right: 30px;
+        z-index: 1;
+        bottom: 0;
+    }
+    .tooltip-outer-box::after {
+        content: '';
+        display: block;
+        width: 13px;
+        height: 1px;
+        position: absolute;
+        top: 1px;
+        background: #FFA033;
+        transform: rotate(54deg);
+        right: 23px;
+        z-index: 1;
+        bottom: 0;
+    }
+    p.tootl-tip-text-jbmdl::after {
+        content: '';
+        display: block;
+        width: 15px;
+        height: 2px;
+        background: #fff;
+        position: absolute;
+        top: -1px;
+        right: 25px;
+        z-index: 99;
     }
     /****resume uploadmodel************/
     .upload-resume-model-popup-bg,
