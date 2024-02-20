@@ -19198,10 +19198,11 @@ p.text-prom-below {
     }
     .toottip-job-mdl {
         display: block;
-        padding-top: 4px;
+        padding-top: 6px;
     }
     .tooltip-outer-box {
         position: relative;
+        opacity: 0;
     }
     p.tootl-tip-text-jbmdl {
         width: 313px;
@@ -19254,6 +19255,9 @@ p.text-prom-below {
         top: -1px;
         right: 25px;
         z-index: 99;
+    }
+    .toottip-job-mdl:hover .tooltip-outer-box {
+        opacity: 1;
     }
     /****resume uploadmodel************/
     .upload-resume-model-popup-bg,
