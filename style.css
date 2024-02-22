@@ -2318,6 +2318,17 @@ border-bottom-left-radius: 0; */
     position: relative;
 }
 
+.signup-resume input[type="text"] {
+    width: 100%;
+    padding: 13px 8px;
+    border: 0.5px solid var(--boder-color);
+    border-radius: 6px;
+    text-indent: -999em;
+    outline: none;
+    /* z-index: 1; */
+    position: relative;
+}
+
 .signup-linkedIn-link input[type="text"] {
     width: 100%;
     padding: 13px 8px;
@@ -17862,6 +17873,7 @@ p.text-prom-below {
     .signup-job-titles input[type="text"],
     .signup-skill-tags input[type="text"],
     .signup-resume input[type="file"],
+    .signup-resume input[type="text"],
     .signup-linkedIn-link input[type="text"],
     .candidate-username-signup-form input[type="text"],
     .signup-salary #salary,
