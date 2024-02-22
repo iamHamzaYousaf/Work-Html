@@ -3795,9 +3795,9 @@ p.cities-job-heading {
 
 p.country-img-text {
     color: var(--primary-color);
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 5px;
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-bold);
     font-family: var(--museo-sans);
 }
 
