@@ -6984,7 +6984,7 @@ section.candidate-profile-tabs {
 }
 
 .accordion-button:focus {
-    z-index: 3;
+    z-index: unset;
     border-color: transparent;
     outline: 0;
     box-shadow: none;
@@ -12520,7 +12520,7 @@ img.del-res {
     top: 14px;
     right: 0;
     margin: 0 10px;
-    z-index: 4;
+    z-index: 2;
     cursor: pointer;
 }
 
@@ -12529,7 +12529,7 @@ img.del-res-skill {
     top: 12px;
     right: 0;
     margin: 0 10px;
-    z-index: 4;
+    z-index: 2;
     cursor: pointer;
 }
 
@@ -12602,7 +12602,7 @@ button.resume-exper-right-tb {
     box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
     width: 49%;
     overflow: auto;
-    z-index: 5;
+    z-index: 4;
     margin: 5px 0 0 auto;
     right: 0;
     top: 90%;
@@ -12632,7 +12632,7 @@ button.resume-exper-right-tb {
     align-items: center;
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
-    padding: 15px 8px;
+    /* padding: 15px 8px; */
     background: rgba(221, 222, 238, 0.25);
     width: 100%;
     text-align: center;
@@ -12643,6 +12643,15 @@ button.resume-exper-right-tb {
     color: var(--text-color);
 }
 
+.accordion-button:hover {
+    z-index: unset;
+}
+
+div#fresume-year {
+    padding: 15px 8px;
+    justify-content: space-between;
+}
+
 .list-search-dropdown-month-resume {
     position: absolute;
     border-radius: 8px;
@@ -12650,7 +12659,7 @@ button.resume-exper-right-tb {
     box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
     width: 49%;
     overflow: auto;
-    z-index: 5;
+    z-index: 4;
     margin: 5px 0 0 auto;
     left: 0;
     top: 90%;
@@ -17099,6 +17108,17 @@ p.text-prom-below {
     }
     .upload-resume-model-jbmdl {
         width: auto;
+    }
+    /***final  signup form**********/
+    .city-img {
+        max-width: 33%;
+    }
+    .cities-btn {
+        max-width: 66%;
+        padding-left: 18px;
+    }
+    .city-radio-btn {
+        max-width: 33%;
     }
 }
 
