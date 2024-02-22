@@ -3341,8 +3341,6 @@ a.uplod-btn {
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 16px 0;
-    min-width: 131px;
     justify-content: center;
     gap: 5px;
     border-radius: 6px;
@@ -3356,6 +3354,9 @@ label#upload-img {
     display: flex;
     align-items: center;
     gap: 8px;
+    justify-content: space-evenly;
+    padding: 16px 16px;
+    min-width: 131px;
 }
 
 button.cancel-img-btn {
