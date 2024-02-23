@@ -3353,7 +3353,6 @@ a.uplod-btn input {
 label#upload-img {
     display: flex;
     align-items: center;
-    gap: 8px;
     justify-content: space-evenly;
     padding: 16px 16px;
     min-width: 131px;
