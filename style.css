@@ -5523,6 +5523,8 @@ p.j-l-text {
 
 .qr-code-img img {
     padding-top: 20px;
+    width: 150px;
+    height: 180px;
 }
 
 .job-skills-detail-col {
@@ -11485,6 +11487,7 @@ p.right-col-jour-sub-content {
     font-family: var(--museo-sans);
     font-weight: 300;
     line-height: 20px;
+    word-break: break-all;
 }
 
 .tab-size-jour {
