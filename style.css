@@ -11293,11 +11293,11 @@ p.content-heading-jour {
 }
 
 .ative-all-exper-col {
-    box-shadow: 0px 2px 12.4px 4px rgba(255, 160, 51, 0.16);
-}
-
+    box-shadow: 0px 2px 12.4px 4px rgba(67, 91, 156, 0.16);
+  }
+  
 .ative-all-skill-col {
-    box-shadow: 0px 2px 12.4px 4px rgba(55, 91, 150, 0.16);
+    box-shadow: 0px 2px 12.4px 4px rgba(0, 142, 155, 0.16);
 }
 
 .ative-all-education-col {
@@ -11314,17 +11314,17 @@ p.content-heading-jour {
 
 .experience-col {
     border-radius: 12px;
-    border: 1px solid rgba(255, 160, 51, 0.25);
-    background: rgba(255, 160, 51, 0.05);
+    border: 1px solid rgba(67, 91, 156, 0.25);
+    background: rgba(67, 91, 156, 0.05);
     padding: 20px 30px;
     margin-bottom: 16px;
 }
-
-.skills-col {
+  
+  .skills-col {
     border-radius: 12px;
-    border: 1px solid rgba(78, 122, 181, 0.25);
+    border: 1px solid rgba(0, 142, 155, 0.25);
+    background: rgba(0, 142, 155, 0.05);
     padding: 20px 30px;
-    background: rgba(78, 122, 181, 0.05);
     margin-bottom: 16px;
 }
 
@@ -11366,10 +11366,10 @@ p.content-heading-jour {
 .orange-col {
     height: 80px;
     width: 80px;
-    border: 6px solid #FFA033;
+    border: 6px solid #435B9C;
     border-radius: 50%;
     font-size: 20px;
-    color: #FFA033;
+    color: #435B9C;
     line-height: 70px;
     text-align: center;
     z-index: 1;
@@ -11380,10 +11380,10 @@ p.content-heading-jour {
 .orange-col-skill {
     height: 80px;
     width: 80px;
-    border: 6px solid #375B96;
+    border: 6px solid #008E9B;
     border-radius: 50%;
     font-size: 20px;
-    color: #375B96;
+    color: #008E9B;
     line-height: 70px;
     text-align: center;
     z-index: 1;
@@ -11421,17 +11421,17 @@ p.content-heading-jour {
 
 p.heading-main-jour {
     font-size: 20px;
-    color: #FFA033;
+    color: #435B9C;
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
 }
-
-p.over-all-clr {
+  
+  p.over-all-clr {
     color: var(--primary-color);
 }
-
-p.skill-clr {
-    color: #375B96;
+  
+  p.skill-clr {
+    color: #008E9B;
 }
 
 p.edu-clr {
@@ -11509,24 +11509,23 @@ a.nav-link.active.tab-size-jour {
 /****expericnece**/
 
 p.experience-heading-color {
-    color: var(--accent-color);
+    color: #435B9C;
 }
-
-p.percentage-experince-clr {
-    border: 15px solid var(--accent-color);
-    color: var(--accent-color);
+  
+  p.percentage-experince-clr {
+    border: 15px solid #435B9C;
+    color: #435B9C;
 }
-
-
-/**skills tabs****/
-
-p.percentage-skill-clr {
-    border: 15px solid #375B96;
-    color: #375B96;
+  
+  /**skills tabs****/
+  
+  p.percentage-skill-clr {
+    border: 15px solid #008E9B;
+    color: #008E9B;
 }
-
-p.skill-heading-color {
-    color: #375B96;
+  
+  p.skill-heading-color {
+    color: #008E9B;
 }
 
 
