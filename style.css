@@ -8748,12 +8748,21 @@ background-color: var(--primary-color);
     align-content: space-between;
     flex-wrap: wrap;
     height: 100%;
+    justify-content: space-between;
 }
 
 .tow-btn-job-dash {
-    flex: 1;
+    /* flex: 1; */
     display: flex;
     flex-direction: column;
+}
+
+.edit-icon-emply {
+    display: flex;
+    align-items: baseline;
+    justify-content: end;
+    cursor: pointer;
+    gap: 15px;
 }
 
 
@@ -11296,8 +11305,8 @@ p.content-heading-jour {
 
 .ative-all-exper-col {
     box-shadow: 0px 2px 12.4px 4px rgba(67, 91, 156, 0.16);
-  }
-  
+}
+
 .ative-all-skill-col {
     box-shadow: 0px 2px 12.4px 4px rgba(0, 142, 155, 0.16);
 }
@@ -11321,8 +11330,8 @@ p.content-heading-jour {
     padding: 20px 30px;
     margin-bottom: 16px;
 }
-  
-  .skills-col {
+
+.skills-col {
     border-radius: 12px;
     border: 1px solid rgba(0, 142, 155, 0.25);
     background: rgba(0, 142, 155, 0.05);
@@ -11427,12 +11436,12 @@ p.heading-main-jour {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
 }
-  
-  p.over-all-clr {
+
+p.over-all-clr {
     color: var(--primary-color);
 }
-  
-  p.skill-clr {
+
+p.skill-clr {
     color: #008E9B;
 }
 
@@ -11514,20 +11523,21 @@ a.nav-link.active.tab-size-jour {
 p.experience-heading-color {
     color: #435B9C;
 }
-  
-  p.percentage-experince-clr {
+
+p.percentage-experince-clr {
     border: 15px solid #435B9C;
     color: #435B9C;
 }
-  
-  /**skills tabs****/
-  
-  p.percentage-skill-clr {
+
+
+/**skills tabs****/
+
+p.percentage-skill-clr {
     border: 15px solid #008E9B;
     color: #008E9B;
 }
-  
-  p.skill-heading-color {
+
+p.skill-heading-color {
     color: #008E9B;
 }
 
