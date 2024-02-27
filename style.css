@@ -11918,7 +11918,14 @@ p.res-sumry-jour {
 .sub-heading-res-j {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
-    color: var(--primary-color);
+    color: var(--text-color);
+    font-size: 18px;
+}
+  
+.sub-heading-res-j-right {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-color);
     font-size: 18px;
 }
 
@@ -11932,13 +11939,13 @@ a.project-link-res-j {
 p.res-postion-j {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
-    color: var(--primary-color);
+    color: var(--text-color);
     font-size: 18px;
-}
-
+  }
+  
 p.res-postion-j span {
     font-family: var(--museo-sans);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 18px;
 }
@@ -12308,7 +12315,15 @@ p.res-sumry-left {
 .sub-heading-res-left {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
-    color: var(--primary-color);
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+.sub-heading-res-right {
+    font-family: var(--museo-sans);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-color);
     font-size: 18px;
     line-height: 24px;
 }
@@ -12323,14 +12338,14 @@ a.project-link-res {
 p.res-postion-left {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
-    color: var(--primary-color);
+    color: var(--text-color);
     font-size: 18px;
     line-height: 22px;
-}
-
+  }
+  
 p.res-postion-left span {
     font-family: var(--museo-sans);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 18px;
     line-height: 22px;
