@@ -52,7 +52,7 @@
             src: url('fonts/times_newroman.ttf');
             font-weight: 400;
         }
-
+        
         @font-face {
             font-family: 'Times New Roman';
             src: url('fonts/times_newroman_bold.ttf');
@@ -125,9 +125,18 @@
             text-align: center;
         }
         
+        .box-one-res-tem span,
+        .box-two-res-tem span {
+            font-family: 'Times New Roman';
+            font-weight: 600;
+            color: var(--text-color);
+            font-size: 12px;
+            text-decoration: none;
+        }
+        
         .box-one-res-tem a {
             font-family: 'Times New Roman';
-            font-weight: 400;
+            font-weight: 300;
             color: var(--text-color);
             font-size: 12px;
             text-decoration: none;
@@ -135,7 +144,7 @@
         
         .box-two-res-tem a {
             font-family: 'Times New Roman';
-            font-weight: 400;
+            font-weight: 300;
             color: var(--text-color);
             font-size: 12px;
             text-decoration: none;
@@ -169,7 +178,7 @@
             padding: 10px 0 10px 0;
             text-transform: uppercase;
         }
-
+        
         p.res-sumry-temp {
             font-family: 'Times New Roman';
             font-weight: 300;
@@ -271,16 +280,18 @@
         .certification-res-temp {
             padding: 0px 0 0px 0;
         }
-        .resume-job-list-skill{
+        
+        .resume-job-list-skill {
             margin: 0px;
         }
+        
         ul.resume-job-list-skill li {
             font-family: 'Times New Roman';
             font-weight: var(--font-weight-medium);
             color: var(--text-color);
             font-size: 12px;
             line-height: 28px;
-            text-align: justify;           
+            text-align: justify;
         }
         
         @media only screen and (max-width: 767px) {
@@ -303,7 +314,7 @@
                     <tr>
                         <td>
                             <div class="location-res-temp">
-                                <img src="./resume-images/res-lo.png" alt="">
+                                <!-- <img src="./resume-images/res-lo.png" alt=""> -->
                                 <p>15 Orce Nikolov, Skopje, North Macedonia</p>
                             </div>
                         </td>
@@ -320,22 +331,22 @@
                         <tr>
                             <td>
                                 <div class="box-one-res-tem">
-                                    <img src="./resume-images/res-mail.png" alt="">
+                                    <span>Email:</span>
                                     <a href="mailto:faizanahmed11@gmail.com">faizanahmed11@gmail.com</a>
                                 </div>
                             </td>
                             <td>
                                 <div class="box-two-res-tem">
-                                    <img src="./resume-images/res-ph.png" alt="">
+                                    <span>Phone:</span>
                                     <a href="tel:+95599009887">+(955) 99-009-887</a>
                                 </div>
                             </td>
-                            <td>
+                            <!-- <td>
                                 <div class="box-three-res-tem">
                                     <img src="./resume-images/res-lik.png" alt="">
                                     <a href="https://www.linkedin.com/faizan...">https://www.linkedin.com/faizan...</a>
                                 </div>
-                            </td>
+                            </td> -->
                         </tr>
                     </tbody>
                 </table>
@@ -463,4 +474,5 @@
     </div>
 </section>
 </body>
+
 </html>

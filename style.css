@@ -11771,7 +11771,7 @@ img.preview-icon-job {
 
 .location-res-j p {
     font-family: var(--museo-sans);
-    font-weight: var(--font-weight-bold);
+    font-weight: 400;
     color: var(--text-color);
     font-size: 16px;
     line-height: 22px;
@@ -11780,7 +11780,7 @@ img.preview-icon-job {
 .resume-can-info {
     display: flex;
     justify-content: center;
-    padding: 30px 0;
+    padding: 15px 0 30px;
     border-bottom: 1px solid rgb(0 0 0 / 20%);
     gap: 30px;
     align-items: center;
@@ -11794,9 +11794,18 @@ img.preview-icon-job {
     gap: 15px;
 }
 
+.box-one-res span,
+.box-two-res span {
+    font-family: var(--museo-sans);
+    font-weight: 600;
+    color: var(--text-color);
+    font-size: 16px;
+    text-decoration: none;
+}
+
 .box-one-res a {
     font-family: var(--museo-sans);
-    font-weight: var(--font-weight-bold);
+    font-weight: 300;
     color: var(--text-color);
     font-size: 16px;
     text-decoration: none;
@@ -11804,7 +11813,7 @@ img.preview-icon-job {
 
 .box-two-res a {
     font-family: var(--museo-sans);
-    font-weight: var(--font-weight-bold);
+    font-weight: 300;
     color: var(--text-color);
     font-size: 16px;
     text-decoration: none;
@@ -11921,7 +11930,7 @@ p.res-sumry-jour {
     color: var(--text-color);
     font-size: 18px;
 }
-  
+
 .sub-heading-res-j-right {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
@@ -11941,8 +11950,8 @@ p.res-postion-j {
     font-weight: var(--font-weight-bold);
     color: var(--text-color);
     font-size: 18px;
-  }
-  
+}
+
 p.res-postion-j span {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
@@ -12231,7 +12240,7 @@ button.resume-skills-right-tb {
 
 .location-res-left p {
     font-family: var(--museo-sans);
-    font-weight: var(--font-weight-bold);
+    font-weight: 400;
     color: var(--text-color);
     font-size: 16px;
     line-height: 22px;
@@ -12240,7 +12249,7 @@ button.resume-skills-right-tb {
 .resume-can-info-left {
     display: flex;
     justify-content: center;
-    padding: 20px 10px;
+    padding: 15px 0px 20px;
     border-bottom: 1px solid rgb(0 0 0 / 20%);
     gap: 7px;
     align-items: center;
@@ -12254,9 +12263,19 @@ button.resume-skills-right-tb {
     gap: 7px;
 }
 
-.box-one-res-l a {
+.box-one-res-l span,
+.box-two-res-l span {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-bold);
+    color: var(--text-color);
+    font-size: 16px;
+    word-break: break-all;
+    line-height: 20px;
+}
+
+.box-one-res-l a {
+    font-family: var(--museo-sans);
+    font-weight: 300;
     color: var(--text-color);
     font-size: 16px;
     text-decoration: none;
@@ -12266,7 +12285,7 @@ button.resume-skills-right-tb {
 
 .box-two-res-l a {
     font-family: var(--museo-sans);
-    font-weight: var(--font-weight-bold);
+    font-weight: 300;
     color: var(--text-color);
     font-size: 16px;
     text-decoration: none;
@@ -12318,8 +12337,8 @@ p.res-sumry-left {
     color: var(--text-color);
     font-size: 18px;
     line-height: 24px;
-  }
-  
+}
+
 .sub-heading-res-right {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
@@ -12341,8 +12360,8 @@ p.res-postion-left {
     color: var(--text-color);
     font-size: 18px;
     line-height: 22px;
-  }
-  
+}
+
 p.res-postion-left span {
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
