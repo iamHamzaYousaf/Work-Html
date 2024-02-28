@@ -73,7 +73,30 @@
     src: url('fonts/times_newroman_bold.ttf');
     font-weight: 700;
 }
+@font-face {
+    font-family: 'Outfit';
+    src: url('fonts/Outfit-Bold.woff2') format('woff2');
+    font-weight: 700;
+}
 
+@font-face {
+    font-family: 'Outfit';
+    src: url('fonts/Outfit-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('fonts/Outfit-Medium.woff2') format('woff2');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('fonts/Outfit-Regular.woff2') format('woff2');
+    font-weight: 400;
+}
 
 /*** HEADING TEXT SIZE****/
 
@@ -16831,9 +16854,9 @@ section.comming-soon {
 
 h1.coomig-soon-heading {
     color: #282520;
-    font-family: var(--museo-sans);
-    font-weight: var(--font-weight-bold);
-    font-size: 50px;
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 52px;
 }
 
 .img-fprm-comming-soon {
@@ -16857,10 +16880,10 @@ h1.coomig-soon-heading {
 }
 
 p.free-job-posting {
-    padding: 10px;
+    padding: 10px 10px 13px;
     background: #282520;
     color: var(--color-white);
-    font-family: var(--museo-sans);
+    font-family: 'Outfit';
     font-weight: var(--font-weight-medium);
     font-size: 24px;
     line-height: 30px;
@@ -16886,6 +16909,7 @@ button.subscribe-btn {
     border-radius: 0px 8px 8px 0px;
     font-size: 16px;
     font-weight: 600;
+    font-family: 'Outfit';
     border: 0;
     line-height: 24px;
     padding: 12px 0px;
@@ -16896,24 +16920,29 @@ button.subscribe-btn {
     display: flex;
     gap: 10px;
     align-items: center;
-    color: #282520;
-    font-weight: 500;
-    font-family: var(--museo-sans);
-    line-height: 20px;
     padding-bottom: 30px;
 }
-
+.check-box-comming-soon label {
+    font-family: 'Outfit';
+    font-size: 16px;
+    color: #282520;
+    font-weight: 500;
+    font-family: 'Outfit';
+    line-height: 20px;
+}
 p.info-comming {
     color: #282520;
     font-weight: 400;
-    font-family: var(--museo-sans);
+    font-family: 'Outfit';
+    font-size:16px;
 }
 
 p.info-comming a {
     color: #282520;
     font-weight: 600;
     text-decoration: underline;
-    font-family: var(--museo-sans);
+    font-family: 'Outfit';
+    font-size:16px;
 }
 
 
