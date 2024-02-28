@@ -11791,7 +11791,7 @@ img.preview-icon-job {
 .box-three-res {
     display: flex;
     align-items: flex-start;
-    gap: 15px;
+    gap: 5px;
 }
 
 .box-one-res span,
@@ -12260,7 +12260,7 @@ button.resume-skills-right-tb {
 .box-three-res-l {
     display: flex;
     align-items: flex-start;
-    gap: 7px;
+    gap: 5px;
 }
 
 .box-one-res-l span,
