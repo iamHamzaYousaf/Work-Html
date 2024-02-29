@@ -1207,6 +1207,9 @@ p.job-discription {
     .edit-icon-emply{
         padding: 10px 0px;
     }
+    .edit-icon-emply-draft {
+        margin-bottom: 0rem;
+    }
 }
 
 @media only screen and (max-width: 639px) {
@@ -8789,6 +8792,10 @@ background-color: var(--primary-color);
     justify-content: end;
     cursor: pointer;
     gap: 15px;
+}
+
+.edit-icon-emply-draft {
+    margin-bottom: 4rem;
 }
 
 .job-seclude-dashbord {
