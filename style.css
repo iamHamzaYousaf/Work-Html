@@ -8789,6 +8789,31 @@ background-color: var(--primary-color);
     gap: 15px;
 }
 
+.job-seclude-dashbord {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.salary-time-range {
+    display: flex;
+    gap: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.application-dash a {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--text-color);
+    font-weight: 400;
+    font-family: var(--museo-sans);
+}
+
 
 /************canidate filter css *****/
 
