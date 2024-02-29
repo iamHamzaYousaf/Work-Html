@@ -1204,6 +1204,9 @@ p.job-discription {
     .job-search-div-mbl {
         margin-top: -5px;
     }
+    .edit-icon-emply{
+        padding: 10px 0px;
+    }
 }
 
 @media only screen and (max-width: 639px) {
@@ -8776,7 +8779,6 @@ background-color: var(--primary-color);
 }
 
 .tow-btn-job-dash {
-    /* flex: 1; */
     display: flex;
     flex-direction: column;
 }
