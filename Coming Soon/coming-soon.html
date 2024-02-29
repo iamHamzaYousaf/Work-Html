@@ -9,191 +9,164 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>WorkBridge Portal</title>
     <style type="text/css">
-        
-        :root {
+         :root {
             --color-white: #fff;
         }
-        @font-face {
-            font-family: 'Outfit';
-            src: url('fonts/Outfit-Bold.woff2') format('woff2');
-            font-weight: 700;
-        }
-
-        @font-face {
-            font-family: 'Outfit';
-            src: url('fonts/Outfit-SemiBold.woff2') format('woff2');
-            font-weight: 600;
-
-        }
-
-        @font-face {
-            font-family: 'Outfit';
-            src: url('fonts/Outfit-Medium.woff2') format('woff2');
-            font-weight: 500;
-        }
-
-        @font-face {
-            font-family: 'Outfit';
-            src: url('fonts/Outfit-Regular.woff2') format('woff2');
-            font-weight: 400;
-        }
-
+        
         .all-page-bg-clr {
             background: #FBFBFB;
         }
-
+        
         .container-site {
             max-width: 1140px;
             width: 100%;
             padding: 0 15px;
             margin: 0 auto;
         }
-
         /**** header***/
-
+        
         .row-log {
             display: flex;
             justify-content: space-between;
             padding: 50px 0 0 0;
         }
-
         /*******comming soon page css**********/
-
-            section.comming-soon {
-                padding: 50px 0 100px;
-            }
-
+        
+        section.comming-soon {
+            padding: 50px 0 100px;
+        }
+        
+        h1.coomig-soon-heading {
+            color: #282520;
+            font-weight: 500;
+            font-size: 52px;
+            font-family: Arial;
+        }
+        
+        .img-fprm-comming-soon {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 50px;
+        }
+        
+        .yello-img-left img {
+            max-width: 100%;
+        }
+        
+        .yello-img-left,
+        .right-form-commingsoon {
+            max-width: 50%;
+            width: 100%;
+        }
+        
+        .right-form-commingsoon {
+            padding: 0 40px;
+        }
+        
+        p.free-job-posting {
+            padding: 10px 10px 13px;
+            background: #282520;
+            color: var(--color-white);
+            font-family: Arial;
+            font-size: 24px;
+            line-height: 30px;
+            text-align: center;
+        }
+        
+        .emil-subscribe-soon {
+            padding: 30px 0;
+            display: flex;
+        }
+        
+        input.email-form {
+            width: 80%;
+            box-shadow: 0px 7px 60px 0px #0000001A;
+            border: 1px solid rgb(0 0 0 / 30%);
+            border-radius: 8px 0px 0px 8px;
+            padding: 12px 16px;
+        }
+        
+        button.subscribe-btn {
+            background: #009FB5;
+            color: var(--color-white);
+            border-radius: 0px 8px 8px 0px;
+            font-size: 16px;
+            font-weight: 600;
+            font-family: Arial;
+            /* font-family: 'Outfit'; */
+            border: 0;
+            line-height: 24px;
+            padding: 12px 0px;
+            width: 20%;
+        }
+        
+        .check-box-comming-soon {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            padding-bottom: 30px;
+        }
+        
+        .check-box-comming-soon label {
+            font-size: 16px;
+            color: #282520;
+            font-weight: 500;
+            font-family: Arial;
+            line-height: 20px;
+        }
+        
+        p.info-comming {
+            color: #282520;
+            font-weight: 400;
+            font-family: Arial;
+            font-size: 16px;
+        }
+        
+        p.info-comming a {
+            color: #282520;
+            font-weight: 600;
+            text-decoration: underline;
+            font-family: Arial;
+            font-size: 16px;
+        }
+        
+        @media only screen and (max-width:1050px) {
+            /*******comming soon page **********/
             h1.coomig-soon-heading {
-                color: #282520;
-                font-family: 'Outfit';
-                font-weight: 500;
-                font-size: 52px;
+                font-size: 34px;
             }
-
             .img-fprm-comming-soon {
                 display: flex;
                 justify-content: space-between;
                 padding-top: 50px;
+                flex-direction: column;
             }
-
-            .yello-img-left img {
-                max-width: 100%;
+            p.free-job-posting {
+                font-size: 20px;
+                padding: 8px 5px 8px;
             }
-
             .yello-img-left,
             .right-form-commingsoon {
-                max-width: 50%;
+                max-width: 100%;
                 width: 100%;
             }
-
-            .right-form-commingsoon {
-                padding: 0 40px;
-            }
-
-            p.free-job-posting {
-                padding: 10px 10px 13px;
-                background: #282520;
-                color: var(--color-white);
-                font-family: 'Outfit';      
-                font-size: 24px;
-                line-height: 30px;
+            .yello-img-left {
+                padding-bottom: 50px;
                 text-align: center;
             }
-
-            .emil-subscribe-soon {
-                padding: 30px 0;
-                display: flex;
+            .right-form-commingsoon {
+                padding: 0;
             }
-
-            input.email-form {
-                width: 80%;
-                box-shadow: 0px 7px 60px 0px #0000001A;
-                border: 1px solid rgb(0 0 0 / 30%);
-                border-radius: 8px 0px 0px 8px;
-                padding: 12px 16px;
-            }
-
-            button.subscribe-btn {
-                background: #009FB5;
-                color: var(--color-white);
-                border-radius: 0px 8px 8px 0px;
-                font-size: 16px;
-                font-weight: 600;
-                font-family: 'Outfit';
-                border: 0;
-                line-height: 24px;
-                padding: 12px 0px;
-                width: 20%;
-            }
-
-            .check-box-comming-soon {
-                display: flex;
-                gap: 10px;
-                align-items: center;
-                padding-bottom: 30px;
-            }
-            .check-box-comming-soon label {
-                font-family: 'Outfit';
-                font-size: 16px;
-                color: #282520;
-                font-weight: 500;
-                font-family: 'Outfit';
-                line-height: 20px;
-            }
-            p.info-comming {
-                color: #282520;
-                font-weight: 400;
-                font-family: 'Outfit';
-                font-size:16px;
-            }
-
-            p.info-comming a {
-                color: #282520;
-                font-weight: 600;
-                text-decoration: underline;
-                font-family: 'Outfit';
-                font-size:16px;
-            }
-
-            @media only screen and (max-width:1050px) {
-                /*******comming soon page **********/
-
-                h1.coomig-soon-heading{
-                                    font-size: 24px;
-                }
-                .img-fprm-comming-soon {
-                    display: flex;
-                    justify-content: space-between;
-                    padding-top: 50px;
-                    flex-direction: column;
-                }
-                p.free-job-posting{
-                    font-size: 20px;
-                    padding: 8px 5px 8px;
-                }
-                .yello-img-left,
-                .right-form-commingsoon {
-                    max-width: 100%;
-                    width: 100%;
-                }
-                .yello-img-left {
-                    padding-bottom: 50px;
-                    text-align: center;
-                }
-                .right-form-commingsoon {
-                    padding: 0;
-                }
-            }
-
+        }
+        
         @media only screen and (max-width:859px) and (min-width:768px) {
             /******header******/
             .row-log {
                 align-items: center;
             }
         }
-
-        @media only screen and (max-width:767px) {
         
+        @media only screen and (max-width:767px) {
             .logo-col {
                 max-width: 40%;
                 width: 100%;
@@ -222,7 +195,6 @@
                 width: 25%;
             }
         }
-
     </style>
 </head>
 
