@@ -214,13 +214,13 @@ section.model-popup-2 {
 
 .cmingsoon-logo img {
     max-width: 100%;
-    width: 180px;
     margin: 0 auto;
 }
 
-.hide-model-popup {
+
+/* .hide-model-popup {
     display: none !important;
-}
+} */
 
 section.model-popup-comingsoon {
     position: fixed;
