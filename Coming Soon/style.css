@@ -171,13 +171,30 @@ input.email-form:focus-visible {
     padding-right: 40px !important;
 }
 
+.selct-form-soon {
+    position: relative;
+}
+
 p.error-msg {
     text-align: start;
     color: var(--error-msg-color);
     font-size: 14px;
     line-height: 46px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: 'Arial';
+    text-transform: capitalize;
+    position: absolute;
+    bottom: -3px;
+    margin-bottom: 0;
+}
+
+p.error-msg-soon {
+    text-align: start;
+    color: var(--error-msg-color);
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: var(--font-weight-medium);
+    font-family: 'Arial';
     text-transform: capitalize;
     position: absolute;
     bottom: -3px;
@@ -201,10 +218,9 @@ section.model-popup-2 {
     margin: 0 auto;
 }
 
-
-/* .hide-model-popup {
+.hide-model-popup {
     display: none !important;
-} */
+}
 
 section.model-popup-comingsoon {
     position: fixed;
