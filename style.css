@@ -835,6 +835,11 @@ p.job-discription {
     font-weight: var(--font-weight-medium);
 }
 
+.job-time {
+    display: flex;
+    justify-content: space-between;
+}
+
 .job-time p {
     color: rgb(0 0 0 / 100%);
     font-size: 16px;
