@@ -1,6 +1,10 @@
 :root {
     --color-white: #fff;
     --error-msg-color: #E15C52;
+    --museo-sans: 'Museo Sans';
+    /*** FONT WEIGHT ***/
+    --font-weight-bold: 700;
+    --font-weight-medium: 500;
 }
 
 @font-face {
@@ -13,6 +17,18 @@
     font-family: 'Arial GEO';
     src: url('fonts/ArialGEOBold.woff') format('woff');
     font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Museo Sans';
+    src: url('fonts/MuseoSans_500-webfont.woff') format('woff');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Museo Sans';
+    src: url('fonts/MuseoSans_700-webfont.woff') format('woff');
+    font-weight: 700;
 }
 
 .all-page-bg-clr {
@@ -166,6 +182,93 @@ p.error-msg {
     position: absolute;
     bottom: -3px;
     margin-bottom: 0;
+}
+
+
+/********coming soon model******/
+
+section.model-popup-2 {
+    z-index: 2;
+}
+
+.cmingsoon-logo {
+    text-align: center;
+}
+
+.cmingsoon-logo img {
+    max-width: 100%;
+    width: 180px;
+    margin: 0 auto;
+}
+
+
+/* .hide-model-popup {
+    display: none !important;
+} */
+
+section.model-popup-comingsoon {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(0 0 0 / 80%);
+    top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-bg-cmingsoon {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.popup-content-cmingsoon {
+    width: 100%;
+    height: 370px;
+    position: relative;
+}
+
+.close-cmingsoon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.cmingsoon-logo-model {
+    padding: 40px 0 12px 0;
+    text-align: center;
+}
+
+p.text-cmingsoon-succes {
+    text-align: center;
+    font-size: 16px;
+    line-height: 22px;
+    color: #0E1514;
+    font-family: 'Arial';
+    font-weight: 700;
+}
+
+.uper-part-cmingsoon {
+    background: #fff;
+    padding: 20px;
+    border-radius: 23px 23px 0px 0px;
+}
+
+.lower-cmingsoon-success {
+    padding: 40px 15px;
+    border-radius: 0px 0px 23px 23px;
+    background: #009FB5;
+}
+
+p.text-cmingsoon-sucess {
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 0;
+    color: var(--color-white);
+    font-family: 'Arial';
+    font-weight: 700;
 }
 
 @media only screen and (max-width:1050px) {
