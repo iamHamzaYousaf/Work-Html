@@ -15,6 +15,9 @@
     --or-text-color: #4F4F4F;
     --fomr-telcode-bg: #F9F9F9;
     --card-home-bg: #F3F6FB;
+    /*** COLORS polycare ***/
+    --poly-main-color: #009FB5;
+    --text-poly: #0E1514;
     /*** FONT SIZES ***/
     --contact-heading: 55px;
     --main-heading: 45px;
@@ -30,9 +33,15 @@
     /*** FONT FAMILY ***/
     --museo-sans: 'Museo Sans';
     --fira-sans: 'Fira Sans';
+    /*** FONT FAMILY polycare***/
+    --arial-main: 'Arial';
+    --source-pro: 'Source Serif Pro';
     /*** FONT WEIGHT ***/
     --font-weight-bold: 700;
     --font-weight-medium: 500;
+    /*** FONT WEIGHT polycare***/
+    --font-polycare-bold: 700;
+    --font-polycare-medium: 400;
 }
 
 
@@ -96,6 +105,36 @@
     font-family: 'Outfit';
     src: url('fonts/Outfit-Regular.woff2') format('woff2');
     font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('fonts/ArialMT.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Arial GEO';
+    src: url('fonts/ArialGEOBold.woff') format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('fonts/SourceSerifPro-Regular.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('fonts/SourceSerifPro-Semibold.woff') format('woff');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('fonts/SourceSerifPro-Bold.woff') format('woff');
+    font-weight: 700;
 }
 
 
@@ -227,14 +266,15 @@ html {
     display: none;
 }
 
-.col-two-button p a {
+
+/* .col-two-button p a {
     font-size: 22px;
     font-weight: 500;
     color: var(--text-color);
     text-decoration: none;
     cursor: pointer;
     font-family: var(--museo-sans);
-}
+} */
 
 .col-two-button button {
     background: var(--primary-color);
@@ -273,6 +313,76 @@ html {
     font-family: var(--museo-sans);
     font-size: var(--body-text);
     font-weight: 500;
+}
+
+
+/********header polycare*********/
+
+header {
+    background: #F3F3F3;
+    box-shadow: 0px 4px 10px 0px #00000026;
+}
+
+.row-log {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.logo-col img {
+    max-width: 100%;
+}
+
+ul.menu-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    gap: 10px;
+}
+
+.menu-items-poly {
+    display: flex;
+    justify-content: end;
+    width: 60%;
+}
+
+ul.menu-list li a {
+    padding: 16px 15px;
+    text-decoration: none;
+    font-family: var(--arial-main);
+    font-weight: var(--font-polycare-medium);
+    font-size: 20px;
+    color: rgb(14 21 20 / 60%);
+}
+
+button.login-header-poly {
+    padding: 9px 15px;
+    font-size: 20px;
+    background: transparent;
+    color: var(--poly-main-color);
+    border-radius: 8px;
+    border: 3px solid var(--poly-main-color);
+    cursor: pointer;
+    line-height: 23px;
+    font-family: var(--arial-main);
+    font-weight: 400;
+}
+
+button.signup-poly {
+    background: var(--poly-main-color);
+    color: var(--color-white);
+    padding: 12px 13px;
+    font-size: 20px;
+    text-align: center;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    line-height: 23px;
+    font-family: var(--arial-main);
+    font-weight: 400;
 }
 
 
@@ -1209,7 +1319,7 @@ p.job-discription {
     .job-search-div-mbl {
         margin-top: -5px;
     }
-    .edit-icon-emply{
+    .edit-icon-emply {
         padding: 10px 0px;
     }
     .edit-icon-emply-draft {
