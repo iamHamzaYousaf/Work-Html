@@ -355,6 +355,11 @@ ul.menu-list li a {
     color: rgb(14 21 20 / 60%);
 }
 
+ul.menu-list li a:hover {
+    color: var(--pacific-blue-color);
+    font-weight: 700;
+}
+
 button.login-header-poly {
     padding: 9px 15px;
     font-size: 20px;
@@ -640,7 +645,7 @@ img.vector {
     content: "";
     position: absolute;
     width: calc(21% + 5px);
-    height: 47%;
+    height: 39%;
     bottom: 0;
     right: 22px;
     z-index: -1;
@@ -17824,7 +17829,7 @@ p.text-prom-below {
     }
     .two-btn-poly {
         text-align: center;
-        padding: 25px 0 25px 0;
+        padding: 25px 0 0px 0;
         flex-direction: column;
         width: fit-content;
         margin: 0 auto;
@@ -17832,6 +17837,9 @@ p.text-prom-below {
     button.find-job-poly,
     button.post-job-poly {
         padding: 16px 80px;
+    }
+    .banner-img {
+        display: none;
     }
     p.poly-row-test-job {
         font-size: 14px;
