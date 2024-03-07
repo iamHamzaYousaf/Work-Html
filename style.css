@@ -16,8 +16,8 @@
     --fomr-telcode-bg: #F9F9F9;
     --card-home-bg: #F3F6FB;
     /*** COLORS polycare ***/
-    --poly-main-color: #009FB5;
-    --text-poly: #0E1514;
+    --pacific-blue-color: #009FB5;
+    --dark-black-color: #0E1514;
     /*** FONT SIZES ***/
     --contact-heading: 55px;
     --main-heading: 45px;
@@ -39,9 +39,6 @@
     /*** FONT WEIGHT ***/
     --font-weight-bold: 700;
     --font-weight-medium: 500;
-    /*** FONT WEIGHT polycare***/
-    --font-polycare-bold: 700;
-    --font-polycare-medium: 400;
 }
 
 
@@ -362,9 +359,9 @@ button.login-header-poly {
     padding: 9px 15px;
     font-size: 20px;
     background: transparent;
-    color: var(--poly-main-color);
+    color: var(--pacific-blue-color);
     border-radius: 8px;
-    border: 3px solid var(--poly-main-color);
+    border: 3px solid var(--pacific-blue-color);
     cursor: pointer;
     line-height: 23px;
     font-family: var(--arial-main);
@@ -372,7 +369,7 @@ button.login-header-poly {
 }
 
 button.signup-poly {
-    background: var(--poly-main-color);
+    background: var(--pacific-blue-color);
     color: var(--color-white);
     padding: 12px 13px;
     font-size: 20px;
@@ -384,9 +381,6 @@ button.signup-poly {
     font-family: var(--arial-main);
     font-weight: 400;
 }
-
-
-/*****banner start******/
 
 
 /**** company card*****/
@@ -624,6 +618,77 @@ img.vector {
 }
 
 
+/*****banner start polycare******/
+
+.banner-row-poly {
+    padding: 160px 0px 50px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.banner-heading-poly h1 {
+    color: var(--dark-black-color);
+    text-align: center;
+    font-size: 70px;
+    font-family: var(--source-pro);
+    font-weight: 700;
+    position: relative;
+}
+
+.banner-heading-poly h1:before {
+    background-color: #009fb596;
+    content: "";
+    position: absolute;
+    width: calc(21% + 5px);
+    height: 47%;
+    bottom: 0;
+    right: 22px;
+    z-index: -1;
+}
+
+.two-btn-poly {
+    text-align: center;
+    padding: 65px 0 45px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+button.find-job-poly {
+    padding: 20px 60px;
+    border: 0;
+    color: var(--color-white);
+    background-color: var(--pacific-blue-color);
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    font-family: var(--arial-main);
+    border-radius: 35px;
+}
+
+button.post-job-poly {
+    padding: 20px 60px;
+    border: 2.25px solid var(--pacific-blue-color);
+    color: var(--pacific-blue-color);
+    background-color: transparent;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    font-family: var(--arial-main);
+    border-radius: 35px;
+}
+
+button.post-job-poly:hover {
+    background-color: var(--pacific-blue-color);
+    color: var(--dark-black-color);
+}
+
+.banner-img img {
+    max-width: 100%;
+}
+
+
 /***********logo slider**********/
 
 .logo-dev {
@@ -646,11 +711,40 @@ img.vector {
 }
 
 
+/***********logo slider poly**********/
+
+.logo-dev-poly {
+    padding: 30px 0px;
+    background-color: #009FB514
+}
+
+.two-heading-row-poly {
+    text-align: center;
+}
+
+.two-heading-row-poly h2 {
+    font-family: var(--source-pro);
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35.5px;
+    color: var(--dark-black-color);
+}
+
+p.poly-row-test-job {
+    font-family: var(--arial-main);
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+    line-height: 23px;
+    color: var(--dark-black-color);
+}
+
+
 /**** company card*****/
 
 .featured-sec {
     padding: 100px 0px 75px 0;
-    background: var(--card-home-bg);
+    background: transparent;
 }
 
 .featured-col-content {
@@ -1669,8 +1763,12 @@ h4.contect-readt-start {
 /****** footer section ***/
 
 .footer-sec {
-    background-color: #375B96;
+    background-color: var(--dark-black-color);
     padding: 100px 0px 30px 0px;
+}
+
+.footer-row ul {
+    padding-left: 0;
 }
 
 .footer-row {
@@ -1683,27 +1781,28 @@ h4.contect-readt-start {
 .footer-address {
     width: 100%;
     max-width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
 }
 
 .footer-services {
     width: 100%;
     max-width: 25%;
     display: flex;
-    justify-content: center;
 }
 
 .footer-countries {
     width: 100%;
     max-width: 25%;
     display: flex;
-    justify-content: center;
 }
 
 .footer-privacy {
     width: 100%;
     max-width: 25%;
     display: flex;
-    justify-content: center;
 }
 
 p.head-office {
@@ -1720,32 +1819,30 @@ p.office-address {
     color: var(--color-white);
     font-family: var(--museo-sans);
     font-weight: var(--font-weight-medium);
-    padding: 0px 0px 30px 0px;
+    padding: 0px 0px 20px 0px;
 }
 
 p.office-mail a {
-    color: var(--accent-color);
-    font-family: var(--museo-sans);
+    color: var(--color-white);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     font-size: 18px;
 }
 
-li.service-heading,
-li.Countries-heading {
-    color: var(--accent-color) !important;
+p.Countries-heading {
+    color: var(--color-white) !important;
     padding-bottom: 15px !important;
-}
-
-.footer-privacy.footer-list ul {
-    padding-top: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
 }
 
 .footer-list ul li {
     list-style: none;
     color: var(--color-white);
-    font-size: 18px;
-    font-family: var(--museo-sans);
-    font-weight: var(--font-weight-medium);
+    font-size: 20px;
+    font-family: var(--arial-main);
+    font-weight: 500;
     padding-bottom: 7px;
 }
 
@@ -1782,11 +1879,6 @@ ul.site-list {
 ul.site-list a {
     text-decoration: none;
     color: var(--color-white);
-}
-
-li.service-heading,
-li.Countries-heading {
-    font-weight: var(--font-weight-bold) !important;
 }
 
 
@@ -17039,7 +17131,7 @@ p.text-prom-below {
     }
 }
 
-@media only screen and (max-width:1100px) {
+@media only screen and (max-width:1120px) {
     .job-col-right {
         height: auto;
     }
@@ -17054,6 +17146,10 @@ p.text-prom-below {
     }
     p.box-heading-f {
         font-size: 24px;
+    }
+    /***header****/
+    ul.menu-list li a {
+        padding: 16px 8px;
     }
 }
 
@@ -17186,6 +17282,16 @@ p.text-prom-below {
         position: relative;
         left: 0px;
         text-align: center;
+    }
+    /**header******/
+    .menu-items {
+        gap: 10px;
+    }
+    button.signup-poly {
+        padding: 12px 9px;
+    }
+    button.login-header-poly {
+        padding: 9px 9px;
     }
 }
 
@@ -17350,6 +17456,27 @@ p.text-prom-below {
     .city-radio-btn {
         max-width: 33%;
     }
+    /***header**/
+    .col-two-button {
+        width: 23%;
+    }
+    .col-two-button button {
+        padding: 7px 8px;
+    }
+    ul.menu-list li a {
+        padding: 7px 5px;
+        font-size: 13px;
+    }
+    button.login-header-poly {
+        font-size: 18px;
+    }
+    button.signup-poly {
+        font-size: 17px;
+    }
+    /*****banner poly***/
+    .banner-heading-poly h1 {
+        font-size: 60px;
+    }
 }
 
 @media only screen and (max-width:860px) {
@@ -17409,9 +17536,11 @@ p.text-prom-below {
     .find-job-btn button {
         padding: 8px 20px;
     }
-    button.login-header,
-    .col-two-button button {
+    button.login-header {
         padding: 8px 20px;
+    }
+    .col-two-button button {
+        padding: 8px 8px;
     }
     .col-1-banner,
     .col-3-banner {
@@ -17686,6 +17815,27 @@ p.text-prom-below {
 /**********mobile***********/
 
 @media only screen and (max-width:767px) {
+    /*banner polycare***/
+    .banner-row-poly {
+        padding: 30px 0px 30px;
+    }
+    .banner-heading-poly h1 {
+        font-size: 28px;
+    }
+    .two-btn-poly {
+        text-align: center;
+        padding: 25px 0 25px 0;
+        flex-direction: column;
+        width: fit-content;
+        margin: 0 auto;
+    }
+    button.find-job-poly,
+    button.post-job-poly {
+        padding: 16px 80px;
+    }
+    p.poly-row-test-job {
+        font-size: 14px;
+    }
     .no-companyCard {
         display: none;
     }
@@ -17694,6 +17844,9 @@ p.text-prom-below {
     }
     .col-two-button .find-job-btn {
         margin-right: 30px;
+    }
+    .menu-items-poly {
+        display: none;
     }
     .toggleBtn {
         display: block;
@@ -17957,15 +18110,32 @@ p.text-prom-below {
         width: 100%;
         max-width: 100%;
         text-align: center;
+        justify-content: center;
+        align-items: center;
     }
     p.office-address {
         width: 100%;
     }
     .footer-list ul {
         padding-left: 0px;
+        margin: 0;
     }
     .footer-row {
         padding-bottom: 30px;
+    }
+    .footer-countries.footer-list {
+        order: 1;
+        padding: 20px 0;
+    }
+    .footer-services.footer-list {
+        order: 1;
+    }
+    .footer-privacy.footer-list {
+        order: 1;
+        padding-top: 20px;
+    }
+    .footer-address {
+        order: -1;
     }
     .footer-rights {
         display: block;
