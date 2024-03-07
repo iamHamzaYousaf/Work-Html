@@ -17,7 +17,7 @@
     --card-home-bg: #F3F6FB;
     /*** COLORS polycare ***/
     --pacific-blue-color: #009FB5;
-    --dark-black-color: #0E1514;
+    --dark-black-color: #2B2B2B;
     /*** FONT SIZES ***/
     --contact-heading: 55px;
     --main-heading: 45px;
@@ -357,7 +357,10 @@ ul.menu-list li a {
 
 ul.menu-list li a:hover {
     color: var(--pacific-blue-color);
-    font-weight: 700;
+}
+
+a.active-menu {
+    color: var(--pacific-blue-color) !important;
 }
 
 button.login-header-poly {
@@ -1759,6 +1762,98 @@ h4.contect-readt-start {
 
 .contact-btn a {
     text-decoration: none;
+}
+
+
+/***********steps section polycare****/
+
+section.three-steps-poly {
+    padding: 50px 0;
+    background: #fbfbfb;
+}
+
+.three-rows-poly-sec {
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row-onestep-poly {
+    background-color: #F3F3F3;
+    padding: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px 75px;
+    margin-bottom: 25px;
+}
+
+p.step-heading-poly {
+    color: var(--dark-black-color);
+    font-size: 32px;
+    font-family: var(--arial-main);
+    font-weight: 700;
+}
+
+p.step-content-poly {
+    color: var(--dark-black-color);
+    font-size: 20px;
+    font-family: var(--arial-main);
+    font-weight: 500;
+}
+
+.row-twostep-poly {
+    background-color: #F3F3F3;
+    padding: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px 75px;
+    margin-bottom: 25px;
+}
+
+.two-btn-post-steps {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 20px;
+}
+
+button.post-btn-poly {
+    border: 0;
+    padding: 13px 60px;
+    background: var(--dark-black-color);
+    color: var(--color-white);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--arial-main);
+    border-radius: 8px;
+}
+
+button.contact-btn-poly {
+    border: 3px solid var(--dark-black-color);
+    padding: 13px 60px;
+    background: transparent;
+    color: var(--dark-black-color);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--arial-main);
+    border-radius: 8px;
+}
+
+section.all-oversite-sec {
+    padding: 50px 0;
+    background: var(--color-white);
+}
+
+.site-text-poly-sec {
+    text-align: center;
+    font-family: var(--arial-main);
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--dark-black-color);
 }
 
 
@@ -18110,6 +18205,44 @@ p.text-prom-below {
     }
     .contact-btn button {
         margin: 0 auto;
+    }
+    .row-twostep-poly {
+        flex-direction: column-reverse;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+    .row-onestep-poly {
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+    p.step-heading-poly {
+        font-size: 28px;
+    }
+    .step-content-poly {
+        font-size: 18px;
+    }
+    section.three-steps-poly {
+        padding: 30px 0;
+        background: #fbfbfb;
+    }
+    .two-btn-post-steps {
+        gap: 20px;
+        flex-direction: column;
+        width: fit-content;
+        margin: 0 auto;
+    }
+    section.all-oversite-sec {
+        padding: 25px 0;
+    }
+    .site-text-poly-sec {
+        font-size: 20px;
+    }
+    button.post-btn-poly {
+        padding: 12px 60px;
+    }
+    button.contact-btn-poly {
+        padding: 9px 60px;
     }
     .footer-address,
     .footer-services,
