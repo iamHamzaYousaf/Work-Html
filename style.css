@@ -20,7 +20,7 @@
     --dark-black-color: #2B2B2B;
     --white-smoke-color: #F6F6F6;
     --pattens-blue-color: #D9F1F4;
-    
+
     /*** FONT SIZES ***/
     --contact-heading: 55px;
     --main-heading: 45px;
@@ -409,6 +409,11 @@ button.signup-poly {
     margin-bottom: 28px;
     border-radius: 12px;
     border: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+
+.featured-col-content:hover{
+    background-color: var(--pattens-blue-color);
 }
 
 .image-heading {
