@@ -146,37 +146,37 @@
 h1 {
     font-size: var(--main-heading);
     font-family: var(--fira-sans);
-    color: var(--primary-color);
+    color: var(--dark-black-color);
 }
 
 h2 {
     font-family: var(--arial-main);
     font-size: var(--main-heading);
-    color: var(--primary-color);
+    color: var(--dark-black-color);
 }
 
 h3 {
     font-family: var(--arial-main);
     font-size: var(--text-size);
-    color: var(--primary-color);
+    color: var(--dark-black-color);
 }
 
 h4 {
     font-family: var(--arial-main);
     font-size: var(--contact-heading);
-    color: var(--primary-color);
+    color: var(--dark-black-color);
 }
 
 h5 {
     font-family: var(--arial-main);
     font-size: var(--sub-heading);
-    color: var(--primary-color);
+    color: var(--dark-black-color);
 }
 
 h6 {
     font-family: var(--arial-main);
     font-size: var(--cookies-heding);
-    color: var(--primary-color);
+    color: var(--dark-black-color);
 }
 
 * {
@@ -1042,7 +1042,7 @@ button.detail-btn-lft {
     font-family: var(--arial-main);
     padding: 15px 0 36px 0;
     text-align: justify;
-    line-height: 28px;
+    line-height: 24px;
     min-height: 135px;
     height: auto;
 }
@@ -1160,6 +1160,7 @@ button.detail-btn-lft {
     border: 0.5px solid #e2edff;
     font-weight: var(--font-weight-medium);
     padding: 4px 8px;
+    border-radius: 16px;
 }
 
 .museo-font {
@@ -1306,6 +1307,7 @@ button.detail-btn-lft {
     display: flex;
     flex-direction: row;
     align-items: center;
+    border-radius: 8px;
 }
 
 .job-heading-local {
@@ -1521,7 +1523,7 @@ button.detail-btn-lft {
 
 .job-name {
     display: flex;
-    /* background: green; */
+    color: var(--dark-black-color);
 }
 
 .job-name-title {
@@ -1623,7 +1625,7 @@ button.detail-btn-lft {
 .apply-head {
     font-size: 14px;
     color: white;
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-medium);
 }
 
 .apply-icon {
