@@ -242,11 +242,6 @@ html {
     padding: 15px 0;
 }
 
-.col-two-button {
-    display: inline-flex;
-    align-items: center;
-}
-
 .row-login-candidate .col-two-button {
     display: inline-flex;
     align-items: center;
@@ -331,6 +326,13 @@ header {
     max-width: 100%;
 }
 
+.col-two-button {
+    display: inline-flex;
+    align-items: center;
+    width: 25%;
+    justify-content: end;
+}
+
 ul.menu-list {
     padding: 0;
     margin: 0;
@@ -342,7 +344,7 @@ ul.menu-list {
 
 .menu-items-poly {
     display: flex;
-    justify-content: end;
+    justify-content: space-around;
     width: 60%;
 }
 
@@ -6914,8 +6916,8 @@ section.pageniation-sec {
 }
 
 .candidate-name-img img {
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     object-fit: contain;
 }
 
@@ -6926,20 +6928,21 @@ section.pageniation-sec {
     position: relative;
 }
 
-p.candidate-name {
+
+/* p.candidate-name {
     white-space: nowrap;
-}
+} */
 
 .toggle-icon-profile.icon-cursor {
     margin-left: 0px;
 }
 
 p.candidate-name {
-    color: var(--primary-color);
+    color: var(--pacific-blue-color);
     font-size: 18px;
-    font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
-    padding: 0 20px 0 10px;
+    font-weight: 700;
+    font-family: var(--arial-main);
+    padding: 0 10px 0 0px;
 }
 
 p.candidate-wishlist {
@@ -17507,9 +17510,9 @@ p.text-prom-below {
     .dropdown-dashbord {
         max-width: 40%;
     }
-    .hide-wishlist-style {
+    /* .hide-wishlist-style {
         max-width: 35%;
-    }
+    } */
     button.accordion-button.collapsed {
         font-size: 20px;
     }
@@ -18767,8 +18770,7 @@ p.text-prom-below {
     }
     /********candidate-profile-mobile *********/
     .logo-col-profile-candidate,
-    .logo-col-profile-left,
-    .hide-wishlist-style {
+    .logo-col-profile-left {
         max-width: 50%;
         width: 100%;
     }
@@ -18791,7 +18793,7 @@ p.text-prom-below {
         padding: 0 20px 0 0px;
     }
     .candidate-name-img img {
-        width: 25px;
+        width: 20px;
     }
     p.candidate-name {
         font-size: 18px;
