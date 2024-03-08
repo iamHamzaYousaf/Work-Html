@@ -1042,7 +1042,7 @@ button.detail-btn-lft {
     font-family: var(--arial-main);
     padding: 15px 0 36px 0;
     text-align: justify;
-    line-height: 24px;
+    line-height: 28px;
     min-height: 135px;
     height: auto;
 }
