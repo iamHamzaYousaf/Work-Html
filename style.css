@@ -18,6 +18,7 @@
     /*** COLORS polycare ***/
     --pacific-blue-color: #009FB5;
     --dark-black-color: #2B2B2B;
+    --white-smoke-color: #F6F6F6;
     /*** FONT SIZES ***/
     --contact-heading: 55px;
     --main-heading: 45px;
@@ -396,12 +397,12 @@ button.signup-poly {
 /**** company card*****/
 
 .featured-sec {
-    padding: 100px 0px 75px 0;
+    padding: 60px 0px 60px 0;
     background: var(--card-home-bg);
 }
 
 .featured-col-content {
-    background: var(--color-white);
+    background: var(--white-smoke-color);
     padding: 20px 20px;
     margin-bottom: 28px;
     border-radius: 12px;
@@ -424,15 +425,14 @@ button.signup-poly {
 
 .j-home-btn-round,
 button.j-home-btn {
-    background: var(--btn-color);
-    color: var(--primary-color);
-    font-size: 14px;
-    padding: 8px 18px;
-    line-height: 21px;
-    border-radius: 4px;
-    font-family: var(--arial-main);
-    border: 0;
-    font-weight: var(--font-weight-medium);
+  color: var(--dark-black-color);
+  font-size: 20px;
+  padding: 8px 18px;
+  line-height: 21px;
+  border-radius: 4px;
+  font-family: var(--arial-main);
+  border: 0;
+  font-weight: var(--font-weight-bold);
 }
 
 .j-home-btn-round {
@@ -440,33 +440,34 @@ button.j-home-btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 60px;
     border-radius: 50%;
-}
-
+  }
+  
 .card-headeing h3 {
     font-size: 20px;
     font-weight: 700;
-    padding: 20px 0 10px 0;
+    padding: 20px 0 5px 0;
+    color: var(--dark-black-color);
 }
 
 .card-text {
     font-size: 14px;
-    color: var(--text-color);
-    font-weight: 300;
-    line-height: 27px;
-    padding: 0px 0px 24px 0;
-    opacity: 1;
+    color: var(--dark-black-color);
+    font-weight: 500;
+    font-style: normal;
+    line-height: 20px;
+    padding: 0px 0px 0px 0;
+    opacity: 0.5;
     font-family: var(--arial-main);
-    text-align: left;
+    text-align: justify;
     min-height: 78px;
     height: auto;
 }
+  
 
 button.e-btn {
-    background: var(--accent-color);
-    color: var(--text-color);
+    background: var(--dark-black-color);
+    color: var(--color-white);
     font-size: 14px;
     padding: 8px 18px;
     line-height: 21px;
@@ -475,6 +476,7 @@ button.e-btn {
     border: 0;
     font-weight: var(--font-weight-medium);
 }
+  
 
 .featured-row {
     padding: 0 10px;
@@ -767,7 +769,7 @@ p.poly-row-test-job {
 
 .image-heading {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 0px;
     justify-content: space-between;
 }
@@ -7493,10 +7495,6 @@ input#preferences-prfile {
     font-size: 16px;
     font-family: var(--arial-main);
     background-color: rgba(221, 222, 238, 0.25) !important;
-}
-
-.card-body {
-    padding: 0 10px;
 }
 
 .divider-left-profile {
