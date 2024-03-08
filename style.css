@@ -144,31 +144,31 @@ h1 {
 }
 
 h2 {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--main-heading);
     color: var(--primary-color);
 }
 
 h3 {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--text-size);
     color: var(--primary-color);
 }
 
 h4 {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--contact-heading);
     color: var(--primary-color);
 }
 
 h5 {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--sub-heading);
     color: var(--primary-color);
 }
 
 h6 {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--cookies-heding);
     color: var(--primary-color);
 }
@@ -265,7 +265,7 @@ html {
     color: var(--text-color);
     text-decoration: none;
     cursor: pointer;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 } */
 
 .col-two-button button {
@@ -276,7 +276,7 @@ html {
     border: 0;
     border-radius: 4px;
     cursor: pointer;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--body-text);
     font-weight: 500;
 }
@@ -289,7 +289,7 @@ html {
     border: 0;
     border-radius: 4px;
     cursor: pointer;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 18px;
     font-weight: 500;
 }
@@ -302,7 +302,7 @@ html {
     border: 0;
     border-radius: 6px;
     cursor: pointer;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--body-text);
     font-weight: 500;
 }
@@ -430,7 +430,7 @@ button.j-home-btn {
     padding: 8px 18px;
     line-height: 21px;
     border-radius: 4px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     border: 0;
     font-weight: var(--font-weight-medium);
 }
@@ -458,7 +458,7 @@ button.j-home-btn {
     line-height: 27px;
     padding: 0px 0px 24px 0;
     opacity: 1;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     text-align: left;
     min-height: 78px;
     height: auto;
@@ -471,7 +471,7 @@ button.e-btn {
     padding: 8px 18px;
     line-height: 21px;
     border-radius: 4px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     border: 0;
     font-weight: var(--font-weight-medium);
 }
@@ -510,7 +510,7 @@ button.find-j-nav {
     border: 0;
     border-radius: 4px;
     cursor: pointer;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 18px;
     font-weight: 500;
 }
@@ -523,7 +523,7 @@ button.login-header {
     border-radius: 4px;
     border: 1px solid var(--primary-color);
     cursor: pointer;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 500;
 }
 
@@ -536,7 +536,7 @@ button.signuo-nav {
     border: 0;
     border-radius: 4px;
     cursor: pointer;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 500;
 }
 
@@ -596,7 +596,7 @@ button.signuo-nav {
     font-size: 18px;
     color: var(--color-white);
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .col-2-banner h1 span {
@@ -786,7 +786,7 @@ button.j-home-btn {
     padding: 8px 18px;
     line-height: 21px;
     border-radius: 4px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     border: 0;
     font-weight: var(--font-weight-medium);
 }
@@ -804,7 +804,7 @@ button.j-home-btn {
     line-height: 27px;
     padding: 0px 0px 24px 0;
     opacity: 1;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     text-align: left;
     min-height: 78px;
     height: auto;
@@ -817,7 +817,7 @@ button.e-btn {
     padding: 8px 18px;
     line-height: 21px;
     border-radius: 4px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     border: 0;
     font-weight: var(--font-weight-medium);
 }
@@ -940,7 +940,7 @@ button.detail-btn-lft {
     line-height: 28px;
     padding: 20px 0px 20px 0;
     opacity: 1;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     text-align: justify;
 }
 
@@ -1026,7 +1026,7 @@ p.job-discription {
     color: var(--text-color);
     font-size: 16px;
     font-weight: 300;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     padding: 15px 0 36px 0;
     text-align: justify;
     line-height: 28px;
@@ -1044,7 +1044,7 @@ p.job-discription {
 
 .job-services-anchor p {
     color: var(--text-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: var(--font-weight-medium);
 }
@@ -1058,14 +1058,14 @@ p.job-discription {
     color: rgb(0 0 0 / 100%);
     font-size: 16px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .job-location p {
     color: rgb(0 0 0 / 100%);
     font-size: 16px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .job-sec-wrape {
@@ -1232,7 +1232,7 @@ p.job-discription {
     color: var(--text-color);
     font-size: 16px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .job-apply {
@@ -1264,7 +1264,7 @@ p.job-discription {
     border-radius: 6px;
     color: var(--color-white);
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 20px;
 }
 
@@ -1302,7 +1302,7 @@ p.job-discription {
     margin-left: 15px;
     color: rgb(179, 178, 178);
     font-size: 18px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     outline: none;
     border: none;
     background: transparent;
@@ -1562,7 +1562,7 @@ p.job-discription {
     color: var(--text-color);
     font-size: 12px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .card-center-right {
@@ -1758,7 +1758,7 @@ h4.contect-readt-start {
     border-radius: 8px;
     color: var(--primary-color);
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 18px;
 }
 
@@ -1911,7 +1911,7 @@ p.head-office {
     padding: 25px 0;
     font-size: 18px;
     color: var(--color-white);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -1919,7 +1919,7 @@ p.office-address {
     width: 67%;
     font-size: 18px;
     color: var(--color-white);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     padding: 0px 0px 20px 0px;
 }
@@ -2008,7 +2008,7 @@ ul.site-list a {
 .cookies-heading p {
     color: var(--text-color);
     font-size: var(--sub-heading);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -2020,7 +2020,7 @@ ul.site-list a {
 p.cookies-paragrapgh {
     color: rgba(0, 0, 0, 0.80);
     font-size: var(--body-text);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 300;
     line-height: 36px;
 }
@@ -2037,7 +2037,7 @@ button.decline-btn {
     background: transparent;
     border: 1px solid var(--accent-color);
     color: var(--accent-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--button-text);
     line-height: 20px;
     font-weight: var(--font-weight-bold);
@@ -2049,7 +2049,7 @@ button.allow-btn {
     background: var(--accent-color);
     border: 1px solid var(--accent-color);
     color: var(--color-white);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--button-text);
     line-height: 20px;
     font-weight: var(--font-weight-bold);
@@ -2125,7 +2125,7 @@ p.heading-below-text {
     color: var(--error-msg-color);
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     text-align: center;
     clear: both;
 }
@@ -2158,7 +2158,7 @@ p.forget-password {
     clear: both;
     margin-top: 6px;
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     font-size: 14px;
 }
@@ -2176,7 +2176,7 @@ button.password-btn {
     border-radius: 6px;
     padding: 12px 0;
     color: var(--color-white);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
 }
 
@@ -2187,7 +2187,7 @@ button.password-btn {
     border-radius: 6px;
     padding: 6px 0;
     color: var(--color-white);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--text-size);
     margin-top: 15px;
 }
@@ -2203,7 +2203,7 @@ button.password-btn {
     text-align: center;
     color: var(--primary-color);
     font-size: 14px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
 }
 
@@ -2230,7 +2230,7 @@ button.password-btn {
     text-align: center;
     color: var(--primary-color);
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
 }
 
@@ -2264,7 +2264,7 @@ button.password-btn {
 
 .candidate-login-google a p {
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: rgb(0 0 0 / 30%);
 }
@@ -2295,7 +2295,7 @@ button.password-btn {
     color: var(--primary-color);
     font-weight: var(--font-weight-bold);
     font-size: 36px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 
@@ -2397,7 +2397,7 @@ input#forgotpassowrd-mail {
     text-align: center;
     color: rgb(0 0 0 / 80%);
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
 }
 
@@ -2438,7 +2438,7 @@ button.employee-btn {
     border-radius: 6px;
     color: var(--primary-color);
     font-size: 18px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     max-width: 100%;
     width: 100%;
@@ -2451,7 +2451,7 @@ button.toggle-btn-active {
     border-radius: 6px;
     color: var(--color-white);
     font-size: 18px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
 }
 
@@ -2468,7 +2468,7 @@ button.toggle-btn-active {
     text-align: center;
     color: var(--or-text-color);
     font-size: var(--promoted-btn);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
 }
 
@@ -2488,7 +2488,7 @@ button.toggle-btn-active {
 
 .candidate-signup-google a p {
     font-size: var(--promoted-btn);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--form-text-account);
 }
@@ -2532,7 +2532,7 @@ button.toggle-btn-active {
 
 .f-feild label {
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: var(--font-weight-bold);
 }
@@ -2595,7 +2595,7 @@ input#code-tel-post {
     outline: 0;
     text-align: center;
     font-size: var(--promoted-btn);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     opacity: 0.8;
@@ -2640,7 +2640,7 @@ border-bottom-left-radius: 0; */
     left: 15px;
     color: var(--text-color);
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 400;
     z-index: 0;
     display: table;
@@ -2679,7 +2679,7 @@ border-bottom-left-radius: 0; */
     width: 85%;
     margin: 0 auto;
     font-size: var(--promoted-btn);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 400;
     color: var(--text-color);
     position: relative;
@@ -2693,7 +2693,7 @@ border-bottom-left-radius: 0; */
     text-align: center;
     color: var(--text-color);
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 400;
     line-height: 20px;
 }
@@ -2749,13 +2749,13 @@ p.atten-main-heading {
     color: var(--primary-color);
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 p.text-atten-box {
     font-size: 16px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 
@@ -2768,7 +2768,7 @@ button.form-submit {
     border-radius: 8px;
     padding: 18px 0;
     color: var(--color-white);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     margin-top: 15px;
     line-height: 24px;
@@ -2837,7 +2837,7 @@ p.error-msg {
     font-size: 14px;
     line-height: 24px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     text-transform: capitalize;
 }
 
@@ -2847,7 +2847,7 @@ p.error-msg-date-res {
     font-size: 14px;
     line-height: 24px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     text-transform: capitalize;
 }
 
@@ -2856,7 +2856,7 @@ p.error-msg-verify-email {
     color: var(--error-msg-color);
     font-size: 14px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     text-transform: capitalize;
     margin: 20px 0px;
 }
@@ -2865,7 +2865,7 @@ ul.error-msg li {
     color: var(--error-msg-color);
     font-size: 14px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 li.colr-green {
@@ -3076,7 +3076,7 @@ input#location-f-profile {
     border: 0;
     color: rgb(0 0 0 / 80%);
     font-size: var(--body-text);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
 }
 
@@ -3192,7 +3192,7 @@ p.popup-text {
     text-align: center;
     font-size: var(--sub-heading);
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
 }
 
@@ -3200,7 +3200,7 @@ p.popup-text span {
     text-align: center;
     font-size: var(--sub-heading);
     color: var(--accent-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -3259,7 +3259,7 @@ p.text-welcome-succes {
     text-align: center;
     font-size: 24px;
     color: #0AB84D;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -3280,7 +3280,7 @@ p.text-welcome-sucess {
     font-size: 18px;
     line-height: 24px;
     color: var(--color-white);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -3357,7 +3357,7 @@ p.text-wishlist {
     text-align: center;
     font-size: 32px;
     color: var(--error-msg-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -3366,7 +3366,7 @@ p.text-wishlist-two {
     font-size: 20px;
     line-height: 28px;
     color: var(--error-msg-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -3392,7 +3392,7 @@ button.no-btn {
     background: white;
     padding: 10px 0px;
     color: #E15C52;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 14px;
     font-weight: var(--font-weight-medium);
     min-width: 120px;
@@ -3405,7 +3405,7 @@ button.yes-btn {
     background: var(--primary-color);
     padding: 10px 0px;
     color: var(--color-white);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 14px;
     font-weight: var(--font-weight-medium);
     min-width: 120px;
@@ -3419,7 +3419,7 @@ p.text-wishlist-succes {
     text-align: center;
     font-size: 32px;
     color: #41F674;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -3434,7 +3434,7 @@ p.text-wishlist-sucess {
     font-size: 20px;
     line-height: 28px;
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -3463,7 +3463,7 @@ p.popup-text-model-img {
     text-align: center;
     font-size: 28px;
     color: var(--text-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -3475,7 +3475,7 @@ p.img-info-model {
     color: rgb(0 0 0 / 80%);
     font-size: var(--button-text);
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     text-align: center;
 }
 
@@ -3513,7 +3513,7 @@ p.error-msg-model {
     color: var(--error-msg-color);
     font-size: var(--button-text);
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     text-align: center;
 }
 
@@ -3528,7 +3528,7 @@ button.logo-upload-btn {
     min-width: 110px;
     padding: 10px 0;
     color: #E15C52;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--body-text);
     font-weight: var(--font-weight-medium);
 }
@@ -3540,7 +3540,7 @@ button.save-logo-btn {
     min-width: 110px;
     padding: 10px 0;
     color: var(--color-white);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--body-text);
     font-weight: var(--font-weight-medium);
 }
@@ -3584,7 +3584,7 @@ p.model-employee-title {
     font-size: 20px;
     color: var(--primary-color);
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     line-height: 20px;
     text-transform: capitalize;
     padding: 12px 0;
@@ -3595,7 +3595,7 @@ p.model-employee-title {
 p.employee-model-content {
     color: var(--primary-color);
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -3637,7 +3637,7 @@ p.employee-model-content span {
 p.img-cap {
     color: var(--primary-color);
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 14px;
     font-weight: 400;
     line-height: 14px;
@@ -3651,7 +3651,7 @@ p.brow-btn {
     background: var(--primary-color);
     color: var(--color-white);
     font-size: 14px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     line-height: 14px;
     padding: 16px 0;
     margin-top: 20px;
@@ -3666,7 +3666,7 @@ p.brow-btn {
 a.uplod-btn button.img-e-upload {
     background: transparent;
     border: 0;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     color: var(--color-white);
     font-size: 14px;
     font-style: normal;
@@ -3702,7 +3702,7 @@ button.cancel-img-btn {
     padding: 16px 0;
     border-radius: 6px;
     min-width: 131px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     color: var(--error-msg-color);
     font-size: 14px;
     font-style: normal;
@@ -3848,7 +3848,7 @@ p.msg-show-blowe-textarea {
     text-align: end;
     color: var(--text-color);
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--skill-text-size);
 }
 
@@ -3878,7 +3878,7 @@ p.msg-show-blowe-textarea {
 p.company-logo-file {
     color: rgb(0 0 0 / 80%);
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     width: 193px;
     overflow: hidden;
@@ -3890,14 +3890,14 @@ p.company-logo-file {
     color: rgb(0 0 0 / 80%);
     font-size: 16px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 p.file-size {
     color: var(--primary-color);
     font-size: var(--button-text);
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .btn-next-pre {
@@ -3911,7 +3911,7 @@ button.btn-next-pre-toggle:hover {
     border-radius: 6px;
     padding: 14px 0;
     color: var(--color-white);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     margin-top: 15px;
     border: 1px solid var(--primary-color);
@@ -3924,7 +3924,7 @@ button.btn-next-previous {
     border-radius: 6px;
     padding: 14px 0;
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     margin-top: 15px;
     border: 1px solid var(--primary-color);
@@ -3937,7 +3937,7 @@ button.btn-job-post {
     border-radius: 6px;
     padding: 6px 0;
     color: var(--color-white);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     margin-top: 15px;
     border: 1px solid var(--primary-color);
@@ -3952,7 +3952,7 @@ button.btn-job-post {
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
     font-size: var(--promoted-btn);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 300;
     color: var(--text-color);
     opacity: 0.8;
@@ -3981,7 +3981,7 @@ button.btn-job-post {
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
     font-size: 18px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 300;
     color: var(--text-color);
     position: relative;
@@ -4013,7 +4013,7 @@ button.btn-job-post {
     cursor: pointer;
     color: rgb(0 0 0 / 40%);
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 300;
     display: flex;
     align-items: center;
@@ -4054,7 +4054,7 @@ p.error-msg-place {
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
     font-size: var(--promoted-btn);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 300;
     color: var(--text-color);
     opacity: 0.8;
@@ -4090,7 +4090,7 @@ button.job-reset-btn-f {
 
 label.job-postion-btn {
     font-size: var(--promoted-btn);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: #666666;
     margin-bottom: 0 !important;
@@ -4120,7 +4120,7 @@ p.cities-job-heading {
     text-align: center;
     color: var(--primary-color);
     font-size: 28px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -4148,7 +4148,7 @@ p.country-img-text {
     font-size: 16px;
     padding-top: 5px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .cities-btn {
@@ -4189,7 +4189,7 @@ button.job-des-btn {
     border-radius: 4px;
     background: var(--primary-color);
     gap: 10px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     font-size: 13px;
 }
@@ -4205,7 +4205,7 @@ button.job-reset-btn {
     border-radius: 4px;
     background: transparent;
     gap: 10px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     font-size: 13px;
 }
@@ -4228,7 +4228,7 @@ button.job-reset-btn {
 .f-feild-post label {
     margin-bottom: 12px;
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: var(--font-weight-bold);
 }
@@ -4236,14 +4236,14 @@ button.job-reset-btn {
 .recommended-feild label {
     margin: 12px 0;
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: var(--font-weight-bold);
 }
 
 label.job-postion-btn {
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: #666666;
     margin-bottom: 0 !important;
@@ -4284,7 +4284,7 @@ ul.post-list-content {
     color: var(--text-color);
     font-size: 13px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     line-height: normal;
 }
 
@@ -4292,7 +4292,7 @@ ul.post-list-content li {
     color: var(--text-color);
     font-size: 13px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     line-height: 25px;
     text-align: justify;
 }
@@ -4449,7 +4449,7 @@ button.update-j-btn {
 p.salryto {
     text-align: center;
     font-size: var(--promoted-btn);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
 }
@@ -4466,7 +4466,7 @@ input#job-post-field {
     background: none !important;
     color: rgb(0 0 0 / 100%);
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 300;
 }
 
@@ -4491,7 +4491,7 @@ input#salary-end {
     background-size: 20px;
     width: 100%;
     font-size: 14px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
 }
@@ -4523,7 +4523,7 @@ div#fsalary-year {
     background-position: right 5px bottom 15px;
     background-size: 20px;
     font-size: 14px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
 }
@@ -4539,7 +4539,7 @@ div#fsalary-year {
     border: 0.5px solid var(--boder-color);
     border-radius: 6px;
     font-size: 18px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 300;
     color: var(--text-color);
     position: relative;
@@ -4668,7 +4668,7 @@ div#fsalary-year {
 p.box-heading-f {
     color: var(--primary-color);
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 26px;
     font-weight: var(--font-weight-bold);
 }
@@ -4711,7 +4711,7 @@ p.box-heading-f {
 p.l-box-one {
     color: var(--primary-color);
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 18px;
     font-weight: var(--font-weight-bold);
     line-height: 23px;
@@ -4721,7 +4721,7 @@ p.l-box-one {
 p.l-boc-two span {
     color: var(--primary-color);
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 18px;
     font-weight: var(--font-weight-bold);
     line-height: 31px;
@@ -4730,7 +4730,7 @@ p.l-boc-two span {
 p.l-boc-two {
     color: #000;
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 18px;
     font-weight: 300;
     line-height: 31px;
@@ -4745,7 +4745,7 @@ button.copy-paste-l {
     background: transparent;
     color: var(--primary-color);
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 14px;
     font-weight: var(--font-weight-bold);
     margin: 0 auto;
@@ -4828,7 +4828,7 @@ section.model-popup-post-job {
 p.copy-j-description-content {
     color: #252525;
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 18px;
     font-weight: 300;
     line-height: 23.1px;
@@ -4840,7 +4840,7 @@ p.j-card-text-job {
     font-weight: var(--font-weight-bold);
     font-size: 18px;
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     line-height: 23px;
 }
 
@@ -4849,7 +4849,7 @@ p.j-card-text-job {
     font-weight: var(--font-weight-bold);
     font-size: 24px;
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .col-job-cardtwo {
@@ -4883,7 +4883,7 @@ p.text-zoeai {
     font-weight: var(--font-weight-medium);
     font-size: 18px;
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     line-height: 23px;
 }
 
@@ -4892,7 +4892,7 @@ p.text-zoeai span {
     font-weight: var(--font-weight-bold);
     font-size: 18px;
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     line-height: 23px;
 }
 
@@ -4948,7 +4948,7 @@ p.zeo-chek-text {
     font-style: normal;
     font-weight: 300;
     line-height: 34px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 p.zeo-chek-text strong {
@@ -4959,7 +4959,7 @@ p.zeo-chek-text span {
     color: var(--accent-color);
     font-size: 20px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .zeo-btn {
@@ -4977,7 +4977,7 @@ button.zeo-nobtn {
     min-width: 120px;
     padding: 8px 0;
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 400;
     background-color: transparent;
@@ -4990,7 +4990,7 @@ button.zeo-yesbtn {
     min-width: 120px;
     padding: 8px 0;
     color: var(--color-white);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 400;
     background-color: var(--primary-color);
@@ -5018,7 +5018,7 @@ p.progressbar-text {
     padding: 5px 0;
     text-align: center;
     font-size: 12px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -5027,7 +5027,7 @@ p.zeo-gen-text {
     font-size: 20px;
     font-style: normal;
     line-height: 34px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     text-align: center;
 }
@@ -5036,7 +5036,7 @@ p.zeo-gen-text span {
     font-weight: var(--font-weight-bold);
     color: var(--accent-color);
     font-size: 20px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 img.close-m-gen {
@@ -5278,7 +5278,7 @@ section.job-search-sec {
 ul.dorpdown-list-date li {
     color: rgba(0, 0, 0, 0.80);
     font-size: var(--skill-text-size);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 300;
     line-height: 40px;
     display: flex;
@@ -5332,7 +5332,7 @@ ul.dorpdown-list-search li img {
 ul.dorpdown-list-search li {
     color: rgba(0, 0, 0, 0.80);
     font-size: var(--skill-text-size);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 300;
     line-height: 40px;
     display: flex;
@@ -5363,7 +5363,7 @@ ul.dorpdown-list-search-j-type li img {
 ul.dorpdown-list-search-j-type li {
     color: rgba(0, 0, 0, 0.80);
     font-size: var(--skill-text-size);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 300;
     line-height: 40px;
     display: flex;
@@ -5394,7 +5394,7 @@ ul.dorpdown-list-location li {
     padding: 0px 10px;
     color: rgb(0 0 0 / 50%);
     font-size: var(--skill-text-size);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     line-height: 40px;
     display: flex;
@@ -5481,7 +5481,7 @@ input#job-search-field {
 p.clear-filter {
     color: var(--primary-color);
     font-size: var(--promoted-btn);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     text-align: center;
     text-decoration: underline;
@@ -5510,7 +5510,7 @@ ul.find-job-tag li {
     color: var(--primary-color);
     font-size: 16px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     border-radius: 6px;
     border: 1px solid #e2edff;
 }
@@ -5550,12 +5550,12 @@ ul.find-job-tag li {
 p.company-job-title {
     font-size: 20px;
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
 p.j-sub-title {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     font-size: 16px;
     color: var(--text-color);
@@ -5577,14 +5577,14 @@ p.j-sub-title {
 }
 
 p.j-c-salary {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     font-size: 16px;
     color: rgb(0 0 0 / 100%);
 }
 
 p.j-c-salary span {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     font-size: 18px;
     color: var(--text-color);
@@ -5603,7 +5603,7 @@ p.j-c-salary span {
 }
 
 .job-find-list ul li {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     font-size: 16px;
     color: var(--text-color);
@@ -5625,7 +5625,7 @@ button.apply-j-btn {
     border-radius: 4px;
     font-size: 16px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     outline: 0;
     display: flex;
     justify-content: center;
@@ -5643,7 +5643,7 @@ button.fav-j-btn {
     border-radius: 4px;
     font-size: 16px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     outline: 0;
     display: flex;
     justify-content: center;
@@ -5661,7 +5661,7 @@ button.edit-j-btn {
     border-radius: 4px;
     font-size: 16px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     outline: 0;
     display: flex;
     justify-content: center;
@@ -5679,7 +5679,7 @@ button.ques-list-j-btn {
     border-radius: 4px;
     font-size: 16px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     outline: 0;
     display: flex;
     justify-content: center;
@@ -5747,7 +5747,7 @@ section.job-description-sec {
     color: var(--text-color);
     font-size: 16px;
     font-weight: 300;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     padding: 32px 0 20px 0px;
     line-height: 32px;
     width: 650px;
@@ -5764,7 +5764,7 @@ section.job-description-sec {
 color: var(--text-color);
 font-size: 16px;
 font-weight: 300;
-font-family: var(--museo-sans);
+font-family: var(--arial-main);
 padding: 32px 0 0px 20px;
 line-height: 32px;
 text-align: justify;
@@ -5779,7 +5779,7 @@ text-align: justify;
 .job-heading-detail-sec ul li,
 .job-heading-detail-sec p {
     color: rgb(0 0 0 / 100%);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     padding-bottom: 5px;
     font-weight: 300;
@@ -5801,14 +5801,14 @@ ul.job-location-list {
 ul.job-location-list li {
     padding: 10px 0 0 0;
     color: var(--text-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 300;
 }
 
 .job-location-title p {
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     font-size: var(--text-size);
 }
@@ -5823,14 +5823,14 @@ ul.job-location-list li {
 
 p.company-j-info-l {
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     font-size: 20px;
 }
 
 p.j-l-text {
     color: rgb(0 0 0 / 100%);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 300;
     font-size: 16px;
     padding-top: 16px;
@@ -5839,7 +5839,7 @@ p.j-l-text {
 .skill-list-j ul,
 .skill-list-j p {
     color: rgb(0 0 0 / 100%);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 300;
     font-size: 16px;
     padding-left: 20px;
@@ -5850,7 +5850,7 @@ p.j-l-text {
 
 .skill-list-j ul li {
     color: rgb(0 0 0 / 100%);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     line-height: 32px;
     text-align: start;
@@ -5973,7 +5973,7 @@ span.q-text-s {
     color: var(--text-color);
     font-size: 14px;
     font-weight: 300;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     padding-left: 10px;
     width: 80%;
 }
@@ -5982,7 +5982,7 @@ span.q-text-ans {
     color: var(--text-color);
     font-size: 14px;
     font-weight: 300;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     padding-left: 10px;
     line-height: 22px;
     text-transform: capitalize;
@@ -6068,7 +6068,7 @@ button.bg-clr-q::after {
 }
 
 .company-content-right p {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 300;
     font-size: 16px;
     color: var(--text-color);
@@ -6203,7 +6203,7 @@ ul.list-job-title-company li {
     cursor: pointer;
     color: rgb(0 0 0 / 50%);
     font-size: var(--skill-text-size);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     line-height: 40px;
 }
@@ -6236,7 +6236,7 @@ ul.dorpdown-list-date-company li {
     cursor: pointer;
     color: rgb(0 0 0 / 50%);
     font-size: var(--skill-text-size);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     line-height: 40px;
     display: flex;
@@ -6291,7 +6291,7 @@ ul.dorpdown-list-date-company li img {
     border-radius: 4px;
     background: #F9F9F9;
     color: #000;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 13px;
     font-weight: 300;
 }
@@ -6312,7 +6312,7 @@ ul.list-job-title-country li {
     cursor: pointer;
     color: rgb(0 0 0 / 50%);
     font-size: var(--skill-text-size);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     line-height: 40px;
 }
@@ -6415,7 +6415,7 @@ ul.list-job-title-year-job li {
     cursor: pointer;
     color: rgb(0 0 0 / 50%);
     font-size: var(--skill-text-size);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     line-height: 40px;
 }
@@ -6560,7 +6560,7 @@ ul.list-job-title-year-job li:hover {
 
 .text-filter-icon p {
     color: #000000cc;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
 }
 
@@ -6569,7 +6569,7 @@ p.file-error-msg {
     color: var(--error-msg-color);
     font-size: 14px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .j-company-fillter .list-search-dropdown-company {
@@ -6695,7 +6695,7 @@ p.file-error-msg {
     padding: 20px 0px 20px 0px;
     color: var(--text-color);
     font-weight: 300;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     text-align: justify;
     min-height: 110px;
     height: auto;
@@ -6732,7 +6732,7 @@ p.file-error-msg {
     color: var(--text-color);
     font-size: 14px;
     font-weight: 300;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     line-height: 23.38px;
 }
 
@@ -6780,7 +6780,7 @@ p.file-error-msg {
 
 .job-services-col-left a p {
     color: var(--text-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 14px;
     font-weight: var(--font-weight-bold);
 }
@@ -6853,7 +6853,7 @@ section.pageniation-sec {
     margin: 0 5px;
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .pagination-job a.active {
@@ -6862,7 +6862,7 @@ section.pageniation-sec {
     border: 2px solid var(--accent-color);
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 
@@ -6949,7 +6949,7 @@ p.candidate-wishlist {
     color: var(--primary-color);
     font-size: 18px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     margin: 0 20px;
 }
 
@@ -6985,7 +6985,7 @@ p.job-title-candidate-dashboard {
     text-align: center;
     color: var(--primary-color);
     font-size: 20px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -7001,7 +7001,7 @@ p.job-title-candidate-dashboard {
 p.job-applied-candidate-dashboard {
     color: var(--primary-color);
     font-size: 48px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     text-align: center;
     line-height: normal;
@@ -7138,13 +7138,13 @@ p.company-name-profile-date {
     font-size: 24px;
     color: var(--primary-color);
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 p.employee-profile-company-content-date {
     font-size: 16px;
     font-weight: 300;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     color: var(--text-color);
     line-height: 26px;
     text-align: justify;
@@ -7172,7 +7172,7 @@ p.employee-profile-company-content-date {
 
 p.candidate-info-text {
     color: var(--text-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     font-size: 16px;
     line-height: 24px;
@@ -7228,7 +7228,7 @@ p.candidate-logo-file {
     font-size: var(--button-text);
     font-weight: var(--font-weight-bold);
     opacity: 0.5;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     line-height: 19px;
 }
 
@@ -7237,7 +7237,7 @@ p.file-size-candidate {
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-medium);
     opacity: 0.5;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     line-height: 17px;
 }
 
@@ -7256,7 +7256,7 @@ p.file-size-candidate {
     border-radius: 8px;
     font-size: 16px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     outline: 0;
     text-transform: capitalize;
     display: flex;
@@ -7351,7 +7351,7 @@ button.accordion-button.collapsed {
     color: var(--primary-color);
     font-size: 24px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     margin-bottom: 25px;
     padding: 0 10px;
     background: transparent;
@@ -7361,7 +7361,7 @@ button.accordion-button.collapsed {
     color: var(--primary-color);
     font-size: 24px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     margin-bottom: 15px;
     padding: 0 10px;
     background: transparent;
@@ -7374,7 +7374,7 @@ textarea#candidate-profile-tabs {
     border-radius: 6px;
     color: var(--text-color);
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     background-color: rgba(221, 222, 238, 0.25) !important;
     padding: 15px;
 }
@@ -7397,7 +7397,7 @@ textarea#candidate-profile-tabs {
 p.candidate-profile-tabs-msg {
     color: var(--text-color);
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     text-align: end;
 }
@@ -7416,7 +7416,7 @@ button.cancel-btn-profile {
     border: 1px solid var(--error-msg-color);
     color: var(--error-msg-color);
     border-radius: 6px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     min-width: 115px;
 }
 
@@ -7432,7 +7432,7 @@ button.save-btn-profile {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
     border-radius: 6px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     min-width: 115px;
 }
 
@@ -7443,7 +7443,7 @@ button.save-btn-profilefill {
     border: 1px solid var(--primary-color);
     color: var(--color-white);
     border-radius: 6px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 button.save-btn-profile:hover {
@@ -7467,7 +7467,7 @@ button.profile-end-btn {
     border: 1px solid var(--accent-color);
     color: var(--accent-color);
     border-radius: 6px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 button.profile-end-btn:hover {
@@ -7491,7 +7491,7 @@ input#preferences-prfile {
     border-radius: 6px;
     color: var(--text-color);
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     background-color: rgba(221, 222, 238, 0.25) !important;
 }
 
@@ -7586,7 +7586,7 @@ select#candidate-location-feild {
     z-index: 1;
     bottom: 100%;
     font-size: var(--skill-text-size);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     top: -22px;
     right: 14px;
@@ -7626,7 +7626,7 @@ input#profile-url-employee {
     color: rgb(0 0 0 / 100%);
     font-size: 16px;
     font-weight: 300;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     background-color: rgba(221, 222, 238, 0.25) !important;
 }
 
@@ -7634,7 +7634,7 @@ p.company-name-profile {
     font-size: 24px;
     color: var(--primary-color);
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 p.employee-profile-company-content {
@@ -7643,7 +7643,7 @@ p.employee-profile-company-content {
     border: 0.5px solid var(--gray-4, #BDBDBD);
     color: var(--text-color);
     font-size: var(--body-text);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 300;
     opacity: 0.8;
     line-height: 42px;
@@ -7657,7 +7657,7 @@ p.employee-profile-company-content {
 .bg-pass-f>input#profile-call,
 .bg-pass-f>input#social-link {
     color: rgb(0 0 0 / 100%);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 400;
     background-color: rgb(221 222 238 / 0%) !important;
@@ -7722,7 +7722,7 @@ input#jon-search-box::-webkit-input-placeholder,
 input#preferences-prfile::-webkit-input-placeholder {
     color: rgb(0 0 0 / 40%);
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 300;
     /* opacity: 0.8; */
 }
@@ -7730,7 +7730,7 @@ input#preferences-prfile::-webkit-input-placeholder {
 p.candidate-phone-profile {
     color: var(--text-color);
     font-size: var(--promoted-btn);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     opacity: 0.8;
 }
 
@@ -7751,20 +7751,20 @@ input#password-field-job::-webkit-input-placeholder,
 input#email-j-model::-webkit-input-placeholder {
     color: rgb(0 0 0 / 40%);
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 300;
 }
 
 select#candidate-location-feild option {
     color: var(--text-color);
     font-size: var(--promoted-btn);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     opacity: 0.8;
 }
 
 .form-font-f {
     color: rgb(0 0 0 / 100%);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 400;
     background-color: rgba(221, 222, 238, 0.25) !important;
@@ -7772,7 +7772,7 @@ select#candidate-location-feild option {
 
 .form-font-job-m {
     color: rgb(0 0 0 / 100%);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 400;
     background-color: rgba(221, 222, 238, 0) !important;
@@ -7784,7 +7784,7 @@ select#candidate-location-feild option {
 
 .bg-pass-f>input#password-field {
     color: rgb(0 0 0 / 100%);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 400;
     background-color: rgb(221 222 238 / 0%) !important;
@@ -7819,7 +7819,7 @@ select#candidate-location-feild option {
 
 .dropdown-dashbord ul a {
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--font-weight-medium);
     text-decoration: none;
     color: var(--primary-color);
@@ -7887,7 +7887,7 @@ li.menu-dropdown img {
 
 p.candidate-profile-data {
     color: var(--text-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     line-height: 26px;
     text-align: justify;
@@ -7895,7 +7895,7 @@ p.candidate-profile-data {
 
 ul.candidate-profile-data-list {
     color: var(--text-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     line-height: 26px;
     font-weight: 300;
@@ -7905,7 +7905,7 @@ ul.candidate-profile-data-list {
     color: var(--primary-color);
     font-size: 24px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     margin-bottom: 15px;
     padding: 0 10px;
     background: transparent;
@@ -8045,7 +8045,7 @@ iframe {
 
 .resume-heading h1 {
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .download-print-btn {
@@ -8109,7 +8109,7 @@ ul.candidate-social-list li {
     position: relative;
     font-size: var(--text-color);
     opacity: 0.8;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     font-size: var(--promoted-btn);
 }
@@ -8117,7 +8117,7 @@ ul.candidate-social-list li {
 ul.candidate-social-list p {
     font-size: var(--text-color);
     opacity: 0.8;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     font-size: var(--promoted-btn);
 }
@@ -8148,7 +8148,7 @@ p.candiadte-resume-heading {
     color: var(--primary-color);
     font-size: var(--form-heading);
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     line-height: 43px;
     padding-bottom: 15px;
 }
@@ -8161,7 +8161,7 @@ p.candiadte-resume-heading {
 p.resum-content {
     color: var(--or-text-color);
     font-size: var(--promoted-btn);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     line-height: 28px;
 }
@@ -8177,7 +8177,7 @@ p.resum-content {
 p.resume-degree {
     color: var(--or-text-color);
     font-size: var(--text-size);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     line-height: 28px;
     padding-top: 10px;
@@ -8190,7 +8190,7 @@ p.resume-degree {
 .resume-skills-candidate ul li {
     color: var(--or-text-color);
     font-size: var(--promoted-btn);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     line-height: 28px;
 }
@@ -8339,7 +8339,7 @@ p.error-wishlist {
     text-align: center;
     color: black;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 20px;
 }
 
@@ -8584,7 +8584,7 @@ ul.list-table-title-cand li {
     cursor: pointer;
     color: rgb(0 0 0 / 50%);
     font-size: 12px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     line-height: 33px;
     text-align: left;
@@ -8633,14 +8633,14 @@ table td {
     color: rgb(0 0 0 / 100%);
     font-size: 16px;
     font-weight: 300;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 table th {
     color: var(--text-color);
     font-size: 16px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     padding: 30px 0px;
     text-align: center;
 }
@@ -8717,7 +8717,7 @@ th.technical-tags-row {
 
 .good-cv-box p {
     color: #0AB84D;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 12px;
     font-weight: var(--font-weight-medium);
 }
@@ -8781,7 +8781,7 @@ img.tooltip-show:hover~.hide-box {
     top: 0;
     left: 0;
     z-index: 1;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -8848,7 +8848,7 @@ input.td-tr-chk {
     border: 0.5px solid var(--primary-color);
     background: #FFF;
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 12px;
     padding: 5px;
     opacity: 0;
@@ -8865,7 +8865,7 @@ input.td-tr-chk {
     border: 1px solid #FFA033;
     background: #FFF;
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 12px;
     padding: 5px;
     opacity: 0;
@@ -8932,7 +8932,7 @@ th.list-description {
     font-size: 16px;
     outline: none;
     color: #2B819D;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     background: #FBFBFB;
     text-decoration: none;
@@ -9015,7 +9015,7 @@ a.sub-menu-lists.clr-set {
     font-size: 14px;
     background: transparent !important;
     font-weight: 300;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .first-menu-dropdown .second-menu-dropdown li a:hover {
@@ -9130,7 +9130,7 @@ background-color: var(--primary-color);
     font-size: 16px;
     color: var(--text-color);
     font-weight: 400;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 
@@ -9170,7 +9170,7 @@ background-color: var(--primary-color);
 
 .thinkneed-cv-box p {
     color: var(--accent-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 12px;
     font-weight: var(--font-weight-medium);
 }
@@ -9201,7 +9201,7 @@ background-color: var(--primary-color);
 
 .badreview-cv-box p {
     color: var(--error-msg-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 12px;
     font-weight: var(--font-weight-medium);
 }
@@ -9232,7 +9232,7 @@ p.text-atten-box-table {
     color: var(--primary-color);
     font-size: 12px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 
@@ -9258,7 +9258,7 @@ img.notfill-heart {
     left: 50%;
     margin-left: -38px;
     font-size: var(--skill-text-size);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
 }
 
@@ -9282,7 +9282,7 @@ img.notfill-heart {
     left: 85%;
     margin-left: -60px;
     font-size: var(--skill-text-size);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
 }
 
@@ -9564,7 +9564,7 @@ p.comment-heading-text::after {
 
 p.comment-heading-text {
     font-size: var(--button-text);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--gray-2, #4F4F4F);
     text-align: left;
@@ -9582,7 +9582,7 @@ textarea#comment-area-job {
 textarea#comment-area-job::-webkit-input-placeholder {
     color: #BDBDBD;
     font-size: var(--button-text);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
 }
 
@@ -9597,7 +9597,7 @@ button.comment-submit {
     color: var(--accent-color);
     font-size: var(--button-text);
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 
@@ -9645,7 +9645,7 @@ button.comment-submit {
 }
 
 .name-comment-owner-left {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
     font-size: var(--promoted-btn);
@@ -9712,7 +9712,7 @@ button.comment-submit {
 }
 
 p.name-comment-owner {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
     font-size: 20px;
@@ -9721,7 +9721,7 @@ p.name-comment-owner {
 p.comment-add-date {
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     color: #ADADAD;
     padding-right: 15px;
 }
@@ -9730,12 +9730,12 @@ p.comment-remove {
     color: #F32131;
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .comment-info-box p {
     color: #4F4F4F;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-medium);
     line-height: 24px;
@@ -9753,7 +9753,7 @@ p.comment-remove {
 
 .comment-reply p {
     color: #4F4F4F;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-medium);
     line-height: 24px;
@@ -9761,7 +9761,7 @@ p.comment-remove {
 
 .more-comment p {
     color: #989898;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-medium);
     text-align: right;
@@ -9775,7 +9775,7 @@ p.comment-remove {
 
 .name-info-box p {
     color: #4F4F4F;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-medium);
     line-height: 24px;
@@ -9861,7 +9861,7 @@ td.name-box-hvr {
     border: 0;
     border-radius: 4px;
     cursor: pointer;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 18px;
     font-weight: 400;
 }
@@ -9879,7 +9879,7 @@ td.name-box-hvr {
     border: 1px solid var(--primary-color);
     border-radius: 4px;
     cursor: pointer;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 18px;
     font-weight: 400;
 }
@@ -9940,7 +9940,7 @@ td.name-box-hvr {
 
 .data-not-found p {
     color: var(--error-msg-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-medium);
 }
@@ -10058,7 +10058,7 @@ float: none;
 width: auto;
 padding: 0 20px;
 color: #666;
-font-family: var(--museo-sans);
+font-family: var(--arial-main);
 font-size: var(--body-text);
 font-weight: var(--font-weight-bold);
 } */
@@ -10190,7 +10190,7 @@ width: 86%; */
 
 .chat-info-box p {
     color: #000;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--skill-text-size);
     font-weight: 300;
     line-height: 24px;
@@ -10200,7 +10200,7 @@ width: 86%; */
 
 p.left-chat-c {
     color: #000;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--skill-text-size);
     font-weight: 300;
     line-height: 24px;
@@ -10213,7 +10213,7 @@ p.left-chat-c {
 
 .info-border .chat-info-box p {
     color: #000;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--skill-text-size);
     font-weight: 300;
     line-height: 24px;
@@ -10230,7 +10230,7 @@ p.left-chat-c {
 
 .chat-reply p {
     color: #4F4F4F;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-medium);
     line-height: 24px;
@@ -10331,7 +10331,7 @@ input#comment-f:focus {
 input#comment-f::-webkit-input-placeholder {
     color: var(--boder-color);
     font-size: var(--button-text);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     line-height: 24px;
 }
 
@@ -10358,7 +10358,7 @@ input#comment-f::-webkit-input-placeholder {
 
 p.name-clinet {
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     font-size: 20px;
 }
@@ -10367,7 +10367,7 @@ p.clinet-rank {
     color: var(--text-color);
     font-size: 14px;
     font-weight: 300;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .close-img-comment img {
@@ -10379,7 +10379,7 @@ p.clinet-rank {
     align-items: center;
     gap: 15px;
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     font-size: 22px;
     justify-content: center;
@@ -10391,7 +10391,7 @@ p.clinet-rank {
 
 .chat-date-b h1 {
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     font-size: 14px;
     text-align: center;
@@ -10422,7 +10422,7 @@ p.time-chat-left {
     color: #707070;
     font-size: 14px;
     font-weight: 300;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     height: auto;
     width: 570px;
     position: relative;
@@ -10439,7 +10439,7 @@ p.time-chat-left {
     color: #707070;
     font-size: 14px;
     font-weight: 300;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     height: auto;
     width: 570px;
     position: relative;
@@ -10471,7 +10471,7 @@ textarea.chat-user-in-f {
     color: var(--text-color);
     font-size: 14px;
     font-weight: 300;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     padding-right: 20px;
     resize: none;
     height: 60px;
@@ -10485,7 +10485,7 @@ input.chat-user-in-f {
     color: var(--text-color);
     font-size: 14px;
     font-weight: 300;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     padding-right: 20px;
 }
 
@@ -10643,7 +10643,7 @@ button.form-submit-job-model {
     border-radius: 12px;
     padding: 18px 0;
     color: var(--accent-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--body-text);
     margin-top: 15px;
     line-height: 24px;
@@ -10673,7 +10673,7 @@ button.form-submit-job-model {
     text-align: center;
     color: rgba(0, 0, 0, 0.80);
     font-size: var(--promoted-btn);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
 }
 
@@ -10689,7 +10689,7 @@ button.form-submit-job-model {
     text-align: center;
     color: var(--text-color);
     font-size: var(--promoted-btn);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
 }
 
@@ -10711,7 +10711,7 @@ button.form-submit-job-model {
 
 .model-login-google a p {
     font-size: var(--promoted-btn);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     opacity: 0.3;
@@ -10779,7 +10779,7 @@ button.form-submit-job-model {
 
 .list-content-s p {
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 18px;
     font-weight: 600;
 }
@@ -10858,7 +10858,7 @@ input.list-select-b {
 label.list-lab-clr {
     color: var(--primary-color);
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 600;
 }
 
@@ -10874,7 +10874,7 @@ label.list-lab-clr {
 
 button.can-list {
     color: #F32131;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     background: transparent;
     border-radius: 6px;
@@ -10887,7 +10887,7 @@ button.can-list {
 
 button.list-sub {
     color: #fff;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     background: var(--primary-color);
     border-radius: 6px;
@@ -10903,7 +10903,7 @@ button.list-sub {
 
 .form-font-list {
     color: #000000;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 13px;
     font-weight: 400;
     border-radius: 4px;
@@ -10915,7 +10915,7 @@ button.list-sub {
 
 .creadt-list-form label {
     color: #000000;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 8px;
@@ -10943,7 +10943,7 @@ textarea.form-font-list {
 
 .share-list-f label {
     color: #000000;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 8px;
@@ -11002,7 +11002,7 @@ textarea.form-font-list {
 
 .form-font-list-share {
     color: #000000;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 13px;
     font-weight: 400;
     border-radius: 4px;
@@ -11026,7 +11026,7 @@ ul.list-share-drop li {
     cursor: pointer;
     color: rgb(0 0 0 / 50%);
     font-size: var(--skill-text-size);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     line-height: 40px;
     display: flex;
@@ -11071,7 +11071,7 @@ ul.list-share-drop li:hover {
     color: var(--primary-color);
     font-size: 13px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 
@@ -11122,7 +11122,7 @@ p.text-delet-list {
     text-align: center;
     font-size: 32px;
     color: var(--error-msg-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -11142,7 +11142,7 @@ p.text-delet-tow {
     font-size: 20px;
     line-height: 28px;
     color: var(--error-msg-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -11160,7 +11160,7 @@ button.no-btn-delet {
     background: white;
     padding: 10px 0px;
     color: #E15C52;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 14px;
     font-weight: var(--font-weight-medium);
     min-width: 120px;
@@ -11173,7 +11173,7 @@ button.yes-btn-delet {
     background: var(--primary-color);
     padding: 10px 0px;
     color: var(--color-white);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 14px;
     font-weight: var(--font-weight-medium);
     min-width: 120px;
@@ -11205,7 +11205,7 @@ ul.list-item-delet li {
     justify-content: space-between;
     padding: 9px 7px;
     color: #121212;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 13px;
     font-weight: 400;
     cursor: pointer;
@@ -11241,7 +11241,7 @@ ul.list-item-delet li:hover {
     padding: 6px 10px;
     border-radius: 4px;
     color: var(--accent-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-bold);
 }
@@ -11255,7 +11255,7 @@ ul.list-item-delet li:hover {
     background: rgba(255, 160, 51, 0.15);
     border-radius: 4px;
     color: var(--accent-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-bold);
 }
@@ -11427,7 +11427,7 @@ p.progress-percent-jour {
     line-height: 46px;
     text-align: center;
     z-index: 1;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -11487,7 +11487,7 @@ ul.info-list-jour {
 ul.info-list-jour li {
     color: var(--text-color);
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     display: flex;
 }
@@ -11495,7 +11495,7 @@ ul.info-list-jour li {
 ul.info-list-jour li span {
     color: var(--primary-color);
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     min-width: 180px !important;
 }
@@ -11503,7 +11503,7 @@ ul.info-list-jour li span {
 .jour-info-list ul {
     color: var(--text-color);
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     margin-bottom: 4px !important;
     list-style: none;
@@ -11513,7 +11513,7 @@ ul.info-list-jour li span {
 .jour-info-list p {
     color: var(--primary-color);
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     margin-bottom: 4px !important;
 }
@@ -11524,7 +11524,7 @@ button.link-profile-jour {
     padding: 12px 24px;
     color: #fff;
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     display: flex;
     gap: 10px;
     border: 0;
@@ -11543,7 +11543,7 @@ button.link-mail-jour {
     padding: 10px 24px;
     color: var(--primary-color);
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11562,7 +11562,7 @@ button.link-mail-jour img {
 p.work-jour-heading {
     color: var(--primary-color);
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     margin-bottom: 12px !important;
 }
@@ -11579,7 +11579,7 @@ button.tag-jour-btn {
     background: #F2F7FF;
     color: var(--primary-color);
     font-size: 14px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 500;
     padding: 7px;
     line-height: 16.8px;
@@ -11597,7 +11597,7 @@ button.tag-jour-btn {
 p.summary-jour {
     color: var(--primary-color);
     font-size: 18px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -11605,7 +11605,7 @@ p.summary-jour-content {
     color: var(--text-color);
     font-size: 16px;
     text-align: justify;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 300;
     line-height: 26.6px;
 }
@@ -11652,7 +11652,7 @@ ul.nav.nav-tabs.mb-3.tabs-summary {
 p.content-heading-jour {
     color: var(--primary-color);
     font-size: 24px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     border-bottom: 1px solid rgb(0 0 0 / 20%);
     padding-bottom: 10px;
@@ -11738,7 +11738,7 @@ p.content-heading-jour {
     line-height: 70px;
     text-align: center;
     z-index: 1;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -11752,7 +11752,7 @@ p.content-heading-jour {
     line-height: 70px;
     text-align: center;
     z-index: 1;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -11766,7 +11766,7 @@ p.content-heading-jour {
     line-height: 70px;
     text-align: center;
     z-index: 1;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -11780,7 +11780,7 @@ p.content-heading-jour {
     line-height: 70px;
     text-align: center;
     z-index: 1;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold)
 }
 
@@ -11794,14 +11794,14 @@ p.content-heading-jour {
     line-height: 70px;
     text-align: center;
     z-index: 1;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold)
 }
 
 p.heading-main-jour {
     font-size: 20px;
     color: #435B9C;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -11824,14 +11824,14 @@ p.summar-clr {
 p.content-main-jour {
     color: #848A9C;
     font-size: 14px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
 }
 
 p.right-col-heading {
     color: var(--primary-color);
     font-size: 24px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -11845,7 +11845,7 @@ p.right-col-percentage {
     margin: 15px auto !important;
     color: var(--primary-color);
     padding: 58px 50px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -11853,7 +11853,7 @@ p.right-col-sub-heading {
     font-size: 20px;
     padding: 10px 0;
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -11861,7 +11861,7 @@ p.right-col-jour-sub-content {
     color: var(--text-color);
     font-size: 16px;
     text-align: justify;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 300;
     line-height: 20px;
     word-break: break-word;
@@ -11869,14 +11869,14 @@ p.right-col-jour-sub-content {
 
 .tab-size-jour {
     font-size: 18px !important;
-    font-family: var(--museo-sans) !important;
+    font-family: var(--arial-main) !important;
     font-weight: 500 !important;
     color: rgba(0, 0, 0, 0.3) !important;
 }
 
 a.active.tab-size-jour {
     font-size: 18px !important;
-    font-family: var(--museo-sans) !important;
+    font-family: var(--arial-main) !important;
     font-weight: var(--font-weight-bold) !important;
     color: var(--primary-color) !important;
 }
@@ -11945,7 +11945,7 @@ p.percentage-summary-similarity-clr {
 
 .job-title-joourny {
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     text-align: center;
     font-size: 28px;
@@ -11980,7 +11980,7 @@ p.percentage-summary-similarity-clr {
 
 .good-cv-box-j p {
     color: #0AB84D;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 12px;
     font-weight: var(--font-weight-medium);
 }
@@ -12007,7 +12007,7 @@ p.percentage-summary-similarity-clr {
 
 .badreview-cv-box-j p {
     color: var(--error-msg-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 12px;
     font-weight: var(--font-weight-medium);
 }
@@ -12034,7 +12034,7 @@ p.percentage-summary-similarity-clr {
 
 .thinkneed-cv-box-j p {
     color: var(--accent-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 12px;
     font-weight: var(--font-weight-medium);
 }
@@ -12085,7 +12085,7 @@ img.show-tooltip:hover~.tooltip-table-jour {
 p.content-heading-jour-res {
     color: var(--primary-color);
     font-size: 24px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     padding-bottom: 0px;
     margin-bottom: 0px !important;
@@ -12123,7 +12123,7 @@ img.preview-icon-job {
 }
 
 .name-res-jou {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
     font-size: 32px;
@@ -12138,7 +12138,7 @@ img.preview-icon-job {
 }
 
 .location-res-j p {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 400;
     color: var(--text-color);
     font-size: 16px;
@@ -12164,7 +12164,7 @@ img.preview-icon-job {
 
 .box-one-res span,
 .box-two-res span {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 600;
     color: var(--text-color);
     font-size: 16px;
@@ -12172,7 +12172,7 @@ img.preview-icon-job {
 }
 
 .box-one-res a {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
@@ -12180,7 +12180,7 @@ img.preview-icon-job {
 }
 
 .box-two-res a {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
@@ -12188,7 +12188,7 @@ img.preview-icon-job {
 }
 
 .box-three-res a {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--text-color);
     font-size: 16px;
@@ -12212,7 +12212,7 @@ img.preview-icon-job {
 }
 
 .resume-name-mbl a {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
     font-size: 18px;
@@ -12220,7 +12220,7 @@ img.preview-icon-job {
 }
 
 .resume-name-mbl a span {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
     font-size: 14px;
@@ -12264,14 +12264,14 @@ img.preview-icon-job {
 }
 
 .first-heading-res-j {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
     font-size: 24px;
 }
 
 p.res-sumry-jour {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
@@ -12293,35 +12293,35 @@ p.res-sumry-jour {
 }
 
 .sub-heading-res-j {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--text-color);
     font-size: 18px;
 }
 
 .sub-heading-res-j-right {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 18px;
 }
 
 a.project-link-res-j {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
 }
 
 p.res-postion-j {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--text-color);
     font-size: 18px;
 }
 
 p.res-postion-j span {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 18px;
@@ -12332,7 +12332,7 @@ ul.resume-job-list {
 }
 
 ul.resume-job-list li {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
@@ -12345,7 +12345,7 @@ ul.resume-job-list li {
 }
 
 .cus-resume-job-list li {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
@@ -12354,7 +12354,7 @@ ul.resume-job-list li {
 }
 
 p.edu-resume {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
@@ -12367,7 +12367,7 @@ p.edu-resume {
 
 ul.certificate-res-list {
     padding: 0px 0 0 20px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
@@ -12393,7 +12393,7 @@ ul.certificate-res-list {
 
 a.ai-rec-btn-from {
     text-decoration: none;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--color-white);
     font-size: 14px;
@@ -12435,7 +12435,7 @@ a.ai-rec-btn-from {
 
 .resum-verivication-job {
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     text-align: center;
     font-size: 28px;
@@ -12466,7 +12466,7 @@ a.ai-rec-btn-from {
 button.template-btn {
     color: #74869D;
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 400;
     line-height: 18px;
@@ -12481,7 +12481,7 @@ button.active-toggle-btn-ver {
     border: 2px solid var(--primary-color);
     padding: 12px 5px;
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     font-size: 16px;
     line-height: 18px;
@@ -12533,7 +12533,7 @@ button.resume-skills-right-tb {
     color: var(--primary-color);
     font-size: 14px;
     font-weight: 500;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .tags-skills ul.tags-skill-list li img {
@@ -12607,7 +12607,7 @@ button.resume-skills-right-tb {
 }
 
 .location-res-left p {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
@@ -12633,7 +12633,7 @@ button.resume-skills-right-tb {
 
 .box-one-res-l span,
 .box-two-res-l span {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--text-color);
     font-size: 16px;
@@ -12642,7 +12642,7 @@ button.resume-skills-right-tb {
 }
 
 .box-one-res-l a {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
@@ -12652,7 +12652,7 @@ button.resume-skills-right-tb {
 }
 
 .box-two-res-l a {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
@@ -12662,7 +12662,7 @@ button.resume-skills-right-tb {
 }
 
 .box-three-res-l a {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
@@ -12671,14 +12671,14 @@ button.resume-skills-right-tb {
 }
 
 .first-heading-res-left {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
     font-size: 24px;
 }
 
 p.res-sumry-left {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 500;
     color: var(--text-color);
     font-size: 16px;
@@ -12700,7 +12700,7 @@ p.res-sumry-left {
 }
 
 .sub-heading-res-left {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--text-color);
     font-size: 18px;
@@ -12708,7 +12708,7 @@ p.res-sumry-left {
 }
 
 .sub-heading-res-right {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 18px;
@@ -12716,14 +12716,14 @@ p.res-sumry-left {
 }
 
 a.project-link-res {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
 }
 
 p.res-postion-left {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--text-color);
     font-size: 18px;
@@ -12731,7 +12731,7 @@ p.res-postion-left {
 }
 
 p.res-postion-left span {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 18px;
@@ -12748,7 +12748,7 @@ p.res-postion-left span {
 
 ul.certificate-res-list-left {
     padding: 0px 0 0 20px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
@@ -12760,7 +12760,7 @@ ul.resume-job-list-left {
 }
 
 ul.resume-job-list-left li {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 400;
     color: var(--text-color);
     font-size: 16px;
@@ -12773,7 +12773,7 @@ ul.resume-job-list-left li {
 }
 
 .cus-resume-job-list-left ul li {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 400;
     color: var(--text-color);
     font-size: 16px;
@@ -12782,7 +12782,7 @@ ul.resume-job-list-left li {
 }
 
 ul.resume-job-list-skill li {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
@@ -12795,7 +12795,7 @@ ul.resume-job-list-skill li {
 }
 
 p.edu-resume-left {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     font-size: 16px;
@@ -12807,7 +12807,7 @@ p.edu-resume-left {
 }
 
 .name-res-left {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
     font-size: 24px;
@@ -12819,7 +12819,7 @@ p.edu-resume-left {
 
 .main-heading-form-right {
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     text-align: center;
     font-size: 28px;
@@ -12836,7 +12836,7 @@ p.edu-resume-left {
 }
 
 .personal-info-right {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
     font-size: 24px;
@@ -12872,7 +12872,7 @@ p.edu-resume-left {
 .f-feild-res label {
     margin-bottom: 8px;
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: var(--font-weight-bold);
 }
@@ -12889,7 +12889,7 @@ p.edu-resume-left {
 }
 
 .experience-info-right {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
     font-size: 24px;
@@ -12934,7 +12934,7 @@ p.edu-resume-left {
 }
 
 .date-job-res p {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
     font-size: 14px;
@@ -12959,7 +12959,7 @@ img.del-res-skill {
 }
 
 p.right-resume-cmp {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
     font-size: 16px;
@@ -12967,14 +12967,14 @@ p.right-resume-cmp {
 }
 
 p.job-title-res-right {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--text-color);
     font-size: 14px;
 }
 
 p.job-pro-url-res-right {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 500 !important;
     color: var(--text-color);
     font-size: 14px;
@@ -13063,7 +13063,7 @@ button.resume-exper-right-tb {
     text-align: center;
     -webkit-appearance: none;
     font-size: 18px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
 }
@@ -13158,7 +13158,7 @@ ul.list-job-title-year-res li {
     cursor: pointer;
     color: rgb(0 0 0 / 50%);
     font-size: var(--skill-text-size);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     line-height: 40px;
     text-align: left;
@@ -13226,7 +13226,7 @@ input.can-res-btn {
     background: #FFF;
     color: #E15C52;
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 600;
     line-height: 15px;
@@ -13240,7 +13240,7 @@ input.save-res-btn {
     background: #143975;
     color: #fff;
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 600;
     line-height: 15px;
@@ -13252,7 +13252,7 @@ input.save-res-btn {
 /**********certificate tab resume**********/
 
 p.right-resume-certificate {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
     font-size: 16px;
@@ -13278,7 +13278,7 @@ button.can-res-btn-last {
     background: #FFF;
     color: #E15C52;
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 600;
     line-height: 15px;
@@ -13292,7 +13292,7 @@ button.save-res-btn-last {
     background: #143975;
     color: #fff;
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 600;
     line-height: 15px;
@@ -13351,7 +13351,7 @@ p.text-res-list {
     text-align: center;
     font-size: 24px;
     color: var(--accent-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -13377,7 +13377,7 @@ p.text-res-below {
     font-size: 18px;
     line-height: 24px;
     color: var(--color-white);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -13433,7 +13433,7 @@ section.model-popup-resfile {
     font-size: 18px;
     color: var(--primary-color);
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     line-height: 20px;
     text-transform: capitalize;
     padding: 12px 0;
@@ -13451,7 +13451,7 @@ section.model-popup-resfile {
 .f-feild-renameres label {
     margin-bottom: 8px;
     color: var(--text-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 14px;
     font-weight: 400;
 }
@@ -13462,7 +13462,7 @@ button.can-resfile-btn {
     background: #FFF;
     color: #E15C52;
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 600;
     line-height: 15px;
@@ -13476,7 +13476,7 @@ button.save-resfile-btn {
     background: #143975;
     color: #fff;
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 600;
     line-height: 15px;
@@ -13498,7 +13498,7 @@ button.save-resfile-btn {
 .textshow-res-save {
     color: #07944F;
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 600;
     font-size: 20px;
     line-height: 28px;
@@ -13607,7 +13607,7 @@ ul.progressbar-steps-res li {
 
 .text-mainheadingupload {
     color: #5E82B8;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 36px;
     font-weight: var(--font-weight-bold);
     line-height: 52px;
@@ -13623,7 +13623,7 @@ ul.progressbar-steps-res li {
 
 p.text-sumtext-upload {
     color: rgb(0 0 0 / 60%);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 20px;
     font-weight: 300;
     line-height: 28px;
@@ -13640,7 +13640,7 @@ p.text-sumtext-upload {
 
 .main-heading-l {
     color: #5E82B8;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 50px;
     font-weight: var(--font-weight-bold);
     line-height: 57px;
@@ -13651,7 +13651,7 @@ p.text-sumtext-upload {
 
 p.job-ai-text {
     color: #000;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -13675,7 +13675,7 @@ p.job-ai-text {
 }
 
 .job-res-info-right {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
     font-size: 28px;
@@ -13683,7 +13683,7 @@ p.job-ai-text {
 }
 
 p.job-info-res {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: rgb(0 0 0 / 40%);
     font-size: 16px;
@@ -13719,7 +13719,7 @@ p.candidate-file-res-drop {
     padding: 25px 0 10px 0;
     color: var(--primary-color);
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     font-size: 16px;
     line-height: 24px;
@@ -13727,14 +13727,14 @@ p.candidate-file-res-drop {
 
 a.brow-res-f {
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     font-size: 16px;
     line-height: 24px;
 }
 
 p.file-suport-text {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: rgb(0 0 0 / 50%);
     font-size: 14px;
@@ -13765,7 +13765,7 @@ button.can-res-btn-res {
     background: #FFF;
     color: #E15C52;
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 600;
     line-height: 15px;
@@ -13778,7 +13778,7 @@ button.save-res-btn-res {
     background: #143975;
     color: #fff;
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 600;
     line-height: 15px;
@@ -13790,7 +13790,7 @@ button.save-res-btn-res {
 
 .candidate-card-heading-main {
     padding: 50px 0 60px 0;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
     font-size: 28px;
@@ -13838,7 +13838,7 @@ button.save-res-btn-res {
 }
 
 .res-main-heading-crd {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--color-white);
     font-size: 28px;
@@ -13848,7 +13848,7 @@ button.save-res-btn-res {
 }
 
 p.crd-res-content {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 400;
     color: rgb(255 255 255 / 80%);
     font-size: 14px;
@@ -13875,7 +13875,7 @@ a.res-crd-btn {
     border: 1px solid #FFF;
     padding: 11.5px 47px;
     background: transparent;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 600;
     color: var(--color-white);
     font-size: 14px;
@@ -13924,7 +13924,7 @@ a.res-crd-btn {
     font-size: 20px;
     color: var(--primary-color);
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     line-height: 20px;
     text-transform: capitalize;
     padding: 12px 0;
@@ -13933,7 +13933,7 @@ a.res-crd-btn {
 }
 
 .sub-text-upload-res {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     color: rgba(0, 0, 0, 0.60);
     font-size: 16px;
     font-weight: 400;
@@ -13944,7 +13944,7 @@ a.res-crd-btn {
 p.sub-text-upload-res {
     color: var(--primary-color);
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -14008,7 +14008,7 @@ label#resumefile-upload-model {
 }
 
 p.candidate-file-res-upload {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     color: var(--text-color);
     font-size: 16px;
     font-weight: 400;
@@ -14017,7 +14017,7 @@ p.candidate-file-res-upload {
 }
 
 p.candidate-file-res-subtext-upload {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     color: rgba(0, 0, 0, 0.40);
     font-size: 16px;
     font-weight: 400;
@@ -14026,7 +14026,7 @@ p.candidate-file-res-subtext-upload {
 }
 
 p.candidate-file-res-suberror {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     color: #e15c52;
     font-size: 16px;
     font-weight: 400;
@@ -14043,7 +14043,7 @@ button.slt-file-res {
     border-radius: 5px;
     border: 1px solid rgba(20, 57, 117, 0.70);
     background: #FFF;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     color: var(--primary-color);
     font-size: 16px;
     font-weight: 400;
@@ -14076,7 +14076,7 @@ section.model-popup-3 {
 }
 
 .res-jbmdl-heading {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
     font-size: 20px;
@@ -14084,7 +14084,7 @@ section.model-popup-3 {
 }
 
 .sub-text-jbmdl-res {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     color: #000;
     font-size: 16px;
     font-weight: var(--font-weight-bold);
@@ -14150,21 +14150,21 @@ section.model-popup-3 {
 }
 
 p.org-text-right {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
     font-size: 18px;
 }
 
 p.org-text-right-r {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: #FFA033;
     font-size: 18px;
 }
 
 p.jb-desc-mdl {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: rgb(0 0 0 / 50%);
     font-size: 14px;
@@ -14178,7 +14178,7 @@ p.jb-desc-mdl {
     border: 1px solid rgba(0, 0, 0, 0.16);
     background: rgba(221, 222, 238, 0.25);
     color: var(--text-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 400;
 }
@@ -14189,7 +14189,7 @@ textarea.txt-editr-jbmdl {
     border: 0px solid rgba(0, 0, 0, 0.16);
     background: rgb(246 247 251);
     color: var(--text-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 400;
 }
@@ -14226,7 +14226,7 @@ button.regenerate-res {
     align-items: center;
     gap: 8px;
     color: #ffffff;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     font-size: 16px;
     min-width: 157px;
@@ -14242,7 +14242,7 @@ button.replace-res {
     align-items: center;
     gap: 8px;
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     font-size: 16px;
     margin-right: 15px;
@@ -14264,7 +14264,7 @@ textarea.user-inp-jbmdl {
     border: 1px solid rgba(0, 0, 0, 0.16);
     background: #F7F7FB;
     color: var(--text-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 400;
     text-align: justify;
@@ -14314,7 +14314,7 @@ button.res-img-btn {
 }
 
 .choose-upload-heading {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--primary-color);
     font-size: 24px;
@@ -14323,7 +14323,7 @@ button.res-img-btn {
 }
 
 .sub-text-choose-res {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     color: rgba(0, 0, 0, 0.60);
     font-size: 16px;
     font-weight: 400;
@@ -14387,7 +14387,7 @@ button.res-img-btn {
     text-align: center;
     padding: 20px 0;
     color: #fff;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 600;
 }
@@ -14408,14 +14408,14 @@ button.res-img-btn {
 
 p.name-file-choose {
     color: #000;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 14px;
     font-weight: 600;
 }
 
 a.job-link-modl {
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 12px;
     font-weight: 600;
     text-decoration: underline;
@@ -14424,7 +14424,7 @@ a.job-link-modl {
 
 span.link-mdl-j {
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 12px;
     font-weight: 600;
     text-decoration: none;
@@ -14432,7 +14432,7 @@ span.link-mdl-j {
 
 p.date-res-choose {
     color: rgba(0, 0, 0, 0.5);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 14px;
     font-weight: 400;
 }
@@ -14459,7 +14459,7 @@ img.dowld-res {
     text-align: end;
     padding: 10px 0;
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 400;
     display: flex;
@@ -14500,7 +14500,7 @@ section.term-condition {
 
 .main-heading-term {
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 32px;
     font-weight: 600;
     text-align: center;
@@ -14511,7 +14511,7 @@ section.term-condition {
 .first-para-term {
     color: #000;
     text-align: justify;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 400;
     line-height: 26.72px;
@@ -14520,7 +14520,7 @@ section.term-condition {
 
 .sub-heading-term {
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 32px;
     font-weight: 600;
     text-align: left
@@ -14529,7 +14529,7 @@ section.term-condition {
 .first-sub-para-term {
     color: #000;
     text-align: justify;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 400;
     line-height: 26.72px;
@@ -14539,7 +14539,7 @@ section.term-condition {
 .bold-text-policy {
     color: #000;
     text-align: justify;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 18px;
     font-weight: 600;
 }
@@ -14556,7 +14556,7 @@ section.term-condition {
 .lis-privcay-policy ul li {
     color: #000;
     text-align: justify;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 400;
     line-height: 26.72px;
@@ -14579,7 +14579,7 @@ section.term-condition {
 .lis-privcay-policy-icon ul li {
     color: #000;
     text-align: justify;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 400;
     line-height: 26.72px;
@@ -14596,7 +14596,7 @@ section.term-condition {
 .lis-privcay-policy-space-icon ul li {
     color: #000;
     text-align: justify;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 400;
     line-height: 26.72px;
@@ -14635,7 +14635,7 @@ section.term-condition {
     border: none;
     outline: none;
     color: var(--color-white) !important;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     background: transparent;
     border-radius: 50px 0 0 50px;
@@ -14655,7 +14655,7 @@ img.cart-menu {
 /* .navbar-nav li a.nav-link {
 font-size: 14px;
 color: var(--color-white) !important;
-font-family: var(--museo-sans);
+font-family: var(--arial-main);
 font-weight: var(--font-weight-medium);
 } */
 
@@ -14796,7 +14796,7 @@ ul.inner-dropdown.d-block li.sub-children.nav-item.icon-crv.active>a.menu-btn {
 
 .dropdown-dashbord-admin ul a {
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--font-weight-medium);
     text-decoration: none;
     color: var(--primary-color);
@@ -14814,7 +14814,7 @@ ul.inner-dropdown.d-block li.sub-children.nav-item.icon-crv.active>a.menu-btn {
     line-height: 20px;
     color: rgba(0, 0, 0, 0.40);
     cursor: pointer;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .text-header-sidebar span.active {
@@ -14824,7 +14824,7 @@ ul.inner-dropdown.d-block li.sub-children.nav-item.icon-crv.active>a.menu-btn {
     color: var(--text-color);
     padding-left: 5px;
     cursor: pointer;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .col-right-sidebar {
@@ -14852,7 +14852,7 @@ p.department-name {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .all-flag-sidebar {
@@ -14915,7 +14915,7 @@ transition: color 0.1s, transform 0.2s ease-out; */
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     visibility: visible;
     white-space: nowrap;
 }
@@ -14928,7 +14928,7 @@ transition: color 0.1s, transform 0.2s ease-out; */
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     visibility: hidden;
 }
 
@@ -14955,7 +14955,7 @@ transition: color 0.1s, transform 0.2s ease-out; */
 }
 
 p.admin-main-title {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 20px;
     line-height: 38px;
     font-weight: var(--font-weight-bold);
@@ -14970,7 +14970,7 @@ ul.crad-admin-list {
 }
 
 ul.crad-admin-list li {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 14px;
     line-height: 21px;
     font-weight: var(--font-weight-medium);
@@ -15053,7 +15053,7 @@ button.admin-continue {
     min-width: 208px;
     font-size: 14px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     text-align: center;
     display: block;
     margin: 0 60px 0 auto;
@@ -15128,7 +15128,7 @@ tbody.tb-admin td {
     font-size: 14px;
     color: var(--primary-color);
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     text-align: center;
 }
 
@@ -15157,7 +15157,7 @@ span.later-circle {
     margin-right: 8px;
     color: var(--primary-color);
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     display: inline-flex;
     height: 38px;
     width: 38px;
@@ -15235,7 +15235,7 @@ tbody.tb-user td {
     font-size: 14px;
     color: var(--text-color);
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     text-align: left;
     word-wrap: break-word;
     vertical-align: middle;
@@ -15261,7 +15261,7 @@ th.size-th-user {
     background: #e5f1ff;
     padding: 26px 0;
     font-size: 18px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     color: var(--text-color);
     margin-top: 15px;
@@ -15280,7 +15280,7 @@ th.size-th-user {
     background: #FFF;
     box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.14);
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 12px;
     padding: 5px;
     opacity: 0;
@@ -15297,7 +15297,7 @@ th.size-th-user {
     background: #FFF;
     box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.14);
     color: var(--primary-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 12px;
     padding: 5px;
     opacity: 0;
@@ -15314,7 +15314,7 @@ th.size-th-user {
     background: #FFF;
     box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.14);
     color: #FFA033;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 12px;
     padding: 5px;
     opacity: 0;
@@ -15331,7 +15331,7 @@ th.size-th-user {
     background: #FFF;
     box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.14);
     color: #F32131;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 12px;
     padding: 5px;
     opacity: 0;
@@ -15381,7 +15381,7 @@ img.show-tooltip3:hover~.tooltip-delete-role {
     margin: 0 5px;
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .pagination-admin-tb a.active {
@@ -15390,7 +15390,7 @@ img.show-tooltip3:hover~.tooltip-delete-role {
     border: 2px solid var(--accent-color);
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .pagination-admin-tb a {
@@ -15401,7 +15401,7 @@ img.show-tooltip3:hover~.tooltip-delete-role {
     color: var(--text-color);
     font-size: 13px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 
@@ -15487,7 +15487,7 @@ img.show-tooltip3:hover~.tooltip-delete-role {
 p.filter-label-admin {
     color: var(--text-color);
     font-size: 14px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     padding-bottom: 5px;
 }
@@ -15498,7 +15498,7 @@ p.text-filter-select {
 
 .text-filter-admin p {
     color: #0000004d;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
 }
 
@@ -15665,13 +15665,13 @@ input#dept-f {
     color: var(--text-color);
     font-size: 14px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     margin-bottom: 15px;
 }
 
 .form-font-admin {
     color: rgb(0 0 0 / 100%);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 14px;
     font-weight: 400;
 }
@@ -15690,7 +15690,7 @@ button.cancel-admin {
     padding: 12px 10px;
     background: transparent;
     color: #F32131;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 14px;
     font-weight: 400;
 }
@@ -15702,7 +15702,7 @@ button.next-admin {
     padding: 12px 10px;
     background: var(--primary-color);
     color: var(--color-white);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 14px;
     font-weight: 400;
 }
@@ -15842,7 +15842,7 @@ textarea#text-admin {
     color: var(--primary-color);
     font-size: 13px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 
@@ -15863,7 +15863,7 @@ a.nav-link {
     color: rgba(0, 0, 0, 0.3);
     font-size: 14px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 a.nav-link.active {
@@ -15872,7 +15872,7 @@ a.nav-link.active {
     color: var(--primary-color) !important;
     font-size: 14px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 thead.tb-heading-user-admin {
@@ -15884,7 +15884,7 @@ thead.tb-heading-user-admin th {
     color: var(--text-color);
     font-size: 13px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     padding: 20px 0px 20px 18px;
     text-align: left;
 }
@@ -15909,7 +15909,7 @@ tbody.tb-user-admin tr:nth-child(even) {
     color: var(--text-color);
     font-size: 14px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     display: flex;
     align-items: center;
 }
@@ -15920,7 +15920,7 @@ tbody.tb-user-admin td {
     color: rgb(0 0 0 / 100%);
     font-size: 16px;
     font-weight: 300;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     vertical-align: baseline;
 }
 
@@ -15933,14 +15933,14 @@ tbody.tb-user-admin td {
 
 .first-part-f h3 {
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     color: var(--primary-color);
     font-size: 20px;
 }
 
 .first-part-f p {
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     color: rgba(0, 0, 0, 0.5);
     font-size: 12px;
 }
@@ -15973,7 +15973,7 @@ ul.list-admin-country li {
     cursor: pointer;
     color: rgb(0 0 0 / 50%);
     font-size: 11px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     line-height: 40px;
 }
@@ -16011,7 +16011,7 @@ ul.list-admin-portal li {
     cursor: pointer;
     color: rgb(0 0 0 / 50%);
     font-size: var(--skill-text-size);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     line-height: 40px;
     display: flex;
@@ -16050,7 +16050,7 @@ ul.list-admin-portal-clr li {
     cursor: pointer;
     color: rgb(0 0 0 / 50%);
     font-size: var(--skill-text-size);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     line-height: 40px;
     display: flex;
@@ -16181,7 +16181,7 @@ img.pass-icon-hide {
     color: var(--text-color);
     font-size: 13px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .hide-tick {
@@ -16205,13 +16205,13 @@ p.employee-name-mbl {
     color: var(--primary-color);
     font-size: 14px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     line-height: 16px;
 }
 
 a.employee-email-mbl {
     color: rgba(0, 0, 0, 0.50);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 12px;
     text-decoration: none;
     font-weight: 300;
@@ -16229,7 +16229,7 @@ a.employee-email-mbl {
 
 .dropdown-mbl-side ul a {
     font-size: 16px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--font-weight-medium);
     text-decoration: none;
     color: var(--primary-color);
@@ -16265,7 +16265,7 @@ p.text-admin-two {
     font-size: 18px;
     line-height: 28px;
     color: var(--text-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -16337,7 +16337,7 @@ p.text-con-model {
     text-align: center;
     font-size: 32px;
     color: var(--accent-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -16346,7 +16346,7 @@ p.text-confrim-modl {
     font-size: 20px;
     line-height: 28px;
     color: var(--text-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -16388,7 +16388,7 @@ p.text-confrim-modl {
     padding-top: 20px;
     font-size: 18px;
     color: var(--error-msg-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
 }
 
@@ -16404,7 +16404,7 @@ button.edit-form-user {
     min-width: 208px;
     font-size: 14px;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     text-align: center;
     margin: 0 10px 0 auto;
     display: flex;
@@ -16415,7 +16415,7 @@ button.edit-form-user {
 
 .form-fill-user {
     color: rgb(0 0 0 / 100%);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 400;
     word-break: break-all;
@@ -16425,20 +16425,20 @@ button.edit-form-user {
     color: var(--primary-color);
     font-size: 18px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     margin-bottom: 15px;
 }
 
 .form-fill-user-active {
     color: #079463;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 400;
 }
 
 .form-fill-user-in-active {
     color: #F32131;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 400;
 }
@@ -16581,7 +16581,7 @@ button.reject-prom-btn {
     background: #FFF;
     color: #E15C52;
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 button.approve-prom-btn {
@@ -16592,7 +16592,7 @@ button.approve-prom-btn {
     background: var(--primary-color);
     color: var(--color-white);
     font-weight: var(--font-weight-medium);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 
@@ -16674,7 +16674,7 @@ p.logo-card {
     color: rgb(0 0 0 / 40%);
     font-size: 12px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     height: 50px;
     width: 50px;
     padding: 0 5px;
@@ -16687,7 +16687,7 @@ p.job-postion-h {
     color: rgb(0 0 0 / 100%);
     font-size: 16px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 p.job-no-cir {
@@ -16696,7 +16696,7 @@ p.job-no-cir {
     color: rgb(0 0 0 / 100%);
     font-size: 10px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     height: 50px;
     width: 50px;
     padding: 0 3px;
@@ -16710,7 +16710,7 @@ p.c-name-card {
     padding: 7px 0;
     font-size: 16px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 p.c-content-c {
@@ -16718,7 +16718,7 @@ p.c-content-c {
     padding-bottom: 15px;
     font-size: 12px;
     font-weight: 300;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 a.cmpy-card-tags {
@@ -16727,7 +16727,7 @@ a.cmpy-card-tags {
     padding: 5px 20px;
     color: #000;
     font-size: 12px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 400;
     margin-top: 12px;
     min-width: 88px;
@@ -16778,7 +16778,7 @@ p.slot-heading-r {
     color: var(--primary-color);
     font-size: 20px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .list-one-select {
@@ -16796,14 +16796,14 @@ p.postion-list-c {
     color: var(--primary-color);
     font-size: 18px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 p.list-date-c {
     color: var(--primary-color);
     font-size: 12px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 button.boooking-req {
@@ -16814,7 +16814,7 @@ button.boooking-req {
     background: #FFF;
     color: #375B96;
     text-align: center;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     font-weight: 400;
 }
@@ -16871,7 +16871,7 @@ p.logo-card-avaliable {
     color: rgb(0 0 0 / 40%);
     font-size: 12px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     height: 60px;
     width: 60px;
     display: flex;
@@ -16883,7 +16883,7 @@ p.job-postion-avalibe {
     color: var(--primary-color);
     font-size: 16px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 p.job-no-cir-avaliable {
@@ -16892,7 +16892,7 @@ p.job-no-cir-avaliable {
     color: var(--primary-color);
     font-size: 12px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     height: 60px;
     width: 60px;
     display: flex;
@@ -16905,7 +16905,7 @@ p.c-name-card-avalibe {
     padding: 15px 0 5px;
     font-size: 16px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 .card-slot-bg-dark-card {
@@ -16925,7 +16925,7 @@ p.logo-card-avaliable-dark {
     background: #B3B1B1;
     color: rgb(255 255 255 / 80%);
     font-size: 12px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     height: 60px;
     width: 60px;
     display: flex;
@@ -16937,7 +16937,7 @@ p.job-postion-avalibe-dark {
     color: #797979;
     font-size: 16px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 p.job-no-cir-avaliable-dark {
@@ -16947,7 +16947,7 @@ p.job-no-cir-avaliable-dark {
     background: #B3B1B1;
     color: rgb(255 255 255 / 80%);
     font-size: 12px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     height: 60px;
     width: 60px;
     display: flex;
@@ -16960,7 +16960,7 @@ p.c-name-card-avalibe-dark {
     padding: 15px 0 5px;
     font-size: 16px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 p.c-content-c-dark {
@@ -16968,7 +16968,7 @@ p.c-content-c-dark {
     padding-bottom: 15px;
     font-size: 12px;
     font-weight: 300;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 a.cmpy-card-tags-dark {
@@ -16978,7 +16978,7 @@ a.cmpy-card-tags-dark {
     padding: 5px 20px;
     color: rgb(255 255 255 / 80%);
     font-size: 12px;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 400;
     margin-top: 12px;
     min-width: 88px;
@@ -17052,7 +17052,7 @@ p.job-postion-avalibe-full {
     color: var(--primary-color);
     font-size: 16px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     text-align: center;
 }
 
@@ -17060,7 +17060,7 @@ p.job-title-promtion {
     color: var(--primary-color);
     font-size: 16px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 p.logo-card-avaliable-full {
@@ -17070,7 +17070,7 @@ p.logo-card-avaliable-full {
     color: rgb(0 0 0 / 40%);
     font-size: 12px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     height: 32px;
     width: 32px;
     display: flex;
@@ -17083,7 +17083,7 @@ p.full-content-c {
     padding-bottom: 15px;
     font-size: 10px;
     font-weight: 300;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     padding-bottom: 0;
 }
 
@@ -17091,7 +17091,7 @@ p.job-postion-avalibe-dark-full {
     color: #B3B1B1;
     font-size: 16px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     text-align: center;
 }
 
@@ -17099,7 +17099,7 @@ p.job-title-promtion-dark {
     color: #454545;
     font-size: 16px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
 }
 
 p.logo-card-avaliable-dark {
@@ -17110,7 +17110,7 @@ p.logo-card-avaliable-dark {
     color: rgb(255 255 255 / 80%);
     font-size: 12px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     height: 60px;
     width: 60px;
     display: flex;
@@ -17166,7 +17166,7 @@ p.text-promotion-list {
     text-align: center;
     font-size: 32px;
     color: var(--accent-color);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -17186,7 +17186,7 @@ p.text-prom-below {
     font-size: 20px;
     line-height: 28px;
     color: var(--color-white);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
@@ -19344,7 +19344,7 @@ p.text-prom-below {
     ul.info-list-jour-mbl li {
         color: rgb(0 0 0 / 50%);
         font-size: 16px;
-        font-family: var(--museo-sans);
+        font-family: var(--arial-main);
         font-weight: var(--font-weight-medium);
         display: flex;
         line-height: 25.8px;
@@ -19354,7 +19354,7 @@ p.text-prom-below {
     ul.info-list-jour li a {
         color: rgb(0 0 0 / 100%);
         font-size: 16px;
-        font-family: var(--museo-sans);
+        font-family: var(--arial-main);
         font-weight: var(--font-weight-medium);
         display: flex;
         line-height: 25.8px;
@@ -19796,7 +19796,7 @@ p.text-prom-below {
         color: #6D6E71;
         font-size: 12px;
         font-weight: 400;
-        font-family: var(--museo-sans);
+        font-family: var(--arial-main);
         border-radius: 8px;
         position: absolute;
         right: 0px;
@@ -19916,7 +19916,7 @@ p.text-prom-below {
     background: var(--secondary-color);
     color: var(--primary-color);
     display: inline-flex;
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-medium);
     justify-content: space-between;
@@ -19972,7 +19972,7 @@ p.text-prom-below {
 
 .ql-editor.ql-blank::before {
     color: rgb(0 0 0 / 50%);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 14px;
     line-height: 23px;
     text-align: justify;
@@ -19988,7 +19988,7 @@ p.text-prom-below {
 .ql-editor p,
 .ql-editor ul li {
     color: rgb(0 0 0 / 100%);
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-size: 16px;
     line-height: 23px;
     text-align: justify;
@@ -19998,7 +19998,7 @@ p.text-prom-below {
 /* React Circular Progress Bar*/
 
 .CircularProgressbar .CircularProgressbar-text {
-    font-family: var(--museo-sans);
+    font-family: var(--arial-main);
     font-weight: 700;
 }
 
