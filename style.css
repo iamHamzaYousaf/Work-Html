@@ -2050,13 +2050,19 @@ ul.site-list a {
 }
 
 p.cookies-paragrapgh {
-    color: rgba(0, 0, 0, 0.80);
+    color: rgba(43 43 43 / 70%);;
     font-size: var(--body-text);
     font-family: var(--arial-main);
-    font-weight: 300;
+    font-weight: var(--font-weight-light);
     line-height: 36px;
+    text-align: justify;
 }
-
+  
+.cookies-paragrapgh a {
+    color: var(--dark-black-color);
+    font-weight: var(--font-weight-bold);
+}
+  
 .cookies-btns {
     gap: 20px;
     display: flex;
@@ -2067,26 +2073,27 @@ p.cookies-paragrapgh {
 button.decline-btn {
     padding: 14px 48px;
     background: transparent;
-    border: 1px solid var(--accent-color);
-    color: var(--accent-color);
+    border: 1px solid var(--dark-black-color);
+    color: var(--dark-black-color);
     font-family: var(--arial-main);
     font-size: var(--button-text);
     line-height: 20px;
-    font-weight: var(--font-weight-bold);
-    border-radius: 4px;
+    font-weight: var(--font-weight-medium);
+    border-radius: 8px;
 }
-
+  
 button.allow-btn {
     padding: 14px 58px;
-    background: var(--accent-color);
-    border: 1px solid var(--accent-color);
+    background: var(--dark-black-color);
+    border: 1px solid var(--dark-black-color);
     color: var(--color-white);
     font-family: var(--arial-main);
     font-size: var(--button-text);
     line-height: 20px;
-    font-weight: var(--font-weight-bold);
-    border-radius: 4px;
+    font-weight: var(--font-weight-medium);
+    border-radius: 8px;
 }
+  
 
 
 /***************** candidate login page start here   ***************/
@@ -10589,17 +10596,22 @@ input.chat-user-in-f {
     padding: 20px 0px;
 }
 
+
 .content-f h5 {
     text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--pacific-blue-color);
     font-weight: var(--font-weight-bold);
 }
 
 p.login-f-model {
-    color: rgba(0, 0, 0, 0.60);
-    text-align: center;
-    font-size: var(--button-text);
-    font-weight: var(--font-weight-medium);
-    text-transform: capitalize;
+    color: var(--dark-black-color);
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0px 20px;
+    line-height: 22px;
 }
 
 .model-signin {
@@ -10693,6 +10705,10 @@ button.form-submit-job-model {
     border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+.remember-login-model{
+    color: var(--dark-black-color);
+}
+
 .signup-here-job {
     padding: 15px 0px;
 }
@@ -10710,7 +10726,7 @@ button.form-submit-job-model {
 }
 
 .signup-here-job p span {
-    color: var(--accent-color);
+    color: var(--pacific-blue-color);
 }
 
 .text-or-job {
