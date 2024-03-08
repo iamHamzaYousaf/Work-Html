@@ -17743,6 +17743,9 @@ p.text-prom-below {
     .find-job-btn button {
         padding: 8px 20px;
     }
+    .text-menu-icon {
+        gap: 8px;
+    }
     button.login-header {
         padding: 8px 20px;
     }
