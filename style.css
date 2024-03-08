@@ -21,7 +21,6 @@
     --dark-black-color: #2B2B2B;
     --white-smoke-color: #F6F6F6;
     --pattens-blue-color: #D9F1F4;
-
     /*** FONT SIZES ***/
     --contact-heading: 55px;
     --main-heading: 45px;
@@ -42,7 +41,7 @@
     --source-pro: 'Source Serif Pro';
     /*** FONT WEIGHT ***/
     --font-weight-bold: 700;
-    --font-weight-Semibold : 600;
+    --font-weight-Semibold: 600;
     --font-weight-medium: 500;
     --font-weight-light: 300;
 }
@@ -264,16 +263,6 @@ html {
     display: none;
 }
 
-
-/* .col-two-button p a {
-    font-size: 22px;
-    font-weight: 500;
-    color: var(--text-color);
-    text-decoration: none;
-    cursor: pointer;
-    font-family: var(--arial-main);
-} */
-
 .col-two-button button {
     background: var(--primary-color);
     color: var(--color-white);
@@ -345,7 +334,8 @@ ul.menu-list {
     display: flex;
     list-style: none;
     justify-content: end;
-    gap: 10px;
+    gap: 20px;
+    align-items: center;
 }
 
 .menu-items-poly {
@@ -355,7 +345,7 @@ ul.menu-list {
 }
 
 ul.menu-list li a {
-    padding: 16px 15px;
+    padding: 16px 0px;
     text-decoration: none;
     font-family: var(--arial-main);
     font-weight: var(--font-polycare-medium);
@@ -398,6 +388,89 @@ button.signup-poly {
     font-weight: 400;
 }
 
+.menu-dropdown-head {
+    position: relative;
+}
+
+.list-men-dropdown-head {
+    position: absolute;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
+    width: 225px;
+    overflow: auto;
+    z-index: 1;
+    margin: 5px 0 0 auto;
+    top: 100%;
+    max-height: 230px;
+    height: auto;
+}
+
+.list-men-dropdown-head::-webkit-scrollbar {
+    width: 9px;
+}
+
+.list-men-dropdown-head::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+.list-men-dropdown-head::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: var(--dark-black-color);
+}
+
+.menu-dropdown-head.open .list-men-dropdown-head {
+    display: block;
+}
+
+.menu-dropdown-head .list-men-dropdown-head {
+    display: none;
+}
+
+.text-menu-icon {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    gap: 18px;
+}
+
+.text-menu-icon p {
+    text-decoration: none;
+    font-family: var(--arial-main);
+    font-weight: var(--font-polycare-medium);
+    font-size: 20px;
+    color: rgb(14 21 20 / 60%);
+}
+
+ul.menu-item-drop-poly {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0;
+    padding: 15px 10px;
+}
+
+ul.menu-item-drop-poly li {
+    border-radius: 6px;
+    background: #ffffff;
+    padding: 0px 10px 0 10px;
+    cursor: pointer;
+    color: rgb(14 21 20 / 50%);
+    font-size: 18px;
+    font-family: var(--arial-main);
+    font-weight: var(--font-weight-medium);
+    line-height: 40px;
+}
+
+ul.menu-item-drop-poly li:hover {
+    border-radius: 6px;
+    background: #ECECEC;
+    color: var(--dark-black-color);
+    font-weight: 700;
+}
+
 
 /**** company card*****/
 
@@ -414,8 +487,7 @@ button.signup-poly {
     border: 1px solid rgba(0, 0, 0, 0.20);
 }
 
-
-.featured-col-content:hover{
+.featured-col-content:hover {
     background-color: var(--pattens-blue-color);
 }
 
@@ -435,14 +507,14 @@ button.signup-poly {
 
 .j-home-btn-round,
 button.j-home-btn {
-  color: var(--dark-black-color);
-  font-size: 20px;
-  padding: 8px 18px;
-  line-height: 21px;
-  border-radius: 4px;
-  font-family: var(--arial-main);
-  border: 0;
-  font-weight: var(--font-weight-bold);
+    color: var(--dark-black-color);
+    font-size: 20px;
+    padding: 8px 18px;
+    line-height: 21px;
+    border-radius: 4px;
+    font-family: var(--arial-main);
+    border: 0;
+    font-weight: var(--font-weight-bold);
 }
 
 .j-home-btn-round {
@@ -451,8 +523,8 @@ button.j-home-btn {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-  }
-  
+}
+
 .card-headeing h3 {
     font-size: 20px;
     font-weight: 700;
@@ -473,7 +545,6 @@ button.j-home-btn {
     min-height: 78px;
     height: auto;
 }
-  
 
 button.e-btn {
     background: var(--dark-black-color);
@@ -486,7 +557,6 @@ button.e-btn {
     border: 0;
     font-weight: var(--font-weight-medium);
 }
-  
 
 .featured-row {
     padding: 0 10px;
@@ -1073,14 +1143,13 @@ button.detail-btn-lft {
     font-weight: var(--font-weight-medium);
     font-family: var(--arial-main);
 }
-  
+
 .job-location p {
     color: var(--dark-black-color);
     font-size: 16px;
     font-weight: var(--font-weight-medium);
     font-family: var(--arial-main);
 }
-  
 
 .job-sec-wrape {
     margin: 0 10px;
@@ -1166,12 +1235,11 @@ button.detail-btn-lft {
 .museo-font {
     font-family: var(--arial-main);
 }
-  
-.job-skills .tag { 
+
+.job-skills .tag {
     background-color: rgba(236 236 236 / 70%);
 }
 
-  
 .job-location {
     display: flex;
     gap: 5px;
@@ -1613,7 +1681,8 @@ button.detail-btn-lft {
 .apply-btn {
     width: 100%;
     height: 42px;
-    background: var(--dark-black-color);;
+    background: var(--dark-black-color);
+    ;
     border-radius: 8px;
     margin-top: 20px;
     display: flex;
@@ -2050,19 +2119,20 @@ ul.site-list a {
 }
 
 p.cookies-paragrapgh {
-    color: rgba(43 43 43 / 70%);;
+    color: rgba(43 43 43 / 70%);
+    ;
     font-size: var(--body-text);
     font-family: var(--arial-main);
     font-weight: var(--font-weight-light);
     line-height: 36px;
     text-align: justify;
 }
-  
+
 .cookies-paragrapgh a {
     color: var(--dark-black-color);
     font-weight: var(--font-weight-bold);
 }
-  
+
 .cookies-btns {
     gap: 20px;
     display: flex;
@@ -2081,7 +2151,7 @@ button.decline-btn {
     font-weight: var(--font-weight-medium);
     border-radius: 8px;
 }
-  
+
 button.allow-btn {
     padding: 14px 58px;
     background: var(--dark-black-color);
@@ -2093,7 +2163,6 @@ button.allow-btn {
     font-weight: var(--font-weight-medium);
     border-radius: 8px;
 }
-  
 
 
 /***************** candidate login page start here   ***************/
@@ -4026,14 +4095,6 @@ button.btn-job-post {
     position: relative;
     z-index: 1;
     display: flex;
-}
-
-.industry-feild-frm-country .list-search-dropdown-company {
-    display: none;
-}
-
-.industry-feild-frm-country.open .list-search-dropdown-company {
-    display: block;
 }
 
 .company-form-dropdownBox-f {
@@ -6936,7 +6997,6 @@ section.pageniation-sec {
 
 .hide-wishlist-style {
     display: flex;
-    align-items: center;
     gap: 0px;
 }
 
@@ -10596,7 +10656,6 @@ input.chat-user-in-f {
     padding: 20px 0px;
 }
 
-
 .content-f h5 {
     text-align: center;
     font-size: 18px;
@@ -10705,7 +10764,7 @@ button.form-submit-job-model {
     border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.remember-login-model{
+.remember-login-model {
     color: var(--dark-black-color);
 }
 
@@ -17296,7 +17355,7 @@ p.text-prom-below {
     }
     /***header****/
     ul.menu-list li a {
-        padding: 16px 8px;
+        padding: 16px 0px;
     }
 }
 
@@ -17610,8 +17669,9 @@ p.text-prom-below {
     .col-two-button button {
         padding: 7px 8px;
     }
-    ul.menu-list li a {
-        padding: 7px 5px;
+    ul.menu-list li a,
+    .text-menu-icon p {
+        padding: 7px 0px;
         font-size: 13px;
     }
     button.login-header-poly {
