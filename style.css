@@ -17,10 +17,13 @@
     --card-home-bg: #F3F6FB;
     /*** COLORS polycare ***/
     --pacific-blue-color: #009FB5;
-    --pacific-light-blue-color: #009FB514;
+    --pacific-light-blue-color: #F3F8F9;
+    --light-aqua-color :#D9F1F4;
     --dark-black-color: #2B2B2B;
     --white-smoke-color: #F6F6F6;
+    --white-smoke-light-color: #F3F3F3;
     --pattens-blue-color: #D9F1F4;
+    --Whisper-color: #ECECEC;
     /*** FONT SIZES ***/
     --contact-heading: 55px;
     --main-heading: 45px;
@@ -41,7 +44,7 @@
     --source-pro: 'Source Serif Pro';
     /*** FONT WEIGHT ***/
     --font-weight-bold: 700;
-    --font-weight-Semibold: 600;
+    --font-weight-semibold: 600;
     --font-weight-medium: 500;
     --font-weight-light: 300;
 }
@@ -340,7 +343,7 @@ ul.menu-list {
 
 .menu-items-poly {
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     width: 60%;
 }
 
@@ -486,7 +489,7 @@ ul.menu-item-drop-poly li:hover {
 }
 
 .featured-col-content:hover {
-    background-color: var(--pattens-blue-color);
+    background-color: var(--light-aqua-color);
 }
 
 .image-heading {
@@ -814,7 +817,7 @@ button.post-job-poly:hover {
 
 .two-heading-row-poly h2 {
     font-family: var(--source-pro);
-    font-weight: var(--font-weight-Semibold);
+    font-weight: var(--font-weight-semibold);
     font-size: 28px;
     line-height: 35.5px;
     color: var(--dark-black-color);
@@ -1157,7 +1160,7 @@ button.detail-btn-lft {
     font-family: var(--source-pro);
     color: var(--dark-black-color);
     text-align: center;
-    font-weight: var(--font-weight-Semibold);
+    font-weight: var(--font-weight-semibold);
     font-size: 28px;
 }
 
@@ -7035,15 +7038,15 @@ section.pageniation-sec {
 }
 
 p.candidate-name {
-    color: var(--pacific-blue-color);
+    color: var(--dark-black-color);
     font-size: 18px;
-    font-weight: 700;
+    font-weight: var(--font-weight-bold);
     font-family: var(--arial-main);
-    padding: 0 10px 0 0px;
+    padding: 0 20px 0 10px;
 }
-
+  
 p.candidate-wishlist {
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-size: 18px;
     font-weight: var(--font-weight-bold);
     font-family: var(--arial-main);
@@ -7911,20 +7914,20 @@ select#candidate-location-feild option {
 }
 
 .dropdown-dashbord ul a {
-    font-size: 16px;
+    font-size: var(--body-text);
     font-family: var(--arial-main);
-    font-size: var(--font-weight-medium);
+    font-size: 16px;
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     line-height: 20px;
     transition: font-weight 0.3s ease;
 }
 
-li.menu-dropdown {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    padding: 12px;
+li.menu-dropdown:hover {
+    font-family: var(--arial-main);
+    background: var(--Whisper-color);
+    color: var(--dark-black-color);
+    font-weight: 700;
 }
 
 li.menu-dropdown {
@@ -10666,7 +10669,7 @@ p.login-f-model {
     color: var(--dark-black-color);
     text-align: justify;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: var(--font-weight-medium);
     padding: 0px 20px;
     line-height: 22px;
 }
@@ -18902,6 +18905,11 @@ p.text-prom-below {
     }
     p.candidate-name {
         font-size: 18px;
+    }
+    .hide-wishlist-style {
+        gap: 16px;
+        justify-content: flex-end;
+        align-items: center;
     }
     .candidate-wishlist-block {
         display: none;
