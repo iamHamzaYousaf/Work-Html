@@ -356,6 +356,10 @@ ul.menu-list li a {
     color: rgb(14 21 20 / 60%);
 }
 
+ul.menu-list li {
+    color: rgb(14 21 20 / 60%);
+}
+
 ul.menu-list li a:hover {
     color: var(--pacific-blue-color);
 }
@@ -1240,8 +1244,8 @@ button.detail-btn-lft {
     font-family: var(--arial-main);
 }
 
-.job-skills .tag {
-    background-color: rgba(236 236 236 / 70%);
+.job-skills .tag { 
+    background-color: var(--Whisper-color);
 }
 
 .job-location {
@@ -2515,9 +2519,13 @@ input#forgotpassowrd-mail {
 
 .login-here a {
     text-decoration: none;
-    color: var(--login-text);
+    font-weight: var(--font-weight-bold);
 }
 
+.text-pacific-blue {
+    color: var(--pacific-blue-color);
+}
+  
 .candidate-signup h2 {
     text-align: center;
     font-weight: var(--font-weight-bold);
@@ -2548,16 +2556,16 @@ button.employee-btn {
     padding: 15px 0px;
     border: 0px solid rgba(0, 0, 0, 0.2);
     border-radius: 6px;
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-size: 18px;
     font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     max-width: 100%;
     width: 100%;
 }
-
-button.toggle-btn-active {
-    background: var(--primary-color);
+  
+  button.toggle-btn-active {
+    background: var(--dark-black-color);
     padding: 15px 0px;
     border: 1px solid var(--primary-color);
     border-radius: 6px;
@@ -2643,7 +2651,7 @@ button.toggle-btn-active {
 }
 
 .f-feild label {
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-family: var(--arial-main);
     font-size: 16px;
     font-weight: var(--font-weight-bold);
@@ -2813,9 +2821,9 @@ border-bottom-left-radius: 0; */
 .signup-resendmail a {
     text-decoration: underline;
     text-underline-offset: 3px;
-    text-decoration-color: var(--accent-color);
+    text-decoration-color: var(--pacific-blue-color);
     font-weight: 600;
-    color: var(--accent-color);
+    color: var(--pacific-blue-color);
 }
 
 textarea.form-font-f {
@@ -2875,7 +2883,7 @@ p.text-atten-box {
 
 button.form-submit {
     width: 100%;
-    background: var(--primary-color);
+    background: var(--dark-black-color);
     border: 0;
     border-radius: 8px;
     padding: 18px 0;
@@ -2885,6 +2893,7 @@ button.form-submit {
     margin-top: 15px;
     line-height: 24px;
 }
+  
 
 .upload-icon>input {
     background: url('./image/upload.png');
@@ -2936,10 +2945,44 @@ button.form-submit {
 
 .job-tags-titles-dropdown::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-    background-color: var(--primary-color);
+    -webkit-box-shadow: inset 0 0 6px var(--dark-black-color);
+    background-color: var(--dark-black-color);
+}
+  
+.tags-tittles ul.tags-titles-list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 15px 0 30px;
+    padding: 0;
+    flex-wrap: wrap;
+}
+  
+  .tags-tittles ul.tags-titles-list li span img {
+    vertical-align: baseline;
+}
+  
+  .tags-tittles ul.tags-titles-list li button {
+    border: 0;
+    background: transparent;
+    font-size: 15px;
 }
 
+.tags-tittles ul.tags-titles-list li {
+    display: inline-flex;
+    font-family: var(--arial-main);
+    font-size: var(--skill-text-size);
+    font-weight: var(--font-weight-medium);
+    justify-content: space-between;
+    padding: 4px 8px;
+    gap: 14px;
+    align-items: flex-start;
+    background-color: rgba(236 236 236 / 70%);
+    color: var(--dark-black-color);
+    font-size: var(--skill-text-size);
+    border-radius: 16px;
+    border: 0.5px solid var(--Whisper-color);
+}
 
 /************** common error validation from csss *****************/
 
@@ -3908,13 +3951,13 @@ ul.progressbar-steps {
 }
 
 .progressbar-steps li.active-circle:before {
-    border: 3px solid var(--accent-color);
+    border: 3px solid var(--pacific-blue-color);
 }
-
+  
 .progressbar-steps li.active-circle:after {
-    background-color: var(--accent-color);
+    background-color: var(--pacific-blue-color);
 }
-
+  
 ul.progressbar-steps li {
     color: #BDBDBD;
 }
@@ -3935,11 +3978,12 @@ ul.progressbar-steps li {
 }
 
 .progressbar-steps li.active {
-    color: var(--accent-color);
+    color: var(--pacific-blue-color);
+    font-weight: var(--font-weight-bold);
 }
-
+  
 .progressbar-steps li.active:before {
-    border-color: var(--accent-color);
+    border-color: var(--pacific-blue-color);
 }
 
 .signup-website-url input[type="text"] {
@@ -4099,6 +4143,14 @@ button.btn-job-post {
     position: relative;
     z-index: 1;
     display: flex;
+}
+
+.industry-feild-frm-country .list-search-dropdown-company {
+    display: none;
+}
+
+.industry-feild-frm-country.open .list-search-dropdown-company {
+    display: block;
 }
 
 .company-form-dropdownBox-f {
@@ -5217,7 +5269,7 @@ input#clr-btn:checked {
 }
 
 input#job-postion:checked {
-    accent-color: --primary-color !important;
+    background-color: var(--dark-black-color) !important;
 }
 
 input#job-postion {
@@ -5508,21 +5560,21 @@ ul.dorpdown-list-location li {
 
 ul.dorpdown-list-location li:hover {
     border-radius: 6px;
-    background: #F2F7FF;
-    color: var(--text-color);
-    font-weight: var(--font-weight-medium);
+    background: var(--Whisper-color);
+    color: var(--dark-black-color);
+    font-weight: var(--font-weight-bold);
 }
-
+  
 ul.dorpdown-list-location li img {
     padding-right: 10px;
     height: 18px;
     position: relative;
     top: 10px;
 }
-
+  
 ul.dorpdown-list-location li:hover {
     border-radius: 6px;
-    background: #F2F7FF;
+    background: var(--Whisper-color);
 }
 
 .job-post-date {
@@ -6422,10 +6474,10 @@ ul.list-job-title-country li {
 }
 
 ul.list-job-title-country li:hover {
-    border-radius: 6px;
-    background: #F2F7FF;
-    color: var(--text-color);
-    font-weight: var(--font-weight-medium);
+    border-radius: 16px;
+    background: var(--Whisper-color);
+    color: var(--dark-black-color);
+    font-weight: var(--font-weight-bold);  
 }
 
 ul.list-job-title-country li img {
@@ -6890,13 +6942,13 @@ p.file-error-msg {
 }
 
 .job-col-right .job-skills button {
-    background: #F2F7FF;
-    color: var(--primary-color);
+    background: #f2f7ff;
+    color: var(--dark-black-color);
     font-size: var(--skill-text-size);
-    border-radius: 4px;
-    border: 0.5px solid #E2EDFF;
+    border: 0.5px solid #e2edff;
     font-weight: var(--font-weight-medium);
     padding: 4px 8px;
+    border-radius: 16px;
 }
 
 .job-col-right .job-skill-location {
@@ -13639,7 +13691,9 @@ ul.progressbar-steps-res {
     text-align: center;
     cursor: pointer;
     font-size: 16px;
+    font-weight: var(--font-weight-medium);
 }
+  
 
 .progressbar-steps-res li:before {
     content: counter(step);
@@ -13657,12 +13711,14 @@ ul.progressbar-steps-res {
 }
 
 .progressbar-steps-res li.active-circle:before {
-    border: 3px solid var(--accent-color);
-}
-
+    border: 3px solid var(--pacific-blue-color);
+  
+  }
+  
 .progressbar-steps-res li.active-circle:after {
-    background-color: var(--accent-color);
+    background-color:var(--pacific-blue-color);
 }
+  
 
 ul.progressbar-steps-res li {
     color: #BDBDBD;
@@ -13684,13 +13740,13 @@ ul.progressbar-steps-res li {
 }
 
 .progressbar-steps-res li.active {
-    color: var(--accent-color);
+    color: var(--pacific-blue-color);
+    font-weight: var(--font-weight-bold);
 }
-
+  
 .progressbar-steps-res li.active:before {
-    border-color: var(--accent-color);
+    border-color: var(--pacific-blue-color);
 }
-
 
 /*******orignal resume template ********/
 
@@ -20029,12 +20085,7 @@ p.text-prom-below {
 }
 
 .tags-tittles ul.tags-titles-list li {
-    background: var(--secondary-color);
-    color: var(--primary-color);
     display: inline-flex;
-    font-family: var(--arial-main);
-    font-size: var(--skill-text-size);
-    font-weight: var(--font-weight-medium);
     justify-content: space-between;
     padding: 4px 8px;
     gap: 14px;
