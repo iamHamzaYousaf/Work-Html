@@ -472,6 +472,10 @@ ul.menu-item-drop-poly li:hover {
     font-weight: 700;
 }
 
+ul.menu-item-drop-poly li a:hover {
+    background: var(--Whisper-color);
+    color: var(--dark-black-color);
+}
 
 /**** company card*****/
 
