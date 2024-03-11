@@ -394,14 +394,15 @@ button.signup-poly {
 
 .list-men-dropdown-head {
     position: absolute;
-    border-radius: 8px;
-    background: #FFF;
-    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
+    border-radius: 20px;
     width: 225px;
+    background-color: #FFF;
     overflow: auto;
     z-index: 1;
     margin: 5px 0 0 auto;
     top: 100%;
+    box-shadow: 0px 16px 75px -30px #00000066;
+    border-top-left-radius: 0;
 }
 
 
@@ -453,7 +454,6 @@ ul.menu-item-drop-poly {
 
 ul.menu-item-drop-poly li {
     border-radius: 6px;
-    background: #ffffff;
     padding: 0px 10px 0 10px;
     cursor: pointer;
     color: rgb(14 21 20 / 50%);
