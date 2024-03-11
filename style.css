@@ -2199,6 +2199,7 @@ button.allow-btn {
     flex-wrap: wrap;
     margin-top: 100px;
     gap: 0 30px;
+    justify-content: center;
 }
 
 .candidate-login-row-password {
@@ -2273,7 +2274,7 @@ p.forget-password {
     float: right;
     clear: both;
     margin-top: 6px;
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     font-size: 14px;
@@ -2317,20 +2318,20 @@ button.password-btn {
 
 .signup-here p {
     text-align: center;
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-size: 14px;
     font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
 }
 
 .signup-here p span {
-    color: var(--accent-color);
+    color: var(--pacific-blue-color);
 }
-
+  
 .signup-here a {
     text-decoration: underline;
     text-underline-offset: 3px;
-    text-decoration-color: var(--accent-color);
+    text-decoration-color: var(--pacific-blue-color);
 }
 
 .or-divider {
@@ -2344,7 +2345,7 @@ button.password-btn {
 
 .text-or {
     text-align: center;
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-size: 16px;
     font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
