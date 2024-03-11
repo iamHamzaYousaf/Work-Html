@@ -473,7 +473,6 @@ ul.menu-item-drop-poly li:hover {
 }
 
 ul.menu-item-drop-poly li a:hover {
-    background: var(--Whisper-color);
     color: var(--dark-black-color);
 }
 
