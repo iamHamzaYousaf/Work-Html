@@ -4050,9 +4050,9 @@ p.company-logo-file {
 }
 
 p.file-size {
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-size: var(--button-text);
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-bold);
     font-family: var(--arial-main);
 }
 
@@ -4063,16 +4063,16 @@ p.file-size {
 
 button.btn-next-pre-toggle:hover {
     width: 100%;
-    background: var(--primary-color);
+    background: var(--dark-black-color);
     border-radius: 6px;
     padding: 14px 0;
     color: var(--color-white);
     font-family: var(--arial-main);
     font-size: 16px;
     margin-top: 15px;
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--dark-black-color);
 }
-
+  
 button.btn-next-previous {
     width: 100%;
     background: transparent;
@@ -4083,12 +4083,12 @@ button.btn-next-previous {
     font-family: var(--arial-main);
     font-size: 16px;
     margin-top: 15px;
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--dark-black-color);
 }
-
+  
 button.btn-job-post {
     width: 100%;
-    background: var(--primary-color);
+    background: var(--dark-black-color);
     border: 0;
     border-radius: 6px;
     padding: 6px 0;
@@ -4096,7 +4096,7 @@ button.btn-job-post {
     font-family: var(--arial-main);
     font-size: 16px;
     margin-top: 15px;
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--dark-black-color);
 }
 
 
