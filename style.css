@@ -2216,8 +2216,9 @@ button.allow-btn {
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;
-    margin: 70px 0 170px 0;
+    padding: 100px 0 100px 0;
     gap: 0 30px;
+    justify-content: center;
 }
 
 .candidate-profile {
@@ -2232,15 +2233,15 @@ button.allow-btn {
 
 .candidate-signin {
     background: var(--color-white);
-    box-shadow: 0px 1px 4px 3px rgba(0, 0, 0, 0.08);
-    backdrop-filter: blur(13px);
-    border-radius: 16px;
+    border-radius: 24px;
     max-width: 100%;
     width: 100%;
     margin: 0 auto;
     padding: 20px 60px 40px 60px;
+    border: 1px solid var(--dark-black-color-200);
+    box-shadow: 0px 1px 23px 1px rgba(0, 0, 0, 0.12);
 }
-
+  
 .candidate-signin h2 {
     text-align: center;
     margin-bottom: 20px;
@@ -2297,27 +2298,29 @@ p.forget-password a {
 
 .candidate-from-submit input[type="submit"],
 button.password-btn {
-    width: 100%;
-    background: var(--primary-color);
-    border: 0;
-    border-radius: 6px;
-    padding: 12px 0;
-    color: var(--color-white);
-    font-family: var(--arial-main);
-    font-size: 16px;
+  width: 100%;
+  background: var(--dark-black-color);
+  border: 0;
+  border-radius: 8px;
+  padding: 12px 0;
+  color: var(--color-white);
+  font-family: var(--arial-main);
+  font-size: 16px;
+  font-weight: var(--font-weight-medium);
 }
 
 .candidate-from-signup input[type="submit"] {
-    width: 100%;
-    background: var(--accent-color);
-    border: 0;
-    border-radius: 6px;
-    padding: 6px 0;
-    color: var(--color-white);
-    font-family: var(--arial-main);
-    font-size: var(--text-size);
-    margin-top: 15px;
+  width: 100%;
+  background: var(--dark-black-color);
+  border: 0;
+  border-radius: 8px;
+  padding: 6px 0;
+  color: var(--color-white);
+  font-family: var(--arial-main);
+  font-size: var(--text-size);
+  margin-top: 15px;
 }
+
 
 
 /**** css for form option fields *****/
@@ -2336,8 +2339,9 @@ button.password-btn {
 
 .signup-here p span {
     color: var(--pacific-blue-color);
+    font-weight: var(--font-weight-bold);
 }
-
+  
 .signup-here a {
     text-decoration: underline;
     text-underline-offset: 3px;
@@ -2464,9 +2468,9 @@ input#forgotpassowrd-mail {
 
 .candidate-signin-password-ft {
     background: var(--color-white);
-    box-shadow: 0px 1px 4px 3px rgba(0, 0, 0, 0.08);
-    backdrop-filter: blur(13px);
-    border-radius: 16px;
+    border: 1px solid var(--dark-black-color-200);
+    box-shadow: 0px 1px 23px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 24px;
     max-width: 100%;
     width: 100%;
     margin: 0 auto;
@@ -2808,11 +2812,11 @@ border-bottom-left-radius: 0; */
 
 .signup-check.f-feild {
     width: 85%;
-    margin: 0 auto;
+    margin: 0 auto 0 0;
     font-size: var(--promoted-btn);
     font-family: var(--arial-main);
     font-weight: 400;
-    color: var(--text-color);
+    color: var(--dark-black-color);
     position: relative;
 }
 
@@ -2903,6 +2907,7 @@ button.form-submit {
     font-size: 16px;
     margin-top: 15px;
     line-height: 24px;
+    font-weight: var(--font-weight-medium);
 }
 
 .upload-icon>input {
@@ -13749,7 +13754,6 @@ ul.progressbar-steps-res li {
 
 .progressbar-steps-res li.active {
     color: var(--pacific-blue-color);
-    font-weight: var(--font-weight-bold);
 }
 
 .progressbar-steps-res li.active:before {
