@@ -18,7 +18,7 @@
     /*** COLORS polycare ***/
     --pacific-blue-color: #009FB5;
     --pacific-light-blue-color: #F3F8F9;
-    --light-aqua-color :#D9F1F4;
+    --light-aqua-color: #D9F1F4;
     --dark-black-color: #2B2B2B;
     --white-smoke-color: #F6F6F6;
     --white-smoke-light-color: #F3F3F3;
@@ -324,6 +324,14 @@ header {
     max-width: 100%;
 }
 
+p.country-name-logo {
+    text-align: end;
+    color: var(--dark-black-color);
+    font-family: var(--arial-main);
+    font-size: 15px;
+    font-weight: 500;
+}
+
 .col-two-button {
     display: inline-flex;
     align-items: center;
@@ -345,6 +353,7 @@ ul.menu-list {
     display: flex;
     justify-content: start;
     width: 60%;
+    padding-left: 25px;
 }
 
 ul.menu-list li a {
@@ -479,6 +488,7 @@ ul.menu-item-drop-poly li:hover {
 ul.menu-item-drop-poly li a:hover {
     color: var(--dark-black-color);
 }
+
 
 /**** company card*****/
 
@@ -1244,7 +1254,7 @@ button.detail-btn-lft {
     font-family: var(--arial-main);
 }
 
-.job-skills .tag { 
+.job-skills .tag {
     background-color: var(--Whisper-color);
 }
 
@@ -2327,7 +2337,7 @@ button.password-btn {
 .signup-here p span {
     color: var(--pacific-blue-color);
 }
-  
+
 .signup-here a {
     text-decoration: underline;
     text-underline-offset: 3px;
@@ -2526,7 +2536,7 @@ input#forgotpassowrd-mail {
 .text-pacific-blue {
     color: var(--pacific-blue-color);
 }
-  
+
 .candidate-signup h2 {
     text-align: center;
     font-weight: var(--font-weight-bold);
@@ -2564,8 +2574,8 @@ button.employee-btn {
     max-width: 100%;
     width: 100%;
 }
-  
-  button.toggle-btn-active {
+
+button.toggle-btn-active {
     background: var(--dark-black-color);
     padding: 15px 0px;
     border: 1px solid var(--primary-color);
@@ -2894,7 +2904,6 @@ button.form-submit {
     margin-top: 15px;
     line-height: 24px;
 }
-  
 
 .upload-icon>input {
     background: url('./image/upload.png');
@@ -2949,7 +2958,7 @@ button.form-submit {
     -webkit-box-shadow: inset 0 0 6px var(--dark-black-color);
     background-color: var(--dark-black-color);
 }
-  
+
 .tags-tittles ul.tags-titles-list {
     display: flex;
     gap: 20px;
@@ -2958,12 +2967,12 @@ button.form-submit {
     padding: 0;
     flex-wrap: wrap;
 }
-  
-  .tags-tittles ul.tags-titles-list li span img {
+
+.tags-tittles ul.tags-titles-list li span img {
     vertical-align: baseline;
 }
-  
-  .tags-tittles ul.tags-titles-list li button {
+
+.tags-tittles ul.tags-titles-list li button {
     border: 0;
     background: transparent;
     font-size: 15px;
@@ -2984,6 +2993,7 @@ button.form-submit {
     border-radius: 16px;
     border: 0.5px solid var(--Whisper-color);
 }
+
 
 /************** common error validation from csss *****************/
 
@@ -3954,11 +3964,11 @@ ul.progressbar-steps {
 .progressbar-steps li.active-circle:before {
     border: 3px solid var(--pacific-blue-color);
 }
-  
+
 .progressbar-steps li.active-circle:after {
     background-color: var(--pacific-blue-color);
 }
-  
+
 ul.progressbar-steps li {
     color: #BDBDBD;
 }
@@ -3982,7 +3992,7 @@ ul.progressbar-steps li {
     color: var(--pacific-blue-color);
     font-weight: var(--font-weight-bold);
 }
-  
+
 .progressbar-steps li.active:before {
     border-color: var(--pacific-blue-color);
 }
@@ -4073,7 +4083,7 @@ button.btn-next-pre-toggle:hover {
     margin-top: 15px;
     border: 1px solid var(--dark-black-color);
 }
-  
+
 button.btn-next-previous {
     width: 100%;
     background: transparent;
@@ -4086,7 +4096,7 @@ button.btn-next-previous {
     margin-top: 15px;
     border: 1px solid var(--dark-black-color);
 }
-  
+
 button.btn-job-post {
     width: 100%;
     background: var(--dark-black-color);
@@ -5565,14 +5575,14 @@ ul.dorpdown-list-location li:hover {
     color: var(--dark-black-color);
     font-weight: var(--font-weight-bold);
 }
-  
+
 ul.dorpdown-list-location li img {
     padding-right: 10px;
     height: 18px;
     position: relative;
     top: 10px;
 }
-  
+
 ul.dorpdown-list-location li:hover {
     border-radius: 6px;
     background: var(--Whisper-color);
@@ -6478,7 +6488,7 @@ ul.list-job-title-country li:hover {
     border-radius: 8px;
     background: var(--Whisper-color);
     color: var(--dark-black-color);
-    font-weight: var(--font-weight-bold);  
+    font-weight: var(--font-weight-bold);
 }
 
 ul.list-job-title-country li img {
@@ -7100,7 +7110,7 @@ p.candidate-name {
     font-family: var(--arial-main);
     padding: 0 20px 0 10px;
 }
-  
+
 p.candidate-wishlist {
     color: var(--dark-black-color);
     font-size: 18px;
@@ -13694,7 +13704,6 @@ ul.progressbar-steps-res {
     font-size: 16px;
     font-weight: var(--font-weight-medium);
 }
-  
 
 .progressbar-steps-res li:before {
     content: counter(step);
@@ -13713,13 +13722,11 @@ ul.progressbar-steps-res {
 
 .progressbar-steps-res li.active-circle:before {
     border: 3px solid var(--pacific-blue-color);
-  
-  }
-  
-.progressbar-steps-res li.active-circle:after {
-    background-color:var(--pacific-blue-color);
 }
-  
+
+.progressbar-steps-res li.active-circle:after {
+    background-color: var(--pacific-blue-color);
+}
 
 ul.progressbar-steps-res li {
     color: #BDBDBD;
@@ -13744,10 +13751,11 @@ ul.progressbar-steps-res li {
     color: var(--pacific-blue-color);
     font-weight: var(--font-weight-bold);
 }
-  
+
 .progressbar-steps-res li.active:before {
     border-color: var(--pacific-blue-color);
 }
+
 
 /*******orignal resume template ********/
 
