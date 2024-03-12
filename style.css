@@ -15,15 +15,21 @@
     --or-text-color: #4F4F4F;
     --fomr-telcode-bg: #F9F9F9;
     --card-home-bg: #F3F6FB;
-    /*** COLORS polycare ***/
+   /*** COLORS polycare ***/
     --pacific-blue-color: #009FB5;
+    --pacific-blue-color-300: rgba(0, 159, 181, 0.03);
     --pacific-light-blue-color: #F3F8F9;
     --light-aqua-color: #D9F1F4;
     --dark-black-color: #2B2B2B;
+    --dark-black-color-500: rgba(43, 43, 43, .5);
+    --dark-black-color-200: rgba(43, 43, 43, .2);
     --white-smoke-color: #F6F6F6;
     --white-smoke-light-color: #F3F3F3;
     --pattens-blue-color: #D9F1F4;
     --Whisper-color: #ECECEC;
+    --tag-bg-color: #ECECEC;
+    --neutral-color: #170F49;
+
     /*** FONT SIZES ***/
     --contact-heading: 55px;
     --main-heading: 45px;
@@ -2125,7 +2131,7 @@ ul.site-list a {
 }
 
 .cookies-heading p {
-    color: var(--text-color);
+    color: var(--neutral-color);
     font-size: var(--sub-heading);
     font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
