@@ -4027,7 +4027,7 @@ ul.progressbar-steps li {
 
 p.msg-show-blowe-textarea {
     text-align: end;
-    color: var(--text-color);
+    color: var(--dark-black-color);
     font-weight: var(--font-weight-medium);
     font-family: var(--arial-main);
     font-size: var(--skill-text-size);
@@ -4087,43 +4087,36 @@ p.file-size {
 }
 
 button.btn-next-pre-toggle:hover {
-    width: 100%;
     background: var(--dark-black-color);
-    border-radius: 6px;
-    padding: 14px 0;
     color: var(--color-white);
-    font-family: var(--arial-main);
-    font-size: 16px;
-    margin-top: 15px;
     border: 1px solid var(--dark-black-color);
 }
-
+  
 button.btn-next-previous {
     width: 100%;
     background: transparent;
     border: 0;
-    border-radius: 6px;
+    border-radius: 8px;
     padding: 14px 0;
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-family: var(--arial-main);
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 15px;
     border: 1px solid var(--dark-black-color);
 }
-
+  
 button.btn-job-post {
     width: 100%;
     background: var(--dark-black-color);
     border: 0;
-    border-radius: 6px;
+    border-radius: 8px;
     padding: 6px 0;
     color: var(--color-white);
     font-family: var(--arial-main);
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 15px;
     border: 1px solid var(--dark-black-color);
 }
-
 
 /****************post job form*****************/
 
