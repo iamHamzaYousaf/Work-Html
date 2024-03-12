@@ -2028,15 +2028,15 @@ section.all-oversite-sec {
 
 p.head-office {
     padding: 25px 0;
-    font-size: 18px;
+    font-size: 29px;
     color: var(--color-white);
     font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
 }
 
 p.office-address {
-    width: 67%;
-    font-size: 18px;
+    width: 70%;
+    font-size: 20px;
     color: var(--color-white);
     font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
@@ -2047,7 +2047,7 @@ p.office-mail a {
     color: var(--color-white);
     font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
-    font-size: 18px;
+    font-size: 20px;
 }
 
 p.Countries-heading {
