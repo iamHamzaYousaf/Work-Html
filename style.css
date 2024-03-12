@@ -15,7 +15,7 @@
     --or-text-color: #4F4F4F;
     --fomr-telcode-bg: #F9F9F9;
     --card-home-bg: #F3F6FB;
-   /*** COLORS polycare ***/
+    /*** COLORS polycare ***/
     --pacific-blue-color: #009FB5;
     --pacific-blue-color-300: rgba(0, 159, 181, 0.03);
     --pacific-light-blue-color: #F3F8F9;
@@ -23,6 +23,7 @@
     --dark-black-color: #2B2B2B;
     --dark-black-color-500: rgba(43, 43, 43, .5);
     --dark-black-color-200: rgba(43, 43, 43, .2);
+    --dark-black-color-600: rgba(43, 43, 43, .16);
     --white-smoke-color: #F6F6F6;
     --white-smoke-light-color: #F3F3F3;
     --pattens-blue-color: #D9F1F4;
@@ -2272,7 +2273,7 @@ p.heading-below-text {
 .candidate-username input[type="text"] {
     width: 100%;
     padding: 13px 8px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 0.5px solid var(--dark-black-color-600);
     border-radius: 8px;
     color: var(--text-color);
     font-size: 16px;
@@ -2441,8 +2442,8 @@ button.password-btn {
 input#forgotpassowrd-mail {
     width: 100%;
     padding: 10px 8px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 6px;
+    border: 0.5px solid var(--dark-black-color-600);
+    border-radius: 8px;
     color: var(--text-color);
     font-size: var(--promoted-btn);
     font-weight: var(--font-weight-medium);
@@ -2659,8 +2660,8 @@ button.toggle-btn-active {
 .candidate-username-signup-form input[type="text"] {
     width: 100%;
     padding: 13px 8px;
-    border: 0.5px solid var(--boder-color);
-    border-radius: 6px;
+    border: 0.5px solid var(--dark-black-color-600);
+    border-radius: 8px;
 }
 
 .f-feild {
@@ -2685,29 +2686,29 @@ label.l-f-img {
 .signup-email input[type="email"] {
     width: 100%;
     padding: 13px 8px;
-    border: 0.5px solid var(--boder-color);
-    border-radius: 6px;
+    border: 0.5px solid var(--dark-black-color-600);
+    border-radius: 8px;
 }
 
 .signup-passowrd input[type="password"] {
     width: 100%;
     padding: 18px 8px;
-    border: 0.5px solid var(--boder-color);
-    border-radius: 6px;
+    border: 0.5px solid var(--dark-black-color-600);
+    border-radius: 8px;
 }
 
 .signup-passowrd-confirm input[type="password"] {
     width: 100%;
     padding: 18px 8px;
-    border: 0.5px solid var(--boder-color);
-    border-radius: 6px;
+    border: 0.5px solid var(--dark-black-color-600);
+    border-radius: 8px;
 }
 
 .signup-country #country {
     width: 100%;
     padding: 18px 8px;
-    border: 0.5px solid var(--boder-color);
-    border-radius: 6px;
+    border: 0.5px solid var(--dark-black-color-600);
+    border-radius: 8px;
 }
 
 .merge-feild {
@@ -2722,8 +2723,8 @@ label.l-f-img {
 .signup-phone #countryCode {
     width: 12%;
     padding: 18px 0px;
-    border: 0.5px solid var(--boder-color);
-    border-radius: 6px;
+    border: 0.5px solid var(--dark-black-color-600);
+    border-radius: 8px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     appearance: none;
@@ -2751,8 +2752,8 @@ input#code-tel-post :focus-visible {
 .signup-phone input[type="tel"] {
     width: 100%;
     padding: 13px 8px;
-    border: 0.5px solid var(--boder-color);
-    border-radius: 6px;
+    border: 0.5px solid var(--dark-black-color-600);
+    border-radius: 8px;
     /* border-top-left-radius: 0;
 border-bottom-left-radius: 0; */
 }
@@ -2760,15 +2761,15 @@ border-bottom-left-radius: 0; */
 .signup-job-titles input[type="text"] {
     width: 100%;
     padding: 13px 8px;
-    border: 0.5px solid var(--boder-color);
-    border-radius: 6px;
+    border: 0.5px solid var(--dark-black-color-600);
+    border-radius: 8px;
 }
 
 .signup-skill-tags input[type="text"] {
     width: 100%;
     padding: 13px 8px;
-    border: 0.5px solid var(--boder-color);
-    border-radius: 6px;
+    border: 0.5px solid var(--dark-black-color-600);
+    border-radius: 8px;
 }
 
 .signup-resume {
@@ -2790,8 +2791,8 @@ border-bottom-left-radius: 0; */
 .signup-resume input[type="file"] {
     width: 100%;
     padding: 13px 8px;
-    border: 0.5px solid var(--boder-color);
-    border-radius: 6px;
+    border: 0.5px solid var(--dark-black-color-600);
+    border-radius: 8px;
     text-indent: -999em;
     outline: none;
     /* z-index: 1; */
@@ -2801,8 +2802,8 @@ border-bottom-left-radius: 0; */
 .signup-resume input[type="text"] {
     width: 100%;
     padding: 13px 8px;
-    border: 0.5px solid var(--boder-color);
-    border-radius: 6px;
+    border: 0.5px solid var(--dark-black-color-600);
+    border-radius: 8px;
     text-indent: -999em;
     outline: none;
     /* z-index: 1; */
@@ -2812,8 +2813,8 @@ border-bottom-left-radius: 0; */
 .signup-linkedIn-link input[type="text"] {
     width: 100%;
     padding: 13px 8px;
-    border: 0.5px solid var(--boder-color);
-    border-radius: 6px;
+    border: 0.5px solid var(--dark-black-color-600);
+    border-radius: 8px;
 }
 
 .signup-check.f-feild {
@@ -2832,7 +2833,7 @@ border-bottom-left-radius: 0; */
 
 .signup-resendmail p {
     text-align: center;
-    color: var(--text-color);
+    color: var(--dark-black-color);
     font-size: 16px;
     font-family: var(--arial-main);
     font-weight: 400;
@@ -2850,8 +2851,8 @@ border-bottom-left-radius: 0; */
 textarea.form-font-f {
     width: 100%;
     padding: 10px;
-    border: 0.5px solid var(--boder-color);
-    border-radius: 6px;
+    border: 0.5px solid var(--dark-black-color-600);
+    border-radius: 8px;
 }
 
 
@@ -2859,7 +2860,7 @@ textarea.form-font-f {
 
 .attention-box {
     border-radius: 12px;
-    border: 1px solid var(--accent-color);
+    border: 0.5px solid var(--dark-black-color-600);
     background: var(--color-white);
     box-shadow: 0px 4px 16px 0px rgba(16, 11, 39, 0.08);
     padding: 18px;
@@ -2981,6 +2982,8 @@ button.form-submit {
 
 .tags-tittles ul.tags-titles-list li span img {
     vertical-align: baseline;
+    width: 12px;
+    height: 12px;
 }
 
 .tags-tittles ul.tags-titles-list li button {
@@ -3276,7 +3279,7 @@ input#location-f-profile {
 .error-input>.salary-start {
     border: 1px solid var(--error-msg-color) !important;
     outline: 0;
-    border-radius: 6px;
+    border-radius: 8px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
@@ -3294,7 +3297,7 @@ input#location-f-profile {
 .error-input>.Year {
     border: 1px solid var(--error-msg-color) !important;
     outline: 0;
-    border-radius: 6px;
+    border-radius: 8px;
 }
 
 #year :focus-visible {
@@ -3895,8 +3898,8 @@ button.cancel-img-btn {
     display: flex;
     width: 100%;
     padding: 13px 8px;
-    border: 0.5px solid var(--boder-color);
-    border-radius: 6px;
+    border: 0.5px solid var(--dark-black-color-600);
+    border-radius: 8px;
 }
 
 input#password-field {
@@ -4156,8 +4159,8 @@ button.btn-job-post {
 .industry-feild-frm-country {
     width: 100%;
     padding: 13px 10px;
-    border: 0.5px solid var(--boder-color);
-    border-radius: 6px;
+    border: 0.5px solid var(--dark-black-color-600);
+    border-radius: 8px;
     font-size: 18px;
     font-family: var(--arial-main);
     font-weight: 300;
@@ -4277,8 +4280,8 @@ label.job-postion-btn {
 .signup-salary #salary {
     width: 8%;
     padding: 18px 8px;
-    border: 0.5px solid var(--boder-color);
-    border-radius: 6px;
+    border: 0.5px solid var(--dark-black-color-600);
+    border-radius: 8px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     appearance: none;
@@ -4288,8 +4291,8 @@ label.job-postion-btn {
 .signup-salary input[type="text"] {
     width: 92%;
     padding: 16px 8px;
-    border: 0.5px solid var(--boder-color);
-    border-radius: 6px;
+    border: 0.5px solid var(--dark-black-color-600);
+    border-radius: 8px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
@@ -4682,16 +4685,16 @@ input#salary-end {
 .salary-start {
     max-width: 100% !important;
     width: 100%;
-    border: 0.5px solid var(--boder-color);
-    border-radius: 6px;
+    border: 0.5px solid var(--dark-black-color-600);
+    border-radius: 8px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
 
 div#fsalary-year {
     padding: 15px 8px;
-    border: 0px solid var(--boder-color);
-    border-radius: 6px;
+    border: 0px solid var(--dark-black-color-600);
+    border-radius: 8px;
     background: rgba(221, 222, 238, 0.25);
     width: 100%;
     text-align: center;
