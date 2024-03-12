@@ -10801,8 +10801,8 @@ input#password-field-job {
     justify-content: space-between;
     width: 100%;
     padding: 14px 8px;
-    border-radius: 12px;
-    border: 0.5px solid rgba(0, 0, 0, 0.20);
+    border-radius: 8px;
+    border: 1px solid var(--dark-black-color-600);
     background: #FFF;
 }
 
@@ -10811,8 +10811,8 @@ input#password-field-job {
     justify-content: space-between;
     width: 100%;
     padding: 14px 8px;
-    border-radius: 12px;
-    border: 0.5px solid rgba(0, 0, 0, 0.20);
+    border-radius: 8px;
+    border: 1px solid var(--dark-black-color-600);
     background: #FFF;
 }
 
