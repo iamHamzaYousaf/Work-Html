@@ -6475,7 +6475,7 @@ ul.list-job-title-country li {
 }
 
 ul.list-job-title-country li:hover {
-    border-radius: 16px;
+    border-radius: 8px;
     background: var(--Whisper-color);
     color: var(--dark-black-color);
     font-weight: var(--font-weight-bold);  
