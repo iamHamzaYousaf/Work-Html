@@ -751,14 +751,18 @@ img.vector {
     position: relative;
 }
 
-.banner-heading-poly h1:before {
+.banner-heading-poly h1 span {
+    position: relative;
+}
+
+.banner-heading-poly h1 span:before {
     background-image: url(/image/underline-img.png);
     content: "";
     position: absolute;
-    width: 20%;
-    height: 35%;
-    bottom: -7px;
-    right: 16px;
+    width: 100%;
+    height: 22%;
+    bottom: -3px;
+    right: 3px;
     background-repeat: no-repeat;
     z-index: -1;
     background-size: contain;
