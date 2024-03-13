@@ -3739,7 +3739,7 @@ section.model-popup-employee {
     width: 100vw;
     background: rgb(0 0 0 / 80%);
     top: 0%;
-    z-index: 2;
+    z-index: 9;
     overflow: auto;
 }
 
