@@ -14112,8 +14112,8 @@ a.res-crd-btn {
 }
 
 .res-upload-heading {
-    font-size: 20px;
-    color: var(--primary-color);
+    font-size: 22px;
+    color: var(--dark-black-color);
     font-weight: var(--font-weight-bold);
     font-family: var(--arial-main);
     line-height: 20px;
