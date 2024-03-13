@@ -24,6 +24,8 @@
     --dark-black-color-500: rgba(43, 43, 43, .5);
     --dark-black-color-200: rgba(43, 43, 43, .2);
     --dark-black-color-600: rgba(43, 43, 43, .16);
+    --dark-black-color-060: rgba(43, 43, 43, 0.60);
+
     --white-smoke-color: #F6F6F6;
     --white-smoke-light-color: #F3F3F3;
     --pattens-blue-color: #D9F1F4;
@@ -362,17 +364,17 @@ ul.menu-list {
     padding-left: 25px;
 }
 
-ul.menu-list li a {
-    padding: 16px 0px;
-    text-decoration: none;
-    font-family: var(--arial-main);
-    font-weight: var(--font-polycare-medium);
-    font-size: 20px;
-    color: rgb(14 21 20 / 60%);
-}
-
 ul.menu-list li {
-    color: rgb(14 21 20 / 60%);
+    color: var(--dark-black-color-060);
+    }
+    
+ul.menu-list li a {
+      padding: 16px 0px;
+      text-decoration: none;
+      font-family: var(--arial-main);
+      font-weight: var(--font-polycare-medium);
+      font-size: 20px;
+      color: var(--dark-black-color-060);
 }
 
 ul.menu-list li a:hover {
@@ -455,7 +457,7 @@ button.signup-poly {
     justify-content: space-between;
     width: 100%;
     align-items: center;
-    gap: 18px;
+    gap: 10px;
 }
 
 .text-menu-icon p {
@@ -463,8 +465,9 @@ button.signup-poly {
     font-family: var(--arial-main);
     font-weight: var(--font-polycare-medium);
     font-size: 20px;
-    color: rgb(14 21 20 / 60%);
+    color: var(--dark-black-color-060);
 }
+  
 
 ul.menu-item-drop-poly {
     padding: 0;
@@ -475,15 +478,16 @@ ul.menu-item-drop-poly {
 
 ul.menu-item-drop-poly li {
     border-radius: 6px;
+    background: #ffffff;
     padding: 0px 10px 0 10px;
     cursor: pointer;
-    color: rgb(14 21 20 / 50%);
+    color: var(--dark-black-color-060);
     font-size: 18px;
     font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     line-height: 40px;
 }
-
+  
 ul.menu-item-drop-poly li:hover {
     border-radius: 6px;
     background: #ECECEC;
@@ -2048,7 +2052,7 @@ p.head-office {
 }
 
 p.office-address {
-    width: 70%;
+    width: 100%;
     font-size: 20px;
     color: var(--color-white);
     font-family: var(--arial-main);
