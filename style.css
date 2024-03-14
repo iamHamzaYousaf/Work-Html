@@ -18,6 +18,8 @@
     /*** COLORS polycare ***/
     --pacific-blue-color: #009FB5;
     --pacific-blue-color-300: rgba(0, 159, 181, 0.03);
+    --pacific-blue-color-700: rgba(0, 159, 181, 0.07);
+
     --pacific-light-blue-color: #F3F8F9;
     --light-aqua-color: #D9F1F4;
     --dark-black-color: #2B2B2B;
@@ -32,6 +34,10 @@
     --Whisper-color: #ECECEC;
     --tag-bg-color: #ECECEC;
     --neutral-color: #170F49;
+    --solitude-color-7: #D8E6F7;
+    --solitude-color-6: #DFEAF6;
+    --snow-drift-color: #D9E8E9;
+
     /*** FONT SIZES ***/
     --contact-heading: 55px;
     --main-heading: 45px;
@@ -47,6 +53,7 @@
     /*** FONT FAMILY ***/
     --museo-sans: 'Museo Sans';
     --fira-sans: 'Fira Sans';
+    --outfit: 'Outfit',
     /*** FONT FAMILY polycare***/
     --arial-main: 'Arial';
     --source-pro: 'Source Serif Pro';
@@ -330,12 +337,13 @@ header {
 
 .logo-col img {
     max-width: 100%;
+    width: 150px;
 }
 
 p.country-name-logo {
     text-align: end;
     color: var(--dark-black-color);
-    font-family: var(--arial-main);
+    font-family: var(--outfit);
     font-size: 15px;
     font-weight: 500;
 }
@@ -382,6 +390,10 @@ ul.menu-list li a:hover {
 }
 
 a.active-menu {
+    color: var(--pacific-blue-color) !important;
+}
+
+.resume-active-menu {
     color: var(--pacific-blue-color) !important;
 }
 
@@ -2138,11 +2150,11 @@ ul.site-list a {
 .cookies-heading {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .cookies-heading p {
-    color: var(--neutral-color);
+    color: var(--dark-black-color);
     font-size: var(--sub-heading);
     font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
@@ -2155,11 +2167,10 @@ ul.site-list a {
 
 p.cookies-paragrapgh {
     color: rgba(43 43 43 / 70%);
-    ;
     font-size: var(--body-text);
     font-family: var(--arial-main);
     font-weight: var(--font-weight-light);
-    line-height: 36px;
+    line-height: 28px;
     text-align: justify;
 }
 
