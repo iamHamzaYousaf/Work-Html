@@ -1980,6 +1980,7 @@ button.post-btn-poly {
     font-weight: 500;
     font-family: var(--arial-main);
     border-radius: 8px;
+    min-width: 220px;
 }
 
 button.contact-btn-poly {
@@ -1991,6 +1992,7 @@ button.contact-btn-poly {
     font-weight: 500;
     font-family: var(--arial-main);
     border-radius: 8px;
+    min-width: 220px;
 }
 
 section.all-oversite-sec {
