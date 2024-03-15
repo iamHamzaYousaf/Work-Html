@@ -1,7 +1,9 @@
 :root {
     --color-white: #fff;
     --error-msg-color: #E15C52;
+    --dark-black-color: #2B2B2B;
     --museo-sans: 'Museo Sans';
+    --outfit: 'Outfit';
     /*** FONT WEIGHT ***/
     --font-weight-bold: 700;
     --font-weight-medium: 500;
@@ -31,6 +33,12 @@
     font-weight: 700;
 }
 
+@font-face {
+    font-family: 'Outfit';
+    src: url('fonts/Outfit-Medium.woff2') format('woff2');
+    font-weight: 500;
+}
+
 .all-page-bg-clr {
     background: #FBFBFB;
 }
@@ -51,6 +59,20 @@
     padding: 50px 0 0 0;
 }
 
+.logo-col img {
+    max-width: 100%;
+    width: 180px;
+}
+
+p.country-name-logo {
+    text-align: end;
+    color: var(--dark-black-color);
+    font-family: var(--outfit);
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
 
 /*******comming soon page css**********/
 
@@ -59,7 +81,7 @@ section.comming-soon {
 }
 
 h1.coomig-soon-heading {
-    color: #282520;
+    color: var(--dark-black-color);
     font-weight: 400;
     font-size: 51px;
     font-family: 'Arial';
@@ -87,7 +109,7 @@ h1.coomig-soon-heading {
 
 p.free-job-posting {
     padding: 10px 10px 13px;
-    background: #282520;
+    background: var(--dark-black-color);
     color: var(--color-white);
     font-family: 'Arial';
     font-size: 24px;
@@ -133,21 +155,21 @@ button.subscribe-btn {
 
 .check-box-comming-soon label {
     font-size: 16px;
-    color: #282520;
+    color: var(--dark-black-color);
     font-weight: 400;
     font-family: 'Arial';
     line-height: 20px;
 }
 
 p.info-comming {
-    color: #282520;
+    color: var(--dark-black-color);
     font-weight: 400;
     font-family: 'Arial';
     font-size: 16px;
 }
 
 p.info-comming a {
-    color: #282520;
+    color: var(--dark-black-color);
     font-weight: 700;
     text-decoration: underline;
     font-family: 'Arial';
