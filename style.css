@@ -6306,7 +6306,7 @@ button.bg-clr-q::after {
 .j-fillter-only {
     margin: 30px auto 30px 0;
     display: flex;
-    justify-content: flex-end;
+    justify-content: start;
     align-items: center;
     max-width: 100%;
     width: 100%;
