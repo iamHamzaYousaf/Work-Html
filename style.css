@@ -9230,16 +9230,16 @@ th.list-description {
     position: relative;
     top: 10px;
     z-index: 1;
-}
-
-.view-candidate-img{
+  }
+  
+  .view-candidate-img {
     width: 33px;
     height: 25px;
-}
-
-.view-candidate-arrow-down{
-  width: 20px;
-}
+  }
+  
+  .view-candidate-arrow-down {
+    width: 20px;
+  }
 
 .second-menu-dropdown-sroll {
     overflow: auto;
@@ -10159,23 +10159,22 @@ td.name-box-hvr {
 /*************favourites job page ***********/
 
 .employee-list-btn button {
-    background: var(--primary-color);
+    background: var(--dark-black-color);
     color: var(--color-white);
-    padding: 10px 50px;
-    text-align: center;
     border: 0;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: var(--arial-main);
-    font-size: 18px;
-    font-weight: 400;
 }
 
 .list-btn-create-opcity button {
-    color: rgb(20 57 117 / 50%);
-    border: 1px solid rgb(20 57 117 / 50%);
-}
-
+    color: rgb(43 43 43 / 50%) !important;
+    border: 1px solid rgb(43 43 43 / 50%) !important;
+  }
+  
+  .employee-list-btn-create button {
+    background: transparent;
+    color: var(--dark-black-color);
+    border: 1px solid var(--dark-black-color);
+  }
+  
 .employee-list-btn-create button {
     background: transparent;
     color: var(--primary-color);
@@ -10195,18 +10194,20 @@ td.name-box-hvr {
 
 .two-btn-list {
     display: flex;
-    justify-content: end;
+    justify-content: start;
     gap: 20px;
 }
 
 .filter-search-box {
     padding: 8px;
-    border: 1px solid rgb(0 0 0 / 30%);
-    border-radius: 25px;
+    background: #fff;
+    border: 1px solid #b3b2b2;
+    border-radius: 8px;
     width: 300px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 40px;
 }
 
 .filter-search-box img {
@@ -10216,12 +10217,17 @@ td.name-box-hvr {
     object-fit: contain;
 }
 
-.employee-searchbox-btn {
+.employee-list-fllter-container {
     display: flex;
-    justify-content: flex-end;
-    padding: 70px 0 40px 0;
     gap: 20px;
-}
+  }
+  
+  .employee-searchbox-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    gap: 20px;
+  }
 
 #candidate-list-search {
     border: 0;
@@ -10323,13 +10329,20 @@ ul.list-job-title li {
 }
 
 a.clr-b-chng {
-    border-radius: 4px;
-    border: 1px solid --primary-color !important;
+    border-radius: 8px;
+    border: 1px solid var(--dark-black-color) !important;
     padding: 8px !important;
     font-size: 18px !important;
-    color: var(--primary-color) !important;
-}
-
+    color: var(--dark-black-color) !important;
+  
+  }
+  
+  .hor-line-hide {
+    display: none;
+  }
+  .section-hide{
+    display: none;
+  }
 
 /* comment css*/
 
@@ -20334,6 +20347,27 @@ p.text-prom-below {
         font-size: 20px;
         padding: 12px 0 12px 12px;
     }
+    /* candidate list*/
+    .filter-search-box {
+        width: 100%;
+      }
+      .two-btn-list {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+    
+      .employee-list-fllter-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .hor-line-hide {
+        display: flex;
+      }
+      .section-hide{
+        display: flex;
+      }
 }
 
 .tags-tittles ul.tags-titles-list {
