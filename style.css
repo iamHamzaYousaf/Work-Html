@@ -1429,7 +1429,6 @@ button.detail-btn-lft {
     justify-content: end;
     position: relative;
 }
-  
 
 .new-job-search {
     padding: 30px 0px;
@@ -4112,6 +4111,7 @@ p.file-size {
 .btn-next-pre {
     display: flex;
     gap: 25px;
+    padding-bottom: 50px;
 }
 
 button.btn-next-pre-toggle:hover {
@@ -4611,6 +4611,10 @@ button.update-j-btn {
     display: flex;
     align-items: center;
     gap: 20px 60px;
+}
+
+.job-content-show-right {
+    padding: 50px 0 0 0;
 }
 
 .employe-final-job-post {
@@ -7204,7 +7208,8 @@ p.job-applied-candidate-dashboard {
     color: var(--dark-black-color);
     font-size: 48px;
     font-family: var(--arial-main);
-    font-weight: var(--font-weight-bold);;
+    font-weight: var(--font-weight-bold);
+    ;
     text-align: center;
     line-height: normal;
 }
@@ -8577,9 +8582,9 @@ p.error-wishlist {
     background-position: center;
     width: 100%;
     text-decoration: none;
-  }
-  
-  .anchor-cards-job-4 {
+}
+
+.anchor-cards-job-4 {
     background: url('/image/employee-card-4.jpg');
     box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.10);
     border-radius: 12px;
@@ -8590,9 +8595,9 @@ p.error-wishlist {
     background-position: center;
     width: 100%;
     text-decoration: none;
-  }
-  
-  .anchor-cards-job-2 {
+}
+
+.anchor-cards-job-2 {
     background: url('/image/employee-card-2.jpg');
     box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.10);
     border-radius: 12px;
@@ -8603,9 +8608,9 @@ p.error-wishlist {
     background-position: center;
     width: 100%;
     text-decoration: none;
-  }
-  
-  .anchor-cards-job-3 {
+}
+
+.anchor-cards-job-3 {
     background: url('/image/employee-card-3.jpg');
     box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.10);
     border-radius: 12px;
@@ -8616,8 +8621,7 @@ p.error-wishlist {
     background-position: center;
     width: 100%;
     text-decoration: none;
-  }
-  
+}
 
 .card-1 {
     grid-column: col1-start;
@@ -8649,22 +8653,22 @@ p.error-wishlist {
     right: 20px;
     width: 36px;
     height: 30px;
-  }
-  
-  .card-2 img{
+}
+
+.card-2 img {
     width: 26px;
     height: 30px;
-  }
-  
-  .card-3 img{
+}
+
+.card-3 img {
     width: 22px;
     height: 30px;
-  }
-  
-  .card-4 img{
+}
+
+.card-4 img {
     width: 33px;
     height: 33px;
-  }
+}
 
 .j-fillter-only-table {
     margin: 30px auto 30px 0;
@@ -8813,7 +8817,7 @@ ul.list-table-title-cand li:hover {
     font-weight: var(--font-weight-bold);
     background: var(--Whisper-color);
 }
-  
+
 .job-fillter-table-data {
     display: flex;
     justify-content: space-between;
@@ -9061,9 +9065,11 @@ input.td-tr-chk {
     display: inline-block;
     left: -4px;
     border-radius: 4px;
-    border: 0.5px solid var(--dark-black-color);;
+    border: 0.5px solid var(--dark-black-color);
+    ;
     background: var(--color-white);
-    color: var(--dark-black-color);;
+    color: var(--dark-black-color);
+    ;
     font-family: var(--arial-main);
     font-size: 12px;
     padding: 5px;
@@ -9232,21 +9238,21 @@ a.sub-menu-lists.clr-set {
     background: transparent;
     font-weight: 300;
     font-family: var(--arial-main);
-  }
-  
+}
+
 .first-menu-dropdown .second-menu-dropdown li a:hover {
     border-radius: 8px;
     background: var(--tag-bg-color);
     color: var(--dark-black-color);
     font-weight: var(--font-weight-bold);
 }
-  
+
 .second-menu-dropdown-border li a {
     color: var(--dark-black-color);
     font-size: 12px;
     font-weight: 400;
 }
-  
+
 .second-menu-dropdown-border li a:hover {
     background: var(--tag-bg-color);
     color: var(--dark-black-color);
@@ -9939,23 +9945,23 @@ p.name-comment-owner {
     font-weight: var(--font-weight-bold);
     color: var(--dark-black-color);
     font-size: 20px;
-  }
-  
-  p.comment-add-date {
+}
+
+p.comment-add-date {
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-medium);
     font-family: var(--arial-main);
     color: #ADADAD;
     padding-right: 15px;
-  }
-  
-  p.comment-remove {
+}
+
+p.comment-remove {
     color: #F32131;
     font-size: var(--skill-text-size);
     font-weight: var(--font-weight-medium);
     font-family: var(--arial-main);
-  }
-  
+}
+
 .comment-info-box p {
     color: #4F4F4F;
     font-family: var(--arial-main);
@@ -12167,6 +12173,10 @@ p.percentage-summary-similarity-clr {
 
 /******first row journey************/
 
+.final-post-job-row {
+    padding: 100px 0 50px 0;
+}
+
 .back-arrrow-job-title {
     display: flex;
     justify-content: space-between;
@@ -12185,6 +12195,79 @@ p.percentage-summary-similarity-clr {
 .arrow-back-t {
     font-size: 25px;
     color: var(--primary-color);
+}
+
+
+/**********post card-sec******/
+
+.post-card-sec-bg {
+    background-color: var(--snow-drift-color);
+    padding-top: 50px;
+}
+
+.main-row-job-card {
+    display: flex;
+    align-items: center;
+}
+
+.left-job-content-postcard {
+    padding-right: 70px;
+}
+
+p.ai-content-post {
+    color: var(--pacific-blue-color);
+    font-size: 20px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--arial-main);
+}
+
+p.create-post-heading-post {
+    color: var(--dark-black-color);
+    font-size: 40px;
+    font-family: var(--source-pro);
+    font-weight: 600;
+}
+
+p.post-card-content-ai {
+    color: var(--dark-black-color);
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    text-align: justify;
+    font-family: var(--arial-main);
+}
+
+.two-ai-post-btn {
+    padding-top: 30px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button.copy-paste-btn {
+    min-width: 274px;
+    border: 1px solid var(--dark-black-color);
+    padding: 17px 10px;
+    border-radius: 8px;
+    background: var(--color-white);
+    color: var(--dark-black-color);
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: var(--arial-main);
+}
+
+button.generate-job-btn {
+    min-width: 274px;
+    border: 1px solid var(--dark-black-color);
+    padding: 17px 10px;
+    border-radius: 8px;
+    background: var(--dark-black-color);
+    color: var(--color-white);
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: var(--arial-main);
 }
 
 
@@ -17811,6 +17894,10 @@ p.text-prom-below {
     .banner-heading-poly h1 {
         font-size: 60px;
     }
+    /**********post card-sec******/
+    .left-job-content-postcard {
+        padding-right: 40px;
+    }
 }
 
 @media only screen and (max-width:860px) {
@@ -19172,8 +19259,7 @@ p.text-prom-below {
     }
     .employee-job-dasboard {
         padding: 25px 0 25px 0;
-      }
-    
+    }
     input#candidate-name-field {
         max-width: 100%;
     }
@@ -19695,6 +19781,37 @@ p.text-prom-below {
     .job-title-joourny {
         font-size: 20px;
     }
+    /**********post card-sec******/
+    .right-col-Aimage {
+        display: none;
+    }
+    .left-job-content-postcard {
+        padding-right: 0px;
+    }
+    .post-card-sec-bg {
+        padding: 50px 0;
+    }
+    p.ai-content-post {
+        font-size: 16px;
+    }
+    p.create-post-heading-post {
+        font-size: 22px;
+        line-height: 28px;
+        padding: 10px 0;
+    }
+    p.post-card-content-ai {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .two-ai-post-btn {
+        padding-top: 60px;
+    }
+    button.copy-paste-btn,
+    button.generate-job-btn {
+        width: 100%;
+        padding: 14px 10px;
+    }
+    /******/
     .arrow-back-t {
         font-size: 18px;
     }
