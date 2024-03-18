@@ -1569,11 +1569,41 @@ button.detail-btn-lft {
         border-radius: 25px;
     }
     .edit-icon-emply {
+        display: none !important;
         padding: 10px 0px;
-    }
+      }
+      .delete-post-container {
+        display: flex;
+      }
+      .delete-post-container a {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+      }
+      .delete-post-container-icon {
+        width: 20px;
+      }
+      .edit-post-container {
+        display: flex;
+      }
+      .edit-post-container a {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+      }
+      .edit-post-container-icon {
+        width: 20px;
+      }
     .edit-icon-emply-draft {
         margin-bottom: 0rem;
     }
+    .application-dash-hide {
+        display: block;
+     }
 }
 
 @media only screen and (max-width: 639px) {
@@ -4866,7 +4896,37 @@ div#fsalary-year {
     margin: 20px auto 0;
 }
 
-
+.delete-post-container {
+    display: none;
+  }
+  
+  .edit-post-container {
+    display: none;
+  }
+  
+  .delete-post-container button {
+    background: var(--color-grey);
+    border: 2px solid #E15C52;
+    border-radius: 8px;
+    color: #E15C52;
+    padding: 8px 18px;
+    font-size: 16px;
+    font-weight: var(--font-weight-medium);
+    width: 100%;
+  }
+  
+  .edit-post-container button {
+    background: transparent;
+    border: 2px solid var(--accent-color);
+    border-radius: 6px;
+    color: var(--accent-color);
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: var(--font-weight-medium);
+    width: 100%;
+    margin-top: 15px;
+  }
+  
 /********* job posting boxes two ***********/
 
 .job-two-boxes {
@@ -9153,7 +9213,7 @@ th.list-description {
     cursor: pointer;
     font-size: 16px;
     outline: none;
-    color: var(--pacific-blue-color);
+    color: var(--dark-black-color);
     font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     background: #FBFBFB;
@@ -9170,6 +9230,15 @@ th.list-description {
     position: relative;
     top: 10px;
     z-index: 1;
+}
+
+.view-candidate-img{
+    width: 33px;
+    height: 25px;
+}
+
+.view-candidate-arrow-down{
+  width: 20px;
 }
 
 .second-menu-dropdown-sroll {
@@ -9215,7 +9284,7 @@ th.list-description {
 
 a.sub-menu-lists.clr-set {
     border-radius: 4px;
-    border: 1px solid var(--pacific-blue-color);
+    border: 1px solid var(--dark-black-color);
     padding: 8px;
 }
 
@@ -9348,15 +9417,24 @@ background-color: var(--primary-color);
     flex-wrap: wrap;
 }
 
+.application-dash-hide {
+    display: none;
+ }
+ 
 .application-dash a {
     display: flex;
     gap: 10px;
     align-items: center;
+    justify-content: end;
     text-decoration: none;
     font-size: 16px;
     color: var(--text-color);
     font-weight: 400;
     font-family: var(--arial-main);
+}
+
+.application-dash img {
+    height: 20px;
 }
 
 
