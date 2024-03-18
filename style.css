@@ -8737,7 +8737,7 @@ p.error-wishlist {
     align-items: center;
     max-width: 100%;
     width: 100%;
-    gap: 20px 40px;
+    gap: 20px 20px;
     flex-wrap: wrap;
     padding-right: 30px;
 }
@@ -10225,7 +10225,7 @@ td.name-box-hvr {
   .employee-searchbox-btn {
     display: flex;
     justify-content: space-between;
-    padding: 40px 0;
+    padding: 30px 0;
     gap: 20px;
   }
 
