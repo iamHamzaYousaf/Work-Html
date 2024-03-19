@@ -12275,7 +12275,7 @@ p.percentage-summary-similarity-clr {
 
 .job-title-joourny {
     color: var(--dark-black-color);
-    font-family: var(--arial-main);
+    font-family: var(--source-pro);
     font-weight: var(--font-weight-bold);
     text-align: center;
     font-size: 28px;
