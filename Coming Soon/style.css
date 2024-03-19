@@ -40,7 +40,7 @@
 }
 
 .all-page-bg-clr {
-    background: #FBFBFB;
+    background: #FDFDFE;
 }
 
 .container-site {
@@ -95,6 +95,8 @@ h1.coomig-soon-heading {
 
 .yello-img-left img {
     max-width: 100%;
+    width: 450px;
+    height: 350px;
 }
 
 .yello-img-left,
