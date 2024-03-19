@@ -4203,6 +4203,7 @@ button.btn-job-post {
 }
 
 .icon-cursor-f img {
+    width: 33px;
     position: relative;
     top: -3px;
     padding-right: 10px;
