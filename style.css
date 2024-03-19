@@ -1569,11 +1569,41 @@ button.detail-btn-lft {
         border-radius: 25px;
     }
     .edit-icon-emply {
+        display: none !important;
         padding: 10px 0px;
-    }
+      }
+      .delete-post-container {
+        display: flex;
+      }
+      .delete-post-container a {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+      }
+      .delete-post-container-icon {
+        width: 20px;
+      }
+      .edit-post-container {
+        display: flex;
+      }
+      .edit-post-container a {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+      }
+      .edit-post-container-icon {
+        width: 20px;
+      }
     .edit-icon-emply-draft {
         margin-bottom: 0rem;
     }
+    .application-dash-hide {
+        display: block;
+     }
 }
 
 @media only screen and (max-width: 639px) {
@@ -2104,7 +2134,7 @@ p.Countries-heading {
 
 .footer-divider {
     padding: 15px;
-    border-top: 1px solid var(--boder-color)
+    border-top: 1px solid var(--dark-black-color-600)
 }
 
 .footer-rights {
@@ -4041,14 +4071,14 @@ ul.progressbar-steps li {
 .signup-website-url input[type="text"] {
     width: 100%;
     padding: 13px 8px;
-    border: 0.5px solid var(--boder-color);
+    border: 0.5px solid var(--dark-black-color-600);
     border-radius: 6px;
 }
 
 .signup-company-name input[type="text"] {
     width: 100%;
     padding: 13px 8px;
-    border: 0.5px solid var(--boder-color);
+    border: 0.5px solid var(--dark-black-color-600);
     border-radius: 6px;
 }
 
@@ -4152,7 +4182,7 @@ button.btn-job-post {
 .signup-jobs-option #choose-jobs {
     width: 100%;
     padding: 18px 8px;
-    border: 0.5px solid var(--boder-color);
+    border: 0.5px solid var(--dark-black-color-600);
     border-radius: 6px;
     font-size: var(--promoted-btn);
     font-family: var(--arial-main);
@@ -4254,7 +4284,7 @@ p.error-msg-place {
 .signup-jobs-option #choose-jobs-type {
     width: 100%;
     padding: 18px 8px;
-    border: 0.5px solid var(--boder-color);
+    border: 0.5px solid var(--dark-black-color-600);
     border-radius: 6px;
     font-size: var(--promoted-btn);
     font-family: var(--arial-main);
@@ -4277,7 +4307,7 @@ button.job-reset-btn-f {
     width: 100%;
     max-width: 64px;
     padding: 15px 10px;
-    border: 0.5px solid var(--boder-color);
+    border: 0.5px solid var(--dark-black-color-600);
     border-radius: 6px;
     display: flex;
     justify-content: center;
@@ -4321,7 +4351,7 @@ label.job-postion-btn {
 
 p.cities-job-heading {
     text-align: center;
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-size: 28px;
     font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
@@ -4347,10 +4377,10 @@ p.cities-job-heading {
 }
 
 p.country-img-text {
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-size: 16px;
     padding-top: 5px;
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-medium);
     font-family: var(--arial-main);
 }
 
@@ -4389,12 +4419,12 @@ button.job-des-btn {
     padding: 12px 10px;
     border: 0;
     color: var(--color-white);
-    border-radius: 4px;
-    background: var(--primary-color);
+    border-radius: 8px;
+    background: var(--dark-black-color);
     gap: 10px;
     font-family: var(--arial-main);
-    font-weight: var(--font-weight-medium);
-    font-size: 13px;
+    font-weight: var(--font-weight-bold);
+    font-size: 16px;
 }
 
 button.job-reset-btn {
@@ -4430,7 +4460,7 @@ button.job-reset-btn {
 
 .f-feild-post label {
     margin-bottom: 12px;
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-family: var(--arial-main);
     font-size: 16px;
     font-weight: var(--font-weight-bold);
@@ -4576,7 +4606,7 @@ button.update-j-btn {
 .job-textarea-box textarea {
     width: 100%;
     padding: 10px;
-    border: 0.5px solid var(--boder-color);
+    border: 0.5px solid var(--dark-black-color-600);
     border-radius: 6px;
 }
 
@@ -4679,14 +4709,14 @@ input#job-post-field {
 
 input#salary-end {
     padding: 15px 8px;
-    border: 0.5px solid var(--boder-color);
+    border: 0.5px solid var(--dark-black-color-600);
     border-radius: 6px;
     width: 100%;
 }
 
 #fsalary-country {
     padding: 18px 5px;
-    border: 0px solid var(--boder-color);
+    border: 0px solid var(--dark-black-color-600);
     border-radius: 6px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
@@ -4737,14 +4767,14 @@ div#fsalary-year {
 }
 
 .Year {
-    border: 0.5px solid var(--boder-color);
+    border: 0.5px solid var(--dark-black-color-600);
     border-radius: 6px;
 }
 
 .industry-feild-frm {
     width: 100%;
     padding: 13px 10px;
-    border: 0.5px solid var(--boder-color);
+    border: 0.5px solid var(--dark-black-color-600);
     border-radius: 6px;
     font-size: 18px;
     font-family: var(--arial-main);
@@ -4757,7 +4787,7 @@ div#fsalary-year {
 
 .industry-feild-frm:focus,
 .industry-feild-frm:focus-visible {
-    outline: 1px solid var(--primary-color) !important;
+    outline: 1px solid var(--dark-black-color) !important;
     box-shadow: 0px 0px 49px -3px rgba(20, 57, 117, 0.15);
 }
 
@@ -4806,8 +4836,9 @@ div#fsalary-year {
 
 .dropdown-form-f ul li:hover {
     border-radius: 4px;
-    background: #F2F7FF;
-    color: var(--text-color);
+    background: var(--Whisper-color);
+    color: var(--dark-black-color);
+    font-weight: var(--font-weight-bold);
 }
 
 
@@ -4821,17 +4852,16 @@ div#fsalary-year {
 /* Track */
 
 .dropdown-form-f::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
+    box-shadow: inset 0 0 6px var(--dark-black-color);
     border-radius: 10px;
-}
-
-
-/* Handle */
-
+  }
+  
+  /* Handle */
+  
 .dropdown-form-f::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-    background-color: var(--primary-color);
+    -webkit-box-shadow: inset 0 0 6px var(--dark-black-color);
+    background-color: var(--dark-black-color);
 }
 
 .industry-feild-frm.open .dropdown-form-f {
@@ -4866,7 +4896,37 @@ div#fsalary-year {
     margin: 20px auto 0;
 }
 
-
+.delete-post-container {
+    display: none;
+  }
+  
+  .edit-post-container {
+    display: none;
+  }
+  
+  .delete-post-container button {
+    background: var(--color-grey);
+    border: 2px solid #E15C52;
+    border-radius: 8px;
+    color: #E15C52;
+    padding: 8px 18px;
+    font-size: 16px;
+    font-weight: var(--font-weight-medium);
+    width: 100%;
+  }
+  
+  .edit-post-container button {
+    background: transparent;
+    border: 2px solid var(--accent-color);
+    border-radius: 6px;
+    color: var(--accent-color);
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: var(--font-weight-medium);
+    width: 100%;
+    margin-top: 15px;
+  }
+  
 /********* job posting boxes two ***********/
 
 .job-two-boxes {
@@ -5390,7 +5450,7 @@ section.job-search-sec {
     max-width: 100%;
     width: 100%;
     align-items: center;
-    border: 0.5px solid var(--boder-color);
+    border: 0.5px solid var(--dark-black-color-600);
     border-radius: 6px;
     padding: 8px;
     position: relative;
@@ -5654,7 +5714,7 @@ ul.dorpdown-list-location li:hover {
 
 .job-keywords {
     padding-right: 0px;
-    border-right: 1px solid var(--boder-color);
+    border-right: 1px solid var(--dark-black-color-600);
     max-width: 38%;
     width: 100%;
 }
@@ -5665,7 +5725,7 @@ input#job-search-field {
 
 .job-type-f {
     padding: 0 20px 0 10px;
-    border-right: 1px solid var(--boder-color);
+    border-right: 1px solid var(--dark-black-color-600);
     max-width: 30%;
     width: 100%;
 }
@@ -5679,7 +5739,7 @@ input#job-search-field {
 .job-post-date {
     padding: 12px;
     margin-left: 15px;
-    border: 0.5px solid var(--boder-color);
+    border: 0.5px solid var(--dark-black-color-600);
     border-radius: 6px;
 }
 
@@ -6322,7 +6382,7 @@ button.bg-clr-q::after {
 
 .j-company-fillter {
     padding: 12px;
-    border: 0.5px solid var(--boder-color);
+    border: 0.5px solid var(--dark-black-color-600);
     border-radius: 6px;
     width: 240px;
     background: var(--secondary-color);
@@ -6630,9 +6690,9 @@ ul.list-job-title-year-job li {
 
 ul.list-job-title-year-job li:hover {
     border-radius: 6px;
-    background: #F2F7FF;
-    color: var(--text-color);
-    font-weight: var(--font-weight-medium);
+    background: var(--Whisper-color);
+    color: var(--dark-black-color);
+    font-weight: var(--font-weight-bold);
 }
 
 
@@ -6662,7 +6722,7 @@ ul.list-job-title-year-job li:hover {
 .company-drop-list {
     margin-top: 0px;
     width: 100%;
-    border: 0.5px solid var(--boder-color);
+    border: 0.5px solid var(--dark-black-color-600);
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.16);
     box-sizing: border-box;
     border-radius: 5px;
@@ -7056,7 +7116,7 @@ section.pageniation-sec {
     color: black;
     padding: 5px 10px;
     text-decoration: none;
-    border: 1px solid var(--boder-color);
+    border: 1px solid var(--dark-black-color-600);
     border-radius: 4px;
     margin: 0 5px;
     font-size: var(--skill-text-size);
@@ -7695,7 +7755,7 @@ button.profile-end-btn:hover {
 input#preferences-prfile {
     width: 100%;
     padding: 13px 8px;
-    border: 0.5px solid var(--boder-color);
+    border: 0.5px solid var(--dark-black-color-600);
     border-radius: 6px;
     color: var(--text-color);
     font-size: 16px;
@@ -7704,7 +7764,7 @@ input#preferences-prfile {
 }
 
 .divider-left-profile {
-    border-right: 00.5px solid var(--boder-color);
+    border-right: 00.5px solid var(--dark-black-color-600);
 }
 
 
@@ -8121,7 +8181,7 @@ ul.candidate-profile-data-list {
 }
 
 .divider-bottom-tabdata {
-    border-bottom: 0.5px solid var(--boder-color);
+    border-bottom: 0.5px solid var(--dark-black-color-600);
 }
 
 
@@ -8164,7 +8224,7 @@ ul.candidate-profile-data-list {
     justify-content: space-between;
     align-items: center;
     padding: 40px 0 30px 0;
-    border-bottom: 1px solid var(--boder-color);
+    border-bottom: 1px solid var(--dark-black-color-600);
     position: relative;
 }
 
@@ -8678,7 +8738,7 @@ p.error-wishlist {
     align-items: center;
     max-width: 100%;
     width: 100%;
-    gap: 20px 40px;
+    gap: 20px 20px;
     flex-wrap: wrap;
     padding-right: 30px;
 }
@@ -8722,7 +8782,7 @@ height: 14px;
 }
 
 .j-company-fillter-table {
-    border: 0.5px solid var(--boder-color);
+    border: 0.5px solid var(--dark-black-color-600);
     padding: 12px;
     border-radius: 6px;
     width: 230px;
@@ -9154,7 +9214,7 @@ th.list-description {
     cursor: pointer;
     font-size: 16px;
     outline: none;
-    color: var(--pacific-blue-color);
+    color: var(--dark-black-color);
     font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
     background: #FBFBFB;
@@ -9171,7 +9231,16 @@ th.list-description {
     position: relative;
     top: 10px;
     z-index: 1;
-}
+  }
+  
+  .view-candidate-img {
+    width: 33px;
+    height: 25px;
+  }
+  
+  .view-candidate-arrow-down {
+    width: 20px;
+  }
 
 .second-menu-dropdown-sroll {
     overflow: auto;
@@ -9216,7 +9285,7 @@ th.list-description {
 
 a.sub-menu-lists.clr-set {
     border-radius: 4px;
-    border: 1px solid var(--pacific-blue-color);
+    border: 1px solid var(--dark-black-color);
     padding: 8px;
 }
 
@@ -9349,15 +9418,24 @@ background-color: var(--primary-color);
     flex-wrap: wrap;
 }
 
+.application-dash-hide {
+    display: none;
+ }
+ 
 .application-dash a {
     display: flex;
     gap: 10px;
     align-items: center;
+    justify-content: end;
     text-decoration: none;
     font-size: 16px;
     color: var(--text-color);
     font-weight: 400;
     font-family: var(--arial-main);
+}
+
+.application-dash img {
+    height: 20px;
 }
 
 
@@ -9533,7 +9611,7 @@ img.notfill-heart {
 
 .j-fillter-only-dashbord .j-company-fillter {
     padding: 12px;
-    border: 0.5px solid var(--boder-color);
+    border: 0.5px solid var(--dark-black-color-600);
     border-radius: 6px;
     width: 215px;
     background: var(--tag-bg-color);
@@ -10082,23 +10160,22 @@ td.name-box-hvr {
 /*************favourites job page ***********/
 
 .employee-list-btn button {
-    background: var(--primary-color);
+    background: var(--dark-black-color);
     color: var(--color-white);
-    padding: 10px 50px;
-    text-align: center;
     border: 0;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: var(--arial-main);
-    font-size: 18px;
-    font-weight: 400;
 }
 
 .list-btn-create-opcity button {
-    color: rgb(20 57 117 / 50%);
-    border: 1px solid rgb(20 57 117 / 50%);
-}
-
+    color: rgb(43 43 43 / 50%) !important;
+    border: 1px solid rgb(43 43 43 / 50%) !important;
+  }
+  
+  .employee-list-btn-create button {
+    background: transparent;
+    color: var(--dark-black-color);
+    border: 1px solid var(--dark-black-color);
+  }
+  
 .employee-list-btn-create button {
     background: transparent;
     color: var(--primary-color);
@@ -10118,18 +10195,20 @@ td.name-box-hvr {
 
 .two-btn-list {
     display: flex;
-    justify-content: end;
+    justify-content: start;
     gap: 20px;
 }
 
 .filter-search-box {
     padding: 8px;
-    border: 1px solid rgb(0 0 0 / 30%);
-    border-radius: 25px;
+    background: #fff;
+    border: 1px solid #b3b2b2;
+    border-radius: 8px;
     width: 300px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 40px;
 }
 
 .filter-search-box img {
@@ -10139,12 +10218,17 @@ td.name-box-hvr {
     object-fit: contain;
 }
 
-.employee-searchbox-btn {
+.employee-list-fllter-container {
     display: flex;
-    justify-content: flex-end;
-    padding: 70px 0 40px 0;
     gap: 20px;
-}
+  }
+  
+  .employee-searchbox-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    gap: 20px;
+  }
 
 #candidate-list-search {
     border: 0;
@@ -10246,13 +10330,20 @@ ul.list-job-title li {
 }
 
 a.clr-b-chng {
-    border-radius: 4px;
-    border: 1px solid --primary-color !important;
+    border-radius: 8px;
+    border: 1px solid var(--dark-black-color) !important;
     padding: 8px !important;
     font-size: 18px !important;
-    color: var(--primary-color) !important;
-}
-
+    color: var(--dark-black-color) !important;
+  
+  }
+  
+  .hor-line-hide {
+    display: none;
+  }
+  .section-hide{
+    display: none;
+  }
 
 /* comment css*/
 
@@ -10277,7 +10368,7 @@ a.clr-b-chng {
 
 /* 
 .border-text fieldset {
-border-top: 1px solid var(--boder-color);
+border-top: 1px solid var(--dark-black-color-600);
 }
 
 .border-text fieldset legend {
@@ -10557,7 +10648,7 @@ input#comment-f:focus {
 }
 
 input#comment-f::-webkit-input-placeholder {
-    color: var(--boder-color);
+    color: var(--dark-black-color-600);
     font-size: var(--button-text);
     font-family: var(--arial-main);
     line-height: 24px;
@@ -11170,7 +11261,7 @@ textarea.form-font-list {
 
 .share-list-feild {
     padding: 10px;
-    border: 0px solid var(--boder-color);
+    border: 0px solid var(--dark-black-color-600);
     width: 100%;
     position: relative;
     border-radius: 5px;
@@ -12184,8 +12275,8 @@ p.percentage-summary-similarity-clr {
 }
 
 .job-title-joourny {
-    color: var(--primary-color);
-    font-family: var(--arial-main);
+    color: var(--dark-black-color);
+    font-family: var(--source-pro);
     font-weight: var(--font-weight-bold);
     text-align: center;
     font-size: 28px;
@@ -13368,7 +13459,7 @@ button.resume-exper-right-tb {
 .Year-res-v {
     display: flex;
     align-items: center;
-    border: 0.5px solid var(--boder-color);
+    border: 0.5px solid var(--dark-black-color-600);
     border-radius: 6px;
     /* padding: 15px 8px; */
     background: rgba(221, 222, 238, 0.25);
@@ -14807,17 +14898,17 @@ img.dowld-res {
 /******term and policy pages **********/
 
 section.term-condition {
-    padding: 50px 0 40px 0;
+    margin-top: 30px;
+    padding: 24px 0;
+    background: var(--pacific-blue-color-300);
 }
 
 .main-heading-term {
-    color: var(--primary-color);
-    font-family: var(--arial-main);
-    font-size: 32px;
+    color: var(--dark);
+    font-family: var(--source-pro);
+    font-size: 28px;
     font-weight: 600;
     text-align: center;
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgb(0 0 0 / 20%);
 }
 
 .first-para-term {
@@ -14831,7 +14922,7 @@ section.term-condition {
 }
 
 .sub-heading-term {
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-family: var(--arial-main);
     font-size: 32px;
     font-weight: 600;
@@ -15688,7 +15779,7 @@ img.show-tooltip3:hover~.tooltip-delete-role {
     color: #BDBDBD;
     padding: 1px 7px;
     text-decoration: none;
-    border: 1px solid var(--boder-color);
+    border: 1px solid var(--dark-black-color-600);
     border-radius: 4px;
     margin: 0 5px;
     font-size: var(--skill-text-size);
@@ -15756,7 +15847,7 @@ img.show-tooltip3:hover~.tooltip-delete-role {
 
 .admin-status-filter {
     padding: 12px;
-    border: 0px solid var(--boder-color);
+    border: 0px solid var(--dark-black-color-600);
     width: 240px;
     border-radius: 5px;
     background: rgba(221, 222, 238, 0.25);
@@ -15961,7 +16052,7 @@ ul.progressbar-admin li {
 
 input#dept-f {
     padding: 12px;
-    border: 0px solid var(--boder-color);
+    border: 0px solid var(--dark-black-color-600);
     width: 100%;
     border-radius: 5px;
     background-color: rgba(221, 222, 238, 0.25) !important;
@@ -16056,7 +16147,7 @@ textarea#text-admin {
 
 .admin-status-filter-form {
     padding: 12px;
-    border: 0px solid var(--boder-color);
+    border: 0px solid var(--dark-black-color-600);
     width: 100%;
     position: relative;
     border-radius: 5px;
@@ -17721,7 +17812,7 @@ p.text-prom-below {
         display: block;
     }
     .three-filter-inline {
-        border: 0px solid var(--boder-color);
+        border: 0px solid var(--dark-black-color-600);
         border-radius: 0px;
         padding: 0px;
         max-width: 100%;
@@ -17733,14 +17824,14 @@ p.text-prom-below {
     .job-location-f {
         padding: 12px;
         margin-left: 0px;
-        border: 0.5px solid var(--boder-color);
+        border: 0.5px solid var(--dark-black-color-600);
         border-radius: 6px;
         margin-bottom: 15px;
     }
     .job-post-date {
         padding: 12px;
         margin-left: 0px;
-        border: 0.5px solid var(--boder-color);
+        border: 0.5px solid var(--dark-black-color-600);
         border-radius: 6px;
     }
     p.clear-filter {
@@ -18850,7 +18941,7 @@ p.text-prom-below {
         width: 100%;
     }
     .three-filter-inline {
-        border: 0px solid var(--boder-color);
+        border: 0px solid var(--dark-black-color-600);
         border-radius: 0px;
         padding: 0px;
         max-width: 100%;
@@ -18862,7 +18953,7 @@ p.text-prom-below {
     .job-location-f {
         padding: 12px;
         margin-left: 0px;
-        border: 0.5px solid var(--boder-color);
+        border: 0.5px solid var(--dark-black-color-600);
         border-radius: 6px;
         margin-bottom: 15px;
     }
@@ -18873,7 +18964,7 @@ p.text-prom-below {
     .job-post-date {
         padding: 12px;
         margin-left: 0px;
-        border: 0.5px solid var(--boder-color);
+        border: 0.5px solid var(--dark-black-color-600);
         border-radius: 6px;
     }
     #job-select-field,
@@ -20242,7 +20333,7 @@ p.text-prom-below {
     }
     /*****term and condition ploicy pages********/
     section.term-condition {
-        padding: 25px 0 25px 0;
+        padding: 20px 0 20px 0;
     }
     .main-heading-term {
         font-size: 24px;
@@ -20253,10 +20344,30 @@ p.text-prom-below {
         padding: 24px 0;
     }
     .sub-heading-term {
-        background: #F2F7FF;
         font-size: 20px;
         padding: 12px 0 12px 12px;
     }
+    /* candidate list*/
+    .filter-search-box {
+        width: 100%;
+      }
+      .two-btn-list {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+    
+      .employee-list-fllter-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .hor-line-hide {
+        display: flex;
+      }
+      .section-hide{
+        display: flex;
+      }
 }
 
 .tags-tittles ul.tags-titles-list {
