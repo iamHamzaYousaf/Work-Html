@@ -292,12 +292,12 @@ html {
 }
 
 .find-job-btn-candidate-dashbord button {
-    background: var(--primary-color);
-    color: var(--color-white);
-    padding: 8px 53px;
+    background: #F3F3F3;
+    color: var(--pacific-blue-color);
+    border-radius: 8px;
+    border: 2px solid var(--pacific-blue-color);
+    padding: 8px 26px;
     text-align: center;
-    border: 0;
-    border-radius: 4px;
     cursor: pointer;
     font-family: var(--arial-main);
     font-size: 18px;
@@ -364,7 +364,7 @@ ul.menu-list {
 
 .menu-items-poly {
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     width: 60%;
     padding-left: 25px;
 }
