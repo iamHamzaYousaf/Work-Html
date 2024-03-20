@@ -292,12 +292,12 @@ html {
 }
 
 .find-job-btn-candidate-dashbord button {
-    background: var(--primary-color);
-    color: var(--color-white);
-    padding: 8px 53px;
+    background: #F3F3F3;
+    color: var(--pacific-blue-color);
+    border-radius: 8px;
+    border: 2px solid var(--pacific-blue-color);
+    padding: 8px 26px;
     text-align: center;
-    border: 0;
-    border-radius: 4px;
     cursor: pointer;
     font-family: var(--arial-main);
     font-size: 18px;
@@ -364,7 +364,7 @@ ul.menu-list {
 
 .menu-items-poly {
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     width: 60%;
     padding-left: 25px;
 }
@@ -11739,14 +11739,14 @@ ul.progressbar-journey li {
 }
 
 p.name-can-jou {
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-weight: var(--font-weight-bold);
     font-size: 20px;
 }
 
 .text-list-tile-mbl {
     display: none;
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-weight: var(--font-weight-bold);
     font-size: 20px;
     line-height: 24px;
@@ -11829,7 +11829,7 @@ ul.info-list-jour li {
 }
 
 ul.info-list-jour li span {
-    color: var(--primary-color);
+    color: var(---dark-black-color);
     font-size: 16px;
     font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
@@ -11847,7 +11847,7 @@ ul.info-list-jour li span {
 }
 
 .jour-info-list p {
-    color: var(--primary-color);
+    color: var(---dark-black-color);
     font-size: 16px;
     font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
@@ -11855,10 +11855,10 @@ ul.info-list-jour li span {
 }
 
 button.link-profile-jour {
-    border-radius: 6px;
-    background: #0288D1;
+    border-radius: 8px;
+    background: #0288d1;
     padding: 12px 24px;
-    color: #fff;
+    color: var(--color-white);
     font-size: 16px;
     font-family: var(--arial-main);
     display: flex;
@@ -11875,17 +11875,16 @@ button.link-profile-jour img {
 }
 
 button.link-mail-jour {
-    background: transparent;
+    background-color: white;
     padding: 10px 24px;
-    color: var(--primary-color);
+    color: var(---dark-black-color);
     font-size: 16px;
     font-family: var(--arial-main);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    border-radius: 6px;
-    border: 1px solid #143975;
+    border-radius: 8px;
     margin-bottom: 20px;
     min-width: 240px;
 }
@@ -11896,7 +11895,7 @@ button.link-mail-jour img {
 }
 
 p.work-jour-heading {
-    color: var(--primary-color);
+    color: var(---dark-black-color);
     font-size: 16px;
     font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
@@ -11911,15 +11910,15 @@ p.work-jour-heading {
 }
 
 button.tag-jour-btn {
-    border-radius: 5px;
-    background: #F2F7FF;
-    color: var(--primary-color);
+    border-radius: 16px;
+    background: var(--Whisper-color);
+    color: var(---dark-black-color);
     font-size: 14px;
     font-family: var(--arial-main);
     font-weight: 500;
     padding: 7px;
     line-height: 16.8px;
-    border: 1px solid #E2EDFF;
+    border: 1px solid var(--Whisper-color);
 }
 
 .journey-row {
@@ -11931,7 +11930,7 @@ button.tag-jour-btn {
 }
 
 p.summary-jour {
-    color: var(--primary-color);
+    color: var(---dark-black-color);
     font-size: 18px;
     font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
@@ -11986,7 +11985,7 @@ ul.nav.nav-tabs.mb-3.tabs-summary {
 }
 
 p.content-heading-jour {
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-size: 24px;
     font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
@@ -12289,6 +12288,8 @@ p.percentage-summary-similarity-clr {
     font-weight: var(--font-weight-bold);
     text-align: center;
     font-size: 28px;
+    padding: 25px 0;
+    background: var(--pacific-blue-color-300);
 }
 
 .arrow-back-t {
@@ -16281,11 +16282,11 @@ a.nav-link {
 
 a.nav-link.active {
     border: 0;
-    border-bottom: 2px solid var(--primary-color) !important;
-    color: var(--primary-color) !important;
+    border-bottom: 2px solid var(--dark-black-color) !important;
+    color: var(--dark-black-color) !important;
     font-size: 14px;
     font-weight: var(--font-weight-bold);
-    font-family: var(--arial-main);
+    font-family: var(--dark-black-color);
 }
 
 thead.tb-heading-user-admin {
