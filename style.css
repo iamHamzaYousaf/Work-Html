@@ -7587,7 +7587,8 @@ section.candidate-profile-tabs {
     width: 100%;
 }
 
-.accordion-button.collapsed::after {
+
+/* .accordion-button.collapsed::after {
     background-image: url("./image/tab-profile.png");
     transform: scale(1) !important;
     border: 1px solid var(--primary-color);
@@ -7598,7 +7599,7 @@ section.candidate-profile-tabs {
 
 .accordion-button:not(.collapsed)::after {
     background-image: none;
-}
+} */
 
 .accordion-item:first-of-type .accordion-button {
     border-top-left-radius: 0;
@@ -13397,11 +13398,12 @@ p.job-pro-url-res-right-inner {
     text-decoration: underline;
 }
 
-.accordion-button:not(.collapsed)::after,
+
+/* .accordion-button:not(.collapsed)::after,
 .accordion-button.collapsed::after {
     background-image: none;
     display: none;
-}
+} */
 
 button.data-tab-res-right {
     padding: 14px 10px !important;
