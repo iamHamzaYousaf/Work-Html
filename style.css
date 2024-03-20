@@ -1571,39 +1571,39 @@ button.detail-btn-lft {
     .edit-icon-emply {
         display: none !important;
         padding: 10px 0px;
-      }
-      .delete-post-container {
+    }
+    .delete-post-container {
         display: flex;
-      }
-      .delete-post-container a {
-        display: flex;
-        width: 100%;
-        margin: 0 auto;
-        display: block;
-        width: 100%;
-      }
-      .delete-post-container-icon {
-        width: 20px;
-      }
-      .edit-post-container {
-        display: flex;
-      }
-      .edit-post-container a {
+    }
+    .delete-post-container a {
         display: flex;
         width: 100%;
         margin: 0 auto;
         display: block;
         width: 100%;
-      }
-      .edit-post-container-icon {
+    }
+    .delete-post-container-icon {
         width: 20px;
-      }
+    }
+    .edit-post-container {
+        display: flex;
+    }
+    .edit-post-container a {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+    }
+    .edit-post-container-icon {
+        width: 20px;
+    }
     .edit-icon-emply-draft {
         margin-bottom: 0rem;
     }
     .application-dash-hide {
         display: block;
-     }
+    }
 }
 
 @media only screen and (max-width: 639px) {
@@ -4855,10 +4855,11 @@ div#fsalary-year {
 .dropdown-form-f::-webkit-scrollbar-track {
     box-shadow: inset 0 0 6px var(--dark-black-color);
     border-radius: 10px;
-  }
-  
-  /* Handle */
-  
+}
+
+
+/* Handle */
+
 .dropdown-form-f::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px var(--dark-black-color);
@@ -4899,13 +4900,13 @@ div#fsalary-year {
 
 .delete-post-container {
     display: none;
-  }
-  
-  .edit-post-container {
+}
+
+.edit-post-container {
     display: none;
-  }
-  
-  .delete-post-container button {
+}
+
+.delete-post-container button {
     background: var(--color-grey);
     border: 2px solid #E15C52;
     border-radius: 8px;
@@ -4914,9 +4915,9 @@ div#fsalary-year {
     font-size: 16px;
     font-weight: var(--font-weight-medium);
     width: 100%;
-  }
-  
-  .edit-post-container button {
+}
+
+.edit-post-container button {
     background: transparent;
     border: 2px solid var(--accent-color);
     border-radius: 6px;
@@ -4926,8 +4927,9 @@ div#fsalary-year {
     font-weight: var(--font-weight-medium);
     width: 100%;
     margin-top: 15px;
-  }
-  
+}
+
+
 /********* job posting boxes two ***********/
 
 .job-two-boxes {
@@ -5393,6 +5395,10 @@ input#job-postion {
     background-clip: content-box;
     padding: 2px;
     border-radius: 50px !important;
+}
+
+input#job-postion-check {
+    accent-color: var(--dark-black-color);
 }
 
 
@@ -9232,16 +9238,16 @@ th.list-description {
     position: relative;
     top: 10px;
     z-index: 1;
-  }
-  
-  .view-candidate-img {
+}
+
+.view-candidate-img {
     width: 33px;
     height: 25px;
-  }
-  
-  .view-candidate-arrow-down {
+}
+
+.view-candidate-arrow-down {
     width: 20px;
-  }
+}
 
 .second-menu-dropdown-sroll {
     overflow: auto;
@@ -9421,8 +9427,8 @@ background-color: var(--primary-color);
 
 .application-dash-hide {
     display: none;
- }
- 
+}
+
 .application-dash a {
     display: flex;
     gap: 10px;
@@ -10169,14 +10175,14 @@ td.name-box-hvr {
 .list-btn-create-opcity button {
     color: rgb(43 43 43 / 50%) !important;
     border: 1px solid rgb(43 43 43 / 50%) !important;
-  }
-  
-  .employee-list-btn-create button {
+}
+
+.employee-list-btn-create button {
     background: transparent;
     color: var(--dark-black-color);
     border: 1px solid var(--dark-black-color);
-  }
-  
+}
+
 .employee-list-btn-create button {
     background: transparent;
     color: var(--primary-color);
@@ -10222,14 +10228,14 @@ td.name-box-hvr {
 .employee-list-fllter-container {
     display: flex;
     gap: 20px;
-  }
-  
-  .employee-searchbox-btn {
+}
+
+.employee-searchbox-btn {
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
     gap: 20px;
-  }
+}
 
 #candidate-list-search {
     border: 0;
@@ -10336,15 +10342,16 @@ a.clr-b-chng {
     padding: 8px !important;
     font-size: 18px !important;
     color: var(--dark-black-color) !important;
-  
-  }
-  
-  .hor-line-hide {
+}
+
+.hor-line-hide {
     display: none;
-  }
-  .section-hide{
+}
+
+.section-hide {
     display: none;
-  }
+}
+
 
 /* comment css*/
 
@@ -20351,24 +20358,23 @@ p.text-prom-below {
     /* candidate list*/
     .filter-search-box {
         width: 100%;
-      }
-      .two-btn-list {
+    }
+    .two-btn-list {
         display: flex;
         flex-direction: column;
         width: 100%;
-      }
-    
-      .employee-list-fllter-container {
+    }
+    .employee-list-fllter-container {
         display: flex;
         flex-direction: column;
         gap: 20px;
-      }
-      .hor-line-hide {
+    }
+    .hor-line-hide {
         display: flex;
-      }
-      .section-hide{
+    }
+    .section-hide {
         display: flex;
-      }
+    }
 }
 
 .tags-tittles ul.tags-titles-list {
