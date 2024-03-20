@@ -12364,6 +12364,10 @@ td.td-third-row {
     background-color: #FFA033 !important;
 }
 
+table.skill-body-table tr:last-of-type {
+    border-bottom: 0 !important;
+}
+
 p.feed-back-line {
     font-size: 16px;
     font-family: var(--arial-main);
@@ -12379,7 +12383,7 @@ p.feed-back-line {
     text-decoration: underline;
     text-underline-offset: 4px;
     text-decoration-thickness: 2px;
-    padding-bottom: 10px;
+    padding: 10px 0;
 }
 
 .like-dsilike-img {
@@ -18147,6 +18151,20 @@ p.text-prom-below {
     .left-job-content-postcard {
         padding-right: 40px;
     }
+    /**** skills tabsss*****/
+    .left-right-content-jour {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .left-col-vertical,
+    .right-content-col-jour {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    th.th-descrip {
+        width: 325px;
+    }
 }
 
 @media only screen and (max-width:860px) {
@@ -18482,20 +18500,6 @@ p.text-prom-below {
     }
     .resume-personal-form-chek {
         gap: 3px;
-    }
-    /**** skills tabsss*****/
-    .left-right-content-jour {
-        flex-direction: column;
-        justify-content: center;
-    }
-    .left-col-vertical,
-    .right-content-col-jour {
-        max-width: 100%;
-        width: 100%;
-        margin: 0 auto;
-    }
-    th.th-descrip {
-        width: 325px;
     }
 }
 
@@ -20051,6 +20055,9 @@ p.text-prom-below {
         text-transform: uppercase;
         padding-right: 21px;
     }
+    td.td-first-row::before {
+        padding-right: 50px !important;
+    }
     table.skill-body-table tr {
         border: 0 !important;
         padding: 0;
@@ -20058,16 +20065,21 @@ p.text-prom-below {
     table.skill-body-table tr td:last-of-type {
         border-bottom: 0 !important;
     }
+    td.td-third-row,
+    td.td-first-row {
+        display: flex;
+    }
     table.skill-body-table tr td {
         border: 0;
         border-bottom: 1px solid #2B2B2B29 !important;
     }
     td.td-seacond-row {
         padding-top: 15px;
+        text-align: center;
     }
     .progress.prgress-width {
         width: 110px;
-        margin: 0 0 0 auto;
+        margin: 0 auto 0 0;
     }
     .feedback-section-lower {
         padding-top: 30px;
