@@ -12645,7 +12645,7 @@ img.show-tooltip:hover~.tooltip-table-jour {
 }
 
 p.content-heading-jour-res {
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-size: 24px;
     font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
@@ -12662,9 +12662,9 @@ p.content-heading-jour-res {
 button.resum-btn-p {
     min-width: 130px;
     padding: 10px;
-    border-radius: 6px;
-    border: 1px solid var(--primary-color);
-    color: var(--primary-color);
+    border-radius: 8px;
+    border: 1px solid var(--dark-black-color);
+    color: var(--dark-black-color);
     background: transparent;
     font-size: 16px;
     font-weight: var(--font-weight-bold);
