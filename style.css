@@ -11963,12 +11963,12 @@ ul.nav.nav-tabs.mb-3.tabs-summary {
 }
 
 .left-col-vertical {
-    max-width: 49%;
+    max-width: 43%;
     width: 100%;
 }
 
 .right-content-col-jour {
-    max-width: 49%;
+    max-width: 55%;
     width: 100%;
     border-radius: 16px;
     border: 1px solid #EEE;
@@ -11980,7 +11980,7 @@ ul.nav.nav-tabs.mb-3.tabs-summary {
     border-radius: 16px;
     background: #FFF;
     padding: 20px;
-    width: 1000px;
+    width: 1060px;
     margin: 24px auto 0;
 }
 
@@ -12242,6 +12242,154 @@ p.percentage-skill-clr {
 
 p.skill-heading-color {
     color: #008E9B;
+}
+
+
+/****skills accorddion ****/
+
+.skill-tab-jour-main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.skill-upper-conten-sec {
+    flex: 1;
+}
+
+.accordion.skill-tab-accr {
+    padding-top: 20px;
+}
+
+button.accordion-button.btn-skills-tabs.collapsed {
+    padding: 0 !important;
+    margin-bottom: 15px !important;
+    color: var(--dark-black-color) !important;
+    font-family: var(--arial-main);
+    font-size: 20px !important;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+button.accordion-button.btn-skills-tabs {
+    padding: 0 !important;
+    color: var(--dark-black-color) !important;
+    font-family: var(--arial-main);
+    font-size: 20px !important;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.accordion-body.tabs-skills-body {
+    padding: 0 !important;
+}
+
+.accordion-item.skill-tabs-item {
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+.accordion-item.skill-tabs-item {
+    border-bottom: 1px solid #2B2B2B29 !important;
+    padding: 15px 0 0 0 !important;
+}
+
+.skill-body-table>:not(caption)>*>* {
+    background-color: transparent !important;
+}
+
+th.th-skill {
+    border-left-color: transparent;
+    width: 110px;
+    text-align: left;
+    font-size: 16px;
+    font-family: var(--arial-main);
+    font-weight: 400;
+    color: var(--dark-black-color);
+}
+
+th.th-pro-level {
+    text-align: left;
+    font-size: 16px;
+    font-family: var(--arial-main);
+    font-weight: 400;
+    color: var(--dark-black-color);
+}
+
+th.th-descrip {
+    border-right-color: transparent;
+    text-align: left;
+    font-size: 16px;
+    font-family: var(--arial-main);
+    font-weight: 400;
+    width: 225px;
+    color: var(--dark-black-color);
+}
+
+td.td-first-row {
+    border-left-color: transparent;
+    text-align: left;
+    font-size: 15px;
+    font-family: var(--arial-main);
+    font-weight: 400;
+    color: var(--dark-black-color);
+}
+
+td.td-seacond-row {
+    font-size: 12px;
+    font-family: var(--arial-main);
+    font-weight: 400;
+    color: var(--dark-black-color);
+}
+
+td.td-third-row {
+    border-right-color: transparent;
+    text-align: left;
+    font-size: 15px;
+    font-family: var(--arial-main);
+    font-weight: 400;
+    color: var(--dark-black-color);
+}
+
+.progress.prgress-width {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.progress-bar.bg-success.progress-bar-color {
+    background-color: #0AB84D !important;
+}
+
+.progress-bar.bg-info.progress-bar-color {
+    background-color: #FFA033 !important;
+}
+
+p.feed-back-line {
+    font-size: 16px;
+    font-family: var(--arial-main);
+    font-weight: 700;
+    color: var(--dark-black-color);
+}
+
+p.feed-back-line {
+    font-size: 16px;
+    font-family: var(--arial-main);
+    font-weight: 700;
+    color: var(--dark-black-color);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+    padding-bottom: 10px;
+}
+
+.like-dsilike-img {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.like-dsilike-img img {
+    max-width: 100%;
 }
 
 
@@ -18335,6 +18483,20 @@ p.text-prom-below {
     .resume-personal-form-chek {
         gap: 3px;
     }
+    /**** skills tabsss*****/
+    .left-right-content-jour {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .left-col-vertical,
+    .right-content-col-jour {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    th.th-descrip {
+        width: 325px;
+    }
 }
 
 
@@ -19881,6 +20043,34 @@ p.text-prom-below {
     }
     .job-title-joourny {
         font-size: 20px;
+    }
+    table.skill-body-table td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding-right: 21px;
+    }
+    table.skill-body-table tr {
+        border: 0 !important;
+        padding: 0;
+    }
+    table.skill-body-table tr td:last-of-type {
+        border-bottom: 0 !important;
+    }
+    table.skill-body-table tr td {
+        border: 0;
+        border-bottom: 1px solid #2B2B2B29 !important;
+    }
+    td.td-seacond-row {
+        padding-top: 15px;
+    }
+    .progress.prgress-width {
+        width: 110px;
+        margin: 0 0 0 auto;
+    }
+    .feedback-section-lower {
+        padding-top: 30px;
     }
     /**********post card-sec******/
     .right-col-Aimage {
