@@ -157,7 +157,6 @@
 
 /*** HEADING TEXT SIZE****/
 
-
 body {
     font-family: var(--arial-main);
     background-color: var(--color-grey);
@@ -20061,10 +20060,8 @@ p.text-prom-below {
         float: left;
         font-weight: 400;
         text-transform: uppercase;
-        padding-right: 21px;
-    }
-    td.td-first-row::before {
-        padding-right: 50px !important;
+        margin-right: 20px;
+        min-width: 125px;
     }
     table.skill-body-table tr {
         border-bottom: 1px solid #2B2B2B29 !important;
