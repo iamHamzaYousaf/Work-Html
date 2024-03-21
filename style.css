@@ -20059,7 +20059,8 @@ p.text-prom-below {
         padding-right: 50px !important;
     }
     table.skill-body-table tr {
-        border: 0 !important;
+        border-bottom: 1px solid #2B2B2B29 !important;
+        border-top: 0px solid #2B2B2B29 !important;
         padding: 0;
     }
     table.skill-body-table tr td:last-of-type {
@@ -20071,7 +20072,7 @@ p.text-prom-below {
     }
     table.skill-body-table tr td {
         border: 0;
-        border-bottom: 1px solid #2B2B2B29 !important;
+        border-bottom: 0px solid #2B2B2B29 !important;
     }
     td.td-seacond-row {
         padding-top: 15px;
