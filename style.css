@@ -157,6 +157,12 @@
 
 /*** HEADING TEXT SIZE****/
 
+
+body {
+    font-family: var(--arial-main);
+    background-color: var(--color-grey);
+}
+
 h1 {
     font-size: var(--main-heading);
     font-family: var(--fira-sans);
@@ -8721,22 +8727,18 @@ p.error-wishlist {
     top: 20px;
     right: 20px;
     width: 36px;
-    height: 30px;
 }
 
 .card-2 img {
     width: 26px;
-    height: 30px;
 }
 
 .card-3 img {
     width: 22px;
-    height: 30px;
 }
 
 .card-4 img {
     width: 33px;
-    height: 33px;
 }
 
 .j-fillter-only-table {
@@ -9225,7 +9227,7 @@ th.list-description {
     color: var(--dark-black-color);
     font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
-    background: #FBFBFB;
+    background: transparent;
     text-decoration: none;
 }
 
@@ -9287,8 +9289,8 @@ th.list-description {
 
 .second-menu-dropdown-sroll::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-    background-color: var(--primary-color);
+    -webkit-box-shadow: inset 0 0 6px var(--dark-black-color);
+    background-color: var(--dark-black-color);
 }
 
 a.sub-menu-lists.clr-set {
@@ -11875,7 +11877,7 @@ button.link-profile-jour img {
 }
 
 button.link-mail-jour {
-    background-color: white;
+    background-color: transparent;
     padding: 10px 24px;
     color: var(---dark-black-color);
     font-size: 16px;
@@ -11992,6 +11994,12 @@ p.content-heading-jour {
     border-bottom: 1px solid rgb(0 0 0 / 20%);
     padding-bottom: 10px;
     margin-bottom: 15px !important;
+}
+
+.ex1-content {
+    border-radius: 16px;
+    background: var(--color-white);
+    border: 1px solid var(--color-white);
 }
 
 .overall-col {
