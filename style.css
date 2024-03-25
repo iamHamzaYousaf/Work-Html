@@ -26,6 +26,8 @@
     --dark-black-color-200: rgba(43, 43, 43, .2);
     --dark-black-color-600: rgba(43, 43, 43, .16);
     --dark-black-color-060: rgba(43, 43, 43, 0.60);
+    --dark-black-color-800: rgba(43, 43, 43, .8);
+
     --white-smoke-color: #F6F6F6;
     --white-smoke-light-color: #F3F3F3;
     --pattens-blue-color: #D9F1F4;
@@ -3069,7 +3071,7 @@ button.form-submit {
 
 p.error-msg {
     text-align: start;
-    color: var(--error-msg-color);
+    color: var(--error-msg-color) !important;
     font-size: 14px;
     line-height: 24px;
     font-weight: var(--font-weight-medium);
@@ -4239,12 +4241,17 @@ button.btn-job-post {
 .company-form-dropdownBox-f {
     width: 100%;
     cursor: pointer;
-    color: rgb(0 0 0 / 100%);
+    color: var(--dark-black-color);
     display: flex;
     align-items: center;
     gap: 5px;
     font-size: 16px;
     font-weight: 400;
+    justify-content: space-between;
+}
+
+.company-form-dropdownBox-f-placeholder {
+    color: var(--dark-black-color-800);
 }
 
 .company-form-dropdownBox-profile {
@@ -4429,7 +4436,7 @@ button.job-des-btn {
     background: var(--dark-black-color);
     gap: 10px;
     font-family: var(--arial-main);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-medium);
     font-size: 16px;
 }
 
@@ -15224,7 +15231,7 @@ section.term-condition {
     font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     background: transparent;
-    border-radius: 4px;
+    border-radius: 8px;
     text-decoration: none;
 }
 
@@ -20669,13 +20676,13 @@ p.text-prom-below {
 }
 
 .ql-editor.ql-blank::before {
-    color: rgb(0 0 0 / 50%);
+    color: var(--dark-black-color-500);
     font-family: var(--arial-main);
     font-size: 14px;
     line-height: 23px;
     text-align: justify;
     font-weight: 300;
-    font-style: normal;
+    font-style: normal !important;
 }
 
 .ql-editor ol,
