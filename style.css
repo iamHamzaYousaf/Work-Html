@@ -16528,7 +16528,7 @@ tbody.tb-user-admin td {
 .first-part-f h3 {
     font-weight: var(--font-weight-bold);
     font-family: var(--arial-main);
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-size: 20px;
 }
 
@@ -16916,7 +16916,7 @@ p.text-admin-two {
 
 .admin-logo-site img {
     max-width: 100%;
-    width: 145px;
+    width: 140px;
     margin: 0 auto;
 }
 
@@ -17052,7 +17052,7 @@ button.edit-form-user {
 
 .form-heading-prom h2 {
     font-weight: var(--font-weight-bold);
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-size: 24px;
     margin-bottom: 0;
 }
@@ -17182,8 +17182,8 @@ button.approve-prom-btn {
     min-width: 122px;
     padding: 12px 16px;
     border-radius: 4px;
-    border: 1px solid var(--primary-color);
-    background: var(--primary-color);
+    border: 1px solid var(--color-white);
+    background: var(--dark-black-color);
     color: var(--color-white);
     font-weight: var(--font-weight-medium);
     font-family: var(--arial-main);
@@ -17369,7 +17369,7 @@ input#selct-btn-c-d:checked {
 }
 
 p.slot-heading-r {
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-size: 20px;
     font-weight: var(--font-weight-bold);
     font-family: var(--arial-main);
@@ -17404,9 +17404,9 @@ button.boooking-req {
     width: 100%;
     padding: 14px 10px;
     border-radius: 8px;
-    border: 1px solid #375B96;
-    background: #FFF;
-    color: #375B96;
+    border: 1px solid var(--dark-black-color);
+    background: var(--color-white);
+    color: var(--dark-black-color);
     text-align: center;
     font-family: var(--arial-main);
     font-size: 16px;
@@ -17474,7 +17474,7 @@ p.logo-card-avaliable {
 }
 
 p.job-postion-avalibe {
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-size: 16px;
     font-weight: var(--font-weight-bold);
     font-family: var(--arial-main);
@@ -17483,7 +17483,7 @@ p.job-postion-avalibe {
 p.job-no-cir-avaliable {
     border-radius: 70px;
     background: #e2edff;
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-size: 12px;
     font-weight: var(--font-weight-bold);
     font-family: var(--arial-main);
@@ -17495,7 +17495,7 @@ p.job-no-cir-avaliable {
 }
 
 p.c-name-card-avalibe {
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     padding: 15px 0 5px;
     font-size: 16px;
     font-weight: var(--font-weight-bold);
