@@ -7126,9 +7126,9 @@ section.pageniation-sec {
 }
 
 .fill-box {
-    background: var(--accent-color);
+    background: var(--dark-black-color);
     color: #fff !important;
-    border: 1px solid var(--accent-color) !important;
+    border: 1px solid var(--dark-black-color) !important;
 }
 
 .pagination-job a {
@@ -15383,6 +15383,17 @@ ul.inner-dropdown.d-block li.sub-children.nav-item.icon-crv.active>a.menu-btn {
     padding: 20px 10px;
 }
 
+.sidebar-clos-icon img {
+    position: absolute;
+    right: -20px;
+    top: 0px;
+    cursor: pointer;
+}
+
+.sidebar-clos-icon {
+    position: relative;
+}
+
 .toggle-btn {
     background-color: transparent;
     cursor: pointer;
@@ -15794,7 +15805,7 @@ button.admin-continue {
 }
 
 .page-space {
-    padding: 30px 30px 100px 20px;
+    padding: 40px 30px 100px 20px;
 }
 
 .bg-clr-admin {
@@ -15817,7 +15828,7 @@ button.admin-continue {
     font-family: var(--arial-main);
     text-align: center;
     display: block;
-    margin: 0 60px 0 auto;
+    margin: 0 0px 0 auto;
 }
 
 .department-table-imge {
@@ -16002,10 +16013,10 @@ tbody.tb-user td {
     vertical-align: middle;
 }
 
-tbody.tb-user td .icon{
+tbody.tb-user td .icon {
     width: 28px;
 }
-  
+
 tbody.tb-user tr:nth-child(even) {
     background-color: white;
 }
@@ -16142,7 +16153,7 @@ img.show-tooltip3:hover~.tooltip-delete-role {
     color: #BDBDBD;
     padding: 1px 8px;
     text-decoration: none;
-    border: 1px solid var(--dark-black-color-600);
+    border: 1px solid #BDBDBD;
     border-radius: 4px;
     margin: 0 5px;
     font-size: var(--skill-text-size);
@@ -16176,7 +16187,7 @@ img.show-tooltip3:hover~.tooltip-delete-role {
 .filter-search-bar {
     display: flex;
     justify-content: space-between;
-    padding: 15px 60px 20px 0;
+    padding: 15px 0px 20px 0;
     align-items: flex-end;
 }
 
@@ -17352,9 +17363,9 @@ button.reject-prom-btn {
     color: var(--dark-black-color);
     font-weight: var(--font-weight-medium);
     font-family: var(--arial-main);
-  }
-  
-  button.approve-prom-btn {
+}
+
+button.approve-prom-btn {
     min-width: 122px;
     padding: 12px 16px;
     border-radius: 8px;
@@ -17363,7 +17374,7 @@ button.reject-prom-btn {
     color: var(--color-white);
     font-weight: var(--font-weight-medium);
     font-family: var(--arial-main);
-  }
+}
 
 
 /**********promotion slot*****/
