@@ -37,6 +37,11 @@
     --solitude-color-7: #D8E6F7;
     --solitude-color-6: #DFEAF6;
     --snow-drift-color: #D9E8E9;
+    --gainsboro-color: #E0D9D7;
+    --grey27-color: #454545;
+    --grey48-color: #7A7A7A;
+    --suva-grey-color:#8E8E8E; 
+
     /*** FONT SIZES ***/
     --contact-heading: 55px;
     --main-heading: 45px;
@@ -15383,6 +15388,11 @@ ul.inner-dropdown.d-block li.sub-children.nav-item.icon-crv.active>a.menu-btn {
     padding: 20px 10px;
 }
 
+#sidebar.expand .sidebar-clos-icon {
+    position: relative;
+    top: 20px
+}
+
 .sidebar-clos-icon img {
     position: absolute;
     right: -20px;
@@ -15426,7 +15436,7 @@ ul.inner-dropdown.d-block li.sub-children.nav-item.icon-crv.active>a.menu-btn {
 }
 
 .sidebar-nav {
-    padding: 3rem 0;
+    padding: 4rem 0;
     flex: 1 1 auto;
 }
 
@@ -17503,15 +17513,15 @@ p.c-content-c {
 }
 
 a.cmpy-card-tags {
-    border-radius: 44px;
-    background: #ffa033;
-    padding: 5px 20px;
-    color: #000;
-    font-size: 12px;
-    font-family: var(--arial-main);
-    font-weight: 400;
-    margin-top: 12px;
-    min-width: 88px;
+  border-radius: 44px;
+  background: var(--Whisper-color);;
+  padding: 5px 20px;
+  color: var(--dark-black-color);
+  font-size: 12px;
+  font-family: var(--arial-main);
+  font-weight: 400;
+  margin-top: 12px;
+  min-width: 88px;
 }
 
 .radio-crd-btn {
@@ -17700,18 +17710,18 @@ p.c-name-card-avalibe {
 }
 
 p.logo-card-avaliable-dark {
-    border-radius: 70px;
-    border: 0.5px solid #868585;
-    opacity: 0.8;
-    background: #B3B1B1;
-    color: rgb(255 255 255 / 80%);
-    font-size: 12px;
-    font-family: var(--arial-main);
-    height: 60px;
-    width: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  border-radius: 70px;
+  border: 0.5px solid var(--grey48-color);
+  opacity: 0.8;
+  background: var(--suva-grey-color);
+  color: rgb(255 255 255 / 80%);
+  font-size: 12px;
+  font-family: var(--arial-main);
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 p.job-postion-avalibe-dark {
@@ -17723,9 +17733,9 @@ p.job-postion-avalibe-dark {
 
 p.job-no-cir-avaliable-dark {
     border-radius: 70px;
-    border: 0.5px solid #868585;
+    border: 0.5px solid var(--grey48-color);
     opacity: 0.8;
-    background: #B3B1B1;
+    background: var(--suva-grey-color);
     color: rgb(255 255 255 / 80%);
     font-size: 12px;
     font-family: var(--arial-main);
@@ -17737,7 +17747,7 @@ p.job-no-cir-avaliable-dark {
 }
 
 p.c-name-card-avalibe-dark {
-    color: #797979;
+    color: var(--grey27-color);
     padding: 15px 0 5px;
     font-size: 16px;
     font-weight: var(--font-weight-bold);
@@ -17745,7 +17755,7 @@ p.c-name-card-avalibe-dark {
 }
 
 p.c-content-c-dark {
-    color: #454545;
+    color: var(--grey27-color);
     padding-bottom: 15px;
     font-size: 12px;
     font-weight: 300;
@@ -17755,7 +17765,7 @@ p.c-content-c-dark {
 a.cmpy-card-tags-dark {
     border-radius: 44px;
     opacity: 0.8;
-    background: #B3B1B1;
+    background: var(--suva-grey-color);;
     padding: 5px 20px;
     color: rgb(255 255 255 / 80%);
     font-size: 12px;
