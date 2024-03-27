@@ -15929,8 +15929,8 @@ span.later-circle {
     margin-right: 9px;
     border-radius: 3px;
     padding: 3px;
-    width: 26px;
-    height: 26px;
+    width: 28px;
+    height: 28px;
 }
 
 .active-tb-data {
@@ -16002,6 +16002,10 @@ tbody.tb-user td {
     vertical-align: middle;
 }
 
+tbody.tb-user td .icon{
+    width: 28px;
+}
+  
 tbody.tb-user tr:nth-child(even) {
     background-color: white;
 }
@@ -17342,24 +17346,24 @@ input#company-promotion {
 button.reject-prom-btn {
     min-width: 122px;
     padding: 12px 16px;
-    border-radius: 4px;
-    border: 1px solid #E15C52;
-    background: #FFF;
-    color: #E15C52;
+    border-radius: 8px;
+    border: 1px solid var(--dark-black-color);
+    background: var(--color-white);
+    color: var(--dark-black-color);
     font-weight: var(--font-weight-medium);
     font-family: var(--arial-main);
-}
-
-button.approve-prom-btn {
+  }
+  
+  button.approve-prom-btn {
     min-width: 122px;
     padding: 12px 16px;
-    border-radius: 4px;
+    border-radius: 8px;
     border: 1px solid var(--color-white);
     background: var(--dark-black-color);
     color: var(--color-white);
     font-weight: var(--font-weight-medium);
     font-family: var(--arial-main);
-}
+  }
 
 
 /**********promotion slot*****/
@@ -17772,7 +17776,8 @@ img.prom-cross {
 
 .dash-td-por {
     width: 13px;
-    border-bottom: 4px solid var(--primary-color);
+    border-bottom: 4px solid var(--dark-black-color);
+    margin: 0 auto;
 }
 
 .popup-bg-delet-admin-pormotion {
