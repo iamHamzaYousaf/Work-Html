@@ -1,308 +1,423 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
     <!-- Admin Side Bar icon - not need to reactjs project  -->
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="../../style.css" />
     <title>WorkBridge Portal</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="wrapper">
-      <!-- Sidebar content goes here -->
-      <aside id="sidebar" class="expand">
-        <div class="d-flex">
-          <button class="toggle-btn" type="button">
+        <!-- Sidebar content goes here -->
+        <aside id="sidebar" class="expand">
+            <div class="d-flex">
+                <button class="toggle-btn" type="button">
             <i class="lni lni-grid-alt"></i>
           </button>
-          <div class="sidebar-logo">
-            <a href="#">CodzSword</a>
-          </div>
-        </div>
-        <div class="d-flex">
-            Logo
-        </div>
+                <div class="sidebar-logo">
+                    <a href="#">CodzSword</a>
+                </div>
+            </div>
+            <div class="d-flex">
+                Logo
+            </div>
 
-        <ul class="sidebar-nav">
-          <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
-              <i class="lni lni-user"></i>
-              <span>Profile</span>
-            </a>
-          </li>
-          <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
-              <i class="lni lni-agenda"></i>
-              <span>Task</span>
-            </a>
-          </li>
-          <li class="sidebar-item">
-            <a
-              href="#"
-              class="sidebar-link collapsed has-dropdown"
-              data-bs-toggle="collapse"
-              data-bs-target="#auth"
-              aria-expanded="false"
-              aria-controls="auth"
-            >
-              <i class="lni lni-protection"></i>
-              <span>Auth</span>
-            </a>
-            <ul
-              id="auth"
-              class="sidebar-dropdown list-unstyled collapse"
-              data-bs-parent="#sidebar"
-            >
-              <li class="sidebar-item">
-                <a href="#" class="sidebar-link">Login</a>
-              </li>
-            </ul>
-          </li>
-          <li class="sidebar-item">
-            <a
-              href="#"
-              class="sidebar-link collapsed has-dropdown"
-              data-bs-toggle="collapse"
-              data-bs-target="#multi"
-              aria-expanded="false"
-              aria-controls="multi"
-            >
-              <i class="lni lni-layout"></i>
-              <span>Multi Level</span>
-            </a>
-            <ul
-              id="multi"
-              class="sidebar-dropdown list-unstyled collapse"
-              data-bs-parent="#sidebar"
-            >
-              <li class="sidebar-item">
-                <a
-                  href="#"
-                  class="sidebar-link collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#multi-two"
-                  aria-expanded="false"
-                  aria-controls="multi-two"
-                >
+            <ul class="sidebar-nav">
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-user"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-agenda"></i>
+                        <span>Task</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse" data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
+                        <i class="lni lni-protection"></i>
+                        <span>Auth</span>
+                    </a>
+                    <ul id="auth" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Login</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse" data-bs-target="#multi" aria-expanded="false" aria-controls="multi">
+                        <i class="lni lni-layout"></i>
+                        <span>Multi Level</span>
+                    </a>
+                    <ul id="multi" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" data-bs-target="#multi-two" aria-expanded="false" aria-controls="multi-two">
                   Two Links
                 </a>
-                <ul
-                  id="multi-two"
-                  class="sidebar-dropdown list-unstyled collapse"
-                >
-                  <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">Link 1</a>
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">Link 2</a>
-                  </li>
-                </ul>
-              </li>
+                            <ul id="multi-two" class="sidebar-dropdown list-unstyled collapse">
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">Link 1</a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">Link 2</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-popup"></i>
+                        <span>Notification</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-cog"></i>
+                        <span>Setting</span>
+                    </a>
+                </li>
             </ul>
-          </li>
-          <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
-              <i class="lni lni-popup"></i>
-              <span>Notification</span>
-            </a>
-          </li>
-          <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
-              <i class="lni lni-cog"></i>
-              <span>Setting</span>
-            </a>
-          </li>
-        </ul>
-        <div class="sidebar-footer">
-          <a href="#" class="sidebar-link">
-            <i class="lni lni-exit"></i>
-            <span>Logout</span>
-          </a>
-        </div>
-      </aside>
-      <!-- Main Content -->
-      <div class="main-admin">
-        <!-- header start here -->
-        <div class="header-sidebar">
-          <div class="row-header">
-            <div class="col-left-sidebar">
-              <div class="text-header-sidebar">
-                <p>Dashboard /</p>
-                <span class="active">Department</span>
-              </div>
-            </div>
-            <div class="col-right-sidebar">
-              <div class="department-name-img icon-cursor">
-                <a href="#">
-                  <img src="../../image/profile.png" alt="" />
-                  <p class="department-name">Hi, John</p>
+            <div class="sidebar-footer">
+                <a href="#" class="sidebar-link">
+                    <i class="lni lni-exit"></i>
+                    <span>Logout</span>
                 </a>
-              </div>
-              <div class="all-flag-sidebar">
-                <div class="headder-flag-sidebar">
-                  <div class="flag-list active">
-                    <img src="../../image/flag-1.png" alt="" />
-                    <div class="flag-caption active">
-                      <p>North Macedonia</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="headder-flag-sidebar">
-                  <div class="flag-list">
-                    <img src="../../image/flag-2.png" alt="" />
-                  </div>
-                  <div class="flag-caption">
-                    <p>North Macedonia</p>
-                  </div>
-                </div>
-                <div class="headder-flag-sidebar">
-                  <div class="flag-list">
-                    <img src="../../image/flag-3.png" alt="" />
-                  </div>
-                  <div class="flag-caption">
-                    <p>North Macedonia</p>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-        <!--------departemt column-->
-        <div className="bg-clr-admin">
-          <div class="page-space bg-clr-admin">
-            <div class="page-title-heading">
-              <h2>Department</h2>
-              <button class="create-department" type="submit">
+        </aside>
+        <!-- Main Content -->
+        <div class="main-admin">
+            <!-- header start here -->
+            <div class="header-sidebar">
+                <div class="row-header">
+                    <div class="col-left-sidebar">
+                        <div class="text-header-sidebar">
+                            <p>Dashboard /</p>
+                            <span class="active">Department</span>
+                        </div>
+                    </div>
+                    <div class="col-right-sidebar">
+                        <div class="department-name-img icon-cursor">
+                            <a href="#">
+                                <img src="../../image/profile.png" alt="" />
+                                <p class="department-name">Hi, John</p>
+                            </a>
+                        </div>
+                        <div class="all-flag-sidebar">
+                            <div class="headder-flag-sidebar">
+                                <div class="flag-list active">
+                                    <img src="../../image/flag-1.png" alt="" />
+                                    <div class="flag-caption active">
+                                        <p>North Macedonia</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="headder-flag-sidebar">
+                                <div class="flag-list">
+                                    <img src="../../image/flag-2.png" alt="" />
+                                </div>
+                                <div class="flag-caption">
+                                    <p>North Macedonia</p>
+                                </div>
+                            </div>
+                            <div class="headder-flag-sidebar">
+                                <div class="flag-list">
+                                    <img src="../../image/flag-3.png" alt="" />
+                                </div>
+                                <div class="flag-caption">
+                                    <p>North Macedonia</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------departemt column-->
+            <div className="bg-clr-admin">
+                <div class="page-space bg-clr-admin">
+                    <div class="page-title-heading">
+                        <h2>Department</h2>
+                        <button class="create-department" type="submit">
                 Create Department +
               </button>
+                    </div>
+                    <div class="filter-search-bar">
+                        <div class="two-drop-role">
+                            <div class="col-left-adminfilter">
+                                <p class="filter-label-admin">Promotion Type</p>
+                                <div class="admin-status-filter">
+                                    <div id="dropdown-boxId2" class="company-form-dropdownBox1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <div class="text-filter-admin">
+                                            <p class="text-filter-select">Promotion Type</p>
+                                            <img src="../../image/admin-d.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="promotion-status-dropdown">
+                                        <ul class="list-job-title-company">
+                                            <li>React Developer</li>
+                                            <li>React Developer</li>
+                                            <li>React Developer</li>
+                                            <li>React Developer</li>
+                                            <li>React Developer</li>
+                                            <li>React Developer</li>
+                                            <li>React Developer</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-right-searcgadmin">
+                            <div class="search-admin">
+                                <img src="../../image/job-search.png" alt="">
+                                <input type="text" name="" id="jon-search-box" placeholder="Search" class="form-font-f">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="department-table-imge">
+                        <div class="col-user-table">
+                            <div class="table-responsive">
+                                <table class="depart-table-left">
+                                    <thead class="tb-heading-user">
+                                        <tr>
+                                            <th scope="col">
+                                                <div class="th-admin-heading">Job title<img src="../../image/bars-arrow-up.png" alt=""> </div>
+                                            </th>
+                                            <th scope="col">
+                                                <div class="th-admin-heading">Total resumes <img src="../../image/bars-arrow-up.png" alt=""> </div>
+                                            </th>
+                                            <th scope="col">
+                                                <div class="th-admin-heading">Resume parsed <img src="../../image/bars-arrow-up.png" alt=""> </div>
+                                            </th>
+                                            <th scope="col">
+                                                <div class="th-admin-heading">Resume in error <img src="../../image/bars-arrow-up.png" alt=""> </div>
+                                            </th>
+                                            <th scope="col" class="th-status-res">
+                                                <div class="th-admin-heading">Status</div>
+                                            </th>
+                                            <th scope="col" class="th-size-six">
+                                                <div class="th-admin-heading">Date submitted <img src="../../image/bars-arrow-up.png" alt=""> </div>
+                                            </th>
+                                            <th scope="col" class="th-size-seven">
+                                                <div class="th-admin-heading">Actions</div>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="tb-user">
+                                        <tr>
+                                            <td class="">
+                                                Java Developer
+                                            </td>
+                                            <td>
+                                                25
+                                            </td>
+                                            <td>
+                                                25
+                                            </td>
+                                            <td>
+                                                0
+                                            </td>
+                                            <td>
+                                                Complete
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-success progress-bar-color" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                Nov - 05 - 2023
+                                            </td>
+                                            <td>
+                                                <div class="four-resume-img">
+                                                    <div class="img-text-tooltip">
+                                                        <img src="../../image/jd-des-res.png" alt="" class="show-tooltip">
+                                                        <div class="tooltip-jd-resume">View job descritpion</div>
+                                                    </div>
+                                                    <div class="img-text-tooltip">
+                                                        <img src="../../image/bulk-ana-res.png" alt="" class="show-tooltip2">
+                                                        <div class="tooltip-request-analysis-res">Bulk analysis</div>
+                                                    </div>
+                                                    <div class="img-text-tooltip">
+                                                        <img src="../../image/request-ana-res.png" alt="" class="show-tooltip3">
+                                                        <div class="tooltip-request-detail-res">Request detail</div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="">
+                                                Java Developer
+                                            </td>
+                                            <td>
+                                                25
+                                            </td>
+                                            <td>
+                                                25
+                                            </td>
+                                            <td>
+                                                0
+                                            </td>
+                                            <td>
+                                                Processing...
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-info progress-bar-color" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                Nov - 05 - 2023
+                                            </td>
+                                            <td>
+                                                <div class="four-resume-img">
+                                                    <div class="img-text-tooltip">
+                                                        <img src="../../image/jd-des-res.png" alt="" class="show-tooltip">
+                                                        <div class="tooltip-jd-resume">View job descritpion</div>
+                                                    </div>
+                                                    <div class="img-text-tooltip">
+                                                        <img src="../../image/bulk-ana-res.png" alt="" class="show-tooltip2">
+                                                        <div class="tooltip-request-analysis-res">Bulk analysis</div>
+                                                    </div>
+                                                    <div class="img-text-tooltip">
+                                                        <img src="../../image/request-ana-res.png" alt="" class="show-tooltip3">
+                                                        <div class="tooltip-request-detail-res">Request detail</div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="pagination-admin-tb">
+                                <p>08/08</p>
+                                <a class="fill-box" href="#">&laquo;</a>
+                                <a class="fill-box" href="#">&lt;</a>
+                                <a class="active" href="#">1</a>
+                                <a href="#">2</a>
+                                <a href="#">3</a>
+                                <a class="fill-box" href="#">&gt;</a>
+                                <a class="fill-box" href="#">&raquo;</a>
+                            </div>
+                        </div>
+                        <!-- <div class="col-right-image-depart">
+                  <img src="../../image/right-depart.png" alt="">
+              </div> -->
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
 
     <!-- Include Bootstrap JS (optional) -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script type="text/javascript">
-      // Admin Side Bar Open/Close
-      const hamBurger = document.querySelector(".toggle-btn");
+        // Admin Side Bar Open/Close
+        const hamBurger = document.querySelector(".toggle-btn");
 
-      hamBurger.addEventListener("click", function () {
-        document.querySelector("#sidebar").classList.toggle("expand");
-      });
+        hamBurger.addEventListener("click", function() {
+            document.querySelector("#sidebar").classList.toggle("expand");
+        });
 
-      // When the user clicks, open the popup
-      function popupFunction() {
-        var popup = document.getElementById("myPopup");
-        popup.classList.toggle("show");
-      }
-      // When the user clicks, open trade mennu
-      function tradeFunction() {
-        var trade = document.getElementById("trademenu-drpdown");
-        trade.classList.toggle("show");
-      }
+        // When the user clicks, open the popup
+        function popupFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+        }
+        // When the user clicks, open trade mennu
+        function tradeFunction() {
+            var trade = document.getElementById("trademenu-drpdown");
+            trade.classList.toggle("show");
+        }
     </script>
     <script>
-      /*for toggle sub menu*/
-      function subtogglediv(id, icon) {
-        var id = document.getElementById(id);
-        id.classList.toggle("submenu-active");
-        var cross = document.getElementById(icon);
-        cross.classList.toggle("fa-times");
-        cross.classList.toggle("fa-bars");
-      }
+        /*for toggle sub menu*/
+        function subtogglediv(id, icon) {
+            var id = document.getElementById(id);
+            id.classList.toggle("submenu-active");
+            var cross = document.getElementById(icon);
+            cross.classList.toggle("fa-times");
+            cross.classList.toggle("fa-bars");
+        }
     </script>
     <script>
-      var industryVal = document
-        .getElementById("company-dropList1")
-        .querySelectorAll(".company-drop-list ul li");
-      industryVal.forEach(function (item) {
-        item.onclick = function (e) {
-          document.getElementById("dropdown-boxId1").innerHTML = this.innerHTML;
-        };
-      });
-      var companysizeVal = document
-        .getElementById("company-dropList2")
-        .querySelectorAll(".company-drop-list ul li");
+        var industryVal = document
+            .getElementById("company-dropList1")
+            .querySelectorAll(".company-drop-list ul li");
+        industryVal.forEach(function(item) {
+            item.onclick = function(e) {
+                document.getElementById("dropdown-boxId1").innerHTML = this.innerHTML;
+            };
+        });
+        var companysizeVal = document
+            .getElementById("company-dropList2")
+            .querySelectorAll(".company-drop-list ul li");
 
-      companysizeVal.forEach(function (item) {
-        item.onclick = function (e) {
-          document.getElementById("dropdown-boxId2").innerHTML = this.innerHTML;
-        };
-      });
-      var companytypeVal = document
-        .getElementById("company-dropList3")
-        .querySelectorAll(".company-drop-list ul li");
+        companysizeVal.forEach(function(item) {
+            item.onclick = function(e) {
+                document.getElementById("dropdown-boxId2").innerHTML = this.innerHTML;
+            };
+        });
+        var companytypeVal = document
+            .getElementById("company-dropList3")
+            .querySelectorAll(".company-drop-list ul li");
 
-      companytypeVal.forEach(function (item) {
-        item.onclick = function (e) {
-          document.getElementById("dropdown-boxId3").innerHTML = this.innerHTML;
-        };
-      });
+        companytypeVal.forEach(function(item) {
+            item.onclick = function(e) {
+                document.getElementById("dropdown-boxId3").innerHTML = this.innerHTML;
+            };
+        });
     </script>
     <script type="text/javascript">
-      //For modal
-      document.addEventListener(
-        "click",
-        function (e) {
-          e = e || window.event;
-          var target = e.target || e.srcElement;
+        //For modal
+        document.addEventListener(
+            "click",
+            function(e) {
+                e = e || window.event;
+                var target = e.target || e.srcElement;
 
-          if (
-            target.hasAttribute("data-toggle") &&
-            target.getAttribute("data-toggle") == "modal"
-          ) {
-            if (target.hasAttribute("data-target")) {
-              var m_ID = target.getAttribute("data-target");
-              document.getElementById(m_ID).classList.add("open");
-            }
-          }
+                if (
+                    target.hasAttribute("data-toggle") &&
+                    target.getAttribute("data-toggle") == "modal"
+                ) {
+                    if (target.hasAttribute("data-target")) {
+                        var m_ID = target.getAttribute("data-target");
+                        document.getElementById(m_ID).classList.add("open");
+                    }
+                }
 
-          // Close modal window with 'data-dismiss' attribute or when the backdrop is clicked
-          if (
-            (target.hasAttribute("data-dismiss") &&
-              target.getAttribute("data-dismiss") == "modal") ||
-            target.classList.contains("modal")
-          ) {
-            var modal = document.querySelector(".modal.open");
-            modal.classList.remove("open");
-          }
-        },
-        false
-      );
+                // Close modal window with 'data-dismiss' attribute or when the backdrop is clicked
+                if (
+                    (target.hasAttribute("data-dismiss") &&
+                        target.getAttribute("data-dismiss") == "modal") ||
+                    target.classList.contains("modal")
+                ) {
+                    var modal = document.querySelector(".modal.open");
+                    modal.classList.remove("open");
+                }
+            },
+            false
+        );
     </script>
     <script>
-      $(function () {
-        $(".menu-mid-sect ul li.submenubar-item a").click(function () {
-          $(".menu-mid-sect ul li.submenubar-item a").each(function (a) {
-            $(this).removeClass("selectedclass");
-          });
-          $(this).addClass("selectedclass");
+        $(function() {
+            $(".menu-mid-sect ul li.submenubar-item a").click(function() {
+                $(".menu-mid-sect ul li.submenubar-item a").each(function(a) {
+                    $(this).removeClass("selectedclass");
+                });
+                $(this).addClass("selectedclass");
+            });
         });
-      });
     </script>
-  </body>
+</body>
+
 </html>
