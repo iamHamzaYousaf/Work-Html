@@ -16947,11 +16947,6 @@ img.pass-icon-hide {
 .select-filter {
     display: flex;
     align-items: center;
-}
-
-.select-filter {
-    display: flex;
-    align-items: center;
     max-width: 21%;
     width: 100%;
     gap: 10px;
@@ -17288,7 +17283,7 @@ button.edit-form-user {
 .promotion-status-dropdown::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-    background-color: var(--primary-color);
+    background-color: var(--dark-black-color);
 }
 
 .th-size-one {
@@ -18050,6 +18045,24 @@ img.show-tooltip3:hover~.tooltip-request-detail-res {
 
 img.show-tooltip:hover~.tooltip-jd-resume {
     opacity: 1;
+}
+
+.select-filter-resume {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    max-width: 15%;
+    width: 100%;
+    gap: 10px;
+    margin: 0 10px 10px auto;
+    position: relative;
+}
+
+.select-filter-resume label {
+    color: var(--dark-black-color);
+    font-size: 13px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--arial-main);
 }
 
 
