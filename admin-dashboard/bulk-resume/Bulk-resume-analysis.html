@@ -11,17 +11,17 @@
       crossorigin="anonymous"
     />
 
-   <!-- Admin Side Bar icon - not need to reactjs project  -->
+    <!-- Admin Side Bar icon - not need to reactjs project  -->
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="../../style.css" />    
+    <link rel="stylesheet" href="../../style.css" />
     <title>WorkBridge Portal</title>
   </head>
 
   <body>
     <div class="wrapper">
       <!-- Sidebar content goes here -->
-      <aside id="sidebar">
+      <aside id="sidebar" class="expand">
         <div class="d-flex">
           <button class="toggle-btn" type="button">
             <i class="lni lni-grid-alt"></i>
@@ -30,6 +30,10 @@
             <a href="#">CodzSword</a>
           </div>
         </div>
+        <div class="d-flex">
+            Logo
+        </div>
+
         <ul class="sidebar-nav">
           <li class="sidebar-item">
             <a href="#" class="sidebar-link">
@@ -203,15 +207,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script type="text/javascript">
+      // Admin Side Bar Open/Close
+      const hamBurger = document.querySelector(".toggle-btn");
 
-
-        // Admin Side Bar Open/Close
-        const hamBurger = document.querySelector(".toggle-btn");
-
-        hamBurger.addEventListener("click", function () {
+      hamBurger.addEventListener("click", function () {
         document.querySelector("#sidebar").classList.toggle("expand");
-        });
-
+      });
 
       // When the user clicks, open the popup
       function popupFunction() {
