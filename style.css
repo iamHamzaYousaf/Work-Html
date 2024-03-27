@@ -15827,7 +15827,7 @@ button.admin-continue {
 }
 
 .create-department {
-    border-radius: 4px;
+    border-radius: 8px;
     border: 1px solid var(--dark-black-color);
     background: var(--dark-black-color);
     color: var(--color-white);
