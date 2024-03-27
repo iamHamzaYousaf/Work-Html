@@ -40,8 +40,7 @@
     --gainsboro-color: #E0D9D7;
     --grey27-color: #454545;
     --grey48-color: #7A7A7A;
-    --suva-grey-color:#8E8E8E; 
-
+    --suva-grey-color: #8E8E8E;
     /*** FONT SIZES ***/
     --contact-heading: 55px;
     --main-heading: 45px;
@@ -15806,12 +15805,24 @@ button.admin-continue {
 
 .page-title-heading {
     display: flex;
+    align-items: center;
 }
 
 .page-title-heading h2 {
     font-weight: var(--font-weight-bold);
     color: var(--dark-black-color);
     font-size: 24px;
+    margin-bottom: 0;
+}
+
+.aroow-back-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.aroow-back-text img {
+    cursor: pointer;
 }
 
 .page-space {
@@ -17508,15 +17519,16 @@ p.c-content-c {
 }
 
 a.cmpy-card-tags {
-  border-radius: 44px;
-  background: var(--Whisper-color);;
-  padding: 5px 20px;
-  color: var(--dark-black-color);
-  font-size: 12px;
-  font-family: var(--arial-main);
-  font-weight: 400;
-  margin-top: 12px;
-  min-width: 88px;
+    border-radius: 44px;
+    background: var(--Whisper-color);
+    ;
+    padding: 5px 20px;
+    color: var(--dark-black-color);
+    font-size: 12px;
+    font-family: var(--arial-main);
+    font-weight: 400;
+    margin-top: 12px;
+    min-width: 88px;
 }
 
 .radio-crd-btn {
@@ -17705,18 +17717,18 @@ p.c-name-card-avalibe {
 }
 
 p.logo-card-avaliable-dark {
-  border-radius: 70px;
-  border: 0.5px solid var(--grey48-color);
-  opacity: 0.8;
-  background: var(--suva-grey-color);
-  color: rgb(255 255 255 / 80%);
-  font-size: 12px;
-  font-family: var(--arial-main);
-  height: 60px;
-  width: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    border-radius: 70px;
+    border: 0.5px solid var(--grey48-color);
+    opacity: 0.8;
+    background: var(--suva-grey-color);
+    color: rgb(255 255 255 / 80%);
+    font-size: 12px;
+    font-family: var(--arial-main);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 p.job-postion-avalibe-dark {
@@ -17760,7 +17772,8 @@ p.c-content-c-dark {
 a.cmpy-card-tags-dark {
     border-radius: 44px;
     opacity: 0.8;
-    background: var(--suva-grey-color);;
+    background: var(--suva-grey-color);
+    ;
     padding: 5px 20px;
     color: rgb(255 255 255 / 80%);
     font-size: 12px;
