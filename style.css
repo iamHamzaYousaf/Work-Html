@@ -41,6 +41,8 @@
     --grey27-color: #454545;
     --grey48-color: #7A7A7A;
     --suva-grey-color: #8E8E8E;
+    --blue-gery-color: #375b97;
+
     /*** FONT SIZES ***/
     --contact-heading: 55px;
     --main-heading: 45px;
@@ -16286,7 +16288,7 @@ p.filter-label-admin {
     color: var(--dark-black-color);
     font-size: 14px;
     font-family: var(--arial-main);
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-bold);
     padding-bottom: 5px;
 }
 
@@ -16462,7 +16464,7 @@ input#dept-f {
 .f-admin label {
     color: var(--dark-black-color);
     font-size: 14px;
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-bold);
     font-family: var(--arial-main);
     margin-bottom: 15px;
 }
@@ -17352,7 +17354,7 @@ button.edit-form-user {
 
 input#company-promotion {
     margin-right: 5px;
-    accent-color: var(--primary-color);
+    accent-color: var(--dark-black-color);
 }
 
 .th-size-status-req {
@@ -17365,7 +17367,7 @@ input#company-promotion {
 
 .promotion-table-button {
     display: flex;
-    padding: 0px 60px 20px 0;
+    padding: 0px 0px 20px 0;
     justify-content: end;
     gap: 18px;
 }
@@ -17521,7 +17523,6 @@ p.c-content-c {
 a.cmpy-card-tags {
     border-radius: 44px;
     background: var(--Whisper-color);
-    ;
     padding: 5px 20px;
     color: var(--dark-black-color);
     font-size: 12px;
@@ -17546,7 +17547,7 @@ input#selct-btn-c {
 }
 
 input#selct-btn-c:checked {
-    background-color: #003a75;
+    background-color: var(--dark-black-color);
 }
 
 input#selct-btn-c-d {
@@ -17608,9 +17609,9 @@ button.boooking-req {
     width: 100%;
     padding: 14px 10px;
     border-radius: 8px;
-    border: 1px solid var(--dark-black-color);
+    border: 1px solid var(--blue-gery-color);
     background: var(--color-white);
-    color: var(--dark-black-color);
+    color: var(--blue-gery-color);
     text-align: center;
     font-family: var(--arial-main);
     font-size: 16px;
@@ -17645,7 +17646,7 @@ button.boooking-req {
 .card-slot-bg-clr {
     padding: 20px 10px;
     border-radius: 12px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(43, 43, 43, 0.1);
     background: #fff;
     max-width: 100%;
     width: 312px;
@@ -17659,8 +17660,17 @@ button.boooking-req {
     border-radius: 12px;
     border: 1px solid #ffa033;
     background: rgba(255, 160, 51, 0.1);
-    box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.14);
+  }
+  
+.active-color-card p.job-no-cir-avaliable {
+    background-color: var(--color-white);
 }
+  
+.active-color-card a.cmpy-card-tags{
+    background-color: var(--Whisper-color);
+}
+  
 
 p.logo-card-avaliable {
     border-radius: 70px;
@@ -17686,7 +17696,7 @@ p.job-postion-avalibe {
 
 p.job-no-cir-avaliable {
     border-radius: 70px;
-    background: #e2edff;
+    background: var(--Whisper-color);
     color: var(--dark-black-color);
     font-size: 12px;
     font-weight: var(--font-weight-bold);
@@ -17773,7 +17783,6 @@ a.cmpy-card-tags-dark {
     border-radius: 44px;
     opacity: 0.8;
     background: var(--suva-grey-color);
-    ;
     padding: 5px 20px;
     color: rgb(255 255 255 / 80%);
     font-size: 12px;
