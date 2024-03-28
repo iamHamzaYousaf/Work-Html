@@ -41,6 +41,8 @@
     --grey27-color: #454545;
     --grey48-color: #7A7A7A;
     --suva-grey-color: #8E8E8E;
+    --blue-gery-color: #375b97;
+
     /*** FONT SIZES ***/
     --contact-heading: 55px;
     --main-heading: 45px;
@@ -1594,7 +1596,9 @@ button.detail-btn-lft {
         width: 100%;
     }
     .delete-post-container-icon {
+        position: relative;
         width: 20px;
+        top: -4px;
     }
     .edit-post-container {
         display: flex;
@@ -1607,8 +1611,10 @@ button.detail-btn-lft {
         width: 100%;
     }
     .edit-post-container-icon {
+        position: relative;
         width: 20px;
-    }
+        top: -4px;
+      }
     .edit-icon-emply-draft {
         margin-bottom: 0rem;
     }
@@ -10964,7 +10970,7 @@ input#password-field-job {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 14px 8px;
+    padding: 8px 8px;
     border-radius: 8px;
     border: 1px solid var(--dark-black-color-600);
     background: #FFF;
@@ -11986,6 +11992,9 @@ ul.nav.nav-tabs.mb-3.tabs-summary {
     border: 1px solid #EEE;
     background: rgba(212, 239, 255, 0.07);
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .tabs-content-jour {
@@ -12374,13 +12383,18 @@ td.td-third-row {
     margin: 0 auto;
 }
 
-.progress-bar.bg-success.progress-bar-color {
+.progress-bar.bg-ad.progress-bar-color {
     background-color: #0AB84D !important;
-}
-
-.progress-bar.bg-info.progress-bar-color {
+  }
+  
+  .progress-bar.bg-inter.progress-bar-color {
     background-color: #FFA033 !important;
-}
+  }
+  
+  
+  .progress-bar.bg-lower.progress-bar-color {
+    background-color: #E15C52 !important;
+  }
 
 table.skill-body-table tr:last-of-type {
     border-bottom: 0 !important;
@@ -15394,7 +15408,14 @@ ul.inner-dropdown.d-block li.sub-children.nav-item.icon-crv.active>a.menu-btn {
     top: 20px
 }
 
-.sidebar-clos-icon img {
+#sidebar .sidebar-clos-icon img {
+    position: absolute;
+    right: -10px;
+    top: 0px;
+    cursor: pointer;
+}
+  
+  #sidebar.expand  .sidebar-clos-icon img {
     position: absolute;
     right: -20px;
     top: 0px;
@@ -16028,7 +16049,7 @@ thead.tb-heading-deprt tr {
 tbody.tb-user td {
     padding: 10px 0px 10px 18px;
     font-size: 14px;
-    color: var(--text-color);
+    color: var(--dark-black-color);
     font-weight: var(--font-weight-medium);
     font-family: var(--arial-main);
     text-align: left;
@@ -16288,7 +16309,7 @@ p.filter-label-admin {
     color: var(--dark-black-color);
     font-size: 14px;
     font-family: var(--arial-main);
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-bold);
     padding-bottom: 5px;
 }
 
@@ -16313,7 +16334,7 @@ p.text-filter-select {
 /* Track */
 
 .admin-status-dropdown::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
+    box-shadow: inset 0 0 6px var(--dark-black-color);
     border-radius: 10px;
 }
 
@@ -16705,7 +16726,7 @@ tbody.tb-user-admin tr:nth-child(even) {
 }
 
 .name-sr-circle {
-    color: var(--text-color);
+    color: var(--dark-black-color);
     font-size: 14px;
     font-weight: var(--font-weight-medium);
     font-family: var(--arial-main);
@@ -17372,7 +17393,7 @@ button.edit-form-user {
 
 input#company-promotion {
     margin-right: 5px;
-    accent-color: var(--primary-color);
+    accent-color: var(--dark-black-color);
 }
 
 .th-size-status-req {
@@ -17385,7 +17406,7 @@ input#company-promotion {
 
 .promotion-table-button {
     display: flex;
-    padding: 0px 60px 20px 0;
+    padding: 0px 0px 20px 0;
     justify-content: end;
     gap: 18px;
 }
@@ -17541,7 +17562,6 @@ p.c-content-c {
 a.cmpy-card-tags {
     border-radius: 44px;
     background: var(--Whisper-color);
-    ;
     padding: 5px 20px;
     color: var(--dark-black-color);
     font-size: 12px;
@@ -17566,7 +17586,7 @@ input#selct-btn-c {
 }
 
 input#selct-btn-c:checked {
-    background-color: #003a75;
+    background-color: var(--dark-black-color);
 }
 
 input#selct-btn-c-d {
@@ -17628,9 +17648,9 @@ button.boooking-req {
     width: 100%;
     padding: 14px 10px;
     border-radius: 8px;
-    border: 1px solid var(--dark-black-color);
+    border: 1px solid var(--blue-gery-color);
     background: var(--color-white);
-    color: var(--dark-black-color);
+    color: var(--blue-gery-color);
     text-align: center;
     font-family: var(--arial-main);
     font-size: 16px;
@@ -17665,7 +17685,7 @@ button.boooking-req {
 .card-slot-bg-clr {
     padding: 20px 10px;
     border-radius: 12px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(43, 43, 43, 0.1);
     background: #fff;
     max-width: 100%;
     width: 312px;
@@ -17679,8 +17699,17 @@ button.boooking-req {
     border-radius: 12px;
     border: 1px solid #ffa033;
     background: rgba(255, 160, 51, 0.1);
-    box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.14);
+  }
+  
+.active-color-card p.job-no-cir-avaliable {
+    background-color: var(--color-white);
 }
+  
+.active-color-card a.cmpy-card-tags{
+    background-color: var(--Whisper-color);
+}
+  
 
 p.logo-card-avaliable {
     border-radius: 70px;
@@ -17706,7 +17735,7 @@ p.job-postion-avalibe {
 
 p.job-no-cir-avaliable {
     border-radius: 70px;
-    background: #e2edff;
+    background: var(--Whisper-color);
     color: var(--dark-black-color);
     font-size: 12px;
     font-weight: var(--font-weight-bold);
@@ -17793,7 +17822,6 @@ a.cmpy-card-tags-dark {
     border-radius: 44px;
     opacity: 0.8;
     background: var(--suva-grey-color);
-    ;
     padding: 5px 20px;
     color: rgb(255 255 255 / 80%);
     font-size: 12px;
