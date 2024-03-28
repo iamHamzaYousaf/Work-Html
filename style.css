@@ -11992,6 +11992,9 @@ ul.nav.nav-tabs.mb-3.tabs-summary {
     border: 1px solid #EEE;
     background: rgba(212, 239, 255, 0.07);
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .tabs-content-jour {
@@ -12392,7 +12395,7 @@ td.td-third-row {
   .progress-bar.bg-lower.progress-bar-color {
     background-color: #E15C52 !important;
   }
-  
+
 table.skill-body-table tr:last-of-type {
     border-bottom: 0 !important;
 }
