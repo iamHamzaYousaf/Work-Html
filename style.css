@@ -15477,10 +15477,13 @@ ul.inner-dropdown.d-block li.sub-children.nav-item.icon-crv.active>a.menu-btn {
     width: 100%;
 }
 
-.sidebar-link span {
-    margin-left: 15px;
-}
-
+.pl-2rem {
+    padding-left: 2rem;
+  }
+  
+  .sidebar-link span {
+    margin-left: 12px;
+  }
 
 /* .sidebar-link.active span{
     color: var(--dark-black-color) !important;
