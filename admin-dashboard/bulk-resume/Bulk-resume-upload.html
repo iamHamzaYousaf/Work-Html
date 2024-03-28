@@ -11,625 +11,176 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <!-- Sidebar -->
-            <div class="col-md-2 col-12  sidebar-bg">
-                <!-- Sidebar content goes here -->
-                <div class="siebar-logo">
-                    <img src="../../image/WORKBRIDGE-white.png" alt="">
-                </div>
-                <div class="navbar-sidemenu">
-                    <ul class="navbar-nav">
-                        <li class="sub-children nav-item icon-crv">
-                            <a class="menu-btn nav-link" aria-current="page" href="./module.html"><img src="../../image/Modules.png" alt=""> Modules</a>
-                        </li>
-                        <li class="nav-item icon-crv sub-children">
-                            <a class="menu-btn nav-link" aria-current="page" href="#"><img src="../../image/promotion-icon.png" alt="">Promotions<img src="../../image/down-menu.png" alt="" class="cart-menu"></a>
-                            <ul class="inner-dropdown">
-                                <li class="sub-children">
-                                    <a class="menu-btn" href="#"><img src="../../image/promotion-icon.png" alt="">All Promotions</a>
-                                </li>
-                                <li class="sub-children">
-                                    <a class="menu-btn" href="#"><img src="../../image/promotion-plus.png" alt="">Promotion Requests</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item icon-crv sub-children">
-                            <a class="menu-btn nav-link" aria-current="page" href="#"><img src="../../image/system-nav.png" alt="">System Setup<img src="../../image/down-menu.png" alt="" class="cart-menu"></a>
-                            <ul class="inner-dropdown">
-                                <li class="sub-children">
-                                    <a class="menu-btn" href="#"><img src="../../image/country-nav.png" alt="">Countries<img src="../../image/down-menu.png" alt="" class="cart-menu"></a>
-                                    <ul class="inner-dropdown">
-                                        <li class="sub-children">
-                                            <a class="menu-btn" href="#"><img src="../../image/country-nav.png" alt="">Countries</a>
-                                        </li>
-                                        <li class="sub-children">
-                                            <a class="menu-btn" href="#"><img src="../../image/country-vac.png" alt="">Country Vacations</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="sub-children nav-item icon-crv">
-                                    <a class="menu-btn" href="#"><img src="../../image/Statuses-nav.png" alt="">Statuses</a>
-                                </li>
-                                <li class="sub-children nav-item icon-crv">
-                                    <a class="menu-btn" href="#"><img src="../../image/deprt-nav.png" alt="">Department</a>
-                                </li>
-                                <li class="sub-children nav-item icon-crv">
-                                    <a class="menu-btn" href="#"><img src="../../image/role-nav.png" alt="">Roles</a>
-                                </li>
-                                <li class="sub-children nav-item icon-crv">
-                                    <a class="menu-btn" href="#"><img src="../../image/user-nav.png" alt="">Users</a>
-                                </li>
-                                <li class="sub-children nav-item icon-crv">
-                                    <a class="menu-btn" href="#"><img src="../../image/Preferences-nav.png" alt="">Preferences</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item icon-crv sub-children">
-                            <a class="menu-btn nav-link" aria-current="page" href="#"><img src="../../image/job-nav.png" alt="">Job Portal<img src="../../image/down-menu.png" alt="" class="cart-menu"></a>
-                            <ul class="inner-dropdown">
-                                <li class="sub-children">
-                                    <a class="menu-btn" href="#"><img src="../../image/job-nav.png" alt="">Job Titles</a>
-                                </li>
-                                <li class="sub-children">
-                                    <a class="menu-btn" href="#"><img src="../../image/job-nav.png" alt="">Job Description</a>
-                                </li>
-                                <li class="sub-children">
-                                    <a class="menu-btn" href="#"><img src="../../image/tag-nav.png" alt="">Technical Tags</a>
-                                </li>
-                                <li class="sub-children">
-                                    <a class="menu-btn" href="#"><img src="../../image/job-nav.png" alt="">Job Posts</a>
-                                </li>
-                                <li class="sub-children">
-                                    <a class="menu-btn" href="#"><img src="../../image/comapny-nav.png" alt="">Companies</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="sub-children nav-item icon-crv">
-                            <a class="menu-btn" href="#"><img src="../../image/Reporting-nav.png" alt="">Reporting</a>
-                        </li>
-                    </ul>
+
+    <div class="wrapper">
+        <!-- Sidebar content goes here -->
+        <aside id="sidebar" class="expand">
+            <div class="d-flex">
+                <button class="toggle-btn" type="button">
+          <i class="lni lni-grid-alt"></i>
+        </button>
+                <div class="sidebar-logo">
+                    <a href="#">CodzSword</a>
                 </div>
             </div>
-            <!-- Main Content -->
-            <div class="col-md-10 col-12 right-content-sidebar">
-                <!-- header start here -->
-                <div class="header-sidebar">
-                    <div class="row-header">
-                        <div class="col-left-sidebar">
-                            <div class="text-header-sidebar">
-                                <p>Dashboard /</p>
-                                <span class="active">Create Role</span>
-                            </div>
+            <div class="sidebar-clos-icon">
+                <img src="../../image/left-sidebar.png" alt="">
+            </div>
+
+            <ul class="sidebar-nav">
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-user"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-agenda"></i>
+                        <span>Task</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse" data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
+                        <i class="lni lni-protection"></i>
+                        <span>Auth</span>
+                    </a>
+                    <ul id="auth" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Login</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse" data-bs-target="#multi" aria-expanded="false" aria-controls="multi">
+                        <i class="lni lni-layout"></i>
+                        <span>Multi Level</span>
+                    </a>
+                    <ul id="multi" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" data-bs-target="#multi-two" aria-expanded="false" aria-controls="multi-two">
+                Two Links
+              </a>
+                            <ul id="multi-two" class="sidebar-dropdown list-unstyled collapse">
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">Link 1</a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">Link 2</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-popup"></i>
+                        <span>Notification</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-cog"></i>
+                        <span>Setting</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="sidebar-footer">
+                <a href="#" class="sidebar-link">
+                    <i class="lni lni-exit"></i>
+                    <span>Logout</span>
+                </a>
+            </div>
+        </aside>
+        <!-- Main Content -->
+        <div class="main-admin">
+            <!-- header start here -->
+            <div class="header-sidebar">
+                <div class="row-header">
+                    <div class="col-left-sidebar">
+                        <div class="text-header-sidebar">
+                            <p>Dashboard /</p>
+                            <span class="active">Create Role</span>
                         </div>
-                        <div class="col-right-sidebar">
-                            <div class="department-name-img icon-cursor">
-                                <a href="#">
-                                    <img src="../../image/profile.png" alt="">
-                                    <p class="department-name">Hi, John</p>
-                                </a>
+                    </div>
+                    <div class="col-right-sidebar">
+                        <div class="department-name-img icon-cursor">
+                            <a href="#">
+                                <img src="../../image/profile.png" alt="">
+                                <p class="department-name">Hi, John</p>
+                            </a>
+                        </div>
+                        <div class="all-flag-sidebar">
+                            <div class="headder-flag-sidebar">
+                                <div class="flag-list active">
+                                    <img src="../../image/flag-1.png" alt="">
+                                    <div class="flag-caption active">
+                                        <p>North Macedonia</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="all-flag-sidebar">
-                                <div class="headder-flag-sidebar">
-                                    <div class="flag-list active">
-                                        <img src="../../image/flag-1.png" alt="">
-                                        <div class="flag-caption active">
-                                            <p>North Macedonia</p>
-                                        </div>
-                                    </div>
+                            <div class="headder-flag-sidebar">
+                                <div class="flag-list">
+                                    <img src="../../image/flag-2.png" alt="">
                                 </div>
-                                <div class="headder-flag-sidebar">
-                                    <div class="flag-list">
-                                        <img src="../../image/flag-2.png" alt="">
-                                    </div>
-                                    <div class="flag-caption">
-                                        <p>North Macedonia</p>
-                                    </div>
+                                <div class="flag-caption">
+                                    <p>North Macedonia</p>
                                 </div>
-                                <div class="headder-flag-sidebar">
-                                    <div class="flag-list">
-                                        <img src="../../image/flag-3.png" alt="">
-                                    </div>
-                                    <div class="flag-caption">
-                                        <p>North Macedonia</p>
-                                    </div>
+                            </div>
+                            <div class="headder-flag-sidebar">
+                                <div class="flag-list">
+                                    <img src="../../image/flag-3.png" alt="">
+                                </div>
+                                <div class="flag-caption">
+                                    <p>North Macedonia</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--------departemt column-->
-                <div class="department-role-space bg-clr-admin">
-                    <div class="step-progressbar-admin">
-                        <ul class="progressbar-admin">
-                            <li class="step-circle active active-circle">Create Department</li>
-                            <li class="step-circle active active-circle">Create Role</li>
-                            <li class="step-circle active active-circle">Create User</li>
-                        </ul>
-                    </div>
-                    <div class="form-heading">
-                        <h2>Create New User</h2>
-                    </div>
-                    <!---------Personal Information-->
-                    <div class="department-form-box">
-                        <form action="">
-                            <div class="first-part-f">
-                                <h3>Personal Information</h3>
-                                <p>Add User personal details here</p>
+            </div>
+            <!--------departemt column-->
+            <div class="department-role-space bg-clr-admin">
+                <!-- <div class="step-progressbar-admin">
+                    <ul class="progressbar-admin">
+                        <li class="step-circle active active-circle">Create Department</li>
+                        <li class="step-circle active active-circle">Create Role</li>
+                        <li class="step-circle active active-circle">Create User</li>
+                    </ul>
+                </div> -->
+                <div class="form-heading-prom">
+                    <img src="../../image/form-back-arrow.png" alt="">
+                    <h2>Bulk resume upload</h2>
+                </div>
+                <!---------Personal Information-->
+                <div class="department-form-box">
+                    <form action="">
+                        <div class="first-part-f">
+                            <h3>Resume analysis request</h3>
+                            <p>Start by entering your job title, pasting your job description below, then upload all your resumes by dragging and dropping a zip file or browsing to select and load it.</p>
+                        </div>
+                        <div class="admin-from-step space-b-f">
+                            <div class="f-admin resume-f-admin error-input-admin">
+                                <label for="">Job Title </label><br>
+                                <input type="text" name="" id="dept-f" placeholder="Job Title" class="form-font-admin">
+                                <p class="error-msg hide-error">Please Enter Job Title</p>
                             </div>
-                            <div class="admin-from-step space-b-f">
-                                <div class="f-admin feild-f-admin">
-                                    <label for="">First Name *</label><br>
-                                    <input type="text" name="" id="dept-f" placeholder="First Name" class="form-font-admin">
-                                    <p class="error-msg hide-error">Please enter first name</p>
-                                </div>
-
-                                <div class="f-admin feild-f-admin">
-                                    <label for="">Last Name *</label><br>
-                                    <input type="text" name="" id="dept-f" placeholder="Last Name" class="form-font-admin">
-                                    <p class="error-msg error-msg hide-error">Please enter first name</p>
-                                </div>
-                                <div class="f-admin feild-f-admin">
-                                    <label for="">Country *</label>
-                                    <div class="admin-status-filter-form">
-                                        <div id="dropdown-boxId2" class="company-form-dropdownBox1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <div class="text-filter-admin">
-                                                <p class="text-filter-select">Country</p>
-                                                <img src="../../image/admin-d.png" alt="" class="hide-tick">
-                                                <img src="../../image/warning.png" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="admin-status-dropdown-frm">
-                                            <ul class="list-admin-country">
-                                                <li><img src="../../image/CA.png" alt="">Canada</li>
-                                                <li><img src="../../image/GB.png" alt="">United Kingdom ( UK )</li>
-                                                <li><img src="../../image/US.png" alt="">United States of America ( USA )
-                                                </li>
-                                                <li><img src="../../image/US.png" alt="">United States of America ( USA )
-                                                </li>
-                                                <li><img src="../../image/CA.png" alt="">Canada</li>
-                                                <li><img src="../../image/GB.png" alt="">United Kingdom ( UK )</li>
-                                                <li><img src="../../image/US.png" alt="">United States of America ( USA )
-                                                </li>
-                                                <li><img src="../../image/US.png" alt="">United States of America ( USA )
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <p class="error-msg">
-                                        <p class="error-msg hide-error">Please Enter State/Province</p>
-                                    </p>
-                                </div>
+                            <div class="f-admin resume-f-admin error-input-admin">
+                                <label for="">Job Description </label><br>
+                                <textarea name="" id="dept-f" class="bulk-res-upload" cols="30" rows="14" placeholder="Copy/paste your job description here."></textarea>
+                                <p class="error-msg hide-error">Please Enter Job Description</p>
                             </div>
-                            <div class="admin-from-step space-b-f">
-                                <div class="f-admin feild-f-admin-addres">
-                                    <label for="">Address *</label><br>
-                                    <input type="text" name="" id="dept-f" placeholder="Address" class="form-font-admin">
-                                    <p class="error-msg hide-error">Please enter Address</p>
-                                </div>
-                                <div class="f-admin feild-f-admin-city">
-                                    <label for="">City * </label><br>
-                                    <input type="text" name="" id="dept-f" placeholder="City" class="form-font-admin">
-                                    <p class="error-msg hide-error">Please enter City</p>
-                                </div>
-                            </div>
-                            <div class="admin-from-step space-b-f">
-                                <div class="f-admin feild-f-admin">
-                                    <label for="">State/Province *</label>
-                                    <div class="admin-status-filter-form">
-                                        <div id="dropdown-boxId2" class="company-form-dropdownBox1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <div class="text-filter-admin">
-                                                <p class="text-filter-select">State/Province</p>
-                                                <img src="../../image/admin-d.png" alt="" class="hide-tick">
-                                                <img src="../../image/warning.png" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="admin-status-dropdown-frm">
-                                            <ul class="list-admin-portal">
-                                                <li>React Developer</li>
-                                                <li>React Developer</li>
-                                                <li>React Developer</li>
-                                                <li>React Developer</li>
-                                                <li>React Developer</li>
-                                                <li>React Developer</li>
-                                                <li>React Developer</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <p class="error-msg hide-error">Please Enter State/Province</p>
-                                </div>
-                                <div class="f-admin feild-f-admin">
-                                    <label for="">Postal Code *</label>
-                                    <div class="admin-status-filter-form filter-bg-clr-f">
-                                        <div id="dropdown-boxId2" class="company-form-dropdownBox1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <div class="text-filter-admin">
-                                                <p class="text-filter-select">Postal Code</p>
-                                                <img src="../../image/admin-d.png" alt="" class="hide-tick">
-                                                <img src="../../image/warning.png" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="admin-status-dropdown-frm">
-                                            <ul class="list-admin-portal">
-                                                <li>React Developer</li>
-                                                <li>React Developer</li>
-                                                <li>React Developer</li>
-                                                <li>React Developer</li>
-                                                <li>React Developer</li>
-                                                <li>React Developer</li>
-                                                <li>React Developer</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <p class="error-msg hide-error">Please Enter Postal Code</p>
-                                </div>
-                                <div class="f-admin feild-f-admin">
-                                    <label for="">Phone Number *</label>
-                                    <input type="tel" name="" id="dept-f" placeholder="+(__) ___ ___ ____" class="form-font-admin">
-                                    <p class="error-msg hide-error">Please Enter Phone Number</p>
-                                </div>
-                                <div class="f-admin feild-f-admin">
-                                    <label for="">Email Address *</label><br>
-                                    <input type="email" name="" id="dept-f" placeholder="Email Address" class="form-font-admin">
-                                    <p class="error-msg hide-error">Please enter Email Id</p>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <!--------------------User Detail-->
-                    <div class="department-form-box second-box-admin">
-                        <form action="">
-                            <div class="first-part-f">
-                                <h3>User Detail</h3>
-                                <p>Add User detail here</p>
-                            </div>
-                            <div class="admin-from-step space-b-f">
-                                <div class="f-admin feild-f-admin">
-                                    <label for="">Department *</label><br>
-                                    <input type="text" name="" id="dept-f" placeholder="Department" class="form-font-admin">
-                                    <p class="error-msg hide-error">Please Enter Department</p>
-                                </div>
-                                <div class="f-admin feild-f-admin">
-                                    <label for="">Role * </label><br>
-                                    <input type="text" name="" id="dept-f" placeholder="Role" class="form-font-admin">
-                                    <p class="error-msg hide-error">Please Enter Role</p>
-                                </div>
-                                <div class="f-admin feild-f-admin">
-                                    <label for="">User Type *</label>
-                                    <div class="admin-status-filter-form">
-                                        <div id="dropdown-boxId2" class="company-form-dropdownBox1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <div class="text-filter-admin">
-                                                <p class="text-filter-select">User Type</p>
-                                                <img src="../../image/admin-d.png" alt="" class="hide-tick">
-                                                <img src="../../image/warning.png" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="admin-status-dropdown-frm">
-                                            <ul class="list-admin-portal">
-                                                <li>Employee (Full time)</li>
-                                                <li>Employee (Full time)</li>
-                                                <li>Employee (Full time)</li>
-                                                <li>Employee (Full time)</li>
-                                                <li>Employee (Full time)</li>
-                                                <li>Employee (Full time)</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <p class="error-msg hide-error">Please Enter User Type</p>
-                                </div>
-                            </div>
-                            <div class="admin-from-step space-b-f">
-                                <div class="f-admin feild-f-admin error-input-admin">
-                                    <label for="">Job Type* </label>
-                                    <div class="admin-status-filter-form">
-                                        <div id="dropdown-boxId2" class="company-form-dropdownBox1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <div class="text-filter-admin">
-                                                <p class="text-filter-select">Job Type</p>
-                                                <img src="../../image/admin-d.png" alt="" class="hide-tick">
-                                                <img src="../../image/warning.png" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="admin-status-dropdown-frm">
-                                            <ul class="list-admin-portal">
-                                                <li><img src="../../image/li-search.png" alt="" class="normal-s-list"><img src="../../image/color-li-se.png" alt="" class="hover-s-list">Part Time - Remote</li>
-                                                <li><img src="../../image/li-search.png" alt="" class="normal-s-list"><img src="../../image/color-li-se.png" alt="" class="hover-s-list">Part Time - On Site</li>
-                                                <li><img src="../../image/li-search.png" alt="" class="normal-s-list"><img src="../../image/color-li-se.png" alt="" class="hover-s-list">Full Time - Remote</li>
-                                                <li><img src="../../image/li-search.png" alt="" class="normal-s-list"><img src="../../image/color-li-se.png" alt="" class="hover-s-list">Full Time - On Site</li>
-                                                <li><img src="../../image/li-search.png" alt="" class="normal-s-list"><img src="../../image/color-li-se.png" alt="" class="hover-s-list">Contract</li>
-                                                <li><img src="../../image/li-search.png" alt="" class="normal-s-list"><img src="../../image/color-li-se.png" alt="" class="hover-s-list">React Developer</li>
-                                                <li><img src="../../image/li-search.png" alt="" class="normal-s-list"><img src="../../image/color-li-se.png" alt="" class="hover-s-list">React Developer</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <p class="error-msg hide-error">Please Enter Job Type</p>
-                                </div>
-                                <div class="f-admin feild-f-admin tags-admin error-input-admin tags-list-user-c">
-                                    <!-- <label for="">Module Access </label> -->
-                                    <!-- <div class="admin-status-filter-form">
-                                        <div id="dropdown-boxId2" class="company-form-dropdownBox1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <div class="text-filter-admin">
-                                                <p class="text-filter-select">Module Access</p>
-                                                <img src="../../image/admin-d.png" alt="" class="hide-tick">
-                                                <img src="../../image/warning.png" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="admin-status-dropdown-frm">
-                                            <ul class="list-admin-portal-clr">
-                                                <li><img src="../../image/modules-list.png" alt="" class="normal-s-list"><img src="../../image/list-icon.png" alt="" class="hover-s-list">Full Time - On Site <input type="checkbox" name="" id="admin-chk"></li>
-                                                <li><img src="../../image/modules-list.png" alt="" class="normal-s-list"><img src="../../image/list-icon.png" alt="" class="hover-s-list">Contract<input type="checkbox" name="" id="admin-chk"></li>
-                                                <li><img src="../../image/modules-list.png" alt="" class="normal-s-list"><img src="../../image/list-icon.png" alt="" class="hover-s-list">React Developer<input type="checkbox" name="" id="admin-chk"></li>
-                                                <li><img src="../../image/modules-list.png" alt="" class="normal-s-list"><img src="../../image/list-icon.png" alt="" class="hover-s-list">React Developer<input type="checkbox" name="" id="admin-chk"></li>
-                                            </ul>
-                                        </div>
-                                        <div class="custom-tag-input">
-                                            <input type="text" name="" id="admin-module" placeholder="Admin Module Access" class="form-font-f">
-                                            <img src="../../image/admin-d.png" alt="" class="hide-tick">
-                                            <img src="../../image/warning.png" alt="">
-                                        </div>
-                                    </div> -->
-                                    <div class="tags-admin list-role-c">
-                                        <ul class="tags-titles-list">
-                                            <li>Job Portal<img src="../../image/cross.png" alt=""></li>
-                                            <li>Time Sheet Module<img src="../../image/cross.png" alt=""></li>
-                                            <li>HR Module<img src="../../image/cross.png" alt="">
-                                            </li>
-                                            <li>Expense Module<img src="../../image/cross.png" alt=""></li>
-                                            <li>Asset Module<img src="../../image/cross.png" alt=""></li>
-                                        </ul>
-                                    </div>
-                                    <p class="error-msg hide-error">Please Enter Admin Module Access</p>
-                                </div>
-                                <div class="f-admin feild-f-admin">
-                                </div>
-
-                            </div>
-                        </form>
-                    </div>
-                    <!--------------User Credential-->
-                    <div class="department-form-box">
-                        <form action="">
-                            <div class="first-part-f">
-                                <h3>User Credential</h3>
-                                <p>Add User Credentail detail here</p>
-                            </div>
-                            <div class="admin-from-step space-b-f">
-                                <div class="f-admin feild-f-admin">
-                                    <label for="">User Name *</label><br>
-                                    <input type="text" name="" id="dept-f" placeholder="User Name" class="form-font-admin">
-                                    <p class="error-msg hide-error">Please Enter Department</p>
-                                </div>
-                                <div class="f-admin feild-f-admin">
-                                    <label for="">Status *</label>
-                                    <div class="admin-status-filter-form">
-                                        <div id="dropdown-boxId2" class="company-form-dropdownBox1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <div class="text-filter-admin">
-                                                <p class="text-filter-select">Status</p>
-                                                <img src="../../image/admin-d.png" alt="" class="hide-tick">
-                                                <img src="../../image/warning.png" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="admin-status-dropdown-frm">
-                                            <ul class="list-admin-portal">
-                                                <li>Employee (Full time)</li>
-                                                <li>Employee (Full time)</li>
-                                                <li>Employee (Full time)</li>
-                                                <li>Employee (Full time)</li>
-                                                <li>Employee (Full time)</li>
-                                                <li>Employee (Full time)</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <p class="error-msg hide-error">Please Enter Status</p>
-                                </div>
-                                <div class="f-admin feild-f-admin">
-                                </div>
-                            </div>
-                            <div class="admin-from-step space-b-f">
-                                <div class="f-admin feild-f-admin">
-                                    <label for="">Password* </label>
-                                    <div class="admin-status-filter-form">
-                                        <div class="password-admin-f">
-                                            <input type="password" name="" id="admin-pass-field" placeholder="Password*" class="form-font-admin">
-                                            <img src="../../image/pass-admin.png" alt="" class="hide-tick">
-                                            <img src="../../image/pass-admin.png" alt="" class="pass-icon-hide">
-                                            <img src="../../image/warning.png" alt="">
-                                        </div>
-                                    </div>
-                                    <ul class="error-msg hide-error">
-                                        <li>Password must be at least 8 characters in length</li>
-                                        <li>Use a minimum of 1 numeric value,</li>
-                                        <li>Use at least 1 Upper Case Letter (ABCD)</li>
-                                        <li> at least 1 Lower Case Letter (abcd)</li>
-                                        <li>User at least one special character ( !# % $ * )</li>
-                                    </ul>
-                                </div>
-                                <div class="f-admin feild-f-admin">
-                                    <label for="">Confirm Password *</label>
-                                    <div class="admin-status-filter-form">
-                                        <div class="password-admin-f">
-                                            <input type="password" name="" id="admin-pass-field" placeholder="Confirm Password" class="form-font-admin">
-                                            <img src="../../image/pass-admin.png" alt="" class="hide-tick">
-                                            <img src="../../image/pass-admin.png" alt="" class="pass-icon-hide">
-                                            <img src="../../image/warning.png" alt="">
-                                        </div>
-                                    </div>
-                                    <p class="error-msg hide-error">Password doesn’t match</p>
-                                </div>
-                                <div class="f-admin feild-f-admin">
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="email-error--admin">
-                        <p>Email verification Message has been sent to the User Email Address.</p>
-                    </div>
-                    <!---------------Permissions-->
-                    <!-- <div class="user-permission-form-box">
-                        <form action="">
-                            <div class="user-heading-filter">
-                                <div class="first-part-f">
-                                    <h3>Permissions</h3>
-                                    <p>User Permissions details</p>
-                                </div>
-                                <div class="select-filter">
-                                    <label for="">Permission:</label>
-                                    <div class="admin-status-filter-form">
-                                        <div id="dropdown-boxId2" class="company-form-dropdownBox1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <div class="text-filter-admin">
-                                                <p>Select</p>
-                                                <img src="../../image/admin-d.png" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="admin-status-dropdown-frm">
-                                            <ul class="list-admin-portal">
-                                                <li>All</li>
-                                                <li>Reset</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="table-user-permission">
-                                <ul class="nav nav-tabs mb-3" id="ex1" role="tablist">
-                                    <li class="nav nav-tabs nav-fill" role="presentation">
-                                        <a class="nav-link active" id="ex1-tab-1" data-mdb-toggle="tab" href="#ex1-tabs-1" role="tab" aria-controls="ex1-tabs-1" aria-selected="true">Job Portal</a>
-                                    </li>
-                                    <li class="nav nav-tabs nav-fill" role="presentation">
-                                        <a class="nav-link" id="ex1-tab-2" data-mdb-toggle="tab" href="#ex1-tabs-2" role="tab" aria-controls="ex1-tabs-2" aria-selected="false">Time Sheet Module</a>
-                                    </li>
-                                    <li class="nav nav-tabs nav-fill" role="presentation">
-                                        <a class="nav-link" id="ex1-tab-3" data-mdb-toggle="tab" href="#ex1-tabs-3" role="tab" aria-controls="ex1-tabs-3" aria-selected="false">HR Module</a>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="ex1-tab-3" data-mdb-toggle="tab" href="#ex1-tabs-3" role="tab" aria-controls="ex1-tabs-3" aria-selected="false">Expense Module</a>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="ex1-tab-3" data-mdb-toggle="tab" href="#ex1-tabs-3" role="tab" aria-controls="ex1-tabs-3" aria-selected="false">Asset Module</a>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="ex1-tab-3" data-mdb-toggle="tab" href="#ex1-tabs-3" role="tab" aria-controls="ex1-tabs-3" aria-selected="false">System Setup</a>
-                                    </li>
-                                </ul>
-                                <div class="tab-content" id="ex1-content">
-                                    <div class="tab-pane fade show active" id="ex1-tabs-1" role="tabpanel" aria-labelledby="ex1-tab-1">
-                                        <div class="table-responsive">
-                                            <table class="depart-table-left">
-                                                <thead class="tb-heading-user-admin">
-                                                    <tr>
-                                                        <th scope="col">
-                                                            <div class="th-admin-heading">Sub Modules</div>
-                                                        </th>
-                                                        <th scope="col">
-                                                            <div class="th-admin-heading">View Permission</div>
-                                                        </th>
-                                                        <th scope="col">
-                                                            <div class="th-admin-heading">Create Permission</div>
-                                                        </th>
-                                                        <th scope="col">
-                                                            <div class="th-admin-heading">Edit Permission</div>
-                                                        </th>
-                                                        <th scope="col">
-                                                            <div class="th-admin-heading">Delete Permission</div>
-                                                        </th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody class="tb-user-admin">
-                                                    <tr>
-                                                        <td class="deprt-left-td">
-                                                            <div class="name-sr-circle">Country Management</div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="tik-crl"><img src="../../image/clr-b-bg.png" alt="" class="hide-tick"></div>
-                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="deprt-left-td">
-                                                            <div class="name-sr-circle">Department</div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="tik-crl"><img src="../../image/clr-b-bg.png" alt="" class="hide-tick"></div>
-                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="deprt-left-td">
-                                                            <div class="name-sr-circle">Roles</div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="tik-crl"><img src="../../image/clr-b-bg.png" alt="" class="hide-tick"></div>
-                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="deprt-left-td">
-                                                            <div class="name-sr-circle">Users</div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="tik-crl"><img src="../../image/clr-b-bg.png" alt="" class="hide-tick"></div>
-                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="tik-crl"><img src="../../image/clr-g-bf.png" alt=""></div>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="ex1-tabs-2" role="tabpanel" aria-labelledby="ex1-tab-2">
-                                        Tab 2 content
-                                    </div>
-                                    <div class="tab-pane fade" id="ex1-tabs-3" role="tabpanel" aria-labelledby="ex1-tab-3">
-                                        Tab 3 content
-                                    </div>
-                                </div>
-
-                            </div>
-                        </form>
-                    </div> -->
-                    <!-------------------->
-                    <div class="admin-form-btn">
-                        <a href="./steup-department.html"> <button class="cancel-admin">Cancel</button></a>
-                        <button class="next-admin">Next</button>
-                    </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="admin-form-btn">
+                    <a href="./steup-department.html"> <button class="cancel-admin">Cancel</button></a>
+                    <button class="next-admin">Next</button>
                 </div>
             </div>
         </div>
     </div>
+
     <!-----------candidate model signup  -->
     <section class="model-popup-post-job hide-model-popup">
         <div class="popup-admin-portal">
