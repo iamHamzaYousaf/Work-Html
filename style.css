@@ -1596,7 +1596,9 @@ button.detail-btn-lft {
         width: 100%;
     }
     .delete-post-container-icon {
+        position: relative;
         width: 20px;
+        top: -4px;
     }
     .edit-post-container {
         display: flex;
@@ -1609,8 +1611,10 @@ button.detail-btn-lft {
         width: 100%;
     }
     .edit-post-container-icon {
+        position: relative;
         width: 20px;
-    }
+        top: -4px;
+      }
     .edit-icon-emply-draft {
         margin-bottom: 0rem;
     }
@@ -10966,7 +10970,7 @@ input#password-field-job {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 14px 8px;
+    padding: 8px 8px;
     border-radius: 8px;
     border: 1px solid var(--dark-black-color-600);
     background: #FFF;
@@ -12376,14 +12380,19 @@ td.td-third-row {
     margin: 0 auto;
 }
 
-.progress-bar.bg-success.progress-bar-color {
+.progress-bar.bg-ad.progress-bar-color {
     background-color: #0AB84D !important;
-}
-
-.progress-bar.bg-info.progress-bar-color {
+  }
+  
+  .progress-bar.bg-inter.progress-bar-color {
     background-color: #FFA033 !important;
-}
-
+  }
+  
+  
+  .progress-bar.bg-lower.progress-bar-color {
+    background-color: #E15C52 !important;
+  }
+  
 table.skill-body-table tr:last-of-type {
     border-bottom: 0 !important;
 }
@@ -15394,7 +15403,14 @@ ul.inner-dropdown.d-block li.sub-children.nav-item.icon-crv.active>a.menu-btn {
     top: 20px
 }
 
-.sidebar-clos-icon img {
+#sidebar .sidebar-clos-icon img {
+    position: absolute;
+    right: -10px;
+    top: 0px;
+    cursor: pointer;
+}
+  
+  #sidebar.expand  .sidebar-clos-icon img {
     position: absolute;
     right: -20px;
     top: 0px;
