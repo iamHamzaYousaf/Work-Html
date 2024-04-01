@@ -1597,7 +1597,7 @@ button.detail-btn-lft {
     .delete-post-container-icon {
         position: relative;
         width: 20px;
-        top: -4px;
+        top: -2px;
     }
     .edit-post-container {
         display: flex;
@@ -1612,7 +1612,7 @@ button.detail-btn-lft {
     .edit-post-container-icon {
         position: relative;
         width: 20px;
-        top: -4px;
+        top: -3px;
     }
     .edit-icon-emply-draft {
         margin-bottom: 0rem;
@@ -15477,10 +15477,13 @@ ul.inner-dropdown.d-block li.sub-children.nav-item.icon-crv.active>a.menu-btn {
     width: 100%;
 }
 
-.sidebar-link span {
-    margin-left: 15px;
-}
-
+.pl-2rem {
+    padding-left: 2rem;
+  }
+  
+  .sidebar-link span {
+    margin-left: 12px;
+  }
 
 /* .sidebar-link.active span{
     color: var(--dark-black-color) !important;
@@ -15983,7 +15986,6 @@ span.later-circle {
     border-radius: 3px;
     padding: 3px;
     width: 28px;
-    height: 28px;
 }
 
 .active-tb-data {
