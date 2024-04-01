@@ -150,76 +150,36 @@
                 </div> -->
                 <div class="form-heading-prom">
                     <!-- <img src="../../image/form-back-arrow.png" alt=""> -->
-                    <h2>Bulk resume upload</h2>
+                    <h2>View Job Description</h2>
                 </div>
                 <!---------Personal Information-->
                 <div class="department-form-box">
                     <form action="">
-                        <div class="first-part-f">
+                        <!-- <div class="first-part-f">
                             <h3>Resume analysis request</h3>
                             <p>Start by entering your job title, pasting your job description below, then upload all your resumes by dragging and dropping a zip file or browsing to select and load it.</p>
+                        </div> -->
+                        <div class="admin-from-step space-b-f">
+                            <div class="f-admin feild-f-job-title-bulk">
+                                <label for="">Job Title</label><br>
+                                <input type="text" name="" id="dept-f" placeholder="Job Title" class="form-font-admin">
+                                <p class="error-msg hide-error">Please enter Job Title</p>
+                            </div>
+                            <div class="f-admin feild-f-job-title-bulk">
+                                <label for="">Resume uploaded</label><br>
+                                <input type="text" name="" id="dept-f" placeholder="Resume uploaded" class="form-font-admin">
+                                <p class="error-msg hide-error">Please enter Resume uploaded</p>
+                            </div>
+                            <div class="bulk-edit-resume-form"><img src="../../image/bulk-edit.png" alt=""></div>
                         </div>
                         <div class="admin-from-step space-b-f">
-                            <div class="f-admin resume-f-admin error-input-admin">
-                                <label for="">Job Title </label><br>
-                                <input type="text" name="" id="dept-f" placeholder="Job Title" class="form-font-admin">
-                                <p class="error-msg hide-error">Please Enter Job Title</p>
-                            </div>
                             <div class="f-admin resume-f-admin error-input-admin">
                                 <label for="">Job Description </label><br>
                                 <textarea name="" id="dept-f" class="bulk-res-upload" cols="30" rows="14" placeholder="Copy/paste your job description here."></textarea>
                                 <p class="error-msg hide-error">Please Enter Job Description</p>
                             </div>
-                            <div class="upload-res-part-f">
-                                <h3>Upload zip file</h3>
-                                <p>Only zip files are supported</p>
-                            </div>
-                            <div class="bulk-res-file-upload">
-                                <img src="../../image/zip-res.png" alt="">
-                                <p class="resume-bulk-res">Drag your file to start uploading</p>
-                                <div class="or-divider-res">
-                                    <div class="divider-one-res"></div>
-                                    <div class="text-or-res">OR</div>
-                                    <div class="divider-one-res"></div>
-                                </div>
-                                <label for="file-input" id="candidate-res">
-                                    <div class="bulk-res-f">Browse files</div><input
-                                        id="file-input" value="Upload here" type="file" />
-                                </label>
-                            </div>
-                            <div class="progress-bar-resume-bulk">
-                                <div class="file-progress-bar">
-                                    <div class="progress-part-f">
-                                        <h3>Uploading...</h3>
-                                        <p>65% • 30 seconds remaining</p>
-                                    </div>
-                                    <div class="two-img-bulk">
-                                        <img src="../../image/pause-file.png" alt="">
-                                        <img src="../../image/chat-cut.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar bg-success progress-bar-color" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="file-uploaded-resume-bulk">
-                                <img src="../../image/zip-res.png" alt="">
-                                <div class="file-file-complte-bulk">
-                                    <div class="progress-part-f">
-                                        <h3>React java developers resume.zip</h3>
-                                        <p>5.3MB</p>
-                                    </div>
-                                </div>
-                                <div class="two-img-bulk">
-                                    <img src="../../image/chat-cut.png" alt="">
-                                </div>
-                            </div>
                         </div>
                     </form>
-                </div>
-                <div class="admin-form-btn">
-                    <!-- <a href="./steup-department.html"> <button class="cancel-admin">Cancel</button></a> -->
-                    <button class="next-admin">Analyze resumes</button>
                 </div>
             </div>
             <footer class="footer-admin">

@@ -16451,6 +16451,7 @@ ul.progressbar-admin li {
     background: #FFF;
     padding: 32px 24px 24px 24px;
     margin-top: 20px;
+    position: relative;
 }
 
 .admin-from-step {
@@ -18133,6 +18134,19 @@ img.show-tooltip:hover~.tooltip-jd-resume {
     font-family: var(--arial-main);
 }
 
+.text-filter-admin-bulk {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.text-filter-admin-bulk p {
+    color: #000000;
+    font-family: var(--arial-main);
+    font-weight: var(--font-weight-medium);
+}
+
 
 /******bulk resume upload dashbord ***/
 
@@ -18289,6 +18303,59 @@ p.resume-bulk-res {
 
 .file-file-complte-bulk {
     width: 100%;
+}
+
+
+/******bulk View Job Description ***/
+
+.feild-f-job-title-bulk {
+    width: 100%;
+    max-width: 48%;
+    position: relative;
+}
+
+.bulk-edit-resume-form {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    cursor: pointer;
+}
+
+
+/****footer of admin ****/
+
+footer.footer-admin {
+    position: relative;
+    height: 12vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-admin-content {
+    position: absolute;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 25px 50px 25px 0;
+    text-align: center;
+    color: rgb(0 0 0 / 40%);
+    text-align: center;
+}
+
+ul.list-footer-admin {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    gap: 33px;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+ul.list-footer-admin li {
+    font-size: 12px;
+    font-family: var(--arial-main);
+    font-weight: 400;
 }
 
 
