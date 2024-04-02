@@ -15479,11 +15479,12 @@ ul.inner-dropdown.d-block li.sub-children.nav-item.icon-crv.active>a.menu-btn {
 
 .pl-2rem {
     padding-left: 2rem;
-  }
-  
-  .sidebar-link span {
+}
+
+.sidebar-link span {
     margin-left: 12px;
-  }
+}
+
 
 /* .sidebar-link.active span{
     color: var(--dark-black-color) !important;
@@ -17253,9 +17254,9 @@ button.edit-form-user {
 }
 
 .form-fill-user {
-    color: rgb(0 0 0 / 100%);
+    color: var(--dark-black-color);
     font-family: var(--arial-main);
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 400;
     word-break: break-all;
 }
@@ -18144,7 +18145,7 @@ img.show-tooltip:hover~.tooltip-jd-resume {
 }
 
 .text-filter-admin-bulk p {
-    color: #000000;
+    color: var(--dark-black-color);
     font-family: var(--arial-main);
     font-weight: var(--font-weight-medium);
 }
@@ -18321,6 +18322,32 @@ p.resume-bulk-res {
     right: 15px;
     top: 12px;
     cursor: pointer;
+}
+
+
+/******bulk View Job Description data dill ***/
+
+.f-job-title-bulk-datafill {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+ul.bulk-datafill-list {
+    color: var(--dark-black-color);
+    font-family: var(--arial-main);
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.form-fill-user-list {
+    color: var(--dark-black-color);
+    font-family: var(--arial-main);
+    font-size: 13px;
+    font-weight: 400;
+    word-break: break-all;
+    padding: 20px 0 10px 0;
 }
 
 
