@@ -18336,18 +18336,36 @@ p.resume-bulk-res {
 ul.bulk-datafill-list {
     color: var(--dark-black-color);
     font-family: var(--arial-main);
-    font-size: 13px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 22px;
     font-weight: 400;
+}
+
+.form-fill-user-bulk {
+    color: var(--dark-black-color);
+    font-family: var(--arial-main);
+    font-size: 16px;
+    font-weight: 400;
+    word-break: break-all;
+    line-height: 20px;
 }
 
 .form-fill-user-list {
     color: var(--dark-black-color);
     font-family: var(--arial-main);
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 400;
+    line-height: 22px;
     word-break: break-all;
     padding: 20px 0 10px 0;
+}
+
+.f-admin-fill label {
+    color: var(--dark-black-color);
+    font-size: 20px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--arial-main);
+    margin-bottom: 15px;
 }
 
 
