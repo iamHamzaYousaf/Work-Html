@@ -18246,8 +18246,8 @@ p.resume-bulk-res {
     color: var(--dark-black-color);
     font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 18px;
     min-width: 141px;
     padding: 8px 0;
     border-radius: 4px;
@@ -18373,48 +18373,82 @@ ul.bulk-datafill-list {
 
 .two-card-admin-request {
     display: flex;
-    padding: 20px 0 60px 30px;
+    padding: 20px 0 60px 0px;
 }
 
-.card-left-request,
-.card-right-request {
+.card-left-request {
     background: #fff;
     border: 1px solid #2B2B2B33;
-    width: 460px;
-    margin-right: 30px;
+    width: 100%;
     border-radius: 8px;
-    padding: 20px;
+}
+
+.first-row-request-bulk {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 12px;
+    border-bottom: 1px solid rgb(43 43 43 / 20%);
+}
+
+.seacond-row-request-bulk {
+    display: flex;
+    padding: 15px 0 12px 17px;
+    gap: 100px;
+}
+
+.third-row-request-bulk {
+    display: flex;
+    padding: 10px 0 20px 17px;
+    gap: 100px;
 }
 
 .row-list-request {
     display: flex;
     gap: 20px;
-    margin-bottom: 10px;
     align-items: center;
+    min-width: 320px;
 }
 
-.row-list-request:last-of-type {
-    margin-bottom: 0px;
+.top-part-img-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 .left-part-img-ad {
     display: flex;
     gap: 10px;
     align-items: center;
-    min-width: 200px;
-}
-
-.left-part-img-ad img {
-    height: 24px;
-    width: 24px;
-    object-fit: contain;
+    min-width: 165px;
 }
 
 p.name-image-left {
-    font-size: 20px;
+    font-size: 22px;
     font-family: var(--arial-main);
     font-weight: var(--font-weight-bold);
     color: var(--dark-black-color);
+}
+
+p.name-image-left-below {
+    font-size: 16px;
+    font-family: var(--arial-main);
+    font-weight: var(--font-weight-bold);
+    color: var(--dark-black-color);
+}
+
+.right-content-request-admin {
+    font-size: 16px;
+    font-family: var(--arial-main);
+    font-weight: 400;
+    color: var(--dark-black-color);
+}
+
+.right-green-request-admin {
+    font-size: 16px;
+    font-family: var(--arial-main);
+    font-weight: 700;
+    color: #07944F;
 }
 
 
