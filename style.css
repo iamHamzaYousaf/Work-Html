@@ -3152,6 +3152,11 @@ p.error-email {
     outline: 0;
 }
 
+.error-input.bulk-res-file-upload {
+    border: 1px dashed var(--error-msg-color) !important;
+    outline: 0;
+}
+
 input:focus-visible,
 textarea:focus-visible {
     outline: 0;
@@ -17626,21 +17631,21 @@ p.slot-heading-r {
     justify-content: space-between;
     align-items: center;
     border-radius: 8px;
-    border: 1px solid rgba(20, 57, 117, 0.20);
-    background: #F2F7FF;
+    border: 1px solid rgba(43, 43, 43, 0.20);
+    background: var(--Whisper-color);
     padding: 16px 12px;
     margin: 15px 0;
 }
 
 p.postion-list-c {
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-size: 18px;
     font-weight: var(--font-weight-bold);
     font-family: var(--arial-main);
 }
 
 p.list-date-c {
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-size: 12px;
     font-weight: var(--font-weight-bold);
     font-family: var(--arial-main);
@@ -17650,9 +17655,9 @@ button.boooking-req {
     width: 100%;
     padding: 14px 10px;
     border-radius: 8px;
-    border: 1px solid var(--blue-gery-color);
+    border: 1px solid var(--dark-black-color);
     background: var(--color-white);
-    color: var(--blue-gery-color);
+    color: var(--dark-black-color);
     text-align: center;
     font-family: var(--arial-main);
     font-size: 16px;
