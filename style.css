@@ -18372,35 +18372,43 @@ ul.bulk-datafill-list {
 /*********request detail admin*****/
 
 .two-card-admin-request {
-    display: flex;
     padding: 20px 0 60px 0px;
+    width: 100% !important;
 }
 
 .card-left-request {
     background: #fff;
     border: 1px solid #2B2B2B33;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
     border-radius: 8px;
+    flex-wrap: wrap;
 }
 
 .first-row-request-bulk {
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 10px 100px;
     padding: 12px;
     border-bottom: 1px solid rgb(43 43 43 / 20%);
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .seacond-row-request-bulk {
     display: flex;
     padding: 15px 0 12px 17px;
-    gap: 100px;
+    gap: 10px 100px;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .third-row-request-bulk {
     display: flex;
     padding: 10px 0 20px 17px;
-    gap: 100px;
+    gap: 10px 100px;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .row-list-request {
