@@ -11562,7 +11562,7 @@ ul.list-item-delet li {
     display: flex;
     justify-content: space-between;
     padding: 9px 7px;
-    color: #121212;
+    color: var(--dark-black-color);
     font-family: var(--arial-main);
     font-size: 13px;
     font-weight: 400;
@@ -11571,7 +11571,8 @@ ul.list-item-delet li {
 
 ul.list-item-delet li:hover {
     border-radius: 4px;
-    background: #F2F7FF;
+    background: var(--Whisper-color);
+    font-weight: var(--font-weight-bold);
 }
 
 
@@ -18394,7 +18395,7 @@ ul.bulk-datafill-list {
 .first-row-request-bulk {
     display: flex;
     align-items: center;
-    gap: 10px 100px;
+    gap: 10px 77px;
     padding: 12px;
     border-bottom: 1px solid rgb(43 43 43 / 20%);
     width: 100%;
@@ -18428,6 +18429,7 @@ ul.bulk-datafill-list {
     display: flex;
     gap: 10px;
     align-items: center;
+    min-width: 165px;
 }
 
 .left-part-img-ad {
