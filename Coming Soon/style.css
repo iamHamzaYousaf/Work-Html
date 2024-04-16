@@ -2,6 +2,7 @@
     --color-white: #fff;
     --error-msg-color: #E15C52;
     --dark-black-color: #2B2B2B;
+    --pacific-blue-color: #009FB5;
     --museo-sans: 'Museo Sans';
     --outfit: 'Outfit';
     /*** FONT WEIGHT ***/
@@ -80,6 +81,10 @@ section.comming-soon {
     padding: 50px 0 100px;
 }
 
+.yello-img-left {
+    padding-top: 50px;
+}
+
 h1.coomig-soon-heading {
     color: var(--dark-black-color);
     font-weight: 400;
@@ -95,8 +100,10 @@ h1.coomig-soon-heading {
 
 .yello-img-left img {
     max-width: 100%;
-    width: 400px;
-    height: 400px;
+    height: 380px;
+    width: 475px;
+    object-fit: contain;
+    margin: 0 auto;
 }
 
 .yello-img-left,
@@ -225,6 +232,76 @@ p.error-msg-soon {
     margin-bottom: 0;
 }
 
+.seacond-row-coming {
+    padding: 150px 0 100px 0;
+}
+
+h2.coomig-soon-heading-two {
+    color: var(--dark-black-color);
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Arial';
+}
+
+h2.coomig-soon-heading-two span {
+    color: var(--pacific-blue-color);
+}
+
+p.job-posting-text {
+    color: var(--dark-black-color);
+    font-family: 'Arial';
+    font-size: 34px;
+    line-height: 48px;
+    font-weight: 400;
+    text-align: left;
+    width: 950px;
+    padding: 20px 0;
+}
+
+.tree-img-comingsoon {
+    text-align: end;
+}
+
+.tree-img-comingsoon img {
+    max-width: 100%;
+}
+
+.laptop-sec img {
+    max-width: 100%;
+}
+
+.collision-sec {
+    background-image: url('./image/text-balck-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0 150px 0;
+}
+
+.left-text-collision {
+    width: 510px;
+}
+
+p.collision-text-para {
+    color: var(--dark-black-color);
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 400;
+    font-family: 'Arial';
+}
+
+button.collosion-btn {
+    background: var(--dark-black-color);
+    color: #fff;
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 400;
+    font-family: 'Arial';
+    padding: 14px 30px 14px 30px;
+    border-radius: 40px;
+    border: 0;
+}
+
 
 /********coming soon model******/
 
@@ -313,7 +390,8 @@ p.text-cmingsoon-sucess {
 
 @media only screen and (max-width:1050px) {
     /*******comming soon page **********/
-    h1.coomig-soon-heading {
+    h1.coomig-soon-heading,
+    h2.coomig-soon-heading-two {
         font-size: 34px;
     }
     .img-fprm-comming-soon {
@@ -338,12 +416,30 @@ p.text-cmingsoon-sucess {
     .right-form-commingsoon {
         padding: 0;
     }
+    .seacond-row-coming {
+        padding: 50px 0;
+    }
+    p.job-posting-text {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    p.collision-text-para,
+    button.collosion-btn {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    section.comming-soon {
+        padding: 50px 0 0px;
+    }
 }
 
 @media only screen and (max-width:859px) and (min-width:768px) {
     /******header******/
     .row-log {
         align-items: center;
+    }
+    p.job-posting-text {
+        width: auto;
     }
 }
 
@@ -363,7 +459,8 @@ p.text-cmingsoon-sucess {
     section.comming-soon {
         padding: 30px 0;
     }
-    h1.coomig-soon-heading {
+    h1.coomig-soon-heading,
+    h2.coomig-soon-heading-two {
         font-size: 30px;
     }
     p.free-job-posting {
@@ -374,5 +471,24 @@ p.text-cmingsoon-sucess {
     }
     button.subscribe-btn {
         width: 25%;
+    }
+    p.job-posting-text,
+    .left-text-collision {
+        width: auto;
+    }
+    .collision-sec {
+        padding: 50px 0 50px 0;
+    }
+    p.job-posting-text {
+        font-size: 20px;
+    }
+    .tree-img-comingsoon {
+        text-align: center;
+    }
+    .seacond-row-coming {
+        padding: 50px 0 0 0;
+    }
+    .yello-img-left {
+        padding-top: 0;
     }
 }
