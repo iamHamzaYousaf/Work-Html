@@ -11972,7 +11972,8 @@ p.summary-jour-content {
 /******main tabs of journey***********/
 
 ul.nav.nav-tabs.mb-3.tabs-summary {
-    justify-content: center;
+    justify-content: left;
+    gap: 40px;
 }
 
 .table-user-permission {
@@ -12235,18 +12236,18 @@ p.right-col-jour-sub-content {
 }
 
 .tab-size-jour {
-    font-size: 18px !important;
+    font-size: 20px !important;
     font-family: var(--arial-main) !important;
     font-weight: 500 !important;
+    line-height: 20px;
     color: rgba(0, 0, 0, 0.3) !important;
-}
-
+  }
+  
 a.active.tab-size-jour {
-    font-size: 18px !important;
-    font-family: var(--arial-main) !important;
     font-weight: var(--font-weight-bold) !important;
     color: var(--primary-color) !important;
 }
+  
 
 a.nav-link.active.tab-size-jour {
     background: transparent !important;
