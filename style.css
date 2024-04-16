@@ -11562,7 +11562,7 @@ ul.list-item-delet li {
     display: flex;
     justify-content: space-between;
     padding: 9px 7px;
-    color: #121212;
+    color: var(--dark-black-color);
     font-family: var(--arial-main);
     font-size: 13px;
     font-weight: 400;
@@ -11571,7 +11571,8 @@ ul.list-item-delet li {
 
 ul.list-item-delet li:hover {
     border-radius: 4px;
-    background: #F2F7FF;
+    background: var(--Whisper-color);
+    font-weight: var(--font-weight-bold);
 }
 
 
@@ -11971,7 +11972,8 @@ p.summary-jour-content {
 /******main tabs of journey***********/
 
 ul.nav.nav-tabs.mb-3.tabs-summary {
-    justify-content: center;
+    justify-content: left;
+    gap: 40px;
 }
 
 .table-user-permission {
@@ -12234,18 +12236,18 @@ p.right-col-jour-sub-content {
 }
 
 .tab-size-jour {
-    font-size: 18px !important;
+    font-size: 20px !important;
     font-family: var(--arial-main) !important;
     font-weight: 500 !important;
+    line-height: 20px;
     color: rgba(0, 0, 0, 0.3) !important;
-}
-
+  }
+  
 a.active.tab-size-jour {
-    font-size: 18px !important;
-    font-family: var(--arial-main) !important;
     font-weight: var(--font-weight-bold) !important;
     color: var(--primary-color) !important;
 }
+  
 
 a.nav-link.active.tab-size-jour {
     background: transparent !important;
@@ -18403,7 +18405,7 @@ ul.bulk-datafill-list {
 
 .seacond-row-request-bulk {
     display: flex;
-    padding: 15px 0 12px 17px;
+    padding: 20px 0 12px 17px;
     gap: 10px 100px;
     flex-wrap: wrap;
     width: 100%;
