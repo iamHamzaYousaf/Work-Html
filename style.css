@@ -3085,7 +3085,6 @@ p.error-msg {
     line-height: 24px;
     font-weight: var(--font-weight-medium);
     font-family: var(--arial-main);
-    text-transform: capitalize;
 }
 
 p.error-msg-date-res {
@@ -3095,7 +3094,6 @@ p.error-msg-date-res {
     line-height: 24px;
     font-weight: var(--font-weight-medium);
     font-family: var(--arial-main);
-    text-transform: capitalize;
 }
 
 p.error-msg-verify-email {
@@ -3104,7 +3102,6 @@ p.error-msg-verify-email {
     font-size: 14px;
     font-weight: var(--font-weight-medium);
     font-family: var(--arial-main);
-    text-transform: capitalize;
     margin: 20px 0px;
 }
 
