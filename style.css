@@ -18394,7 +18394,7 @@ ul.bulk-datafill-list {
 .first-row-request-bulk {
     display: flex;
     align-items: center;
-    gap: 10px 100px;
+    gap: 10px 77px;
     padding: 12px;
     border-bottom: 1px solid rgb(43 43 43 / 20%);
     width: 100%;
@@ -18428,6 +18428,7 @@ ul.bulk-datafill-list {
     display: flex;
     gap: 10px;
     align-items: center;
+    min-width: 165px;
 }
 
 .left-part-img-ad {
