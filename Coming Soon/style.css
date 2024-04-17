@@ -365,6 +365,10 @@ p.bottom-text-coming {
     font-weight: 400;
 }
 
+.laptop-tabledata {
+    padding-top: 50px;
+}
+
 
 /********coming soon model******/
 
@@ -526,7 +530,7 @@ p.text-cmingsoon-sucess {
         padding: 30px 0;
     }
     h1.coomig-soon-heading {
-        font-size: 30px;
+        font-size: 24px;
     }
     h2.coomig-soon-heading-two {
         font-size: 24px;
