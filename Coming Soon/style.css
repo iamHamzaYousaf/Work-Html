@@ -147,7 +147,7 @@ input.email-form {
     padding: 12px 16px;
 }
 
-button.subscribe-btn {
+.subscribe-btn {
     background: #009FB5;
     color: var(--color-white);
     border-radius: 0px 8px 8px 0px;
@@ -305,7 +305,7 @@ p.collision-text-para {
     height: 800px;
 }
 
-button.collosion-btn {
+.collosion-btn {
     background: var(--dark-black-color);
     color: #fff;
     font-size: 26px;
@@ -317,7 +317,7 @@ button.collosion-btn {
     border: 0;
 }
 
-button.register-btn {
+.register-btn {
     display: block;
     margin: 50px auto 0;
     background: #288C70;
@@ -487,7 +487,7 @@ p.text-cmingsoon-sucess {
         line-height: 30px;
     }
     p.collision-text-para,
-    button.collosion-btn {
+    .collosion-btn {
         font-size: 20px;
         line-height: 30px;
     }
@@ -537,7 +537,7 @@ p.text-cmingsoon-sucess {
     input.email-form {
         width: 75%;
     }
-    button.subscribe-btn {
+    .subscribe-btn {
         width: 25%;
     }
     p.job-posting-text {
@@ -568,7 +568,7 @@ p.text-cmingsoon-sucess {
         display: block;
         width: 100%;
     }
-    button.register-btn {
+    .register-btn {
         display: block;
         margin: 50px auto;
         color: #fff;
@@ -580,7 +580,7 @@ p.text-cmingsoon-sucess {
         font-size: 16px;
         line-height: 25px;
     }
-    button.collosion-btn {
+    .collosion-btn {
         font-size: 16px;
         line-height: 18px;
     }
