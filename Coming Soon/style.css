@@ -268,6 +268,7 @@ p.job-posting-text {
 
 .laptop-sec img {
     max-width: 100%;
+    width: 100%;
 }
 
 .collision-sec {
@@ -300,6 +301,25 @@ button.collosion-btn {
     padding: 14px 30px 14px 30px;
     border-radius: 40px;
     border: 0;
+}
+
+button.register-btn {
+    display: block;
+    margin: 50px auto 0;
+    background: #288C70;
+    color: #fff;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'Arial';
+    padding: 20px 60px 20px 60px;
+    border-radius: 40px;
+    border: 1px solid #288C70;
+    min-width: 315px;
+}
+
+img.mbl-group {
+    display: none;
 }
 
 
@@ -431,6 +451,9 @@ p.text-cmingsoon-sucess {
     section.comming-soon {
         padding: 50px 0 0px;
     }
+    .yello-img-left {
+        padding-top: 0px;
+    }
 }
 
 @media only screen and (max-width:859px) and (min-width:768px) {
@@ -459,9 +482,11 @@ p.text-cmingsoon-sucess {
     section.comming-soon {
         padding: 30px 0;
     }
-    h1.coomig-soon-heading,
-    h2.coomig-soon-heading-two {
+    h1.coomig-soon-heading {
         font-size: 30px;
+    }
+    h2.coomig-soon-heading-two {
+        font-size: 24px;
     }
     p.free-job-posting {
         font-size: 17px;
@@ -472,15 +497,20 @@ p.text-cmingsoon-sucess {
     button.subscribe-btn {
         width: 25%;
     }
-    p.job-posting-text,
-    .left-text-collision {
+    p.job-posting-text {
         width: auto;
     }
     .collision-sec {
         padding: 50px 0 50px 0;
+        background-position: 0px -45px;
+        background-size: contain;
+    }
+    .left-text-collision {
+        width: 250px;
     }
     p.job-posting-text {
-        font-size: 20px;
+        font-size: 16px;
+        line-height: 24px;
     }
     .tree-img-comingsoon {
         text-align: center;
@@ -488,7 +518,26 @@ p.text-cmingsoon-sucess {
     .seacond-row-coming {
         padding: 50px 0 0 0;
     }
-    .yello-img-left {
-        padding-top: 0;
+    img.desktop-img {
+        display: none;
+    }
+    img.mbl-group {
+        display: block;
+    }
+    button.register-btn {
+        display: block;
+        margin: 50px auto;
+        color: #fff;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 16px 50px 16px 50px;
+    }
+    p.collision-text-para {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    button.collosion-btn {
+        font-size: 16px;
+        line-height: 18px;
     }
 }
