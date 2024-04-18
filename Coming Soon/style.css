@@ -11,6 +11,12 @@
 }
 
 @font-face {
+    font-family: 'Source Serif Pro';
+    src: url('fonts/SourceSerifPro-Regular.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
     font-family: 'Arial';
     src: url('fonts/ArialMT.woff') format('woff');
     font-weight: normal;
@@ -389,8 +395,8 @@ p.bottom-text-coming {
 .right-founder {
     font-size: 28px;
     color: var(--color-white);
-    font-family: 'Arial';
-    font-weight: 600;
+    font-family: var(--source-pro);
+    font-weight: 500;
 }
 
 
