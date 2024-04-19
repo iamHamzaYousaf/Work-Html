@@ -270,6 +270,10 @@ p.job-posting-text {
     padding: 20px 0;
 }
 
+.job-posting-text span{
+    color: var(--pacific-blue-color);
+}
+
 .tree-img-comingsoon {
     text-align: end;
 }
