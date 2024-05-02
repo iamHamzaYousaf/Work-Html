@@ -17740,7 +17740,7 @@ button.boooking-req {
 .avaliable-post-cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 70px;
     justify-content: center;
     padding-top: 35px;
 }
@@ -17952,7 +17952,7 @@ img.prom-cross {
 }
 
 
-/*******promotion job ******/
+/*******promotion job  slot ******/
 
 .card-slot-bg-clr-job {
     padding: 20px 10px;
@@ -17964,33 +17964,82 @@ img.prom-cross {
     box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.14);
 }
 
+.first-row-full {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-row-full img {
+    margin-top: -70px;
+}
+
+p.job-postion-avalibe-full {
+    color: var(--dark-black-color);
+    font-size: 16px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--arial-main);
+    text-align: center;
+    width: 100%;
+}
+
+p.job-postion-avalibe-salary {
+    color: var(--dark-black-color);
+    font-size: 16px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--arial-main);
+}
+
+.jobh-slot-title-logo-company {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
 .card-slot-bg-dark-card-job {
     padding: 20px 10px;
     border-radius: 12px;
     border: 1px solid rgba(0, 0, 0, 0.10);
-    background: #D1D1D1;
+    background: rgba(242, 242, 242, 1);
     max-width: 100%;
     width: 100%;
     box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.14);
+}
+
+.job-slot-salary-company {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding-bottom: 15px;
 }
 
 .com-logo-jd-prom {
     align-items: center;
     display: flex;
     gap: 20px;
+    min-width: 250px;
 }
 
-p.job-postion-avalibe-full {
-    color: var(--primary-color);
-    font-size: 16px;
+p.job-title-salary,
+p.slot-name-card-work {
+    color: var(--dark-black-color);
+    font-size: 12px;
     font-weight: var(--font-weight-bold);
     font-family: var(--arial-main);
-    text-align: center;
 }
 
 p.job-title-promtion {
-    color: var(--primary-color);
+    color: var(--dark-black-color);
     font-size: 16px;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--arial-main);
+}
+
+p.slot-name-card-avalibe {
+    color: var(--dark-black-color);
+    font-size: 14px;
+    text-align: center;
     font-weight: var(--font-weight-bold);
     font-family: var(--arial-main);
 }
@@ -18012,9 +18061,9 @@ p.logo-card-avaliable-full {
 
 p.full-content-c {
     color: rgb(0 0 0 / 100%);
-    padding-bottom: 15px;
-    font-size: 10px;
-    font-weight: 300;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
     font-family: var(--arial-main);
     padding-bottom: 0;
 }
@@ -18048,6 +18097,10 @@ p.logo-card-avaliable-dark {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+input#selct-btn-c {
+    accent-color: rgba(0, 159, 181, 1);
 }
 
 
