@@ -13849,6 +13849,53 @@ input.save-res-btn {
 }
 
 
+/*******al suggestion resume***/
+
+.btn-resume-magic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resume-check-ai {
+    font-size: 16px;
+    font-family: var(--arial-main);
+    font-weight: var(--font-weight-bold);
+    color: var(--dark-black-color);
+}
+
+input.ai-suggestion-resume {
+    margin-right: 4px;
+}
+
+.check-box-resumme {
+    padding: 20px;
+    border-radius: 8px;
+    background: #DDDEEE40;
+    border: 0.5px solid #00000029;
+    margin-top: 15px;
+}
+
+.check-box-f-res {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+label.checkbox-label-resume {
+    font-size: 16px;
+    font-family: var(--arial-main);
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--dark-black-color);
+}
+
+input.ai-resume-resume {
+    margin-top: 6px;
+}
+
+
 /**********certificate tab resume**********/
 
 p.right-resume-certificate {
