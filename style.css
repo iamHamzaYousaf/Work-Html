@@ -21624,7 +21624,7 @@ margin-bottom: 20px;
     }
     .listing-resume .rr {
         padding: 0;
-        text-align: left;
+        text-align: end;
         width: 100%;
     }
     .rr.file-name {
@@ -21638,9 +21638,64 @@ margin-bottom: 20px;
         color: var(--dark-black-color);
         font-size: 20px;
         font-weight: 700;
+        text-align: left;
     }
     .listing-resume .listing-resume-body {
         align-items: unset;
+    }
+    .listing-resume .action-res {
+        position: absolute;
+        right: 12px;
+        top: 12px;
+        width: auto;
+    }
+    strong.d-md-none.mr-1.post-w-url {
+        min-width: 102px;
+    }
+    .listing-resume .action-res .btn {
+        padding: 0;
+    }
+    p.date-sapce-res {
+        padding-top: 15px;
+    }
+    .listing-resume .action-res .cv-cions-res {
+        background-color: var(--color-white);
+        border-radius: 8px;
+        box-shadow: 0 1px 12px 4px #0000000f;
+        flex-direction: column;
+        gap: 0;
+        opacity: 0;
+        padding: 12px 8px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        transition: all .25s ease-in;
+        width: 240px;
+        z-index: -9;
+    }
+    .listing-resume .action-res .cv-cions-res>* {
+        align-items: center;
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 0;
+        justify-content: space-between;
+        padding: 6px 10px;
+        width: 100%;
+    }
+    .listing-resume .action-res .cv-cions-res .img-table-tooltip .tooltip-table {
+        background: #0000;
+        border: 0;
+        font-size: 16px;
+        left: 0;
+        opacity: 1;
+        padding: 0 0 0 8px;
+        position: relative;
+        top: 0;
+    }
+    .listing-resume .action-res .cv-cions-res.active {
+        opacity: 1;
+        top: 100%;
+        z-index: 1;
     }
 }
 
