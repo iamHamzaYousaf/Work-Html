@@ -10861,6 +10861,8 @@ input.chat-user-in-f {
 .rr.post-url a {
     text-decoration-thickness: 1px;
     text-underline-offset: 5px;
+    color: #143975;
+    word-break: break-all;
 }
 
 .listing-resume .listing-resume-body,
@@ -13950,6 +13952,10 @@ label.checkbox-label-resume {
 
 input.ai-resume-resume {
     margin-top: 6px;
+}
+
+input.ai-resume-resume {
+    accent-color: #2b2b2b;
 }
 
 
@@ -17853,14 +17859,14 @@ button.boooking-req {
 }
 
 .availabel-slot-sec {
-    padding-top: 32px;
+    padding: 32px 40px 0;
 }
 
 .avaliable-post-cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 70px;
-    justify-content: center;
+    gap: 40px;
+    justify-content: flex-start;
     padding-top: 35px;
 }
 
