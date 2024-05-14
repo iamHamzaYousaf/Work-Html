@@ -18346,6 +18346,10 @@ p.c-content-c-left {
     padding-top: 35px;
 }
 
+.active-boder-clr {
+    border: 1px solid #009FB5;
+}
+
 
 /*******delet model css***********/
 
