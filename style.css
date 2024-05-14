@@ -17903,6 +17903,7 @@ button.boooking-req {
     border: 1px solid #2B2B2B1A;
     background: linear-gradient(180deg, rgba(242, 242, 242, 1) 34%, rgba(255, 255, 255, 1) 34%);
     box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.14);
+    border-bottom: 0;
 }
 
 .active-color-card p.job-no-cir-avaliable {
@@ -17987,6 +17988,7 @@ input#selct-btn-c {
     border: 1px solid #2B2B2B1A;
     background: linear-gradient(180deg, rgba(0, 159, 181, 0.2) 34%, rgba(255, 255, 255, 1) 34%);
     box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.14);
+    border-bottom: 0;
 }
 
 p.logo-card-avaliable-dark {
@@ -18285,8 +18287,9 @@ input#selct-btn-c {
     max-width: 100%;
     border-radius: 12px;
     border: 1px solid #2B2B2B1A;
-    background: linear-gradient(180deg, rgba(242, 242, 242, 1) 25%, rgba(255, 255, 255, 1) 25%);
+    background: linear-gradient(180deg, rgba(242, 242, 242, 1) 20%, rgba(255, 255, 255, 1) 20%);
     box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.14);
+    border-bottom: 0;
 }
 
 .card-slot-bg-dark-card-left {
@@ -18295,8 +18298,52 @@ input#selct-btn-c {
     max-width: 100%;
     border-radius: 12px;
     border: 1px solid #2B2B2B1A;
-    background: linear-gradient(180deg, rgba(0, 159, 181, 1) 24%, rgba(255, 255, 255, 1) 24%);
+    background: linear-gradient(180deg, rgba(0, 159, 181, 1) 20%, rgba(255, 255, 255, 1) 20%);
     box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.14);
+    border-bottom: 0;
+}
+
+.logo-postion-promotion-left {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    top: 40px;
+}
+
+.cross-company-left {
+    text-align: center;
+}
+
+.cross-company-left img {
+    margin-top: -15px;
+    padding-bottom: 5px;
+}
+
+p.c-name-card-left {
+    color: var(--dark-black-color);
+    padding: 10px 0 0px;
+    font-size: 14px;
+    text-align: left;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--arial-main);
+}
+
+p.c-content-c-left {
+    color: var(--dark-black-color);
+    padding: 10px 0 20px;
+    font-size: 10px;
+    text-align: left;
+    font-weight: 400;
+    font-family: var(--arial-main);
+}
+
+.avaliable-post-cards-right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 65px;
+    justify-content: flex-start;
+    padding-top: 35px;
 }
 
 
