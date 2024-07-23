@@ -18423,6 +18423,147 @@ p.text-prom-below {
 }
 
 
+/****invite pepole model css*******/
+
+section.invite-model {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    /* background: rgb(0 0 0 / 80%); */
+    top: 0%;
+}
+
+.popup-bg-invite-pople {
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 18px;
+    padding: 14px 24px;
+    background: #FFF;
+    box-shadow: 0px 1px 25px 8px rgba(0, 0, 0, 0.12);
+    margin: 50px auto 0;
+}
+
+.inivite-logo img {
+    max-width: 100%;
+    width: 145px;
+    margin: 0 auto;
+}
+
+.popup-invite-list-content {
+    width: 100%;
+    margin: 0px auto 0;
+    position: relative;
+}
+
+.close-img-invite {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+}
+
+.invite-pople-heading {
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--dark-black-color);
+    font-family: var(--arial-main);
+    font-weight: var(--font-weight-bold);
+    padding: 20px 0 15px 0;
+    border-bottom: 1px solid rgb(0 0 0 / 20%);
+}
+
+.invite-form-box {
+    border-radius: 16px;
+    background: #FFF;
+    margin-top: 20px;
+    position: relative;
+    padding-top: 20px;
+}
+
+.invite-from-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px 18px;
+    flex-wrap: wrap;
+}
+
+.list-of-pepole {
+    display: flex;
+    align-items: center;
+    border: 1px solid #2B2B2B33;
+    gap: 15px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+a.img-invite {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 13px;
+    color: var(--dark-black-color);
+    font-family: var(--arial-main);
+    font-weight: 400;
+}
+
+.image-name-log-invite {
+    display: flex;
+    gap: 15px;
+}
+
+p.invite-name {
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--dark-black-color);
+    font-family: var(--arial-main);
+    font-weight: 400;
+}
+
+p.degnation-invite {
+    color: #2B2B2B99;
+    font-size: 10px;
+    line-height: 18px;
+    font-family: var(--arial-main);
+    font-weight: 400;
+}
+
+.inivte-pepole-list-sec {
+    margin: 20px 0 0 0;
+    padding: 0 20px;
+    background: #fff;
+    overflow: auto;
+    max-height: 370px;
+    overflow-y: auto;
+    border-top: 1px solid rgb(0 0 0 / 20%);
+    border-bottom: 1px solid rgb(0 0 0 / 20%);
+}
+
+.inivte-pepole-list-sec::-webkit-scrollbar {
+    width: 12px;
+}
+
+.inivte-pepole-list-sec::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+.inivte-pepole-list-sec::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #2B2B2B3D;
+}
+
+.list-of-pepole:last-of-type {
+    margin-bottom: 15px;
+}
+
+
 /************bulk resume admin********/
 
 .th-status-res {
@@ -21826,6 +21967,25 @@ margin-bottom: 20px;
         opacity: 1;
         top: 100%;
         z-index: 1;
+    }
+    /****invite pepole model css mbl*******/
+    .popup-bg-invite-pople {
+        width: auto;
+    }
+    .feild-f-admin {
+        max-width: 100%;
+    }
+    .inivte-pepole-list-sec {
+        padding: 0 10px;
+    }
+    .list-of-pepole {
+        justify-content: unset;
+        gap: 5px 15px;
+    }
+    img.invite-res {
+        position: absolute;
+        right: 15px;
+        top: 10px;
     }
 }
 
