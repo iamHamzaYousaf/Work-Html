@@ -18563,6 +18563,13 @@ p.degnation-invite {
     margin-bottom: 15px;
 }
 
+.text-filter-icon div img,
+.text-filter-icon img,
+.text-filter-icon-table div img,
+.text-filter-admin img {
+    height: 10px;
+}
+
 
 /************bulk resume admin********/
 
