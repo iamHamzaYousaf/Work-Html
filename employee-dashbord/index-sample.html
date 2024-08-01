@@ -1,111 +1,355 @@
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="../style.css">
-    <title>WorkBridge Portal</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../style.css" />
+  <title>WorkBridge Portal</title>
 </head>
 
 <body>
-    <div class="all-page-bg-clr">
-        <header>
-            <div class="container container-site-profile">
-                <div class="row-log candidate-profile-header">
-                    <div class="logo-col-profile-candidate logo-col-profile-left">
-                        <a href="#"><img src="../image/WORKBRIDGE.png" alt="logo"></a>
-                        <div class="find-job-btn-candidate-dashbord">
-                            <a href="#"><button>Find a Job</button></a>
-                        </div>
-                    </div>
-                    <div class="profile-right-col hide-wishlist-style">
-                        <div class="candidate-name-img icon-cursor">
-                            <img src="../image/profile.png" alt="">
-                            <p class="candidate-name">Hi, John</p>
-                        </div>
-                        <div class="toggle-icon-profile icon-cursor">
-                            <img src="../image/menu-profile.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="dropdown-dashbord hide-show-click">
-                    <ul>
-                        <a href="#">
-                            <li>Dashboard</li>
-                        </a>
-                        <a href="#">
-                            <li>My Profile</li>
-                        </a>
-                        <a href="#">
-                            <li>Wishlist</li>
-                        </a>
-                        <a href="#">
-                            <li>Logout</li>
-                        </a>
-                    </ul>
-                </div>
+  <div class="all-page-bg-clr">
+    <header>
+      <div class="container container-site-profile">
+        <div class="row-log candidate-profile-header">
+          <div class="logo-col-profile-candidate logo-col-profile-left">
+            <a href="#"><img src="..../image/WORKBRIDGE.png" alt="logo" /></a>
+            <div class="find-job-btn-candidate-dashbord">
+              <a href="#"><button>Find a Job</button></a>
             </div>
-        </header>
-        <!-----------employee dashbord-->
-        <main class='container'>
-            <div class='chat-wrapper'>
-                <div class="chat-header chat-grid">
-                    <div class='listing-wrap'>
-                        <input type='text' placeholder='Search' class='p-2 rounded' style="border: 0.5px solid #2B2B2B4D; width: 93% " />
-                    </div>
-                    <div class='msg-wrap btns-group'>
-                        <div class="right-btn-chat">
-                            <button class='btn btn-outline-black active'>Recent</button>
-                            <button class='btn btn-outline-black'>Unread</button>
-                            <button class='btn btn-outline-black'>Pinned</button>
-                            <div class="f-admin feild-f-admin">
-                                <div class="invite-pople-list">
-                                    <div id="dropdown-boxId2" class="company-form-dropdownBox1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <div class="text-filter-admin">
-                                            <p class="text-filter-select">Job title</p>
-                                            <img src="../image/cand-vactor.png" alt="">
-                                            <img src="../image/cross-b.png" alt="" class="password-icon-togle">
-                                        </div>
-                                    </div>
-                                    <div class="admin-status-dropdown-frm">
-                                        <ul class="list-job-title-company">
-                                            <li>React Developer</li>
-                                            <li>React Developer</li>
-                                            <li>React Developer</li>
-                                            <li>React Developer</li>
-                                            <li>React Developer</li>
-                                            <li>React Developer</li>
-                                            <li>React Developer</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="add-pople-icon">
-                            <img src="../image/user-plus.png" alt="">
-                        </div>
-                    </div>
-
-                </div>
-        </main>
+          </div>
+          <div class="profile-right-col hide-wishlist-style">
+            <div class="candidate-name-img icon-cursor">
+              <img src="..../image/profile.png" alt="" />
+              <p class="candidate-name">Hi, John</p>
+            </div>
+            <div class="toggle-icon-profile icon-cursor">
+              <img src="..../image/menu-profile.png" alt="" />
+            </div>
+          </div>
         </div>
+        <div class="dropdown-dashbord hide-show-click">
+          <ul>
+            <a href="#">
+              <li>Dashboard</li>
+            </a>
+            <a href="#">
+              <li>My Profile</li>
+            </a>
+            <a href="#">
+              <li>Wishlist</li>
+            </a>
+            <a href="#">
+              <li>Logout</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-----------employee dashbord-->
+    <section class="profile-edit pt-0">
+      <div class="container container-site py-2">
+        <button variant="link" class="back-to-home add top-0 position-relative">
+          <img src="../image/form-back-arrow.png" alt="" />
+        </button>
+      </div>
+      <div class="job-heading">
+        <div class="container-site">
+          <h2>Inbox</h2>
+        </div>
+      </div>
+    </section>
+    <main class="container">
+      <div class="chat-wrapper">
+        <div class="chat-header chat-grid">
+          <div class="listing-wrap">
+            <input
+              type="text"
+              placeholder="Search"
+              class="p-2 rounded"
+              style="border: 0.5px solid #2b2b2b4d; width: 93%"
+            />
+          </div>
+          <div class="msg-wrap btns-group">
+            <div class="right-btn-chat">
+              <button class="btn btn-outline-black active">Recent</button>
+              <button class="btn btn-outline-black">Unread</button>
+              <button class="btn btn-outline-black">Pinned</button>
+              <div class="f-admin feild-f-admin">
+                <div class="invite-pople-list">
+                  <div
+                    id="dropdown-boxId2"
+                    class="company-form-dropdownBox1"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <div class="text-filter-admin">
+                      <p class="text-filter-select">Job title</p>
+                      <img src="../image/cand-vactor.png" alt="" />
+                      <img
+                        src="../image/cross-b.png"
+                        alt=""
+                        class="password-icon-togle"
+                      />
+                    </div>
+                  </div>
+                  <div class="admin-status-dropdown-frm">
+                    <ul class="list-job-title-company">
+                      <li>React Developer</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="add-pople-icon">
+              <img src="../image/user-plus.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="chat-body chat-grid">
+          <div class="listing-wrap">
+            <div class="user-list">      
+              <div class="list-info unread">
+                <div class="user-avatar">
+                  <span>
+                    <img src="../image/comment-owner.png" />
+                  </span>
+                </div>
+                <div class="user-desc">
+                  <h4 class="m-0">Mathews</h4>
+                  <p>Amazon</p>
+                  <p>
+                    Hi, James Hope you’re doing great. We are looking for a
+                    Senior React...
+                  </p>
+                </div>
+                <div class="user-option">
+                  <p>08:39</p>
+                  <img src="../image/chat-pin.png" class="cursor-pointer" />
+                </div>
+              </div>
+              <div class="list-info" onClick="{populateChat}">
+                <div class="user-avatar">
+                  <span>
+                    <img src="../image/msg-avatar.png" />
+                  </span>
+                </div>
+                <div class="user-desc">
+                  <h4 class="m-0">John Smith</h4>
+                  <p>Amazon</p>
+                  <p>
+                    Hi, James Hope you’re doing great. We are looking for a
+                    Senior React...
+                  </p>
+                </div>
+                <div class="user-option">
+                  <p>Thu</p>
+                  <img src="../image/chat-pin.png" class="cursor-pointer" />
+                </div>
+              </div>
+              <div class="list-info unread" onClick="{populateChat}">
+                <div class="user-avatar">
+                  <span>
+                    <img src="../image/msg-avatar.png" />
+                  </span>
+                </div>
+                <div class="user-desc">
+                  <h4 class="m-0">John Smith</h4>
+                  <p>Amazon</p>
+                  <p>
+                    Hi, James Hope you’re doing great. We are looking for a
+                    Senior React...
+                  </p>
+                </div>
+                <div class="user-option">
+                  <p>Thu</p>
+                  <img src="../image/chat-pin.png" class="cursor-pointer" />
+                </div>
+              </div>
+              <div class="list-info" onClick="{populateChat}">
+                <div class="user-avatar">
+                  <span>
+                    <img src="../image/msg-avatar.png" />
+                  </span>
+                </div>
+                <div class="user-desc">
+                  <h4 class="m-0">John Smith</h4>
+                  <p>Amazon</p>
+                  <p>
+                    Hi, James Hope you’re doing great. We are looking for a
+                    Senior React...
+                  </p>
+                </div>
+                <div class="user-option">
+                  <p>Thu</p>
+                  <img src="../image/chat-pin.png" class="cursor-pointer" />
+                </div>
+              </div>
+              <div class="list-info" onClick="{populateChat}">
+                <div class="user-avatar">
+                  <span>
+                    <img src="../image/msg-avatar.png" />
+                  </span>
+                </div>
+                <div class="user-desc">
+                  <h4 class="m-0">John Smith</h4>
+                  <p>Amazon</p>
+                  <p>
+                    Hi, James Hope you’re doing great. We are looking for a
+                    Senior React...
+                  </p>
+                </div>
+                <div class="user-option">
+                  <p>Thu</p>
+                  <img src="../image/chat-pin.png" class="cursor-pointer" />
+                </div>
+              </div>
+              <div class="list-info" onClick="{populateChat}">
+                <div class="user-avatar">
+                  <span>
+                    <img src="../image/msg-avatar.png" />
+                  </span>
+                </div>
+                <div class="user-desc">
+                  <h4 class="m-0">John Smith</h4>
+                  <p>Amazon</p>
+                  <p>
+                    Hi, James Hope you’re doing great. We are looking for a
+                    Senior React...
+                  </p>
+                </div>
+                <div class="user-option">
+                  <p>Thu</p>
+                  <img src="../image/chat-pin.png" class="cursor-pointer" />
+                </div>
+              </div>
+              <div class="list-info" onClick="{populateChat}">
+                <div class="user-avatar">
+                  <span>
+                    <img src="../image/msg-avatar.png" />
+                  </span>
+                </div>
+                <div class="user-desc">
+                  <h4 class="m-0">John Smith</h4>
+                  <p>Amazon</p>
+                  <p>
+                    Hi, James Hope you’re doing great. We are looking for a
+                    Senior React...
+                  </p>
+                </div>
+                <div class="user-option">
+                  <p>Thu</p>
+                  <img src="../image/chat-pin.png" class="cursor-pointer" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="msg-wrap">
+            <div class="inbox-wrapper">
+              <div class="inbox-header">
+                <div class="clinet-profile size-w-d">
+                  <div class="d-md-none d-flex">
+                    <button variant="link" class="p-0" onClick="{populateChat}">
+                      <img src="../image/form-back-arrow.png" alt="" />
+                    </button>
+                  </div>
+                  <img src="../image/msg-avatar.png" alt="" />
+                  <div class="clint-info">
+                    <p class="name-clinet">John Smith</p>
+                    <p class="clinet-rank">Amazon</p>
+                    <p class="clinet-rank">Human Resource Executive</p>
+                  </div>
+                </div>
+              </div>
+              <div class="inbox-body">
+                <div style="padding: 20px">
+                  <div class="message-container">
+                    <img class="avatar" src="../image/msg-avatar.png" alt="" />
+                    <div class="message-content">
+                      <p class="sender-name">Hi James</p>
+                      <p class="message-text">
+                        Hope you're doing great. We are looking for a Senior
+                        React Developer and thought you might be interested. If
+                        this aligns with your skills and career goals, please
+                        let us know. We'd love to discuss this opportunity with
+                        you. Best regards, Mathews
+                      </p>
+                    </div>
+                    <div class="time-stamp">08:39pm</div>
+                  </div>
+                </div>
+              </div>
+              <div class="inbox-footer">
+                <div class="emoji-container"></div>
+                <div class="chat-comment-f">
+                  <div class="chat-form">
+                    <input
+                      type="text"
+                      name=""
+                      id="comment-f"
+                      placeholder="Type here..."
+                      value="{commentText}"
+                      onChange="{handleCommentBoxChange}"
+                      onKeyDown="{handleKeyPress}"
+                    />
+                    <img
+                      src="../image/attchment.png "
+                      alt=" "
+                      class="opacity-50"
+                      onClick="{fileUploadHandler}"
+                    />
+                    <img src="../image/grey-smile.png" alt="" />
+                  </div>
+                  <div class="send-comment icon-cursor">
+                    <button type="submit">
+                      <img src="../image/send-chat.png" alt="" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div>
+      <WorldConnect />
+    </div>
+  </div>
 
-        <!-- Include Bootstrap JS (optional) -->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js " integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r " crossorigin="anonymous "></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js " integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+ " crossorigin="anonymous "></script>
-        <script type="text/javascript " src="js/jquery.min.js "></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js "></script>
-        <script>
-            $(document).ready(function() {
-                $('.sub-menu-dropdpwn > a').click(function() {
-                    $('.sub-menu-dropdpwn').removeClass('active');
-                    $(this).parent('li').addClass('active');
-                    $(this).next('.second-menu-dropdown').fadeToggle();
-                    return false;
-                })
-            });
-        </script>
+  <!-- Include Bootstrap JS (optional) -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js "
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r "
+    crossorigin="anonymous "
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js "
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+ "
+    crossorigin="anonymous "
+  ></script>
+  <script type="text/javascript " src="js/jquery.min.js "></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js "></script>
+  <script>
+    $(document).ready(function () {
+      $(".sub-menu-dropdpwn > a").click(function () {
+        $(".sub-menu-dropdpwn").removeClass("active");
+        $(this).parent("li").addClass("active");
+        $(this).next(".second-menu-dropdown").fadeToggle();
+        return false;
+      });
+    });
+  </script>
 </body>
