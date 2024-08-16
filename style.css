@@ -22165,6 +22165,9 @@ margin-bottom: 20px;
         right: 0;
         margin: 0 auto;
     }
+    .right-side-notif {
+        display: none;
+    }
 }
 
 .tags-tittles ul.tags-titles-list {
