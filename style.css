@@ -7255,22 +7255,22 @@ p.candidate-wishlist {
 
 p.conter-text-notification {
     color: var(--color-white);
-    height: 14px;
-    width: 14px;
+    height: 18px;
+    width: 18px;
     position: absolute;
-    font-size: 8px;
-    top: -9px;
+    font-size: 10px;
+    top: -8px;
     display: inline-block;
     z-index: 2;
     background: var(--dark-black-color);
     border-radius: 50%;
     bottom: 0;
-    left: 12px;
+    left: 25px;
     text-align: center;
     font-weight: 700;
     padding: 0px 0 0px 0px;
     vertical-align: middle;
-    line-height: 15px;
+    line-height: 18px;
 }
 
 
@@ -7282,10 +7282,10 @@ p.conter-text-notification {
 
 .notification-dropdown {
     position: absolute;
-    width: 490px;
+    width: 440px;
     height: 550px;
     background: #fff;
-    right: 166px;
+    right: 220px;
     top: 67px;
     z-index: 1;
     overflow-y: scroll;
@@ -7363,7 +7363,7 @@ p.conter-text-notification {
     border-bottom: 1px solid #2B2B2B36;
 }
 
-.notifi-msg-row:hover {
+.notifi-active {
     background-color: #009FB51A;
 }
 
@@ -22158,6 +22158,12 @@ margin-bottom: 20px;
         position: absolute;
         right: 15px;
         top: 10px;
+    }
+    /*********notificatio mbl**********/
+    .notification-dropdown {
+        width: 100%;
+        right: 0;
+        margin: 0 auto;
     }
 }
 
