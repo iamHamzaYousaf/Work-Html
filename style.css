@@ -7545,6 +7545,7 @@ a.question-notification {
     background-color: #F7F7FC;
     padding: 50px 150px;
     border-radius: 30px;
+    margin-bottom: 50px;
 }
 
 .ques-ans-row-f {
@@ -7651,7 +7652,7 @@ p.select-answer {
     padding: 6px 10px;
     border: 1px solid #2B2B2B33;
     border-radius: 6px;
-    width: 115px;
+    width: 200px;
 }
 
 .slect-experince-filter .no-of-year-experince {
@@ -7724,6 +7725,19 @@ button.ques-ans-btn {
     padding: 13px 50px;
     border: 1px solid #2B2B2B;
     border-radius: 8px;
+}
+
+.question-ans-done {
+    text-align: center;
+}
+
+p.msg-end-form {
+    padding-top: 15px;
+    text-align: center;
+    color: var(--dark-black-color);
+    font-family: var(--arial-main);
+    font-weight: var(--font-weight-bold);
+    font-size: 22px;
 }
 
 
@@ -22516,6 +22530,10 @@ margin-bottom: 20px;
     }
     button.ques-ans-btn {
         margin: 0 auto;
+    }
+    p.msg-end-form {
+        line-height: 23px;
+        font-size: 20px;
     }
 }
 
