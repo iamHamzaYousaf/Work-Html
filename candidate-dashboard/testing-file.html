@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Journey Slider</title>
+    <style>
+        .slider-container {
+            overflow: hidden;
+            width: 100%;
+            /* Adjust width as needed */
+            margin: 30px 0;
+        }
+        
+        ul.interview-journey {
+            display: flex;
+            gap: 20px;
+            padding-left: 0;
+            margin: 0;
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .interview-journey li {
+            flex: 0 0 19%;
+            list-style: none;
+            text-align: left;
+            cursor: pointer;
+            color: var(--dark-black-color);
+            font-family: var(--arial-main);
+            font-weight: var(--font-weight-bold);
+            font-size: 12px;
+            position: relative;
+        }
+        
+        .interview-journey li p {
+            color: #2B2B2B80;
+            font-family: var(--arial-main);
+            font-weight: var(--font-weight-medium);
+            font-size: 12px;
+        }
+        
+        p.interview-shedule-cand {
+            color: var(--dark-black-color) !important;
+        }
+        
+        .interview-journey li:before {
+            content: "";
+            background-image: url('./image/check-circle.png');
+            width: 24px;
+            height: 24px;
+            border-radius: 100%;
+            display: block;
+            text-align: center;
+            margin: 0 auto 10px 0;
+            background: #FFF;
+            color: #fff;
+            border: 4px solid #fff;
+            outline: 2px solid #2B2B2B;
+        }
+        
+        .interview-journey li.active-circle:before {
+            background-image: url('./image/current-cirlce.png') !important;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        button {
+            background-color: #0AB84D;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 4px;
+        }
+        
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        /* Hide arrows on small devices */
+        
+        @media (max-width: 600px) {
+            button {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="step-interview-journey">
+        <button id="prevBtn">Previous</button>
+        <div class="slider-container">
+            <ul class="interview-journey">
+                <li class="step-circle active active-circle">Short call
+                    <p>Thursday, 18 Jul 2024</p>
+                </li>
+                <li class="step-circle active active-circle">Pre-screening questions
+                    <p>Wednesday, 17 Jul 2024</p>
+                </li>
+                <li class="step-circle active-circle">First interview
+                    <p class="interview-shedule-cand">Interview date: Friday, 19 Jul 2024</p>
+                    <p class="interview-shedule-cand">Interviewer: Michael James</p>
+                    <p class="interview-shedule-cand">Time: 03:35 PM EST</p>
+                    <p class="interview-shedule-cand">Meeting link: <a href="#">852-901-5944</a></p>
+                </li>
+                <li class="step-circle">Second interview
+                    <p>Date to be announced soon first answer the pre-screening questions</p>
+                </li>
+                <li class="step-circle">Behavioural interview
+                    <p>Date to be announced soon first answer the pre-screening questions</p>
+                </li>
+            </ul>
+        </div>
+        <button id="nextBtn">Next</button>
+    </div>
+
+    <script>
+        const slider = document.querySelector('.interview-journey');
+        const nextBtn = document.getElementById('nextBtn');
+        const prevBtn = document.getElementById('prevBtn');
+
+        let currentIndex = 0;
+        const itemWidth = slider.querySelector('li').offsetWidth + 20; // width + gap
+        const totalItems = slider.querySelectorAll('li').length;
+        const visibleItems = Math.floor(slider.parentElement.offsetWidth / itemWidth);
+
+        function updateSliderPosition() {
+            const moveBy = currentIndex * itemWidth;
+            slider.style.transform = `translateX(-${moveBy}px)`;
+        }
+
+        nextBtn.addEventListener('click', () => {
+            if (currentIndex < totalItems - visibleItems) {
+                currentIndex++;
+                updateSliderPosition();
+            }
+            checkButtons();
+        });
+
+        prevBtn.addEventListener('click', () => {
+            if (currentIndex > 0) {
+                currentIndex--;
+                updateSliderPosition();
+            }
+            checkButtons();
+        });
+
+        function checkButtons() {
+            prevBtn.disabled = currentIndex === 0;
+            nextBtn.disabled = currentIndex >= totalItems - visibleItems;
+        }
+
+        // Initialize
+        checkButtons();
+    </script>
+</body>
+
+</html>

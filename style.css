@@ -7741,6 +7741,165 @@ p.msg-end-form {
 }
 
 
+/*******Candidate journey page*****/
+
+.candidate-journy-row {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #2B2B2B57;
+    box-shadow: 0px 2px 6.6px 2px #2B2B2B21;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.job-name-statue {
+    display: flex;
+    justify-content: space-between;
+}
+
+p.job-title-journy {
+    color: var(--dark-black-color);
+    font-family: var(--arial-main);
+    font-weight: var(--font-weight-bold);
+    font-size: 18px;
+}
+
+p.apply-date {
+    color: #2B2B2B80;
+    font-family: var(--arial-main);
+    font-weight: var(--font-weight-medium);
+    font-size: 13px;
+}
+
+.job-statue {
+    color: var(--dark-black-color);
+    font-family: var(--arial-main);
+    font-weight: var(--font-weight-bold);
+    font-size: 12px;
+}
+
+.job-statue span {
+    color: #FFA033;
+}
+
+ul.interview-journey {
+    padding-left: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.step-interview-journey {
+    margin: 30px 0;
+}
+
+.interview-journey li {
+    list-style: none;
+    display: inline-block;
+    width: 19%;
+    position: relative;
+    text-align: left;
+    cursor: pointer;
+    color: var(--dark-black-color);
+    font-family: var(--arial-main);
+    font-weight: var(--font-weight-bold);
+    font-size: 12px;
+}
+
+.interview-journey li p {
+    text-align: left;
+    cursor: pointer;
+    color: #2B2B2B80;
+    font-family: var(--arial-main);
+    font-weight: var(--font-weight-medium);
+    font-size: 12px;
+}
+
+p.interview-shedule-cand {
+    color: var(--dark-black-color) !important;
+}
+
+.interview-journey li:before {
+    content: "";
+    background-image: url(./image/check-circle.png);
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px 0;
+    background: #FFF;
+    color: #fff;
+    border: 4px solid #fff;
+    outline: 2px solid #2B2B2B;
+}
+
+.interview-journey li.active-circle:before {
+    content: "";
+    background-image: url(./image/current-cirlce.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    border: 4px solid #fff;
+    outline: 1px solid #2B2B2B;
+}
+
+.interview-journey li.active-circle:after {
+    background-color: #0AB84D;
+}
+
+.interview-journey li:after {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 2px;
+    background-color: rgb(0 0 0 / 20%);
+    top: 10px;
+    left: -94%;
+}
+
+.interview-journey li:first-child:after {
+    content: none;
+}
+
+.interview-journey li.active:before {
+    content: "";
+    background-image: url(./image/check_circle.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    color: #fff;
+    border: 2px solid #fff;
+    outline: 1px solid #0AB84D;
+}
+
+.slider-btn-cand {
+    position: absolute;
+    right: 17px;
+    top: 50px;
+}
+
+button.btn-slider-can {
+    height: 20px;
+    width: 20px;
+    background: hsl(0deg 0% 17% / 50%);
+    border-radius: 100%;
+    color: #fff;
+    border: 0;
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: not-allowed;
+}
+
+button.btn-slider-can.active {
+    background: hsl(0deg 0% 17% / 100%);
+    cursor: pointer;
+}
+
+
 /*****canidate dashbord page card******/
 
 .job-recommend-applied {
