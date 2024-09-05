@@ -311,4 +311,43 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+        const slider = document.querySelector('.interview-journey');
+        const nextBtn = document.getElementById('nextBtn');
+        const prevBtn = document.getElementById('prevBtn');
+
+        let currentIndex = 0;
+        const itemWidth = slider.querySelector('li').offsetWidth + 20; // width + gap
+        const totalItems = slider.querySelectorAll('li').length;
+        const visibleItems = Math.floor(slider.parentElement.offsetWidth / itemWidth);
+
+        function updateSliderPosition() {
+            const moveBy = currentIndex * itemWidth;
+            slider.style.transform = `translateX(-${moveBy}px)`;
+        }
+
+        nextBtn.addEventListener('click', () => {
+            if (currentIndex < totalItems - visibleItems) {
+                currentIndex++;
+                updateSliderPosition();
+            }
+            checkButtons();
+        });
+
+        prevBtn.addEventListener('click', () => {
+            if (currentIndex > 0) {
+                currentIndex--;
+                updateSliderPosition();
+            }
+            checkButtons();
+        });
+
+        function checkButtons() {
+            prevBtn.disabled = currentIndex === 0;
+            nextBtn.disabled = currentIndex >= totalItems - visibleItems;
+        }
+
+        // Initialize
+        checkButtons();
+    </script>
 </body>
