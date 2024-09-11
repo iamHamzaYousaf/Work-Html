@@ -22821,6 +22821,30 @@ align-items: flex-start; */
     .slider-btn-cand {
         display: none;
     }
+    /****two boxes***/
+    .tooltip-invite {
+        right: 6px;
+    }
+    .img-invite-tooltip {
+        position: unset;
+    }
+    .popup-invite-list-content {
+        height: 350px;
+        overflow: auto;
+        overflow-y: scroll;
+    }
+    .popup-bg-invite-pople {
+        padding: 14px 12px;
+    }
+    .inivte-pepole-list-sec {
+        overflow: unset;
+        min-height: 250px;
+        overflow-y: unset;
+        max-height: unset;
+    }
+    button.next-admin {
+        min-width: 100%;
+    }
 }
 
 .tags-tittles ul.tags-titles-list {
