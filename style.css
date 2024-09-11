@@ -19113,6 +19113,8 @@ section.invite-model {
     width: 100%;
     margin: 0px auto 0;
     position: relative;
+    height: 500px;
+    overflow: auto;
 }
 
 .close-img-invite {
@@ -19270,6 +19272,23 @@ p.degnation-invite {
     font-weight: 400;
 }
 
+.searchbox-invite {
+    padding: 12px 12px 0;
+    position: relative;
+}
+
+.searchbox-invite:before {
+    background: url(./image/job-search.png) no-repeat;
+    background-size: contain;
+    content: "";
+    height: 20px;
+    left: 28px;
+    position: absolute;
+    top: calc(50% + 5px);
+    transform: translateY(-50%);
+    width: 20px;
+}
+
 .inivte-pepole-list-sec {
     margin: 10px 0 0 0;
     padding: 0 20px;
@@ -19279,6 +19298,19 @@ p.degnation-invite {
     overflow-y: auto;
     border-top: 1px solid rgb(0 0 0 / 20%);
     border-bottom: 1px solid rgb(0 0 0 / 20%);
+}
+
+.searchbox-invite input {
+    border: 1px solid #2b2b2b66 !important;
+    border-radius: 12px;
+    padding: 10px 16px 10px 44px;
+    width: 100% !important;
+}
+
+input.location-search-field {
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .inivte-pepole-list-sec::-webkit-scrollbar {
