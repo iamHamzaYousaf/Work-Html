@@ -19113,8 +19113,6 @@ section.invite-model {
     width: 100%;
     margin: 0px auto 0;
     position: relative;
-    height: 500px;
-    overflow: auto;
 }
 
 .close-img-invite {
@@ -19214,7 +19212,6 @@ img.invite-res:hover~.tooltip-invite {
 /***********/
 
 .invite-form-box {
-    border-radius: 16px;
     background: #FFF;
     margin-top: 10px;
     position: relative;
@@ -22860,8 +22857,8 @@ align-items: flex-start; */
     .img-invite-tooltip {
         position: unset;
     }
-    .popup-invite-list-content {
-        height: 350px;
+    .invite-form-box {
+        height: 120px;
         overflow: auto;
         overflow-y: scroll;
     }
@@ -22873,6 +22870,9 @@ align-items: flex-start; */
         min-height: 250px;
         overflow-y: unset;
         max-height: unset;
+    }
+    .admin-form-btn {
+        padding-top: 10px;
     }
     button.next-admin {
         min-width: 100%;
