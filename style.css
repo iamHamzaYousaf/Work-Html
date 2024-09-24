@@ -3343,6 +3343,28 @@ input#location-f-profile {
 }
 
 
+/*****new location feild in profile****/
+
+.peofile-location-feild .admin-status-dropdown-frm {
+    display: none;
+}
+
+.profile-location-feild {
+    width: 100%;
+    position: relative;
+}
+
+.profile-form-dropdownBox1 {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: var(--text-color);
+}
+
+
 /*************post a job error feild**********/
 
 .error-input>.salary-start {
