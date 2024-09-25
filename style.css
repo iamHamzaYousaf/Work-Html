@@ -835,6 +835,25 @@ button.post-job-poly:hover {
     max-width: 100%;
 }
 
+.feed-back-btn {
+    background: var(--dark-black-color);
+    color: var(--color-white);
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    font-family: var(--arial-main);
+    width: auto;
+    position: absolute;
+    right: -23px;
+    top: 70%;
+    transform: rotate(-90deg);
+    border: 0;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    ;
+}
+
 
 /***********logo slider**********/
 
@@ -19238,6 +19257,97 @@ img.invite-res:hover~.tooltip-invite {
     margin-top: 10px;
     position: relative;
 }
+
+
+/***chat sticky note***/
+
+.chat-box-note {
+    width: 310px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    padding: 15px 10px 15px 20px;
+    overflow: visible;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+}
+
+.invite-pople-heading:hover .chat-box-note {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.chat-header-note {
+    text-align: left;
+    font-size: 20px;
+    padding: 0px 10px 10px 20px;
+    line-height: 23px;
+    color: var(--dark-black-color);
+    font-family: var(--arial-main);
+    font-weight: 700;
+    width: calc(100% + 31px);
+    margin-left: -20px;
+    border-bottom: 1px solid #F0F2F3;
+}
+
+.chat-header-note::before {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 16px;
+    border-width: 10px 15px 10px 0;
+    border-style: solid;
+    border-color: #ffffff00 #151414 #ffffff00 #fbfbfb00;
+    z-index: 1;
+}
+
+.chat-list-note {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    background-color: white;
+}
+
+.chat-list-note li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 0px solid #f1f1f1;
+}
+
+.chat-list-note li:last-child {
+    border-bottom: none;
+}
+
+.chat-list-note img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.user-status-list {
+    width: 8px;
+    height: 8px;
+    background-color: var(--dark-black-color);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+p.name-chat-own {
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--dark-black-color);
+    font-family: var(--arial-main);
+    font-weight: 400;
+}
+
+
+/*************/
 
 .invite-from-step {
     display: flex;
