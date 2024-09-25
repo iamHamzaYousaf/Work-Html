@@ -845,7 +845,7 @@ button.post-job-poly:hover {
     width: auto;
     position: absolute;
     right: -23px;
-    top: 70%;
+    top: 50%;
     transform: rotate(-90deg);
     border: 0;
     padding: 10px;
