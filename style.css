@@ -3368,9 +3368,64 @@ input#location-f-profile {
     display: none;
 }
 
+.location-f-new {
+    z-index: 2 !important;
+}
+
 .profile-location-feild {
     width: 100%;
     position: relative;
+}
+
+.peofile-location-feild .admin-status-dropdown-profile {
+    display: none;
+}
+
+.admin-status-dropdown-profile {
+    position: absolute;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
+    width: 104%;
+    overflow: auto;
+    z-index: 1;
+    margin: 15px 0 0 auto;
+    left: -10px;
+    display: none;
+    max-height: 185px;
+    height: auto;
+}
+
+.text-filter-profile {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding-left: 10px;
+}
+
+
+/* width */
+
+.admin-status-dropdown-profile::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+/* Track */
+
+.admin-status-dropdown-profile::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+.admin-status-dropdown-profile::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px var(--dark-black-color);
+    background-color: var(--dark-black-color);
 }
 
 .profile-form-dropdownBox1 {
@@ -19308,7 +19363,34 @@ img.invite-res:hover~.tooltip-invite {
     list-style-type: none;
     margin: 0;
     padding: 10px 0;
+    overflow: auto;
     background-color: white;
+    max-height: 150px;
+    height: auto;
+}
+
+
+/* width */
+
+.chat-list-note::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+/* Track */
+
+.chat-list-note::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+.chat-list-note::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px var(--dark-black-color);
+    background-color: var(--dark-black-color);
 }
 
 .chat-list-note li {
