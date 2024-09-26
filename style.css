@@ -19982,7 +19982,7 @@ p.job-title-admin {
     border: 1px solid #E5E5E5;
     box-shadow: 0px 0px 7px 1px #2B2B2B1F;
     width: 100%;
-    max-width: 550px;
+    max-width: 50%;
 }
 
 .top-part-img-row {
@@ -23283,6 +23283,14 @@ align-items: flex-start; */
         display: none;
     }
     /****two boxes***/
+    .two-radio-box {
+        width: auto;
+        margin: 0 auto;
+    }
+    .box-radio-btn {
+        padding: 0 15px;
+        width: auto;
+    }
     .tooltip-invite {
         right: 6px;
     }
