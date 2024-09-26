@@ -19236,34 +19236,63 @@ section.invite-model {
     justify-content: center;
     gap: 15px;
     padding: 20px 0;
+    width: 430px;
+    margin: 0 auto;
 }
 
 .box-radio-btn {
     text-align: center;
     background: #fff;
-    border: 1px solid #2B2B2B33;
-    padding: 0 48px;
-    height: 110px;
+    border: 1px solid #2B2B2B29;
+    padding: 0 20px;
+    height: 80px;
     display: flex;
-    flex-direction: column;
+    width: 196px;
     align-items: center;
     align-self: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 6px;
     border-radius: 16px;
-    opacity: 0.5;
+    /* opacity: 0.5; */
 }
 
-.box-radio-btn p {
-    color: var(--dark-black-color);
-    font-size: 13px;
+.img-invite-pople img {
+    height: 34px;
+    width: 34px;
+    object-fit: contain;
+}
+
+.img-invite-pople {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    border: 1px solid #2B2B2B33;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+p.box-scd-para {
+    color: #2B2B2BB2;
+    font-size: 11px;
     font-family: var(--arial-main);
     font-weight: 400;
 }
 
+p.box-first-pra {
+    color: var(--dark-black-color);
+    font-size: 16px;
+    font-family: var(--arial-main);
+    font-weight: 700;
+}
+
 .box-radio-active {
-    opacity: 1;
-    box-shadow: 0px 0px 8px 0px #2B2B2B33;
+    border: 1px solid #009FB5;
+}
+
+.box-radio-active .img-invite-pople {
+    border: 1px solid #009FB5;
+    background: #009FB514;
 }
 
 input.chek-btn-box {
