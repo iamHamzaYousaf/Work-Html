@@ -19218,7 +19218,7 @@ section.invite-model {
 }
 
 .invite-pople-heading {
-    text-align: center;
+    text-align: left;
     font-size: 24px;
     line-height: 28px;
     color: var(--dark-black-color);
@@ -19226,6 +19226,17 @@ section.invite-model {
     font-weight: var(--font-weight-bold);
     padding: 20px 0 15px 0;
     border-bottom: 1px solid rgb(0 0 0 / 20%);
+}
+
+p.chat-text-box {
+    text-align: left;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--dark-black-color);
+    font-family: var(--arial-main);
+    font-weight: 400;
+    opacity: 0.5;
+    padding: 10px 0 0px 0;
 }
 
 
@@ -23197,6 +23208,12 @@ align-items: flex-start; */
         position: absolute;
         right: 15px;
         top: 10px;
+    }
+    .invite-pople-heading {
+        text-align: center;
+    }
+    p.chat-text-box {
+        display: none;
     }
     /*********notification dropdown mbl**********/
     .notification-dropdown {
