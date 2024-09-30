@@ -2277,6 +2277,88 @@ button.allow-btn {
 }
 
 
+/***********feed back****/
+
+.feedback-model-popup-bg {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.feed-back-content {
+    background: var(--color-white);
+    border: 1px solid #ebeffa;
+    border-radius: 10px;
+    box-shadow: 0 17px 34px 0 #0000001a;
+    height: 50%;
+    margin: 50px auto 0;
+    padding: 16px;
+    position: relative;
+    width: 100%;
+}
+
+.feed-back-heading {
+    font-size: 28px;
+    color: var(--dark-black-color);
+    font-weight: var(--font-weight-bold);
+    font-family: var(--arial-main);
+    line-height: 32px;
+    text-transform: capitalize;
+    padding: 0 0 10px0;
+    text-align: center;
+}
+
+p.feed-back-text {
+    font-family: var(--arial-main);
+    color: var(--dark-black-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #000000;
+}
+
+.rating-row {
+    padding: 13px 0;
+    display: flex;
+    align-items: center;
+}
+
+.rating-row p {
+    font-family: var(--arial-main);
+    color: var(--dark-black-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    width: 80%;
+}
+
+textarea.feed-back-txt-are {
+    width: 100%;
+    background: #F6F6F6;
+    border: 1px solid #E3E3E3;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+button.btn-feed-back {
+    text-align: center;
+    width: 145px;
+    display: block;
+    margin: 10px 0 0 auto;
+    border: 1px solid #2B2B2B;
+    border-radius: 6px;
+    color: var(--color-white);
+    background-color: var(--dark-black-color);
+    padding: 15px 0;
+    font-family: var(--arial-main);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
 /***************** candidate login page start here   ***************/
 
 .candidate-profile img {
@@ -19364,13 +19446,12 @@ img.invite-res:hover~.tooltip-invite {
     padding: 15px 10px 15px 20px;
     overflow: visible;
     cursor: pointer;
-    opacity: 0;
+    opacity: 1;
     z-index: 1;
     position: absolute;
 }
 
 .invite-pople-heading:hover .chat-box-note {
-    opacity: 1;
     cursor: pointer;
 }
 
@@ -21427,6 +21508,11 @@ ul.list-footer-admin li {
     }
     .cookies-btns {
         justify-content: center;
+    }
+    /******feed-back***/
+    .feedback-model-popup-bg {
+        width: auto;
+        margin: 0 auto;
     }
     /******** candidiatelogin page mobile**********/
     .world-conect-sec {
