@@ -262,6 +262,7 @@ html {
     display: flex;
     justify-content: space-between;
     padding: 50px 0 0 0;
+    position: relative;
 }
 
 .candidate-profile-header {
@@ -433,20 +434,72 @@ button.signup-poly {
     font-weight: 400;
 }
 
-.menu-dropdown-head {
-    position: relative;
-}
-
 .list-men-dropdown-head {
     position: absolute;
-    border-radius: 20px;
-    width: 225px;
+    padding: 20px;
+    width: 608px;
     background-color: #FFF;
-    overflow: auto;
+    /* overflow: auto; */
     z-index: 1;
-    margin: 5px 0 0 auto;
+    margin: 0px 0 0 auto;
     top: 100%;
-    box-shadow: 0px 16px 75px -30px #00000066;
+    /* left: 0; */
+    /* margin: 18px 0 0 0; */
+    display: flex;
+    gap: 20px;
+    opacity: 0;
+    border: 1px solid #2B2B2B4D;
+    /* box-shadow: 0px 16px 75px -30px #00000066; */
+}
+
+.left-content-menu {
+    width: 100%;
+    max-width: 351px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button.using-free-btn {
+    width: fit-content;
+    padding: 12px 20px;
+    border: 1px solid #2B2B2B;
+    border-radius: 8px;
+    background: #fff;
+    font-family: var(--arial-main);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--dark-black-color);
+    line-height: 18.4px;
+    text-align: left;
+}
+
+p.menu-drp-heading {
+    font-family: var(--arial-main);
+    color: var(--dark-black-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+}
+
+p.menu-drp-heading span {
+    color: #009FB5;
+}
+
+p.menu-drp-text {
+    font-family: var(--arial-main);
+    color: var(--dark-black-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justified;
+}
+
+.right-content-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 60px 0;
 }
 
 
@@ -465,13 +518,14 @@ border-radius: 10px;
 background-color: var(--dark-black-color);
 } */
 
-.menu-dropdown-head.open .list-men-dropdown-head {
-    display: block;
+.menu-dropdown-head:hover .list-men-dropdown-head {
+    opacity: 1;
 }
 
-.menu-dropdown-head .list-men-dropdown-head {
+
+/* .menu-dropdown-head .list-men-dropdown-head {
     display: none;
-}
+} */
 
 .text-menu-icon {
     display: flex;
