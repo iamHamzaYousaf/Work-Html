@@ -434,6 +434,13 @@ button.signup-poly {
     font-weight: 400;
 }
 
+.menu-drp-sec {
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease-in-out;
+    z-index: 9;
+}
+
 .list-men-dropdown-head {
     position: absolute;
     padding: 20px;
@@ -447,7 +454,7 @@ button.signup-poly {
     /* margin: 18px 0 0 0; */
     display: flex;
     gap: 20px;
-    opacity: 0;
+    /* opacity: 0; */
     border: 1px solid #2B2B2B4D;
     /* box-shadow: 0px 16px 75px -30px #00000066; */
 }
@@ -518,8 +525,24 @@ border-radius: 10px;
 background-color: var(--dark-black-color);
 } */
 
-.menu-dropdown-head:hover .list-men-dropdown-head {
+.menu-dropdown-head:hover {
     opacity: 1;
+    visibility: visible;
+}
+
+.menu-dropdown-head:hover .menu-drp-sec,
+.menu-drp-sec:hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.headig-bg-clr {
+    padding: 12px;
+}
+
+.headig-bg-clr:hover {
+    background: #009FB514;
+    border-radius: 16px;
 }
 
 
