@@ -525,6 +525,18 @@ border-radius: 10px;
 background-color: var(--dark-black-color);
 } */
 
+.list-men-dropdown-head::before {
+    content: "";
+    height: 23px;
+    width: 135px;
+    color: #b4bcc0;
+    position: absolute;
+    display: block;
+    border-top: 5px solid;
+    top: -5px;
+    left: 0;
+}
+
 .menu-dropdown-head:hover {
     opacity: 1;
     visibility: visible;
@@ -594,6 +606,10 @@ ul.menu-item-drop-poly li:hover {
 
 ul.menu-item-drop-poly li a:hover {
     color: var(--dark-black-color);
+}
+
+section.home-benner-sec {
+    position: relative;
 }
 
 
@@ -20460,6 +20476,9 @@ ul.list-footer-admin li {
     /***header****/
     ul.menu-list li a {
         padding: 16px 0px;
+    }
+    .list-men-dropdown-head {
+        width: auto;
     }
 }
 
