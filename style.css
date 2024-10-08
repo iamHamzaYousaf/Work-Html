@@ -443,6 +443,22 @@ button.signup-poly {
 
 .list-men-dropdown-head {
     position: absolute;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.16);
+    width: 225px;
+    overflow: auto;
+    z-index: 2;
+    margin: 0px 0 0 auto;
+    top: 100%;
+}
+
+.menu-dropdown-head .list-men-dropdown-head {
+    display: none;
+}
+
+.list-men-dropdown-box {
+    position: absolute;
     padding: 20px;
     width: 608px;
     background-color: #FFF;
@@ -450,7 +466,6 @@ button.signup-poly {
     z-index: 1;
     margin: 0px 0 0 auto;
     top: 100%;
-    /* left: 0; */
     /* margin: 18px 0 0 0; */
     display: flex;
     gap: 20px;
@@ -525,7 +540,7 @@ border-radius: 10px;
 background-color: var(--dark-black-color);
 } */
 
-.list-men-dropdown-head::before {
+.list-men-dropdown-box::before {
     content: "";
     height: 23px;
     width: 135px;
@@ -20477,7 +20492,7 @@ ul.list-footer-admin li {
     ul.menu-list li a {
         padding: 16px 0px;
     }
-    .list-men-dropdown-head {
+    .list-men-dropdown-box {
         width: auto;
     }
 }
@@ -21219,6 +21234,12 @@ ul.list-footer-admin li {
     button.find-job-poly,
     button.post-job-poly {
         padding: 16px 80px;
+    }
+    .list-men-dropdown-box {
+        display: none;
+    }
+    .menu-dropdown-head.open .list-men-dropdown-head {
+        display: block;
     }
     .banner-img {
         display: none;
