@@ -16646,13 +16646,18 @@ color: var(--dark-black-color) !important;
     transition: all .2s ease-out;
 }
 
-li.submenubar-item-sidebar span.active-menu-sidebar {
+li.active-menu-sidebar {
+    background-color: #EEEEEE;
+}
+
+li.active-menu-sidebar span {
     color: #009FB5;
     font-weight: 700;
     opacity: 1;
 }
 
-li.submenubar-item-sidebar span.builtin-clr-sidebar {
+li.submenubar-item-sidebar span.builtin-clr-sidebar,
+li.sidebar-item span.builtin-clr-sidebar {
     color: #009FB5;
     opacity: 1;
 }
