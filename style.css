@@ -17562,10 +17562,11 @@ ul.progressbar-admin li {
 
 .department-form-box {
     border-radius: 16px;
-    border: 1px solid var(--dark-black-color);
+    /* border: 1px solid var(--dark-black-color); */
     background: #FFF;
     padding: 32px 24px 24px 24px;
     margin-top: 20px;
+    box-shadow: 2px 2px 13.4px 1px #00000021;
     position: relative;
 }
 
@@ -18415,8 +18416,37 @@ button.edit-form-user {
 .form-heading-prom h2 {
     font-weight: var(--font-weight-bold);
     color: var(--dark-black-color);
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 0;
+}
+
+.form-labeal-heading-admin h2 {
+    font-weight: var(--font-weight-bold);
+    color: var(--dark-black-color);
+    font-size: 22px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+}
+
+.admin-frm-avtar img {
+    max-width: 100%;
+}
+
+.img-btn-adminform {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-top: 60px;
+}
+
+.form-text-start {
+    font-family: var(--arial-main);
+    padding: 10px 10px 0 33px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #000000;
 }
 
 .admin-status-filter.open .promotion-status-dropdown {
