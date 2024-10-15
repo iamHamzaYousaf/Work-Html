@@ -4732,8 +4732,24 @@ button.job-des-btn {
     background: var(--dark-black-color);
     gap: 10px;
     font-family: var(--arial-main);
-    font-weight: var(--font-weight-medium);
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+button.job-des-btn-detail {
+    display: flex;
+    align-items: center;
+    min-width: 176px;
+    justify-content: center;
+    padding: 12px 10px;
+    border: 1px solid var(--dark-black-color);
+    color: var(--dark-black-color);
+    border-radius: 8px;
+    background: transparent;
+    gap: 10px;
+    font-family: var(--arial-main);
+    font-weight: 400;
+    font-size: 20px;
 }
 
 button.job-reset-btn {
