@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="">
+    <title>WorkBridge Portal</title>
+    <style type="text/css">
+         :root {
+            /*** COLORS ***/
+            --text-color: #000000;
+            --color-white: #fff;
+            /*** COLORS polycare ***/
+            --dark-black-color: #2B2B2B;
+            /*********font size *******/
+            /*** FONT WEIGHT ***/
+            --font-weight-bold: 700;
+            --font-weight-medium: 400;
+            /*** FONT FAMILY ***/
+            --arial-main: 'Arial';
+        }
+        /*** HEADING TEXT SIZE****/
+        
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        p {
+            margin-bottom: 0rem !important;
+        }
+        
+        html {
+            font-size: 14px;
+        }
+        /*** FONTS *****/
+        
+        @font-face {
+            font-family: 'Arial';
+            src: url('fonts/ArialMT.woff') format('woff');
+            font-weight: normal;
+        }
+        /*****************/
+        
+        .job-template-sec {
+            max-width: 600px;
+            width: 100%;
+            margin: 50px auto;
+            background: #FFF;
+        }
+        /***header***/
+        
+        .header-template-job {
+            position: relative;
+        }
+        
+        .right-corner {
+            position: absolute;
+            right: 0;
+        }
+        
+        .logo-site-template img {
+            max-width: 100%;
+        }
+        
+        .logo-site-template {
+            text-align: center;
+            line-height: 58px;
+        }
+        
+        .left-corner {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+        
+        table {
+            width: 100%;
+        }
+        
+        .name-job-template {
+            text-align: center;
+            color: var(--dark-black-color);
+            font-family: var(--arial-main);
+            font-size: 14px;
+            font-weight: var(--font-weight-bold);
+            padding: 12px 0 24px 0;
+        }
+        
+        .job-info-temp {
+            padding: 12px 32px;
+        }
+        
+        .heading-job-tem h1 {
+            text-align: left;
+            color: var(--dark-black-color);
+            font-family: var(--arial-main);
+            font-size: 14px;
+            font-weight: var(--font-weight-bold);
+        }
+        
+        .heading-job-tem p {
+            text-align: justify;
+            color: var(--dark-black-color);
+            font-family: var(--arial-main);
+            font-size: 14px;
+            line-height: 18px;
+            font-weight: var(--font-weight-medium);
+            padding: 12px 0 16px 0;
+        }
+        
+        .job-list-temp {
+            text-align: justify;
+            color: var(--dark-black-color);
+            font-family: var(--arial-main);
+            font-size: 14px;
+            line-height: 18px;
+            font-weight: var(--font-weight-medium);
+            padding: 12px 0 16px 20px;
+            margin-bottom: 0;
+        }
+        
+        .job-list-temp li {
+            padding: 0px 0 8px 0px;
+        }
+        /*** footer***/
+        
+        .footer-template-job {
+            position: relative;
+        }
+        
+        .footer-location td {
+            white-space: nowrap;
+        }
+        
+        .footer-template-job td img,
+        .footer-template-job td p {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0;
+        }
+        
+        .footer-template-job td img {
+            margin-right: 10px;
+        }
+        
+        .footer-template-job td p,
+        .footer-template-job td p a {
+            text-align: justify;
+            color: var(--dark-black-color);
+            font-family: var(--arial-main);
+            font-size: 14px;
+            line-height: 18px;
+            text-decoration: none;
+            font-weight: var(--font-weight-medium);
+        }
+        
+        .footer-location {
+            border-top: 1px solid hsl(224deg 65% 11% / 13%);
+            width: 500px;
+            margin: 0 auto;
+        }
+        
+        .left-corner-footer {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+        
+        @media only screen and (max-width: 767px) {
+            .footer-location {
+                width: auto;
+            }
+            .job-template-sec {
+                max-width: 100%;
+                width: 100%;
+                margin: 0;
+            }
+            .footer-location td:nth-child(1) {
+                padding-left: 50px;
+            }
+            .job-info-temp {
+                padding: 12px 20px;
+            }
+            .footer-location td {
+                white-space: nowrap;
+                text-align: center !important;
+                display: inline-block;
+                padding-right: 24px;
+            }
+        }
+    </style>
+</head>
+<section class="job-template-sec">
+    <div class="resume-template-verivication">
+        <div class="header-template-job">
+            <div class="right-corner"><img src="./job-images/right-corner.png" alt=""></div>
+            <div class="logo-site-template"> <img src="./job-images/PolyCareers.png" alt="">
+            </div>
+            <div class="left-corner"><img src="./job-images/balck-corner.png" alt=""></div>
+        </div>
+        <div class="name-job-template">Job Title: Senior react developer</div>
+        <div class="job-info-temp">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="heading-job-tem">
+                                <h1>Job Summary:</h1>
+                                <p>Join our dynamic team as a Senior React Developer, where you will lead the development of innovative web applications using cutting-edge technologies. Bring your expertise to drive the evolution of our digital platforms
+                                    and make a significant impact on our products.</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="heading-job-tem">
+                                <h1>Responsibilities:</h1>
+                                <ul class="job-list-temp">
+                                    <li>Lead the design and implementation of complex web applications using React.js</li>
+                                    <li>Collaborate with cross-functional teams to define, design, and ship new features</li>
+                                    <li>Optimize applications for maximum speed and scalability</li>
+                                    <li>Ensure high-quality code and adherence to best practices</li>
+                                    <li>Stay updated on emerging technologies and trends in frontend development</li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="heading-job-tem">
+                                <h1>Must-have skills:</h1>
+                                <ul class="job-list-temp">
+                                    <li>Bachelor's or master’s degree in computer science or related field</li>
+                                    <li>Expertise in React.js and frontend technologies</li>
+                                    <li>Proficiency in HTML, CSS, and JavaScript</li>
+                                    <li>Experience with state management libraries like Redux</li>
+                                    <li>Strong problem-solving and analytical skills</li>
+                                    <li>Ability to mentor junior developers</li>
+                                    <li>Excellent communication and teamwork skills</li>
+                                    <li>Experience with version control systems like Git</li>
+                                    <li>Knowledge of responsive design principles</li>
+                                    <li>Experience with testing frameworks such as Jest or Enzyme</li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="heading-job-tem">
+                                <h1>Nice to have:</h1>
+                                <ul class="job-list-temp">
+                                    <li>Experience with server-side rendering</li>
+                                    <li>Knowledge of GraphQL</li>
+                                    <li>Familiarity with CI/CD pipelines</li>
+                                    <li>Understanding of design patterns</li>
+                                    <li>Mobile development experience</li>
+                                    <li>Experience with TypeScript</li>
+                                    <li>Knowledge of SEO best practices</li>
+                                    <li>UI/UX design skills</li>
+                                    <li>Experience with Docker</li>
+                                    <li>Ability to work in an Agile environment</li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="heading-job-tem">
+                                <h1>Qualifications:</h1>
+                                <ul class="job-list-temp">
+                                    <li>Bachelor's or master’s degree in computer science or related field</li>
+                                    <li>Expertise in React.js and frontend technologies</li>
+                                    <li>Proficiency in HTML, CSS, and JavaScript</li>
+                                    <li>Experience with state management libraries like Redux</li>
+                                    <li>Strong problem-solving and analytical skills</li>
+                                    <li>Ability to mentor junior developers</li>
+                                    <li>Excellent communication and teamwork skills</li>
+                                    <li>Experience with version control systems like Git</li>
+                                    <li>Knowledge of responsive design principles</li>
+                                    <li>Experience with testing frameworks such as Jest or Enzyme</li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="heading-job-tem">
+                                <h1>Benefits:</h1>
+                                <ul class="job-list-temp">
+                                    <li>At Polymer Tech, we value our team members and their well-being.</li>
+                                    <li>Our workplace culture encourages creativity, teamwork, and continuous learning, allowing you to thrive both professionally and personally.</li>
+                                    <li>We offer a comprehensive benefits package, including:</li>
+                                    <li>Competitive salary and performance-based bonuses</li>
+                                    <li>Generous paid time off and flexible work hours to support work-life balance</li>
+                                    <li>Health and dental insurance plans to ensure you and your family's well-being</li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="heading-job-tem">
+                                <h1>Working hours:</h1>
+                                <ul class="job-list-temp">
+                                    <li>Working hours</li>
+                                    <li>Monday - Friday 9 AM - 5 PM</li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="footer-template-job">
+            <div class="right-corner"><img src="./job-images/right-corner.png" alt=""></div>
+            <div class="logo-site-template"> <img src="./job-images/PolyCareers.png" alt="">
+                <div class="footer-location">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="./job-images/location.png" alt="">
+                                    <p class="location-text">Canada</p>
+                                </td>
+                                <td>
+                                    <img src="./job-images/website.png" alt="">
+                                    <p class="site-link"><a href="#">www.polycareers.com/</a></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+            <div class="left-corner-footer"><img src="./job-images/balck-corner.png" alt=""></div>
+        </div>
+    </div>
+    </div>
+</section>
+</body>
+
+</html>
