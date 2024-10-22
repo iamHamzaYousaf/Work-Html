@@ -6147,6 +6147,16 @@ ul.find-job-tag li {
     width: 100%;
 }
 
+.job-title-download {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.job-title-download img {
+    max-width: 100%;
+}
+
 p.company-job-title {
     font-size: 20px;
     color: var(--primary-color);
@@ -21991,6 +22001,9 @@ ul.list-footer-admin li {
     }
     .recruite-note-box {
         background: none;
+    }
+    .job-title-download {
+        align-items: flex-start;
     }
     /***********banner heading *******************/
     .f-job-heaading h2,
